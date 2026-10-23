@@ -1,0 +1,22 @@
+{
+  "page": 34,
+  "status": "ok",
+  "markdown": "— 12 —\n\nGeheimnisse des Geisterreichs aufbot, um unsere Tage zu verlängern, selbst die Gestirne mussten dazu benutzt werden. Es wurde damals allgemeiner Glaube, daß der Einfluss der Gestirne (die man sich doch nicht ganz müssig denken konnte) Leben und Schicksale der Menschen regiere, daß jeder Planet und jede Konstellation derselben der ganzen Ersteng des darin erzeugten Wesens eine gewisse Richtung zum Bösen oder Guten geben könne, und daß folglich ein Astrolog nur die Stunde und Minute der Geburt zu wissen brauche, um das Temperament, die Geistesfähigkeiten, die Schicksale, die Krankheiten, die Art des Todes und auch den Tag desselben bestimmen zu können. — Dies war der Glaube nicht bloß des großen Haufens, sondern der größten, verständigen und einsichtsvolsten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie fest man daran hing, unerachtet es nicht an Beispielen fehlen konnte, wo die Prophezeiung fehlchlug. Bischöfe, hohe Geistliche, berühmte Philosophen und Lerste gaben sich mit dem Nativitätstellen ab, man las sogar auf Universitäten Collegia darüber, so gut wie über die Punctirkunst und Cabala. Zum Weise erlaube man mir ein Paar Worte von dem berühmten Thurneisen, dem glänzendsten Phänomen dieser Art, und einem wirklich ausgezeichneten Menschen, zu sagen. Er lebte im 17ten Jahrhundert an dem kurfürstlichen Hofe zu Berlin, und war Leibarzt, Chemist, Nativitätsteller, Calendermacher, Buchdrucker und Buchhändler, alles in einer Per-",
+  "raw": {
+    "text": "— 12 —\n\nGeheimnisse des Geisterreichs aufbot, um unsere Tage zu verlängern, selbst die Gestirne mussten dazu benutzt werden. Es wurde damals allgemeiner Glaube, daß der Einfluss der Gestirne (die man sich doch nicht ganz müssig denken konnte) Leben und Schicksale der Menschen regiere, daß jeder Planet und jede Konstellation derselben der ganzen Ersteng des darin erzeugten Wesens eine gewisse Richtung zum Bösen oder Guten geben könne, und daß folglich ein Astrolog nur die Stunde und Minute der Geburt zu wissen brauche, um das Temperament, die Geistesfähigkeiten, die Schicksale, die Krankheiten, die Art des Todes und auch den Tag desselben bestimmen zu können. — Dies war der Glaube nicht bloß des großen Haufens, sondern der größten, verständigen und einsichtsvolsten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie fest man daran hing, unerachtet es nicht an Beispielen fehlen konnte, wo die Prophezeiung fehlchlug. Bischöfe, hohe Geistliche, berühmte Philosophen und Lerste gaben sich mit dem Nativitätstellen ab, man las sogar auf Universitäten Collegia darüber, so gut wie über die Punctirkunst und Cabala. Zum Weise erlaube man mir ein Paar Worte von dem berühmten Thurneisen, dem glänzendsten Phänomen dieser Art, und einem wirklich ausgezeichneten Menschen, zu sagen. Er lebte im 17ten Jahrhundert an dem kurfürstlichen Hofe zu Berlin, und war Leibarzt, Chemist, Nativitätsteller, Calendermacher, Buchdrucker und Buchhändler, alles in einer Per-",
+    "generation_tokens": 374,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3044956946
+  },
+  "seconds": 3.9041658341884613,
+  "load_seconds": 0.7783137923106551,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 374,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3044956946
+}

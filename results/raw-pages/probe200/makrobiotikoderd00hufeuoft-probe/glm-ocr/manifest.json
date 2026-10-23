@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "config": {
+    "model_name": "glm-ocr",
+    "model": {
+      "repo": "mlx-community/GLM-OCR-bf16",
+      "upstream": "zai-org/GLM-OCR",
+      "parameters_b": 0.9,
+      "license": "MIT (weights); Apache-2.0 (layout)",
+      "backend": "mlx",
+      "mode": "model-only-full-page",
+      "prompt": "Text Recognition:",
+      "max_tokens": 8192,
+      "temperature": 0.0,
+      "longest_edge": 2048,
+      "notes": "Official benchmark pipeline adds PP-DocLayoutV3 and region recognition. This adapter does not reproduce it."
+    },
+    "backend": "mlx",
+    "model_pin": {
+      "repo": "mlx-community/GLM-OCR-bf16",
+      "revision": "24f15402e83baa0a80eeeaecf5480e172abc6f2e",
+      "path": "model-cache/models--mlx-community--GLM-OCR-bf16/snapshots/24f15402e83baa0a80eeeaecf5480e172abc6f2e"
+    },
+    "endpoint": null,
+    "endpoint_model": "mlx-community/GLM-OCR-bf16",
+    "prompt": "Text Recognition:",
+    "command": null,
+    "timeout": 1200,
+    "python": "runners/mlx/.venv/bin/python",
+    "harness_version": "0.1.0",
+    "teleocr_binary_sha256": null,
+    "layout_pin": null,
+    "implementation_sha256": "a2e5301b8141fec649cd2b115ef4a35c235d20bc1d26bcafca7d3962b9cd1ded"
+  },
+  "source_sha256": "927ab0916d8452bdb2c11045031bf01ca52df5871a1f7612137ef226b46b5293",
+  "document": "workspace/expanded400-probe-200/document",
+  "pages": [
+    {
+      "page": 34,
+      "result": "page-0034.json",
+      "status": "ok",
+      "seconds": 2.973647459410131,
+      "possibly_truncated": false
+    },
+    {
+      "page": 35,
+      "result": "page-0035.json",
+      "status": "ok",
+      "seconds": 2.8063898338004947,
+      "possibly_truncated": false
+    }
+  ],
+  "inputs": [
+    {
+      "page": 34,
+      "image_path": "workspace/expanded400-probe-200/document/runs/glm-ocr-mlx-1c0fe399857eacce/inputs/page-0034.png",
+      "input_size": [
+        641,
+        1156
+      ],
+      "image_sha256": "53e138834799af74cb65d5206e7c78fcd4101bd0cf8305041938c8deaf1a157c",
+      "result_path": "workspace/expanded400-probe-200/document/runs/glm-ocr-mlx-1c0fe399857eacce/page-0034.json"
+    },
+    {
+      "page": 35,
+      "image_path": "workspace/expanded400-probe-200/document/runs/glm-ocr-mlx-1c0fe399857eacce/inputs/page-0035.png",
+      "input_size": [
+        641,
+        1156
+      ],
+      "image_sha256": "4473091150c8bd1b285cbb08a34fb6ac96a38bbddb74e3bf6d58f9a40e82e87c",
+      "result_path": "workspace/expanded400-probe-200/document/runs/glm-ocr-mlx-1c0fe399857eacce/page-0035.json"
+    }
+  ],
+  "status": "complete",
+  "process": {
+    "pid": 60459,
+    "started_at_unix": 1792766084.098531,
+    "argv": [
+      "runners/mlx/.venv/bin/python",
+      "-m",
+      "pdfocr.worker",
+      "workspace/expanded400-probe-200/document/runs/glm-ocr-mlx-1c0fe399857eacce/request.json"
+    ],
+    "returncode": 0,
+    "exited": true,
+    "seconds": 9.024763374589384
+  }
+}

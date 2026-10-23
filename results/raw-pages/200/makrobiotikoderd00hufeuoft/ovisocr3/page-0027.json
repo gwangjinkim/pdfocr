@@ -1,0 +1,22 @@
+{
+  "page": 27,
+  "status": "ok",
+  "markdown": "— 5 —\n\nwirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war ein Lieblingsgegenstand der scharffinnigsten Köpfe, ein Tummelplag der Schwärmer, und eine Hauptlockseife der Charlatans und Petruger, bei denen man von jeher finden wird, daß es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum angelten. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie mannigfaltigen, sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Wesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verzeihung zu erhalten, wenn ich eine kurze Ueberseicht der nach und nach vorgekommenen Lebensverlängerungsmethoden voranschicke, ehe ich zu meinem Hauptgegenstande übergeche.\n\nSchon in den frühesten Zeiten, unter Egyptern, Griechen und Römern war diese Idee rege, und schon damals verfiel man in Egypten, der Mutter so mancher abentheuerlichen Jden, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hiße und Ueberschwemmungen ungesunde Klima Veranlassung geben mochte. Man glaubte die Erhaltung des Lebens in Brechen und Schwizen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwisbest du? —",
+  "raw": {
+    "text": "— 5 —\n\nwirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war ein Lieblingsgegenstand der scharffinnigsten Köpfe, ein Tummelplag der Schwärmer, und eine Hauptlockseife der Charlatans und Petruger, bei denen man von jeher finden wird, daß es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum angelten. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie mannigfaltigen, sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Wesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verzeihung zu erhalten, wenn ich eine kurze Ueberseicht der nach und nach vorgekommenen Lebensverlängerungsmethoden voranschicke, ehe ich zu meinem Hauptgegenstande übergeche.\n\nSchon in den frühesten Zeiten, unter Egyptern, Griechen und Römern war diese Idee rege, und schon damals verfiel man in Egypten, der Mutter so mancher abentheuerlichen Jden, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hiße und Ueberschwemmungen ungesunde Klima Veranlassung geben mochte. Man glaubte die Erhaltung des Lebens in Brechen und Schwizen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwisbest du? —",
+    "generation_tokens": 372,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 2804516186
+  },
+  "seconds": 2.618557999841869,
+  "load_seconds": 0.7603022083640099,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 372,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2804516186
+}

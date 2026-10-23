@@ -1,0 +1,5 @@
+{
+  "upstream": "https://github.com/rzafiamy/teleocr-rs",
+  "commit": "957cdbabe80e86d652c5fcc938ed7fbcf1eb2bbe",
+  "modifications": "Metal device selection in crates/teleocr-cli/src/main.rs; see docs/teleocr-metal-device.patch; added a source-file modification notice"
+}

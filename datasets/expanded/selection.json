@@ -1,0 +1,21 @@
+{
+  "books": [
+    {
+      "id": "10289757bsb",
+      "document": "workspace/expanded/10289757bsb",
+      "pages": "9-14,70-71"
+    },
+    {
+      "id": "makrobiotikoderd00hufeuoft",
+      "document": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium",
+      "pages": "25-30,200-201"
+    }
+  ],
+  "selection_basis": "Visual scan review before new model outputs. Fixed 16 pages, 12 adjacent boundaries. A 9-14 stained Antiqua, page 12 footnote; 70-71 Latin prescriptions and units. B 25-30 dense Fraktur, chapter title, centered Latin; 200-201 chapter heading and dense Fraktur.",
+  "reference_status": "Provisional assistant visual transcriptions; not independent human gold",
+  "quality_scoring": "Full-page references for 14 prose/mixed-text pages. Prescription pages A70-71 are structure/symbol review only; no invented gold for ambiguous apothecary glyphs.",
+  "render_qa": {
+    "bookA": "PDFium fallback after blank pdfrune raster; scan inspected",
+    "bookB": "Explicit PDFium; pdfrune produced nonblank corrupted glyph rectangles, rejected by visual QA; no corrupted renders used for comparison"
+  }
+}

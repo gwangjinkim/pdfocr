@@ -1,0 +1,19 @@
+**/.venv/
+**/target/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+/workspace/
+/data/
+/models/
+/runners/teleocr-rs/
+/runners/teleocr-bin/
+*.log
+*.so
+*.dylib
+.DS_Store
+
+# Companion article is delivered as a separate draft for the author.
+/article.md

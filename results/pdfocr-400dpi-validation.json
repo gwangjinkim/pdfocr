@@ -1,0 +1,1128 @@
+{
+  "checked_date": "2026-10-23",
+  "primary_fresh_outputs": 64,
+  "probe_fresh_outputs": 16,
+  "diagnostic_fresh_outputs": 3,
+  "total_fresh_ocr_outputs": 83,
+  "all_input_hashes_verified": true,
+  "frozen_reference_hashes_verified": 14,
+  "native_renderer_hashes_unchanged_during_run": true,
+  "prepared_documents": [
+    {
+      "path": "workspace/expanded400/makrobiotikoderd00hufeuoft/document.json",
+      "renderer": "pdfrune",
+      "pages": 8,
+      "dpi": 400
+    },
+    {
+      "path": "workspace/expanded400/10289757bsb/document.json",
+      "renderer": "pdfrune",
+      "pages": 8,
+      "dpi": 400
+    },
+    {
+      "path": "workspace/expanded400/glm-page29-diagnostic/native-200/document.json",
+      "renderer": "pdfrune",
+      "pages": 1,
+      "dpi": 200
+    },
+    {
+      "path": "workspace/expanded400/glm-page29-diagnostic/pdfium-400/document.json",
+      "renderer": "pdfium",
+      "pages": 1,
+      "dpi": 400
+    },
+    {
+      "path": "workspace/expanded400/glm-page29-diagnostic/native-400-cap1157/document.json",
+      "renderer": "pdfrune",
+      "pages": 1,
+      "dpi": 400
+    },
+    {
+      "path": "workspace/expanded400-probe-200/document/document.json",
+      "renderer": "pdfrune",
+      "pages": 2,
+      "dpi": 200
+    },
+    {
+      "path": "workspace/expanded400-probe-400/document/document.json",
+      "renderer": "pdfrune",
+      "pages": 2,
+      "dpi": 400
+    }
+  ],
+  "source_maps_exact_and_hashes_verified": 26,
+  "source_maps": [
+    "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-ovisocr3-mlx-b9fe0920ec3ad6f8.proposed.pages.json",
+    "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-paddle-vl-mlx-dfc0f5df18d563bc.proposed.pages.json",
+    "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-glm-ocr-mlx-6bacf12df8978e7a.proposed.pages.json",
+    "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-paddle-vl-mlx-dfc0f5df18d563bc-book-v1.proposed.pages.json",
+    "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-teleocr-teleocr-515a88fd5f878258.proposed.pages.json",
+    "workspace/expanded400/10289757bsb/flow-ovisocr3-mlx-467802e7303d7d18.proposed.pages.json",
+    "workspace/expanded400/10289757bsb/flow-paddle-vl-mlx-08f85b0bfd860f4f.proposed.pages.json",
+    "workspace/expanded400/10289757bsb/flow-paddle-vl-mlx-08f85b0bfd860f4f-book-v1.proposed.pages.json",
+    "workspace/expanded400/10289757bsb/flow-glm-ocr-mlx-09c3aa8802b89f05.proposed.pages.json",
+    "workspace/expanded400/10289757bsb/flow-teleocr-teleocr-ea8b364f35355678.proposed.pages.json",
+    "workspace/expanded400/visual/makrobiotikoderd00hufeuoft/paddle-vl-visual.proposed.pages.json",
+    "workspace/expanded400/visual/makrobiotikoderd00hufeuoft/ovisocr3-visual.proposed.pages.json",
+    "workspace/expanded400/visual/10289757bsb/paddle-vl-visual.proposed.pages.json",
+    "workspace/expanded400/visual/10289757bsb/ovisocr3-visual.proposed.pages.json",
+    "workspace/expanded400-probe-200/document/flow-glm-ocr-mlx-1c0fe399857eacce.proposed.pages.json",
+    "workspace/expanded400-probe-200/document/flow-paddle-vl-mlx-8dac0c14cd0e3866.proposed.pages.json",
+    "workspace/expanded400-probe-200/document/flow-ovisocr3-mlx-711739f7d5e7b919.proposed.pages.json",
+    "workspace/expanded400-probe-200/document/flow-teleocr-teleocr-6d5c814079fa61d5.proposed.pages.json",
+    "workspace/expanded400-probe-200/visual/makrobiotikoderd00hufeuoft-probe/paddle-vl-visual.proposed.pages.json",
+    "workspace/expanded400-probe-200/visual/makrobiotikoderd00hufeuoft-probe/ovisocr3-visual.proposed.pages.json",
+    "workspace/expanded400-probe-400/document/flow-glm-ocr-mlx-0085ce763fa3fe29.proposed.pages.json",
+    "workspace/expanded400-probe-400/document/flow-ovisocr3-mlx-e0d959552dcbd3b1.proposed.pages.json",
+    "workspace/expanded400-probe-400/document/flow-paddle-vl-mlx-b931661018c2683b.proposed.pages.json",
+    "workspace/expanded400-probe-400/document/flow-teleocr-teleocr-8958bcfafbca840c.proposed.pages.json",
+    "workspace/expanded400-probe-400/visual/makrobiotikoderd00hufeuoft-probe/paddle-vl-visual.proposed.pages.json",
+    "workspace/expanded400-probe-400/visual/makrobiotikoderd00hufeuoft-probe/ovisocr3-visual.proposed.pages.json"
+  ],
+  "raw_runs": [
+    {
+      "book": "10289757bsb",
+      "model": "glm-ocr",
+      "path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05",
+      "page_outputs": 8
+    },
+    {
+      "book": "10289757bsb",
+      "model": "ovisocr3",
+      "path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18",
+      "page_outputs": 8
+    },
+    {
+      "book": "10289757bsb",
+      "model": "paddle-vl",
+      "path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f",
+      "page_outputs": 8
+    },
+    {
+      "book": "10289757bsb",
+      "model": "teleocr",
+      "path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678",
+      "page_outputs": 8
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "glm-ocr",
+      "path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a",
+      "page_outputs": 8
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "ovisocr3",
+      "path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/ovisocr3-mlx-b9fe0920ec3ad6f8",
+      "page_outputs": 8
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "paddle-vl",
+      "path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc",
+      "page_outputs": 8
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "teleocr",
+      "path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/teleocr-teleocr-515a88fd5f878258",
+      "page_outputs": 8
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft-probe",
+      "model": "glm-ocr",
+      "path": "workspace/expanded400-probe-200/document/runs/glm-ocr-mlx-1c0fe399857eacce",
+      "page_outputs": 2
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft-probe",
+      "model": "ovisocr3",
+      "path": "workspace/expanded400-probe-200/document/runs/ovisocr3-mlx-711739f7d5e7b919",
+      "page_outputs": 2
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft-probe",
+      "model": "paddle-vl",
+      "path": "workspace/expanded400-probe-200/document/runs/paddle-vl-mlx-8dac0c14cd0e3866",
+      "page_outputs": 2
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft-probe",
+      "model": "teleocr",
+      "path": "workspace/expanded400-probe-200/document/runs/teleocr-teleocr-6d5c814079fa61d5",
+      "page_outputs": 2
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft-probe",
+      "model": "glm-ocr",
+      "path": "workspace/expanded400-probe-400/document/runs/glm-ocr-mlx-0085ce763fa3fe29",
+      "page_outputs": 2
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft-probe",
+      "model": "ovisocr3",
+      "path": "workspace/expanded400-probe-400/document/runs/ovisocr3-mlx-e0d959552dcbd3b1",
+      "page_outputs": 2
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft-probe",
+      "model": "paddle-vl",
+      "path": "workspace/expanded400-probe-400/document/runs/paddle-vl-mlx-b931661018c2683b",
+      "page_outputs": 2
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft-probe",
+      "model": "teleocr",
+      "path": "workspace/expanded400-probe-400/document/runs/teleocr-teleocr-8958bcfafbca840c",
+      "page_outputs": 2
+    },
+    {
+      "diagnostic": "native-200",
+      "path": "workspace/expanded400/glm-page29-diagnostic/native-200/runs/glm-ocr-mlx-39428082bb9cb480",
+      "page_outputs": 1
+    },
+    {
+      "diagnostic": "native-400-cap1157",
+      "path": "workspace/expanded400/glm-page29-diagnostic/native-400-cap1157/runs/glm-ocr-mlx-fcec3281b74bcadb",
+      "page_outputs": 1
+    },
+    {
+      "diagnostic": "pdfium-400",
+      "path": "workspace/expanded400/glm-page29-diagnostic/pdfium-400/runs/glm-ocr-mlx-f6c16e4135400935",
+      "page_outputs": 1
+    }
+  ],
+  "process_records_checked": 57,
+  "remaining_recorded_task_processes": [],
+  "processes": [
+    {
+      "pid": 51632,
+      "started_at_unix": 1792765027.97032,
+      "argv": [
+        ".venv/bin/python",
+        "scripts/prepare_400.py"
+      ],
+      "exited": true,
+      "returncode": 0,
+      "seconds": 35.14939904212952,
+      "record": "workspace/expanded400/prepare-process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57395,
+      "started_at_unix": 1792765780.221496,
+      "argv": [
+        ".venv/bin/python",
+        "scripts/run_400_followup.py"
+      ],
+      "exited": true,
+      "returncode": 0,
+      "seconds": 472.09713673591614,
+      "record": "workspace/expanded400/followup-process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57888,
+      "started_at_unix": 1792765856.871147,
+      "argv": [
+        ".venv/bin/python",
+        "scripts/run_visual_repair.py",
+        "--base",
+        "workspace/expanded400",
+        "--selection",
+        "datasets/expanded400/selection.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 156.81187370885164,
+      "record": "workspace/expanded400/steps/expanded400-visual.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60556,
+      "started_at_unix": 1792766119.5916889,
+      "argv": [
+        ".venv/bin/pdfocr",
+        "repair",
+        "workspace/expanded400-probe-200/document/runs/paddle-vl-mlx-8dac0c14cd0e3866",
+        "--model",
+        "boundary-small",
+        "--out",
+        "workspace/expanded400-probe-200/document/flow-paddle-vl-mlx-8dac0c14cd0e3866.proposed.md",
+        "--timeout",
+        "600"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.700640458613634,
+      "record": "workspace/expanded400/steps/probe-200-paddle-vl-repair.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57813,
+      "started_at_unix": 1792765841.4675379,
+      "argv": [
+        ".venv/bin/python",
+        "scripts/reassemble_paddle_book.py",
+        "--base",
+        "workspace/expanded400"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 0.04791091661900282,
+      "record": "workspace/expanded400/steps/primary-book-assembly.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61249,
+      "started_at_unix": 1792766199.500483,
+      "argv": [
+        ".venv/bin/pdfocr",
+        "repair",
+        "workspace/expanded400-probe-400/document/runs/paddle-vl-mlx-b931661018c2683b",
+        "--model",
+        "boundary-small",
+        "--out",
+        "workspace/expanded400-probe-400/document/flow-paddle-vl-mlx-b931661018c2683b.proposed.md",
+        "--timeout",
+        "600"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.771141833625734,
+      "record": "workspace/expanded400/steps/probe-400-paddle-vl-repair.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57817,
+      "started_at_unix": 1792765841.5158389,
+      "argv": [
+        ".venv/bin/pdfocr",
+        "repair",
+        "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f-book-v1",
+        "--model",
+        "boundary-small",
+        "--out",
+        "workspace/expanded400/10289757bsb/flow-paddle-vl-mlx-08f85b0bfd860f4f-book-v1.proposed.md",
+        "--timeout",
+        "600"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 7.134688749909401,
+      "record": "workspace/expanded400/steps/book-repair-10289757bsb.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60475,
+      "started_at_unix": 1792766093.12484,
+      "argv": [
+        ".venv/bin/pdfocr",
+        "repair",
+        "workspace/expanded400-probe-200/document/runs/glm-ocr-mlx-1c0fe399857eacce",
+        "--model",
+        "boundary-small",
+        "--out",
+        "workspace/expanded400-probe-200/document/flow-glm-ocr-mlx-1c0fe399857eacce.proposed.md",
+        "--timeout",
+        "600"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.81020800024271,
+      "record": "workspace/expanded400/steps/probe-200-glm-ocr-repair.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57641,
+      "started_at_unix": 1792765780.223393,
+      "argv": [
+        ".venv/bin/python",
+        "scripts/run_expanded.py",
+        "--base",
+        "workspace/expanded400",
+        "--selection",
+        "datasets/expanded400/selection.json",
+        "--phase",
+        "repair"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 61.24301908351481,
+      "record": "workspace/expanded400/steps/primary-repair.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57857,
+      "started_at_unix": 1792765848.651427,
+      "argv": [
+        ".venv/bin/pdfocr",
+        "repair",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc-book-v1",
+        "--model",
+        "boundary-small",
+        "--out",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-paddle-vl-mlx-dfc0f5df18d563bc-book-v1.proposed.md",
+        "--timeout",
+        "600"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 8.2185585424304,
+      "record": "workspace/expanded400/steps/book-repair-makrobiotikoderd00hufeuoft.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60620,
+      "started_at_unix": 1792766147.6711848,
+      "argv": [
+        ".venv/bin/python",
+        "scripts/run_visual_repair.py",
+        "--base",
+        "workspace/expanded400-probe-200",
+        "--selection",
+        "datasets/expanded400/probe-200.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 5.607337165623903,
+      "record": "workspace/expanded400/steps/expanded400-probe-200-visual.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61634,
+      "started_at_unix": 1792766242.116849,
+      "argv": [
+        ".venv/bin/pdfocr",
+        "repair",
+        "workspace/expanded400-probe-400/document/runs/teleocr-teleocr-8958bcfafbca840c",
+        "--model",
+        "boundary-small",
+        "--out",
+        "workspace/expanded400-probe-400/document/flow-teleocr-teleocr-8958bcfafbca840c.proposed.md",
+        "--timeout",
+        "600"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.787836874835193,
+      "record": "workspace/expanded400/steps/probe-400-teleocr-repair.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60613,
+      "started_at_unix": 1792766143.9066129,
+      "argv": [
+        ".venv/bin/pdfocr",
+        "repair",
+        "workspace/expanded400-probe-200/document/runs/teleocr-teleocr-6d5c814079fa61d5",
+        "--model",
+        "boundary-small",
+        "--out",
+        "workspace/expanded400-probe-200/document/flow-teleocr-teleocr-6d5c814079fa61d5.proposed.md",
+        "--timeout",
+        "600"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.762932042591274,
+      "record": "workspace/expanded400/steps/probe-200-teleocr-repair.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60525,
+      "started_at_unix": 1792766106.081748,
+      "argv": [
+        ".venv/bin/pdfocr",
+        "repair",
+        "workspace/expanded400-probe-200/document/runs/ovisocr3-mlx-711739f7d5e7b919",
+        "--model",
+        "boundary-small",
+        "--out",
+        "workspace/expanded400-probe-200/document/flow-ovisocr3-mlx-711739f7d5e7b919.proposed.md",
+        "--timeout",
+        "600"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.7344419583678246,
+      "record": "workspace/expanded400/steps/probe-200-ovisocr3-repair.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61637,
+      "started_at_unix": 1792766245.910681,
+      "argv": [
+        ".venv/bin/python",
+        "scripts/run_visual_repair.py",
+        "--base",
+        "workspace/expanded400-probe-400",
+        "--selection",
+        "datasets/expanded400/probe-400.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 6.375137875787914,
+      "record": "workspace/expanded400/steps/expanded400-probe-400-visual.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61217,
+      "started_at_unix": 1792766184.153974,
+      "argv": [
+        ".venv/bin/pdfocr",
+        "repair",
+        "workspace/expanded400-probe-400/document/runs/ovisocr3-mlx-e0d959552dcbd3b1",
+        "--model",
+        "boundary-small",
+        "--out",
+        "workspace/expanded400-probe-400/document/flow-ovisocr3-mlx-e0d959552dcbd3b1.proposed.md",
+        "--timeout",
+        "600"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.7685865834355354,
+      "record": "workspace/expanded400/steps/probe-400-ovisocr3-repair.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60921,
+      "started_at_unix": 1792766168.592798,
+      "argv": [
+        ".venv/bin/pdfocr",
+        "repair",
+        "workspace/expanded400-probe-400/document/runs/glm-ocr-mlx-0085ce763fa3fe29",
+        "--model",
+        "boundary-small",
+        "--out",
+        "workspace/expanded400-probe-400/document/flow-glm-ocr-mlx-0085ce763fa3fe29.proposed.md",
+        "--timeout",
+        "600"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.9007712909951806,
+      "record": "workspace/expanded400/steps/probe-400-glm-ocr-repair.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57889,
+      "started_at_unix": 1792765856.9288452,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "scripts/visual_worker.py",
+        "workspace/expanded400/visual/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 156.69142033345997,
+      "record": "workspace/expanded400/visual/process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57783,
+      "started_at_unix": 1792765825.163691,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-paddle-vl-mlx-dfc0f5df18d563bc.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 8.073559042066336,
+      "record": "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-paddle-vl-mlx-dfc0f5df18d563bc.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57733,
+      "started_at_unix": 1792765810.269123,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-glm-ocr-mlx-6bacf12df8978e7a.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 7.892186665907502,
+      "record": "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-glm-ocr-mlx-6bacf12df8978e7a.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57758,
+      "started_at_unix": 1792765818.2406678,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-ovisocr3-mlx-b9fe0920ec3ad6f8.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 6.8466091668233275,
+      "record": "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-ovisocr3-mlx-b9fe0920ec3ad6f8.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57789,
+      "started_at_unix": 1792765833.31284,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-teleocr-teleocr-515a88fd5f878258.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 8.100674957968295,
+      "record": "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-teleocr-teleocr-515a88fd5f878258.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57858,
+      "started_at_unix": 1792765848.717623,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-paddle-vl-mlx-dfc0f5df18d563bc-book-v1.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 8.092507707886398,
+      "record": "workspace/expanded400/makrobiotikoderd00hufeuoft/flow-paddle-vl-mlx-dfc0f5df18d563bc-book-v1.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57724,
+      "started_at_unix": 1792765802.899859,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400/10289757bsb/flow-teleocr-teleocr-ea8b364f35355678.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 7.294859333895147,
+      "record": "workspace/expanded400/10289757bsb/flow-teleocr-teleocr-ea8b364f35355678.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57821,
+      "started_at_unix": 1792765841.580885,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400/10289757bsb/flow-paddle-vl-mlx-08f85b0bfd860f4f-book-v1.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 7.053224541246891,
+      "record": "workspace/expanded400/10289757bsb/flow-paddle-vl-mlx-08f85b0bfd860f4f-book-v1.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57702,
+      "started_at_unix": 1792765795.231721,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400/10289757bsb/flow-paddle-vl-mlx-08f85b0bfd860f4f.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 7.588605834171176,
+      "record": "workspace/expanded400/10289757bsb/flow-paddle-vl-mlx-08f85b0bfd860f4f.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57672,
+      "started_at_unix": 1792765787.7383869,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400/10289757bsb/flow-ovisocr3-mlx-467802e7303d7d18.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 7.4153344593942165,
+      "record": "workspace/expanded400/10289757bsb/flow-ovisocr3-mlx-467802e7303d7d18.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 57643,
+      "started_at_unix": 1792765780.3434198,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400/10289757bsb/flow-glm-ocr-mlx-09c3aa8802b89f05.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 7.3140844171866775,
+      "record": "workspace/expanded400/10289757bsb/flow-glm-ocr-mlx-09c3aa8802b89f05.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 53878,
+      "started_at_unix": 1792765298.446236,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 130.4581105839461,
+      "record": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 52945,
+      "started_at_unix": 1792765130.303496,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 40.663460332900286,
+      "record": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 53328,
+      "started_at_unix": 1792765182.629323,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 38.805487665347755,
+      "record": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 53726,
+      "started_at_unix": 1792765238.37433,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 43.26545854192227,
+      "record": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 54725,
+      "started_at_unix": 1792765430.333545,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 90.05947295855731,
+      "record": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 55470,
+      "started_at_unix": 1792765521.801484,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/ovisocr3-mlx-b9fe0920ec3ad6f8/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 32.107922666706145,
+      "record": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/ovisocr3-mlx-b9fe0920ec3ad6f8/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 55558,
+      "started_at_unix": 1792765555.307123,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 35.23053370881826,
+      "record": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc-book-v1/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 55645,
+      "started_at_unix": 1792765591.943938,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/teleocr-teleocr-515a88fd5f878258/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 139.73639766685665,
+      "record": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/teleocr-teleocr-515a88fd5f878258/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 59551,
+      "started_at_unix": 1792766020.704436,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/glm-page29-diagnostic/native-400-cap1157/runs/glm-ocr-mlx-fcec3281b74bcadb/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 6.118520167656243,
+      "record": "workspace/expanded400/glm-page29-diagnostic/native-400-cap1157/runs/glm-ocr-mlx-fcec3281b74bcadb/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 59564,
+      "started_at_unix": 1792766027.198953,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/glm-page29-diagnostic/pdfium-400/runs/glm-ocr-mlx-f6c16e4135400935/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 56.522181417793036,
+      "record": "workspace/expanded400/glm-page29-diagnostic/pdfium-400/runs/glm-ocr-mlx-f6c16e4135400935/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 59274,
+      "started_at_unix": 1792766013.907775,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400/glm-page29-diagnostic/native-200/runs/glm-ocr-mlx-39428082bb9cb480/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 6.44469662476331,
+      "record": "workspace/expanded400/glm-page29-diagnostic/native-200/runs/glm-ocr-mlx-39428082bb9cb480/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60526,
+      "started_at_unix": 1792766106.147139,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400-probe-200/document/flow-ovisocr3-mlx-711739f7d5e7b919.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.616628541611135,
+      "record": "workspace/expanded400-probe-200/document/flow-ovisocr3-mlx-711739f7d5e7b919.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60478,
+      "started_at_unix": 1792766093.196367,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400-probe-200/document/flow-glm-ocr-mlx-1c0fe399857eacce.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.6763183334842324,
+      "record": "workspace/expanded400-probe-200/document/flow-glm-ocr-mlx-1c0fe399857eacce.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60614,
+      "started_at_unix": 1792766143.9761548,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400-probe-200/document/flow-teleocr-teleocr-6d5c814079fa61d5.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.6393775418400764,
+      "record": "workspace/expanded400-probe-200/document/flow-teleocr-teleocr-6d5c814079fa61d5.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60558,
+      "started_at_unix": 1792766119.667089,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400-probe-200/document/flow-paddle-vl-mlx-8dac0c14cd0e3866.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.603426999412477,
+      "record": "workspace/expanded400-probe-200/document/flow-paddle-vl-mlx-8dac0c14cd0e3866.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60621,
+      "started_at_unix": 1792766147.7251148,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "scripts/visual_worker.py",
+        "workspace/expanded400-probe-200/visual/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 5.507167457602918,
+      "record": "workspace/expanded400-probe-200/visual/process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60563,
+      "started_at_unix": 1792766123.406952,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400-probe-200/document/runs/teleocr-teleocr-6d5c814079fa61d5/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 20.495269250124693,
+      "record": "workspace/expanded400-probe-200/document/runs/teleocr-teleocr-6d5c814079fa61d5/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60531,
+      "started_at_unix": 1792766109.929612,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400-probe-200/document/runs/paddle-vl-mlx-8dac0c14cd0e3866/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 9.659751707687974,
+      "record": "workspace/expanded400-probe-200/document/runs/paddle-vl-mlx-8dac0c14cd0e3866/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60459,
+      "started_at_unix": 1792766084.098531,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400-probe-200/document/runs/glm-ocr-mlx-1c0fe399857eacce/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 9.024763374589384,
+      "record": "workspace/expanded400-probe-200/document/runs/glm-ocr-mlx-1c0fe399857eacce/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60500,
+      "started_at_unix": 1792766097.048639,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400-probe-200/document/runs/ovisocr3-mlx-711739f7d5e7b919/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 9.030435499735177,
+      "record": "workspace/expanded400-probe-200/document/runs/ovisocr3-mlx-711739f7d5e7b919/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61218,
+      "started_at_unix": 1792766184.2268999,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400-probe-400/document/flow-ovisocr3-mlx-e0d959552dcbd3b1.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.629132082685828,
+      "record": "workspace/expanded400-probe-400/document/flow-ovisocr3-mlx-e0d959552dcbd3b1.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61250,
+      "started_at_unix": 1792766199.5713658,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400-probe-400/document/flow-paddle-vl-mlx-b931661018c2683b.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.678091749548912,
+      "record": "workspace/expanded400-probe-400/document/flow-paddle-vl-mlx-b931661018c2683b.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61635,
+      "started_at_unix": 1792766242.1821382,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400-probe-400/document/flow-teleocr-teleocr-8958bcfafbca840c.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.6666406663134694,
+      "record": "workspace/expanded400-probe-400/document/flow-teleocr-teleocr-8958bcfafbca840c.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60922,
+      "started_at_unix": 1792766168.668402,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.decision_worker",
+        "workspace/expanded400-probe-400/document/flow-glm-ocr-mlx-0085ce763fa3fe29.proposed.request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 3.759061415679753,
+      "record": "workspace/expanded400-probe-400/document/flow-glm-ocr-mlx-0085ce763fa3fe29.proposed.process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61638,
+      "started_at_unix": 1792766245.968493,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "scripts/visual_worker.py",
+        "workspace/expanded400-probe-400/visual/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 6.26759587507695,
+      "record": "workspace/expanded400-probe-400/visual/process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 60894,
+      "started_at_unix": 1792766154.0766668,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400-probe-400/document/runs/glm-ocr-mlx-0085ce763fa3fe29/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 14.512782665900886,
+      "record": "workspace/expanded400-probe-400/document/runs/glm-ocr-mlx-0085ce763fa3fe29/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61188,
+      "started_at_unix": 1792766172.855396,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400-probe-400/document/runs/ovisocr3-mlx-e0d959552dcbd3b1/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 11.295666290447116,
+      "record": "workspace/expanded400-probe-400/document/runs/ovisocr3-mlx-e0d959552dcbd3b1/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61221,
+      "started_at_unix": 1792766188.286491,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400-probe-400/document/runs/paddle-vl-mlx-b931661018c2683b/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 11.212066000327468,
+      "record": "workspace/expanded400-probe-400/document/runs/paddle-vl-mlx-b931661018c2683b/manifest.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 61273,
+      "started_at_unix": 1792766203.637579,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "-m",
+        "pdfocr.worker",
+        "workspace/expanded400-probe-400/document/runs/teleocr-teleocr-8958bcfafbca840c/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 38.47694225050509,
+      "record": "workspace/expanded400-probe-400/document/runs/teleocr-teleocr-8958bcfafbca840c/manifest.json",
+      "currently_exists": false
+    }
+  ],
+  "primary_quality_flags": [
+    {
+      "model": "glm-ocr",
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 29,
+      "render_size": [
+        1283,
+        2313
+      ],
+      "harness_input_size": [
+        1136,
+        2048
+      ],
+      "input_sha256": "7c8b3ab3ca2f51cff067f41fc6b98ecd839b5ce8870f088ed4a48a266e97abab",
+      "possibly_truncated": true
+    }
+  ],
+  "harness_tests_passed": 27,
+  "ruff": "passed",
+  "note": "Every foreground tool session was awaited. No persistent server or detached job was started. The raw GLM repetition remains in primary scores; the successful lower-cap retry is a separate diagnostic."
+}

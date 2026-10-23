@@ -1,0 +1,63 @@
+{
+  "page": 34,
+  "status": "ok",
+  "markdown": "Gebeimniffe des Geitferreichs aufbot, um unfere Lage zu verlängern, felbif die Geitrne muften dazu benöt werden. & wurde bamals allgemeiner Glaube, daß der Einfluch der Geitrne (die man fich both nicht ganz mühig benfen fonnte) geben und Schidfale der Menften regiere, daß über Planet und jebe Confel-tation berfelben der ganzen Erifteng des barin er- geugten Seßens eine gewiffe Hidtung zum Böfen oder Guten geben fonne, und daß folgid ein Afrerlog nur die Strunde und Minute der Geburt zu wiffen braube, um daß Temperament, die Geitfer-fähigkeiten, die Schidfale, dieranbeiten, die Art des Tobes und auch den Zag beffelben beftimmen zu fönnen. — Dies war der Glaube nicht bloß des großen Saufens, fönonen der größten, verfändig-ften und einfachsvolliften Perforen der bamaligen Seit, und ein ifn zum Ertraunen, wie lange und wie feit man barang hing, unerachtet es nicht an Beiswielen fehlen fonnte, wo die Propheziehung feibfBLig. Bißfofe, hohe Geitliche, berühmte Philfephen und Merste gaben fich mit bem Nativitätfellen ab, man las fogar auf Univerfitären Collegia darüber, fe gut nie über die Punctirfunnt und Gabala. Sum Berweife erlaube man mir ein Paar Worte von dem berübtinen Thurnneifen, dem glänzendnotin Phänomen biefer Art, und einem wirflich ausgezeichneten Menften, so fagen. & lebte im 17ten Järbu-lert an dem furfürlllichen Gofe zu Berlin, und war Beibaryt, Chemif, Nativitätfeller, Galendermäder, Budbruder und Budbändler, alle in einer Per",
+  "raw": {
+    "pages": [
+      {
+        "width": 641,
+        "height": 1156,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.406,
+              0.05,
+              0.621,
+              0.073
+            ],
+            "angle": 0,
+            "content": "12"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.096,
+              0.086,
+              0.949,
+              0.866
+            ],
+            "angle": 0,
+            "content": "Gebeimniffe des Geitferreichs aufbot, um unfere Lage zu verlängern, felbif die Geitrne muften dazu benöt werden. & wurde bamals allgemeiner Glaube, daß der Einfluch der Geitrne (die man fich both nicht ganz mühig benfen fonnte) geben und Schidfale der Menften regiere, daß über Planet und jebe Confel-tation berfelben der ganzen Erifteng des barin er- geugten Seßens eine gewiffe Hidtung zum Böfen oder Guten geben fonne, und daß folgid ein Afrerlog nur die Strunde und Minute der Geburt zu wiffen braube, um daß Temperament, die Geitfer-fähigkeiten, die Schidfale, dieranbeiten, die Art des Tobes und auch den Zag beffelben beftimmen zu fönnen. — Dies war der Glaube nicht bloß des großen Saufens, fönonen der größten, verfändig-ften und einfachsvolliften Perforen der bamaligen Seit, und ein ifn zum Ertraunen, wie lange und wie feit man barang hing, unerachtet es nicht an Beiswielen fehlen fonnte, wo die Propheziehung feibfBLig. Bißfofe, hohe Geitliche, berühmte Philfephen und Merste gaben fich mit bem Nativitätfellen ab, man las fogar auf Univerfitären Collegia darüber, fe gut nie über die Punctirfunnt und Gabala. Sum Berweife erlaube man mir ein Paar Worte von dem berübtinen Thurnneifen, dem glänzendnotin Phänomen biefer Art, und einem wirflich ausgezeichneten Menften, so fagen. & lebte im 17ten Järbu-lert an dem furfürlllichen Gofe zu Berlin, und war Beibaryt, Chemif, Nativitätfeller, Galendermäder, Budbruder und Budbändler, alle in einer Per"
+          }
+        ],
+        "markdown": "Gebeimniffe des Geitferreichs aufbot, um unfere Lage zu verlängern, felbif die Geitrne muften dazu benöt werden. & wurde bamals allgemeiner Glaube, daß der Einfluch der Geitrne (die man fich both nicht ganz mühig benfen fonnte) geben und Schidfale der Menften regiere, daß über Planet und jebe Confel-tation berfelben der ganzen Erifteng des barin er- geugten Seßens eine gewiffe Hidtung zum Böfen oder Guten geben fonne, und daß folgid ein Afrerlog nur die Strunde und Minute der Geburt zu wiffen braube, um daß Temperament, die Geitfer-fähigkeiten, die Schidfale, dieranbeiten, die Art des Tobes und auch den Zag beffelben beftimmen zu fönnen. — Dies war der Glaube nicht bloß des großen Saufens, fönonen der größten, verfändig-ften und einfachsvolliften Perforen der bamaligen Seit, und ein ifn zum Ertraunen, wie lange und wie feit man barang hing, unerachtet es nicht an Beiswielen fehlen fonnte, wo die Propheziehung feibfBLig. Bißfofe, hohe Geitliche, berühmte Philfephen und Merste gaben fich mit bem Nativitätfellen ab, man las fogar auf Univerfitären Collegia darüber, fe gut nie über die Punctirfunnt und Gabala. Sum Berweife erlaube man mir ein Paar Worte von dem berübtinen Thurnneifen, dem glänzendnotin Phänomen biefer Art, und einem wirflich ausgezeichneten Menften, so fagen. & lebte im 17ten Järbu-lert an dem furfürlllichen Gofe zu Berlin, und war Beibaryt, Chemif, Nativitätfeller, Galendermäder, Budbruder und Budbändler, alle in einer Per",
+        "stats": {
+          "layout_ms": 4575.913833,
+          "extract_ms": 4992.282,
+          "blocks": 2,
+          "generated_tokens": 532
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:35:24.294548Z  INFO teleocr: model loaded in 0.8s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4575.913833,\"extract_ms\":4992.282,\"blocks\":2,\"generated_tokens\":532}\n1 page(s) in 9.57s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400-probe-200/document/runs/teleocr-teleocr-6d5c814079fa61d5/inputs/page-0034.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 10.541939500719309,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

@@ -1,0 +1,58 @@
+{
+  "page": 28,
+  "status": "ok",
+  "markdown": "Ganz anders bildete sich dieser Trick bei den Grießen, unter dem Einfluss einer reinen und schönen Natur, aus. Man überzeugte sich sehr bald, das gerade ein vernünftiger Genus der Natur und die beständige Uebung unserer Kräfte das sicherste Mittel foy, die Lebenskraft zu stärken, und unser Leben zu verlängern. Hippocrates und alle damaligen Philosophen und Ärzte kennen keine andern Mitrel, als Mäsigkeit, Genus der freien und reinen Luft, Bader, und vorgüglich das tägliche Reiben des Körpers und Leibesübung. Auf legtere sekten sie ihr größtes Vertrauen. Es wurden eigene Methoden und Regeln bestimmt, dem Körper mannigsfaltige, starke und schwache Bewegung zu geben; es entstand eine eigne Kunst der Leibesübung, die Gymnastische, daraus, und der größte Philosoph und Glehrte vergaß nie, daß Uebung des Leibes und Uebung der Seele immer in gleichdem Verhältnis bleiben müsten. Man brachte es wirklich zu einer auserordentlichen Volkmenheit, diese für uns fast verstundene Kunst den verschiedenen Naturen, Situationen und Bedürfnissen der Menschen anzupassen, und sie besonders zu dem Mittel zu gebrauchen, die innere Natur des Menschen immer in einer gehörigen Thätigkeit zu erhalten, und dadurch nicht nur Krankheitsursachen unwirksam zu machen, sondern auch selbst schon ausgebrochene Krankheiten zu heilen. Ein gewisser Hero-dicus ging so weit, daß er sogar seine Patienten nötigte, spazieren zu gehen, sich reiben zu lassen, und je mehr die Krankheit abmattete, deso mehr",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          321,
+          67,
+          343,
+          95
+        ],
+        "label": "number",
+        "score": 0.4935908317565918,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0028/block-000-number.png",
+        "order": 4,
+        "text": "6",
+        "seconds": 0.11907749995589256,
+        "tokens": 2,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          62,
+          107,
+          608,
+          1020
+        ],
+        "label": "text",
+        "score": 0.9538354873657227,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0028/block-001-text.png",
+        "order": 96,
+        "text": "Ganz anders bildete sich dieser Trick bei den Grießen, unter dem Einfluss einer reinen und schönen Natur, aus. Man überzeugte sich sehr bald, das gerade ein vernünftiger Genus der Natur und die beständige Uebung unserer Kräfte das sicherste Mittel foy, die Lebenskraft zu stärken, und unser Leben zu verlängern. Hippocrates und alle damaligen Philosophen und Ärzte kennen keine andern Mitrel, als Mäsigkeit, Genus der freien und reinen Luft, Bader, und vorgüglich das tägliche Reiben des Körpers und Leibesübung. Auf legtere sekten sie ihr größtes Vertrauen. Es wurden eigene Methoden und Regeln bestimmt, dem Körper mannigsfaltige, starke und schwache Bewegung zu geben; es entstand eine eigne Kunst der Leibesübung, die Gymnastische, daraus, und der größte Philosoph und Glehrte vergaß nie, daß Uebung des Leibes und Uebung der Seele immer in gleichdem Verhältnis bleiben müsten. Man brachte es wirklich zu einer auserordentlichen Volkmenheit, diese für uns fast verstundene Kunst den verschiedenen Naturen, Situationen und Bedürfnissen der Menschen anzupassen, und sie besonders zu dem Mittel zu gebrauchen, die innere Natur des Menschen immer in einer gehörigen Thätigkeit zu erhalten, und dadurch nicht nur Krankheitsursachen unwirksam zu machen, sondern auch selbst schon ausgebrochene Krankheiten zu heilen. Ein gewisser Hero-dicus ging so weit, daß er sogar seine Patienten nötigte, spazieren zu gehen, sich reiben zu lassen, und je mehr die Krankheit abmattete, deso mehr",
+        "seconds": 1.810582958161831,
+        "tokens": 430,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.5988360419869423,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 2.5624205004423857,
+  "load_seconds": 1.3344980832189322,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2938934960,
+  "layout_seconds": 0.5988360419869423
+}

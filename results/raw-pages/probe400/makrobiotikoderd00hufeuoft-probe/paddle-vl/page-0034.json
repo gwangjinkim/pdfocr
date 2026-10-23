@@ -1,0 +1,58 @@
+{
+  "page": 34,
+  "status": "ok",
+  "markdown": "Scheimnisse des Geisterreichs aufbot, um unfere Tage zu verlängern, selbst die Gesirne mußten dazu bezuht werden. Es wurde damals allgemeiner Glaube, daß der Einfluss der Gesirne (die man sich doch nicht ganz müssig denken konnte) Leben und Schicksale der Menschen regiere, daß jeder Planet und jede Constellation derselben der ganzen Eristenz des darin erzeugten W�ens eine gewisse Richtung zum Bösen oder Guten geben könne, und das folglich ein Astrolog nur die Stunde und Minute der Geburt zu wissen brauche, um das Temperament, die Geistesfähigkeiten, die Schäfsale, die Krankheiten, die Art des Todes und auch den Tag dessen bestimmen zu können. — Dies war der Glaube nicht bloß dessen großen Haufen, sondern der größten, verständigsten und einseitslvolisten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie fest man daran hing, unerahtet es nicht an Beispielen fehlen konnte, wo die Prophezeitung fehlschlug. Vischöse, hohe Geistliche, berühmte Philosophen und Aterzte gaben sich mit dem Nativitätstellen ab, man las sogar auf Universitäten Collegia darüber, so gut wie über die Punctirkunst und Cabala. Zum Weise erlaube man mir ein Paar Worte von dem berühmten Thurneisen, dem glänzendsten Phänomen dieser Art, und einem wirktich ausgezeichneten Menschen, zu sagen. Er lebte im 17ten Jahrhundert an dem kurfurstlichen Hofe zu Berlin, und war Leibarzt, Chemist, Nativitätsteller, Talendermader, Ruddrucker und Rudhandler, alles in einer Per",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          630,
+          117,
+          698,
+          169
+        ],
+        "label": "number",
+        "score": 0.573356032371521,
+        "crop": "workspace/expanded400-probe-400/document/runs/paddle-vl-mlx-b931661018c2683b/page-0034/block-000-number.png",
+        "order": 6,
+        "text": "12",
+        "seconds": 0.18751745950430632,
+        "tokens": 3,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          122,
+          200,
+          1216,
+          2013
+        ],
+        "label": "text",
+        "score": 0.9580265879631042,
+        "crop": "workspace/expanded400-probe-400/document/runs/paddle-vl-mlx-b931661018c2683b/page-0034/block-001-text.png",
+        "order": 121,
+        "text": "Scheimnisse des Geisterreichs aufbot, um unfere Tage zu verlängern, selbst die Gesirne mußten dazu bezuht werden. Es wurde damals allgemeiner Glaube, daß der Einfluss der Gesirne (die man sich doch nicht ganz müssig denken konnte) Leben und Schicksale der Menschen regiere, daß jeder Planet und jede Constellation derselben der ganzen Eristenz des darin erzeugten W�ens eine gewisse Richtung zum Bösen oder Guten geben könne, und das folglich ein Astrolog nur die Stunde und Minute der Geburt zu wissen brauche, um das Temperament, die Geistesfähigkeiten, die Schäfsale, die Krankheiten, die Art des Todes und auch den Tag dessen bestimmen zu können. — Dies war der Glaube nicht bloß dessen großen Haufen, sondern der größten, verständigsten und einseitslvolisten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie fest man daran hing, unerahtet es nicht an Beispielen fehlen konnte, wo die Prophezeitung fehlschlug. Vischöse, hohe Geistliche, berühmte Philosophen und Aterzte gaben sich mit dem Nativitätstellen ab, man las sogar auf Universitäten Collegia darüber, so gut wie über die Punctirkunst und Cabala. Zum Weise erlaube man mir ein Paar Worte von dem berühmten Thurneisen, dem glänzendsten Phänomen dieser Art, und einem wirktich ausgezeichneten Menschen, zu sagen. Er lebte im 17ten Jahrhundert an dem kurfurstlichen Hofe zu Berlin, und war Leibarzt, Chemist, Nativitätsteller, Talendermader, Ruddrucker und Rudhandler, alles in einer Per",
+        "seconds": 2.727764374576509,
+        "tokens": 444,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.7050535827875137,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 3.7471521254628897,
+  "load_seconds": 1.2094519156962633,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2768888656,
+  "layout_seconds": 0.7050535827875137
+}

@@ -1,0 +1,75 @@
+{
+  "page": 9,
+  "status": "ok",
+  "markdown": "that erwiesen, manches Leben gerettet, und, was mehr noch heißt, Kränklichkeit verhütet, und dem Menschen die Brauchbarkeit erhalten. Denn es ist ein sehr unrichtiger Maafsstab, wenn man den Nutzen solcher Hülfen blos nach der Vermehrung oder Verminderung der Mortalität berechnet.\n\nDie häufigste und traurigste Folge der Krankheiten bei Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durch gehörige Hülfe anfangs leicht zu heben gewesen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren, Krankheiten; Krankheiten, die man zwar ohne Hülfe mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die die Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdauernden Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfe bestehet also darin, die Summe der Leiden- den und Unbrauchbaren zu vermindern, und ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben. Ja, indem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          208,
+          356,
+          2006,
+          1193
+        ],
+        "label": "text",
+        "score": 0.7841446995735168,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0009/block-000-text.png",
+        "order": 82,
+        "text": "that erwiesen, manches Leben gerettet, und, was mehr noch heißt, Kränklichkeit verhütet, und dem Menschen die Brauchbarkeit erhalten. Denn es ist ein sehr unrichtiger Maafsstab, wenn man den Nutzen solcher Hülfen blos nach der Vermehrung oder Verminderung der Mortalität berechnet.",
+        "seconds": 1.2463096249848604,
+        "tokens": 85,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          209,
+          1245,
+          2006,
+          2686
+        ],
+        "label": "text",
+        "score": 0.8168889284133911,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0009/block-001-text.png",
+        "order": 152,
+        "text": "Die häufigste und traurigste Folge der Krankheiten bei Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durch gehörige Hülfe anfangs leicht zu heben gewesen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren, Krankheiten; Krankheiten, die man zwar ohne Hülfe mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die die Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdauernden Last des Staates machen.",
+        "seconds": 1.3847472500056028,
+        "tokens": 143,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          209,
+          2740,
+          2005,
+          3575
+        ],
+        "label": "text",
+        "score": 0.7750117778778076,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0009/block-002-text.png",
+        "order": 213,
+        "text": "Der vorzüglichste Werth dieser Hülfe bestehet also darin, die Summe der Leiden- den und Unbrauchbaren zu vermindern, und ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben. Ja, indem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken",
+        "seconds": 1.1705219577997923,
+        "tokens": 87,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.9576557502150536,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 5.11461004242301,
+  "load_seconds": 1.6896864166483283,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2780846920,
+  "layout_seconds": 0.9576557502150536
+}

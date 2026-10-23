@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-23",
+  "summary": {
+    "cases": 28,
+    "positive_model_resolution_cases": 4,
+    "unique_positive_boundaries": 1,
+    "repairable_missing_hyphen_cases": 1,
+    "correct_added_joins": 1,
+    "applied_joins": 1,
+    "false_added_joins_on_controls": 0,
+    "negative_model_resolution_cases": 24,
+    "unique_negative_boundaries": 6,
+    "all_source_spans_exact": true,
+    "only_separator_deletions": true,
+    "frozen_glm_crop_pixels_match": true
+  },
+  "reader_model": {
+    "repo": "PaddlePaddle/PaddleOCR-VL-1.6",
+    "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+    "path": "model-cache/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42"
+  },
+  "frozen_crop_hashes_verified": 40,
+  "exact_source_maps_verified": 8,
+  "successful_repair_removed_characters": 1,
+  "harness_tests_passed": 28,
+  "ruff": "passed",
+  "html_embedded_images_verified": 28,
+  "process_records_checked": 5,
+  "remaining_recorded_task_processes": [],
+  "processes": [
+    {
+      "pid": 97928,
+      "started_at_unix": 1792779727.0414321,
+      "argv": [
+        ".venv/bin/python",
+        "scripts/run_paddle_visual.py"
+      ],
+      "exited": true,
+      "returncode": 0,
+      "seconds": 32.16182088851929,
+      "record": "workspace/paddle-visual-fraktur/controller-process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 98213,
+      "started_at_unix": 1792779736.930604,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "scripts/visual_worker.py",
+        "workspace/paddle-visual-fraktur/controls-400/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 9.867467791773379,
+      "record": "workspace/paddle-visual-fraktur/controls-400/process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 98270,
+      "started_at_unix": 1792779752.380064,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "scripts/visual_worker.py",
+        "workspace/paddle-visual-fraktur/probe-400/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 6.823756666854024,
+      "record": "workspace/paddle-visual-fraktur/probe-400/process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 98177,
+      "started_at_unix": 1792779727.045592,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "scripts/visual_worker.py",
+        "workspace/paddle-visual-fraktur/controls-200/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 9.884128082543612,
+      "record": "workspace/paddle-visual-fraktur/controls-200/process.json",
+      "currently_exists": false
+    },
+    {
+      "pid": 98244,
+      "started_at_unix": 1792779746.798122,
+      "argv": [
+        "runners/mlx/.venv/bin/python",
+        "scripts/visual_worker.py",
+        "workspace/paddle-visual-fraktur/probe-200/request.json"
+      ],
+      "returncode": 0,
+      "exited": true,
+      "seconds": 5.5809258334338665,
+      "record": "workspace/paddle-visual-fraktur/probe-200/process.json",
+      "currently_exists": false
+    }
+  ],
+  "note": "All task tool sessions completed; no persistent server, model download or detached job was started. Six distinct negative boundaries are repeated across two DPIs and two target OCRs; this does not estimate a production false-join rate."
+}

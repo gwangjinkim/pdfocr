@@ -1,0 +1,12 @@
+{
+  "books": [
+    {
+      "id": "makrobiotikoderd00hufeuoft-probe",
+      "document": "workspace/expanded400-probe-400/document",
+      "pages": "34-35"
+    }
+  ],
+  "renderer": "pdfrune",
+  "dpi": 400,
+  "note": "Same supplementary Fraktur pages at two DPIs with the fixed renderer. Excluded from primary CER; no full-page gold references."
+}

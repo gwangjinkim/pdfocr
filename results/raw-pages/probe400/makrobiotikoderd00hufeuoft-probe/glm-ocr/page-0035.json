@@ -1,0 +1,22 @@
+{
+  "page": 35,
+  "status": "ok",
+  "markdown": "jon. Seine Reputation in der Ärrologie war so groß, daß fast in keinem angefehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja felbjt in England ein Kind geboren wurde, wo man nicht fogleich einen Voten mit der Bestimmung der Geburtskunde an ihn absendete. Es famen oft acht, zehn bis zwolf folde Geburtsfunden auf einmal bei ihm an, und er wurde zu leucht so überhauft, daß er sich Gehülfen zu diesem Gefächft halten mußte. Noch befinden sich viele Pände folcher Aufragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elizabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derfelben mit furzen Vorten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beizviele, daß er sich durch Geld und gute Worte bewegen ließ, dieselbe im voraus mitzutheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun fönnen; der Calender erhielt sich über 20 Jahre, hatte reiffenden Abgang, und verschafte, nebst andern Charlatanerien, dem Verfaffer ein Vermögen von einigen hunderttausend Gulden.\n\nUber wie fonnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Gränzen sekte, Mittel zur Verlängerung desfelben finden! Dies geschah auf folgende finnreiche Art:",
+  "raw": {
+    "text": "jon. Seine Reputation in der Ärrologie war so groß, daß fast in keinem angefehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja felbjt in England ein Kind geboren wurde, wo man nicht fogleich einen Voten mit der Bestimmung der Geburtskunde an ihn absendete. Es famen oft acht, zehn bis zwolf folde Geburtsfunden auf einmal bei ihm an, und er wurde zu leucht so überhauft, daß er sich Gehülfen zu diesem Gefächft halten mußte. Noch befinden sich viele Pände folcher Aufragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elizabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derfelben mit furzen Vorten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beizviele, daß er sich durch Geld und gute Worte bewegen ließ, dieselbe im voraus mitzutheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun fönnen; der Calender erhielt sich über 20 Jahre, hatte reiffenden Abgang, und verschafte, nebst andern Charlatanerien, dem Verfaffer ein Vermögen von einigen hunderttausend Gulden.\n\nUber wie fonnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Gränzen sekte, Mittel zur Verlängerung desfelben finden! Dies geschah auf folgende finnreiche Art:",
+    "generation_tokens": 430,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3405556618
+  },
+  "seconds": 5.4436718337237835,
+  "load_seconds": 0.46784841641783714,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 430,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3405556618
+}

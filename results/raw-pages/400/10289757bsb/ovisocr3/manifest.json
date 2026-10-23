@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "config": {
+    "model_name": "ovisocr3",
+    "model": {
+      "repo": "ATH-MaaS/OvisOCR3",
+      "parameters_b": 0.8,
+      "license": "Apache-2.0",
+      "backend": "mlx",
+      "mode": "page-markdown",
+      "prompt_file": "prompts/document_markdown.txt",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "longest_edge": 2880,
+      "notes": "Locally executed on M3 Max with MLX 0.7.10 and original BF16 weights, official document-Markdown prompt, Archive.org PDF 9-10. Drops the page-final hyphen in this sample. Other tasks untested."
+    },
+    "backend": "mlx",
+    "model_pin": {
+      "repo": "ATH-MaaS/OvisOCR3",
+      "revision": "5f6ce6932efee9ec10c30746db55bd780214b7fd",
+      "path": "model-cache/models--ATH-MaaS--OvisOCR3/snapshots/5f6ce6932efee9ec10c30746db55bd780214b7fd"
+    },
+    "endpoint": null,
+    "endpoint_model": "ATH-MaaS/OvisOCR3",
+    "prompt": "Extract all readable content from the image in natural human reading order and output the result as a single Markdown document. For charts or images, represent them using an HTML image tag: <img src=\"images/bbox_{left}_{top}_{right}_{bottom}.jpg\" />, where left, top, right, bottom are bounding box coordinates scaled to [0, 1000). Format formulas as LaTeX. Format tables as HTML: <table>...</table>. Transcribe all other text as standard Markdown. Preserve the original text without translation or paraphrasing.",
+    "command": null,
+    "timeout": 1200,
+    "python": "runners/mlx/.venv/bin/python",
+    "harness_version": "0.1.0",
+    "teleocr_binary_sha256": null,
+    "layout_pin": null,
+    "implementation_sha256": "a2e5301b8141fec649cd2b115ef4a35c235d20bc1d26bcafca7d3962b9cd1ded"
+  },
+  "source_sha256": "9a79e4af196f5d980552f8e5aa345bcff494fe603323105824fdfa4548a56cc1",
+  "document": "workspace/expanded400/10289757bsb",
+  "pages": [
+    {
+      "page": 9,
+      "result": "page-0009.json",
+      "status": "ok",
+      "seconds": 4.1098333755508065,
+      "possibly_truncated": false
+    },
+    {
+      "page": 10,
+      "result": "page-0010.json",
+      "status": "ok",
+      "seconds": 4.105539875105023,
+      "possibly_truncated": false
+    },
+    {
+      "page": 11,
+      "result": "page-0011.json",
+      "status": "ok",
+      "seconds": 3.9044509595260024,
+      "possibly_truncated": false
+    },
+    {
+      "page": 12,
+      "result": "page-0012.json",
+      "status": "ok",
+      "seconds": 4.593637333251536,
+      "possibly_truncated": false
+    },
+    {
+      "page": 13,
+      "result": "page-0013.json",
+      "status": "ok",
+      "seconds": 4.295220416970551,
+      "possibly_truncated": false
+    },
+    {
+      "page": 14,
+      "result": "page-0014.json",
+      "status": "ok",
+      "seconds": 4.622648333199322,
+      "possibly_truncated": false
+    },
+    {
+      "page": 70,
+      "result": "page-0070.json",
+      "status": "ok",
+      "seconds": 4.317569832317531,
+      "possibly_truncated": false
+    },
+    {
+      "page": 71,
+      "result": "page-0071.json",
+      "status": "ok",
+      "seconds": 4.538978958502412,
+      "possibly_truncated": false
+    }
+  ],
+  "inputs": [
+    {
+      "page": 9,
+      "image_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/inputs/page-0009.png",
+      "input_size": [
+        1654,
+        2880
+      ],
+      "image_sha256": "cd935312e3dc21f370df621e2a53ecfea3f588aed3f51878914bbefddbaa8f95",
+      "result_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/page-0009.json"
+    },
+    {
+      "page": 10,
+      "image_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/inputs/page-0010.png",
+      "input_size": [
+        1663,
+        2880
+      ],
+      "image_sha256": "a93dbfbf71935e12b24e8afa9d12ada7651213e7b065fdd1226ecb6acfbd072f",
+      "result_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/page-0010.json"
+    },
+    {
+      "page": 11,
+      "image_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/inputs/page-0011.png",
+      "input_size": [
+        1677,
+        2880
+      ],
+      "image_sha256": "a54b8154eebdde95e7abcfe03b0dff65816c4d743617151716bd7089a659028b",
+      "result_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/page-0011.json"
+    },
+    {
+      "page": 12,
+      "image_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/inputs/page-0012.png",
+      "input_size": [
+        1745,
+        2880
+      ],
+      "image_sha256": "981545b2e4301d50aa6711cd70711e15cea1905e144d21a4ddb71b2d0c3d8019",
+      "result_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/page-0012.json"
+    },
+    {
+      "page": 13,
+      "image_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/inputs/page-0013.png",
+      "input_size": [
+        1670,
+        2880
+      ],
+      "image_sha256": "6cfbb9dfa72a67d26992a737c07c43444eccdc7e393a03184e97e3f50da96409",
+      "result_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/page-0013.json"
+    },
+    {
+      "page": 14,
+      "image_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/inputs/page-0014.png",
+      "input_size": [
+        1665,
+        2880
+      ],
+      "image_sha256": "8b79fed5a222a7b0668966e1d1e374f2e6632f3a135a64509d240d0fe46f446f",
+      "result_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/page-0014.json"
+    },
+    {
+      "page": 70,
+      "image_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/inputs/page-0070.png",
+      "input_size": [
+        1645,
+        2880
+      ],
+      "image_sha256": "dbbee6725992c39db5bb6fd24ff5a8a2bfd01c665af98c274fa528552037b18e",
+      "result_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/page-0070.json"
+    },
+    {
+      "page": 71,
+      "image_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/inputs/page-0071.png",
+      "input_size": [
+        1643,
+        2880
+      ],
+      "image_sha256": "e6bf584911abf617c7be2d204e81a487347a34f313de1d270f2f143b0f81872e",
+      "result_path": "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/page-0071.json"
+    }
+  ],
+  "status": "complete",
+  "process": {
+    "pid": 53328,
+    "started_at_unix": 1792765182.629323,
+    "argv": [
+      "runners/mlx/.venv/bin/python",
+      "-m",
+      "pdfocr.worker",
+      "workspace/expanded400/10289757bsb/runs/ovisocr3-mlx-467802e7303d7d18/request.json"
+    ],
+    "returncode": 0,
+    "exited": true,
+    "seconds": 38.805487665347755
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "page": 11,
+  "status": "ok",
+  "markdown": "zähle; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen muften, um uur die verordnete Arznei zu erhalten. Wie unzureichend war diese Hülfe! —\n\nEs mußste demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zum Grunde gelegt wurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und der Menschenliebe allein mufs das belebende Princip einer solchen Anstalt seyn. Das ganze Geschäft mufs als Gottesdienst betrieben, und unentgeldlich, aus freiem innerem Antriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr edle menschenliebende und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto gewisser wird dieser Geist das Institut durchdringen, und der wahre Zweck erreicht. Überdiefswird noch dadurch der frofse Vortheil gewonnen, dafs die Berührungspunkte der Hülf-",
+  "raw": {
+    "pages": [
+      {
+        "width": 2385,
+        "height": 4096,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.382,
+              0.052,
+              0.592,
+              0.073
+            ],
+            "angle": 0,
+            "content": "-7-"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.108,
+              0.083,
+              0.858,
+              0.253
+            ],
+            "angle": 0,
+            "content": "zähle; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen muften, um uur die verordnete Arznei zu erhalten. Wie unzureichend war diese Hülfe! —"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.106,
+              0.268,
+              0.855,
+              0.412
+            ],
+            "angle": 0,
+            "content": "Es mußste demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zum Grunde gelegt wurden, waren folgende:"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.106,
+              0.422,
+              0.851,
+              0.594
+            ],
+            "angle": 0,
+            "content": "1. Der Geist des reinen Wohlthuns und der Menschenliebe allein mufs das belebende Princip einer solchen Anstalt seyn. Das ganze Geschäft mufs als Gottesdienst betrieben, und unentgeldlich, aus freiem innerem Antriebe, besorgt werden."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.106,
+              0.606,
+              0.855,
+              0.865
+            ],
+            "angle": 0,
+            "content": "2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr edle menschenliebende und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto gewisser wird dieser Geist das Institut durchdringen, und der wahre Zweck erreicht. Überdiefswird noch dadurch der frofse Vortheil gewonnen, dafs die Berührungspunkte der Hülf-"
+          }
+        ],
+        "markdown": "zähle; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen muften, um uur die verordnete Arznei zu erhalten. Wie unzureichend war diese Hülfe! —\n\nEs mußste demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zum Grunde gelegt wurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und der Menschenliebe allein mufs das belebende Princip einer solchen Anstalt seyn. Das ganze Geschäft mufs als Gottesdienst betrieben, und unentgeldlich, aus freiem innerem Antriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr edle menschenliebende und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto gewisser wird dieser Geist das Institut durchdringen, und der wahre Zweck erreicht. Überdiefswird noch dadurch der frofse Vortheil gewonnen, dafs die Berührungspunkte der Hülf-",
+        "stats": {
+          "layout_ms": 4482.807125,
+          "extract_ms": 9054.393583,
+          "blocks": 5,
+          "generated_tokens": 414
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:22:11.842473Z  INFO teleocr: model loaded in 0.6s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4482.807125,\"extract_ms\":9054.393583,\"blocks\":5,\"generated_tokens\":414}\n1 page(s) in 13.54s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0011.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 14.341653250157833,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

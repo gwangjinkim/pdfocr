@@ -1,0 +1,74 @@
+{
+  "page": 29,
+  "status": "ok",
+  "markdown": "burch Anstrengung der Musfelfkräfte biefe Mattigfeit zu überwältigen; und er hatte bas Glüf, burch feine Methobe fo vielen fehwädlichen Menften bas Leben viele Jahre zu verlängern, daß ihm fogar Plato ben Worruf madte, er habe fehr ungeredt gegen biefe armen Leute gebahelt, burch feine Suntf ihr immer berbendeß geben bis ins Alter zu verlängern. Die helften und naturgemäßcdoten Jbeen über die Erhaltung und Verlängerung bez Bebens finden wir beim Plutard, ber burch bas glüfdliche Alter die Bahrheit feiner Borfdriften beftätigte. Schon er fichtef einen Unterricht mit folgenben auch für infere Seiten gültigen Regeln: den Ropf falt und die Jüfe warm zu halten; anfatt bei jeder Unpåld行情 gleich Urgeinen zu brauben, lieber erft einen Tag zu fatten, und über dem Geift nie den�ig zu vergeffen.\n\nEine fonberbare Methobe, bas Leben im Alter zu verlängern, die fid ebenfalls aus den früheften Seiten herfreibrt, war die Sercomic, die Gewohnheit, einen alten abgelebten Körper durch die nahe Attmofpäre friber aufblüender Jugend zu verjungen und zu erhalten. Das fefanntefte Beispiel davon enthält die Geflichte des Königte David; aber man findet in den Snyriften der Verste mehrere Spuren, bas es bamales eine fehr gewöbuliche und beliebete Hilfede des Alters war. Selbst in neuern Seiten ist diefer Math mit Nußen befolgt vorben; ber große Boerhave ließ einen alten Almerbamer Bürgermeifter zwischen zwei jungen Seiten fejlafen,",
+  "raw": {
+    "pages": [
+      {
+        "width": 642,
+        "height": 1157,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.354,
+              0.054,
+              0.55,
+              0.076
+            ],
+            "angle": 0,
+            "content": "-7-"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.034,
+              0.09,
+              0.875,
+              0.53
+            ],
+            "angle": 0,
+            "content": "burch Anstrengung der Musfelfkräfte biefe Mattigfeit zu überwältigen; und er hatte bas Glüf, burch feine Methobe fo vielen fehwädlichen Menften bas Leben viele Jahre zu verlängern, daß ihm fogar Plato ben Worruf madte, er habe fehr ungeredt gegen biefe armen Leute gebahelt, burch feine Suntf ihr immer berbendeß geben bis ins Alter zu verlängern. Die helften und naturgemäßcdoten Jbeen über die Erhaltung und Verlängerung bez Bebens finden wir beim Plutard, ber burch bas glüfdliche Alter die Bahrheit feiner Borfdriften beftätigte. Schon er fichtef einen Unterricht mit folgenben auch für infere Seiten gültigen Regeln: den Ropf falt und die Jüfe warm zu halten; anfatt bei jeder Unpåld行情 gleich Urgeinen zu brauben, lieber erft einen Tag zu fatten, und über dem Geift nie den�ig zu vergeffen."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.034,
+              0.532,
+              0.875,
+              0.868
+            ],
+            "angle": 0,
+            "content": "Eine fonberbare Methobe, bas Leben im Alter zu verlängern, die fid ebenfalls aus den früheften Seiten herfreibrt, war die Sercomic, die Gewohnheit, einen alten abgelebten Körper durch die nahe Attmofpäre friber aufblüender Jugend zu verjungen und zu erhalten. Das fefanntefte Beispiel davon enthält die Geflichte des Königte David; aber man findet in den Snyriften der Verste mehrere Spuren, bas es bamales eine fehr gewöbuliche und beliebete Hilfede des Alters war. Selbst in neuern Seiten ist diefer Math mit Nußen befolgt vorben; ber große Boerhave ließ einen alten Almerbamer Bürgermeifter zwischen zwei jungen Seiten fejlafen,"
+          }
+        ],
+        "markdown": "burch Anstrengung der Musfelfkräfte biefe Mattigfeit zu überwältigen; und er hatte bas Glüf, burch feine Methobe fo vielen fehwädlichen Menften bas Leben viele Jahre zu verlängern, daß ihm fogar Plato ben Worruf madte, er habe fehr ungeredt gegen biefe armen Leute gebahelt, burch feine Suntf ihr immer berbendeß geben bis ins Alter zu verlängern. Die helften und naturgemäßcdoten Jbeen über die Erhaltung und Verlängerung bez Bebens finden wir beim Plutard, ber burch bas glüfdliche Alter die Bahrheit feiner Borfdriften beftätigte. Schon er fichtef einen Unterricht mit folgenben auch für infere Seiten gültigen Regeln: den Ropf falt und die Jüfe warm zu halten; anfatt bei jeder Unpåld行情 gleich Urgeinen zu brauben, lieber erft einen Tag zu fatten, und über dem Geift nie den�ig zu vergeffen.\n\nEine fonberbare Methobe, bas Leben im Alter zu verlängern, die fid ebenfalls aus den früheften Seiten herfreibrt, war die Sercomic, die Gewohnheit, einen alten abgelebten Körper durch die nahe Attmofpäre friber aufblüender Jugend zu verjungen und zu erhalten. Das fefanntefte Beispiel davon enthält die Geflichte des Königte David; aber man findet in den Snyriften der Verste mehrere Spuren, bas es bamales eine fehr gewöbuliche und beliebete Hilfede des Alters war. Selbst in neuern Seiten ist diefer Math mit Nußen befolgt vorben; ber große Boerhave ließ einen alten Almerbamer Bürgermeifter zwischen zwei jungen Seiten fejlafen,",
+        "stats": {
+          "layout_ms": 4746.314208000001,
+          "extract_ms": 3922.5137910000003,
+          "blocks": 3,
+          "generated_tokens": 511
+        }
+      }
+    ],
+    "stderr": "2026-10-23T12:29:30.816410Z  INFO teleocr: model loaded in 0.6s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4746.314208000001,\"extract_ms\":3922.5137910000003,\"blocks\":3,\"generated_tokens\":511}\n1 page(s) in 8.67s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd/inputs/page-0029.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 9.358029250055552,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

@@ -1,0 +1,189 @@
+{
+  "books": [
+    {
+      "id": "10289757bsb",
+      "document": "workspace/expanded400/10289757bsb",
+      "pages": "9-14,70-71",
+      "source": "data/10289757bsb.pdf",
+      "source_sha256": "9a79e4af196f5d980552f8e5aa345bcff494fe603323105824fdfa4548a56cc1"
+    },
+    {
+      "id": "makrobiotikoderd00hufeuoft",
+      "document": "workspace/expanded400/makrobiotikoderd00hufeuoft",
+      "pages": "25-30,200-201",
+      "source": "data/makrobiotikoderd00hufeuoft.pdf",
+      "source_sha256": "927ab0916d8452bdb2c11045031bf01ca52df5871a1f7612137ef226b46b5293"
+    }
+  ],
+  "selection_basis": "Visual scan review before new model outputs. Fixed 16 pages, 12 adjacent boundaries. A 9-14 stained Antiqua, page 12 footnote; 70-71 Latin prescriptions and units. B 25-30 dense Fraktur, chapter title, centered Latin; 200-201 chapter heading and dense Fraktur.",
+  "reference_status": "Provisional assistant visual transcriptions; not independent human gold",
+  "quality_scoring": "Full-page references for 14 prose/mixed-text pages. Prescription pages A70-71 are structure/symbol review only; no invented gold for ambiguous apothecary glyphs.",
+  "render_qa": "16-page native-400 contact sheets visually reviewed before OCR; difficult Fraktur PDF200 additionally inspected. All images nonblank, recognizable and without invisible-OCR rectangles; no fallback.",
+  "experiment": {
+    "dpi": 400,
+    "renderer": "pdfrune",
+    "fallback_allowed": false,
+    "render_pixel_budget": 100000000,
+    "prior_selection": "datasets/expanded/selection.json",
+    "prior_report": "workspace/expanded/report/comparison.json",
+    "reference_hashes": {
+      "references/makrobiotikoderd00hufeuoft/page-0025.txt": "4640bf96721bd6569fbcdad8c8a8bd3583732f92422f9b0316e5637e28284603",
+      "references/makrobiotikoderd00hufeuoft/page-0030.txt": "e2ab29ee865a1e3663bd95e01258736c3b46898c39b6b28be34fc148dbfad4ac",
+      "references/makrobiotikoderd00hufeuoft/page-0026.txt": "01a63460dca7de6219c39a8fc96f7705e5def3c21e5c9f2e64b658aa45a2cf86",
+      "references/makrobiotikoderd00hufeuoft/page-0027.txt": "10236840c2550a171fbdce2d0652b4d9e474b71432c0bea2c0840e5f5c9cecea",
+      "references/makrobiotikoderd00hufeuoft/page-0200.txt": "a9e58ae56b10bdefacce1572e4f86905fdcea79a1ff2102d1edcc74492a73018",
+      "references/makrobiotikoderd00hufeuoft/page-0201.txt": "327f1f1e475984adc0989ab892346d79fa03c958a7e7b08de50a628cdbfaa6c7",
+      "references/makrobiotikoderd00hufeuoft/page-0029.txt": "f2bd5f89c1efdd0f4531498fe1b0aac039a8e74c89d0bbb57528b3c3a3cb4409",
+      "references/makrobiotikoderd00hufeuoft/page-0028.txt": "6cd0cc492fb3b52802cfe01f00d1006dc6d4f254b4f521e47e89e41ce8b43005",
+      "references/10289757bsb/page-0009.txt": "eabae7b22dd8aecfe23d45886364440d0066be1402ad7483ee6bbaf135aed5a1",
+      "references/10289757bsb/page-0014.txt": "bc775d211cc7d7d14749f93eec8306575350af9713261b9c559b5d5fbaf9d7b1",
+      "references/10289757bsb/page-0010.txt": "94bede5ad5f5c7ffc503711d6386419d3e1b67c015193df693926fd7aac0df00",
+      "references/10289757bsb/page-0011.txt": "39f4acc4a0ffa43cb783ceb9f0a5f98deff59dc9c94ba6a0ee47842a7e3d1366",
+      "references/10289757bsb/page-0013.txt": "93b31b9b588a42684ce3011cf33e90b9a2e8c224b53ff777a49e7e4f502e54bd",
+      "references/10289757bsb/page-0012.txt": "bbf8d0c42a5787d78067ecefe1e7bd2cafad58d370b99b9b180834715c7a7cfd"
+    },
+    "model_profiles": {
+      "native": {
+        "repo": "pdfrune",
+        "parameters_b": null,
+        "license": "MIT OR Apache-2.0",
+        "backend": "native",
+        "mode": "native-pdf",
+        "prompt": "",
+        "max_tokens": 0
+      },
+      "boundary-tiny": {
+        "repo": "Qwen/Qwen2.5-0.5B-Instruct",
+        "parameters_b": 0.5,
+        "license": "Apache-2.0",
+        "backend": "mlx-text",
+        "mode": "boundary-classifier-only",
+        "prompt": "",
+        "max_tokens": 512,
+        "notes": "Tiny local baseline. Must pass boundary regression tests before trusting applied joins. Uses text only, no OCR."
+      },
+      "boundary-small": {
+        "repo": "mlx-community/Qwen3-1.7B-4bit",
+        "parameters_b": 1.7,
+        "license": "Apache-2.0 (upstream; verify conversion)",
+        "backend": "mlx-text",
+        "mode": "boundary-classifier-only",
+        "prompt": "",
+        "max_tokens": 512,
+        "notes": "Larger small-model candidate; compare false joins against boundary-tiny. No model downloaded at import time."
+      },
+      "glm-ocr": {
+        "repo": "mlx-community/GLM-OCR-bf16",
+        "upstream": "zai-org/GLM-OCR",
+        "parameters_b": 0.9,
+        "license": "MIT (weights); Apache-2.0 (layout)",
+        "backend": "mlx",
+        "mode": "model-only-full-page",
+        "prompt": "Text Recognition:",
+        "max_tokens": 8192,
+        "temperature": 0.0,
+        "longest_edge": 2048,
+        "notes": "Official benchmark pipeline adds PP-DocLayoutV3 and region recognition. This adapter does not reproduce it."
+      },
+      "ovisocr3": {
+        "repo": "ATH-MaaS/OvisOCR3",
+        "parameters_b": 0.8,
+        "license": "Apache-2.0",
+        "backend": "mlx",
+        "mode": "page-markdown",
+        "prompt_file": "prompts/document_markdown.txt",
+        "max_tokens": 16384,
+        "temperature": 0.0,
+        "longest_edge": 2880,
+        "notes": "Locally executed on M3 Max with MLX 0.7.10 and original BF16 weights, official document-Markdown prompt, Archive.org PDF 9-10. Drops the page-final hyphen in this sample. Other tasks untested."
+      },
+      "paddle-vl": {
+        "repo": "PaddlePaddle/PaddleOCR-VL-1.6",
+        "parameters_b": 0.9,
+        "license": "Apache-2.0",
+        "backend": "mlx",
+        "mode": "layout-crops-markdown",
+        "prompt": "OCR:",
+        "max_tokens": 8192,
+        "temperature": 0.0,
+        "longest_edge": 4096,
+        "notes": "Locally executed: PP-DocLayoutV3 Torch CPU layout + PaddleOCR-VL-1.6 BF16 MLX region OCR; rectangle crops and simple reading-order assembly. Batch-axis compatibility shim required. Tested Archive.org PDF 9-10; not exact PaddleX benchmark parity.",
+        "pipeline": "paddle-layout"
+      },
+      "lighton-3-08b": {
+        "repo": "lightonai/LightOnOCR-3-0.8B",
+        "parameters_b": 0.8,
+        "license": "Apache-2.0",
+        "backend": "mlx",
+        "mode": "page-grounding",
+        "prompt": "grounding",
+        "max_tokens": 16384,
+        "temperature": 0.1,
+        "longest_edge": 2048,
+        "notes": "Qwen3.5 architecture. MLX execution is experimental until smoke-tested. Grounding markers are retained in raw output."
+      },
+      "lighton-3-4b": {
+        "repo": "lightonai/LightOnOCR-3-4B",
+        "parameters_b": 4.0,
+        "license": "Apache-2.0",
+        "backend": "mlx",
+        "mode": "page-grounding",
+        "prompt": "grounding",
+        "max_tokens": 16384,
+        "temperature": 0.1,
+        "longest_edge": 2048,
+        "notes": "Nominal model size differs from serialized total including vision. Runtime support must be checked."
+      },
+      "teleocr": {
+        "repo": "XingChen-AGI/TeleOCR",
+        "parameters_b": 1.2,
+        "license": "Apache-2.0 (weights); SDK dependency review needed",
+        "backend": "teleocr",
+        "mode": "layout-crops-markdown",
+        "prompt": null,
+        "max_tokens": 16384,
+        "temperature": 0.0,
+        "longest_edge": 4096,
+        "notes": "Locally executed using Apache-2.0 teleocr-rs 0.2.0, Q8 text/vision GGUF and a recorded Metal device-selection fix. Full layout/crop pipeline tested on Archive.org PDF 9-10. Text/table reference examples match. Port has figure/title/LaTeX limitations."
+      },
+      "mineru-pro": {
+        "repo": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+        "parameters_b": 1.2,
+        "license": "Apache-2.0 declared for weights; application has additional terms",
+        "backend": "command",
+        "mode": "external-pipeline-required",
+        "prompt": null,
+        "max_tokens": 16384,
+        "temperature": 0.0,
+        "longest_edge": 2048,
+        "notes": "Use mineru-vl-utils/full pipeline through command protocol after license review. Model-only inference does not reproduce coarse-to-fine parsing."
+      },
+      "dots-mocr": {
+        "repo": "dots-studio/dots.mocr",
+        "parameters_b": 3.0,
+        "license": "MIT",
+        "backend": "command",
+        "mode": "external-pipeline-required",
+        "prompt": null,
+        "max_tokens": 16384,
+        "temperature": 0.0,
+        "longest_edge": 2048,
+        "notes": "Use official task prompts and postprocessing in an external runner; generic OCR prompt deliberately not invented."
+      },
+      "xiaomi-ocr": {
+        "repo": "SeerRay-Lab/Xiaomi-OCR-0",
+        "parameters_b": 0.8,
+        "license": "Apache-2.0",
+        "backend": "command",
+        "mode": "external-pipeline-required",
+        "prompt": null,
+        "max_tokens": 16384,
+        "temperature": 0.0,
+        "longest_edge": 2048,
+        "notes": "Official parsing is layout-first; use command protocol for a faithful implementation."
+      }
+    },
+    "renderer_fix_commit": "e174cbc6f80c1707ba048e46b9810cc85a8995d9",
+    "note": "Both renderer and DPI change versus frozen PDFium 200-DPI inputs. Model versions, prompts and profile resize caps remain fixed. No causal isolation of DPI alone."
+  }
+}

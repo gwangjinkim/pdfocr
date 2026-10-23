@@ -1,0 +1,4102 @@
+{
+  "selection": {
+    "books": [
+      {
+        "id": "10289757bsb",
+        "document": "workspace/expanded/10289757bsb",
+        "pages": "9-14,70-71"
+      },
+      {
+        "id": "makrobiotikoderd00hufeuoft",
+        "document": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium",
+        "pages": "25-30,200-201"
+      }
+    ],
+    "selection_basis": "Visual scan review before new model outputs. Fixed 16 pages, 12 adjacent boundaries. A 9-14 stained Antiqua, page 12 footnote; 70-71 Latin prescriptions and units. B 25-30 dense Fraktur, chapter title, centered Latin; 200-201 chapter heading and dense Fraktur.",
+    "reference_status": "Provisional assistant visual transcriptions; not independent human gold",
+    "quality_scoring": "Full-page references for 14 prose/mixed-text pages. Prescription pages A70-71 are structure/symbol review only; no invented gold for ambiguous apothecary glyphs.",
+    "render_qa": {
+      "bookA": "PDFium fallback after blank pdfrune raster; scan inspected",
+      "bookB": "Explicit PDFium; pdfrune produced nonblank corrupted glyph rectangles, rejected by visual QA; no corrupted renders used for comparison"
+    }
+  },
+  "reference_status": "14 full-page provisional assistant visual transcriptions; two prescription pages reviewed without CER gold. No independent human adjudication.",
+  "metrics_note": "CER/WER include case, historical spelling and punctuation; furniture/emphasis/internal line-wrap hyphens normalized. These are transcript edit rates, not semantic accuracy. Footnotes belong in the all-readable-text contract.",
+  "models": [
+    {
+      "name": "glm-ocr",
+      "pages": [
+        {
+          "book": "10289757bsb",
+          "page": 9,
+          "reference_sha256": "eabae7b22dd8aecfe23d45886364440d0066be1402ad7483ee6bbaf135aed5a1",
+          "character_edits": 3,
+          "reference_characters": 1054,
+          "word_edits": 4,
+          "reference_words": 152,
+          "cer": 0.0028462998102466793,
+          "wer": 0.02631578947368421,
+          "run": "workspace/expanded/10289757bsb/runs/glm-ocr-mlx-a3dce581887359f1",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 10,
+          "reference_sha256": "94bede5ad5f5c7ffc503711d6386419d3e1b67c015193df693926fd7aac0df00",
+          "character_edits": 13,
+          "reference_characters": 1076,
+          "word_edits": 6,
+          "reference_words": 153,
+          "cer": 0.012081784386617101,
+          "wer": 0.0392156862745098,
+          "run": "workspace/expanded/10289757bsb/runs/glm-ocr-mlx-a3dce581887359f1",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 11,
+          "reference_sha256": "39f4acc4a0ffa43cb783ceb9f0a5f98deff59dc9c94ba6a0ee47842a7e3d1366",
+          "character_edits": 11,
+          "reference_characters": 981,
+          "word_edits": 8,
+          "reference_words": 148,
+          "cer": 0.011213047910295617,
+          "wer": 0.05405405405405406,
+          "run": "workspace/expanded/10289757bsb/runs/glm-ocr-mlx-a3dce581887359f1",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 12,
+          "reference_sha256": "bbf8d0c42a5787d78067ecefe1e7bd2cafad58d370b99b9b180834715c7a7cfd",
+          "character_edits": 8,
+          "reference_characters": 1169,
+          "word_edits": 7,
+          "reference_words": 182,
+          "cer": 0.006843455945252352,
+          "wer": 0.038461538461538464,
+          "run": "workspace/expanded/10289757bsb/runs/glm-ocr-mlx-a3dce581887359f1",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 13,
+          "reference_sha256": "93b31b9b588a42684ce3011cf33e90b9a2e8c224b53ff777a49e7e4f502e54bd",
+          "character_edits": 13,
+          "reference_characters": 1119,
+          "word_edits": 8,
+          "reference_words": 176,
+          "cer": 0.01161751563896336,
+          "wer": 0.045454545454545456,
+          "run": "workspace/expanded/10289757bsb/runs/glm-ocr-mlx-a3dce581887359f1",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 14,
+          "reference_sha256": "bc775d211cc7d7d14749f93eec8306575350af9713261b9c559b5d5fbaf9d7b1",
+          "character_edits": 2,
+          "reference_characters": 1055,
+          "word_edits": 2,
+          "reference_words": 170,
+          "cer": 0.0018957345971563982,
+          "wer": 0.011764705882352941,
+          "run": "workspace/expanded/10289757bsb/runs/glm-ocr-mlx-a3dce581887359f1",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 25,
+          "reference_sha256": "4640bf96721bd6569fbcdad8c8a8bd3583732f92422f9b0316e5637e28284603",
+          "character_edits": 31,
+          "reference_characters": 1056,
+          "word_edits": 19,
+          "reference_words": 155,
+          "cer": 0.029356060606060608,
+          "wer": 0.12258064516129032,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/glm-ocr-mlx-f6e60cb18c08ea3d",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 26,
+          "reference_sha256": "01a63460dca7de6219c39a8fc96f7705e5def3c21e5c9f2e64b658aa45a2cf86",
+          "character_edits": 41,
+          "reference_characters": 1472,
+          "word_edits": 27,
+          "reference_words": 231,
+          "cer": 0.027853260869565216,
+          "wer": 0.11688311688311688,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/glm-ocr-mlx-f6e60cb18c08ea3d",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 27,
+          "reference_sha256": "10236840c2550a171fbdce2d0652b4d9e474b71432c0bea2c0840e5f5c9cecea",
+          "character_edits": 49,
+          "reference_characters": 1448,
+          "word_edits": 28,
+          "reference_words": 208,
+          "cer": 0.03383977900552486,
+          "wer": 0.1346153846153846,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/glm-ocr-mlx-f6e60cb18c08ea3d",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 28,
+          "reference_sha256": "6cd0cc492fb3b52802cfe01f00d1006dc6d4f254b4f521e47e89e41ce8b43005",
+          "character_edits": 41,
+          "reference_characters": 1484,
+          "word_edits": 27,
+          "reference_words": 219,
+          "cer": 0.027628032345013476,
+          "wer": 0.1232876712328767,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/glm-ocr-mlx-f6e60cb18c08ea3d",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 29,
+          "reference_sha256": "f2bd5f89c1efdd0f4531498fe1b0aac039a8e74c89d0bbb57528b3c3a3cb4409",
+          "character_edits": 30,
+          "reference_characters": 1453,
+          "word_edits": 23,
+          "reference_words": 219,
+          "cer": 0.02064693737095664,
+          "wer": 0.1050228310502283,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/glm-ocr-mlx-f6e60cb18c08ea3d",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 30,
+          "reference_sha256": "e2ab29ee865a1e3663bd95e01258736c3b46898c39b6b28be34fc148dbfad4ac",
+          "character_edits": 32,
+          "reference_characters": 1107,
+          "word_edits": 26,
+          "reference_words": 170,
+          "cer": 0.028906955736224028,
+          "wer": 0.15294117647058825,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/glm-ocr-mlx-f6e60cb18c08ea3d",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 200,
+          "reference_sha256": "a9e58ae56b10bdefacce1572e4f86905fdcea79a1ff2102d1edcc74492a73018",
+          "character_edits": 100,
+          "reference_characters": 1240,
+          "word_edits": 42,
+          "reference_words": 179,
+          "cer": 0.08064516129032258,
+          "wer": 0.2346368715083799,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/glm-ocr-mlx-f6e60cb18c08ea3d",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 201,
+          "reference_sha256": "327f1f1e475984adc0989ab892346d79fa03c958a7e7b08de50a628cdbfaa6c7",
+          "character_edits": 88,
+          "reference_characters": 1482,
+          "word_edits": 44,
+          "reference_words": 215,
+          "cer": 0.059379217273954114,
+          "wer": 0.20465116279069767,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/glm-ocr-mlx-f6e60cb18c08ea3d",
+          "possibly_truncated": false
+        }
+      ],
+      "books": {
+        "10289757bsb": {
+          "scored_pages": 6,
+          "cer": 0.0077471335605825845,
+          "wer": 0.03567787971457696
+        },
+        "makrobiotikoderd00hufeuoft": {
+          "scored_pages": 8,
+          "cer": 0.03835412399925526,
+          "wer": 0.14786967418546365
+        }
+      },
+      "inference_seconds": 56.171372710727155,
+      "worker_seconds": 63.82962637487799,
+      "boundary_results": [
+        {
+          "book": "10289757bsb",
+          "model": "glm-ocr",
+          "left_page": 9,
+          "right_page": 10,
+          "expected_action": "join_word",
+          "action": "join_word",
+          "word_join_correct": true,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "dem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der ansteckenden aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Gan",
+          "offset": 1057
+        },
+        {
+          "book": "10289757bsb",
+          "model": "glm-ocr",
+          "left_page": 10,
+          "right_page": 11,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "rden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Krank",
+          "offset": 2138
+        },
+        {
+          "book": "10289757bsb",
+          "model": "glm-ocr",
+          "left_page": 11,
+          "right_page": 12,
+          "expected_action": "join_word",
+          "action": "join_word",
+          "word_join_correct": true,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "berdiefs wird noch dadurch der große Vortheil gewonnen, dafs die Berührungspunkte der Hülflosen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Unglück",
+          "offset": 3126
+        },
+        {
+          "book": "10289757bsb",
+          "model": "glm-ocr",
+          "left_page": 12,
+          "right_page": 13,
+          "expected_action": "join_word",
+          "action": "uncertain",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": " oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Grösse — zu einem Pr",
+          "offset": 4305
+        },
+        {
+          "book": "10289757bsb",
+          "model": "glm-ocr",
+          "left_page": 13,
+          "right_page": 14,
+          "expected_action": "join_word",
+          "action": "join_word",
+          "word_join_correct": true,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "ere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksamkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besoldete, He",
+          "offset": 5430
+        },
+        {
+          "book": "10289757bsb",
+          "model": "glm-ocr",
+          "left_page": 70,
+          "right_page": 71,
+          "expected_action": "keep",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "bani.\n— Hellebori.\n— Hyoscyami.\n— Nicotianae.\n— Stramonii.\n— Valerianae.\n— Toxicodendri.\n\n* Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum.)\n\nR. Sulphuris stibiat. aurantiac",
+          "offset": 7220
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "glm-ocr",
+          "left_page": 25,
+          "right_page": 26,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "chgehen, nirgends finden wir eine so vollkommenene Verbindung aller lebendigen Kräfte der Natur, nirgendso viel Energie des Lebens, mit\nfolcher Dauer vereinigt, als hier. Kein Wund",
+          "offset": 1065
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "glm-ocr",
+          "left_page": 26,
+          "right_page": 27,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "verlängern, und dem nur gar zu stücktigen Genuß dieses Guts mehr Ausdehnung zu geben? Und wirflich beschäftigte dies Problem von jeher die Menschheit auf verschiedenen Weise. Es wa",
+          "offset": 2542
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "glm-ocr",
+          "left_page": 27,
+          "right_page": 28,
+          "expected_action": "paragraph",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "hmen, und flatt zu sagen, wie befindet du dich, fragte man einander; Wie schwisest du? —\n\nGanz anders bildete sich dieser Trieb bei den Grießen, unter dem Einfluß einer reinen und ",
+          "offset": 3979
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "glm-ocr",
+          "left_page": 28,
+          "right_page": 29,
+          "expected_action": "join_space",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "azieren zu gehen, sich reiben zu laffen, und je mehr die Kranfheit abmattete, defio mehr\n\ndurch Anstrengung der Muskelfräfte diese Mattig-\nfeit zu überwältigen; und er hatte das Gl",
+          "offset": 5461
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "glm-ocr",
+          "left_page": 29,
+          "right_page": 30,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "oer have ließ einen alten Umsterdamer\nBürgermeister zwischen zwei jungen Leuten schlafen, und verfischert, der Alte habe dadurch fichtbar an Munterfeit und Kräften zugenommen. Und ",
+          "offset": 6924
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "glm-ocr",
+          "left_page": 200,
+          "right_page": 201,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "Verdaunung siftem gut befrauen feen. — Es ist unglaublich, von weicher Wichtigkeit dieser Großmächtigte aller Herrscher im animalischen Neuge\nin dieser Hinricht ist, und man fann m",
+          "offset": 9288
+        }
+      ],
+      "cer": 0.026866713189113746,
+      "wer": 0.10516103996895615,
+      "book_macro_cer": 0.02305062877991892,
+      "word_joins_correct": 3,
+      "false_word_joins": 0,
+      "deferred_boundaries": 4
+    },
+    {
+      "name": "ovisocr3",
+      "pages": [
+        {
+          "book": "10289757bsb",
+          "page": 9,
+          "reference_sha256": "eabae7b22dd8aecfe23d45886364440d0066be1402ad7483ee6bbaf135aed5a1",
+          "character_edits": 9,
+          "reference_characters": 1054,
+          "word_edits": 8,
+          "reference_words": 152,
+          "cer": 0.008538899430740038,
+          "wer": 0.05263157894736842,
+          "run": "workspace/expanded/10289757bsb/runs/ovisocr3-mlx-658c530e96820b02",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 10,
+          "reference_sha256": "94bede5ad5f5c7ffc503711d6386419d3e1b67c015193df693926fd7aac0df00",
+          "character_edits": 8,
+          "reference_characters": 1076,
+          "word_edits": 5,
+          "reference_words": 153,
+          "cer": 0.007434944237918215,
+          "wer": 0.032679738562091505,
+          "run": "workspace/expanded/10289757bsb/runs/ovisocr3-mlx-658c530e96820b02",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 11,
+          "reference_sha256": "39f4acc4a0ffa43cb783ceb9f0a5f98deff59dc9c94ba6a0ee47842a7e3d1366",
+          "character_edits": 11,
+          "reference_characters": 981,
+          "word_edits": 6,
+          "reference_words": 148,
+          "cer": 0.011213047910295617,
+          "wer": 0.04054054054054054,
+          "run": "workspace/expanded/10289757bsb/runs/ovisocr3-mlx-658c530e96820b02",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 12,
+          "reference_sha256": "bbf8d0c42a5787d78067ecefe1e7bd2cafad58d370b99b9b180834715c7a7cfd",
+          "character_edits": 9,
+          "reference_characters": 1169,
+          "word_edits": 7,
+          "reference_words": 182,
+          "cer": 0.007698887938408896,
+          "wer": 0.038461538461538464,
+          "run": "workspace/expanded/10289757bsb/runs/ovisocr3-mlx-658c530e96820b02",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 13,
+          "reference_sha256": "93b31b9b588a42684ce3011cf33e90b9a2e8c224b53ff777a49e7e4f502e54bd",
+          "character_edits": 16,
+          "reference_characters": 1119,
+          "word_edits": 10,
+          "reference_words": 176,
+          "cer": 0.014298480786416443,
+          "wer": 0.056818181818181816,
+          "run": "workspace/expanded/10289757bsb/runs/ovisocr3-mlx-658c530e96820b02",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 14,
+          "reference_sha256": "bc775d211cc7d7d14749f93eec8306575350af9713261b9c559b5d5fbaf9d7b1",
+          "character_edits": 7,
+          "reference_characters": 1055,
+          "word_edits": 5,
+          "reference_words": 170,
+          "cer": 0.006635071090047393,
+          "wer": 0.029411764705882353,
+          "run": "workspace/expanded/10289757bsb/runs/ovisocr3-mlx-658c530e96820b02",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 25,
+          "reference_sha256": "4640bf96721bd6569fbcdad8c8a8bd3583732f92422f9b0316e5637e28284603",
+          "character_edits": 19,
+          "reference_characters": 1056,
+          "word_edits": 11,
+          "reference_words": 155,
+          "cer": 0.017992424242424244,
+          "wer": 0.07096774193548387,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/ovisocr3-mlx-f66100dd41922f1a",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 26,
+          "reference_sha256": "01a63460dca7de6219c39a8fc96f7705e5def3c21e5c9f2e64b658aa45a2cf86",
+          "character_edits": 16,
+          "reference_characters": 1472,
+          "word_edits": 11,
+          "reference_words": 231,
+          "cer": 0.010869565217391304,
+          "wer": 0.047619047619047616,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/ovisocr3-mlx-f66100dd41922f1a",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 27,
+          "reference_sha256": "10236840c2550a171fbdce2d0652b4d9e474b71432c0bea2c0840e5f5c9cecea",
+          "character_edits": 22,
+          "reference_characters": 1448,
+          "word_edits": 14,
+          "reference_words": 208,
+          "cer": 0.015193370165745856,
+          "wer": 0.0673076923076923,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/ovisocr3-mlx-f66100dd41922f1a",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 28,
+          "reference_sha256": "6cd0cc492fb3b52802cfe01f00d1006dc6d4f254b4f521e47e89e41ce8b43005",
+          "character_edits": 15,
+          "reference_characters": 1484,
+          "word_edits": 12,
+          "reference_words": 219,
+          "cer": 0.010107816711590296,
+          "wer": 0.0547945205479452,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/ovisocr3-mlx-f66100dd41922f1a",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 29,
+          "reference_sha256": "f2bd5f89c1efdd0f4531498fe1b0aac039a8e74c89d0bbb57528b3c3a3cb4409",
+          "character_edits": 4,
+          "reference_characters": 1453,
+          "word_edits": 3,
+          "reference_words": 219,
+          "cer": 0.0027529249827942187,
+          "wer": 0.0136986301369863,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/ovisocr3-mlx-f66100dd41922f1a",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 30,
+          "reference_sha256": "e2ab29ee865a1e3663bd95e01258736c3b46898c39b6b28be34fc148dbfad4ac",
+          "character_edits": 25,
+          "reference_characters": 1107,
+          "word_edits": 17,
+          "reference_words": 170,
+          "cer": 0.022583559168925023,
+          "wer": 0.1,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/ovisocr3-mlx-f66100dd41922f1a",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 200,
+          "reference_sha256": "a9e58ae56b10bdefacce1572e4f86905fdcea79a1ff2102d1edcc74492a73018",
+          "character_edits": 64,
+          "reference_characters": 1240,
+          "word_edits": 30,
+          "reference_words": 179,
+          "cer": 0.05161290322580645,
+          "wer": 0.16759776536312848,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/ovisocr3-mlx-f66100dd41922f1a",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 201,
+          "reference_sha256": "327f1f1e475984adc0989ab892346d79fa03c958a7e7b08de50a628cdbfaa6c7",
+          "character_edits": 40,
+          "reference_characters": 1482,
+          "word_edits": 21,
+          "reference_words": 215,
+          "cer": 0.02699055330634278,
+          "wer": 0.09767441860465116,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/ovisocr3-mlx-f66100dd41922f1a",
+          "possibly_truncated": false
+        }
+      ],
+      "books": {
+        "10289757bsb": {
+          "scored_pages": 6,
+          "cer": 0.009296560272699102,
+          "wer": 0.0417940876656473
+        },
+        "makrobiotikoderd00hufeuoft": {
+          "scored_pages": 8,
+          "cer": 0.019083969465648856,
+          "wer": 0.07456140350877193
+        }
+      },
+      "inference_seconds": 53.691163040697575,
+      "worker_seconds": 56.75399237405509,
+      "boundary_results": [
+        {
+          "book": "10289757bsb",
+          "model": "ovisocr3",
+          "left_page": 9,
+          "right_page": 10,
+          "expected_action": "join_word",
+          "action": "join_space",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "em sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Gan",
+          "offset": 1065
+        },
+        {
+          "book": "10289757bsb",
+          "model": "ovisocr3",
+          "left_page": 10,
+          "right_page": 11,
+          "expected_action": "join_space",
+          "action": "paragraph",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "den. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme\n\n7\n\nzählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kr",
+          "offset": 2148
+        },
+        {
+          "book": "10289757bsb",
+          "model": "ovisocr3",
+          "left_page": 11,
+          "right_page": 12,
+          "expected_action": "join_word",
+          "action": "keep",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "iefis wird noch dadurch der große Vortheil gewonnen, dafs die Berührungspunkte der Hülf-\n\n8\n\nlosen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Ungl",
+          "offset": 3143
+        },
+        {
+          "book": "10289757bsb",
+          "model": "ovisocr3",
+          "left_page": 12,
+          "right_page": 13,
+          "expected_action": "join_word",
+          "action": "uncertain",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": " oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.\n\n9\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem ",
+          "offset": 4326
+        },
+        {
+          "book": "10289757bsb",
+          "model": "ovisocr3",
+          "left_page": 13,
+          "right_page": 14,
+          "expected_action": "join_word",
+          "action": "uncertain",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": " Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksam-\n\n10\n\nkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-\nde",
+          "offset": 5458
+        },
+        {
+          "book": "10289757bsb",
+          "model": "ovisocr3",
+          "left_page": 70,
+          "right_page": 71,
+          "expected_action": "keep",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": ".\n\nGalbani.\n\nHellebori.\n\nHyoscyami.\n\nNicotianae.\n\nStramonii.\n\nValerianae.\n\nToxicodendri.\n\n67\n\n* Tinctura Antimonii acris.\n\n(Sulphur Antimonii liquidum.)\n\nR. Sulphuris stibiat. aura",
+          "offset": 7257
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "ovisocr3",
+          "left_page": 25,
+          "right_page": 26,
+          "expected_action": "join_space",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "hen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n\n1 *\n\nNatur, nirgendes so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein W",
+          "offset": 1070
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "ovisocr3",
+          "left_page": 26,
+          "right_page": 27,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "erlängern, und dem nur gar zu flüchtigen Genuß dieses Gutes mehr Ausdehnung zu geben? Und wirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war",
+          "offset": 2545
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "ovisocr3",
+          "left_page": 27,
+          "right_page": 28,
+          "expected_action": "paragraph",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "en, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwisbest du? —\n\nGanz anders bildete sich dieser Trieb bei den Griechen, unter dem Einfluss einer reinen un",
+          "offset": 3991
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "ovisocr3",
+          "left_page": 28,
+          "right_page": 29,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "azieren zu gehen, sich reiben zu lassen, und sie mehr die Krankheit abmattete, desto mehr durch Anstrengung der Muskelfräste diese Mattigkeit zu überwältigen; und er hatte das Glüc",
+          "offset": 5478
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "ovisocr3",
+          "left_page": 29,
+          "right_page": 30,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "Boerhave ließ einen alten Amsterdamer Bürgermeister zwischen zwei jungen Leuten schlafen, und versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und",
+          "offset": 6932
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "ovisocr3",
+          "left_page": 200,
+          "right_page": 201,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "e Verdauungssystem gut befaßen sein. — Es ist ungläublich, von welcher Wichtigkeit dieser Großmächtigste aller Herrscher im animalischen Reiche in dieser Hinsicht ist, und man kann",
+          "offset": 9310
+        }
+      ],
+      "cer": 0.015410560595487323,
+      "wer": 0.06208769887466046,
+      "book_macro_cer": 0.014190264869173979,
+      "word_joins_correct": 0,
+      "false_word_joins": 0,
+      "deferred_boundaries": 5
+    },
+    {
+      "name": "paddle-vl",
+      "pages": [
+        {
+          "book": "10289757bsb",
+          "page": 9,
+          "reference_sha256": "eabae7b22dd8aecfe23d45886364440d0066be1402ad7483ee6bbaf135aed5a1",
+          "character_edits": 4,
+          "reference_characters": 1054,
+          "word_edits": 4,
+          "reference_words": 152,
+          "cer": 0.003795066413662239,
+          "wer": 0.02631578947368421,
+          "run": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 10,
+          "reference_sha256": "94bede5ad5f5c7ffc503711d6386419d3e1b67c015193df693926fd7aac0df00",
+          "character_edits": 12,
+          "reference_characters": 1076,
+          "word_edits": 9,
+          "reference_words": 153,
+          "cer": 0.011152416356877323,
+          "wer": 0.058823529411764705,
+          "run": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 11,
+          "reference_sha256": "39f4acc4a0ffa43cb783ceb9f0a5f98deff59dc9c94ba6a0ee47842a7e3d1366",
+          "character_edits": 11,
+          "reference_characters": 981,
+          "word_edits": 8,
+          "reference_words": 148,
+          "cer": 0.011213047910295617,
+          "wer": 0.05405405405405406,
+          "run": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 12,
+          "reference_sha256": "bbf8d0c42a5787d78067ecefe1e7bd2cafad58d370b99b9b180834715c7a7cfd",
+          "character_edits": 452,
+          "reference_characters": 1169,
+          "word_edits": 76,
+          "reference_words": 182,
+          "cer": 0.3866552609067579,
+          "wer": 0.4175824175824176,
+          "run": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 13,
+          "reference_sha256": "93b31b9b588a42684ce3011cf33e90b9a2e8c224b53ff777a49e7e4f502e54bd",
+          "character_edits": 16,
+          "reference_characters": 1119,
+          "word_edits": 9,
+          "reference_words": 176,
+          "cer": 0.014298480786416443,
+          "wer": 0.05113636363636364,
+          "run": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 14,
+          "reference_sha256": "bc775d211cc7d7d14749f93eec8306575350af9713261b9c559b5d5fbaf9d7b1",
+          "character_edits": 11,
+          "reference_characters": 1055,
+          "word_edits": 9,
+          "reference_words": 170,
+          "cer": 0.01042654028436019,
+          "wer": 0.052941176470588235,
+          "run": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 25,
+          "reference_sha256": "4640bf96721bd6569fbcdad8c8a8bd3583732f92422f9b0316e5637e28284603",
+          "character_edits": 333,
+          "reference_characters": 1056,
+          "word_edits": 69,
+          "reference_words": 155,
+          "cer": 0.3153409090909091,
+          "wer": 0.44516129032258067,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 26,
+          "reference_sha256": "01a63460dca7de6219c39a8fc96f7705e5def3c21e5c9f2e64b658aa45a2cf86",
+          "character_edits": 37,
+          "reference_characters": 1472,
+          "word_edits": 24,
+          "reference_words": 231,
+          "cer": 0.025135869565217392,
+          "wer": 0.1038961038961039,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 27,
+          "reference_sha256": "10236840c2550a171fbdce2d0652b4d9e474b71432c0bea2c0840e5f5c9cecea",
+          "character_edits": 46,
+          "reference_characters": 1448,
+          "word_edits": 26,
+          "reference_words": 208,
+          "cer": 0.031767955801104975,
+          "wer": 0.125,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 28,
+          "reference_sha256": "6cd0cc492fb3b52802cfe01f00d1006dc6d4f254b4f521e47e89e41ce8b43005",
+          "character_edits": 43,
+          "reference_characters": 1484,
+          "word_edits": 29,
+          "reference_words": 219,
+          "cer": 0.028975741239892182,
+          "wer": 0.1324200913242009,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 29,
+          "reference_sha256": "f2bd5f89c1efdd0f4531498fe1b0aac039a8e74c89d0bbb57528b3c3a3cb4409",
+          "character_edits": 22,
+          "reference_characters": 1453,
+          "word_edits": 13,
+          "reference_words": 219,
+          "cer": 0.015141087405368204,
+          "wer": 0.0593607305936073,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 30,
+          "reference_sha256": "e2ab29ee865a1e3663bd95e01258736c3b46898c39b6b28be34fc148dbfad4ac",
+          "character_edits": 58,
+          "reference_characters": 1107,
+          "word_edits": 25,
+          "reference_words": 170,
+          "cer": 0.052393857271906055,
+          "wer": 0.14705882352941177,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 200,
+          "reference_sha256": "a9e58ae56b10bdefacce1572e4f86905fdcea79a1ff2102d1edcc74492a73018",
+          "character_edits": 84,
+          "reference_characters": 1240,
+          "word_edits": 45,
+          "reference_words": 179,
+          "cer": 0.06774193548387097,
+          "wer": 0.25139664804469275,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 201,
+          "reference_sha256": "327f1f1e475984adc0989ab892346d79fa03c958a7e7b08de50a628cdbfaa6c7",
+          "character_edits": 57,
+          "reference_characters": 1482,
+          "word_edits": 29,
+          "reference_words": 215,
+          "cer": 0.038461538461538464,
+          "wer": 0.13488372093023257,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e",
+          "possibly_truncated": false
+        }
+      ],
+      "books": {
+        "10289757bsb": {
+          "scored_pages": 6,
+          "cer": 0.07840099163309576,
+          "wer": 0.11722731906218145
+        },
+        "makrobiotikoderd00hufeuoft": {
+          "scored_pages": 8,
+          "cer": 0.06330292310556693,
+          "wer": 0.16290726817042606
+        }
+      },
+      "inference_seconds": 59.69591187592596,
+      "worker_seconds": 67.98194358218461,
+      "boundary_results": [
+        {
+          "book": "10289757bsb",
+          "model": "paddle-vl",
+          "left_page": 9,
+          "right_page": 10,
+          "expected_action": "join_word",
+          "action": "join_space",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "em sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Gan",
+          "offset": 1058
+        },
+        {
+          "book": "10289757bsb",
+          "model": "paddle-vl",
+          "left_page": 10,
+          "right_page": 11,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "rden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Krank",
+          "offset": 2142
+        },
+        {
+          "book": "10289757bsb",
+          "model": "paddle-vl",
+          "left_page": 11,
+          "right_page": 12,
+          "expected_action": "join_word",
+          "action": "join_word",
+          "word_join_correct": true,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "Überdies wird noch dadurch der große Vortheil gewonnen, dafs die Berührungspunkte der Hülflosen mit dem wohlhabenden Theil des Pubkums vermehrt werden, wodurch theils den Unglückli",
+          "offset": 3128
+        },
+        {
+          "book": "10289757bsb",
+          "model": "paddle-vl",
+          "left_page": 12,
+          "right_page": 13,
+          "expected_action": "join_word",
+          "action": "uncertain",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "stalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und 'Tausenden zu zählen.\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem Pro",
+          "offset": 3861
+        },
+        {
+          "book": "10289757bsb",
+          "model": "paddle-vl",
+          "left_page": 13,
+          "right_page": 14,
+          "expected_action": "join_word",
+          "action": "join_space",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "re Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksam keit widmen kann, als wenn für das Ganzenur wenige, sey es auch noch so gut besoldete, Hel",
+          "offset": 4986
+        },
+        {
+          "book": "10289757bsb",
+          "model": "paddle-vl",
+          "left_page": 70,
+          "right_page": 71,
+          "expected_action": "keep",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "\n\n— Hellebori.\n\n— Hyoscyami.\n\n— Nicotianae.\n\n— Stramonii.\n\n— Valerianae\n\n— Toxicodendri.\n\n—67—\n\n\\(^{*}\\) Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum.)\n\nSulphuris stibiat.",
+          "offset": 6776
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "paddle-vl",
+          "left_page": 25,
+          "right_page": 26,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "rzkreisen, nergends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der Natur, nirgends’ so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein W",
+          "offset": 1355
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "paddle-vl",
+          "left_page": 26,
+          "right_page": 27,
+          "expected_action": "join_space",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "u verlängern, und dem nur gar zu flüchtigen Ge-nuk dieses Guts mehr Ausdehnung zu geben?\n\nwirklich befschäftigte dies Problem von jeher die Menschenheit auf verschiedene Beife. Es ",
+          "offset": 2828
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "paddle-vl",
+          "left_page": 27,
+          "right_page": 28,
+          "expected_action": "paragraph",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "ehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Sie schwiesst du?\n\nGanz anders bildete sich dieser Trick bei den Grießen, unter dem Einfluss einer reinen und",
+          "offset": 4273
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "paddle-vl",
+          "left_page": 28,
+          "right_page": 29,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "spazieren zu gehen, sich reiben zu lassen, und je mehr die Krankheit abmattete, deso mehr durch Anstrengung der Muskelkräfte diese Mattigkeit zu überwältigen; und er hatte das Glüc",
+          "offset": 5754
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "paddle-vl",
+          "left_page": 29,
+          "right_page": 30,
+          "expected_action": "join_space",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "oerhave ließ einen alten Amsterdamer Bürgermeister zwischen zwei jungen Leuten schlafen.\n\nund versichert, der Ulte habe dadurch fichtbar an Munterkeit und Kräften zugenommen. Und g",
+          "offset": 7205
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "paddle-vl",
+          "left_page": 200,
+          "right_page": 201,
+          "expected_action": "join_space",
+          "action": "paragraph",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": " Verdauungsivem gut bestafenen sein. — Es ist unglaublich, von weißer Lichtigkeit dieser\n\nGroßmächtigste aller Herrscher im animalischen Re‘che in dieser Finsicht ist, und man kann",
+          "offset": 9613
+        }
+      ],
+      "cer": 0.06896952779716213,
+      "wer": 0.14551804423748546,
+      "book_macro_cer": 0.07085195736933134,
+      "word_joins_correct": 1,
+      "false_word_joins": 0,
+      "deferred_boundaries": 5
+    },
+    {
+      "name": "teleocr",
+      "pages": [
+        {
+          "book": "10289757bsb",
+          "page": 9,
+          "reference_sha256": "eabae7b22dd8aecfe23d45886364440d0066be1402ad7483ee6bbaf135aed5a1",
+          "character_edits": 9,
+          "reference_characters": 1054,
+          "word_edits": 7,
+          "reference_words": 152,
+          "cer": 0.008538899430740038,
+          "wer": 0.046052631578947366,
+          "run": "workspace/expanded/10289757bsb/runs/teleocr-teleocr-3742abe73b31a148",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 10,
+          "reference_sha256": "94bede5ad5f5c7ffc503711d6386419d3e1b67c015193df693926fd7aac0df00",
+          "character_edits": 13,
+          "reference_characters": 1076,
+          "word_edits": 8,
+          "reference_words": 153,
+          "cer": 0.012081784386617101,
+          "wer": 0.05228758169934641,
+          "run": "workspace/expanded/10289757bsb/runs/teleocr-teleocr-3742abe73b31a148",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 11,
+          "reference_sha256": "39f4acc4a0ffa43cb783ceb9f0a5f98deff59dc9c94ba6a0ee47842a7e3d1366",
+          "character_edits": 13,
+          "reference_characters": 981,
+          "word_edits": 10,
+          "reference_words": 148,
+          "cer": 0.013251783893985729,
+          "wer": 0.06756756756756757,
+          "run": "workspace/expanded/10289757bsb/runs/teleocr-teleocr-3742abe73b31a148",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 12,
+          "reference_sha256": "bbf8d0c42a5787d78067ecefe1e7bd2cafad58d370b99b9b180834715c7a7cfd",
+          "character_edits": 23,
+          "reference_characters": 1169,
+          "word_edits": 21,
+          "reference_words": 182,
+          "cer": 0.019674935842600515,
+          "wer": 0.11538461538461539,
+          "run": "workspace/expanded/10289757bsb/runs/teleocr-teleocr-3742abe73b31a148",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 13,
+          "reference_sha256": "93b31b9b588a42684ce3011cf33e90b9a2e8c224b53ff777a49e7e4f502e54bd",
+          "character_edits": 31,
+          "reference_characters": 1119,
+          "word_edits": 18,
+          "reference_words": 176,
+          "cer": 0.02770330652368186,
+          "wer": 0.10227272727272728,
+          "run": "workspace/expanded/10289757bsb/runs/teleocr-teleocr-3742abe73b31a148",
+          "possibly_truncated": false
+        },
+        {
+          "book": "10289757bsb",
+          "page": 14,
+          "reference_sha256": "bc775d211cc7d7d14749f93eec8306575350af9713261b9c559b5d5fbaf9d7b1",
+          "character_edits": 15,
+          "reference_characters": 1055,
+          "word_edits": 13,
+          "reference_words": 170,
+          "cer": 0.014218009478672985,
+          "wer": 0.07647058823529412,
+          "run": "workspace/expanded/10289757bsb/runs/teleocr-teleocr-3742abe73b31a148",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 25,
+          "reference_sha256": "4640bf96721bd6569fbcdad8c8a8bd3583732f92422f9b0316e5637e28284603",
+          "character_edits": 141,
+          "reference_characters": 1056,
+          "word_edits": 67,
+          "reference_words": 155,
+          "cer": 0.13352272727272727,
+          "wer": 0.432258064516129,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 26,
+          "reference_sha256": "01a63460dca7de6219c39a8fc96f7705e5def3c21e5c9f2e64b658aa45a2cf86",
+          "character_edits": 202,
+          "reference_characters": 1472,
+          "word_edits": 102,
+          "reference_words": 231,
+          "cer": 0.13722826086956522,
+          "wer": 0.44155844155844154,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 27,
+          "reference_sha256": "10236840c2550a171fbdce2d0652b4d9e474b71432c0bea2c0840e5f5c9cecea",
+          "character_edits": 218,
+          "reference_characters": 1448,
+          "word_edits": 95,
+          "reference_words": 208,
+          "cer": 0.1505524861878453,
+          "wer": 0.4567307692307692,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 28,
+          "reference_sha256": "6cd0cc492fb3b52802cfe01f00d1006dc6d4f254b4f521e47e89e41ce8b43005",
+          "character_edits": 225,
+          "reference_characters": 1484,
+          "word_edits": 100,
+          "reference_words": 219,
+          "cer": 0.15161725067385445,
+          "wer": 0.45662100456621,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 29,
+          "reference_sha256": "f2bd5f89c1efdd0f4531498fe1b0aac039a8e74c89d0bbb57528b3c3a3cb4409",
+          "character_edits": 176,
+          "reference_characters": 1453,
+          "word_edits": 91,
+          "reference_words": 219,
+          "cer": 0.12112869924294563,
+          "wer": 0.4155251141552511,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 30,
+          "reference_sha256": "e2ab29ee865a1e3663bd95e01258736c3b46898c39b6b28be34fc148dbfad4ac",
+          "character_edits": 167,
+          "reference_characters": 1107,
+          "word_edits": 76,
+          "reference_words": 170,
+          "cer": 0.15085817524841916,
+          "wer": 0.4470588235294118,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 200,
+          "reference_sha256": "a9e58ae56b10bdefacce1572e4f86905fdcea79a1ff2102d1edcc74492a73018",
+          "character_edits": 279,
+          "reference_characters": 1240,
+          "word_edits": 108,
+          "reference_words": 179,
+          "cer": 0.225,
+          "wer": 0.6033519553072626,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd",
+          "possibly_truncated": false
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "page": 201,
+          "reference_sha256": "327f1f1e475984adc0989ab892346d79fa03c958a7e7b08de50a628cdbfaa6c7",
+          "character_edits": 277,
+          "reference_characters": 1482,
+          "word_edits": 105,
+          "reference_words": 215,
+          "cer": 0.18690958164642374,
+          "wer": 0.4883720930232558,
+          "run": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd",
+          "possibly_truncated": false
+        }
+      ],
+      "books": {
+        "10289757bsb": {
+          "scored_pages": 6,
+          "cer": 0.016114037806011776,
+          "wer": 0.07849133537206932
+        },
+        "makrobiotikoderd00hufeuoft": {
+          "scored_pages": 8,
+          "cer": 0.15686091975423572,
+          "wer": 0.46616541353383456
+        }
+      },
+      "inference_seconds": 208.44069637637585,
+      "worker_seconds": 208.6092099165544,
+      "boundary_results": [
+        {
+          "book": "10289757bsb",
+          "model": "teleocr",
+          "left_page": 9,
+          "right_page": 10,
+          "expected_action": "join_word",
+          "action": "join_word",
+          "word_join_correct": true,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "dem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der ansteckenden aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Gan",
+          "offset": 1061
+        },
+        {
+          "book": "10289757bsb",
+          "model": "teleocr",
+          "left_page": 10,
+          "right_page": 11,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "rden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme zähle; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranke",
+          "offset": 2145
+        },
+        {
+          "book": "10289757bsb",
+          "model": "teleocr",
+          "left_page": 11,
+          "right_page": 12,
+          "expected_action": "join_word",
+          "action": "uncertain",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "diefswird noch dadurch der großse Vortheil gewonnen, dafs die Berührungspunkte der Hülf-\n\nlosen mit dem wohlhabenden Theil des Publ kums vermehrt werden, wodurch theils den Unglück",
+          "offset": 3135
+        },
+        {
+          "book": "10289757bsb",
+          "model": "teleocr",
+          "left_page": 12,
+          "right_page": 13,
+          "expected_action": "join_word",
+          "action": "uncertain",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": ", oft schweraukommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Große — zu einem Pro",
+          "offset": 4317
+        },
+        {
+          "book": "10289757bsb",
+          "model": "teleocr",
+          "left_page": 13,
+          "right_page": 14,
+          "expected_action": "join_word",
+          "action": "join_word",
+          "word_join_correct": true,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "ere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksamkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-dete, H",
+          "offset": 5446
+        },
+        {
+          "book": "10289757bsb",
+          "model": "teleocr",
+          "left_page": 70,
+          "right_page": 71,
+          "expected_action": "keep",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": ".\n\n- Hellebori.\n\n— Hyoscyami.\n\n- Nicotianae.\n\n— Stramonii.\n\n- Valerianae.\n\nToxicodendri.\n\n* Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum)\nRe. Sulphuris stibiat, aurantiac.",
+          "offset": 7239
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "teleocr",
+          "left_page": 25,
+          "right_page": 26,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "ichgeben, nirgends finden wir eine fo vollformmene Verbinbung aller lebenbigen Kräfte der Natur, nirgends fo viel Energie des Lebens, mit felder Dauer vereinigt, als hier. Contin B",
+          "offset": 1060
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "teleocr",
+          "left_page": 26,
+          "right_page": 27,
+          "expected_action": "join_space",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "zu verlängern, und bem nur gar gu flüchtigen Sennig diebs Guts mehr Ausbehnung zu geben?\n\nwifftich feibfägtigte dies problem von jeber die denfbefbeit auf verliebene 28.1.1. & was ",
+          "offset": 2516
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "teleocr",
+          "left_page": 27,
+          "right_page": 28,
+          "expected_action": "paragraph",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "hmen, und flatt zu fagen, wie befindelt bu dich, fragte man einander: Wie fehlwelt bu? —\n\nStans anders bilbete für biefer Trieb bei ben Griechen, unter dem Einflup einer reinen und",
+          "offset": 3940
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "teleocr",
+          "left_page": 28,
+          "right_page": 29,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "e, fpgieren zu geben, fid reiben zu laften, und je mehr die Granhoit abmattete, behe mehr burch Anstrengung der Musfelfkräfte biefe Mattigfeit zu überwältigen; und er hatte bas Glü",
+          "offset": 5404
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "teleocr",
+          "left_page": 29,
+          "right_page": 30,
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": " Boerhave ließ einen alten Almerbamer Bürgermeifter zwischen zwei jungen Seiten fejlafen, und verficht, ber又te habe baburch fichtbar an Münterfeit und Kräften zugenommen. Und gewiß",
+          "offset": 6833
+        },
+        {
+          "book": "makrobiotikoderd00hufeuoft",
+          "model": "teleocr",
+          "left_page": 200,
+          "right_page": 201,
+          "expected_action": "join_space",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "e Berbauungssipnem gut bebsaffen feu. —\nC6 mit unglaublich, ver weliger 25stigtfeit über\n\nGroßmädtigfe aller Henferber im animalifeben Reibe in biefer Sinficht if, und man fann mit",
+          "offset": 9176
+        }
+      ],
+      "cer": 0.10403582228425215,
+      "wer": 0.3185875048506015,
+      "book_macro_cer": 0.08648747878012375,
+      "word_joins_correct": 2,
+      "false_word_joins": 0,
+      "deferred_boundaries": 6
+    }
+  ],
+  "boundaries": [
+    {
+      "book": "10289757bsb",
+      "model": "glm-ocr",
+      "left_page": 9,
+      "right_page": 10,
+      "expected_action": "join_word",
+      "action": "join_word",
+      "word_join_correct": true,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "dem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der ansteckenden aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Gan",
+      "offset": 1057
+    },
+    {
+      "book": "10289757bsb",
+      "model": "glm-ocr",
+      "left_page": 10,
+      "right_page": 11,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "rden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Krank",
+      "offset": 2138
+    },
+    {
+      "book": "10289757bsb",
+      "model": "glm-ocr",
+      "left_page": 11,
+      "right_page": 12,
+      "expected_action": "join_word",
+      "action": "join_word",
+      "word_join_correct": true,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "berdiefs wird noch dadurch der große Vortheil gewonnen, dafs die Berührungspunkte der Hülflosen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Unglück",
+      "offset": 3126
+    },
+    {
+      "book": "10289757bsb",
+      "model": "glm-ocr",
+      "left_page": 12,
+      "right_page": 13,
+      "expected_action": "join_word",
+      "action": "uncertain",
+      "word_join_correct": false,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": " oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Grösse — zu einem Pr",
+      "offset": 4305
+    },
+    {
+      "book": "10289757bsb",
+      "model": "glm-ocr",
+      "left_page": 13,
+      "right_page": 14,
+      "expected_action": "join_word",
+      "action": "join_word",
+      "word_join_correct": true,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "ere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksamkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besoldete, He",
+      "offset": 5430
+    },
+    {
+      "book": "10289757bsb",
+      "model": "glm-ocr",
+      "left_page": 70,
+      "right_page": 71,
+      "expected_action": "keep",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "bani.\n— Hellebori.\n— Hyoscyami.\n— Nicotianae.\n— Stramonii.\n— Valerianae.\n— Toxicodendri.\n\n* Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum.)\n\nR. Sulphuris stibiat. aurantiac",
+      "offset": 7220
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "glm-ocr",
+      "left_page": 25,
+      "right_page": 26,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "chgehen, nirgends finden wir eine so vollkommenene Verbindung aller lebendigen Kräfte der Natur, nirgendso viel Energie des Lebens, mit\nfolcher Dauer vereinigt, als hier. Kein Wund",
+      "offset": 1065
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "glm-ocr",
+      "left_page": 26,
+      "right_page": 27,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "verlängern, und dem nur gar zu stücktigen Genuß dieses Guts mehr Ausdehnung zu geben? Und wirflich beschäftigte dies Problem von jeher die Menschheit auf verschiedenen Weise. Es wa",
+      "offset": 2542
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "glm-ocr",
+      "left_page": 27,
+      "right_page": 28,
+      "expected_action": "paragraph",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "hmen, und flatt zu sagen, wie befindet du dich, fragte man einander; Wie schwisest du? —\n\nGanz anders bildete sich dieser Trieb bei den Grießen, unter dem Einfluß einer reinen und ",
+      "offset": 3979
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "glm-ocr",
+      "left_page": 28,
+      "right_page": 29,
+      "expected_action": "join_space",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "azieren zu gehen, sich reiben zu laffen, und je mehr die Kranfheit abmattete, defio mehr\n\ndurch Anstrengung der Muskelfräfte diese Mattig-\nfeit zu überwältigen; und er hatte das Gl",
+      "offset": 5461
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "glm-ocr",
+      "left_page": 29,
+      "right_page": 30,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "oer have ließ einen alten Umsterdamer\nBürgermeister zwischen zwei jungen Leuten schlafen, und verfischert, der Alte habe dadurch fichtbar an Munterfeit und Kräften zugenommen. Und ",
+      "offset": 6924
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "glm-ocr",
+      "left_page": 200,
+      "right_page": 201,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "Verdaunung siftem gut befrauen feen. — Es ist unglaublich, von weicher Wichtigkeit dieser Großmächtigte aller Herrscher im animalischen Neuge\nin dieser Hinricht ist, und man fann m",
+      "offset": 9288
+    },
+    {
+      "book": "10289757bsb",
+      "model": "ovisocr3",
+      "left_page": 9,
+      "right_page": 10,
+      "expected_action": "join_word",
+      "action": "join_space",
+      "word_join_correct": false,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "em sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Gan",
+      "offset": 1065
+    },
+    {
+      "book": "10289757bsb",
+      "model": "ovisocr3",
+      "left_page": 10,
+      "right_page": 11,
+      "expected_action": "join_space",
+      "action": "paragraph",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "den. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme\n\n7\n\nzählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kr",
+      "offset": 2148
+    },
+    {
+      "book": "10289757bsb",
+      "model": "ovisocr3",
+      "left_page": 11,
+      "right_page": 12,
+      "expected_action": "join_word",
+      "action": "keep",
+      "word_join_correct": false,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "iefis wird noch dadurch der große Vortheil gewonnen, dafs die Berührungspunkte der Hülf-\n\n8\n\nlosen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Ungl",
+      "offset": 3143
+    },
+    {
+      "book": "10289757bsb",
+      "model": "ovisocr3",
+      "left_page": 12,
+      "right_page": 13,
+      "expected_action": "join_word",
+      "action": "uncertain",
+      "word_join_correct": false,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": " oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.\n\n9\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem ",
+      "offset": 4326
+    },
+    {
+      "book": "10289757bsb",
+      "model": "ovisocr3",
+      "left_page": 13,
+      "right_page": 14,
+      "expected_action": "join_word",
+      "action": "uncertain",
+      "word_join_correct": false,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": " Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksam-\n\n10\n\nkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-\nde",
+      "offset": 5458
+    },
+    {
+      "book": "10289757bsb",
+      "model": "ovisocr3",
+      "left_page": 70,
+      "right_page": 71,
+      "expected_action": "keep",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": ".\n\nGalbani.\n\nHellebori.\n\nHyoscyami.\n\nNicotianae.\n\nStramonii.\n\nValerianae.\n\nToxicodendri.\n\n67\n\n* Tinctura Antimonii acris.\n\n(Sulphur Antimonii liquidum.)\n\nR. Sulphuris stibiat. aura",
+      "offset": 7257
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "ovisocr3",
+      "left_page": 25,
+      "right_page": 26,
+      "expected_action": "join_space",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "hen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n\n1 *\n\nNatur, nirgendes so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein W",
+      "offset": 1070
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "ovisocr3",
+      "left_page": 26,
+      "right_page": 27,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "erlängern, und dem nur gar zu flüchtigen Genuß dieses Gutes mehr Ausdehnung zu geben? Und wirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war",
+      "offset": 2545
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "ovisocr3",
+      "left_page": 27,
+      "right_page": 28,
+      "expected_action": "paragraph",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "en, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwisbest du? —\n\nGanz anders bildete sich dieser Trieb bei den Griechen, unter dem Einfluss einer reinen un",
+      "offset": 3991
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "ovisocr3",
+      "left_page": 28,
+      "right_page": 29,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "azieren zu gehen, sich reiben zu lassen, und sie mehr die Krankheit abmattete, desto mehr durch Anstrengung der Muskelfräste diese Mattigkeit zu überwältigen; und er hatte das Glüc",
+      "offset": 5478
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "ovisocr3",
+      "left_page": 29,
+      "right_page": 30,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "Boerhave ließ einen alten Amsterdamer Bürgermeister zwischen zwei jungen Leuten schlafen, und versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und",
+      "offset": 6932
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "ovisocr3",
+      "left_page": 200,
+      "right_page": 201,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "e Verdauungssystem gut befaßen sein. — Es ist ungläublich, von welcher Wichtigkeit dieser Großmächtigste aller Herrscher im animalischen Reiche in dieser Hinsicht ist, und man kann",
+      "offset": 9310
+    },
+    {
+      "book": "10289757bsb",
+      "model": "paddle-vl",
+      "left_page": 9,
+      "right_page": 10,
+      "expected_action": "join_word",
+      "action": "join_space",
+      "word_join_correct": false,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "em sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Gan",
+      "offset": 1058
+    },
+    {
+      "book": "10289757bsb",
+      "model": "paddle-vl",
+      "left_page": 10,
+      "right_page": 11,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "rden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Krank",
+      "offset": 2142
+    },
+    {
+      "book": "10289757bsb",
+      "model": "paddle-vl",
+      "left_page": 11,
+      "right_page": 12,
+      "expected_action": "join_word",
+      "action": "join_word",
+      "word_join_correct": true,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "Überdies wird noch dadurch der große Vortheil gewonnen, dafs die Berührungspunkte der Hülflosen mit dem wohlhabenden Theil des Pubkums vermehrt werden, wodurch theils den Unglückli",
+      "offset": 3128
+    },
+    {
+      "book": "10289757bsb",
+      "model": "paddle-vl",
+      "left_page": 12,
+      "right_page": 13,
+      "expected_action": "join_word",
+      "action": "uncertain",
+      "word_join_correct": false,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "stalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und 'Tausenden zu zählen.\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem Pro",
+      "offset": 3861
+    },
+    {
+      "book": "10289757bsb",
+      "model": "paddle-vl",
+      "left_page": 13,
+      "right_page": 14,
+      "expected_action": "join_word",
+      "action": "join_space",
+      "word_join_correct": false,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "re Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksam keit widmen kann, als wenn für das Ganzenur wenige, sey es auch noch so gut besoldete, Hel",
+      "offset": 4986
+    },
+    {
+      "book": "10289757bsb",
+      "model": "paddle-vl",
+      "left_page": 70,
+      "right_page": 71,
+      "expected_action": "keep",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "\n\n— Hellebori.\n\n— Hyoscyami.\n\n— Nicotianae.\n\n— Stramonii.\n\n— Valerianae\n\n— Toxicodendri.\n\n—67—\n\n\\(^{*}\\) Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum.)\n\nSulphuris stibiat.",
+      "offset": 6776
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "paddle-vl",
+      "left_page": 25,
+      "right_page": 26,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "rzkreisen, nergends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der Natur, nirgends’ so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein W",
+      "offset": 1355
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "paddle-vl",
+      "left_page": 26,
+      "right_page": 27,
+      "expected_action": "join_space",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "u verlängern, und dem nur gar zu flüchtigen Ge-nuk dieses Guts mehr Ausdehnung zu geben?\n\nwirklich befschäftigte dies Problem von jeher die Menschenheit auf verschiedene Beife. Es ",
+      "offset": 2828
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "paddle-vl",
+      "left_page": 27,
+      "right_page": 28,
+      "expected_action": "paragraph",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "ehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Sie schwiesst du?\n\nGanz anders bildete sich dieser Trick bei den Grießen, unter dem Einfluss einer reinen und",
+      "offset": 4273
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "paddle-vl",
+      "left_page": 28,
+      "right_page": 29,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "spazieren zu gehen, sich reiben zu lassen, und je mehr die Krankheit abmattete, deso mehr durch Anstrengung der Muskelkräfte diese Mattigkeit zu überwältigen; und er hatte das Glüc",
+      "offset": 5754
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "paddle-vl",
+      "left_page": 29,
+      "right_page": 30,
+      "expected_action": "join_space",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "oerhave ließ einen alten Amsterdamer Bürgermeister zwischen zwei jungen Leuten schlafen.\n\nund versichert, der Ulte habe dadurch fichtbar an Munterkeit und Kräften zugenommen. Und g",
+      "offset": 7205
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "paddle-vl",
+      "left_page": 200,
+      "right_page": 201,
+      "expected_action": "join_space",
+      "action": "paragraph",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": " Verdauungsivem gut bestafenen sein. — Es ist unglaublich, von weißer Lichtigkeit dieser\n\nGroßmächtigste aller Herrscher im animalischen Re‘che in dieser Finsicht ist, und man kann",
+      "offset": 9613
+    },
+    {
+      "book": "10289757bsb",
+      "model": "teleocr",
+      "left_page": 9,
+      "right_page": 10,
+      "expected_action": "join_word",
+      "action": "join_word",
+      "word_join_correct": true,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "dem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der ansteckenden aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Gan",
+      "offset": 1061
+    },
+    {
+      "book": "10289757bsb",
+      "model": "teleocr",
+      "left_page": 10,
+      "right_page": 11,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "rden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme zähle; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranke",
+      "offset": 2145
+    },
+    {
+      "book": "10289757bsb",
+      "model": "teleocr",
+      "left_page": 11,
+      "right_page": 12,
+      "expected_action": "join_word",
+      "action": "uncertain",
+      "word_join_correct": false,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "diefswird noch dadurch der großse Vortheil gewonnen, dafs die Berührungspunkte der Hülf-\n\nlosen mit dem wohlhabenden Theil des Publ kums vermehrt werden, wodurch theils den Unglück",
+      "offset": 3135
+    },
+    {
+      "book": "10289757bsb",
+      "model": "teleocr",
+      "left_page": 12,
+      "right_page": 13,
+      "expected_action": "join_word",
+      "action": "uncertain",
+      "word_join_correct": false,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": ", oft schweraukommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Große — zu einem Pro",
+      "offset": 4317
+    },
+    {
+      "book": "10289757bsb",
+      "model": "teleocr",
+      "left_page": 13,
+      "right_page": 14,
+      "expected_action": "join_word",
+      "action": "join_word",
+      "word_join_correct": true,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "ere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksamkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-dete, H",
+      "offset": 5446
+    },
+    {
+      "book": "10289757bsb",
+      "model": "teleocr",
+      "left_page": 70,
+      "right_page": 71,
+      "expected_action": "keep",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": ".\n\n- Hellebori.\n\n— Hyoscyami.\n\n- Nicotianae.\n\n— Stramonii.\n\n- Valerianae.\n\nToxicodendri.\n\n* Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum)\nRe. Sulphuris stibiat, aurantiac.",
+      "offset": 7239
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "teleocr",
+      "left_page": 25,
+      "right_page": 26,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "ichgeben, nirgends finden wir eine fo vollformmene Verbinbung aller lebenbigen Kräfte der Natur, nirgends fo viel Energie des Lebens, mit felder Dauer vereinigt, als hier. Contin B",
+      "offset": 1060
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "teleocr",
+      "left_page": 26,
+      "right_page": 27,
+      "expected_action": "join_space",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "zu verlängern, und bem nur gar gu flüchtigen Sennig diebs Guts mehr Ausbehnung zu geben?\n\nwifftich feibfägtigte dies problem von jeber die denfbefbeit auf verliebene 28.1.1. & was ",
+      "offset": 2516
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "teleocr",
+      "left_page": 27,
+      "right_page": 28,
+      "expected_action": "paragraph",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "hmen, und flatt zu fagen, wie befindelt bu dich, fragte man einander: Wie fehlwelt bu? —\n\nStans anders bilbete für biefer Trieb bei ben Griechen, unter dem Einflup einer reinen und",
+      "offset": 3940
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "teleocr",
+      "left_page": 28,
+      "right_page": 29,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": "e, fpgieren zu geben, fid reiben zu laften, und je mehr die Granhoit abmattete, behe mehr burch Anstrengung der Musfelfkräfte biefe Mattigfeit zu überwältigen; und er hatte bas Glü",
+      "offset": 5404
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "teleocr",
+      "left_page": 29,
+      "right_page": 30,
+      "expected_action": "join_space",
+      "action": "join_space",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": true,
+      "context": " Boerhave ließ einen alten Almerbamer Bürgermeifter zwischen zwei jungen Seiten fejlafen, und verficht, ber又te habe baburch fichtbar an Münterfeit und Kräften zugenommen. Und gewiß",
+      "offset": 6833
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "model": "teleocr",
+      "left_page": 200,
+      "right_page": 201,
+      "expected_action": "join_space",
+      "action": "uncertain",
+      "word_join_correct": null,
+      "false_word_join": false,
+      "action_matches_label": false,
+      "context": "e Berbauungssipnem gut bebsaffen feu. —\nC6 mit unglaublich, ver weliger 25stigtfeit über\n\nGroßmädtigfe aller Henferber im animalifeben Reibe in biefer Sinficht if, und man fann mit",
+      "offset": 9176
+    }
+  ],
+  "visual": {
+    "request": {
+      "vision_pin": {
+        "repo": "mlx-community/GLM-OCR-bf16",
+        "revision": "24f15402e83baa0a80eeeaecf5480e172abc6f2e",
+        "path": "model-cache/models--mlx-community--GLM-OCR-bf16/snapshots/24f15402e83baa0a80eeeaecf5480e172abc6f2e"
+      },
+      "text_pin": {
+        "repo": "mlx-community/Qwen3-1.7B-4bit",
+        "revision": "3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+        "path": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e"
+      },
+      "index": "workspace/expanded/index.json",
+      "selection": "datasets/expanded/selection.json",
+      "out": "workspace/expanded/visual",
+      "algorithm": "visual-hyphen-v1; Paddle layout geometry, GLM crop OCR, exact edge matches, Qwen3 join-word approval, source-mapped separator removal"
+    },
+    "decisions": [
+      {
+        "book": "10289757bsb",
+        "model": "ovisocr3",
+        "left_page": 9,
+        "right_page": 10,
+        "gate": {
+          "eligible": true,
+          "left_stem": "anstecken",
+          "right_stem": "den",
+          "reason": "visible terminal hyphen and both edge words match page OCR"
+        },
+        "left_edge": {
+          "page": 9,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0009-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0009.png",
+          "source_image_sha256": "2112556021e44b36ff01ec6592a7000f2dc6fe85c7bfa95cceb9f38d027d63a3",
+          "box_source_pixels": [
+            277,
+            4520,
+            2875,
+            5110
+          ],
+          "crop_sha256": "6532cdf2483bf9bb287b8467ff2c64fb9884f4d8990363efe00f73f8b98a211b",
+          "text": "Mitglieder wiederzugeben. Ja, indem sie die\nSumme der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken-",
+          "seconds": 1.5934035843238235,
+          "tokens": 37,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 10,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0010-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0010.png",
+          "source_image_sha256": "373db6af63f480b8bf8d6804393097d4d4315cd84852c319ba4f43178b4f9e77",
+          "box_source_pixels": [
+            505,
+            495,
+            3113,
+            1083
+          ],
+          "crop_sha256": "5c442a06fbe378d49d47bb7ab9dab9d7f8cc12c8e17ce4d80697cfea5220bd88",
+          "text": "den aufspürt und zerstört, sichert sie die Ge-\nsundheit des Publikums und des Staates im\nGanzen, und verstopft eine Hauptquelle der",
+          "seconds": 1.6196337081491947,
+          "tokens": 41,
+          "possibly_truncated": false
+        },
+        "approved": true,
+        "classifier": {
+          "left_page": 9,
+          "right_page": 10,
+          "before_left": "tiger Maafsstab, wenn man den Nutzen solcher Hülfen blos nach der Vermehrung oder Verminderung der Mortalität berechnet.\n\nDie häufigste und traurigste Folge der Krankheiten bei Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durch gehörige Hülfte anfangs leicht zu heben gewesen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren, Krankheiten; Krankheiten, die man zwar ohne Hülfte mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die die Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdauernden Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfte bestehet also darin, die Summe der Leiden- den und Unbrauchbaren zu vermindern, und ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben. Ja, indem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken-",
+          "before_right": "den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dals gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die allerverderblichsten Seuchen und Ansteckungsgifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewifs ein großer und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritte in das Armendirectorium vor 10 Jahren diesen Theil der Armenverpflegung, der sich mit der Vorsorge für die armen Kranken sowohl in den Hospitälern, als in der Stadt, besch",
+          "action": "join_word",
+          "reason": "The left terminal token 'anstecken-' and right initial token 'den' form a hyphenated compound word 'anstecken-' and 'den' which should be joined.",
+          "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+          "prompt_version": "boundary-v4",
+          "model_called": true,
+          "prompt_sha256": "9e670e024994946c8dc5c7360d795ef9ef60f518a2afa55518f414b308a4aa03",
+          "model_response": "{\"action\": \"join_word\", \"reason\": \"The left terminal token 'anstecken-' and right initial token 'den' form a hyphenated compound word 'anstecken-' and 'den' which should be joined.\", \"remove_right_header\": false, \"move_left_note\": false}",
+          "proposed_action": "join_word",
+          "remove_right_header": false,
+          "move_left_note": false
+        },
+        "applied": true
+      },
+      {
+        "book": "10289757bsb",
+        "model": "ovisocr3",
+        "left_page": 10,
+        "right_page": 11,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 10,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0010-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0010.png",
+          "source_image_sha256": "373db6af63f480b8bf8d6804393097d4d4315cd84852c319ba4f43178b4f9e77",
+          "box_source_pixels": [
+            526,
+            4541,
+            3121,
+            5129
+          ],
+          "crop_sha256": "bf2ab863607884ccf1779fc0c8dce78c5b965c393ef78cb2236d81460a6e328a",
+          "text": "der damaligen Einrichtung erreicht werden.\nNur ein Armenarzt und sieben Chirurgen für\neine Stadt, die in der Regel 10,000 Arme",
+          "seconds": 1.6180905420333147,
+          "tokens": 44,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 11,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0011-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0011.png",
+          "source_image_sha256": "fc67894a3701873ce61c54ebc5890c56b50484f280f9f396b74582d1459e2014",
+          "box_source_pixels": [
+            343,
+            471,
+            2952,
+            1063
+          ],
+          "crop_sha256": "d0e20a3e7313767620f45eaa7a73ab24a856013cec304d73de01252a1a9a0100",
+          "text": "zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen",
+          "seconds": 1.6108303749933839,
+          "tokens": 37,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "10289757bsb",
+        "model": "ovisocr3",
+        "left_page": 11,
+        "right_page": 12,
+        "gate": {
+          "eligible": false,
+          "reason": "hyphen already present; retain baseline repair"
+        },
+        "left_edge": {
+          "page": 11,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0011-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0011.png",
+          "source_image_sha256": "fc67894a3701873ce61c54ebc5890c56b50484f280f9f396b74582d1459e2014",
+          "box_source_pixels": [
+            329,
+            4500,
+            2936,
+            5091
+          ],
+          "crop_sha256": "e57334a56d9121141f955eda9b106dfee2f2f14b335286ce86e25c41fc686de2",
+          "text": "und der wahre Zweck erreicht. Überdiefs\nwird noch dadurch der große Vortheil ge-\nwonnen, dafs die Berührungspunkte der Hülf-",
+          "seconds": 1.6242479998618364,
+          "tokens": 45,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 12,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0012-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0012.png",
+          "source_image_sha256": "7c64ebf61cd59611b38a3083949497629f90485f907f1cc62e5a9a2d4fa5435b",
+          "box_source_pixels": [
+            592,
+            435,
+            3186,
+            1023
+          ],
+          "crop_sha256": "2cc32a0be5de621cbb2a79cc8444a51164a694a330fb057376b2e0c848969e88",
+          "text": "losen mit dem wohlhabenden Theil des Pu-\nblikums vermehrt werden, wodurch theils den\nUnglücklichen ein neuer Zugang zu dem",
+          "seconds": 1.6262896666303277,
+          "tokens": 42,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "10289757bsb",
+        "model": "ovisocr3",
+        "left_page": 12,
+        "right_page": 13,
+        "gate": {
+          "eligible": false,
+          "reason": "cannot align lexical edges"
+        },
+        "left_edge": {
+          "page": 12,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0012-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0012.png",
+          "source_image_sha256": "7c64ebf61cd59611b38a3083949497629f90485f907f1cc62e5a9a2d4fa5435b",
+          "box_source_pixels": [
+            601,
+            3004,
+            3195,
+            3592
+          ],
+          "crop_sha256": "57ddc16324924315a61fdeb3fccb2f26cac65cf4b81e987370b2f0e34ee08418",
+          "text": "theilnahme erzeugt, durch welche solche An-\nstalten gedeihen*). Ist man gewohnt, die Men-\nschen zu Hunderten und 'Gausenden zu zäh-",
+          "seconds": 1.624130416661501,
+          "tokens": 44,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 13,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0013-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0013.png",
+          "source_image_sha256": "9e873551fc8aefaba88fe0cab0ad7ca5afb006c04dcac7726c488edcb32abb25",
+          "box_source_pixels": [
+            276,
+            485,
+            2909,
+            1073
+          ],
+          "crop_sha256": "521bbd4d17a4cd9fc85c82c7b8a13786e4cba8b975236b5bf00cb4bcea6974fc",
+          "text": "len, was ist an dem Einzelnen gelegen? Er\nwird zu einer unbemerkbaren Gröfse — zu\neinem Procent — einem blofsen Rechnungs-",
+          "seconds": 1.7210933743044734,
+          "tokens": 44,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "10289757bsb",
+        "model": "ovisocr3",
+        "left_page": 13,
+        "right_page": 14,
+        "gate": {
+          "eligible": false,
+          "reason": "hyphen already present; retain baseline repair"
+        },
+        "left_edge": {
+          "page": 13,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0013-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0013.png",
+          "source_image_sha256": "9e873551fc8aefaba88fe0cab0ad7ca5afb006c04dcac7726c488edcb32abb25",
+          "box_source_pixels": [
+            276,
+            4563,
+            2909,
+            5152
+          ],
+          "crop_sha256": "ab23d1976b1dc0d505a2ed4a8aa1624ce6e9a1573bcacfebc688e5a4eb26b2ed",
+          "text": "die Menge der Hülfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übershen und ihm seine ganze Aufmerksam-",
+          "seconds": 1.6575429998338223,
+          "tokens": 40,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 14,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0014-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0014.png",
+          "source_image_sha256": "af15030dc515695fb0fe94c7ca53a54306034f227cddd9e2130c78d1cddf8f39",
+          "box_source_pixels": [
+            527,
+            490,
+            3115,
+            1080
+          ],
+          "crop_sha256": "76ef2f27eb4cf57614f0b1cc09f184160d1f632be4f62fb986cf2651413258c4",
+          "text": "keit widmen kann, als wenn für das Ganze\nnur wenige, sey es auch noch so gut besol-\ndete, Helfer angestellt werden, die dann we-",
+          "seconds": 1.6806468749418855,
+          "tokens": 41,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "10289757bsb",
+        "model": "ovisocr3",
+        "left_page": 70,
+        "right_page": 71,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 70,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0070-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0070.png",
+          "source_image_sha256": "9e2755f9fecc1abc48d7339f7e1838cbf13cd910dc1d2ed59c97e2f2ee0e558f",
+          "box_source_pixels": [
+            828,
+            4963,
+            2063,
+            5155
+          ],
+          "crop_sha256": "6c9ebbb5005a15980a4f109c72406f32cfeb66c4f26fea3b8f45bbe1ef1e6785",
+          "text": "Toxicodendri.",
+          "seconds": 0.22209466621279716,
+          "tokens": 7,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 71,
+          "side": "top",
+          "label": "paragraph_title",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0071-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0071.png",
+          "source_image_sha256": "422787e71632cd3fbc16f6633b5d8ce9b7476f4e282c96d574358358e219ffd9",
+          "box_source_pixels": [
+            1269,
+            364,
+            2027,
+            563
+          ],
+          "crop_sha256": "f5c35d15649594d325a44ea0390c0a613e17c413c8483476179cb571b94b2c26",
+          "text": "67",
+          "seconds": 0.1612167088314891,
+          "tokens": 3,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "10289757bsb",
+        "model": "paddle-vl",
+        "left_page": 9,
+        "right_page": 10,
+        "gate": {
+          "eligible": true,
+          "left_stem": "anstecken",
+          "right_stem": "den",
+          "reason": "visible terminal hyphen and both edge words match page OCR"
+        },
+        "left_edge": {
+          "page": 9,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0009-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0009.png",
+          "source_image_sha256": "2112556021e44b36ff01ec6592a7000f2dc6fe85c7bfa95cceb9f38d027d63a3",
+          "box_source_pixels": [
+            277,
+            4520,
+            2875,
+            5110
+          ],
+          "crop_sha256": "6532cdf2483bf9bb287b8467ff2c64fb9884f4d8990363efe00f73f8b98a211b",
+          "text": "Mitglieder wiederzugeben. Ja, indem sie die\nSumme der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken-",
+          "seconds": 1.5934035843238235,
+          "tokens": 37,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 10,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0010-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0010.png",
+          "source_image_sha256": "373db6af63f480b8bf8d6804393097d4d4315cd84852c319ba4f43178b4f9e77",
+          "box_source_pixels": [
+            505,
+            495,
+            3113,
+            1083
+          ],
+          "crop_sha256": "5c442a06fbe378d49d47bb7ab9dab9d7f8cc12c8e17ce4d80697cfea5220bd88",
+          "text": "den aufspürt und zerstört, sichert sie die Ge-\nsundheit des Publikums und des Staates im\nGanzen, und verstopft eine Hauptquelle der",
+          "seconds": 1.6196337081491947,
+          "tokens": 41,
+          "possibly_truncated": false
+        },
+        "approved": true,
+        "classifier": {
+          "left_page": 9,
+          "right_page": 10,
+          "before_left": "ichtiger Maafsstab, wenn man den Nutzen solcher Hülfen blos nach der Vermehrung oder Verminderung der Mortalität berechnet.\n\nDie häufigste und traurigste Folge der Krankheiten bei Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durch gehörige Hülfe anfangs leicht zu heben gewesen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren, Krankheiten; Krankheiten, die man zwar ohne Hülfe mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die die Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdauernden Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfe bestehet also darin, die Summe der Leiden- den und Unbrauchbaren zu vermindern, und ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben. Ja, indem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken-",
+          "before_right": "den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dals gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die aller-verderblichsten Seuchen und Ansteckungsgifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewifs ein großserund gewöhnlich übersehener Vorzug solcher Anstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm\nich bei meinem Eintritte in das Armendierectorium vor 10 Jahren diesen Theil der Armenverpflegung, der sich mit der Vorsorge für die armen Kranken sowohl in den Hospitalern, als in der Stadt, bes",
+          "action": "join_word",
+          "reason": "The left terminal token 'anstecken-' and right initial token 'den' form a hyphenated compound word 'anstecken-' and 'den' which should be joined as 'anstecken-dens'. The hyphen should be preserved.",
+          "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+          "prompt_version": "boundary-v4",
+          "model_called": true,
+          "prompt_sha256": "1fbfc1362496b13ade4dac59f7592a4bb340076057ca5860afa9768a509c80c6",
+          "model_response": "{\"action\": \"join_word\", \"reason\": \"The left terminal token 'anstecken-' and right initial token 'den' form a hyphenated compound word 'anstecken-' and 'den' which should be joined as 'anstecken-dens'. The hyphen should be preserved.\", \"remove_right_header\": false, \"move_left_note\": false}",
+          "proposed_action": "join_word",
+          "remove_right_header": false,
+          "move_left_note": false
+        },
+        "applied": true
+      },
+      {
+        "book": "10289757bsb",
+        "model": "paddle-vl",
+        "left_page": 10,
+        "right_page": 11,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 10,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0010-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0010.png",
+          "source_image_sha256": "373db6af63f480b8bf8d6804393097d4d4315cd84852c319ba4f43178b4f9e77",
+          "box_source_pixels": [
+            526,
+            4541,
+            3121,
+            5129
+          ],
+          "crop_sha256": "bf2ab863607884ccf1779fc0c8dce78c5b965c393ef78cb2236d81460a6e328a",
+          "text": "der damaligen Einrichtung erreicht werden.\nNur ein Armenarzt und sieben Chirurgen für\neine Stadt, die in der Regel 10,000 Arme",
+          "seconds": 1.6180905420333147,
+          "tokens": 44,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 11,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0011-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0011.png",
+          "source_image_sha256": "fc67894a3701873ce61c54ebc5890c56b50484f280f9f396b74582d1459e2014",
+          "box_source_pixels": [
+            343,
+            471,
+            2952,
+            1063
+          ],
+          "crop_sha256": "d0e20a3e7313767620f45eaa7a73ab24a856013cec304d73de01252a1a9a0100",
+          "text": "zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen",
+          "seconds": 1.6108303749933839,
+          "tokens": 37,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "10289757bsb",
+        "model": "paddle-vl",
+        "left_page": 11,
+        "right_page": 12,
+        "gate": {
+          "eligible": false,
+          "reason": "hyphen already present; retain baseline repair"
+        },
+        "left_edge": {
+          "page": 11,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0011-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0011.png",
+          "source_image_sha256": "fc67894a3701873ce61c54ebc5890c56b50484f280f9f396b74582d1459e2014",
+          "box_source_pixels": [
+            329,
+            4500,
+            2936,
+            5091
+          ],
+          "crop_sha256": "e57334a56d9121141f955eda9b106dfee2f2f14b335286ce86e25c41fc686de2",
+          "text": "und der wahre Zweck erreicht. Überdiefs\nwird noch dadurch der große Vortheil ge-\nwonnen, dafs die Berührungspunkte der Hülf-",
+          "seconds": 1.6242479998618364,
+          "tokens": 45,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 12,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0012-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0012.png",
+          "source_image_sha256": "7c64ebf61cd59611b38a3083949497629f90485f907f1cc62e5a9a2d4fa5435b",
+          "box_source_pixels": [
+            592,
+            435,
+            3186,
+            1023
+          ],
+          "crop_sha256": "2cc32a0be5de621cbb2a79cc8444a51164a694a330fb057376b2e0c848969e88",
+          "text": "losen mit dem wohlhabenden Theil des Pu-\nblikums vermehrt werden, wodurch theils den\nUnglücklichen ein neuer Zugang zu dem",
+          "seconds": 1.6262896666303277,
+          "tokens": 42,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "10289757bsb",
+        "model": "paddle-vl",
+        "left_page": 12,
+        "right_page": 13,
+        "gate": {
+          "eligible": false,
+          "reason": "cannot align lexical edges"
+        },
+        "left_edge": {
+          "page": 12,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0012-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0012.png",
+          "source_image_sha256": "7c64ebf61cd59611b38a3083949497629f90485f907f1cc62e5a9a2d4fa5435b",
+          "box_source_pixels": [
+            601,
+            3004,
+            3195,
+            3592
+          ],
+          "crop_sha256": "57ddc16324924315a61fdeb3fccb2f26cac65cf4b81e987370b2f0e34ee08418",
+          "text": "theilnahme erzeugt, durch welche solche An-\nstalten gedeihen*). Ist man gewohnt, die Men-\nschen zu Hunderten und 'Gausenden zu zäh-",
+          "seconds": 1.624130416661501,
+          "tokens": 44,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 13,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0013-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0013.png",
+          "source_image_sha256": "9e873551fc8aefaba88fe0cab0ad7ca5afb006c04dcac7726c488edcb32abb25",
+          "box_source_pixels": [
+            276,
+            485,
+            2909,
+            1073
+          ],
+          "crop_sha256": "521bbd4d17a4cd9fc85c82c7b8a13786e4cba8b975236b5bf00cb4bcea6974fc",
+          "text": "len, was ist an dem Einzelnen gelegen? Er\nwird zu einer unbemerkbaren Gröfse — zu\neinem Procent — einem blofsen Rechnungs-",
+          "seconds": 1.7210933743044734,
+          "tokens": 44,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "10289757bsb",
+        "model": "paddle-vl",
+        "left_page": 13,
+        "right_page": 14,
+        "gate": {
+          "eligible": true,
+          "left_stem": "Aufmerksam",
+          "right_stem": "keit",
+          "reason": "visible terminal hyphen and both edge words match page OCR"
+        },
+        "left_edge": {
+          "page": 13,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0013-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0013.png",
+          "source_image_sha256": "9e873551fc8aefaba88fe0cab0ad7ca5afb006c04dcac7726c488edcb32abb25",
+          "box_source_pixels": [
+            276,
+            4563,
+            2909,
+            5152
+          ],
+          "crop_sha256": "ab23d1976b1dc0d505a2ed4a8aa1624ce6e9a1573bcacfebc688e5a4eb26b2ed",
+          "text": "die Menge der Hülfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übershen und ihm seine ganze Aufmerksam-",
+          "seconds": 1.6575429998338223,
+          "tokens": 40,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 14,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0014-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0014.png",
+          "source_image_sha256": "af15030dc515695fb0fe94c7ca53a54306034f227cddd9e2130c78d1cddf8f39",
+          "box_source_pixels": [
+            527,
+            490,
+            3115,
+            1080
+          ],
+          "crop_sha256": "76ef2f27eb4cf57614f0b1cc09f184160d1f632be4f62fb986cf2651413258c4",
+          "text": "keit widmen kann, als wenn für das Ganze\nnur wenige, sey es auch noch so gut besol-\ndete, Helfer angestellt werden, die dann we-",
+          "seconds": 1.6806468749418855,
+          "tokens": 41,
+          "possibly_truncated": false
+        },
+        "approved": true,
+        "classifier": {
+          "left_page": 13,
+          "right_page": 14,
+          "before_left": "so mufs ihr Leben sich nicht von oben abwärts in — bekanntlich immer schwächer werdenen — Stralen zum Einzelnen verbreiten, sondern von unten herauf, vom Einzelnen zum Ganzen; es mufs sich in dem Herzen der Einzelnen erzeugen, und von da aus zu einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als Form und Ordnung. — Diefs also ist die grofse Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, dafs sie nicht am Ende in blofse Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose Menschen. Deswegen ist es weit besser, wenn wohldenkende Männer sich vereinigen, und die Menge der Hülfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksam-",
+          "before_right": "keit widmen kann, als wenn für das Ganzenur wenige, sey es auch noch so gut besoldete, Helfer angestellt werden, die dann wegen der zu grofsen Menge der Leidenden, auch bei dem besten Willen, dem Einzelnen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzuziehen, so lange es irgend thunlich ist. — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entstehet Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, den Menschen als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitalern heirschend, und die Wurzel alles Verdeens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitaler, selbst der besten, denn es ist kein Vorwurf, den sich der",
+          "action": "join_word",
+          "reason": "The left terminal token 'Aufmerksam-' and right initial token 'keit' form a hyphenated compound word 'Aufmerksamkeit' which should be joined.",
+          "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+          "prompt_version": "boundary-v4",
+          "model_called": true,
+          "prompt_sha256": "b8718baaca3e6c8c787abd27c30ce8a296be0f8684f297bfe845bf35978177b4",
+          "model_response": "{\"action\": \"join_word\", \"reason\": \"The left terminal token 'Aufmerksam-' and right initial token 'keit' form a hyphenated compound word 'Aufmerksamkeit' which should be joined.\", \"remove_right_header\": false, \"move_left_note\": false}",
+          "proposed_action": "join_word",
+          "remove_right_header": false,
+          "move_left_note": false
+        },
+        "applied": true
+      },
+      {
+        "book": "10289757bsb",
+        "model": "paddle-vl",
+        "left_page": 70,
+        "right_page": 71,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 70,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0070-bottom.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0070.png",
+          "source_image_sha256": "9e2755f9fecc1abc48d7339f7e1838cbf13cd910dc1d2ed59c97e2f2ee0e558f",
+          "box_source_pixels": [
+            828,
+            4963,
+            2063,
+            5155
+          ],
+          "crop_sha256": "6c9ebbb5005a15980a4f109c72406f32cfeb66c4f26fea3b8f45bbe1ef1e6785",
+          "text": "Toxicodendri.",
+          "seconds": 0.22209466621279716,
+          "tokens": 7,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 71,
+          "side": "top",
+          "label": "paragraph_title",
+          "crop": "workspace/expanded/visual/10289757bsb/page-0071-top.png",
+          "source_image": "workspace/expanded/10289757bsb/pages/page-0071.png",
+          "source_image_sha256": "422787e71632cd3fbc16f6633b5d8ce9b7476f4e282c96d574358358e219ffd9",
+          "box_source_pixels": [
+            1269,
+            364,
+            2027,
+            563
+          ],
+          "crop_sha256": "f5c35d15649594d325a44ea0390c0a613e17c413c8483476179cb571b94b2c26",
+          "text": "67",
+          "seconds": 0.1612167088314891,
+          "tokens": 3,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "ovisocr3",
+        "left_page": 25,
+        "right_page": 26,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 25,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0025-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0025.png",
+          "source_image_sha256": "160fc07a46530c104ab68e951dd16564f82bb698dffd5b87f4ce3cff6a82e152",
+          "box_source_pixels": [
+            0,
+            916,
+            554,
+            1034
+          ],
+          "crop_sha256": "9c27be7552c485b73a5020a1de4ee5ad6661d59c4b547d14311d40a8d5dcc058",
+          "text": "ren Schöpfung. Wir mögen die ganze Reihe der\nWesen durchgehen, nirgends finden wir eine so voll-\nommene Verbindung aller lebendigen Kräfte der",
+          "seconds": 0.2692429590970278,
+          "tokens": 45,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 26,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0026-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0026.png",
+          "source_image_sha256": "3d948942c395e0d7a0ac96f8d0a838c7cc711ebd488be8fc4e0c907a95c9fbae",
+          "box_source_pixels": [
+            72,
+            113,
+            641,
+            231
+          ],
+          "crop_sha256": "189418857c08fe8432528556c7e9568377915877e64248c89a1d4912dbd6e357",
+          "text": "Natur, nirgends so viel Energie des Lebens, mit\nfolcher Dauer vereinigt, als hier. Kein Wunder\nalso, daß der vollkommenie Beifiger dieses Gutes\nauch einun so hohen Werth darauf fest, und das",
+          "seconds": 0.3331012912094593,
+          "tokens": 61,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "ovisocr3",
+        "left_page": 26,
+        "right_page": 27,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 26,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0026-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0026.png",
+          "source_image_sha256": "3d948942c395e0d7a0ac96f8d0a838c7cc711ebd488be8fc4e0c907a95c9fbae",
+          "box_source_pixels": [
+            72,
+            926,
+            641,
+            1044
+          ],
+          "crop_sha256": "fb2de33aca0c97fe92e1253be15d6dbe7d2329a93dddbe66661a6c5319fb0e74",
+          "text": "müfte: Sollte es nicht möglich feyn, unser Dafeyn\nzu verlängern, und dem nur gar zu flüchtigen Ge-\nnüß dieses Guts mehr Ausdehnung zu geben? Und",
+          "seconds": 0.30167291685938835,
+          "tokens": 53,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 27,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0027-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0027.png",
+          "source_image_sha256": "634dabbd1222607c5b9e222e3e7af7c5d89f18d5b416d25e25c318abc24b1996",
+          "box_source_pixels": [
+            7,
+            96,
+            561,
+            214
+          ],
+          "crop_sha256": "835ed7520e75e35cf75413e6602be17e590648e485a51809a74d915d6aa10376",
+          "text": "wirftich bechäftigte dies Problem von jeher die\nMenschheit auf verchiedene Weife. Es war ein Lieb-\nlingsgegenstand der scharffinnigsten Köpfe, ein Tum-\nmelplas der Schwärmer, und eine Hauptlockweife den",
+          "seconds": 0.35989329125732183,
+          "tokens": 67,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "ovisocr3",
+        "left_page": 27,
+        "right_page": 28,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 27,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0027-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0027.png",
+          "source_image_sha256": "634dabbd1222607c5b9e222e3e7af7c5d89f18d5b416d25e25c318abc24b1996",
+          "box_source_pixels": [
+            6,
+            893,
+            558,
+            1011
+          ],
+          "crop_sha256": "53ea5055d92871b0d89d20022e941610d731e9fd08750de3601533281b3cd6c2",
+          "text": "gefunden zu haben; es wurde allgemeine Sitte, alle\nMonate wenigstens zwei Brechmittel zu nehmen,\nund flatt zu sagen, wie befindest du dich, fragte\nman einander; Wie schwisest du? —",
+          "seconds": 0.31141258403658867,
+          "tokens": 56,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 28,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0028-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0028.png",
+          "source_image_sha256": "bb5ccb012165083c29d1adee556e4c83da20977d12d47a47bb5ef87949cee7ed",
+          "box_source_pixels": [
+            58,
+            103,
+            612,
+            221
+          ],
+          "crop_sha256": "3f6af6f41f70466f4d4ba9a5063e9d851cf32dab3daf0219f06a1421f6fcaf84",
+          "text": "Ganz anders bildete sich dieser Trieb bei den Grießen, unter dem Einfluß einer reinen und schönen Natur, aus. Man überzeugte sich sehr bald, daß erode ein pernünftiger Genus der Natur und die",
+          "seconds": 0.30765337496995926,
+          "tokens": 55,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "ovisocr3",
+        "left_page": 28,
+        "right_page": 29,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 28,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0028-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0028.png",
+          "source_image_sha256": "bb5ccb012165083c29d1adee556e4c83da20977d12d47a47bb5ef87949cee7ed",
+          "box_source_pixels": [
+            58,
+            906,
+            612,
+            1024
+          ],
+          "crop_sha256": "49d32eb4fcb5504a5ebe9d882074cd7fe9ba596fecfebf0cc6910885beabc525",
+          "text": "dicus ging so weit, daß er sogar seine Patienten\nnothigte, spazieren zu gehen, sich reiben zu laffen,\nund je mehr die Krankheit abmattete, defto mehr",
+          "seconds": 0.27105137426406145,
+          "tokens": 47,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 29,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0029-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0029.png",
+          "source_image_sha256": "b4932abf0fbcccc4b88ebc4c34103a9ed0eb3df004ceb4716deedc3337d79224",
+          "box_source_pixels": [
+            13,
+            100,
+            568,
+            218
+          ],
+          "crop_sha256": "9f0aa1bdf2e023141beaf21b5a9d51daf367e92c0214bc8b6152c718e2924c5b",
+          "text": "durch Unstrengung der Muselfräfte diese Mattig-\nkeit zu überwältigen; und er hatte das Glück, durch\nfeine Methode fo vielen schwachlichen Menfischen das\nLeben viele Täbre zu verlängern, daß ihm foagar",
+          "seconds": 0.3545157080516219,
+          "tokens": 66,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "ovisocr3",
+        "left_page": 29,
+        "right_page": 30,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 29,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0029-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0029.png",
+          "source_image_sha256": "b4932abf0fbcccc4b88ebc4c34103a9ed0eb3df004ceb4716deedc3337d79224",
+          "box_source_pixels": [
+            17,
+            896,
+            569,
+            1014
+          ],
+          "crop_sha256": "76b1a9528d4abd7ca849fc9b4a42a9b0ca2b1c982132f55284079d3c178d4892",
+          "text": "und beliebte Hilfe des Allers war. Seibt in neuern\nSeiten ist dieser Math mit Nühen befolgt worden;\nder große Boerhave ließ einen alten Amsterdamer\nBürgermeister zwischen zwei jungen Leuten schlafen,",
+          "seconds": 0.3374927081167698,
+          "tokens": 62,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 30,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0030-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0030.png",
+          "source_image_sha256": "1ade0f4bb96db048156b7059fb4019cd3a08c484371969790ed7732c57060d39",
+          "box_source_pixels": [
+            65,
+            93,
+            614,
+            211
+          ],
+          "crop_sha256": "24745102473fece1d45fa4aa40233daed5b67144e13a69ef1af3eb9e07a7e034",
+          "text": "und verfischert, der Alte habe dadurch fichtbar an Munterfeit und Kräften zugenommen. Und gewiß, wenn man bedenft, was der Lebensdunst frisch aufgeschnitener Thiere auf gelähmt Glieder, was das Ausle-",
+          "seconds": 0.36027470882982016,
+          "tokens": 67,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "ovisocr3",
+        "left_page": 200,
+        "right_page": 201,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 200,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0200-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0200.png",
+          "source_image_sha256": "2e9e0d88d9cf8276b0edf77d7f59d9addb61e4a90b2dc9fa3f41fa1ba9e06ce2",
+          "box_source_pixels": [
+            72,
+            904,
+            622,
+            1009
+          ],
+          "crop_sha256": "5cbc147a36c5bb6b71ac668b236510957d7f225c63ce9b4065e01c6713fbadc2",
+          "text": "1. Vor allen Dingen muß der Magen und das\nganze Verdaunung sitzen gut befallen fern. —\nEs ist unglaublich, von weicher Wichtigkeit dieser",
+          "seconds": 0.261936666443944,
+          "tokens": 45,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 201,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0201-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0201.png",
+          "source_image_sha256": "56683c9f26f57a739fe7edc055a29f81ff7b1055f1d03ceade4cf22cd037468f",
+          "box_source_pixels": [
+            1,
+            96,
+            549,
+            214
+          ],
+          "crop_sha256": "4d24931358358b9e242f344b9c11e23f16621480c7979d937923fce2e7de216c",
+          "text": "Großmächtigte aller Herrscher im animalischen Neuge\nin dieser Hinricht ist, und man fann mit vosen\nNeige behaupten, ohne einen guten Magen ist es\numdächtig, ein hohes Alter zu erlangen.",
+          "seconds": 0.33268191665410995,
+          "tokens": 61,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "paddle-vl",
+        "left_page": 25,
+        "right_page": 26,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 25,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0025-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0025.png",
+          "source_image_sha256": "160fc07a46530c104ab68e951dd16564f82bb698dffd5b87f4ce3cff6a82e152",
+          "box_source_pixels": [
+            0,
+            916,
+            554,
+            1034
+          ],
+          "crop_sha256": "9c27be7552c485b73a5020a1de4ee5ad6661d59c4b547d14311d40a8d5dcc058",
+          "text": "ren Schöpfung. Wir mögen die ganze Reihe der\nWesen durchgehen, nirgends finden wir eine so voll-\nommene Verbindung aller lebendigen Kräfte der",
+          "seconds": 0.2692429590970278,
+          "tokens": 45,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 26,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0026-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0026.png",
+          "source_image_sha256": "3d948942c395e0d7a0ac96f8d0a838c7cc711ebd488be8fc4e0c907a95c9fbae",
+          "box_source_pixels": [
+            72,
+            113,
+            641,
+            231
+          ],
+          "crop_sha256": "189418857c08fe8432528556c7e9568377915877e64248c89a1d4912dbd6e357",
+          "text": "Natur, nirgends so viel Energie des Lebens, mit\nfolcher Dauer vereinigt, als hier. Kein Wunder\nalso, daß der vollkommenie Beifiger dieses Gutes\nauch einun so hohen Werth darauf fest, und das",
+          "seconds": 0.3331012912094593,
+          "tokens": 61,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "paddle-vl",
+        "left_page": 26,
+        "right_page": 27,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 26,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0026-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0026.png",
+          "source_image_sha256": "3d948942c395e0d7a0ac96f8d0a838c7cc711ebd488be8fc4e0c907a95c9fbae",
+          "box_source_pixels": [
+            72,
+            926,
+            641,
+            1044
+          ],
+          "crop_sha256": "fb2de33aca0c97fe92e1253be15d6dbe7d2329a93dddbe66661a6c5319fb0e74",
+          "text": "müfte: Sollte es nicht möglich feyn, unser Dafeyn\nzu verlängern, und dem nur gar zu flüchtigen Ge-\nnüß dieses Guts mehr Ausdehnung zu geben? Und",
+          "seconds": 0.30167291685938835,
+          "tokens": 53,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 27,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0027-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0027.png",
+          "source_image_sha256": "634dabbd1222607c5b9e222e3e7af7c5d89f18d5b416d25e25c318abc24b1996",
+          "box_source_pixels": [
+            7,
+            96,
+            561,
+            214
+          ],
+          "crop_sha256": "835ed7520e75e35cf75413e6602be17e590648e485a51809a74d915d6aa10376",
+          "text": "wirftich bechäftigte dies Problem von jeher die\nMenschheit auf verchiedene Weife. Es war ein Lieb-\nlingsgegenstand der scharffinnigsten Köpfe, ein Tum-\nmelplas der Schwärmer, und eine Hauptlockweife den",
+          "seconds": 0.35989329125732183,
+          "tokens": 67,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "paddle-vl",
+        "left_page": 27,
+        "right_page": 28,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 27,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0027-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0027.png",
+          "source_image_sha256": "634dabbd1222607c5b9e222e3e7af7c5d89f18d5b416d25e25c318abc24b1996",
+          "box_source_pixels": [
+            6,
+            893,
+            558,
+            1011
+          ],
+          "crop_sha256": "53ea5055d92871b0d89d20022e941610d731e9fd08750de3601533281b3cd6c2",
+          "text": "gefunden zu haben; es wurde allgemeine Sitte, alle\nMonate wenigstens zwei Brechmittel zu nehmen,\nund flatt zu sagen, wie befindest du dich, fragte\nman einander; Wie schwisest du? —",
+          "seconds": 0.31141258403658867,
+          "tokens": 56,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 28,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0028-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0028.png",
+          "source_image_sha256": "bb5ccb012165083c29d1adee556e4c83da20977d12d47a47bb5ef87949cee7ed",
+          "box_source_pixels": [
+            58,
+            103,
+            612,
+            221
+          ],
+          "crop_sha256": "3f6af6f41f70466f4d4ba9a5063e9d851cf32dab3daf0219f06a1421f6fcaf84",
+          "text": "Ganz anders bildete sich dieser Trieb bei den Grießen, unter dem Einfluß einer reinen und schönen Natur, aus. Man überzeugte sich sehr bald, daß erode ein pernünftiger Genus der Natur und die",
+          "seconds": 0.30765337496995926,
+          "tokens": 55,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "paddle-vl",
+        "left_page": 28,
+        "right_page": 29,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 28,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0028-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0028.png",
+          "source_image_sha256": "bb5ccb012165083c29d1adee556e4c83da20977d12d47a47bb5ef87949cee7ed",
+          "box_source_pixels": [
+            58,
+            906,
+            612,
+            1024
+          ],
+          "crop_sha256": "49d32eb4fcb5504a5ebe9d882074cd7fe9ba596fecfebf0cc6910885beabc525",
+          "text": "dicus ging so weit, daß er sogar seine Patienten\nnothigte, spazieren zu gehen, sich reiben zu laffen,\nund je mehr die Krankheit abmattete, defto mehr",
+          "seconds": 0.27105137426406145,
+          "tokens": 47,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 29,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0029-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0029.png",
+          "source_image_sha256": "b4932abf0fbcccc4b88ebc4c34103a9ed0eb3df004ceb4716deedc3337d79224",
+          "box_source_pixels": [
+            13,
+            100,
+            568,
+            218
+          ],
+          "crop_sha256": "9f0aa1bdf2e023141beaf21b5a9d51daf367e92c0214bc8b6152c718e2924c5b",
+          "text": "durch Unstrengung der Muselfräfte diese Mattig-\nkeit zu überwältigen; und er hatte das Glück, durch\nfeine Methode fo vielen schwachlichen Menfischen das\nLeben viele Täbre zu verlängern, daß ihm foagar",
+          "seconds": 0.3545157080516219,
+          "tokens": 66,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "paddle-vl",
+        "left_page": 29,
+        "right_page": 30,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 29,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0029-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0029.png",
+          "source_image_sha256": "b4932abf0fbcccc4b88ebc4c34103a9ed0eb3df004ceb4716deedc3337d79224",
+          "box_source_pixels": [
+            17,
+            896,
+            569,
+            1014
+          ],
+          "crop_sha256": "76b1a9528d4abd7ca849fc9b4a42a9b0ca2b1c982132f55284079d3c178d4892",
+          "text": "und beliebte Hilfe des Allers war. Seibt in neuern\nSeiten ist dieser Math mit Nühen befolgt worden;\nder große Boerhave ließ einen alten Amsterdamer\nBürgermeister zwischen zwei jungen Leuten schlafen,",
+          "seconds": 0.3374927081167698,
+          "tokens": 62,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 30,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0030-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0030.png",
+          "source_image_sha256": "1ade0f4bb96db048156b7059fb4019cd3a08c484371969790ed7732c57060d39",
+          "box_source_pixels": [
+            65,
+            93,
+            614,
+            211
+          ],
+          "crop_sha256": "24745102473fece1d45fa4aa40233daed5b67144e13a69ef1af3eb9e07a7e034",
+          "text": "und verfischert, der Alte habe dadurch fichtbar an Munterfeit und Kräften zugenommen. Und gewiß, wenn man bedenft, was der Lebensdunst frisch aufgeschnitener Thiere auf gelähmt Glieder, was das Ausle-",
+          "seconds": 0.36027470882982016,
+          "tokens": 67,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "model": "paddle-vl",
+        "left_page": 200,
+        "right_page": 201,
+        "gate": {
+          "eligible": false,
+          "reason": "visual OCR does not show terminal hyphen"
+        },
+        "left_edge": {
+          "page": 200,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0200-bottom.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0200.png",
+          "source_image_sha256": "2e9e0d88d9cf8276b0edf77d7f59d9addb61e4a90b2dc9fa3f41fa1ba9e06ce2",
+          "box_source_pixels": [
+            72,
+            904,
+            622,
+            1009
+          ],
+          "crop_sha256": "5cbc147a36c5bb6b71ac668b236510957d7f225c63ce9b4065e01c6713fbadc2",
+          "text": "1. Vor allen Dingen muß der Magen und das\nganze Verdaunung sitzen gut befallen fern. —\nEs ist unglaublich, von weicher Wichtigkeit dieser",
+          "seconds": 0.261936666443944,
+          "tokens": 45,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 201,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/expanded/visual/makrobiotikoderd00hufeuoft/page-0201-top.png",
+          "source_image": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/pages/page-0201.png",
+          "source_image_sha256": "56683c9f26f57a739fe7edc055a29f81ff7b1055f1d03ceade4cf22cd037468f",
+          "box_source_pixels": [
+            1,
+            96,
+            549,
+            214
+          ],
+          "crop_sha256": "4d24931358358b9e242f344b9c11e23f16621480c7979d937923fce2e7de216c",
+          "text": "Großmächtigte aller Herrscher im animalischen Neuge\nin dieser Hinricht ist, und man fann mit vosen\nNeige behaupten, ohne einen guten Magen ist es\numdächtig, ein hohes Alter zu erlangen.",
+          "seconds": 0.33268191665410995,
+          "tokens": 61,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      }
+    ],
+    "all_source_spans_exact": true,
+    "note": "Evaluation labels were not read by this worker. Visual OCR and lexical/classifier gates only. Separator removal; no replacement prose."
+  },
+  "references": {
+    "references/makrobiotikoderd00hufeuoft/page-0025.txt": "4640bf96721bd6569fbcdad8c8a8bd3583732f92422f9b0316e5637e28284603",
+    "references/makrobiotikoderd00hufeuoft/page-0030.txt": "e2ab29ee865a1e3663bd95e01258736c3b46898c39b6b28be34fc148dbfad4ac",
+    "references/makrobiotikoderd00hufeuoft/page-0026.txt": "01a63460dca7de6219c39a8fc96f7705e5def3c21e5c9f2e64b658aa45a2cf86",
+    "references/makrobiotikoderd00hufeuoft/page-0027.txt": "10236840c2550a171fbdce2d0652b4d9e474b71432c0bea2c0840e5f5c9cecea",
+    "references/makrobiotikoderd00hufeuoft/page-0200.txt": "a9e58ae56b10bdefacce1572e4f86905fdcea79a1ff2102d1edcc74492a73018",
+    "references/makrobiotikoderd00hufeuoft/page-0201.txt": "327f1f1e475984adc0989ab892346d79fa03c958a7e7b08de50a628cdbfaa6c7",
+    "references/makrobiotikoderd00hufeuoft/page-0029.txt": "f2bd5f89c1efdd0f4531498fe1b0aac039a8e74c89d0bbb57528b3c3a3cb4409",
+    "references/makrobiotikoderd00hufeuoft/page-0028.txt": "6cd0cc492fb3b52802cfe01f00d1006dc6d4f254b4f521e47e89e41ce8b43005",
+    "references/10289757bsb/page-0009.txt": "eabae7b22dd8aecfe23d45886364440d0066be1402ad7483ee6bbaf135aed5a1",
+    "references/10289757bsb/page-0014.txt": "bc775d211cc7d7d14749f93eec8306575350af9713261b9c559b5d5fbaf9d7b1",
+    "references/10289757bsb/page-0010.txt": "94bede5ad5f5c7ffc503711d6386419d3e1b67c015193df693926fd7aac0df00",
+    "references/10289757bsb/page-0011.txt": "39f4acc4a0ffa43cb783ceb9f0a5f98deff59dc9c94ba6a0ee47842a7e3d1366",
+    "references/10289757bsb/page-0013.txt": "93b31b9b588a42684ce3011cf33e90b9a2e8c224b53ff777a49e7e4f502e54bd",
+    "references/10289757bsb/page-0012.txt": "bbf8d0c42a5787d78067ecefe1e7bd2cafad58d370b99b9b180834715c7a7cfd"
+  },
+  "paddle_book_variant": {
+    "pages": [
+      {
+        "book": "10289757bsb",
+        "page": 9,
+        "character_edits": 4,
+        "reference_characters": 1054,
+        "word_edits": 4,
+        "reference_words": 152,
+        "cer": 0.003795066413662239,
+        "wer": 0.02631578947368421
+      },
+      {
+        "book": "10289757bsb",
+        "page": 10,
+        "character_edits": 12,
+        "reference_characters": 1076,
+        "word_edits": 9,
+        "reference_words": 153,
+        "cer": 0.011152416356877323,
+        "wer": 0.058823529411764705
+      },
+      {
+        "book": "10289757bsb",
+        "page": 11,
+        "character_edits": 11,
+        "reference_characters": 981,
+        "word_edits": 8,
+        "reference_words": 148,
+        "cer": 0.011213047910295617,
+        "wer": 0.05405405405405406
+      },
+      {
+        "book": "10289757bsb",
+        "page": 12,
+        "character_edits": 28,
+        "reference_characters": 1169,
+        "word_edits": 18,
+        "reference_words": 182,
+        "cer": 0.023952095808383235,
+        "wer": 0.0989010989010989
+      },
+      {
+        "book": "10289757bsb",
+        "page": 13,
+        "character_edits": 16,
+        "reference_characters": 1119,
+        "word_edits": 9,
+        "reference_words": 176,
+        "cer": 0.014298480786416443,
+        "wer": 0.05113636363636364
+      },
+      {
+        "book": "10289757bsb",
+        "page": 14,
+        "character_edits": 11,
+        "reference_characters": 1055,
+        "word_edits": 9,
+        "reference_words": 170,
+        "cer": 0.01042654028436019,
+        "wer": 0.052941176470588235
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 25,
+        "character_edits": 50,
+        "reference_characters": 1056,
+        "word_edits": 24,
+        "reference_words": 155,
+        "cer": 0.04734848484848485,
+        "wer": 0.15483870967741936
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 26,
+        "character_edits": 37,
+        "reference_characters": 1472,
+        "word_edits": 24,
+        "reference_words": 231,
+        "cer": 0.025135869565217392,
+        "wer": 0.1038961038961039
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 27,
+        "character_edits": 46,
+        "reference_characters": 1448,
+        "word_edits": 26,
+        "reference_words": 208,
+        "cer": 0.031767955801104975,
+        "wer": 0.125
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 28,
+        "character_edits": 43,
+        "reference_characters": 1484,
+        "word_edits": 29,
+        "reference_words": 219,
+        "cer": 0.028975741239892182,
+        "wer": 0.1324200913242009
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 29,
+        "character_edits": 22,
+        "reference_characters": 1453,
+        "word_edits": 13,
+        "reference_words": 219,
+        "cer": 0.015141087405368204,
+        "wer": 0.0593607305936073
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 30,
+        "character_edits": 58,
+        "reference_characters": 1107,
+        "word_edits": 25,
+        "reference_words": 170,
+        "cer": 0.052393857271906055,
+        "wer": 0.14705882352941177
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 200,
+        "character_edits": 84,
+        "reference_characters": 1240,
+        "word_edits": 45,
+        "reference_words": 179,
+        "cer": 0.06774193548387097,
+        "wer": 0.25139664804469275
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 201,
+        "character_edits": 57,
+        "reference_characters": 1482,
+        "word_edits": 29,
+        "reference_words": 215,
+        "cer": 0.038461538461538464,
+        "wer": 0.13488372093023257
+      }
+    ],
+    "cer": 0.027855315189578973,
+    "wer": 0.10554908808692277,
+    "method": "postprocessing of the identical saved real region OCR; retain footnotes, suppress IoU>0.9 duplicates across labels; no text rewriting"
+  },
+  "visual_summary": [
+    {
+      "model": "ovisocr3",
+      "correct_split_words": 1,
+      "split_word_cases": 4,
+      "applied": 1,
+      "false_added_word_joins": 0,
+      "non_split_controls": 8,
+      "results": [
+        {
+          "expected_action": "join_word",
+          "action": "visual_join_word",
+          "word_join_correct": true,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "dem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der ansteckenden aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Gan",
+          "offset": 1064,
+          "book": "10289757bsb",
+          "left_page": 9,
+          "right_page": 10,
+          "visual_applied": true,
+          "gate": {
+            "eligible": true,
+            "left_stem": "anstecken",
+            "right_stem": "den",
+            "reason": "visible terminal hyphen and both edge words match page OCR"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "paragraph",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "den. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme\n\n7\n\nzählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kr",
+          "offset": 2147,
+          "book": "10289757bsb",
+          "left_page": 10,
+          "right_page": 11,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_word",
+          "action": "keep",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "iefis wird noch dadurch der große Vortheil gewonnen, dafs die Berührungspunkte der Hülf-\n\n8\n\nlosen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Ungl",
+          "offset": 3142,
+          "book": "10289757bsb",
+          "left_page": 11,
+          "right_page": 12,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "hyphen already present; retain baseline repair"
+          }
+        },
+        {
+          "expected_action": "join_word",
+          "action": "uncertain",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": " oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.\n\n9\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem ",
+          "offset": 4325,
+          "book": "10289757bsb",
+          "left_page": 12,
+          "right_page": 13,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "cannot align lexical edges"
+          }
+        },
+        {
+          "expected_action": "join_word",
+          "action": "uncertain",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": " Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksam-\n\n10\n\nkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-\nde",
+          "offset": 5457,
+          "book": "10289757bsb",
+          "left_page": 13,
+          "right_page": 14,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "hyphen already present; retain baseline repair"
+          }
+        },
+        {
+          "expected_action": "keep",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": ".\n\nGalbani.\n\nHellebori.\n\nHyoscyami.\n\nNicotianae.\n\nStramonii.\n\nValerianae.\n\nToxicodendri.\n\n67\n\n* Tinctura Antimonii acris.\n\n(Sulphur Antimonii liquidum.)\n\nR. Sulphuris stibiat. aura",
+          "offset": 7256,
+          "book": "10289757bsb",
+          "left_page": 70,
+          "right_page": 71,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "hen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n\n1 *\n\nNatur, nirgendes so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein W",
+          "offset": 1070,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 25,
+          "right_page": 26,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "erlängern, und dem nur gar zu flüchtigen Genuß dieses Gutes mehr Ausdehnung zu geben? Und wirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war",
+          "offset": 2545,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 26,
+          "right_page": 27,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "paragraph",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "en, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwisbest du? —\n\nGanz anders bildete sich dieser Trieb bei den Griechen, unter dem Einfluss einer reinen un",
+          "offset": 3991,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 27,
+          "right_page": 28,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "azieren zu gehen, sich reiben zu lassen, und sie mehr die Krankheit abmattete, desto mehr durch Anstrengung der Muskelfräste diese Mattigkeit zu überwältigen; und er hatte das Glüc",
+          "offset": 5478,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 28,
+          "right_page": 29,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "Boerhave ließ einen alten Amsterdamer Bürgermeister zwischen zwei jungen Leuten schlafen, und versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und",
+          "offset": 6932,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 29,
+          "right_page": 30,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "e Verdauungssystem gut befaßen sein. — Es ist ungläublich, von welcher Wichtigkeit dieser Großmächtigste aller Herrscher im animalischen Reiche in dieser Hinsicht ist, und man kann",
+          "offset": 9310,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 200,
+          "right_page": 201,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        }
+      ]
+    },
+    {
+      "model": "paddle-vl",
+      "correct_split_words": 3,
+      "split_word_cases": 4,
+      "applied": 2,
+      "false_added_word_joins": 0,
+      "non_split_controls": 8,
+      "results": [
+        {
+          "expected_action": "join_word",
+          "action": "visual_join_word",
+          "word_join_correct": true,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "dem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der ansteckenden aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Gan",
+          "offset": 1057,
+          "book": "10289757bsb",
+          "left_page": 9,
+          "right_page": 10,
+          "visual_applied": true,
+          "gate": {
+            "eligible": true,
+            "left_stem": "anstecken",
+            "right_stem": "den",
+            "reason": "visible terminal hyphen and both edge words match page OCR"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "rden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Krank",
+          "offset": 2141,
+          "book": "10289757bsb",
+          "left_page": 10,
+          "right_page": 11,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_word",
+          "action": "join_word",
+          "word_join_correct": true,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "Überdies wird noch dadurch der große Vortheil gewonnen, dafs die Berührungspunkte der Hülflosen mit dem wohlhabenden Theil des Pubkums vermehrt werden, wodurch theils den Unglückli",
+          "offset": 3127,
+          "book": "10289757bsb",
+          "left_page": 11,
+          "right_page": 12,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "hyphen already present; retain baseline repair"
+          }
+        },
+        {
+          "expected_action": "join_word",
+          "action": "uncertain",
+          "word_join_correct": false,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "stalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und 'Tausenden zu zählen.\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem Pro",
+          "offset": 3860,
+          "book": "10289757bsb",
+          "left_page": 12,
+          "right_page": 13,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "cannot align lexical edges"
+          }
+        },
+        {
+          "expected_action": "join_word",
+          "action": "visual_join_word",
+          "word_join_correct": true,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "ere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksamkeit widmen kann, als wenn für das Ganzenur wenige, sey es auch noch so gut besoldete, Hel",
+          "offset": 4984,
+          "book": "10289757bsb",
+          "left_page": 13,
+          "right_page": 14,
+          "visual_applied": true,
+          "gate": {
+            "eligible": true,
+            "left_stem": "Aufmerksam",
+            "right_stem": "keit",
+            "reason": "visible terminal hyphen and both edge words match page OCR"
+          }
+        },
+        {
+          "expected_action": "keep",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "\n\n— Hellebori.\n\n— Hyoscyami.\n\n— Nicotianae.\n\n— Stramonii.\n\n— Valerianae\n\n— Toxicodendri.\n\n—67—\n\n\\(^{*}\\) Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum.)\n\nSulphuris stibiat.",
+          "offset": 6774,
+          "book": "10289757bsb",
+          "left_page": 70,
+          "right_page": 71,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "rzkreisen, nergends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der Natur, nirgends’ so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein W",
+          "offset": 1355,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 25,
+          "right_page": 26,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "u verlängern, und dem nur gar zu flüchtigen Ge-nuk dieses Guts mehr Ausdehnung zu geben?\n\nwirklich befschäftigte dies Problem von jeher die Menschenheit auf verschiedene Beife. Es ",
+          "offset": 2828,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 26,
+          "right_page": 27,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "paragraph",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "ehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Sie schwiesst du?\n\nGanz anders bildete sich dieser Trick bei den Grießen, unter dem Einfluss einer reinen und",
+          "offset": 4273,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 27,
+          "right_page": 28,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "join_space",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": true,
+          "context": "spazieren zu gehen, sich reiben zu lassen, und je mehr die Krankheit abmattete, deso mehr durch Anstrengung der Muskelkräfte diese Mattigkeit zu überwältigen; und er hatte das Glüc",
+          "offset": 5754,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 28,
+          "right_page": 29,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "uncertain",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": "oerhave ließ einen alten Amsterdamer Bürgermeister zwischen zwei jungen Leuten schlafen.\n\nund versichert, der Ulte habe dadurch fichtbar an Munterkeit und Kräften zugenommen. Und g",
+          "offset": 7205,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 29,
+          "right_page": 30,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        },
+        {
+          "expected_action": "join_space",
+          "action": "paragraph",
+          "word_join_correct": null,
+          "false_word_join": false,
+          "action_matches_label": false,
+          "context": " Verdauungsivem gut bestafenen sein. — Es ist unglaublich, von weißer Lichtigkeit dieser\n\nGroßmächtigste aller Herrscher im animalischen Re‘che in dieser Finsicht ist, und man kann",
+          "offset": 9613,
+          "book": "makrobiotikoderd00hufeuoft",
+          "left_page": 200,
+          "right_page": 201,
+          "visual_applied": false,
+          "gate": {
+            "eligible": false,
+            "reason": "visual OCR does not show terminal hyphen"
+          }
+        }
+      ]
+    }
+  ],
+  "fraktur_probe": {
+    "pages": [
+      34,
+      35
+    ],
+    "book": "makrobiotikoderd00hufeuoft",
+    "dpi": 400,
+    "renderer": "pdfrune, strict native rendering",
+    "excluded_from_primary_metrics": true,
+    "visible_split_word": "Per- + son. = Person",
+    "results": [
+      {
+        "book": "makrobiotikoderd00hufeuoft-native-hyphen",
+        "model": "ovisocr3",
+        "left_page": 34,
+        "right_page": 35,
+        "gate": {
+          "eligible": false,
+          "reason": "hyphen already present; retain baseline repair"
+        },
+        "left_edge": {
+          "page": 34,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/fraktur-hyphen-probe/visual/makrobiotikoderd00hufeuoft-native-hyphen/page-0034-bottom.png",
+          "source_image": "workspace/fraktur-hyphen-probe/document/pages/page-0034.png",
+          "source_image_sha256": "17526855b9b933d2be7871b31050de4d521a9770220fc7602688b34c304e45d0",
+          "box_source_pixels": [
+            114,
+            1786,
+            1224,
+            2020
+          ],
+          "crop_sha256": "565b78f0df23f4f373a1f7958e73aefc07be5647d479d4f4f0993c4b77da2bc1",
+          "text": "dert an dem furfürstlichen Hofe zu Berlin, und war\nLeibarzt, Chemist, Nativitätsteller, Calendermacher,\nBuchdruder und Buchhandler, alled in einer Per-",
+          "seconds": 0.4091825829818845,
+          "tokens": 50,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 35,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/fraktur-hyphen-probe/visual/makrobiotikoderd00hufeuoft-native-hyphen/page-0035-top.png",
+          "source_image": "workspace/fraktur-hyphen-probe/document/pages/page-0035.png",
+          "source_image_sha256": "7614b6d7e209ad8aa6f20985117151f8820b2cf731ca80d16155df1b5b76d539",
+          "box_source_pixels": [
+            33,
+            218,
+            1133,
+            452
+          ],
+          "crop_sha256": "460806ebe76433665f50a4e4ec88e58445c1d52e005a5458dfd82d309507e03b",
+          "text": "jon. Ecine Reputation in der Ätrologie war so groß, daß fast in feinem angefehlenen Hause in\nDeutschland, Polen, Ungarn, Dänemark, ja felbjt\nin England ein Kind achoren wurde, wo man nicht",
+          "seconds": 0.47928799968212843,
+          "tokens": 64,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft-native-hyphen",
+        "model": "paddle-vl",
+        "left_page": 34,
+        "right_page": 35,
+        "gate": {
+          "eligible": false,
+          "reason": "visual and page OCR edge words disagree"
+        },
+        "left_edge": {
+          "page": 34,
+          "side": "bottom",
+          "label": "text",
+          "crop": "workspace/fraktur-hyphen-probe/visual/makrobiotikoderd00hufeuoft-native-hyphen/page-0034-bottom.png",
+          "source_image": "workspace/fraktur-hyphen-probe/document/pages/page-0034.png",
+          "source_image_sha256": "17526855b9b933d2be7871b31050de4d521a9770220fc7602688b34c304e45d0",
+          "box_source_pixels": [
+            114,
+            1786,
+            1224,
+            2020
+          ],
+          "crop_sha256": "565b78f0df23f4f373a1f7958e73aefc07be5647d479d4f4f0993c4b77da2bc1",
+          "text": "dert an dem furfürstlichen Hofe zu Berlin, und war\nLeibarzt, Chemist, Nativitätsteller, Calendermacher,\nBuchdruder und Buchhandler, alled in einer Per-",
+          "seconds": 0.4091825829818845,
+          "tokens": 50,
+          "possibly_truncated": false
+        },
+        "right_edge": {
+          "page": 35,
+          "side": "top",
+          "label": "text",
+          "crop": "workspace/fraktur-hyphen-probe/visual/makrobiotikoderd00hufeuoft-native-hyphen/page-0035-top.png",
+          "source_image": "workspace/fraktur-hyphen-probe/document/pages/page-0035.png",
+          "source_image_sha256": "7614b6d7e209ad8aa6f20985117151f8820b2cf731ca80d16155df1b5b76d539",
+          "box_source_pixels": [
+            33,
+            218,
+            1133,
+            452
+          ],
+          "crop_sha256": "460806ebe76433665f50a4e4ec88e58445c1d52e005a5458dfd82d309507e03b",
+          "text": "jon. Ecine Reputation in der Ätrologie war so groß, daß fast in feinem angefehlenen Hause in\nDeutschland, Polen, Ungarn, Dänemark, ja felbjt\nin England ein Kind achoren wurde, wo man nicht",
+          "seconds": 0.47928799968212843,
+          "tokens": 64,
+          "possibly_truncated": false
+        },
+        "approved": false,
+        "applied": false
+      }
+    ],
+    "applied_joins": 0
+  }
+}

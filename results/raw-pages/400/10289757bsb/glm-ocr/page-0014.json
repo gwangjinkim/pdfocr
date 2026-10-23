@@ -1,0 +1,22 @@
+{
+  "page": 14,
+  "status": "ok",
+  "markdown": "keit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besoldete, Helfer angestellt werden, die dann wegen der zu großen Menge der Leidenden, auch bei dem besten Willen, dem Einzelnen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzuziehen, so lange es irgend thunlich ist. — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entstehet Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, den Menschen als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitäern heirschend, und die Wurzel alles Verderbens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitäler, selbst der besten, denn es ist kein Vorwurf, den ich der Verwaltung mache, das Übel liegt in ihrer Natur. — Ferner, je mehr die Menschen in Masse zusammengedrängt werden, desto mehr erzeugt sich auch Böses unter",
+  "raw": {
+    "text": "keit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besoldete, Helfer angestellt werden, die dann wegen der zu großen Menge der Leidenden, auch bei dem besten Willen, dem Einzelnen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzuziehen, so lange es irgend thunlich ist. — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entstehet Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, den Menschen als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitäern heirschend, und die Wurzel alles Verderbens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitäler, selbst der besten, denn es ist kein Vorwurf, den ich der Verwaltung mache, das Übel liegt in ihrer Natur. — Ferner, je mehr die Menschen in Masse zusammengedrängt werden, desto mehr erzeugt sich auch Böses unter",
+    "generation_tokens": 304,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3463606162
+  },
+  "seconds": 4.518032374791801,
+  "load_seconds": 0.7326349159702659,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 304,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3463606162
+}

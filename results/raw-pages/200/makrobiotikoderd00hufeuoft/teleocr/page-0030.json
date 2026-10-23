@@ -1,0 +1,107 @@
+{
+  "page": 30,
+  "status": "ok",
+  "markdown": "und verficht, ber又te habe baburch fichtbar an Münterfeit und Kräften zugenommen. Und gewiß, wenn man bebenft, was der Lebenebundt frefd aufgeßnittener Thiere auf gelähmte Glieber, was bas Münfergen lebenbiger Thiere auf fehmerzhafte Uebel vermag, fo feieint biefe Methobe nicht verwerlich su fein.\n\nDöchft mahrheinlid grundbete fich auf biefe Jbeen der hohe Zerth, ben man bei Stömern und Grieden auf das Unweben eines reinen gefunden Althemse fegte. © gehört hierber eine alte Jinfdrift, die man im vorigen Jahrhunbert au Tom fand, und fe lautet:\n\nAesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem 9e041ap und der Gefundheit gewieh\nvon E. Clobing-Sermippus\nder 115 Jahre 5 Tage lebte\nDurch den Nchem junger Mächen u. f w.\n\nDiefe Indrift mag nun ächt fevn über nicht; genug fe veranläfte noch im Umfang des Itten Jahrehumberts eine Sdrift, worin ein Doctor Obaufen febr gefiebrt bewiefer, biefer Hermippus fev ein Saifenhaus: Vorficher oder Miäbdenfdulmeither so",
+  "raw": {
+    "pages": [
+      {
+        "width": 642,
+        "height": 1157,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.434,
+              0.048,
+              0.627,
+              0.07
+            ],
+            "angle": 0,
+            "content": "- 8 -"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.111,
+              0.085,
+              0.949,
+              0.239
+            ],
+            "angle": 0,
+            "content": "und verficht, ber又te habe baburch fichtbar an Münterfeit und Kräften zugenommen. Und gewiß, wenn man bebenft, was der Lebenebundt frefd aufgeßnittener Thiere auf gelähmte Glieber, was bas Münfergen lebenbiger Thiere auf fehmerzhafte Uebel vermag, fo feieint biefe Methobe nicht verwerlich su fein."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.111,
+              0.242,
+              0.949,
+              0.371
+            ],
+            "angle": 0,
+            "content": "Döchft mahrheinlid grundbete fich auf biefe Jbeen der hohe Zerth, ben man bei Stömern und Grieden auf das Unweben eines reinen gefunden Althemse fegte. © gehört hierber eine alte Jinfdrift, die man im vorigen Jahrhunbert au Tom fand, und fe lautet:"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.25,
+              0.384,
+              0.811,
+              0.552
+            ],
+            "angle": 0,
+            "content": "Aesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.221,
+              0.587,
+              0.84,
+              0.704
+            ],
+            "angle": 0,
+            "content": "Dem 9e041ap und der Gefundheit gewieh\nvon E. Clobing-Sermippus\nder 115 Jahre 5 Tage lebte\nDurch den Nchem junger Mächen u. f w."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.112,
+              0.737,
+              0.95,
+              0.866
+            ],
+            "angle": 0,
+            "content": "Diefe Indrift mag nun ächt fevn über nicht; genug fe veranläfte noch im Umfang des Itten Jahrehumberts eine Sdrift, worin ein Doctor Obaufen febr gefiebrt bewiefer, biefer Hermippus fev ein Saifenhaus: Vorficher oder Miäbdenfdulmeither so"
+          }
+        ],
+        "markdown": "und verficht, ber又te habe baburch fichtbar an Münterfeit und Kräften zugenommen. Und gewiß, wenn man bebenft, was der Lebenebundt frefd aufgeßnittener Thiere auf gelähmte Glieber, was bas Münfergen lebenbiger Thiere auf fehmerzhafte Uebel vermag, fo feieint biefe Methobe nicht verwerlich su fein.\n\nDöchft mahrheinlid grundbete fich auf biefe Jbeen der hohe Zerth, ben man bei Stömern und Grieden auf das Unweben eines reinen gefunden Althemse fegte. © gehört hierber eine alte Jinfdrift, die man im vorigen Jahrhunbert au Tom fand, und fe lautet:\n\nAesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem 9e041ap und der Gefundheit gewieh\nvon E. Clobing-Sermippus\nder 115 Jahre 5 Tage lebte\nDurch den Nchem junger Mächen u. f w.\n\nDiefe Indrift mag nun ächt fevn über nicht; genug fe veranläfte noch im Umfang des Itten Jahrehumberts eine Sdrift, worin ein Doctor Obaufen febr gefiebrt bewiefer, biefer Hermippus fev ein Saifenhaus: Vorficher oder Miäbdenfdulmeither so",
+        "stats": {
+          "layout_ms": 5571.7660000000005,
+          "extract_ms": 3154.067875,
+          "blocks": 6,
+          "generated_tokens": 544
+        }
+      }
+    ],
+    "stderr": "2026-10-23T12:29:40.114327Z  INFO teleocr: model loaded in 0.5s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":5571.7660000000005,\"extract_ms\":3154.067875,\"blocks\":6,\"generated_tokens\":544}\n1 page(s) in 8.73s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd/inputs/page-0030.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 9.354064292274415,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

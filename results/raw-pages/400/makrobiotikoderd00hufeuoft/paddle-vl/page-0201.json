@@ -1,0 +1,75 @@
+{
+  "page": 201,
+  "status": "ok",
+  "markdown": "Großmächtigste aller Herrscher im animalischen Re‘che in dieser Hinsicht ist, und man kann mit volle Rechte behaupten, ohne einen guten Ragen isse unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Nücksicht ist der Magen der Grundstein des langen Lebens: Einmal, indem er das erste und wichtigste Postaurationsorgan unfrer Natur ist, die Pforte, wodurch alles, was unser werden soll, eingehen muß, die erste Instanz, von deren gutem oder schlechtem Sustand nicht nur die Inantiträ, sondern auch die Qualität unters Erlases abhängt. — Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenschaften, der Frankheitsschaden und anderer zerstörender Einflüsse auf unser Körper modifiziert wird. — „Er hat einen guten Magen,“ sagt man im Sprichwort, wenn man Temand karakterisern will, auf den weder Averger, noch Kummer, noch Kränkungen schädlich wirken, und gewik, es liegt viel Bahres darin. — Alle diese Leidenschaften müssen vorzüglich den Magen afficiren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Physisches übergehen und schaden sollen. Ein guter robuster Magen nimmt gar keine Notiz davon. Hingegen ein schwacher empfendischer Magen wird alle Augenblicke durch so etwas in seiner Vertrittung gestört, und folglich das so wichtige Restaurationsgeschäft unausschricht unterbrochen und schlecht betrieben. — Eben so ist es mit den meisten physischen Frankheitseinschlüßen; die meisten machen ihren ersten Cindrus auf",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          503,
+          118,
+          601,
+          176
+        ],
+        "label": "number",
+        "score": 0.3049750328063965,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0201/block-000-number.png",
+        "order": 24,
+        "text": "179",
+        "seconds": 0.1415815418586135,
+        "tokens": 4,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          15,
+          201,
+          1085,
+          452
+        ],
+        "label": "text",
+        "score": 0.942983865737915,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0201/block-001-text.png",
+        "order": 97,
+        "text": "Großmächtigste aller Herrscher im animalischen Re‘che in dieser Hinsicht ist, und man kann mit volle Rechte behaupten, ohne einen guten Ragen isse unmöglich, ein hohes Alter zu erlangen.",
+        "seconds": 0.39108291640877724,
+        "tokens": 58,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          12,
+          446,
+          1096,
+          2015
+        ],
+        "label": "text",
+        "score": 0.9644806385040283,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0201/block-002-text.png",
+        "order": 135,
+        "text": "In zweierlei Nücksicht ist der Magen der Grundstein des langen Lebens: Einmal, indem er das erste und wichtigste Postaurationsorgan unfrer Natur ist, die Pforte, wodurch alles, was unser werden soll, eingehen muß, die erste Instanz, von deren gutem oder schlechtem Sustand nicht nur die Inantiträ, sondern auch die Qualität unters Erlases abhängt. — Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenschaften, der Frankheitsschaden und anderer zerstörender Einflüsse auf unser Körper modifiziert wird. — „Er hat einen guten Magen,“ sagt man im Sprichwort, wenn man Temand karakterisern will, auf den weder Averger, noch Kummer, noch Kränkungen schädlich wirken, und gewik, es liegt viel Bahres darin. — Alle diese Leidenschaften müssen vorzüglich den Magen afficiren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Physisches übergehen und schaden sollen. Ein guter robuster Magen nimmt gar keine Notiz davon. Hingegen ein schwacher empfendischer Magen wird alle Augenblicke durch so etwas in seiner Vertrittung gestört, und folglich das so wichtige Restaurationsgeschäft unausschricht unterbrochen und schlecht betrieben. — Eben so ist es mit den meisten physischen Frankheitseinschlüßen; die meisten machen ihren ersten Cindrus auf",
+        "seconds": 2.291481458581984,
+        "tokens": 375,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.6284052906557918,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 3.571050874888897,
+  "load_seconds": 1.3115671249106526,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2879137288,
+  "layout_seconds": 0.6284052906557918
+}

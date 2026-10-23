@@ -1,0 +1,74 @@
+{
+  "page": 201,
+  "status": "ok",
+  "markdown": "Großmäckigte aller Segfder im animaliften Rehe in diefer Sinfticht ist, und man Fann mit voelen Rechte behaupten, ohne einen guten Magen ist es unmöglich, ein hoheß Alter zu erlangen.\n\n自 3.>Weierlei Nucelicht ir der Magen der Brunderein des langen Lebens: Einmal, indem er das erite und widtrige Refaurationsbergan unferr Natur it, die Sporte, wodurch alles, mas unfer werden feil, eingeben muß, die erite Snftanz, von deren gutem oder fölechem Saftand nicht nur die Znanitär, fol- dern auch die Qualität umfers Criases abhängt. — Switenest, indem durch die Beibaffenheit des Magenß feibt die Einwirfung der Leibenfnäften, der Kraftheitserufaden und ander zertförender Einflüffe auf unfern Körper modificirt wird. — „Er hat einen guten Magen,“ fagt man im Spridwort, wenn man Jemand farafterifiren will, auf den weder Verger, nod Summer, nod Kränfungen fähablich wir- fen, und gewiß, es liegt viel 2 Bahres darin. — Alfe biete Leibenfnäften müssen vorzüglich den Magen officiren, von ihm gleichfam empfunen und angenemmen werden, wenn fe in unter Phiffdeß übergeben und f haden feilen. Ein guter robuster Magen nimmt gar feine Notiz daven. Ingegen ein főwacher empfindämer Magen wird alle Angenblüde durch fo etwas in feiner Serrichtung gefört, und folglich das fo widtrige Refaurationsgefdaft unauf- hertich unterreden und fölecht betrieben. — Even fo ist es mit den微ten phaffden. Kraftheitseins prüfen; die meifen maden ihren eriten Einbrue auf",
+  "raw": {
+    "pages": [
+      {
+        "width": 1278,
+        "height": 2313,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.31,
+              0.052,
+              0.549,
+              0.076
+            ],
+            "angle": 0,
+            "content": "- 179 -"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.013,
+              0.089,
+              0.849,
+              0.193
+            ],
+            "angle": 0,
+            "content": "Großmäckigte aller Segfder im animaliften Rehe in diefer Sinfticht ist, und man Fann mit voelen Rechte behaupten, ohne einen guten Magen ist es unmöglich, ein hoheß Alter zu erlangen."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.013,
+              0.194,
+              0.855,
+              0.866
+            ],
+            "angle": 0,
+            "content": "自 3.>Weierlei Nucelicht ir der Magen der Brunderein des langen Lebens: Einmal, indem er das erite und widtrige Refaurationsbergan unferr Natur it, die Sporte, wodurch alles, mas unfer werden feil, eingeben muß, die erite Snftanz, von deren gutem oder fölechem Saftand nicht nur die Znanitär, fol- dern auch die Qualität umfers Criases abhängt. — Switenest, indem durch die Beibaffenheit des Magenß feibt die Einwirfung der Leibenfnäften, der Kraftheitserufaden und ander zertförender Einflüffe auf unfern Körper modificirt wird. — „Er hat einen guten Magen,“ fagt man im Spridwort, wenn man Jemand farafterifiren will, auf den weder Verger, nod Summer, nod Kränfungen fähablich wir- fen, und gewiß, es liegt viel 2 Bahres darin. — Alfe biete Leibenfnäften müssen vorzüglich den Magen officiren, von ihm gleichfam empfunen und angenemmen werden, wenn fe in unter Phiffdeß übergeben und f haden feilen. Ein guter robuster Magen nimmt gar feine Notiz daven. Ingegen ein főwacher empfindämer Magen wird alle Angenblüde durch fo etwas in feiner Serrichtung gefört, und folglich das fo widtrige Refaurationsgefdaft unauf- hertich unterreden und fölecht betrieben. — Even fo ist es mit den微ten phaffden. Kraftheitseins prüfen; die meifen maden ihren eriten Einbrue auf"
+          }
+        ],
+        "markdown": "Großmäckigte aller Segfder im animaliften Rehe in diefer Sinfticht ist, und man Fann mit voelen Rechte behaupten, ohne einen guten Magen ist es unmöglich, ein hoheß Alter zu erlangen.\n\n自 3.>Weierlei Nucelicht ir der Magen der Brunderein des langen Lebens: Einmal, indem er das erite und widtrige Refaurationsbergan unferr Natur it, die Sporte, wodurch alles, mas unfer werden feil, eingeben muß, die erite Snftanz, von deren gutem oder fölechem Saftand nicht nur die Znanitär, fol- dern auch die Qualität umfers Criases abhängt. — Switenest, indem durch die Beibaffenheit des Magenß feibt die Einwirfung der Leibenfnäften, der Kraftheitserufaden und ander zertförender Einflüffe auf unfern Körper modificirt wird. — „Er hat einen guten Magen,“ fagt man im Spridwort, wenn man Jemand farafterifiren will, auf den weder Verger, nod Summer, nod Kränfungen fähablich wir- fen, und gewiß, es liegt viel 2 Bahres darin. — Alfe biete Leibenfnäften müssen vorzüglich den Magen officiren, von ihm gleichfam empfunen und angenemmen werden, wenn fe in unter Phiffdeß übergeben und f haden feilen. Ein guter robuster Magen nimmt gar feine Notiz daven. Ingegen ein főwacher empfindämer Magen wird alle Angenblüde durch fo etwas in feiner Serrichtung gefört, und folglich das fo widtrige Refaurationsgefdaft unauf- hertich unterreden und fölecht betrieben. — Even fo ist es mit den微ten phaffden. Kraftheitseins prüfen; die meifen maden ihren eriten Einbrue auf",
+        "stats": {
+          "layout_ms": 5175.475375,
+          "extract_ms": 13684.669042,
+          "blocks": 3,
+          "generated_tokens": 543
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:28:32.669799Z  INFO teleocr: model loaded in 0.6s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":5175.475375,\"extract_ms\":13684.669042,\"blocks\":3,\"generated_tokens\":543}\n1 page(s) in 18.86s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/teleocr-teleocr-515a88fd5f878258/inputs/page-0201.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 19.534473832696676,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

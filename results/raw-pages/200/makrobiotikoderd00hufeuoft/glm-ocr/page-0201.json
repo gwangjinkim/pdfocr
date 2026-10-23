@@ -1,0 +1,22 @@
+{
+  "page": 201,
+  "status": "ok",
+  "markdown": "Großmächtigte aller Herrscher im animalischen Neuge\nin dieser Hinricht ist, und man fann mit vollen\nNechte behaupten, ohne einen guten Magen ist es\nunmöglich, ein hobes Alter zu erlangen.\n\nIn zweierlei Nüßicht ist der Magen der Grund-\nstein des langen Lebens: einmal, indem er das erste\nund wichtigste Rehaurationsorgan unfrer Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingeben muß, die erzieh Kunst, von deren gutem\noder schlechtem Zustand nicht nur die Quantität, fondern auch die Qualität unseres Criales abhängt. —\nZweitens, indem durch die Bechaffenheit des Magens felbft die Einwirkung der Leidenchaften, der Krankheitssurfachen und anderer zerstrender Einflüsse auf unfern Körper modifiert wird. — „Er hat einen guten Magen,“ sagt man im Sprichwort, wenn man Jemand farafterifren will, auf den weder Aerger, noch Kummer, noch Kränkungen schädlich wirfen, und gewiß, es liegt viel Wahres darin. — Alle dieie Leidenchaften müssen vorzüglich den Magen afficiren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Phyffisches übergehen und schaden sollen. Ein guter robuffer Magen nimmt gar seine Notiz davon. Hingegen ein schwach empfindamer Magen wird alle Augenblinde durch so etwas in seiner Verrichtung gestört, und folglich das wo wichtige Rehaurationsgeschaft unaufförlich unterbrochen und schlecht betrieben. — Eben so ist es mit den meisten phyffischen Krankheitsein-\nführen; die meisten machen ihren erften Cindrus auf",
+  "raw": {
+    "text": "Großmächtigte aller Herrscher im animalischen Neuge\nin dieser Hinricht ist, und man fann mit vollen\nNechte behaupten, ohne einen guten Magen ist es\nunmöglich, ein hobes Alter zu erlangen.\n\nIn zweierlei Nüßicht ist der Magen der Grund-\nstein des langen Lebens: einmal, indem er das erste\nund wichtigste Rehaurationsorgan unfrer Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingeben muß, die erzieh Kunst, von deren gutem\noder schlechtem Zustand nicht nur die Quantität, fondern auch die Qualität unseres Criales abhängt. —\nZweitens, indem durch die Bechaffenheit des Magens felbft die Einwirkung der Leidenchaften, der Krankheitssurfachen und anderer zerstrender Einflüsse auf unfern Körper modifiert wird. — „Er hat einen guten Magen,“ sagt man im Sprichwort, wenn man Jemand farafterifren will, auf den weder Aerger, noch Kummer, noch Kränkungen schädlich wirfen, und gewiß, es liegt viel Wahres darin. — Alle dieie Leidenchaften müssen vorzüglich den Magen afficiren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Phyffisches übergehen und schaden sollen. Ein guter robuffer Magen nimmt gar seine Notiz davon. Hingegen ein schwach empfindamer Magen wird alle Augenblinde durch so etwas in seiner Verrichtung gestört, und folglich das wo wichtige Rehaurationsgeschaft unaufförlich unterbrochen und schlecht betrieben. — Eben so ist es mit den meisten phyffischen Krankheitsein-\nführen; die meisten machen ihren erften Cindrus auf",
+    "generation_tokens": 437,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3277938553
+  },
+  "seconds": 2.7974991658702493,
+  "load_seconds": 0.7493781251832843,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 437,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3277938553
+}

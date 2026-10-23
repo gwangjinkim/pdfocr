@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "offset_unit": "unicode_codepoint",
+  "interval_convention": "[start,end)",
+  "raw_file": "results/paddle-fraktur-400dpi-raw.md",
+  "raw_sha256": "0603f0e2fe8758addfe256fa08a63c14af9a718e991a018f6595f436128b62f2",
+  "output_file": "results/paddle-fraktur-400dpi-repaired.md",
+  "spans": [
+    {
+      "output_start": 0,
+      "output_end": 1471,
+      "kind": "source",
+      "page": 34,
+      "raw_start": 12,
+      "raw_end": 1483
+    },
+    {
+      "output_start": 1471,
+      "output_end": 2941,
+      "kind": "source",
+      "page": 35,
+      "raw_start": 1497,
+      "raw_end": 2967
+    },
+    {
+      "output_start": 2941,
+      "output_end": 2942,
+      "kind": "separator"
+    }
+  ],
+  "omissions": [],
+  "relocations": [],
+  "boundaries": [
+    {
+      "left_page": 34,
+      "right_page": 35,
+      "before_left": "die Krankheiten, die Art des Todes und auch den Tag dessen bestimmen zu k\u00f6nnen. \u2014 Dies war der Glaube nicht blo\u00df dessen gro\u00dfen Haufen, sondern der gr\u00f6\u00dften, verst\u00e4ndigsten und einseitslvolisten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie fest man daran hing, unerahtet es nicht an Beispielen fehlen konnte, wo die Prophezeitung fehlschlug. Visch\u00f6se, hohe Geistliche, ber\u00fchmte Philosophen und Aterzte gaben sich mit dem Nativit\u00e4tstellen ab, man las sogar auf Universit\u00e4ten Collegia dar\u00fcber, so gut wie \u00fcber die Punctirkunst und Cabala. Zum Weise erlaube man mir ein Paar Worte von dem ber\u00fchmten Thurneisen, dem gl\u00e4nzendsten Ph\u00e4nomen dieser Art, und einem wirktich ausgezeichneten Menschen, zu sagen. Er lebte im 17ten Jahrhundert an dem kurfurstlichen Hofe zu Berlin, und war Leibarzt, Chemist, Nativit\u00e4tsteller, Talendermader, Ruddrucker und Rudhandler, alles in einer Per",
+      "before_right": "son. Sc\u00e8ne Reputation in der A\u00fcrologie war so gro\u00df, da\u00df fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, D\u00e4nemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Boten mit der Bestimmung der Se- burts-tunde an ihn absendete. Es kamen oft acht, zehn bis zw\u00f6lf solche Geburtsstunden auf einmal bei ihm an, und er wurde zulegt so \u00fcberh\u00e4uft, da\u00df er sich Geh\u00fclsen zu diesem Geschaft halten muste. Noch befinden sich viele B\u00e4nde solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der K\u00f6nig in Elisabeth erscheinen. Ausserdem schrieb er noch j\u00e4hrlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres \u00fcberhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gew\u00f6hnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, d",
+      "action": "join_space",
+      "reason": "The boundary between the left and right pages is marked by a line-break hyphen, which should be joined by a space to maintain the original text structure.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": true,
+      "prompt_sha256": "7fac338e9a49cadb00c8554bbf663a8fcdec0360b54b8a6a11cb866244c13c4c",
+      "model_response": "{\"action\": \"join_space\", \"reason\": \"The boundary between the left and right pages is marked by a line-break hyphen, which should be joined by a space to maintain the original text structure.\", \"remove_right_header\": false, \"move_left_note\": false}",
+      "proposed_action": "join_space",
+      "remove_right_header": false,
+      "move_left_note": false,
+      "output_offset": 1471,
+      "right_raw_start": 1497,
+      "after_boundary": "die Krankheiten, die Art des Todes und auch den Tag dessen bestimmen zu k\u00f6nnen. \u2014 Dies war der Glaube nicht blo\u00df dessen gro\u00dfen Haufen, sondern der gr\u00f6\u00dften, verst\u00e4ndigsten und einseitslvolisten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie fest man daran hing, unerahtet es nicht an Beispielen fehlen konnte, wo die Prophezeitung fehlschlug. Visch\u00f6se, hohe Geistliche, ber\u00fchmte Philosophen und Aterzte gaben sich mit dem Nativit\u00e4tstellen ab, man las sogar auf Universit\u00e4ten Collegia dar\u00fcber, so gut wie \u00fcber die Punctirkunst und Cabala. Zum Weise erlaube man mir ein Paar Worte von dem ber\u00fchmten Thurneisen, dem gl\u00e4nzendsten Ph\u00e4nomen dieser Art, und einem wirktich ausgezeichneten Menschen, zu sagen. Er lebte im 17ten Jahrhundert an dem kurfurstlichen Hofe zu Berlin, und war Leibarzt, Chemist, Nativit\u00e4tsteller, Talendermader, Ruddrucker und Rudhandler, alles in einer Per son. Sc\u00e8ne Reputation in der A\u00fcrologie war so gro\u00df, da\u00df fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, D\u00e4nemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Boten mit der Bestimmung der Se- burts-tunde an ihn absendete. Es kamen oft acht, zehn bis zw\u00f6lf solche Geburtsstunden auf einmal bei ihm an, und er wurde zulegt so \u00fcberh\u00e4uft, da\u00df er sich Geh\u00fclsen zu diesem Geschaft halten muste. Noch befinden sich viele B\u00e4nde solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der K\u00f6nig in Elisabeth erscheinen. Ausserdem schrieb er noch j\u00e4hrlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres \u00fcberhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gew\u00f6hnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, d"
+    }
+  ],
+  "pages": [
+    {
+      "page": 34,
+      "raw_start": 12,
+      "raw_end": 1483,
+      "ocr_error": false
+    },
+    {
+      "page": 35,
+      "raw_start": 1497,
+      "raw_end": 2967,
+      "ocr_error": false
+    }
+  ],
+  "output_sha256": "e35ac11a054febbaef706effa021a8c8f25ff3523f21b244f5b8775adfe78670",
+  "visual_separator_removals": [
+    {
+      "left_page": 34,
+      "right_page": 35,
+      "old_start": 1471,
+      "old_end": 1472,
+      "removed_separator": " "
+    }
+  ],
+  "boundary_metadata_note": "Boundary actions and before/after snapshots describe the baseline classifier pass. The final visual edit is recorded under visual_separator_removals; output_offset and spans refer to the final output.",
+  "visual_reader": {
+    "repo": "PaddlePaddle/PaddleOCR-VL-1.6",
+    "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+    "path": "model-cache/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42"
+  }
+}

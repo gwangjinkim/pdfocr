@@ -1,0 +1,22 @@
+{
+  "page": 200,
+  "status": "ok",
+  "markdown": "Uchte Vorlesung.\nSpecielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.\n\nhauptpunkte der Anlage zum langen Leben — Guter Wagen und Verdauungsfremm, gefunde Zahne — gut erdausnifere Brust — nicht zu reizdares Herz — gute Neurations; und Heilfraft der Natur — geboriger Grad und Vertreitung der Lebensfraft, gut Temperament — harmonischer und fehlerfreier Körperbau — mittlere Schwaffenheit der Tertur des Körpers — kein vorzuglich schwacher Theil — vollkommenene Organisation der Menschengungsfraft — das Bild eines zum langen Leben beilimmten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Perfimmung der speciellen und individuellen Grundlage des langen Lebens übergeben, die in dem Menschen feibt liegen muß. Ich will die Haupttiegenschaft und Untagen angeben, die nach obigen Grundlagen und der Erfabrung ein Mensch durdauß haben muß, der auf ein langes Leben Nechnung maßen will. Dieje Schilderung kann zugleich flart einer furzen Phylogenomik des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind folgende:\n\n1. Vor allen Dingen muß der Magen und das ganze Verdaunung siftem gut befrauen feen. — Es ist unglaublich, von weicher Wichtigkeit dieser",
+  "raw": {
+    "text": "Uchte Vorlesung.\nSpecielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.\n\nhauptpunkte der Anlage zum langen Leben — Guter Wagen und Verdauungsfremm, gefunde Zahne — gut erdausnifere Brust — nicht zu reizdares Herz — gute Neurations; und Heilfraft der Natur — geboriger Grad und Vertreitung der Lebensfraft, gut Temperament — harmonischer und fehlerfreier Körperbau — mittlere Schwaffenheit der Tertur des Körpers — kein vorzuglich schwacher Theil — vollkommenene Organisation der Menschengungsfraft — das Bild eines zum langen Leben beilimmten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Perfimmung der speciellen und individuellen Grundlage des langen Lebens übergeben, die in dem Menschen feibt liegen muß. Ich will die Haupttiegenschaft und Untagen angeben, die nach obigen Grundlagen und der Erfabrung ein Mensch durdauß haben muß, der auf ein langes Leben Nechnung maßen will. Dieje Schilderung kann zugleich flart einer furzen Phylogenomik des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind folgende:\n\n1. Vor allen Dingen muß der Magen und das ganze Verdaunung siftem gut befrauen feen. — Es ist unglaublich, von weicher Wichtigkeit dieser",
+    "generation_tokens": 351,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3277938553
+  },
+  "seconds": 2.32012225035578,
+  "load_seconds": 0.7493781251832843,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 351,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3277938553
+}

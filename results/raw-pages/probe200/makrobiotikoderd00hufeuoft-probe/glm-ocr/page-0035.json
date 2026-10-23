@@ -1,0 +1,22 @@
+{
+  "page": 35,
+  "status": "ok",
+  "markdown": "jon. Seine Reputation in der Ätirologie war so groß, daß fair in feinem angefehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja felbjt in England ein Kind geboren wurde, wo man nicht fogleich einen Voten mit der Bestimmung der Geburtskunde an ihn absendete. Es famen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zuletzt so überhäuft, daß er sich Gebüllen zu diesem Gehäuft halten mußte. Noch befinden sich viele Bände solcher Aufragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Clifabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derfelben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beiswiele, daß er sich durch Geld und gute Worte bewegen ließ, dieselbe im voraus mitzutheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun fönnen; der Calender erhielt sich über 20 Jahre, hatte reiffenden Ubgang, und verschaffte, nebst andern Charlatanerien, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nUber wie fonnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Gränzen fehte, Mittel zur Verlängerung desfelben finden! Dies gefehah auf folgende finnreiche Art:",
+  "raw": {
+    "text": "jon. Seine Reputation in der Ätirologie war so groß, daß fair in feinem angefehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja felbjt in England ein Kind geboren wurde, wo man nicht fogleich einen Voten mit der Bestimmung der Geburtskunde an ihn absendete. Es famen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zuletzt so überhäuft, daß er sich Gebüllen zu diesem Gehäuft halten mußte. Noch befinden sich viele Bände solcher Aufragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Clifabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derfelben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beiswiele, daß er sich durch Geld und gute Worte bewegen ließ, dieselbe im voraus mitzutheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun fönnen; der Calender erhielt sich über 20 Jahre, hatte reiffenden Ubgang, und verschaffte, nebst andern Charlatanerien, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nUber wie fonnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Gränzen fehte, Mittel zur Verlängerung desfelben finden! Dies gefehah auf folgende finnreiche Art:",
+    "generation_tokens": 438,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3277938553
+  },
+  "seconds": 2.8063898338004947,
+  "load_seconds": 0.4940917082130909,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 438,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3277938553
+}

@@ -1,0 +1,30 @@
+{
+  "boundary-tiny": {
+    "repo": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+  },
+  "teleocr-gguf": {
+    "repo": "rleo/TeleOCR-GGUF",
+    "revision": "12abf24f6015602bc8ea521f08bde8a92329ab96"
+  },
+  "glm-ocr": {
+    "repo": "mlx-community/GLM-OCR-bf16",
+    "revision": "24f15402e83baa0a80eeeaecf5480e172abc6f2e"
+  },
+  "paddle-vl": {
+    "repo": "PaddlePaddle/PaddleOCR-VL-1.6",
+    "revision": "c5630abae1d940eafe0697512a0325494b02ab42"
+  },
+  "layout": {
+    "repo": "PaddlePaddle/PP-DocLayoutV3_safetensors",
+    "revision": "e4f489dc536556fc1be02b973ba06756e0d4a2ac"
+  },
+  "ovisocr3": {
+    "repo": "ATH-MaaS/OvisOCR3",
+    "revision": "5f6ce6932efee9ec10c30746db55bd780214b7fd"
+  },
+  "boundary-small": {
+    "repo": "mlx-community/Qwen3-1.7B-4bit",
+    "revision": "3b1b1768f8f8cf8351c712464f906e86c2b8269e"
+  }
+}

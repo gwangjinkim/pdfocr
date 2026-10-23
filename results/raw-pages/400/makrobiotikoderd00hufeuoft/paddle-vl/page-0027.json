@@ -1,0 +1,75 @@
+{
+  "page": 27,
+  "status": "ok",
+  "markdown": "wirflich beschäftigte dies Problem von jeher die Menschenheit auf verschiedene Weise. Es war ein Lieblingsgegenstand der scharfsinnigsten Köpfe, ein Tummelplag der Schwärmer, und eine Hauptlöckspeife der Charlatans und Betrüger, bei denen man von jeher finden wird, daß es entweder Umgang mit Seifern, oder Goldmacherfunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum angelten. Es ist interessant und ein Beitrag zur Geschichte dem menschlichen Verstandes, zu sehen, auf wie mannigsfaltigen, sich oft gang entgegengesetten Eegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Seiten die Cagliostros und Wesmers wichtigse Beiträge dazu geliefert haben, so glaube ich Verseibung zu erhalten, wenn ich eine früge liebersticht der nach und nach vorgekommenen Lebensverlängerungsmethoden vorausschicke, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Seiten, unter Egyptern, Griechen und Römern war diese Idee rege, und schon damals verfiel man in Egypten, der Mutter so mancher abentheuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hize und Ueberschwemmungen ungesunde Clima Veranlassung geben mochte. Man glaubte die Erhaltung des Lebens in Brechen und Schwigen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander; Sie schwickst du? —",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          553,
+          121,
+          590,
+          169
+        ],
+        "label": "number",
+        "score": 0.5537674427032471,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0027/block-000-number.png",
+        "order": 1,
+        "text": "5",
+        "seconds": 0.1353496666997671,
+        "tokens": 2,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          25,
+          203,
+          1111,
+          1292
+        ],
+        "label": "text",
+        "score": 0.9588890671730042,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0027/block-001-text.png",
+        "order": 100,
+        "text": "wirflich beschäftigte dies Problem von jeher die Menschenheit auf verschiedene Weise. Es war ein Lieblingsgegenstand der scharfsinnigsten Köpfe, ein Tummelplag der Schwärmer, und eine Hauptlöckspeife der Charlatans und Betrüger, bei denen man von jeher finden wird, daß es entweder Umgang mit Seifern, oder Goldmacherfunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum angelten. Es ist interessant und ein Beitrag zur Geschichte dem menschlichen Verstandes, zu sehen, auf wie mannigsfaltigen, sich oft gang entgegengesetten Eegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Seiten die Cagliostros und Wesmers wichtigse Beiträge dazu geliefert haben, so glaube ich Verseibung zu erhalten, wenn ich eine früge liebersticht der nach und nach vorgekommenen Lebensverlängerungsmethoden vorausschicke, ehe ich zu meinem Hauptgegenstande übergehe.",
+        "seconds": 1.743915082886815,
+        "tokens": 263,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          21,
+          1286,
+          1104,
+          2013
+        ],
+        "label": "text",
+        "score": 0.9551193714141846,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0027/block-002-text.png",
+        "order": 204,
+        "text": "Schon in den frühesten Seiten, unter Egyptern, Griechen und Römern war diese Idee rege, und schon damals verfiel man in Egypten, der Mutter so mancher abentheuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hize und Ueberschwemmungen ungesunde Clima Veranlassung geben mochte. Man glaubte die Erhaltung des Lebens in Brechen und Schwigen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander; Sie schwickst du? —",
+        "seconds": 1.3590737925842404,
+        "tokens": 176,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.6287047090008855,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 3.9822910837829113,
+  "load_seconds": 1.3115671249106526,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2786239600,
+  "layout_seconds": 0.6287047090008855
+}

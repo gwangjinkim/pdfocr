@@ -1,0 +1,177 @@
+{
+  "checked_on": "2026-10-23",
+  "hardware": {
+    "chip": "Apple M3 Max",
+    "unified_memory_gib": 128
+  },
+  "core_tests": {
+    "passed": 22,
+    "ruff": "passed"
+  },
+  "pdfrune_source_commit": "d710b96350a454b94005fcffbc5ccdd9291d55ba",
+  "ocr_smoke": {
+    "mode": "GLM full-page recognition model via MLX, not official layout pipeline",
+    "model_pin": {
+      "repo": "mlx-community/GLM-OCR-bf16",
+      "revision": "24f15402e83baa0a80eeeaecf5480e172abc6f2e",
+      "path": "model-cache/models--mlx-community--GLM-OCR-bf16/snapshots/24f15402e83baa0a80eeeaecf5480e172abc6f2e"
+    },
+    "sample": "User-provided Archive.org book 10289757bsb, PDF pages 9-10",
+    "pages": [
+      {
+        "page": 9,
+        "seconds": 4.309237291105092,
+        "load_seconds": 0.5226352075114846,
+        "mlx_peak_memory_bytes": 3434326360,
+        "possibly_truncated": false,
+        "runtime_versions": {
+          "mlx": "0.32.4",
+          "mlx-vlm": "0.7.10",
+          "transformers": "5.20.2"
+        }
+      },
+      {
+        "page": 10,
+        "seconds": 4.298370665870607,
+        "load_seconds": 0.5226352075114846,
+        "mlx_peak_memory_bytes": 3434459026,
+        "possibly_truncated": false,
+        "runtime_versions": {
+          "mlx": "0.32.4",
+          "mlx-vlm": "0.7.10",
+          "transformers": "5.20.2"
+        }
+      }
+    ],
+    "raster_fallback": "pdfrune returned nearly blank pages; explicit PDFium fallback produced visually verified scans"
+  },
+  "boundary_small": {
+    "cases": 22,
+    "action_accuracy": 0.7727272727272727,
+    "applied_joins": 12,
+    "correct_applied_joins": 12,
+    "join_precision": 1.0,
+    "wrong_applied_joins": 0,
+    "deferred": 7,
+    "caveat": "Reused archiveorgocr regression cases and provisional labels. Not a blind generalization test; no fine-tuning performed."
+  },
+  "boundary_tiny": {
+    "cases": 22,
+    "action_accuracy": 0.22727272727272727,
+    "applied_joins": 0,
+    "correct_applied_joins": 0,
+    "join_precision": null,
+    "wrong_applied_joins": 0,
+    "deferred": 20,
+    "caveat": "Reused archiveorgocr regression cases and provisional labels. Not a blind generalization test; no fine-tuning performed."
+  },
+  "real_boundary": "anstecken- + den -> ansteckenden; exact output-to-source spans verified",
+  "archive_metadata_listing": "verified; network download is implemented but not exercised on this run",
+  "readiness": {
+    "glm-ocr": "local inference verified",
+    "boundary-small": "local inference and reused regressions verified",
+    "ovisocr3": "BF16 MLX document-Markdown executed twice on PDF 9-10",
+    "paddle-vl": "PP-DocLayoutV3 + BF16 MLX region pipeline executed twice on PDF 9-10",
+    "lighton-3-08b": "experimental MLX profile, not executed",
+    "lighton-3-4b": "experimental MLX profile, not executed",
+    "teleocr": "Full Rust/Candle Q8 pipeline executed on CPU and twice on Metal; text/table reference checks pass",
+    "mineru-pro": "official-pipeline command interface; adapter not implemented",
+    "dots-mocr": "official-pipeline command interface; adapter not implemented",
+    "xiaomi-ocr": "official-pipeline command interface; adapter not implemented"
+  },
+  "process_cleanup": {
+    "recorded_workers_checked": 20,
+    "extra_download_build_reference_pids_checked": 16,
+    "remaining": [],
+    "persistent_services_started": false
+  },
+  "limitations": [
+    "These are smoke/regression results, not independent accuracy estimates.",
+    "Source labels are provisional and were used during previous rule development.",
+    "Some model profiles require additional implementation or runtime validation."
+  ],
+  "local_comparison": {
+    "source_sha256": "9a79e4af196f5d980552f8e5aa345bcff494fe603323105824fdfa4548a56cc1",
+    "pages": [
+      9,
+      10
+    ],
+    "reference_status": "provisional assistant visual transcription; no independent human gold review",
+    "scope": "Two historical German prose pages, one inter-page word split. Not a general benchmark.",
+    "normalization": "NFC; long s→s; page-number-only lines and Markdown emphasis removed; within-page line-end hyphens joined; whitespace collapsed. Case, spelling and punctuation count. Inter-page hyphen kept for per-page scoring.",
+    "models": [
+      {
+        "name": "glm-ocr",
+        "cer": 0.007511737089201878,
+        "wer": 0.03278688524590164,
+        "inference_seconds": 8.569666124880314,
+        "worker_seconds": 12.099946082569659,
+        "run": "workspace/demo/runs/glm-ocr-mlx-b5d74a067cbf6423",
+        "boundary_target_correct": true
+      },
+      {
+        "name": "ovisocr3",
+        "cer": 0.007981220657276996,
+        "wer": 0.04262295081967213,
+        "inference_seconds": 8.081778540275991,
+        "worker_seconds": 11.622323583811522,
+        "run": "workspace/demo/runs/ovisocr3-mlx-f13d83a94f9c21f1",
+        "boundary_target_correct": false
+      },
+      {
+        "name": "paddle-vl",
+        "cer": 0.007511737089201878,
+        "wer": 0.04262295081967213,
+        "inference_seconds": 8.801919999532402,
+        "worker_seconds": 12.696126332506537,
+        "run": "workspace/demo/runs/paddle-vl-mlx-91bec3750dc67664",
+        "boundary_target_correct": false
+      },
+      {
+        "name": "teleocr",
+        "cer": 0.010328638497652582,
+        "wer": 0.04918032786885246,
+        "inference_seconds": 32.947332001291215,
+        "worker_seconds": 33.01836591679603,
+        "run": "workspace/demo/runs/teleocr-teleocr-2104e6eac3519b35",
+        "boundary_target_correct": true
+      }
+    ]
+  },
+  "teleocr_source": {
+    "commit": "957cdbabe80e86d652c5fcc938ed7fbcf1eb2bbe",
+    "patch_sha256": "1b261ca545ff8cd671d44f7644f779c923ba005a2f25942cbe676c9e0c4bd201",
+    "binary_sha256": "a4ec0c8ce8881714a9c0adab775caad82a754d9292338375f6e3ee4edbb6c50d",
+    "device": "Metal",
+    "text_reference_exact": true,
+    "table_reference_exact": true
+  },
+  "verification_commands": {
+    "setup_local_comparison": "passed; cached downloads and locked build",
+    "compare_book": "passed; all models and repairs completed",
+    "pytest": "22 passed",
+    "ruff": "passed"
+  },
+  "source_map_validation": [
+    {
+      "model": "glm-ocr",
+      "all_source_spans_exact": true,
+      "all_output_characters_mapped": true
+    },
+    {
+      "model": "ovisocr3",
+      "all_source_spans_exact": true,
+      "all_output_characters_mapped": true
+    },
+    {
+      "model": "paddle-vl",
+      "all_source_spans_exact": true,
+      "all_output_characters_mapped": true
+    },
+    {
+      "model": "teleocr",
+      "all_source_spans_exact": true,
+      "all_output_characters_mapped": true
+    }
+  ]
+}

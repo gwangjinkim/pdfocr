@@ -1,0 +1,74 @@
+{
+  "page": 29,
+  "status": "ok",
+  "markdown": "burd Anftrengung der Musfelkräfte biefe Mattig feit zu überwältigen; und er hatte bis Blüf, durch feine Methode fo vielen fchwädlichen Menften das Leben viele Jahre zu verlängern, daß ihm fogar Plato den Wornurf madte, er habe fehr ungerecht gegen biefe armen Leute behandelt, burd feine Kunft ihr immer tverbenbe Leben bis ins Alter zu verlängern. Die hellten und naturgemäßeftenSigma über die Erhaltung und Verlängerung des Lebens finden wir beim Plutarb, ber burd bis glüldiliffe Alter die Bahrheit feiner Worfchriften beftätigte. Schon er fählielt feinen Unterricht mit folgenben auch für unfere Seiten gültigen Regeln: den Kopf falt und die Füfe warm zu halten; anfatt bei jeder Unpäälichfeit gleich Urgneien zu brauchen, lieber erft einen Tag zu fäften, und über dem Sieft nie den喜 zu vergeffen.\n\nEine fonderbare Methode, das Leben im Alter zu verlängern, die fid ebenfalls aus den früheften Seiten herfbreibt, war die Serocomic, die Gewohnheit, einen alten abgelebten Rörper durch die nahe Attmofphäre früfber aufblühender Jugend zu verjungen und zu erhalten. Das fefanntefte Beispiel davon enthält die Gefdichte des Sönigs David; aber man findet in den Schriften der Verste mehrere Spuren, daß es bamals eine fehr gewöbnliche und beliebte Hilfede des Alters war. Selbst in neuern Seiten if diefer Rath mit Nugen befolgt worden; der große Boerhave lieb einen alten Umfterbamer Bürgermeifter zwischen zwei jungen Seuten fehlafen,",
+  "raw": {
+    "pages": [
+      {
+        "width": 1283,
+        "height": 2313,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.354,
+              0.056,
+              0.55,
+              0.076
+            ],
+            "angle": 0,
+            "content": "-7-"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.034,
+              0.09,
+              0.871,
+              0.532
+            ],
+            "angle": 0,
+            "content": "burd Anftrengung der Musfelkräfte biefe Mattig feit zu überwältigen; und er hatte bis Blüf, durch feine Methode fo vielen fchwädlichen Menften das Leben viele Jahre zu verlängern, daß ihm fogar Plato den Wornurf madte, er habe fehr ungerecht gegen biefe armen Leute behandelt, burd feine Kunft ihr immer tverbenbe Leben bis ins Alter zu verlängern. Die hellten und naturgemäßeftenSigma über die Erhaltung und Verlängerung des Lebens finden wir beim Plutarb, ber burd bis glüldiliffe Alter die Bahrheit feiner Worfchriften beftätigte. Schon er fählielt feinen Unterricht mit folgenben auch für unfere Seiten gültigen Regeln: den Kopf falt und die Füfe warm zu halten; anfatt bei jeder Unpäälichfeit gleich Urgneien zu brauchen, lieber erft einen Tag zu fäften, und über dem Sieft nie den喜 zu vergeffen."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.034,
+              0.533,
+              0.875,
+              0.869
+            ],
+            "angle": 0,
+            "content": "Eine fonderbare Methode, das Leben im Alter zu verlängern, die fid ebenfalls aus den früheften Seiten herfbreibt, war die Serocomic, die Gewohnheit, einen alten abgelebten Rörper durch die nahe Attmofphäre früfber aufblühender Jugend zu verjungen und zu erhalten. Das fefanntefte Beispiel davon enthält die Gefdichte des Sönigs David; aber man findet in den Schriften der Verste mehrere Spuren, daß es bamals eine fehr gewöbnliche und beliebte Hilfede des Alters war. Selbst in neuern Seiten if diefer Rath mit Nugen befolgt worden; der große Boerhave lieb einen alten Umfterbamer Bürgermeifter zwischen zwei jungen Seuten fehlafen,"
+          }
+        ],
+        "markdown": "burd Anftrengung der Musfelkräfte biefe Mattig feit zu überwältigen; und er hatte bis Blüf, durch feine Methode fo vielen fchwädlichen Menften das Leben viele Jahre zu verlängern, daß ihm fogar Plato den Wornurf madte, er habe fehr ungerecht gegen biefe armen Leute behandelt, burd feine Kunft ihr immer tverbenbe Leben bis ins Alter zu verlängern. Die hellten und naturgemäßeftenSigma über die Erhaltung und Verlängerung des Lebens finden wir beim Plutarb, ber burd bis glüldiliffe Alter die Bahrheit feiner Worfchriften beftätigte. Schon er fählielt feinen Unterricht mit folgenben auch für unfere Seiten gültigen Regeln: den Kopf falt und die Füfe warm zu halten; anfatt bei jeder Unpäälichfeit gleich Urgneien zu brauchen, lieber erft einen Tag zu fäften, und über dem Sieft nie den喜 zu vergeffen.\n\nEine fonderbare Methode, das Leben im Alter zu verlängern, die fid ebenfalls aus den früheften Seiten herfbreibt, war die Serocomic, die Gewohnheit, einen alten abgelebten Rörper durch die nahe Attmofphäre früfber aufblühender Jugend zu verjungen und zu erhalten. Das fefanntefte Beispiel davon enthält die Gefdichte des Sönigs David; aber man findet in den Schriften der Verste mehrere Spuren, daß es bamals eine fehr gewöbnliche und beliebte Hilfede des Alters war. Selbst in neuern Seiten if diefer Rath mit Nugen befolgt worden; der große Boerhave lieb einen alten Umfterbamer Bürgermeifter zwischen zwei jungen Seuten fehlafen,",
+        "stats": {
+          "layout_ms": 4990.922125,
+          "extract_ms": 11226.0305,
+          "blocks": 3,
+          "generated_tokens": 510
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:27:47.671341Z  INFO teleocr: model loaded in 0.5s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4990.922125,\"extract_ms\":11226.0305,\"blocks\":3,\"generated_tokens\":510}\n1 page(s) in 16.22s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/teleocr-teleocr-515a88fd5f878258/inputs/page-0029.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 16.861648166552186,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

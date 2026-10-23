@@ -1,0 +1,313 @@
+{
+  "page": 30,
+  "status": "ok",
+  "markdown": "und verifizert, der Alte habe dadurch sichtbar an Munterkeit und Kräften zugenommen. Und gewis, wenn man bedenft, was der Lebensdunst frisch aufgeschnittener Thiere auf gelähmte Glieder, was das Auslegen lebendiger Thiere auf schmerghafte Uebel vermag, so scheint diese Methode nicht ververfisch zu sein.\n\nHöchst wahrscheinlich gründete sich auf diese Ideen der hohe Werth, den man bei Nömern und Griechen auf das Anwehen eines reinen gesunden Athemsfekte. Es gehört hierher eine alte Inschrift, die man im vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAesculapio et Sanitati\n\nL. Clodius Hermippus\n\nQui vixit Annos CXV. Dies V.\n\nPuellarum Anhelitu\n\nQuod etiam post mortem ejus\n\nIam posteri, sic vitam ducite.\n\n～～～～～～～～\n\nDem Aestulap und der Gesundheit\n\ngeweiht\n\nvon L. Clodinis Hermippus\n\nder 115 Jahr 5 Tage lebte\n\ndurch den Athem junger Mädchen u. f.v.\n\n～～～～～\n\nDiese Inschrift mag nun ächt seyn oder nicht; genug sie veranlaßte noch zu Anfang des 18ten Jahr- hunderts eine Schrift, worin ein Doctor Cohau se n schr gelehrt beweiset, dieser Hermippuß sein ein Waisenhaus-Vorscher oder Mädchenschulmeister zu",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          661,
+          112,
+          700,
+          164
+        ],
+        "label": "number",
+        "score": 0.590121865272522,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-000-number.png",
+        "order": 1,
+        "text": "8",
+        "seconds": 0.13368166703730822,
+        "tokens": 2,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          142,
+          198,
+          1216,
+          560
+        ],
+        "label": "text",
+        "score": 0.9442778825759888,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-001-text.png",
+        "order": 33,
+        "text": "und verifizert, der Alte habe dadurch sichtbar an Munterkeit und Kräften zugenommen. Und gewis, wenn man bedenft, was der Lebensdunst frisch aufgeschnittener Thiere auf gelähmte Glieder, was das Auslegen lebendiger Thiere auf schmerghafte Uebel vermag, so scheint diese Methode nicht ververfisch zu sein.",
+        "seconds": 0.6097245002165437,
+        "tokens": 96,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          141,
+          560,
+          1219,
+          866
+        ],
+        "label": "text",
+        "score": 0.9300991296768188,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-002-text.png",
+        "order": 48,
+        "text": "Höchst wahrscheinlich gründete sich auf diese Ideen der hohe Werth, den man bei Nömern und Griechen auf das Anwehen eines reinen gesunden Athemsfekte. Es gehört hierher eine alte Inschrift, die man im vorigen Jahrhundert zu Rom fand, und so lautet:",
+        "seconds": 0.5030872086063027,
+        "tokens": 80,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          444,
+          887,
+          927,
+          946
+        ],
+        "label": "paragraph_title",
+        "score": 0.4085835814476013,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-003-paragraph_title.png",
+        "order": 64,
+        "text": "Aesculapio et Sanitati",
+        "seconds": 0.15249370876699686,
+        "tokens": 10,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          411,
+          945,
+          954,
+          1001
+        ],
+        "label": "text",
+        "score": 0.5057791471481323,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-004-text.png",
+        "order": 85,
+        "text": "L. Clodius Hermippus",
+        "seconds": 0.13747191615402699,
+        "tokens": 9,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          345,
+          999,
+          1015,
+          1058
+        ],
+        "label": "text",
+        "score": 0.5697187185287476,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-005-text.png",
+        "order": 115,
+        "text": "Qui vixit Annos CXV. Dies V.",
+        "seconds": 0.16337670851498842,
+        "tokens": 13,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          466,
+          1057,
+          900,
+          1111
+        ],
+        "label": "text",
+        "score": 0.5535060167312622,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-006-text.png",
+        "order": 130,
+        "text": "Puellarum Anhelitu",
+        "seconds": 0.1509824153035879,
+        "tokens": 7,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          354,
+          1112,
+          1027,
+          1168
+        ],
+        "label": "text",
+        "score": 0.3149973154067993,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-007-text.png",
+        "order": 187,
+        "text": "Quod etiam post mortem ejus",
+        "seconds": 0.15564400050789118,
+        "tokens": 10,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          375,
+          1223,
+          992,
+          1282
+        ],
+        "label": "text",
+        "score": 0.30193305015563965,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-009-text.png",
+        "order": 213,
+        "text": "Iam posteri, sic vitam ducite.",
+        "seconds": 0.14764025062322617,
+        "tokens": 11,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          533,
+          1303,
+          832,
+          1338
+        ],
+        "label": "paragraph_title",
+        "score": 0.3926964998245239,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-010-paragraph_title.png",
+        "order": 219,
+        "text": "～～～～～～～～",
+        "seconds": 0.15891216602176428,
+        "tokens": 9,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          349,
+          1355,
+          1012,
+          1414
+        ],
+        "label": "text",
+        "score": 0.40821754932403564,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-011-text.png",
+        "order": 230,
+        "text": "Dem Aestulap und der Gesundheit",
+        "seconds": 0.15407570824027061,
+        "tokens": 11,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          608,
+          1417,
+          759,
+          1467
+        ],
+        "label": "text",
+        "score": 0.3356606066226959,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-013-text.png",
+        "order": 238,
+        "text": "geweiht",
+        "seconds": 0.12004304211586714,
+        "tokens": 4,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          429,
+          1469,
+          940,
+          1524
+        ],
+        "label": "text",
+        "score": 0.43815064430236816,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-014-text.png",
+        "order": 252,
+        "text": "von L. Clodinis Hermippus",
+        "seconds": 0.14167616702616215,
+        "tokens": 10,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          381,
+          1524,
+          989,
+          1576
+        ],
+        "label": "text",
+        "score": 0.403126060962677,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-016-text.png",
+        "order": 263,
+        "text": "der 115 Jahr 5 Tage lebte",
+        "seconds": 0.16404066607356071,
+        "tokens": 14,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          282,
+          1578,
+          1078,
+          1636
+        ],
+        "label": "text",
+        "score": 0.37338581681251526,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-017-text.png",
+        "order": 276,
+        "text": "durch den Athem junger Mädchen u. f.v.",
+        "seconds": 0.1810204992070794,
+        "tokens": 18,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          533,
+          1653,
+          835,
+          1690
+        ],
+        "label": "paragraph_title",
+        "score": 0.5250764489173889,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-018-paragraph_title.png",
+        "order": 290,
+        "text": "～～～～～",
+        "seconds": 0.14270112477242947,
+        "tokens": 6,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          146,
+          1704,
+          1222,
+          2012
+        ],
+        "label": "text",
+        "score": 0.9339497685432434,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030/block-019-text.png",
+        "order": 296,
+        "text": "Diese Inschrift mag nun ächt seyn oder nicht; genug sie veranlaßte noch zu Anfang des 18ten Jahr- hunderts eine Schrift, worin ein Doctor Cohau se n schr gelehrt beweiset, dieser Hermippuß sein ein Waisenhaus-Vorscher oder Mädchenschulmeister zu",
+        "seconds": 0.5203929161652923,
+        "tokens": 80,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.618513791821897,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 4.457135291770101,
+  "load_seconds": 1.3115671249106526,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2796721468,
+  "layout_seconds": 0.618513791821897
+}

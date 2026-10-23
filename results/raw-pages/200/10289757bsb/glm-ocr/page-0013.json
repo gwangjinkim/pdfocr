@@ -1,0 +1,22 @@
+{
+  "page": 13,
+  "status": "ok",
+  "markdown": "len, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Grösse — zu einem Procent — einem blossen Rechnungsgegenstand. Sollen Armen - und Rettungsanstalten gedeihen, so muß man eben im Einzelnen das Ganze finden, so muß ihr Leben sich nicht von oben abwärts in — bekanntlich immer schwächer werdenden — Stralen zum Einzelnen verbreiten, sondern von unten herauf, vom Einzelnen zum Ganzen; es muß sich in dem Herzen der Einzelnen erzeugen, und von da aus zu einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als Form und Ordnung. — Dies also ist die grosse Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, dafs sie nicht am Ende in blossse Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose Menschen. Deswegen ist es weit besser, wenn wohldenkende Männer sich vereinigen, und die Menge der Hülfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksam-",
+  "raw": {
+    "text": "len, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Grösse — zu einem Procent — einem blossen Rechnungsgegenstand. Sollen Armen - und Rettungsanstalten gedeihen, so muß man eben im Einzelnen das Ganze finden, so muß ihr Leben sich nicht von oben abwärts in — bekanntlich immer schwächer werdenden — Stralen zum Einzelnen verbreiten, sondern von unten herauf, vom Einzelnen zum Ganzen; es muß sich in dem Herzen der Einzelnen erzeugen, und von da aus zu einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als Form und Ordnung. — Dies also ist die grosse Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, dafs sie nicht am Ende in blossse Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose Menschen. Deswegen ist es weit besser, wenn wohldenkende Männer sich vereinigen, und die Menge der Hülfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksam-",
+    "generation_tokens": 327,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3463606162
+  },
+  "seconds": 4.385092167183757,
+  "load_seconds": 0.47658379189670086,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 327,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3463606162
+}

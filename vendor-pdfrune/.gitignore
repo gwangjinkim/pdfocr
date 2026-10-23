@@ -1,0 +1,32 @@
+# Rust / Cargo
+target/
+**/*.rs.bk
+
+# Python / uv / Maturin
+/.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dylib
+*.a
+*.o
+.Python
+build/
+dist/
+
+# R / uvr
+.uvr/
+*.tar.gz
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / IDE / Local Blueprint
+.DS_Store
+.idea/
+.vscode/
+*.swp
+GEMINI.md

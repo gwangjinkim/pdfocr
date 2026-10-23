@@ -1,0 +1,107 @@
+{
+  "page": 30,
+  "status": "ok",
+  "markdown": "und verfichert, der又te habe baburch fichtbar an Münterfeit und Kräften zugenommen. Und gewig, wenn man bebenft, was der Lebensbunnft frifb aufgeftnittere. Thiere auf gelähmte (Blieber, was bas Anflegen lebendiger. Thiere auf fehmerzhafte Ilebel vermag, feheint biefe Methobe nicht ververlich zu fein.\n\nHöchft wahrheinlich grundete fich auf diefe Jbeen der hohe Werth, den man bei Nömern und Brieden auf das Unwehen eines reinen gefunden Althemse feste. Es gehört hierher eine alte Judbrift, die man im vorigen Jahrhundert zu Rom fand, und fe lautet:\n\nAesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem cjus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Weftulap und der Gefundheit geweicht\nvon E. Cloning Hermippus\nder 115 Jahr 5 Tage lebte\nduring den Althem junger Mächen u. f w.\n\nDiefe Infdrift mag nun ächt fein oder nicht; gennug fie veranläfte now so in Anfang des 18ten Jahrhunberte eine Sdrift, morin ein Doctor Schafen fehr geliebrt bewiefer, biefer Hermippue fein ein Waifenhaus: Vorfichter oder Måbbenföulmeiter so",
+  "raw": {
+    "pages": [
+      {
+        "width": 1283,
+        "height": 2313,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.434,
+              0.048,
+              0.624,
+              0.07
+            ],
+            "angle": 0,
+            "content": "- 8 -"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.111,
+              0.086,
+              0.949,
+              0.241
+            ],
+            "angle": 0,
+            "content": "und verfichert, der又te habe baburch fichtbar an Münterfeit und Kräften zugenommen. Und gewig, wenn man bebenft, was der Lebensbunnft frifb aufgeftnittere. Thiere auf gelähmte (Blieber, was bas Anflegen lebendiger. Thiere auf fehmerzhafte Ilebel vermag, feheint biefe Methobe nicht ververlich zu fein."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.111,
+              0.243,
+              0.949,
+              0.373
+            ],
+            "angle": 0,
+            "content": "Höchft wahrheinlich grundete fich auf diefe Jbeen der hohe Werth, den man bei Nömern und Brieden auf das Unwehen eines reinen gefunden Althemse feste. Es gehört hierher eine alte Judbrift, die man im vorigen Jahrhundert zu Rom fand, und fe lautet:"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.25,
+              0.384,
+              0.808,
+              0.552
+            ],
+            "angle": 0,
+            "content": "Aesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem cjus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.221,
+              0.587,
+              0.838,
+              0.704
+            ],
+            "angle": 0,
+            "content": "Dem Weftulap und der Gefundheit geweicht\nvon E. Cloning Hermippus\nder 115 Jahr 5 Tage lebte\nduring den Althem junger Mächen u. f w."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.112,
+              0.737,
+              0.95,
+              0.868
+            ],
+            "angle": 0,
+            "content": "Diefe Infdrift mag nun ächt fein oder nicht; gennug fie veranläfte now so in Anfang des 18ten Jahrhunberte eine Sdrift, morin ein Doctor Schafen fehr geliebrt bewiefer, biefer Hermippue fein ein Waifenhaus: Vorfichter oder Måbbenföulmeiter so"
+          }
+        ],
+        "markdown": "und verfichert, der又te habe baburch fichtbar an Münterfeit und Kräften zugenommen. Und gewig, wenn man bebenft, was der Lebensbunnft frifb aufgeftnittere. Thiere auf gelähmte (Blieber, was bas Anflegen lebendiger. Thiere auf fehmerzhafte Ilebel vermag, feheint biefe Methobe nicht ververlich zu fein.\n\nHöchft wahrheinlich grundete fich auf diefe Jbeen der hohe Werth, den man bei Nömern und Brieden auf das Unwehen eines reinen gefunden Althemse feste. Es gehört hierher eine alte Judbrift, die man im vorigen Jahrhundert zu Rom fand, und fe lautet:\n\nAesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem cjus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Weftulap und der Gefundheit geweicht\nvon E. Cloning Hermippus\nder 115 Jahr 5 Tage lebte\nduring den Althem junger Mächen u. f w.\n\nDiefe Infdrift mag nun ächt fein oder nicht; gennug fie veranläfte now so in Anfang des 18ten Jahrhunberte eine Sdrift, morin ein Doctor Schafen fehr geliebrt bewiefer, biefer Hermippue fein ein Waifenhaus: Vorfichter oder Måbbenföulmeiter so",
+        "stats": {
+          "layout_ms": 5469.197292,
+          "extract_ms": 7086.302833999999,
+          "blocks": 6,
+          "generated_tokens": 543
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:28:04.536886Z  INFO teleocr: model loaded in 0.5s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":5469.197292,\"extract_ms\":7086.302833999999,\"blocks\":6,\"generated_tokens\":543}\n1 page(s) in 12.56s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/teleocr-teleocr-515a88fd5f878258/inputs/page-0030.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 13.215445791371167,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

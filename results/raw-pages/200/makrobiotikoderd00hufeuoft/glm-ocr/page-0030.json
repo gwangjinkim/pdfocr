@@ -1,0 +1,22 @@
+{
+  "page": 30,
+  "status": "ok",
+  "markdown": "und verfischert, der Alte habe dadurch fichtbar an Munterfeit und Kräften zugenommen. Und gewiß, wenn man bedenft, was der Lebensdunft frisch aufgeschnitener Thiere auf gelähmte Glieder, was das Auslegen lebendiger Thiere auf schmerzhafte Uebel vermag, so fcheint diese Methode nicht verwerflich zu fehn.\n\nHöchst wahrscheinlich gründete sich auf diese Ideen der hohe Werth, den man bei Nömern und Griechen auf das Unwehen eines reinen gesunden Athems fehte. Es gehört hierher eine alte Infschrift, die man im vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Aesculap und der Gesundheit geweiht\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Athem junger Mädchen u. f w.\n\nDiese Infschrift mag nun acht feyn oder nicht; genug sie veranlahe noch zu Anfang des 18ten Jahrhunderts eine Schrift, worin ein Doctor Co hausen fehr gelehrt beweitet, dieser Hermippus sen ein Waifenhaus-Vorstecher oder Mädchenschulmeister zu",
+  "raw": {
+    "text": "und verfischert, der Alte habe dadurch fichtbar an Munterfeit und Kräften zugenommen. Und gewiß, wenn man bedenft, was der Lebensdunft frisch aufgeschnitener Thiere auf gelähmte Glieder, was das Auslegen lebendiger Thiere auf schmerzhafte Uebel vermag, so fcheint diese Methode nicht verwerflich zu fehn.\n\nHöchst wahrscheinlich gründete sich auf diese Ideen der hohe Werth, den man bei Nömern und Griechen auf das Unwehen eines reinen gesunden Athems fehte. Es gehört hierher eine alte Infschrift, die man im vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Aesculap und der Gesundheit geweiht\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Athem junger Mädchen u. f w.\n\nDiese Infschrift mag nun acht feyn oder nicht; genug sie veranlahe noch zu Anfang des 18ten Jahrhunderts eine Schrift, worin ein Doctor Co hausen fehr gelehrt beweitet, dieser Hermippus sen ein Waifenhaus-Vorstecher oder Mädchenschulmeister zu",
+    "generation_tokens": 377,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3277938553
+  },
+  "seconds": 2.49217791762203,
+  "load_seconds": 0.7493781251832843,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 377,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3277938553
+}

@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "config": {
+    "model_name": "teleocr",
+    "model": {
+      "repo": "XingChen-AGI/TeleOCR",
+      "parameters_b": 1.2,
+      "license": "Apache-2.0 (weights); SDK dependency review needed",
+      "backend": "teleocr",
+      "mode": "layout-crops-markdown",
+      "prompt": null,
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "longest_edge": 4096,
+      "notes": "Locally executed using Apache-2.0 teleocr-rs 0.2.0, Q8 text/vision GGUF and a recorded Metal device-selection fix. Full layout/crop pipeline tested on Archive.org PDF 9-10. Text/table reference examples match. Port has figure/title/LaTeX limitations."
+    },
+    "backend": "teleocr",
+    "model_pin": {
+      "repo": "rleo/TeleOCR-GGUF",
+      "revision": "12abf24f6015602bc8ea521f08bde8a92329ab96",
+      "path": "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96"
+    },
+    "endpoint": null,
+    "endpoint_model": "XingChen-AGI/TeleOCR",
+    "prompt": null,
+    "command": null,
+    "timeout": 1200,
+    "python": "runners/mlx/.venv/bin/python",
+    "harness_version": "0.1.0",
+    "teleocr_binary_sha256": "a4ec0c8ce8881714a9c0adab775caad82a754d9292338375f6e3ee4edbb6c50d",
+    "layout_pin": null,
+    "implementation_sha256": "a2e5301b8141fec649cd2b115ef4a35c235d20bc1d26bcafca7d3962b9cd1ded"
+  },
+  "source_sha256": "9a79e4af196f5d980552f8e5aa345bcff494fe603323105824fdfa4548a56cc1",
+  "document": "workspace/expanded400/10289757bsb",
+  "pages": [
+    {
+      "page": 9,
+      "result": "page-0009.json",
+      "status": "ok",
+      "seconds": 15.660841457545757,
+      "possibly_truncated": false
+    },
+    {
+      "page": 10,
+      "result": "page-0010.json",
+      "status": "ok",
+      "seconds": 17.033269625157118,
+      "possibly_truncated": false
+    },
+    {
+      "page": 11,
+      "result": "page-0011.json",
+      "status": "ok",
+      "seconds": 14.341653250157833,
+      "possibly_truncated": false
+    },
+    {
+      "page": 12,
+      "result": "page-0012.json",
+      "status": "ok",
+      "seconds": 15.216382082551718,
+      "possibly_truncated": false
+    },
+    {
+      "page": 13,
+      "result": "page-0013.json",
+      "status": "ok",
+      "seconds": 23.4795486247167,
+      "possibly_truncated": false
+    },
+    {
+      "page": 14,
+      "result": "page-0014.json",
+      "status": "ok",
+      "seconds": 17.621812500059605,
+      "possibly_truncated": false
+    },
+    {
+      "page": 70,
+      "result": "page-0070.json",
+      "status": "ok",
+      "seconds": 13.248281999491155,
+      "possibly_truncated": false
+    },
+    {
+      "page": 71,
+      "result": "page-0071.json",
+      "status": "ok",
+      "seconds": 13.744792125187814,
+      "possibly_truncated": false
+    }
+  ],
+  "inputs": [
+    {
+      "page": 9,
+      "image_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0009.png",
+      "input_size": [
+        2352,
+        4096
+      ],
+      "image_sha256": "26acc2eb2fe554fb54047543095c6115da9d7fc30453774322e9b21b2cbbd912",
+      "result_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/page-0009.json"
+    },
+    {
+      "page": 10,
+      "image_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0010.png",
+      "input_size": [
+        2365,
+        4096
+      ],
+      "image_sha256": "8773936b9e60877f6cae86cc37509ac0ac13f23247ca181a7e5087800e5c6dde",
+      "result_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/page-0010.json"
+    },
+    {
+      "page": 11,
+      "image_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0011.png",
+      "input_size": [
+        2385,
+        4096
+      ],
+      "image_sha256": "ee7262baa1297ae9c4909cbabd4fcbe1d69e57163ed1107e9b2ba2e6d61b3bef",
+      "result_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/page-0011.json"
+    },
+    {
+      "page": 12,
+      "image_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0012.png",
+      "input_size": [
+        2481,
+        4096
+      ],
+      "image_sha256": "edd47c40df4826324df7a6d2ac4461db2d38541890bf3284ad70614bce954d6d",
+      "result_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/page-0012.json"
+    },
+    {
+      "page": 13,
+      "image_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0013.png",
+      "input_size": [
+        2375,
+        4096
+      ],
+      "image_sha256": "dccdef2cebec5dfeb15c867637de352b554d4e55a5d002e98b8b39128cab4da1",
+      "result_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/page-0013.json"
+    },
+    {
+      "page": 14,
+      "image_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0014.png",
+      "input_size": [
+        2368,
+        4096
+      ],
+      "image_sha256": "47ded303ed4f7ef077d2ef13a7d48b224b0880620a9c54dcedcc043eb4b7cd81",
+      "result_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/page-0014.json"
+    },
+    {
+      "page": 70,
+      "image_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0070.png",
+      "input_size": [
+        2339,
+        4096
+      ],
+      "image_sha256": "7e2f437bdaa513547068db2d38e852605764980880977682ff62473325f90cf3",
+      "result_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/page-0070.json"
+    },
+    {
+      "page": 71,
+      "image_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0071.png",
+      "input_size": [
+        2337,
+        4096
+      ],
+      "image_sha256": "2ab3d436584c6f9d180b03c6aba23971ceab8d7b9adf9046546ae05b82dc0ef5",
+      "result_path": "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/page-0071.json"
+    }
+  ],
+  "status": "complete",
+  "process": {
+    "pid": 53878,
+    "started_at_unix": 1792765298.446236,
+    "argv": [
+      "runners/mlx/.venv/bin/python",
+      "-m",
+      "pdfocr.worker",
+      "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/request.json"
+    ],
+    "returncode": 0,
+    "exited": true,
+    "seconds": 130.4581105839461
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "page": 29,
+  "status": "ok",
+  "markdown": "durch Anstrengung der Muskelkräfte diese Mattigkeit zu überwältigen; und er hatte das Glück, durchseine Methode so vielen schwächlichen Menschen das Leben viele Jahre zu verlängern, daß ihm sogar Plato den Wormurf madte, er habe sehr ungerecht gegen diese armen Leute gehandelt, durch seine Kunst ihr immer sterbendes Leben bis ins Alter zu verlängern. Die hellsten und naturgemäßesten Ideen über die Erhaltung und Verlängerung des Lebens finden wir beim Plutarch, der durch das glücklichste Alter die Wahrheit seiner Vorschriften bestätigte. Schoner schließt seinen Unterricht mit folgenden auch für unsere Zeiten gültigen Regeln: den Kopf kalt und die Füße warm zu halten; anstatt bei jeder Unpäsklichkeit gleich Arzneien zu brauchen, lieber erst einen Tag zu fasten, und über dem Geist nie den Leib zu vergessen.\n\nFine sonderbare Methode, das Leben im Alter zu verlängern, die sich ebenfalls aus den frühesten Zeiten herschreibt, war die Gerocomic, die Gewohnheit, einen alten abgelebten Körper durch die nahe Atmosphäre frischer auflühender Jugend zu verjüngen und zu erhalten. Das bekannteste Beispiel davon enthält die Geschichte des Königsaid; aber man findet in den Schriften der Ärzte mehrere Spuren, daß es damals eine sehr gewöhnliche und beliebte Hülfe des Alters war. Selbst in neuern Zeiten ist dieser Kath mit Nugen befolgt worden; der große Boerhave ließ einen alten Amsterdamr Bürgermeister zwischen zwei jungen Leuten schlafen,",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          559,
+          129,
+          598,
+          178
+        ],
+        "label": "number",
+        "score": 0.47259411215782166,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0029/block-000-number.png",
+        "order": 2,
+        "text": "7",
+        "seconds": 0.14169920794665813,
+        "tokens": 2,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          36,
+          210,
+          1125,
+          1234
+        ],
+        "label": "text",
+        "score": 0.9601806998252869,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0029/block-001-text.png",
+        "order": 120,
+        "text": "durch Anstrengung der Muskelkräfte diese Mattigkeit zu überwältigen; und er hatte das Glück, durchseine Methode so vielen schwächlichen Menschen das Leben viele Jahre zu verlängern, daß ihm sogar Plato den Wormurf madte, er habe sehr ungerecht gegen diese armen Leute gehandelt, durch seine Kunst ihr immer sterbendes Leben bis ins Alter zu verlängern. Die hellsten und naturgemäßesten Ideen über die Erhaltung und Verlängerung des Lebens finden wir beim Plutarch, der durch das glücklichste Alter die Wahrheit seiner Vorschriften bestätigte. Schoner schließt seinen Unterricht mit folgenden auch für unsere Zeiten gültigen Regeln: den Kopf kalt und die Füße warm zu halten; anstatt bei jeder Unpäsklichkeit gleich Arzneien zu brauchen, lieber erst einen Tag zu fasten, und über dem Geist nie den Leib zu vergessen.",
+        "seconds": 1.66460841614753,
+        "tokens": 235,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          43,
+          1230,
+          1128,
+          2018
+        ],
+        "label": "text",
+        "score": 0.9579611420631409,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0029/block-002-text.png",
+        "order": 214,
+        "text": "Fine sonderbare Methode, das Leben im Alter zu verlängern, die sich ebenfalls aus den frühesten Zeiten herschreibt, war die Gerocomic, die Gewohnheit, einen alten abgelebten Körper durch die nahe Atmosphäre frischer auflühender Jugend zu verjüngen und zu erhalten. Das bekannteste Beispiel davon enthält die Geschichte des Königsaid; aber man findet in den Schriften der Ärzte mehrere Spuren, daß es damals eine sehr gewöhnliche und beliebte Hülfe des Alters war. Selbst in neuern Zeiten ist dieser Kath mit Nugen befolgt worden; der große Boerhave ließ einen alten Amsterdamr Bürgermeister zwischen zwei jungen Leuten schlafen,",
+        "seconds": 1.519178374670446,
+        "tokens": 182,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.6282815830782056,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 4.075433833524585,
+  "load_seconds": 1.3115671249106526,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2796721468,
+  "layout_seconds": 0.6282815830782056
+}

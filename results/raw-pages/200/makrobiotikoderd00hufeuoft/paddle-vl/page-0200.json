@@ -1,0 +1,143 @@
+{
+  "page": 200,
+  "status": "ok",
+  "markdown": "Achte Torlefung.\n\nSpecielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.\n\nhauptpunkte der Antaze zum langen Leben — Guter Rausgen und Verdauungssystem, gcs-nde Zabne — gut organisierte Brust — nacht zu reizhares Herz — gute Reanations- und Heilkraft der Natur — gehoriger Grad und Bertheilung der Lebenskraft, gut Temperamente — harmonischer und schlerfreier Korperban — mittere Reisschaffenheit der Tertur des Sörpers — kein vorunglich schwacher Theil — volkkommene Organisation der Zeit gungskraft — das Bud eines zum langen Leben bestimmen ten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Beformung der speciellen und individuellen Grundlage des langen Lebens übergeben, die in dem Menschen feibt liegen muß. Ich will die Haupt-Eigenschaften und Anlagen angeben, die nach obigen Grundlagen und der Ersabrunge ein Menschen durchaus haben muß, der aus ein langes Leben Nechnung machen will. Diese Schildrung kann zugleich start einer kurzen Physiognomik des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind solgende:\n\n1. Vor allen Dingen muß der Magen und das ganze Verdauungsivem gut bestafenen sein. — Es ist unglaublich, von weißer Lichtigkeit dieser",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          332,
+          51,
+          380,
+          81
+        ],
+        "label": "number",
+        "score": 0.574134111404419,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0200/block-000-number.png",
+        "order": 7,
+        "text": "178",
+        "seconds": 0.12680862471461296,
+        "tokens": 4,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          194,
+          103,
+          510,
+          147
+        ],
+        "label": "paragraph_title",
+        "score": 0.7021083235740662,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0200/block-001-paragraph_title.png",
+        "order": 83,
+        "text": "Achte Torlefung.",
+        "seconds": 0.13674950040876865,
+        "tokens": 7,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          104,
+          150,
+          602,
+          223
+        ],
+        "label": "text",
+        "score": 0.8344897627830505,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0200/block-002-text.png",
+        "order": 134,
+        "text": "Specielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.",
+        "seconds": 0.15946462471038103,
+        "tokens": 18,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          86,
+          230,
+          625,
+          511
+        ],
+        "label": "text",
+        "score": 0.9347114562988281,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0200/block-003-text.png",
+        "order": 178,
+        "text": "hauptpunkte der Antaze zum langen Leben — Guter Rausgen und Verdauungssystem, gcs-nde Zabne — gut organisierte Brust — nacht zu reizhares Herz — gute Reanations- und Heilkraft der Natur — gehoriger Grad und Bertheilung der Lebenskraft, gut Temperamente — harmonischer und schlerfreier Korperban — mittere Reisschaffenheit der Tertur des Sörpers — kein vorunglich schwacher Theil — volkkommene Organisation der Zeit gungskraft — das Bud eines zum langen Leben bestimmen ten Menschen.",
+        "seconds": 0.5730595830827951,
+        "tokens": 147,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          77,
+          516,
+          623,
+          817
+        ],
+        "label": "text",
+        "score": 0.9552138447761536,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0200/block-004-text.png",
+        "order": 239,
+        "text": "Nach diesen allgemeinen Begriffen kann ich nun zu der Beformung der speciellen und individuellen Grundlage des langen Lebens übergeben, die in dem Menschen feibt liegen muß. Ich will die Haupt-Eigenschaften und Anlagen angeben, die nach obigen Grundlagen und der Ersabrunge ein Menschen durchaus haben muß, der aus ein langes Leben Nechnung machen will. Diese Schildrung kann zugleich start einer kurzen Physiognomik des langen Lebens dienen.",
+        "seconds": 0.5570508753880858,
+        "tokens": 120,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          77,
+          817,
+          618,
+          909
+        ],
+        "label": "text",
+        "score": 0.9377759099006653,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0200/block-005-text.png",
+        "order": 269,
+        "text": "Die Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind solgende:",
+        "seconds": 0.2113390825688839,
+        "tokens": 26,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          76,
+          908,
+          618,
+          1005
+        ],
+        "label": "text",
+        "score": 0.9302000999450684,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0200/block-006-text.png",
+        "order": 282,
+        "text": "1. Vor allen Dingen muß der Magen und das ganze Verdauungsivem gut bestafenen sein. — Es ist unglaublich, von weißer Lichtigkeit dieser",
+        "seconds": 0.26217454113066196,
+        "tokens": 43,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.5801387503743172,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 2.643960874527693,
+  "load_seconds": 1.3344980832189322,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2938934960,
+  "layout_seconds": 0.5801387503743172
+}

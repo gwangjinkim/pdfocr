@@ -1,0 +1,22 @@
+{
+  "page": 27,
+  "status": "ok",
+  "markdown": "wirflich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war ein Liebungsgegenstand der scharffinniigen Köpfe, ein Tummelplaß der Schwärmer, und eine Hauptloffpeife der Charlatans und Petrüger, bei denen man von jeher finden wird, daß es entweder Umgang mit Geistern, oder Goldmacherfunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum angelten. Es ist interessant und ein Veitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie mannigfaltigen, sich oft ganz entgegengefesten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Veiträge dazu geliefert haben, so glaube ich Verzeihung zu erhalten, wenn ich eine furze Uebersicht der nach und nach vorgekommenen Lebensverlängerungsmethoden vorausfchiefe, ehe ich zu meinem Hauptgegenstand übergehe.\n\nSchon in den frühesten Zeiten, unter Egyptern, Griechen und Nömern war diese Idee rege, und schon damals versiel man in Egypten, der Mutter so mancher abentheuerlichen Ideen, auf fünftliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hike und Ueberschwemmungen ungefunde Clima Veranlaffung geben mochte. Man glaubte die Erhaltung des Lebens in Brechen und Schwiken gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwikeft du? —",
+  "raw": {
+    "text": "wirflich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war ein Liebungsgegenstand der scharffinniigen Köpfe, ein Tummelplaß der Schwärmer, und eine Hauptloffpeife der Charlatans und Petrüger, bei denen man von jeher finden wird, daß es entweder Umgang mit Geistern, oder Goldmacherfunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum angelten. Es ist interessant und ein Veitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie mannigfaltigen, sich oft ganz entgegengefesten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Veiträge dazu geliefert haben, so glaube ich Verzeihung zu erhalten, wenn ich eine furze Uebersicht der nach und nach vorgekommenen Lebensverlängerungsmethoden vorausfchiefe, ehe ich zu meinem Hauptgegenstand übergehe.\n\nSchon in den frühesten Zeiten, unter Egyptern, Griechen und Nömern war diese Idee rege, und schon damals versiel man in Egypten, der Mutter so mancher abentheuerlichen Ideen, auf fünftliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hike und Ueberschwemmungen ungefunde Clima Veranlaffung geben mochte. Man glaubte die Erhaltung des Lebens in Brechen und Schwiken gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwikeft du? —",
+    "generation_tokens": 433,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3405556618
+  },
+  "seconds": 5.044908832758665,
+  "load_seconds": 0.7446945421397686,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 433,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3405556618
+}

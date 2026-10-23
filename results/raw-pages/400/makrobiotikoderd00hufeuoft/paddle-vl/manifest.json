@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "config": {
+    "model_name": "paddle-vl",
+    "model": {
+      "repo": "PaddlePaddle/PaddleOCR-VL-1.6",
+      "parameters_b": 0.9,
+      "license": "Apache-2.0",
+      "backend": "mlx",
+      "mode": "layout-crops-markdown",
+      "prompt": "OCR:",
+      "max_tokens": 8192,
+      "temperature": 0.0,
+      "longest_edge": 4096,
+      "notes": "Locally executed: PP-DocLayoutV3 Torch CPU layout + PaddleOCR-VL-1.6 BF16 MLX region OCR; rectangle crops and simple reading-order assembly. Batch-axis compatibility shim required. Tested Archive.org PDF 9-10; not exact PaddleX benchmark parity.",
+      "pipeline": "paddle-layout"
+    },
+    "backend": "mlx",
+    "model_pin": {
+      "repo": "PaddlePaddle/PaddleOCR-VL-1.6",
+      "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+      "path": "model-cache/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42"
+    },
+    "endpoint": null,
+    "endpoint_model": "PaddlePaddle/PaddleOCR-VL-1.6",
+    "prompt": "OCR:",
+    "command": null,
+    "timeout": 1200,
+    "python": "runners/mlx/.venv/bin/python",
+    "harness_version": "0.1.0",
+    "teleocr_binary_sha256": null,
+    "layout_pin": {
+      "repo": "PaddlePaddle/PP-DocLayoutV3_safetensors",
+      "revision": "e4f489dc536556fc1be02b973ba06756e0d4a2ac",
+      "path": "model-cache/models--PaddlePaddle--PP-DocLayoutV3_safetensors/snapshots/e4f489dc536556fc1be02b973ba06756e0d4a2ac"
+    },
+    "implementation_sha256": "a2e5301b8141fec649cd2b115ef4a35c235d20bc1d26bcafca7d3962b9cd1ded"
+  },
+  "source_sha256": "927ab0916d8452bdb2c11045031bf01ca52df5871a1f7612137ef226b46b5293",
+  "document": "workspace/expanded400/makrobiotikoderd00hufeuoft",
+  "pages": [
+    {
+      "page": 25,
+      "result": "page-0025.json",
+      "status": "ok",
+      "seconds": 4.482575082220137,
+      "possibly_truncated": false
+    },
+    {
+      "page": 26,
+      "result": "page-0026.json",
+      "status": "ok",
+      "seconds": 3.421623833477497,
+      "possibly_truncated": false
+    },
+    {
+      "page": 27,
+      "result": "page-0027.json",
+      "status": "ok",
+      "seconds": 3.9822910837829113,
+      "possibly_truncated": false
+    },
+    {
+      "page": 28,
+      "result": "page-0028.json",
+      "status": "ok",
+      "seconds": 3.341699833981693,
+      "possibly_truncated": false
+    },
+    {
+      "page": 29,
+      "result": "page-0029.json",
+      "status": "ok",
+      "seconds": 4.075433833524585,
+      "possibly_truncated": false
+    },
+    {
+      "page": 30,
+      "result": "page-0030.json",
+      "status": "ok",
+      "seconds": 4.457135291770101,
+      "possibly_truncated": false
+    },
+    {
+      "page": 200,
+      "result": "page-0200.json",
+      "status": "ok",
+      "seconds": 3.791833541356027,
+      "possibly_truncated": false
+    },
+    {
+      "page": 201,
+      "result": "page-0201.json",
+      "status": "ok",
+      "seconds": 3.571050874888897,
+      "possibly_truncated": false
+    }
+  ],
+  "inputs": [
+    {
+      "page": 25,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/inputs/page-0025.png",
+      "input_size": [
+        1283,
+        2313
+      ],
+      "image_sha256": "4e575ee3352999f9d808f71e3609c31123e2315e6b8bdbbc9bb0384e03d9c9b3",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0025.json"
+    },
+    {
+      "page": 26,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/inputs/page-0026.png",
+      "input_size": [
+        1283,
+        2313
+      ],
+      "image_sha256": "3dbc1e0948653e8554b03adbc0a9da1b485b56c6cb08c1a06df65a5c21858042",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0026.json"
+    },
+    {
+      "page": 27,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/inputs/page-0027.png",
+      "input_size": [
+        1283,
+        2313
+      ],
+      "image_sha256": "4e84aa8f5d18813239565da9c04169847e7547b46b84c0b0753a23cb1bf460bf",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0027.json"
+    },
+    {
+      "page": 28,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/inputs/page-0028.png",
+      "input_size": [
+        1283,
+        2313
+      ],
+      "image_sha256": "34a10c1e80a3fec94cdbbd0b8b8084a263f9d98f38d75e66750ecd6de1e4fa66",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0028.json"
+    },
+    {
+      "page": 29,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/inputs/page-0029.png",
+      "input_size": [
+        1283,
+        2313
+      ],
+      "image_sha256": "20eb12457b2269c33f8fcf5b7a63ab30a879bb1fa896b80ea3ae3a2549649b3a",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0029.json"
+    },
+    {
+      "page": 30,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/inputs/page-0030.png",
+      "input_size": [
+        1283,
+        2313
+      ],
+      "image_sha256": "b93ac23d7d1c30d20b4ea5a0d33187b5ff7e66a3c931406f696ae84333291eec",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0030.json"
+    },
+    {
+      "page": 200,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/inputs/page-0200.png",
+      "input_size": [
+        1283,
+        2313
+      ],
+      "image_sha256": "65de1f964975acc1659d76b3da2f2a5f8323329c78ce4a6d0ef05928347e4e95",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0200.json"
+    },
+    {
+      "page": 201,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/inputs/page-0201.png",
+      "input_size": [
+        1278,
+        2313
+      ],
+      "image_sha256": "78a92b991f459578e3959ce9ef194e03758d554ed17f5a9d63c0bffbbcb3668c",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0201.json"
+    }
+  ],
+  "status": "complete",
+  "process": {
+    "pid": 55558,
+    "started_at_unix": 1792765555.307123,
+    "argv": [
+      "runners/mlx/.venv/bin/python",
+      "-m",
+      "pdfocr.worker",
+      "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/request.json"
+    ],
+    "returncode": 0,
+    "exited": true,
+    "seconds": 35.23053370881826
+  }
+}

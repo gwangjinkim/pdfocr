@@ -1,0 +1,8 @@
+{
+  "book": "makrobiotikoderd00hufeuoft-probe",
+  "left_page": 34,
+  "right_page": 35,
+  "expected_action": "join_word",
+  "expected_join": "Person",
+  "visible": "Per- + son."
+}

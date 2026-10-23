@@ -1,0 +1,58 @@
+{
+  "page": 10,
+  "status": "ok",
+  "markdown": "den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dals gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die aller-verderblichsten Seuchen und Ansteckungsgifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewifs ein großserund gewöhnlich übersehener Vorzug solcher Anstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm\nich bei meinem Eintritte in das Armendüre\nrectorium vor 10 Jahren diesen Theil der\nArmenverpflegung, der sich mit der Vorsorge\nfür die armen Kranken sowohl in den Hos-\npitälern, als in der Stadt, beschäftigte. Aber\nnur unvollkommen konnte dieser Zweck bei\nder damaligen Einrichtung erreicht werden.\nNur ein Armenarzt und sieben Chirurgen für\neine Stadt, die in der Regel 10,000 Arme",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          370,
+          361,
+          2177,
+          2295
+        ],
+        "label": "text",
+        "score": 0.9416876435279846,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0010/block-000-text.png",
+        "order": 78,
+        "text": "den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dals gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die aller-verderblichsten Seuchen und Ansteckungsgifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewifs ein großserund gewöhnlich übersehener Vorzug solcher Anstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.",
+        "seconds": 1.6425828337669373,
+        "tokens": 203,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          385,
+          2401,
+          2183,
+          3599
+        ],
+        "label": "text",
+        "score": 0.9382742643356323,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0010/block-001-text.png",
+        "order": 198,
+        "text": "Durchdrungen von diesen Ideen übernahm\nich bei meinem Eintritte in das Armendüre\nrectorium vor 10 Jahren diesen Theil der\nArmenverpflegung, der sich mit der Vorsorge\nfür die armen Kranken sowohl in den Hos-\npitälern, als in der Stadt, beschäftigte. Aber\nnur unvollkommen konnte dieser Zweck bei\nder damaligen Einrichtung erreicht werden.\nNur ein Armenarzt und sieben Chirurgen für\neine Stadt, die in der Regel 10,000 Arme",
+        "seconds": 1.367871250025928,
+        "tokens": 139,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.7775371251627803,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 4.135489124804735,
+  "load_seconds": 1.6896864166483283,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2788943056,
+  "layout_seconds": 0.7775371251627803
+}

@@ -1,0 +1,63 @@
+{
+  "page": 26,
+  "status": "ok",
+  "markdown": "Natur, nirgends fo viel Energie des Lebens, mit felder Dauer vereinigt, als hier. Sein Wunder alfo, daß der vollformenite Befer der bieles Gutes auch einen fo hohe 20erth darauf febr, und daß fehen der blofe Sebanfe von Leben und Sevn fo hohe Meiz für uns hat. Jeder Rørper wird uns um fo interrefanter, je mehr wir ihm eine Art von Leben und Lebensgeführt utrauen fönnen. Nichts vermag fo fehr auf uns zu wirfen, folde Aufoperungen zu veranlaffen, und die außerventlichen Entwicklung gen und Unfrengungen unfrer verborgenften Kräfte hervorgubringen, als der Trieb es gu erhalten und in dem fritifben Alugenblie es zu retten. Selbst ohne Stennig und Freuden des Lebens, fehlbt für den, der an unheilbaren Schmerzen leider, oder im bunfeln Kerfer auf immer feine Freiheit beweint, behält der Sebanfe zu fehn und zu leben noch Reiz, und es gehört fhedleberbinge eine nur bei Menften möglitche Serrüttung der einften Empfindungsergane, eine gänzliche Berbunffelung und Eödtung des innern Sinns basu, um daß Seben gleichgültig über gar verhaft zu machen. — So weife und innig wurde Siebe des Lebens, biefer eines denfenben Wefens fo würbige Trieb, biefer Grundpfeiler folwohl der einzelnen als der öffentlichen Blüdfeligfeit, mit unferrer Erifeng verwebt! — Sehr natürlich war es bather, daß der Sebanfe in dem Menften aufteigen mupte: Sollte es nicht möglich fehn, unter Dafenzu verlängern, und dem nur gar zu flüftigen Senuig biefer Guts mehr Ausbehnung zu geben? Un",
+  "raw": {
+    "pages": [
+      {
+        "width": 1283,
+        "height": 2313,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.438,
+              0.069,
+              0.63,
+              0.092
+            ],
+            "angle": 0,
+            "content": "-4一"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.122,
+              0.104,
+              0.986,
+              0.894
+            ],
+            "angle": 0,
+            "content": "Natur, nirgends fo viel Energie des Lebens, mit felder Dauer vereinigt, als hier. Sein Wunder alfo, daß der vollformenite Befer der bieles Gutes auch einen fo hohe 20erth darauf febr, und daß fehen der blofe Sebanfe von Leben und Sevn fo hohe Meiz für uns hat. Jeder Rørper wird uns um fo interrefanter, je mehr wir ihm eine Art von Leben und Lebensgeführt utrauen fönnen. Nichts vermag fo fehr auf uns zu wirfen, folde Aufoperungen zu veranlaffen, und die außerventlichen Entwicklung gen und Unfrengungen unfrer verborgenften Kräfte hervorgubringen, als der Trieb es gu erhalten und in dem fritifben Alugenblie es zu retten. Selbst ohne Stennig und Freuden des Lebens, fehlbt für den, der an unheilbaren Schmerzen leider, oder im bunfeln Kerfer auf immer feine Freiheit beweint, behält der Sebanfe zu fehn und zu leben noch Reiz, und es gehört fhedleberbinge eine nur bei Menften möglitche Serrüttung der einften Empfindungsergane, eine gänzliche Berbunffelung und Eödtung des innern Sinns basu, um daß Seben gleichgültig über gar verhaft zu machen. — So weife und innig wurde Siebe des Lebens, biefer eines denfenben Wefens fo würbige Trieb, biefer Grundpfeiler folwohl der einzelnen als der öffentlichen Blüdfeligfeit, mit unferrer Erifeng verwebt! — Sehr natürlich war es bather, daß der Sebanfe in dem Menften aufteigen mupte: Sollte es nicht möglich fehn, unter Dafenzu verlängern, und dem nur gar zu flüftigen Senuig biefer Guts mehr Ausbehnung zu geben? Un"
+          }
+        ],
+        "markdown": "Natur, nirgends fo viel Energie des Lebens, mit felder Dauer vereinigt, als hier. Sein Wunder alfo, daß der vollformenite Befer der bieles Gutes auch einen fo hohe 20erth darauf febr, und daß fehen der blofe Sebanfe von Leben und Sevn fo hohe Meiz für uns hat. Jeder Rørper wird uns um fo interrefanter, je mehr wir ihm eine Art von Leben und Lebensgeführt utrauen fönnen. Nichts vermag fo fehr auf uns zu wirfen, folde Aufoperungen zu veranlaffen, und die außerventlichen Entwicklung gen und Unfrengungen unfrer verborgenften Kräfte hervorgubringen, als der Trieb es gu erhalten und in dem fritifben Alugenblie es zu retten. Selbst ohne Stennig und Freuden des Lebens, fehlbt für den, der an unheilbaren Schmerzen leider, oder im bunfeln Kerfer auf immer feine Freiheit beweint, behält der Sebanfe zu fehn und zu leben noch Reiz, und es gehört fhedleberbinge eine nur bei Menften möglitche Serrüttung der einften Empfindungsergane, eine gänzliche Berbunffelung und Eödtung des innern Sinns basu, um daß Seben gleichgültig über gar verhaft zu machen. — So weife und innig wurde Siebe des Lebens, biefer eines denfenben Wefens fo würbige Trieb, biefer Grundpfeiler folwohl der einzelnen als der öffentlichen Blüdfeligfeit, mit unferrer Erifeng verwebt! — Sehr natürlich war es bather, daß der Sebanfe in dem Menften aufteigen mupte: Sollte es nicht möglich fehn, unter Dafenzu verlängern, und dem nur gar zu flüftigen Senuig biefer Guts mehr Ausbehnung zu geben? Un",
+        "stats": {
+          "layout_ms": 4615.459542,
+          "extract_ms": 16791.185082999997,
+          "blocks": 2,
+          "generated_tokens": 520
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:26:46.452576Z  INFO teleocr: model loaded in 0.6s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4615.459542,\"extract_ms\":16791.185082999997,\"blocks\":2,\"generated_tokens\":520}\n1 page(s) in 21.41s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/teleocr-teleocr-515a88fd5f878258/inputs/page-0026.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 22.08302683290094,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

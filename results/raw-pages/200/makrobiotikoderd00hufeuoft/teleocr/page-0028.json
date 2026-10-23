@@ -1,0 +1,63 @@
+{
+  "page": 28,
+  "status": "ok",
+  "markdown": "Stans anders bilbete für biefer Trieb bei ben Griechen, unter dem Einflup einer reinen und phönen Natur, aus. Man überzeugte für fehr balb, daß gerabe ein vermünftigerogen mit der Natur und die beftändige Lebung unfererkräfte das fichte Mittel feh, die Lebenfraft zu flärfen, und unter Leben zu verlängeru. Hippocrates und alle bamaaligen Philosophen und Merste fennen feine anbern Mittel, als Mängigkeit,ogen mit der freien und reinen Luft, Bäder, und vorglich das tägliche Reiben des Körper und Leibebübung. Auf legtere fehten für ihr größte Vertrauen. Schmurnen eigene Methoben und Hengeln beftimmt, dem Körper mannigfaltige, flarfe und fehwade Bewegung zu geben; es entfand eine eigne Runtt der Leibebübung, die Shmnafric, daraus, und der größte Philosophen und Leibrte vergag nie, daß Lebung bei Beibes und Lebung der Seele immer in gleichem Berhältnip bleiben mitten. Man bradte es wirflid) zu einer außerorbentlichen Bollformenheit, biefe für uns felt verfdhbunbene Runtt den verfdiebenen Naturen, Situationen und Beibrunniffen der Menften anzu_footen, und fe befoubers zu dem Mittel su gebrauben, die innere Nature des Menften immer in einer gehörigen Thårtigfeit zu erhalten, undaburch nicht nur Granhoitsurfaden unwirflam zu machen, febern auf febft febon ausge-brodue”的ranbeiten zu beiden. Ein gewiffer Herobicus ging so weit, daß er fogar feine Patientennötthigte, fpgieren zu geben, fid reiben zu laften, und je mehr die Granhoit abmattete, behe mehr",
+  "raw": {
+    "pages": [
+      {
+        "width": 642,
+        "height": 1157,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.42,
+              0.059,
+              0.613,
+              0.08
+            ],
+            "angle": 0,
+            "content": "-6-"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.1,
+              0.095,
+              0.949,
+              0.875
+            ],
+            "angle": 0,
+            "content": "Stans anders bilbete für biefer Trieb bei ben Griechen, unter dem Einflup einer reinen und phönen Natur, aus. Man überzeugte für fehr balb, daß gerabe ein vermünftigerogen mit der Natur und die beftändige Lebung unfererkräfte das fichte Mittel feh, die Lebenfraft zu flärfen, und unter Leben zu verlängeru. Hippocrates und alle bamaaligen Philosophen und Merste fennen feine anbern Mittel, als Mängigkeit,ogen mit der freien und reinen Luft, Bäder, und vorglich das tägliche Reiben des Körper und Leibebübung. Auf legtere fehten für ihr größte Vertrauen. Schmurnen eigene Methoben und Hengeln beftimmt, dem Körper mannigfaltige, flarfe und fehwade Bewegung zu geben; es entfand eine eigne Runtt der Leibebübung, die Shmnafric, daraus, und der größte Philosophen und Leibrte vergag nie, daß Lebung bei Beibes und Lebung der Seele immer in gleichem Berhältnip bleiben mitten. Man bradte es wirflid) zu einer außerorbentlichen Bollformenheit, biefe für uns felt verfdhbunbene Runtt den verfdiebenen Naturen, Situationen und Beibrunniffen der Menften anzu_footen, und fe befoubers zu dem Mittel su gebrauben, die innere Nature des Menften immer in einer gehörigen Thårtigfeit zu erhalten, undaburch nicht nur Granhoitsurfaden unwirflam zu machen, febern auf febft febon ausge-brodue”的ranbeiten zu beiden. Ein gewiffer Herobicus ging so weit, daß er fogar feine Patientennötthigte, fpgieren zu geben, fid reiben zu laften, und je mehr die Granhoit abmattete, behe mehr"
+          }
+        ],
+        "markdown": "Stans anders bilbete für biefer Trieb bei ben Griechen, unter dem Einflup einer reinen und phönen Natur, aus. Man überzeugte für fehr balb, daß gerabe ein vermünftigerogen mit der Natur und die beftändige Lebung unfererkräfte das fichte Mittel feh, die Lebenfraft zu flärfen, und unter Leben zu verlängeru. Hippocrates und alle bamaaligen Philosophen und Merste fennen feine anbern Mittel, als Mängigkeit,ogen mit der freien und reinen Luft, Bäder, und vorglich das tägliche Reiben des Körper und Leibebübung. Auf legtere fehten für ihr größte Vertrauen. Schmurnen eigene Methoben und Hengeln beftimmt, dem Körper mannigfaltige, flarfe und fehwade Bewegung zu geben; es entfand eine eigne Runtt der Leibebübung, die Shmnafric, daraus, und der größte Philosophen und Leibrte vergag nie, daß Lebung bei Beibes und Lebung der Seele immer in gleichem Berhältnip bleiben mitten. Man bradte es wirflid) zu einer außerorbentlichen Bollformenheit, biefe für uns felt verfdhbunbene Runtt den verfdiebenen Naturen, Situationen und Beibrunniffen der Menften anzu_footen, und fe befoubers zu dem Mittel su gebrauben, die innere Nature des Menften immer in einer gehörigen Thårtigfeit zu erhalten, undaburch nicht nur Granhoitsurfaden unwirflam zu machen, febern auf febft febon ausge-brodue”的ranbeiten zu beiden. Ein gewiffer Herobicus ging so weit, daß er fogar feine Patientennötthigte, fpgieren zu geben, fid reiben zu laften, und je mehr die Granhoit abmattete, behe mehr",
+        "stats": {
+          "layout_ms": 5476.954375,
+          "extract_ms": 5287.296208,
+          "blocks": 2,
+          "generated_tokens": 521
+        }
+      }
+    ],
+    "stderr": "2026-10-23T12:29:19.350640Z  INFO teleocr: model loaded in 0.6s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":5476.954375,\"extract_ms\":5287.296208,\"blocks\":2,\"generated_tokens\":521}\n1 page(s) in 10.76s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd/inputs/page-0028.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 11.424830458126962,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

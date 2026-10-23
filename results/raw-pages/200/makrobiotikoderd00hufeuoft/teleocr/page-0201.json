@@ -1,0 +1,74 @@
+{
+  "page": 201,
+  "status": "ok",
+  "markdown": "Großmädtigfe aller Henferber im animalifeben Reibe in biefer Sinficht if, und man fann mit voelen Rechte bebaupten, ohne einen guten Nagen in esammöglich, ein bebes Alter zu erlangen.\n\nIn zweierlei Müttehlt mit der Magen der Grundstiefin des langen feibens: Einmal, indem er bas erle und widtige Metallurationsergan unferr Natur ist, die Pfeite, woburd alles, was unter merben folt, eingeben muß, die erle Jinkang, von deren gutem oder febletem Sufand nicht nur die Quantität, foreben auf die Qualität undef erclases abhängt. — Switens, indem durch die Deibaffenheit des Magense feibt die Einwirkung der Leibendfaffen, der Kraftheitreufähen und ander serförender Einfläße auf unfern Körper modificirt wird. — Er hat einen guten Magen,\" fagt man im Schiedwort, wenn man Jemand farafterifiren will, auf den weder Verger, noch Summer, noch Kränfungen fädlich wirfen, und gewip, es liegt viel Bahres darin. — Alle biete Leibendfakten miffen vorzüglich den Magen afficiren, von ihm gleichfam empfunen und angenommen werden, wenn fe in unter Phylifed übergeben und feaben folten. Ein guter rebuffer Magen nimmt gav feine Notis baven. Singegen ein feibener empfinbämer Magen wird alle Angenblüche burd fo erwad in feiner Werrichtung gefört, und folgid bas fo widtige Metallurationsergetbfpt unaufberetid unterbreeden und feblebt betrieben. — Even fo ist es mit ben meifen phylifchen Kraftbeitbeina flühen; die meifen maden ihren erlen Einbrue auf",
+  "raw": {
+    "pages": [
+      {
+        "width": 639,
+        "height": 1157,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.31,
+              0.051,
+              0.549,
+              0.074
+            ],
+            "angle": 0,
+            "content": "- 179 -"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.011,
+              0.088,
+              0.851,
+              0.193
+            ],
+            "angle": 0,
+            "content": "Großmädtigfe aller Henferber im animalifeben Reibe in biefer Sinficht if, und man fann mit voelen Rechte bebaupten, ohne einen guten Nagen in esammöglich, ein bebes Alter zu erlangen."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.011,
+              0.194,
+              0.855,
+              0.866
+            ],
+            "angle": 0,
+            "content": "In zweierlei Müttehlt mit der Magen der Grundstiefin des langen feibens: Einmal, indem er bas erle und widtige Metallurationsergan unferr Natur ist, die Pfeite, woburd alles, was unter merben folt, eingeben muß, die erle Jinkang, von deren gutem oder febletem Sufand nicht nur die Quantität, foreben auf die Qualität undef erclases abhängt. — Switens, indem durch die Deibaffenheit des Magense feibt die Einwirkung der Leibendfaffen, der Kraftheitreufähen und ander serförender Einfläße auf unfern Körper modificirt wird. — Er hat einen guten Magen,\" fagt man im Schiedwort, wenn man Jemand farafterifiren will, auf den weder Verger, noch Summer, noch Kränfungen fädlich wirfen, und gewip, es liegt viel Bahres darin. — Alle biete Leibendfakten miffen vorzüglich den Magen afficiren, von ihm gleichfam empfunen und angenommen werden, wenn fe in unter Phylifed übergeben und feaben folten. Ein guter rebuffer Magen nimmt gav feine Notis baven. Singegen ein feibener empfinbämer Magen wird alle Angenblüche burd fo erwad in feiner Werrichtung gefört, und folgid bas fo widtige Metallurationsergetbfpt unaufberetid unterbreeden und feblebt betrieben. — Even fo ist es mit ben meifen phylifchen Kraftbeitbeina flühen; die meifen maden ihren erlen Einbrue auf"
+          }
+        ],
+        "markdown": "Großmädtigfe aller Henferber im animalifeben Reibe in biefer Sinficht if, und man fann mit voelen Rechte bebaupten, ohne einen guten Nagen in esammöglich, ein bebes Alter zu erlangen.\n\nIn zweierlei Müttehlt mit der Magen der Grundstiefin des langen feibens: Einmal, indem er bas erle und widtige Metallurationsergan unferr Natur ist, die Pfeite, woburd alles, was unter merben folt, eingeben muß, die erle Jinkang, von deren gutem oder febletem Sufand nicht nur die Quantität, foreben auf die Qualität undef erclases abhängt. — Switens, indem durch die Deibaffenheit des Magense feibt die Einwirkung der Leibendfaffen, der Kraftheitreufähen und ander serförender Einfläße auf unfern Körper modificirt wird. — Er hat einen guten Magen,\" fagt man im Schiedwort, wenn man Jemand farafterifiren will, auf den weder Verger, noch Summer, noch Kränfungen fädlich wirfen, und gewip, es liegt viel Bahres darin. — Alle biete Leibendfakten miffen vorzüglich den Magen afficiren, von ihm gleichfam empfunen und angenommen werden, wenn fe in unter Phylifed übergeben und feaben folten. Ein guter rebuffer Magen nimmt gav feine Notis baven. Singegen ein feibener empfinbämer Magen wird alle Angenblüche burd fo erwad in feiner Werrichtung gefört, und folgid bas fo widtige Metallurationsergetbfpt unaufberetid unterbreeden und feblebt betrieben. — Even fo ist es mit ben meifen phylifchen Kraftbeitbeina flühen; die meifen maden ihren erlen Einbrue auf",
+        "stats": {
+          "layout_ms": 5042.126166,
+          "extract_ms": 4510.311958,
+          "blocks": 3,
+          "generated_tokens": 538
+        }
+      }
+    ],
+    "stderr": "2026-10-23T12:29:59.204212Z  INFO teleocr: model loaded in 0.5s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":5042.126166,\"extract_ms\":4510.311958,\"blocks\":3,\"generated_tokens\":538}\n1 page(s) in 9.55s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd/inputs/page-0201.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 10.166175125166774,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

@@ -1,0 +1,22 @@
+{
+  "page": 26,
+  "status": "ok",
+  "markdown": "— 4 —\n\nNatur, nirgendes so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein Wunder also, daß der vollkommenste Besitzer dieses Gutes auch einen so hohen Werth darauf sehr, und daß schon der bloße Gedanke von Leben und Seyn so hohen Reiz für uns hat. Jeder Körper wird uns um so interessanter, je mehr wir ihm eine Art von Leben und Lebensgefühl zutrauen können. Nichts vermag so sehr auf uns zu wirken, solche Aufopferungen zu veranlassen, und die auherordentlichsten Entwicklungen und Anstrengungen unserer verborgenen Kräfte hervorzubringen, als der Trieb es zu erhalten und in dem kritischen Augenblick es zu retten. Selbst ohne Genuß und Freuden des Lebens, selbst für den, der an unheilbaren Schmerzen leidet, oder im dunkeln Herker auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorgane, eine gänzliche Verdunkelung und Tödung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaft zu machen. — So weise und innig wurde Liebe des Lebens, dieser eines denfenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen als der öffentlichen Glückseligkeit, mit unseerer Ersteng verwebt! — Sehr natürlich war es daher, daß der Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu flüchtigen Genuß dieses Gutes mehr Ausdehnung zu geben? Und",
+  "raw": {
+    "text": "— 4 —\n\nNatur, nirgendes so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein Wunder also, daß der vollkommenste Besitzer dieses Gutes auch einen so hohen Werth darauf sehr, und daß schon der bloße Gedanke von Leben und Seyn so hohen Reiz für uns hat. Jeder Körper wird uns um so interessanter, je mehr wir ihm eine Art von Leben und Lebensgefühl zutrauen können. Nichts vermag so sehr auf uns zu wirken, solche Aufopferungen zu veranlassen, und die auherordentlichsten Entwicklungen und Anstrengungen unserer verborgenen Kräfte hervorzubringen, als der Trieb es zu erhalten und in dem kritischen Augenblick es zu retten. Selbst ohne Genuß und Freuden des Lebens, selbst für den, der an unheilbaren Schmerzen leidet, oder im dunkeln Herker auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorgane, eine gänzliche Verdunkelung und Tödung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaft zu machen. — So weise und innig wurde Liebe des Lebens, dieser eines denfenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen als der öffentlichen Glückseligkeit, mit unseerer Ersteng verwebt! — Sehr natürlich war es daher, daß der Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu flüchtigen Genuß dieses Gutes mehr Ausdehnung zu geben? Und",
+    "generation_tokens": 380,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 2804516186
+  },
+  "seconds": 2.6438957499340177,
+  "load_seconds": 0.7603022083640099,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 380,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2804516186
+}

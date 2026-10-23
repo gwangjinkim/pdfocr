@@ -1,0 +1,143 @@
+{
+  "page": 200,
+  "status": "ok",
+  "markdown": "Achte Torlefung.\n\nSpecielle Grundlagen und Kennzeichnen der Lebensdauer einzelner Menschen.\n\nHamppunkte der Antaze zum langen Leben — Guter Genunggen und Verdauungspkem, ges.nde Zabne — gut erzähnisirte Brust — nutzt zu reizgehes Herz — gute BeZRations und Heilkrat der Ratar — geboriger Grat und Vertbeilung der Lebenzkraft, gut Temperament — harmonischer und feblerfreier Korperban — mutterre Sechbaffenbeit der Tertur des Korpers — kein vorunglich schwacher Theil — volkommene Organisation der Geungegskraft — das Bud eines zum langen Leben bestimnten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Bestimmung der speciellen und individuellen Grundlage des langen Lebens übergeben, die in dem Menschen seibt liegen muß. Jch will die Haupt-Eigenschaften und Anlagen angeben, die nach obigen Grundsägen und der Ersabrunn ein Wench durchbauss haben muß, der auf ein langes Leben Niednung machen will. Diese Schildrung kann zugleich start einer turzen Physiognomik des langen Lckens dienen.\n\nDie Eigenschaften, die man die Grundlaen deslangen Lebens im Menschen nennen kann, sind solgende:\n\n1. Vor allen Dingen muß der Magen und das ganze Verdauungssystem auf beigefassen sein. --Göist ungläublich, von weliger Vichtigkeit dieser",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          663,
+          105,
+          759,
+          162
+        ],
+        "label": "number",
+        "score": 0.5451955199241638,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0200/block-000-number.png",
+        "order": 6,
+        "text": "178",
+        "seconds": 0.14187475014477968,
+        "tokens": 4,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          387,
+          209,
+          1019,
+          294
+        ],
+        "label": "paragraph_title",
+        "score": 0.5833462476730347,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0200/block-001-paragraph_title.png",
+        "order": 91,
+        "text": "Achte Torlefung.",
+        "seconds": 0.13801200035959482,
+        "tokens": 7,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          208,
+          303,
+          1202,
+          448
+        ],
+        "label": "text",
+        "score": 0.8451667428016663,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0200/block-002-text.png",
+        "order": 141,
+        "text": "Specielle Grundlagen und Kennzeichnen der Lebensdauer einzelner Menschen.",
+        "seconds": 0.17894024960696697,
+        "tokens": 18,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          173,
+          463,
+          1247,
+          1020
+        ],
+        "label": "text",
+        "score": 0.9449385404586792,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0200/block-003-text.png",
+        "order": 183,
+        "text": "Hamppunkte der Antaze zum langen Leben — Guter Genunggen und Verdauungspkem, ges.nde Zabne — gut erzähnisirte Brust — nutzt zu reizgehes Herz — gute BeZRations und Heilkrat der Ratar — geboriger Grat und Vertbeilung der Lebenzkraft, gut Temperament — harmonischer und feblerfreier Korperban — mutterre Sechbaffenbeit der Tertur des Korpers — kein vorunglich schwacher Theil — volkommene Organisation der Geungegskraft — das Bud eines zum langen Leben bestimnten Menschen.",
+        "seconds": 0.9782644165679812,
+        "tokens": 150,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          157,
+          1034,
+          1240,
+          1633
+        ],
+        "label": "text",
+        "score": 0.956571102142334,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0200/block-004-text.png",
+        "order": 243,
+        "text": "Nach diesen allgemeinen Begriffen kann ich nun zu der Bestimmung der speciellen und individuellen Grundlage des langen Lebens übergeben, die in dem Menschen seibt liegen muß. Jch will die Haupt-Eigenschaften und Anlagen angeben, die nach obigen Grundsägen und der Ersabrunn ein Wench durchbauss haben muß, der auf ein langes Leben Niednung machen will. Diese Schildrung kann zugleich start einer turzen Physiognomik des langen Lckens dienen.",
+        "seconds": 1.0434716250747442,
+        "tokens": 129,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          155,
+          1634,
+          1232,
+          1816
+        ],
+        "label": "text",
+        "score": 0.9378241300582886,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0200/block-005-text.png",
+        "order": 267,
+        "text": "Die Eigenschaften, die man die Grundlaen deslangen Lebens im Menschen nennen kann, sind solgende:",
+        "seconds": 0.24877545889467,
+        "tokens": 28,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          153,
+          1815,
+          1231,
+          2009
+        ],
+        "label": "text",
+        "score": 0.9265189170837402,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0200/block-006-text.png",
+        "order": 279,
+        "text": "1. Vor allen Dingen muß der Magen und das ganze Verdauungssystem auf beigefassen sein. --Göist ungläublich, von weliger Vichtigkeit dieser",
+        "seconds": 0.32676320895552635,
+        "tokens": 45,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.6210377495735884,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 3.791833541356027,
+  "load_seconds": 1.3115671249106526,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2879137288,
+  "layout_seconds": 0.6210377495735884
+}

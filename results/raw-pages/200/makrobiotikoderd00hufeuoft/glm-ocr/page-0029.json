@@ -1,0 +1,22 @@
+{
+  "page": 29,
+  "status": "ok",
+  "markdown": "durch Anstrengung der Muskelfräfte diese Mattig-\nfeit zu überwältigen; und er hatte das Glück, durch\nseine Methode so vielen schwachlichen Menschen das\nLeben viele Jahre zu verlängern, daß ihm sogar\nPlato den Vorwurf machte, er habe sehr ungerecht\ngegen diese armen Leute gehandelt, durch seine Kunst\nihr immer sterbendes Leben bis ins Alter zu verlängern. Die hellsten und naturgemäßten Ideen über\ndie Erhaltung und Verlängerung des Lebens finden\nwir beim Plutarch, der durch das glücklichste Alter\ndie Wahrheit seiner Vorschriften befestigte. Schon\ner schließen seinen Unterricht mit folgenden auch für\nunfere Zeiten gültigen Negeln: den Kopf falt und\ndie Füße warm zu halten; anstatt bei jeder Unpä-\nlichkeit gleich Urzneien zu brauchen, lieber erst einen\nTag zu fahren, und über dem Geist nie den Leib zu\nvergehen.\n\nEine fonderbare Methode, das Leben im Alter\nzu verlängern, die sich ebenfalls aus den frühesten\nZeiten herschreibt, war die Gerocomic, die Ge-\nwohnheit, einen alten abgelebten Körper durch die\nnahe Atmosphäre frischer aufblühender Jugend zu\nverjüngen und zu erhalten. Das befannteste Beiz-\nspiel davon enthält die Gefchichte des Königs Da-\nvid; aber man findet in den Schriften der Uerzte\nmehrere Spuren, daß es damals eine sehr gewöhnliche\nund beliebte Hülfe des Alters war. Selbst in neuern\nZeiten ist dieser Nath mit Nuhen befolgt worden;\nder große Voer have ließ einen alten Umsterdamer\nBürgermeister zwischen zwei jungen Leuten schlafen,",
+  "raw": {
+    "text": "durch Anstrengung der Muskelfräfte diese Mattig-\nfeit zu überwältigen; und er hatte das Glück, durch\nseine Methode so vielen schwachlichen Menschen das\nLeben viele Jahre zu verlängern, daß ihm sogar\nPlato den Vorwurf machte, er habe sehr ungerecht\ngegen diese armen Leute gehandelt, durch seine Kunst\nihr immer sterbendes Leben bis ins Alter zu verlängern. Die hellsten und naturgemäßten Ideen über\ndie Erhaltung und Verlängerung des Lebens finden\nwir beim Plutarch, der durch das glücklichste Alter\ndie Wahrheit seiner Vorschriften befestigte. Schon\ner schließen seinen Unterricht mit folgenden auch für\nunfere Zeiten gültigen Negeln: den Kopf falt und\ndie Füße warm zu halten; anstatt bei jeder Unpä-\nlichkeit gleich Urzneien zu brauchen, lieber erst einen\nTag zu fahren, und über dem Geist nie den Leib zu\nvergehen.\n\nEine fonderbare Methode, das Leben im Alter\nzu verlängern, die sich ebenfalls aus den frühesten\nZeiten herschreibt, war die Gerocomic, die Ge-\nwohnheit, einen alten abgelebten Körper durch die\nnahe Atmosphäre frischer aufblühender Jugend zu\nverjüngen und zu erhalten. Das befannteste Beiz-\nspiel davon enthält die Gefchichte des Königs Da-\nvid; aber man findet in den Schriften der Uerzte\nmehrere Spuren, daß es damals eine sehr gewöhnliche\nund beliebte Hülfe des Alters war. Selbst in neuern\nZeiten ist dieser Nath mit Nuhen befolgt worden;\nder große Voer have ließ einen alten Umsterdamer\nBürgermeister zwischen zwei jungen Leuten schlafen,",
+    "generation_tokens": 448,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3277938553
+  },
+  "seconds": 2.7749233758077025,
+  "load_seconds": 0.7493781251832843,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 448,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3277938553
+}

@@ -1,0 +1,22 @@
+{
+  "page": 14,
+  "status": "ok",
+  "markdown": "10\n\nkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-\ndete, Helfer angestellt werden, die dann we-\ngen der zu grofsen Menge der Leidenden,\nauch bei dem besten Willen, dem Einzel-\nnen nicht mit geköriger Sorgfalt beistehen\nkönnen.\n\n4. Die Behandlung der Kranken in ihren\nWohnungen ist immer der im Hospital vor-\nzuziehen, so lange es irgend thunlich ist. —\nDer Grund davon ist der vorige. Je mehr\ndie Menschen in Masse behandelt werden, desto\nleichter entstehet Kälte, Lieblosigkeit, Gleich-\ngültigkeit gegen den Einzelnen; desto leich-\nter gewölint man sich, den Menschen als\nSache, nicht als Hauptzweck für sich selbst,\nzu betrachten; und so bildet sich jener Sinn\nund jener Ton, der in grofsen Hospitälern\nheirschend, und die Wurzel alles Verder-\nbens für solche Anstalten ist. Ich berufe\nmich auf das Beispiel großer Hospitäler, selbst\nder besten, denn es ist kein Vorwurf, den\nich der Verwaltung mache, das Übel liegt\nin ihrer Natur. — Ferner, je mehr die Men-\nschen in Masse zusammengedrängt werden,\ndesto mehr erzeugt sich auch Böses unter",
+  "raw": {
+    "text": "10\n\nkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-\ndete, Helfer angestellt werden, die dann we-\ngen der zu grofsen Menge der Leidenden,\nauch bei dem besten Willen, dem Einzel-\nnen nicht mit geköriger Sorgfalt beistehen\nkönnen.\n\n4. Die Behandlung der Kranken in ihren\nWohnungen ist immer der im Hospital vor-\nzuziehen, so lange es irgend thunlich ist. —\nDer Grund davon ist der vorige. Je mehr\ndie Menschen in Masse behandelt werden, desto\nleichter entstehet Kälte, Lieblosigkeit, Gleich-\ngültigkeit gegen den Einzelnen; desto leich-\nter gewölint man sich, den Menschen als\nSache, nicht als Hauptzweck für sich selbst,\nzu betrachten; und so bildet sich jener Sinn\nund jener Ton, der in grofsen Hospitälern\nheirschend, und die Wurzel alles Verder-\nbens für solche Anstalten ist. Ich berufe\nmich auf das Beispiel großer Hospitäler, selbst\nder besten, denn es ist kein Vorwurf, den\nich der Verwaltung mache, das Übel liegt\nin ihrer Natur. — Ferner, je mehr die Men-\nschen in Masse zusammengedrängt werden,\ndesto mehr erzeugt sich auch Böses unter",
+    "generation_tokens": 303,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3148020496
+  },
+  "seconds": 4.622648333199322,
+  "load_seconds": 0.7992698755115271,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 303,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3148020496
+}

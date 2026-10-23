@@ -1,0 +1,22 @@
+{
+  "page": 30,
+  "status": "ok",
+  "markdown": "— 8 —\n\nund versichert, der Alte habe dadurch sichtbar an Mitterkeit und Kräften zugenommen. Und gewiß, wenn man bedenkt, was der Lebensdunst frisch aufgeschnittener Thiere auf gelähmte Glieder, was das Auslegen lebendiger Thiere auf schmerzhafte Uebel vermag, so scheint diese Methode nicht verworflich zu sein.\n\nHöchst wahrscheinlich gründete sich auf diese Ideen der hohe Werth, den man bei Römern und Griechen auf das Unwehen eines reinen gefunden Althems setzte. Es gehört hierher eine alte Inschrift, die man im vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAesculapio et Sanitati\n\nL. Clodius Hermippus\n\nQui vixit Annos CXV. Dies V.\n\nPuellarum Anhelitu\n\nQuod etiam post mortem ejus\n\nNon parum mirantur Physici.\n\nIam posteri, sic vitam ducite.\n\n~~~\n\nDem Aestulap und der Gesundheit\n\ngeweiht\n\nvon L. Clodius Hermippus\n\nder 115 Jahr 5 Tage lebte\n\ndurch den Althem junger Mädchen u. f w.\n\n~~~\n\nDiese Inschrift mag nun acht seyn oder nicht; genug sie veranlaßte noch zu Anfang des 18ten Jahrhunderts eine Schrift, worin ein Doctor Eobaußen sehr gelehrt beweiset, dieser Hermippus seyn ein Waisenhaus-Vorsteher oder Mädchenschulmeister zu",
+  "raw": {
+    "text": "— 8 —\n\nund versichert, der Alte habe dadurch sichtbar an Mitterkeit und Kräften zugenommen. Und gewiß, wenn man bedenkt, was der Lebensdunst frisch aufgeschnittener Thiere auf gelähmte Glieder, was das Auslegen lebendiger Thiere auf schmerzhafte Uebel vermag, so scheint diese Methode nicht verworflich zu sein.\n\nHöchst wahrscheinlich gründete sich auf diese Ideen der hohe Werth, den man bei Römern und Griechen auf das Unwehen eines reinen gefunden Althems setzte. Es gehört hierher eine alte Inschrift, die man im vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAesculapio et Sanitati\n\nL. Clodius Hermippus\n\nQui vixit Annos CXV. Dies V.\n\nPuellarum Anhelitu\n\nQuod etiam post mortem ejus\n\nNon parum mirantur Physici.\n\nIam posteri, sic vitam ducite.\n\n~~~\n\nDem Aestulap und der Gesundheit\n\ngeweiht\n\nvon L. Clodius Hermippus\n\nder 115 Jahr 5 Tage lebte\n\ndurch den Althem junger Mädchen u. f w.\n\n~~~\n\nDiese Inschrift mag nun acht seyn oder nicht; genug sie veranlaßte noch zu Anfang des 18ten Jahrhunderts eine Schrift, worin ein Doctor Eobaußen sehr gelehrt beweiset, dieser Hermippus seyn ein Waisenhaus-Vorsteher oder Mädchenschulmeister zu",
+    "generation_tokens": 336,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3047234322
+  },
+  "seconds": 3.4775164583697915,
+  "load_seconds": 0.7869697501882911,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 336,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3047234322
+}

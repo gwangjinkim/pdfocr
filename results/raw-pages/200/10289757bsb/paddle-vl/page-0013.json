@@ -1,0 +1,58 @@
+{
+  "page": 13,
+  "status": "ok",
+  "markdown": "len, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem Procent — einem bloßen Rechnungsgegenstand. Sollen Armen- und Rettungsanstalten gedeihen, so mufs man eben im Einzelnen das Ganze finden, so mufs ihr Leben sich nicht von oben abwärts in — bekanntlich immer schwächer werdenen — Stralen zum Einzelnen verbreiten, sondern von unten herauf, vom Einzelnen zum Ganzen; es mufs sich in dem Herzen der Einzelnen erzeugen, und von da aus zu einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als Form und Ordnung. — Diefs also ist die grofse Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, dafs sie nicht am Ende in blofse Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose Menschen. Deswegen ist es weit besser, wenn wohldenkende Männer sich vereinigen, und die Menge der Hülfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksam",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          824,
+          220,
+          1328,
+          313
+        ],
+        "label": "header",
+        "score": 0.3207114040851593,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0013/block-000-header.png",
+        "order": 39,
+        "text": "-9-",
+        "seconds": 0.1541045419871807,
+        "tokens": 4,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          209,
+          354,
+          2034,
+          3615
+        ],
+        "label": "text",
+        "score": 0.9256023168563843,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0013/block-001-text.png",
+        "order": 114,
+        "text": "len, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem Procent — einem bloßen Rechnungsgegenstand. Sollen Armen- und Rettungsanstalten gedeihen, so mufs man eben im Einzelnen das Ganze finden, so mufs ihr Leben sich nicht von oben abwärts in — bekanntlich immer schwächer werdenen — Stralen zum Einzelnen verbreiten, sondern von unten herauf, vom Einzelnen zum Ganzen; es mufs sich in dem Herzen der Einzelnen erzeugen, und von da aus zu einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als Form und Ordnung. — Diefs also ist die grofse Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, dafs sie nicht am Ende in blofse Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose Menschen. Deswegen ist es weit besser, wenn wohldenkende Männer sich vereinigen, und die Menge der Hülfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksam",
+        "seconds": 2.392005041241646,
+        "tokens": 332,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.7336923750117421,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 3.6259712921455503,
+  "load_seconds": 1.3346281237900257,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2788943056,
+  "layout_seconds": 0.7336923750117421
+}

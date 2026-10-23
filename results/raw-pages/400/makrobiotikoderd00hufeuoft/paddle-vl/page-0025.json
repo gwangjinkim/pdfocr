@@ -1,0 +1,126 @@
+{
+  "page": 25,
+  "status": "ok",
+  "markdown": "Erite Borlefung.\n\nSichfale dieser Wissenschaft.\n\nBei den Egyptiern und Griechen — Gerocomic — Gymnastique — Herinippus — Justand derselben im Mittelalter — Theophrastus Paracelsus — Astrologische Methode — Talismans — Thurneisen — Cornaro und feine strenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Eagliosro — Graham.\n\nBei den Egyptiern und Griechen — Gerocomic — Gymnastique — Herinippus — Justand derselben im Mittelalter — Theophrastus Paracelsus — Astrologische Methode — Talismans — Thurneisen — Cornaro und feine strenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Eagliosro — Graham.\n\nDurch die ganze Natur weht und wirket jene unbegreisliche Kraft, jener unmittelbare Ausfluss der Gottheit, den wir Leben nennen. Ubeeralst stofen wir auf Erschinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuruf der ganzen und umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und crystallifirt, die Pflanze vegetirt, das Thier fühlt und wirket; — aber im höchsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Sliede der siøttaren Schöpfung. Bir mögen die ganze Reihe der Besen durchgehen, närgends finden wir eine so voll-Kommene Verbindung aller lebendigen Kräfte der",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          267,
+          564,
+          888,
+          660
+        ],
+        "label": "paragraph_title",
+        "score": 0.5962116718292236,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0025/block-000-paragraph_title.png",
+        "order": 31,
+        "text": "Erite Borlefung.",
+        "seconds": 0.2134454995393753,
+        "tokens": 7,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          150,
+          658,
+          994,
+          748
+        ],
+        "label": "text",
+        "score": 0.6284162998199463,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0025/block-001-text.png",
+        "order": 84,
+        "text": "Sichfale dieser Wissenschaft.",
+        "seconds": 0.13399045914411545,
+        "tokens": 9,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          37,
+          745,
+          1108,
+          1104
+        ],
+        "label": "text",
+        "score": 0.5518409609794617,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0025/block-002-text.png",
+        "order": 115,
+        "text": "Bei den Egyptiern und Griechen — Gerocomic — Gymnastique — Herinippus — Justand derselben im Mittelalter — Theophrastus Paracelsus — Astrologische Methode — Talismans — Thurneisen — Cornaro und feine strenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Eagliosro — Graham.",
+        "seconds": 0.6431518327444792,
+        "tokens": 95,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          37,
+          745,
+          1108,
+          1104
+        ],
+        "label": "algorithm",
+        "score": 0.5170159339904785,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0025/block-003-algorithm.png",
+        "order": 115,
+        "text": "Bei den Egyptiern und Griechen — Gerocomic — Gymnastique — Herinippus — Justand derselben im Mittelalter — Theophrastus Paracelsus — Astrologische Methode — Talismans — Thurneisen — Cornaro und feine strenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Eagliosro — Graham.",
+        "seconds": 0.6287677502259612,
+        "tokens": 95,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          8,
+          1115,
+          1096,
+          2056
+        ],
+        "label": "text",
+        "score": 0.9334008693695068,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0025/block-004-text.png",
+        "order": 234,
+        "text": "Durch die ganze Natur weht und wirket jene unbegreisliche Kraft, jener unmittelbare Ausfluss der Gottheit, den wir Leben nennen. Ubeeralst stofen wir auf Erschinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuruf der ganzen und umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und crystallifirt, die Pflanze vegetirt, das Thier fühlt und wirket; — aber im höchsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Sliede der siøttaren Schöpfung. Bir mögen die ganze Reihe der Besen durchgehen, närgends finden wir eine so voll-Kommene Verbindung aller lebendigen Kräfte der",
+        "seconds": 1.794143999926746,
+        "tokens": 227,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          716,
+          2050,
+          795,
+          2098
+        ],
+        "label": "number",
+        "score": 0.4331042468547821,
+        "crop": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/paddle-vl-mlx-dfc0f5df18d563bc/page-0025/block-005-number.png",
+        "order": 299,
+        "text": "卫本",
+        "seconds": 0.13407725002616644,
+        "tokens": 3,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.8123277500271797,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 4.482575082220137,
+  "load_seconds": 1.3115671249106526,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2786239600,
+  "layout_seconds": 0.8123277500271797
+}

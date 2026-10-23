@@ -1,0 +1,75 @@
+{
+  "page": 201,
+  "status": "ok",
+  "markdown": "Großmächtigste aller Herrscher im animalischen Re‘che in dieser Finsicht ist, und man kann mit vollen Rechte behaupten, ohne einen guten Ragen ist es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Nücksicht ist der Magen der Grundstein des langen Lebens: Einmal, indem er das erste und wichtigste Restaurationsorgan unfrer Natur ist, die Pierre, wodurch alles, was unser werden soll, eingehen mus, die erschie Instanz, von deren gutem oder schlechtem Zustand nicht nur die Unantiträr, sondern auch die Qualität unters Erklages abhängt. — Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenschaften, der Frankheitsursachen und anderer zerstörender Einflüsse auf unser Körper modifizirt wird. — „Er hat einen guten Magen,“ sagt man im Sprichwort, wenn man� Temand karakterisern will, auf den wieder Aerger, noch Kummer, noch Krankungen schädlich wirken, und gewis, es liegt viel Bahres darin. — Alle diese Leidenschaften müssen vorzüglich den Magen afficiren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Physisches übergehen und schaden sollen. Ein guter robuster Magen nimmt gar keine Notiz davon. Hingegen ein schwacher empfindener Magen wird alle Augenböke durch so etwas in seiner Verrichtung gestört, und folglich das so wichtige Restaurationsgeschäft unaushörlich unterbrochen und schlecht betrieben. — Eben so ist es mit den meisten physischen Krankheitseinsäuren; die meisten machen ihren ersten Eindruck auf",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          251,
+          58,
+          301,
+          87
+        ],
+        "label": "number",
+        "score": 0.438280314207077,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0201/block-000-number.png",
+        "order": 6,
+        "text": "179",
+        "seconds": 0.1273250002413988,
+        "tokens": 4,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          5,
+          100,
+          545,
+          226
+        ],
+        "label": "text",
+        "score": 0.9411916732788086,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0201/block-001-text.png",
+        "order": 74,
+        "text": "Großmächtigste aller Herrscher im animalischen Re‘che in dieser Finsicht ist, und man kann mit vollen Rechte behaupten, ohne einen guten Ragen ist es unmöglich, ein hohes Alter zu erlangen.",
+        "seconds": 0.277319791726768,
+        "tokens": 58,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          5,
+          222,
+          550,
+          1009
+        ],
+        "label": "text",
+        "score": 0.9615886211395264,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0201/block-002-text.png",
+        "order": 107,
+        "text": "In zweierlei Nücksicht ist der Magen der Grundstein des langen Lebens: Einmal, indem er das erste und wichtigste Restaurationsorgan unfrer Natur ist, die Pierre, wodurch alles, was unser werden soll, eingehen mus, die erschie Instanz, von deren gutem oder schlechtem Zustand nicht nur die Unantiträr, sondern auch die Qualität unters Erklages abhängt. — Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenschaften, der Frankheitsursachen und anderer zerstörender Einflüsse auf unser Körper modifizirt wird. — „Er hat einen guten Magen,“ sagt man im Sprichwort, wenn man� Temand karakterisern will, auf den wieder Aerger, noch Kummer, noch Krankungen schädlich wirken, und gewis, es liegt viel Bahres darin. — Alle diese Leidenschaften müssen vorzüglich den Magen afficiren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Physisches übergehen und schaden sollen. Ein guter robuster Magen nimmt gar keine Notiz davon. Hingegen ein schwacher empfindener Magen wird alle Augenböke durch so etwas in seiner Verrichtung gestört, und folglich das so wichtige Restaurationsgeschäft unaushörlich unterbrochen und schlecht betrieben. — Eben so ist es mit den meisten physischen Krankheitseinsäuren; die meisten machen ihren ersten Eindruck auf",
+        "seconds": 1.5066383751109242,
+        "tokens": 374,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.6082748752087355,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 2.5538797499611974,
+  "load_seconds": 1.3344980832189322,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2938934960,
+  "layout_seconds": 0.6082748752087355
+}

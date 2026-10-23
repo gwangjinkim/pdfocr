@@ -1,0 +1,85 @@
+{
+  "page": 9,
+  "status": "ok",
+  "markdown": "that erwiesen, manches Leben gerettet, und,\nwas mehr noch heifst, Kränklichkeit verhü-\ntet, und dem Menschen die Brauchbarkeit\nerhalten. Denn es ist ein sehr unrichtiger\nMaafsstab, wenn man den Nutzen solcher\nHülfen blos nach der Vermehrung oder Ver-\nminderung der Mortalität berechnet.\n\nDie häufigste und traurigste Folge der Krankheiten bei Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durchdhörige Hülfe anfangs leicht zu heben gewe-sen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren, Krankheiten; Krankheiten, die man zwar ohne Hülfe mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die die Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdauernen Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfe bestehet also darin, die Summe der Leiden- den und Unbrauchbaren zu vermindern, und ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben. Ja, indem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken-",
+  "raw": {
+    "pages": [
+      {
+        "width": 2352,
+        "height": 4096,
+        "blocks": [
+          {
+            "type": "header",
+            "bbox": [
+              0.368,
+              0.052,
+              0.575,
+              0.074
+            ],
+            "angle": 0,
+            "content": "-5-"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.092,
+              0.086,
+              0.849,
+              0.289
+            ],
+            "angle": 0,
+            "content": "that erwiesen, manches Leben gerettet, und,\nwas mehr noch heifst, Kränklichkeit verhü-\ntet, und dem Menschen die Brauchbarkeit\nerhalten. Denn es ist ein sehr unrichtiger\nMaafsstab, wenn man den Nutzen solcher\nHülfen blos nach der Vermehrung oder Ver-\nminderung der Mortalität berechnet."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.092,
+              0.304,
+              0.851,
+              0.651
+            ],
+            "angle": 0,
+            "content": "Die häufigste und traurigste Folge der Krankheiten bei Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durchdhörige Hülfe anfangs leicht zu heben gewe-sen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren, Krankheiten; Krankheiten, die man zwar ohne Hülfe mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die die Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdauernen Last des Staates machen."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.092,
+              0.669,
+              0.851,
+              0.871
+            ],
+            "angle": 0,
+            "content": "Der vorzüglichste Werth dieser Hülfe bestehet also darin, die Summe der Leiden- den und Unbrauchbaren zu vermindern, und ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben. Ja, indem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken-"
+          }
+        ],
+        "markdown": "that erwiesen, manches Leben gerettet, und,\nwas mehr noch heifst, Kränklichkeit verhü-\ntet, und dem Menschen die Brauchbarkeit\nerhalten. Denn es ist ein sehr unrichtiger\nMaafsstab, wenn man den Nutzen solcher\nHülfen blos nach der Vermehrung oder Ver-\nminderung der Mortalität berechnet.\n\nDie häufigste und traurigste Folge der Krankheiten bei Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durchdhörige Hülfe anfangs leicht zu heben gewe-sen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren, Krankheiten; Krankheiten, die man zwar ohne Hülfe mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die die Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdauernen Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfe bestehet also darin, die Summe der Leiden- den und Unbrauchbaren zu vermindern, und ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben. Ja, indem sie die Summe der Krankheiten überhaupt vermindert, und die ersten Keime der anstecken-",
+        "stats": {
+          "layout_ms": 4309.891542,
+          "extract_ms": 10359.877,
+          "blocks": 4,
+          "generated_tokens": 409
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:21:39.335910Z  INFO teleocr: model loaded in 0.8s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4309.891542,\"extract_ms\":10359.877,\"blocks\":4,\"generated_tokens\":409}\n1 page(s) in 14.67s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0009.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 15.660841457545757,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

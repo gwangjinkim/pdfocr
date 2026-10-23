@@ -1,0 +1,74 @@
+{
+  "page": 35,
+  "status": "ok",
+  "markdown": "ien. Eine Deputation in der Arolegie war fe greß, daß fait in feinem angefebenen Baufe in Deutrieland, Polen, Ungarn, Däncemarf, ja feibt in England ein Kind geboren wurde, wo man nicht fogleich einen Beten mit der Beftimmung der Geburtsfunde an ihn abfenbete. C6 famen oft acht, schon bis zweiß folbe Geburtsftunden auf einmal bei ihm an, und er wurde gulegt fo überhauft, daß er fich+Bebüften zu biefem Gebäft halten mußte. Med befinden fich viele Bände folcher Unfragen auf der Bibliothef zu Berlin, in denen fogar Briefe von der Röningin Elizabeth erfheinen. Auferbem ferieber noch jährlich einen afrologiften Calender, in welchem nicht nur die Natur des Jahres überhauft, fondern auch die Hauptbegebenheiten und die Tage berfelben mit fürzen Worten oder Seihen angegeben waren. Freilich lieferte er gewöhnlich die Anselegung erft das Jahr darnad; doch findet man auch Beefpiele, daß er fich durch Geld und gute Worte bewegen ließ, difelbe im voraus mitzutheilen. Und bemundern muß man, was die Runt der unbefimmten prophetifchen Diction und die Befälligkeit des Sufalls thun fonnen; der Calender erhielt fich über 20 Jahre, hatte reiffenden Abgang, und verdhaffe, nebt andern Charlatanerien, dem Verfaffer ein Bermögen von einigen hunderttaufend Gulben.\n\nÜber wie fonnte man in einer Saunft, die dem Leben der Menften fe beffimme und unvermeibliche Bräzen fegte, Mittel zur Verlängerung beffelben finden! Dies gefah auf folgende finnsreibe Art:",
+  "raw": {
+    "pages": [
+      {
+        "width": 1283,
+        "height": 2313,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.344,
+              0.062,
+              0.559,
+              0.085
+            ],
+            "angle": 0,
+            "content": "- 15 -"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.033,
+              0.099,
+              0.875,
+              0.775
+            ],
+            "angle": 0,
+            "content": "ien. Eine Deputation in der Arolegie war fe greß, daß fait in feinem angefebenen Baufe in Deutrieland, Polen, Ungarn, Däncemarf, ja feibt in England ein Kind geboren wurde, wo man nicht fogleich einen Beten mit der Beftimmung der Geburtsfunde an ihn abfenbete. C6 famen oft acht, schon bis zweiß folbe Geburtsftunden auf einmal bei ihm an, und er wurde gulegt fo überhauft, daß er fich+Bebüften zu biefem Gebäft halten mußte. Med befinden fich viele Bände folcher Unfragen auf der Bibliothef zu Berlin, in denen fogar Briefe von der Röningin Elizabeth erfheinen. Auferbem ferieber noch jährlich einen afrologiften Calender, in welchem nicht nur die Natur des Jahres überhauft, fondern auch die Hauptbegebenheiten und die Tage berfelben mit fürzen Worten oder Seihen angegeben waren. Freilich lieferte er gewöhnlich die Anselegung erft das Jahr darnad; doch findet man auch Beefpiele, daß er fich durch Geld und gute Worte bewegen ließ, difelbe im voraus mitzutheilen. Und bemundern muß man, was die Runt der unbefimmten prophetifchen Diction und die Befälligkeit des Sufalls thun fonnen; der Calender erhielt fich über 20 Jahre, hatte reiffenden Abgang, und verdhaffe, nebt andern Charlatanerien, dem Verfaffer ein Bermögen von einigen hunderttaufend Gulben."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.037,
+              0.777,
+              0.875,
+              0.882
+            ],
+            "angle": 0,
+            "content": "Über wie fonnte man in einer Saunft, die dem Leben der Menften fe beffimme und unvermeibliche Bräzen fegte, Mittel zur Verlängerung beffelben finden! Dies gefah auf folgende finnsreibe Art:"
+          }
+        ],
+        "markdown": "ien. Eine Deputation in der Arolegie war fe greß, daß fait in feinem angefebenen Baufe in Deutrieland, Polen, Ungarn, Däncemarf, ja feibt in England ein Kind geboren wurde, wo man nicht fogleich einen Beten mit der Beftimmung der Geburtsfunde an ihn abfenbete. C6 famen oft acht, schon bis zweiß folbe Geburtsftunden auf einmal bei ihm an, und er wurde gulegt fo überhauft, daß er fich+Bebüften zu biefem Gebäft halten mußte. Med befinden fich viele Bände folcher Unfragen auf der Bibliothef zu Berlin, in denen fogar Briefe von der Röningin Elizabeth erfheinen. Auferbem ferieber noch jährlich einen afrologiften Calender, in welchem nicht nur die Natur des Jahres überhauft, fondern auch die Hauptbegebenheiten und die Tage berfelben mit fürzen Worten oder Seihen angegeben waren. Freilich lieferte er gewöhnlich die Anselegung erft das Jahr darnad; doch findet man auch Beefpiele, daß er fich durch Geld und gute Worte bewegen ließ, difelbe im voraus mitzutheilen. Und bemundern muß man, was die Runt der unbefimmten prophetifchen Diction und die Befälligkeit des Sufalls thun fonnen; der Calender erhielt fich über 20 Jahre, hatte reiffenden Abgang, und verdhaffe, nebt andern Charlatanerien, dem Verfaffer ein Bermögen von einigen hunderttaufend Gulben.\n\nÜber wie fonnte man in einer Saunft, die dem Leben der Menften fe beffimme und unvermeibliche Bräzen fegte, Mittel zur Verlängerung beffelben finden! Dies gefah auf folgende finnsreibe Art:",
+        "stats": {
+          "layout_ms": 4666.224708,
+          "extract_ms": 12804.147958,
+          "blocks": 3,
+          "generated_tokens": 537
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:37:04.531937Z  INFO teleocr: model loaded in 0.7s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4666.224708,\"extract_ms\":12804.147958,\"blocks\":3,\"generated_tokens\":537}\n1 page(s) in 17.47s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400-probe-400/document/runs/teleocr-teleocr-8958bcfafbca840c/inputs/page-0035.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 18.233299957588315,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

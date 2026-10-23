@@ -1,0 +1,9 @@
+{
+  "repository": "author-owned-archiveorgocr",
+  "git_commit": "6568d31c2570cefbdc1a2646ddcdf703597c1c0e",
+  "files": {
+    "archiveorgocr/stitching.py": "20c95f8c98e7ca90ee040aa03d08c3c1205b05249d37f15ebf30adbb519be387",
+    "datasets/boundaries/seed.jsonl": "a586b34392557f26264b2c40eaa59889a8216cb73fa5200acdcf51105fe7c82a"
+  },
+  "note": "Copied from working files with user authorization; hashes describe actual source content, which may differ from committed files. Only the old standalone CLI was removed."
+}

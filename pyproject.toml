@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pdfocr-lab"
+version = "0.1.0"
+description = "Local-first, provenance-preserving PDF OCR comparisons built on pdfrune"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["pdfrune", "pypdfium2>=5.7", "pillow>=11", "httpx>=0.28", "rapidfuzz>=3.10"]
+
+[project.scripts]
+pdfocr = "pdfocr.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.11"]
+
+[tool.uv.sources]
+pdfrune = { path = "vendor-pdfrune" }
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pdfocr"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+exclude = ["src/pdfocr/borrowed/*"]

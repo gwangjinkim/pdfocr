@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "config": {
+    "model_name": "paddle-vl",
+    "model": {
+      "repo": "PaddlePaddle/PaddleOCR-VL-1.6",
+      "parameters_b": 0.9,
+      "license": "Apache-2.0",
+      "backend": "mlx",
+      "mode": "layout-crops-markdown",
+      "prompt": "OCR:",
+      "max_tokens": 8192,
+      "temperature": 0.0,
+      "longest_edge": 4096,
+      "notes": "Locally executed: PP-DocLayoutV3 Torch CPU layout + PaddleOCR-VL-1.6 BF16 MLX region OCR; rectangle crops and simple reading-order assembly. Batch-axis compatibility shim required. Tested Archive.org PDF 9-10; not exact PaddleX benchmark parity.",
+      "pipeline": "paddle-layout"
+    },
+    "backend": "mlx",
+    "model_pin": {
+      "repo": "PaddlePaddle/PaddleOCR-VL-1.6",
+      "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+      "path": "model-cache/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42"
+    },
+    "endpoint": null,
+    "endpoint_model": "PaddlePaddle/PaddleOCR-VL-1.6",
+    "prompt": "OCR:",
+    "command": null,
+    "timeout": 1200,
+    "python": "runners/mlx/.venv/bin/python",
+    "harness_version": "0.1.0",
+    "teleocr_binary_sha256": null,
+    "layout_pin": {
+      "repo": "PaddlePaddle/PP-DocLayoutV3_safetensors",
+      "revision": "e4f489dc536556fc1be02b973ba06756e0d4a2ac",
+      "path": "model-cache/models--PaddlePaddle--PP-DocLayoutV3_safetensors/snapshots/e4f489dc536556fc1be02b973ba06756e0d4a2ac"
+    },
+    "implementation_sha256": "a2e5301b8141fec649cd2b115ef4a35c235d20bc1d26bcafca7d3962b9cd1ded"
+  },
+  "source_sha256": "9a79e4af196f5d980552f8e5aa345bcff494fe603323105824fdfa4548a56cc1",
+  "document": "workspace/expanded400/10289757bsb",
+  "pages": [
+    {
+      "page": 9,
+      "result": "page-0009.json",
+      "status": "ok",
+      "seconds": 5.11461004242301,
+      "possibly_truncated": false
+    },
+    {
+      "page": 10,
+      "result": "page-0010.json",
+      "status": "ok",
+      "seconds": 4.135489124804735,
+      "possibly_truncated": false
+    },
+    {
+      "page": 11,
+      "result": "page-0011.json",
+      "status": "ok",
+      "seconds": 5.676677083596587,
+      "possibly_truncated": false
+    },
+    {
+      "page": 12,
+      "result": "page-0012.json",
+      "status": "ok",
+      "seconds": 5.272757374681532,
+      "possibly_truncated": false
+    },
+    {
+      "page": 13,
+      "result": "page-0013.json",
+      "status": "ok",
+      "seconds": 3.335799583233893,
+      "possibly_truncated": false
+    },
+    {
+      "page": 14,
+      "result": "page-0014.json",
+      "status": "ok",
+      "seconds": 4.082502665929496,
+      "possibly_truncated": false
+    },
+    {
+      "page": 70,
+      "result": "page-0070.json",
+      "status": "ok",
+      "seconds": 5.429930750280619,
+      "possibly_truncated": false
+    },
+    {
+      "page": 71,
+      "result": "page-0071.json",
+      "status": "ok",
+      "seconds": 5.025643999688327,
+      "possibly_truncated": false
+    }
+  ],
+  "inputs": [
+    {
+      "page": 9,
+      "image_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/inputs/page-0009.png",
+      "input_size": [
+        2352,
+        4096
+      ],
+      "image_sha256": "26acc2eb2fe554fb54047543095c6115da9d7fc30453774322e9b21b2cbbd912",
+      "result_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0009.json"
+    },
+    {
+      "page": 10,
+      "image_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/inputs/page-0010.png",
+      "input_size": [
+        2365,
+        4096
+      ],
+      "image_sha256": "8773936b9e60877f6cae86cc37509ac0ac13f23247ca181a7e5087800e5c6dde",
+      "result_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0010.json"
+    },
+    {
+      "page": 11,
+      "image_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/inputs/page-0011.png",
+      "input_size": [
+        2385,
+        4096
+      ],
+      "image_sha256": "ee7262baa1297ae9c4909cbabd4fcbe1d69e57163ed1107e9b2ba2e6d61b3bef",
+      "result_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0011.json"
+    },
+    {
+      "page": 12,
+      "image_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/inputs/page-0012.png",
+      "input_size": [
+        2481,
+        4096
+      ],
+      "image_sha256": "edd47c40df4826324df7a6d2ac4461db2d38541890bf3284ad70614bce954d6d",
+      "result_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0012.json"
+    },
+    {
+      "page": 13,
+      "image_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/inputs/page-0013.png",
+      "input_size": [
+        2375,
+        4096
+      ],
+      "image_sha256": "dccdef2cebec5dfeb15c867637de352b554d4e55a5d002e98b8b39128cab4da1",
+      "result_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0013.json"
+    },
+    {
+      "page": 14,
+      "image_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/inputs/page-0014.png",
+      "input_size": [
+        2368,
+        4096
+      ],
+      "image_sha256": "47ded303ed4f7ef077d2ef13a7d48b224b0880620a9c54dcedcc043eb4b7cd81",
+      "result_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0014.json"
+    },
+    {
+      "page": 70,
+      "image_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/inputs/page-0070.png",
+      "input_size": [
+        2339,
+        4096
+      ],
+      "image_sha256": "7e2f437bdaa513547068db2d38e852605764980880977682ff62473325f90cf3",
+      "result_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0070.json"
+    },
+    {
+      "page": 71,
+      "image_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/inputs/page-0071.png",
+      "input_size": [
+        2337,
+        4096
+      ],
+      "image_sha256": "2ab3d436584c6f9d180b03c6aba23971ceab8d7b9adf9046546ae05b82dc0ef5",
+      "result_path": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0071.json"
+    }
+  ],
+  "status": "complete",
+  "process": {
+    "pid": 53726,
+    "started_at_unix": 1792765238.37433,
+    "argv": [
+      "runners/mlx/.venv/bin/python",
+      "-m",
+      "pdfocr.worker",
+      "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/request.json"
+    ],
+    "returncode": 0,
+    "exited": true,
+    "seconds": 43.26545854192227
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "page": 12,
+  "status": "ok",
+  "markdown": "losen mit dem wohlhabenden Theil des Pubkums vermehrt werden, wodurch theils den Unglücklichen ein neuer Zugang zu dem Vornehmen und Reichen, theils diesem, was oft noch schwerer ist, ein neuer Weg eröffnet wird, auf eine sichere und würdige Art seine Wohlthaten den Armen zufliefsen zu lassen; denn wer kennt wohl die Lage und die Bedürfnisse der Armen besser, als der Arzt? Und wer kann ihm die Hülfe wohlthätiger und zweckmäfsiger reichen?\n\n3. Je mehr die Ménschen in Masse behandelt werden, desto mehr verliert sich der Sinn für das Iodividuum, der doch alleine Wärme des Gefühls und jene Herzens-theilnahme erzeugt, durch welche solche Anstalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und 'Tausenden zu zählen.",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          1273,
+          172,
+          1358,
+          272
+        ],
+        "label": "number",
+        "score": 0.3300037682056427,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0012/block-000-number.png",
+        "order": 12,
+        "text": "8",
+        "seconds": 0.14527183305472136,
+        "tokens": 2,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          1067,
+          168,
+          1574,
+          270
+        ],
+        "label": "header",
+        "score": 0.30964550375938416,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0012/block-001-header.png",
+        "order": 13,
+        "text": "-8-",
+        "seconds": 0.12692908383905888,
+        "tokens": 4,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          432,
+          319,
+          2229,
+          1640
+        ],
+        "label": "text",
+        "score": 0.9523140788078308,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0012/block-002-text.png",
+        "order": 51,
+        "text": "losen mit dem wohlhabenden Theil des Pubkums vermehrt werden, wodurch theils den Unglücklichen ein neuer Zugang zu dem Vornehmen und Reichen, theils diesem, was oft noch schwerer ist, ein neuer Weg eröffnet wird, auf eine sichere und würdige Art seine Wohlthaten den Armen zufliefsen zu lassen; denn wer kennt wohl die Lage und die Bedürfnisse der Armen besser, als der Arzt? Und wer kann ihm die Hülfe wohlthätiger und zweckmäfsiger reichen?",
+        "seconds": 1.372681999579072,
+        "tokens": 136,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          439,
+          1685,
+          2236,
+          2518
+        ],
+        "label": "text",
+        "score": 0.941728949546814,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0012/block-003-text.png",
+        "order": 97,
+        "text": "3. Je mehr die Ménschen in Masse behandelt werden, desto mehr verliert sich der Sinn für das Iodividuum, der doch alleine Wärme des Gefühls und jene Herzens-theilnahme erzeugt, durch welche solche Anstalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und 'Tausenden zu zählen.",
+        "seconds": 1.2287319162860513,
+        "tokens": 93,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          519,
+          2611,
+          2252,
+          3537
+        ],
+        "label": "footnote",
+        "score": 0.8846529126167297,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0012/block-004-footnote.png",
+        "order": 183,
+        "text": "*) Man kann hierauf sehr passend das schöne Wort.\ndos Göttlichen anwenden „Wer den Menschen nicht liebt, den er siehet, wie kann er die Menschen heit lieben, die er nicht siehet?“ Die gewöhnliche Menschheitsliebe verschlingt sehr häufig die Menschenliebe, und es würde manchem, der nichts als Beglückungsprojeckte für die Menschheit im Grofsen im Munde führt, oft schwer aukommen, die gegringste persönliche Aufopferung für den Einzelnen zu machen.",
+        "seconds": 1.3816740410402417,
+        "tokens": 136,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.739070750772953,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 5.297113916836679,
+  "load_seconds": 1.3346281237900257,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2788943056,
+  "layout_seconds": 0.739070750772953
+}

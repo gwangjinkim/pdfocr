@@ -1,0 +1,22 @@
+{
+  "page": 70,
+  "status": "ok",
+  "markdown": "66\n\nSpirit. Frument. ßvj.\n\ndestillando eliciantur ßvj in quibus solve\n\nCamphorae 3jß\n\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstofs bedarf. Selbst in den Wassersuchten leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Efsöffel mit Wasser verdünnt, viermal täglich, auch öfter.\n\n## Tinctura Aconiti\n\nR. Herb. Aconit. siccat. minutim concis. 3ij Diger. cum Spirit. Vin. rectificat. ßj in cucurbita clausa per triduum. Exprime et filtra.\n\nPari modo parantur:\n\nTintura Digitalis.\n\nCalami.\n\nGalbani.\n\nHellebori.\n\nHyoscyami.\n\nNicotianae.\n\nStramonii.\n\nValerianae.\n\nToxicodendri.",
+  "raw": {
+    "text": "66\n\nSpirit. Frument. ßvj.\n\ndestillando eliciantur ßvj in quibus solve\n\nCamphorae 3jß\n\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstofs bedarf. Selbst in den Wassersuchten leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Efsöffel mit Wasser verdünnt, viermal täglich, auch öfter.\n\n## Tinctura Aconiti\n\nR. Herb. Aconit. siccat. minutim concis. 3ij Diger. cum Spirit. Vin. rectificat. ßj in cucurbita clausa per triduum. Exprime et filtra.\n\nPari modo parantur:\n\nTintura Digitalis.\n\nCalami.\n\nGalbani.\n\nHellebori.\n\nHyoscyami.\n\nNicotianae.\n\nStramonii.\n\nValerianae.\n\nToxicodendri.",
+    "generation_tokens": 246,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3148020496
+  },
+  "seconds": 4.215319415554404,
+  "load_seconds": 0.6194916665554047,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 246,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3148020496
+}

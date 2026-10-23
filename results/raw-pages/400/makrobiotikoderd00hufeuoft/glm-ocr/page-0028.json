@@ -1,0 +1,22 @@
+{
+  "page": 28,
+  "status": "ok",
+  "markdown": "Ganz anders bildete sich dieser Trieb bei den Grießen, unter dem Einfluß einer reinen und schönen Natur, aus. Man überzeugte sich sehr bald, daß gerade ein vernünftiger Genuß der Natur und die beftändige Uebung unserer Kräfte das sicherste Mittel fey, die Lebensfraft zu stärken, und unser Leben zu verlängern. Hippocrates und alle damaligen Philosophen und Aerzte fennen seine andern Mittel, als Mähigfeit, Genuß der freien und reinen Luft, Väder, und vorzüglich das tägliche Neiben des Körpers und Leibesübung. Auf leytere sehten sie ihr größtes Vertrauen. Es wurden eigene Methoden und Ne-geln bestimmt, dem Körper mannigfaltige, starke und schwach Bewegung zu geben; es entstand eine eigene Kunst der Leibesübung, die Gymnastik, daraus, und der größte Philosoph und Gelehrte vergaß nie, daß Uebung des Leibes und Uebung der Seele immer in gleichem Verhältnis bleiben müßten. Man brachte es wirflich zu einer außerordentlichen Volksmenheit, diese für uns fast verschwundene Kunst den ver-schiedenen Naturen, Situationen und Bedürfnissen der Menschen anzuaffen, und sie besonder zu dem Mittel zu gebrauchen, die innere Natur des Menschen immer in einer gehörigen Thätigkeit zu erhalten, und dadurch nicht nur Krankheitsurfachen unwirfsam zu machen, sondern auch selbst schon ausgebrochne Krankheiten zu heilen. Ein gewisser Hero-dicus ging so weit, daß er sogar seine Patienten nöthigte, spazieren zu gehen, sich reiben zu laffen, und je mehr die Krankheit abmattete, defto mehr",
+  "raw": {
+    "text": "Ganz anders bildete sich dieser Trieb bei den Grießen, unter dem Einfluß einer reinen und schönen Natur, aus. Man überzeugte sich sehr bald, daß gerade ein vernünftiger Genuß der Natur und die beftändige Uebung unserer Kräfte das sicherste Mittel fey, die Lebensfraft zu stärken, und unser Leben zu verlängern. Hippocrates und alle damaligen Philosophen und Aerzte fennen seine andern Mittel, als Mähigfeit, Genuß der freien und reinen Luft, Väder, und vorzüglich das tägliche Neiben des Körpers und Leibesübung. Auf leytere sehten sie ihr größtes Vertrauen. Es wurden eigene Methoden und Ne-geln bestimmt, dem Körper mannigfaltige, starke und schwach Bewegung zu geben; es entstand eine eigene Kunst der Leibesübung, die Gymnastik, daraus, und der größte Philosoph und Gelehrte vergaß nie, daß Uebung des Leibes und Uebung der Seele immer in gleichem Verhältnis bleiben müßten. Man brachte es wirflich zu einer außerordentlichen Volksmenheit, diese für uns fast verschwundene Kunst den ver-schiedenen Naturen, Situationen und Bedürfnissen der Menschen anzuaffen, und sie besonder zu dem Mittel zu gebrauchen, die innere Natur des Menschen immer in einer gehörigen Thätigkeit zu erhalten, und dadurch nicht nur Krankheitsurfachen unwirfsam zu machen, sondern auch selbst schon ausgebrochne Krankheiten zu heilen. Ein gewisser Hero-dicus ging so weit, daß er sogar seine Patienten nöthigte, spazieren zu gehen, sich reiben zu laffen, und je mehr die Krankheit abmattete, defto mehr",
+    "generation_tokens": 429,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3405556618
+  },
+  "seconds": 5.082339959219098,
+  "load_seconds": 0.7446945421397686,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 429,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3405556618
+}

@@ -1,0 +1,92 @@
+{
+  "page": 11,
+  "status": "ok",
+  "markdown": "zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen mußten, um nur die verordnete Arzneinzeerhalten. Wie unzureichend war diese Hülfe! —\n\nEs mußte demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zum Grunde gelegt wurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und der Menschenliebe allein mufs das belebende Princip einer solchen Anstalt seyn. Das ganze Geschäft mufs als Gottesdienst betrieben, und unentgeldlich, aus freiem innerem Antriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr edle menschenlieben-de und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto gewisser wird dieser Geist das Institut durchdringen, und der wahre Zweck erreicht. Überdies wird noch dadurch der große Vortheil gewonnen, dafs die Berührungspunkte der Hülf-",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          255,
+          343,
+          2054,
+          1049
+        ],
+        "label": "text",
+        "score": 0.9071917533874512,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0011/block-000-text.png",
+        "order": 81,
+        "text": "zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen mußten, um nur die verordnete Arzneinzeerhalten. Wie unzureichend war diese Hülfe! —",
+        "seconds": 1.1632200833410025,
+        "tokens": 68,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          247,
+          1097,
+          2038,
+          1697
+        ],
+        "label": "text",
+        "score": 0.9204840660095215,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0011/block-001-text.png",
+        "order": 142,
+        "text": "Es mußte demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zum Grunde gelegt wurden, waren folgende:",
+        "seconds": 1.038612250238657,
+        "tokens": 49,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          246,
+          1734,
+          2035,
+          2449
+        ],
+        "label": "text",
+        "score": 0.9283158183097839,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0011/block-002-text.png",
+        "order": 184,
+        "text": "1. Der Geist des reinen Wohlthuns und der Menschenliebe allein mufs das belebende Princip einer solchen Anstalt seyn. Das ganze Geschäft mufs als Gottesdienst betrieben, und unentgeldlich, aus freiem innerem Antriebe, besorgt werden.",
+        "seconds": 1.1228502914309502,
+        "tokens": 73,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          246,
+          2482,
+          2043,
+          3555
+        ],
+        "label": "text",
+        "score": 0.9284966588020325,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0011/block-003-text.png",
+        "order": 219,
+        "text": "2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr edle menschenlieben-de und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto gewisser wird dieser Geist das Institut durchdringen, und der wahre Zweck erreicht. Überdies wird noch dadurch der große Vortheil gewonnen, dafs die Berührungspunkte der Hülf-",
+        "seconds": 1.2662560418248177,
+        "tokens": 107,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.7381481667980552,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 5.676677083596587,
+  "load_seconds": 1.6896864166483283,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2788943056,
+  "layout_seconds": 0.7381481667980552
+}

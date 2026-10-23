@@ -1,0 +1,126 @@
+{
+  "page": 25,
+  "status": "ok",
+  "markdown": "Erste Vorleitung.\n\nSchifsale dieser Wissenschaft.\n\nBei den Egyptiern und Griechen — Gerocomic — Gymnastique — Hermippus — Justand derselben im Mittelalter — Theophrastus Paracelfus — Astrologische Methode — Taliismans — Thurneisen — Cornaro und feine frenge Diär — Transfusionsmethode — Baco — St. Germain — Mesmer — Tagliosiro — Graham.\n\nBei den Egyptiern und Griechen — Gerocomic — Gymnastique — Hermippus — Justand derselben im Mittelalter — Theophrastus Paracelfus — Astrologische Methode — Taliismans — Thurneisen — Cornaro und feine frenge Diär — Transfusionsmethode — Baco — St. Germain — Mesmer — Tagliosiro — Graham.\n\nDurch die ganze Natur weht und wirket jene unbegreifliche Kraft, jener unmittelbare Ausfluss der Gottheit, den wir Leben nennen. Ubeeral stofen wir auf Erschinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modificationsen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuruf der ganzen uns umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und crystallisfirt, die Pflanze vegetirt, das Thier fühlt und wirket; — aber im höchsten Glanz von Bollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der stätheren Schöpfung. Wir mögen die ganze Reihe der Befensturzkreisen, nergends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          133,
+          280,
+          445,
+          330
+        ],
+        "label": "paragraph_title",
+        "score": 0.4710385203361511,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0025/block-000-paragraph_title.png",
+        "order": 17,
+        "text": "Erste Vorleitung.",
+        "seconds": 0.20511254202574492,
+        "tokens": 7,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          75,
+          328,
+          499,
+          374
+        ],
+        "label": "text",
+        "score": 0.527646541595459,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0025/block-001-text.png",
+        "order": 56,
+        "text": "Schifsale dieser Wissenschaft.",
+        "seconds": 0.13054724968969822,
+        "tokens": 9,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          18,
+          372,
+          557,
+          552
+        ],
+        "label": "algorithm",
+        "score": 0.7374151349067688,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0025/block-002-algorithm.png",
+        "order": 106,
+        "text": "Bei den Egyptiern und Griechen — Gerocomic — Gymnastique — Hermippus — Justand derselben im Mittelalter — Theophrastus Paracelfus — Astrologische Methode — Taliismans — Thurneisen — Cornaro und feine frenge Diär — Transfusionsmethode — Baco — St. Germain — Mesmer — Tagliosiro — Graham.",
+        "seconds": 0.3842067075893283,
+        "tokens": 95,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          18,
+          372,
+          557,
+          552
+        ],
+        "label": "text",
+        "score": 0.30212822556495667,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0025/block-003-text.png",
+        "order": 106,
+        "text": "Bei den Egyptiern und Griechen — Gerocomic — Gymnastique — Hermippus — Justand derselben im Mittelalter — Theophrastus Paracelfus — Astrologische Methode — Taliismans — Thurneisen — Cornaro und feine frenge Diär — Transfusionsmethode — Baco — St. Germain — Mesmer — Tagliosiro — Graham.",
+        "seconds": 0.4437571670860052,
+        "tokens": 95,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          3,
+          557,
+          550,
+          1030
+        ],
+        "label": "text",
+        "score": 0.9258084893226624,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0025/block-004-text.png",
+        "order": 230,
+        "text": "Durch die ganze Natur weht und wirket jene unbegreifliche Kraft, jener unmittelbare Ausfluss der Gottheit, den wir Leben nennen. Ubeeral stofen wir auf Erschinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modificationsen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuruf der ganzen uns umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und crystallisfirt, die Pflanze vegetirt, das Thier fühlt und wirket; — aber im höchsten Glanz von Bollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der stätheren Schöpfung. Wir mögen die ganze Reihe der Befensturzkreisen, nergends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der",
+        "seconds": 0.9398403326049447,
+        "tokens": 227,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          357,
+          1025,
+          399,
+          1050
+        ],
+        "label": "number",
+        "score": 0.3563089370727539,
+        "crop": "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/paddle-vl-mlx-d8aee3b5031c985e/page-0025/block-005-number.png",
+        "order": 299,
+        "text": "夏本",
+        "seconds": 0.1352706253528595,
+        "tokens": 3,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.7769335824996233,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 3.06205933354795,
+  "load_seconds": 1.3344980832189322,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2817225080,
+  "layout_seconds": 0.7769335824996233
+}

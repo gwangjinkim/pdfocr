@@ -1,0 +1,74 @@
+{
+  "page": 27,
+  "status": "ok",
+  "markdown": "wifftich feibfägtigte dies problem von jeber die denfbefbeit auf verliebene 28.1.1. & was an Liebtungsegenftand der febarffinnigten Öpfe, ein Tummelplag der Schwärmer, und eine Hauptlodfeipfe der Charlatans und Betrüger, bei benen man von jeber finden wird, daß es entweder Umgang mit Seifern, oder Goldmacherfunkt oder Berlängerung des Lebens war, modurd fe daß größere Multifum angletten. & ist interrefant und ein Beitrag zur Esfeichtee be menebliven Berflanbes, an feben, auf wie mannigfattigen, fich oft ganz entgegeïgcfegten Zegen man bies Gut zu erlangen hoffte, und ba felßt in ben neueteiten Seiten die Saglioftros und Medmers wichtige Beträge begin geliefert haben, fe glaube id Verziehung zu erbalten, wenn id eine fürge Heberholt ber nach und nach vorgeformmenen Lebenberlängerungssmethoden vorausfeiche, ehe id zu meinem Hauptgegenflanbe übergche.\n\nSchon in den früheiten Seiten, unter Egyptern, Grieden und Nemen was biefe Siee rege, und feh on damale verfiel man in Egypten, der Mutter fo mancher abentbeuerlichen Sieben, auf fürtliche und unnaturliche Mittel au biefem Swed, wosu freitlich bis durch Siee und Ueberdwemmungen ungefunde Clima Beranlaufung geben molte. Man glaubte die Erhaltung des Lebens in Brechen und Schwigen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigtens zwei Brechmittel zu nehmen, und flatt zu fagen, wie befindelt bu dich, fragte man einander: Wie fehlwelt bu? —",
+  "raw": {
+    "pages": [
+      {
+        "width": 642,
+        "height": 1157,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.347,
+              0.051,
+              0.541,
+              0.073
+            ],
+            "angle": 0,
+            "content": "- 5 -"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.02,
+              0.084,
+              0.865,
+              0.554
+            ],
+            "angle": 0,
+            "content": "wifftich feibfägtigte dies problem von jeber die denfbefbeit auf verliebene 28.1.1. & was an Liebtungsegenftand der febarffinnigten Öpfe, ein Tummelplag der Schwärmer, und eine Hauptlodfeipfe der Charlatans und Betrüger, bei benen man von jeber finden wird, daß es entweder Umgang mit Seifern, oder Goldmacherfunkt oder Berlängerung des Lebens war, modurd fe daß größere Multifum angletten. & ist interrefant und ein Beitrag zur Esfeichtee be menebliven Berflanbes, an feben, auf wie mannigfattigen, fich oft ganz entgegeïgcfegten Zegen man bies Gut zu erlangen hoffte, und ba felßt in ben neueteiten Seiten die Saglioftros und Medmers wichtige Beträge begin geliefert haben, fe glaube id Verziehung zu erbalten, wenn id eine fürge Heberholt ber nach und nach vorgeformmenen Lebenberlängerungssmethoden vorausfeiche, ehe id zu meinem Hauptgegenflanbe übergche."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.016,
+              0.556,
+              0.861,
+              0.866
+            ],
+            "angle": 0,
+            "content": "Schon in den früheiten Seiten, unter Egyptern, Grieden und Nemen was biefe Siee rege, und feh on damale verfiel man in Egypten, der Mutter fo mancher abentbeuerlichen Sieben, auf fürtliche und unnaturliche Mittel au biefem Swed, wosu freitlich bis durch Siee und Ueberdwemmungen ungefunde Clima Beranlaufung geben molte. Man glaubte die Erhaltung des Lebens in Brechen und Schwigen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigtens zwei Brechmittel zu nehmen, und flatt zu fagen, wie befindelt bu dich, fragte man einander: Wie fehlwelt bu? —"
+          }
+        ],
+        "markdown": "wifftich feibfägtigte dies problem von jeber die denfbefbeit auf verliebene 28.1.1. & was an Liebtungsegenftand der febarffinnigten Öpfe, ein Tummelplag der Schwärmer, und eine Hauptlodfeipfe der Charlatans und Betrüger, bei benen man von jeber finden wird, daß es entweder Umgang mit Seifern, oder Goldmacherfunkt oder Berlängerung des Lebens war, modurd fe daß größere Multifum angletten. & ist interrefant und ein Beitrag zur Esfeichtee be menebliven Berflanbes, an feben, auf wie mannigfattigen, fich oft ganz entgegeïgcfegten Zegen man bies Gut zu erlangen hoffte, und ba felßt in ben neueteiten Seiten die Saglioftros und Medmers wichtige Beträge begin geliefert haben, fe glaube id Verziehung zu erbalten, wenn id eine fürge Heberholt ber nach und nach vorgeformmenen Lebenberlängerungssmethoden vorausfeiche, ehe id zu meinem Hauptgegenflanbe übergche.\n\nSchon in den früheiten Seiten, unter Egyptern, Grieden und Nemen was biefe Siee rege, und feh on damale verfiel man in Egypten, der Mutter fo mancher abentbeuerlichen Sieben, auf fürtliche und unnaturliche Mittel au biefem Swed, wosu freitlich bis durch Siee und Ueberdwemmungen ungefunde Clima Beranlaufung geben molte. Man glaubte die Erhaltung des Lebens in Brechen und Schwigen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigtens zwei Brechmittel zu nehmen, und flatt zu fagen, wie befindelt bu dich, fragte man einander: Wie fehlwelt bu? —",
+        "stats": {
+          "layout_ms": 4773.90475,
+          "extract_ms": 4104.070207999999,
+          "blocks": 3,
+          "generated_tokens": 539
+        }
+      }
+    ],
+    "stderr": "2026-10-23T12:29:09.822152Z  INFO teleocr: model loaded in 0.5s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4773.90475,\"extract_ms\":4104.070207999999,\"blocks\":3,\"generated_tokens\":539}\n1 page(s) in 8.88s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd/inputs/page-0027.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 9.502846125513315,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

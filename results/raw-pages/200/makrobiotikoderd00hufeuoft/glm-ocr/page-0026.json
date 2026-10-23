@@ -1,0 +1,22 @@
+{
+  "page": 26,
+  "status": "ok",
+  "markdown": "Natur, nirgendso viel Energie des Lebens, mit\nfolcher Dauer vereinigt, als hier. Kein Wunder\nalso, daß der vollkommente Beilicher dieses Gutes\nauch einen so hohen Werth darauf feht, und daß\nschon der blohe Gedanke von Leben und Seyn so hohen Neiz für uns hat. Jeder Körper wird uns um\nso interessanter, je mehr wir ihm eine Art von Leben\nund Lebensgefühl zutrauen können. Nichts vermag\nso sehr auf uns zu wirfen, solche Aufopferungen zu\nveranlaffen, und die außerordentlichen Entwicklungen und Anstrengungen unfrer verborgensten Kräfte\nhervorzubringen, als der Trieb es zu erhalten und\nin dem fritischen Augenblicke es zu retten. Selbst\nohne Genuß und Freuden des Lebens, felbft für den,\nder an unheilbaren Schmerzen leidet, oder im dun-\nteln Kerfer auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Neiz,\nund es gehört schlechterdings eine nur bei Menschen\nmögliche Zerrüttung der feinsten Empfindungsorgane,\neine gänzliche Verdunfelung und Tödung des\ninnern Sinns dazu, um das Leben gleichgültig oder\ngar verhaft zu machen. — So weiße und innig wurde\nLiebe des Lebens, dieser eines denfenden Wesens so\nwürdige Trieb, dieser Grundpfeiler sowohl der ein-\nzelnen als der öffentlichen Glückseligkeit, mit unfe-\nrer Triftenz verwebt! — Sehr natürlich war es daher, daß der Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu stücktigen Genuß dieses Guts mehr Ausdehnung zu geben? Und",
+  "raw": {
+    "text": "Natur, nirgendso viel Energie des Lebens, mit\nfolcher Dauer vereinigt, als hier. Kein Wunder\nalso, daß der vollkommente Beilicher dieses Gutes\nauch einen so hohen Werth darauf feht, und daß\nschon der blohe Gedanke von Leben und Seyn so hohen Neiz für uns hat. Jeder Körper wird uns um\nso interessanter, je mehr wir ihm eine Art von Leben\nund Lebensgefühl zutrauen können. Nichts vermag\nso sehr auf uns zu wirfen, solche Aufopferungen zu\nveranlaffen, und die außerordentlichen Entwicklungen und Anstrengungen unfrer verborgensten Kräfte\nhervorzubringen, als der Trieb es zu erhalten und\nin dem fritischen Augenblicke es zu retten. Selbst\nohne Genuß und Freuden des Lebens, felbft für den,\nder an unheilbaren Schmerzen leidet, oder im dun-\nteln Kerfer auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Neiz,\nund es gehört schlechterdings eine nur bei Menschen\nmögliche Zerrüttung der feinsten Empfindungsorgane,\neine gänzliche Verdunfelung und Tödung des\ninnern Sinns dazu, um das Leben gleichgültig oder\ngar verhaft zu machen. — So weiße und innig wurde\nLiebe des Lebens, dieser eines denfenden Wesens so\nwürdige Trieb, dieser Grundpfeiler sowohl der ein-\nzelnen als der öffentlichen Glückseligkeit, mit unfe-\nrer Triftenz verwebt! — Sehr natürlich war es daher, daß der Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu stücktigen Genuß dieses Guts mehr Ausdehnung zu geben? Und",
+    "generation_tokens": 463,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3277938553
+  },
+  "seconds": 2.9055158756673336,
+  "load_seconds": 0.7493781251832843,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 463,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3277938553
+}

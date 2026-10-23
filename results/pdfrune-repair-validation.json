@@ -1,0 +1,305 @@
+{
+  "base_commit": "d710b96350a454b94005fcffbc5ccdd9291d55ba",
+  "patch_sha256": "b1f482cb2ff34c108118549fe23e16dcc09c63d1cefbe5c1f94d10e6e71ff13a",
+  "rust_tests_passed": 14,
+  "python_tests_passed": 33,
+  "workspace_build": "passed",
+  "clippy": "passed with two pre-existing lints suppressed: chunks_exact_to_as_chunks and explicit_counter_loop",
+  "local_install": "vendored source rebuilt via uv sync --frozen --reinstall-package pdfrune",
+  "new_codec_licenses": "MIT OR Apache-2.0; full notices retained in wheel",
+  "native_pages_verified": 16,
+  "render_diagnostics": {
+    "pages": [
+      {
+        "book": "10289757bsb",
+        "page": 9,
+        "dpi": 144,
+        "size": [
+          2412,
+          4200
+        ],
+        "pdfium_size": [
+          2412,
+          4200
+        ],
+        "seconds": 0.13606595806777477,
+        "mean_absolute_pixel_error": 0.7784328687251573,
+        "dark_pixel_recall_with_1px_tolerance": 0.9999782107989844,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "10289757bsb",
+        "page": 10,
+        "dpi": 144,
+        "size": [
+          2418,
+          4188
+        ],
+        "pdfium_size": [
+          2418,
+          4188
+        ],
+        "seconds": 0.12884999997913837,
+        "mean_absolute_pixel_error": 0.7655171444454189,
+        "dark_pixel_recall_with_1px_tolerance": 0.9999281508588408,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "10289757bsb",
+        "page": 11,
+        "dpi": 144,
+        "size": [
+          2450,
+          4208
+        ],
+        "pdfium_size": [
+          2450,
+          4208
+        ],
+        "seconds": 0.13723641633987427,
+        "mean_absolute_pixel_error": 0.7830817878482191,
+        "dark_pixel_recall_with_1px_tolerance": 0.999918377590141,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "10289757bsb",
+        "page": 12,
+        "dpi": 144,
+        "size": [
+          2536,
+          4186
+        ],
+        "pdfium_size": [
+          2536,
+          4186
+        ],
+        "seconds": 0.1432076245546341,
+        "mean_absolute_pixel_error": 0.7472334048249559,
+        "dark_pixel_recall_with_1px_tolerance": 0.9998410759506152,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "10289757bsb",
+        "page": 13,
+        "dpi": 144,
+        "size": [
+          2428,
+          4188
+        ],
+        "pdfium_size": [
+          2428,
+          4188
+        ],
+        "seconds": 0.13314308319240808,
+        "mean_absolute_pixel_error": 0.7827160522965908,
+        "dark_pixel_recall_with_1px_tolerance": 0.999961867794328,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "10289757bsb",
+        "page": 14,
+        "dpi": 144,
+        "size": [
+          2426,
+          4196
+        ],
+        "pdfium_size": [
+          2426,
+          4196
+        ],
+        "seconds": 0.13490741699934006,
+        "mean_absolute_pixel_error": 0.7807052857364779,
+        "dark_pixel_recall_with_1px_tolerance": 0.9999781725216603,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "10289757bsb",
+        "page": 70,
+        "dpi": 144,
+        "size": [
+          2402,
+          4206
+        ],
+        "pdfium_size": [
+          2402,
+          4206
+        ],
+        "seconds": 0.13613870833069086,
+        "mean_absolute_pixel_error": 0.7573589082590736,
+        "dark_pixel_recall_with_1px_tolerance": 0.9998693137684387,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "10289757bsb",
+        "page": 71,
+        "dpi": 144,
+        "size": [
+          2386,
+          4182
+        ],
+        "pdfium_size": [
+          2386,
+          4182
+        ],
+        "seconds": 0.14296900015324354,
+        "mean_absolute_pixel_error": 0.763896188096539,
+        "dark_pixel_recall_with_1px_tolerance": 0.9999646858571567,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 25,
+        "dpi": 144,
+        "size": [
+          462,
+          833
+        ],
+        "pdfium_size": [
+          462,
+          833
+        ],
+        "seconds": 0.07883770763874054,
+        "mean_absolute_pixel_error": 6.319128517207749,
+        "dark_pixel_recall_with_1px_tolerance": 0.9997550020416497,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 26,
+        "dpi": 144,
+        "size": [
+          462,
+          833
+        ],
+        "pdfium_size": [
+          462,
+          833
+        ],
+        "seconds": 0.077823624946177,
+        "mean_absolute_pixel_error": 9.592494140513347,
+        "dark_pixel_recall_with_1px_tolerance": 0.9987907658482961,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 27,
+        "dpi": 144,
+        "size": [
+          462,
+          833
+        ],
+        "pdfium_size": [
+          462,
+          833
+        ],
+        "seconds": 0.09109041560441256,
+        "mean_absolute_pixel_error": 8.653645007786665,
+        "dark_pixel_recall_with_1px_tolerance": 0.9992665126343199,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 28,
+        "dpi": 144,
+        "size": [
+          462,
+          833
+        ],
+        "pdfium_size": [
+          462,
+          833
+        ],
+        "seconds": 0.07862120866775513,
+        "mean_absolute_pixel_error": 8.927390003620495,
+        "dark_pixel_recall_with_1px_tolerance": 0.9992242868728183,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 29,
+        "dpi": 144,
+        "size": [
+          462,
+          833
+        ],
+        "pdfium_size": [
+          462,
+          833
+        ],
+        "seconds": 0.07907904218882322,
+        "mean_absolute_pixel_error": 8.783153088075057,
+        "dark_pixel_recall_with_1px_tolerance": 0.9997520071917915,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 30,
+        "dpi": 144,
+        "size": [
+          462,
+          833
+        ],
+        "pdfium_size": [
+          462,
+          833
+        ],
+        "seconds": 0.07561033312231302,
+        "mean_absolute_pixel_error": 6.903912214236343,
+        "dark_pixel_recall_with_1px_tolerance": 0.9992400876134281,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 200,
+        "dpi": 144,
+        "size": [
+          462,
+          833
+        ],
+        "pdfium_size": [
+          462,
+          833
+        ],
+        "seconds": 0.0775820417329669,
+        "mean_absolute_pixel_error": 5.412389198103484,
+        "dark_pixel_recall_with_1px_tolerance": 0.9800057126535275,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      },
+      {
+        "book": "makrobiotikoderd00hufeuoft",
+        "page": 201,
+        "dpi": 144,
+        "size": [
+          460,
+          833
+        ],
+        "pdfium_size": [
+          460,
+          833
+        ],
+        "seconds": 0.08741854224354029,
+        "mean_absolute_pixel_error": 6.0462863406232055,
+        "dark_pixel_recall_with_1px_tolerance": 0.9928634030299236,
+        "renderer": "pdfrune-native",
+        "fallback": false
+      }
+    ],
+    "note": "Dark-pixel overlap and MAE are render diagnostics, not proof of complete PDF conformance. Same 144 DPI; at most 1px edge dimension difference cropped for diagnostics."
+  },
+  "limits": "MAE and dark-pixel recall are diagnostics, not full rendering conformance. Downsampling and codec rounding still differ from PDFium."
+}

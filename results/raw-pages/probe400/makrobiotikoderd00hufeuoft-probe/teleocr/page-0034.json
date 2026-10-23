@@ -1,0 +1,63 @@
+{
+  "page": 34,
+  "status": "ok",
+  "markdown": "Gebeinniffe des Geifterreids aufbot, um unfere Lage zu verlängern, felbft die Geürne muften dazu被- nbt werden. Es wurde damals allgemeiner Blaube, daß der Einflup der Geürne (die man fich deb nicht ganz müffig benfen fonnte) Leben und Schidfale der Men>Anen regiere, daß jeber Planet und jebe Sonfiel- lation derfelben der ganzen Eriftenz des barin er- geugten Swifens eine gewiffe Ridstung zum Böfen oder Guten geben fonne, und daß folgid ein Auf- leg nur die Stunde und Minute der Geburt zu viffen brauche, um das Temperament, die Seifies- fähigkeiten, die Schidfale, bie Branfheiten, die Art des Todes und auch den Tag beffelben befinmen zu fönnen. — Dies war der Blaube nicht bloß des großen Haufens, fonbern der größten, verfändig-ften und einfachsvolliften Perivonen der damaligen Seit, und es if zum Ertraunen, wie lange und wie feit man barang hing, unerachtet es nicht an Bei-pielen fehlen fonnte, wo die Propheziehung fehlfeldug. Bifbofe, hohe Geifliche, berühmte Philofephen und Alerste gaben fich mit dem Nativitätfellen ab, man las fogar auf Univerfitäten Collegia darüber, fe gut wie über die Punctirfunft und Cabala. Sum Be- weife erlaube man mir ein Paar Worte von dem berühnten Thurneifen, dem glänzendften Phän- men diefer Art, und einem wirflich ausgegeichneten Men>Anen, zu fagen. Er lebte im 17ten Jahrhundert an dem furfürflichen Hofe zu Berlin, und war Leibarst, Chemift, Nativitätfeller, Galendermader, Budbruder und Budbändler, alle in einer Per",
+  "raw": {
+    "pages": [
+      {
+        "width": 1283,
+        "height": 2313,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.406,
+              0.051,
+              0.62,
+              0.073
+            ],
+            "angle": 0,
+            "content": "一 12 —"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.096,
+              0.086,
+              0.949,
+              0.866
+            ],
+            "angle": 0,
+            "content": "Gebeinniffe des Geifterreids aufbot, um unfere Lage zu verlängern, felbft die Geürne muften dazu被- nbt werden. Es wurde damals allgemeiner Blaube, daß der Einflup der Geürne (die man fich deb nicht ganz müffig benfen fonnte) Leben und Schidfale der Men>Anen regiere, daß jeber Planet und jebe Sonfiel- lation derfelben der ganzen Eriftenz des barin er- geugten Swifens eine gewiffe Ridstung zum Böfen oder Guten geben fonne, und daß folgid ein Auf- leg nur die Stunde und Minute der Geburt zu viffen brauche, um das Temperament, die Seifies- fähigkeiten, die Schidfale, bie Branfheiten, die Art des Todes und auch den Tag beffelben befinmen zu fönnen. — Dies war der Blaube nicht bloß des großen Haufens, fonbern der größten, verfändig-ften und einfachsvolliften Perivonen der damaligen Seit, und es if zum Ertraunen, wie lange und wie feit man barang hing, unerachtet es nicht an Bei-pielen fehlen fonnte, wo die Propheziehung fehlfeldug. Bifbofe, hohe Geifliche, berühmte Philofephen und Alerste gaben fich mit dem Nativitätfellen ab, man las fogar auf Univerfitäten Collegia darüber, fe gut wie über die Punctirfunft und Cabala. Sum Be- weife erlaube man mir ein Paar Worte von dem berühnten Thurneifen, dem glänzendften Phän- men diefer Art, und einem wirflich ausgegeichneten Men>Anen, zu fagen. Er lebte im 17ten Jahrhundert an dem furfürflichen Hofe zu Berlin, und war Leibarst, Chemift, Nativitätfeller, Galendermader, Budbruder und Budbändler, alle in einer Per"
+          }
+        ],
+        "markdown": "Gebeinniffe des Geifterreids aufbot, um unfere Lage zu verlängern, felbft die Geürne muften dazu被- nbt werden. Es wurde damals allgemeiner Blaube, daß der Einflup der Geürne (die man fich deb nicht ganz müffig benfen fonnte) Leben und Schidfale der Men>Anen regiere, daß jeber Planet und jebe Sonfiel- lation derfelben der ganzen Eriftenz des barin er- geugten Swifens eine gewiffe Ridstung zum Böfen oder Guten geben fonne, und daß folgid ein Auf- leg nur die Stunde und Minute der Geburt zu viffen brauche, um das Temperament, die Seifies- fähigkeiten, die Schidfale, bie Branfheiten, die Art des Todes und auch den Tag beffelben befinmen zu fönnen. — Dies war der Blaube nicht bloß des großen Haufens, fonbern der größten, verfändig-ften und einfachsvolliften Perivonen der damaligen Seit, und es if zum Ertraunen, wie lange und wie feit man barang hing, unerachtet es nicht an Bei-pielen fehlen fonnte, wo die Propheziehung fehlfeldug. Bifbofe, hohe Geifliche, berühmte Philofephen und Alerste gaben fich mit dem Nativitätfellen ab, man las fogar auf Univerfitäten Collegia darüber, fe gut wie über die Punctirfunft und Cabala. Sum Be- weife erlaube man mir ein Paar Worte von dem berühnten Thurneifen, dem glänzendften Phän- men diefer Art, und einem wirflich ausgegeichneten Men>Anen, zu fagen. Er lebte im 17ten Jahrhundert an dem furfürflichen Hofe zu Berlin, und war Leibarst, Chemift, Nativitätfeller, Galendermader, Budbruder und Budbändler, alle in einer Per",
+        "stats": {
+          "layout_ms": 4434.151625,
+          "extract_ms": 14814.105958,
+          "blocks": 2,
+          "generated_tokens": 543
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:36:44.504679Z  INFO teleocr: model loaded in 0.8s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4434.151625,\"extract_ms\":14814.105958,\"blocks\":2,\"generated_tokens\":543}\n1 page(s) in 19.25s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400-probe-400/document/runs/teleocr-teleocr-8958bcfafbca840c/inputs/page-0034.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 20.188015166670084,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

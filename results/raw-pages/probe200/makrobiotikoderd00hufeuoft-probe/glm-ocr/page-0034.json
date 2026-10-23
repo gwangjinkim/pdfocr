@@ -1,0 +1,22 @@
+{
+  "page": 34,
+  "status": "ok",
+  "markdown": "Geheimnisse des Geisterreichs aufbot, um unsere Tage zu verlängern, selbst die Gehirne mußten dazu benutzt werden. Es wurde damals allgemeiner Glaube, daß der Einfluß der Gehirne (die man sich doch nicht ganz müffig denken fonnte) Leben und Schiefale der Menschen regiere, daß jeder Planet und jede Constellation der selben der ganzen Eristen des darin erzeugten Wesens eine gewisse Nichtung zum Vösen oder Guten geben fönne, und daß folglich ein Aufrolog nur die Stunde und Minute der Geburt zu wiften brauche, um das Temperament, die Geiinesfähigkeiten, die Schiefale, die Krankheiten, die Art des Todes und auch den Tag deselben bestimmten zu fönnen. — Dies war der Glaube nicht bloß des großen Haufens, sondern der größten, verständigsten und einfichtsvollten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie feit man daran hing, unerachtet es nicht an Beis-pielen fehlen fonnte, wo die Prophezeiung fehlschlug. Vischöfe, hohe Geistliche, berühmte Philosophen und Verzte gaben sich mit dem Nativitätstellen ab, man las fogar auf Universitäten Collegeia darüber, so gut wie über die Punctirfunst und Cabala. Zum Beweise erlaube man mir ein Paar Worte von dem berühmten Thurneifen, dem glänzendsten Phänomen dieser Art, und einem wirflich ausgezeichneten Menschen, zu sagen. Er lebte im 17ten Jahrhundert an dem furfürstlichen Hose zu Berlin, und war Leibarzt, Chemist, Nativitätsteller, Calendermacher, Buchdrucker und Buchbänder, alles in einer Per-",
+  "raw": {
+    "text": "Geheimnisse des Geisterreichs aufbot, um unsere Tage zu verlängern, selbst die Gehirne mußten dazu benutzt werden. Es wurde damals allgemeiner Glaube, daß der Einfluß der Gehirne (die man sich doch nicht ganz müffig denken fonnte) Leben und Schiefale der Menschen regiere, daß jeder Planet und jede Constellation der selben der ganzen Eristen des darin erzeugten Wesens eine gewisse Nichtung zum Vösen oder Guten geben fönne, und daß folglich ein Aufrolog nur die Stunde und Minute der Geburt zu wiften brauche, um das Temperament, die Geiinesfähigkeiten, die Schiefale, die Krankheiten, die Art des Todes und auch den Tag deselben bestimmten zu fönnen. — Dies war der Glaube nicht bloß des großen Haufens, sondern der größten, verständigsten und einfichtsvollten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie feit man daran hing, unerachtet es nicht an Beis-pielen fehlen fonnte, wo die Prophezeiung fehlschlug. Vischöfe, hohe Geistliche, berühmte Philosophen und Verzte gaben sich mit dem Nativitätstellen ab, man las fogar auf Universitäten Collegeia darüber, so gut wie über die Punctirfunst und Cabala. Zum Beweise erlaube man mir ein Paar Worte von dem berühmten Thurneifen, dem glänzendsten Phänomen dieser Art, und einem wirflich ausgezeichneten Menschen, zu sagen. Er lebte im 17ten Jahrhundert an dem furfürstlichen Hose zu Berlin, und war Leibarzt, Chemist, Nativitätsteller, Calendermacher, Buchdrucker und Buchbänder, alles in einer Per-",
+    "generation_tokens": 444,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3277806909
+  },
+  "seconds": 2.973647459410131,
+  "load_seconds": 0.4940917082130909,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 444,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3277806909
+}

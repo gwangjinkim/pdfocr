@@ -1,0 +1,47 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "pdfrune"
+version = "0.1.0"
+description = "Ultra-Fast, Memory-Safe, Permissive PDF Engine in Rust & Python"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT OR Apache-2.0" }
+license-files = ["LICENSE-APACHE", "LICENSE-MIT", "THIRD_PARTY_NOTICES.md"]
+authors = [{ name = "Gwang-Jin Kim", email = "gwang.jin.kim.phd@gmail.com" }]
+keywords = ["pdf", "rust", "pymupdf", "fitz", "rag", "markdown"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Rust",
+    "Topic :: Text Processing",
+]
+dependencies = []
+
+[tool.maturin]
+manifest-path = "crates/pdfrune-py/Cargo.toml"
+python-source = "python"
+module-name = "pdfrune._pdfrune"
+features = ["pyo3/extension-module"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/python"]
+
+[tool.uv]
+cache-keys = [
+    { file = "pyproject.toml" },
+    { file = "Cargo.toml" },
+    { file = "crates/**/*.rs" },
+    { file = "crates/**/Cargo.toml" },
+]
+
+[dependency-groups]
+dev = [
+    "maturin>=1.15.0",
+    "pytest>=9.1.1",
+]

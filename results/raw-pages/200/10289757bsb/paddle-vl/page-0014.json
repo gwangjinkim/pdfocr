@@ -1,0 +1,75 @@
+{
+  "page": 14,
+  "status": "ok",
+  "markdown": "keit widmen kann, als wenn für das Ganzenur wenige, sey es auch noch so gut besoldete, Helfer angestellt werden, die dann wegen der zu grofsen Menge der Leidenden, auch bei dem besten Willen, dem Einzelnen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzuziehen, so lange es irgend thunlich ist. — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entstehet Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, den Menschen als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitalern heirschend, und die Wurzel alles Verdeens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitaler, selbst der besten, denn es ist kein Vorwurf, den sich der Verwaltung mache, das Übel liegt in ihrer Natur. — Ferner, je mehr die Menschen in Masse zusammengrängt werden, desto mehr erzeugt sich auch Böses unter",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          1220,
+          225,
+          1344,
+          299
+        ],
+        "label": "number",
+        "score": 0.43592193722724915,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0014/block-000-number.png",
+        "order": 58,
+        "text": "10",
+        "seconds": 0.14643841702491045,
+        "tokens": 3,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          385,
+          357,
+          2174,
+          1195
+        ],
+        "label": "text",
+        "score": 0.929686963558197,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0014/block-001-text.png",
+        "order": 115,
+        "text": "keit widmen kann, als wenn für das Ganzenur wenige, sey es auch noch so gut besoldete, Helfer angestellt werden, die dann wegen der zu grofsen Menge der Leidenden, auch bei dem besten Willen, dem Einzelnen nicht mit gehöriger Sorgfalt beistehen können.",
+        "seconds": 1.1692175408825278,
+        "tokens": 78,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          377,
+          1314,
+          2180,
+          3594
+        ],
+        "label": "text",
+        "score": 0.934830367565155,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0014/block-002-text.png",
+        "order": 158,
+        "text": "4. Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzuziehen, so lange es irgend thunlich ist. — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entstehet Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, den Menschen als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitalern heirschend, und die Wurzel alles Verdeens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitaler, selbst der besten, denn es ist kein Vorwurf, den sich der Verwaltung mache, das Übel liegt in ihrer Natur. — Ferner, je mehr die Menschen in Masse zusammengrängt werden, desto mehr erzeugt sich auch Böses unter",
+        "seconds": 1.7423608750104904,
+        "tokens": 231,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.7868093745782971,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 4.173452542163432,
+  "load_seconds": 1.3346281237900257,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2788943056,
+  "layout_seconds": 0.7868093745782971
+}

@@ -1,0 +1,22 @@
+{
+  "page": 25,
+  "status": "ok",
+  "markdown": "# Erste Vorlesung.\n\nSchicksale dieser Wissenschaft.\n\nBei den Egyptiern und Griechen — Gerocomic — Gymnastic — Hermippus — Zustand derselben im Mittelalter — Theophrastus Paracelsus — Astrologische Medhode — Talismans — Thurneifen — Cornaro und feine strenge Diär — Transfusionsmethode — Baco — St. Germain — Mesmer — Cagliostro — Graham.\n\nDurch die ganze Natur weht und wirkt jene unbegreifliche Kraft, jener unmittelbare Ausfluß der Gottheit, den wir Leben nennen. Ueberall stößen wir auf Erscheinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuref der ganzen und umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und crystallisiert, die Pflanze vegetirt, das Thier fühlt und wirkt; — aber im höchsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der städtischen Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n\n1 *",
+  "raw": {
+    "text": "# Erste Vorlesung.\n\nSchicksale dieser Wissenschaft.\n\nBei den Egyptiern und Griechen — Gerocomic — Gymnastic — Hermippus — Zustand derselben im Mittelalter — Theophrastus Paracelsus — Astrologische Medhode — Talismans — Thurneifen — Cornaro und feine strenge Diär — Transfusionsmethode — Baco — St. Germain — Mesmer — Cagliostro — Graham.\n\nDurch die ganze Natur weht und wirkt jene unbegreifliche Kraft, jener unmittelbare Ausfluß der Gottheit, den wir Leben nennen. Ueberall stößen wir auf Erscheinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuref der ganzen und umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und crystallisiert, die Pflanze vegetirt, das Thier fühlt und wirkt; — aber im höchsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der städtischen Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n\n1 *",
+    "generation_tokens": 280,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3044956946
+  },
+  "seconds": 3.0340370004996657,
+  "load_seconds": 0.7869697501882911,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 280,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3044956946
+}

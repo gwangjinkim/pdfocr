@@ -1,0 +1,63 @@
+{
+  "page": 28,
+  "status": "ok",
+  "markdown": "Stang anbers bildete fich biefer Trieb bei ben Grieden, unter dem Einflup einer reinen und phönen Natur, aus. Man übergeugte fich fehr balb, daß gerabe ein vernünftiger Genub ber Natur und die beftändige lebung unferer Kräfte das fiederfe Mittel fev, die Gebensfraft gu flärfen, und unfer seben zu verlängern. Hippocrates und alle damaligen Philofphen und Herste fennen feine anbern Mittel, als Måpigfeit, Genub der freien und reinen Luft, Bäder, und vorzüglich das tägliche Reiben bes Sörpers und Leibesübung. Auf legtere fehten fe ihr größte Vertranen. Es murben eigene Methoden und Niegeln beftimmt, bem Körper mannigfaltige, flarfe und fdwache Bewegung zu geben; es entfang eine eigne Runt der Leibesübung, die Symnafic, daraus, und ber größte Philofoph und Selebrte vergag nie, daß Leibung des Leibes und lebung der Seele immer in gleichem Berhältnig bleiben müften. Man bradte es wirflid) zu einer außerorbentlichen Wollformmenheit, biefe für uns ficht verfdwundene Runt den verfdiedenen Naturen, Situationen und Beürfniffen der Menften anzipaffen, und fe befonderst zu dem Mittel zu gebraudten, die innere Natur bes Menfden immer in einer发生igen Thätigkeit zu erhalten, und baburth nicht nurranheitsurfaden unwirffam zu maden, fonbern auch fehlft fehn ausge-broebre Branseranheiten zu heilen. Ein gewiffer Hero-dicus ging fo weit, daß er fogar feine Patientennöthigte, f-,teren su geben, fich reiven zu laften, und ie mehr dieranheit abmattete, befe mehr",
+  "raw": {
+    "pages": [
+      {
+        "width": 1283,
+        "height": 2313,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.418,
+              0.059,
+              0.613,
+              0.083
+            ],
+            "angle": 0,
+            "content": "-6-"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.099,
+              0.096,
+              0.943,
+              0.876
+            ],
+            "angle": 0,
+            "content": "Stang anbers bildete fich biefer Trieb bei ben Grieden, unter dem Einflup einer reinen und phönen Natur, aus. Man übergeugte fich fehr balb, daß gerabe ein vernünftiger Genub ber Natur und die beftändige lebung unferer Kräfte das fiederfe Mittel fev, die Gebensfraft gu flärfen, und unfer seben zu verlängern. Hippocrates und alle damaligen Philofphen und Herste fennen feine anbern Mittel, als Måpigfeit, Genub der freien und reinen Luft, Bäder, und vorzüglich das tägliche Reiben bes Sörpers und Leibesübung. Auf legtere fehten fe ihr größte Vertranen. Es murben eigene Methoden und Niegeln beftimmt, bem Körper mannigfaltige, flarfe und fdwache Bewegung zu geben; es entfang eine eigne Runt der Leibesübung, die Symnafic, daraus, und ber größte Philofoph und Selebrte vergag nie, daß Leibung des Leibes und lebung der Seele immer in gleichem Berhältnig bleiben müften. Man bradte es wirflid) zu einer außerorbentlichen Wollformmenheit, biefe für uns ficht verfdwundene Runt den verfdiedenen Naturen, Situationen und Beürfniffen der Menften anzipaffen, und fe befonderst zu dem Mittel zu gebraudten, die innere Natur bes Menfden immer in einer发生igen Thätigkeit zu erhalten, und baburth nicht nurranheitsurfaden unwirffam zu maden, fonbern auch fehlft fehn ausge-broebre Branseranheiten zu heilen. Ein gewiffer Hero-dicus ging fo weit, daß er fogar feine Patientennöthigte, f-,teren su geben, fich reiven zu laften, und ie mehr dieranheit abmattete, befe mehr"
+          }
+        ],
+        "markdown": "Stang anbers bildete fich biefer Trieb bei ben Grieden, unter dem Einflup einer reinen und phönen Natur, aus. Man übergeugte fich fehr balb, daß gerabe ein vernünftiger Genub ber Natur und die beftändige lebung unferer Kräfte das fiederfe Mittel fev, die Gebensfraft gu flärfen, und unfer seben zu verlängern. Hippocrates und alle damaligen Philofphen und Herste fennen feine anbern Mittel, als Måpigfeit, Genub der freien und reinen Luft, Bäder, und vorzüglich das tägliche Reiben bes Sörpers und Leibesübung. Auf legtere fehten fe ihr größte Vertranen. Es murben eigene Methoden und Niegeln beftimmt, bem Körper mannigfaltige, flarfe und fdwache Bewegung zu geben; es entfang eine eigne Runt der Leibesübung, die Symnafic, daraus, und ber größte Philofoph und Selebrte vergag nie, daß Leibung des Leibes und lebung der Seele immer in gleichem Berhältnig bleiben müften. Man bradte es wirflid) zu einer außerorbentlichen Wollformmenheit, biefe für uns ficht verfdwundene Runt den verfdiedenen Naturen, Situationen und Beürfniffen der Menften anzipaffen, und fe befonderst zu dem Mittel zu gebraudten, die innere Natur bes Menfden immer in einer发生igen Thätigkeit zu erhalten, und baburth nicht nurranheitsurfaden unwirffam zu maden, fonbern auch fehlft fehn ausge-broebre Branseranheiten zu heilen. Ein gewiffer Hero-dicus ging fo weit, daß er fogar feine Patientennöthigte, f-,teren su geben, fich reiven zu laften, und ie mehr dieranheit abmattete, befe mehr",
+        "stats": {
+          "layout_ms": 4824.299333,
+          "extract_ms": 15986.097292,
+          "blocks": 2,
+          "generated_tokens": 532
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:27:26.192390Z  INFO teleocr: model loaded in 0.5s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4824.299333,\"extract_ms\":15986.097292,\"blocks\":2,\"generated_tokens\":532}\n1 page(s) in 20.81s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/teleocr-teleocr-515a88fd5f878258/inputs/page-0028.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 21.473453832790256,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

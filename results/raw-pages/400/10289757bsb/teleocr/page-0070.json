@@ -1,0 +1,250 @@
+{
+  "page": 70,
+  "status": "ok",
+  "markdown": "Spirit. Frument. Ibvj.\n\ndestillando elicianur lb vj in quibus solve\n\nCamphorae 3j8\n\nServa.\n\nNicht nur äußserlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstofses bedarf. Selbst in den Wassersuchten leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Efslöffel mit Wasser verdünnt, viermal täglich, auch öffter.\n\n# Tinctura Aconiti.\n\nR. Herb. Aconit. siccat. minutim concis. 3ij\n\nDiger. cum Spirit. Vin. rectificat. Ibj in cucurbita clausa per triduum. Exprime et filtra.\n\nPari modo parantur:\n\nTintura Digitalis.\n\n- Calami.\n\nGalbani.\n\n- Hellebori.\n\n— Hyoscyami.\n\n- Nicotianae.\n\n— Stramonii.\n\n- Valerianae.\n\nToxicodendri.",
+  "raw": {
+    "pages": [
+      {
+        "width": 2339,
+        "height": 4096,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.432,
+              0.062,
+              0.641,
+              0.083
+            ],
+            "angle": 0,
+            "content": "- 66 -"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.265,
+              0.098,
+              0.623,
+              0.124
+            ],
+            "angle": 0,
+            "content": "Spirit. Frument. Ibvj."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.158,
+              0.128,
+              0.908,
+              0.154
+            ],
+            "angle": 0,
+            "content": "destillando elicianur lb vj in quibus solve"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.268,
+              0.155,
+              0.526,
+              0.183
+            ],
+            "angle": 0,
+            "content": "Camphorae 3j8"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.268,
+              0.186,
+              0.37,
+              0.209
+            ],
+            "angle": 0,
+            "content": "Serva."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.211,
+              0.227,
+              0.908,
+              0.384
+            ],
+            "angle": 0,
+            "content": "Nicht nur äußserlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstofses bedarf. Selbst in den Wassersuchten leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Efslöffel mit Wasser verdünnt, viermal täglich, auch öffter."
+          },
+          {
+            "type": "title",
+            "bbox": [
+              0.382,
+              0.414,
+              0.685,
+              0.436
+            ],
+            "angle": 0,
+            "content": "Tinctura Aconiti."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.153,
+              0.449,
+              0.908,
+              0.476
+            ],
+            "angle": 0,
+            "content": "R. Herb. Aconit. siccat. minutim concis. 3ij"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.186,
+              0.479,
+              0.908,
+              0.56
+            ],
+            "angle": 0,
+            "content": "Diger. cum Spirit. Vin. rectificat. Ibj in cucurbita clausa per triduum. Exprime et filtra."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.148,
+              0.584,
+              0.497,
+              0.609
+            ],
+            "angle": 0,
+            "content": "Pari modo parantur:"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.228,
+              0.62,
+              0.528,
+              0.646
+            ],
+            "angle": 0,
+            "content": "Tintura Digitalis."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.257,
+              0.65,
+              0.504,
+              0.672
+            ],
+            "angle": 0,
+            "content": "- Calami."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.258,
+              0.679,
+              0.519,
+              0.702
+            ],
+            "angle": 0,
+            "content": "Galbani."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.258,
+              0.709,
+              0.537,
+              0.731
+            ],
+            "angle": 0,
+            "content": "- Hellebori."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.258,
+              0.738,
+              0.563,
+              0.763
+            ],
+            "angle": 0,
+            "content": "— Hyoscyami."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.258,
+              0.768,
+              0.567,
+              0.789
+            ],
+            "angle": 0,
+            "content": "- Nicotianae."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.258,
+              0.797,
+              0.546,
+              0.818
+            ],
+            "angle": 0,
+            "content": "— Stramonii."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.258,
+              0.826,
+              0.574,
+              0.848
+            ],
+            "angle": 0,
+            "content": "- Valerianae."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.258,
+              0.854,
+              0.61,
+              0.876
+            ],
+            "angle": 0,
+            "content": "Toxicodendri."
+          }
+        ],
+        "markdown": "Spirit. Frument. Ibvj.\n\ndestillando elicianur lb vj in quibus solve\n\nCamphorae 3j8\n\nServa.\n\nNicht nur äußserlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstofses bedarf. Selbst in den Wassersuchten leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Efslöffel mit Wasser verdünnt, viermal täglich, auch öffter.\n\n# Tinctura Aconiti.\n\nR. Herb. Aconit. siccat. minutim concis. 3ij\n\nDiger. cum Spirit. Vin. rectificat. Ibj in cucurbita clausa per triduum. Exprime et filtra.\n\nPari modo parantur:\n\nTintura Digitalis.\n\n- Calami.\n\nGalbani.\n\n- Hellebori.\n\n— Hyoscyami.\n\n- Nicotianae.\n\n— Stramonii.\n\n- Valerianae.\n\nToxicodendri.",
+        "stats": {
+          "layout_ms": 7460.728292,
+          "extract_ms": 5044.958416,
+          "blocks": 19,
+          "generated_tokens": 708
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:23:22.445385Z  INFO teleocr: model loaded in 0.6s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":7460.728292,\"extract_ms\":5044.958416,\"blocks\":19,\"generated_tokens\":708}\n1 page(s) in 12.51s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400/10289757bsb/runs/teleocr-teleocr-ea8b364f35355678/inputs/page-0070.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 13.248281999491155,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

@@ -1,0 +1,16 @@
+diff --git a/crates/teleocr-cli/src/main.rs b/crates/teleocr-cli/src/main.rs
+index eba7675..3f1a779 100644
+--- a/crates/teleocr-cli/src/main.rs
++++ b/crates/teleocr-cli/src/main.rs
+@@ -122,7 +122,10 @@ fn device(cpu: bool) -> Result<Device> {
+     if cpu {
+         return Ok(Device::Cpu);
+     }
+-    Ok(Device::cuda_if_available(0)?)
++    #[cfg(feature = "metal")]
++    { return Ok(Device::new_metal(0)?); }
++    #[cfg(not(feature = "metal"))]
++    { Ok(Device::cuda_if_available(0)?) }
+ }
+ 
+ /// Pages of an image or (with the `pdf` feature) a PDF.

@@ -1,0 +1,22 @@
+{
+  "page": 12,
+  "status": "ok",
+  "markdown": "losen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Unglücklichen ein neuer Zugang zu dem Vornehmen und Reichen, theils diesem, was oft noch schwerer ist, ein neuer Weg eröffnet wird, auf eine sichere und würdige Art seine Wohlthaten den Armen zufließen zu lassen; denn wer kennt wohl die Lage und die Bedürfnisse der Armen besser, als der Arzt? Und wer kann ihm die Hülfe wohlhätiger und zweckmäfsiger reichen?\n\n3. Je mehr die Ménschen in Masse behandelt werden, desto mehr verliert sich der Sinn für das Individuum, der doch allein jene Wärme des Gefühls und jene Herzens-theilnahme erzeugt, durch welche solche Anstalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und 'Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort des Göttlichen anwenden „Wer den Menschen nicht liebt, den er siehet, wie kann er die Menschheit lieben, die er nicht siehet?“ Die gewöhnliche Menschheitsliebe verschlingt sehr häufig die Menschenliebe, und es würde manchem, der nichts als Beglückungsprojeckte für die Menschheit im Großsen im Munde führt, oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.",
+  "raw": {
+    "text": "losen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Unglücklichen ein neuer Zugang zu dem Vornehmen und Reichen, theils diesem, was oft noch schwerer ist, ein neuer Weg eröffnet wird, auf eine sichere und würdige Art seine Wohlthaten den Armen zufließen zu lassen; denn wer kennt wohl die Lage und die Bedürfnisse der Armen besser, als der Arzt? Und wer kann ihm die Hülfe wohlhätiger und zweckmäfsiger reichen?\n\n3. Je mehr die Ménschen in Masse behandelt werden, desto mehr verliert sich der Sinn für das Individuum, der doch allein jene Wärme des Gefühls und jene Herzens-theilnahme erzeugt, durch welche solche Anstalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und 'Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort des Göttlichen anwenden „Wer den Menschen nicht liebt, den er siehet, wie kann er die Menschheit lieben, die er nicht siehet?“ Die gewöhnliche Menschheitsliebe verschlingt sehr häufig die Menschenliebe, und es würde manchem, der nichts als Beglückungsprojeckte für die Menschheit im Großsen im Munde führt, oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.",
+    "generation_tokens": 349,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3463606162
+  },
+  "seconds": 4.690642207860947,
+  "load_seconds": 0.47658379189670086,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 349,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3463606162
+}

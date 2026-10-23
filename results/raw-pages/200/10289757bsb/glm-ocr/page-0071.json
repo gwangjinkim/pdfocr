@@ -1,0 +1,22 @@
+{
+  "page": 71,
+  "status": "ok",
+  "markdown": "* Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum.)\n\nR. Sulphuris stibiat. aurantiac. ʒj\nsolve digerend. in s. q.\nLiquor. Kali caustic.\nadmisce\nSapon. medicat. ʒiij\nSpirit. Vin. rectificatiss.\nAq. destillat. ʃa ʃvj\nDigerantur.\n\nEin höchst wirksames Mittel bei hartnäckigen Rheu-\nmatismen, Flechten, und andern Hautkrankheiten\nzu 20 bis 50 Tropfen täglich einigemal.\n\n* Tinctura aromatica Ph. P.\n\nR. Rad. Calam\nAngelic.\nZingiber.\nHelen.\nHb. Menth. pip.\nSem. Anis. ʃa ʃj\nCaryophyllor.\nCinamom. ʃa ʃß\nPiper. nigr. ʃiij\n\nC. c. digere cum\nSpirit. Vin. rectificat. ʃiij\nfiltr. add.\nOl. Anis. ʃiji\n\nE 2",
+  "raw": {
+    "text": "* Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum.)\n\nR. Sulphuris stibiat. aurantiac. ʒj\nsolve digerend. in s. q.\nLiquor. Kali caustic.\nadmisce\nSapon. medicat. ʒiij\nSpirit. Vin. rectificatiss.\nAq. destillat. ʃa ʃvj\nDigerantur.\n\nEin höchst wirksames Mittel bei hartnäckigen Rheu-\nmatismen, Flechten, und andern Hautkrankheiten\nzu 20 bis 50 Tropfen täglich einigemal.\n\n* Tinctura aromatica Ph. P.\n\nR. Rad. Calam\nAngelic.\nZingiber.\nHelen.\nHb. Menth. pip.\nSem. Anis. ʃa ʃj\nCaryophyllor.\nCinamom. ʃa ʃß\nPiper. nigr. ʃiij\n\nC. c. digere cum\nSpirit. Vin. rectificat. ʃiij\nfiltr. add.\nOl. Anis. ʃiji\n\nE 2",
+    "generation_tokens": 287,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3463606162
+  },
+  "seconds": 4.503432207740843,
+  "load_seconds": 0.47658379189670086,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 287,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3463606162
+}

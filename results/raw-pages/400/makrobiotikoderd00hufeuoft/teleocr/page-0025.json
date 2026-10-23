@@ -1,0 +1,96 @@
+{
+  "page": 25,
+  "status": "ok",
+  "markdown": "# Erte Vorlefung.\n\n# Schidfale biefer Biffenfdaft.\n\nBei den Egyptiern und Grieden — Serocomic — Symnatic —>Serinippus — Sufand derleben im Mittelter — Theophraftus Paracelfus — Aifrologifthe Methode — Talismans — Ehurneifen — Cornaro und feine frenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Eaglioforto — Graham.\n\nDurd die ganze Natur meht und wirfet jene unbegreifliche Kraft, iener unmittelbare Ausfluch der Gottheit, ben mir Leben nennen. Ueberall folen wir auf Erheinungen und Birfungen, die ihre Gegenwart, obgleich in unenblid ver_footiebenen Mobifationen und Geftalten, unverfennbar bezeugen, und Leben ift der Suruf der ganzen uns umgebenden Natur. Leben if's, woburd der Stein fich ballt und crystallifirt, die Pflange vegetirt, das Thier fühlt und wirfer; — aber im höften Slang von Bollommenheit, Fülle und Ausbildung erfeieint es in dem Menften, dem oberften Sliebe der fichtbaren Schöpfung. Bir mögen die ganze Reihe der Wefen burtgehen, nirgenbs finden wir eine fo vollfommene Verbindung aller lebendigen Kräfte der",
+  "raw": {
+    "pages": [
+      {
+        "width": 1283,
+        "height": 2313,
+        "blocks": [
+          {
+            "type": "title",
+            "bbox": [
+              0.21,
+              0.246,
+              0.687,
+              0.284
+            ],
+            "angle": 0,
+            "content": "Erte Vorlefung."
+          },
+          {
+            "type": "title",
+            "bbox": [
+              0.122,
+              0.286,
+              0.773,
+              0.321
+            ],
+            "angle": 0,
+            "content": "Schidfale biefer Biffenfdaft."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.03,
+              0.324,
+              0.861,
+              0.472
+            ],
+            "angle": 0,
+            "content": "Bei den Egyptiern und Grieden — Serocomic — Symnatic —>Serinippus — Sufand derleben im Mittelter — Theophraftus Paracelfus — Aifrologifthe Methode — Talismans — Ehurneifen — Cornaro und feine frenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Eaglioforto — Graham."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.006,
+              0.476,
+              0.851,
+              0.881
+            ],
+            "angle": 0,
+            "content": "Durd die ganze Natur meht und wirfet jene unbegreifliche Kraft, iener unmittelbare Ausfluch der Gottheit, ben mir Leben nennen. Ueberall folen wir auf Erheinungen und Birfungen, die ihre Gegenwart, obgleich in unenblid ver_footiebenen Mobifationen und Geftalten, unverfennbar bezeugen, und Leben ift der Suruf der ganzen uns umgebenden Natur. Leben if's, woburd der Stein fich ballt und crystallifirt, die Pflange vegetirt, das Thier fühlt und wirfer; — aber im höften Slang von Bollommenheit, Fülle und Ausbildung erfeieint es in dem Menften, dem oberften Sliebe der fichtbaren Schöpfung. Bir mögen die ganze Reihe der Wefen burtgehen, nirgenbs finden wir eine fo vollfommene Verbindung aller lebendigen Kräfte der"
+          },
+          {
+            "type": "page_number",
+            "bbox": [
+              0.561,
+              0.888,
+              0.615,
+              0.905
+            ],
+            "angle": 0,
+            "content": "1"
+          }
+        ],
+        "markdown": "# Erte Vorlefung.\n\n# Schidfale biefer Biffenfdaft.\n\nBei den Egyptiern und Grieden — Serocomic — Symnatic —>Serinippus — Sufand derleben im Mittelter — Theophraftus Paracelfus — Aifrologifthe Methode — Talismans — Ehurneifen — Cornaro und feine frenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Eaglioforto — Graham.\n\nDurd die ganze Natur meht und wirfet jene unbegreifliche Kraft, iener unmittelbare Ausfluch der Gottheit, ben mir Leben nennen. Ueberall folen wir auf Erheinungen und Birfungen, die ihre Gegenwart, obgleich in unenblid ver_footiebenen Mobifationen und Geftalten, unverfennbar bezeugen, und Leben ift der Suruf der ganzen uns umgebenden Natur. Leben if's, woburd der Stein fich ballt und crystallifirt, die Pflange vegetirt, das Thier fühlt und wirfer; — aber im höften Slang von Bollommenheit, Fülle und Ausbildung erfeieint es in dem Menften, dem oberften Sliebe der fichtbaren Schöpfung. Bir mögen die ganze Reihe der Wefen burtgehen, nirgenbs finden wir eine fo vollfommene Verbindung aller lebendigen Kräfte der",
+        "stats": {
+          "layout_ms": 5359.469042,
+          "extract_ms": 7875.672584,
+          "blocks": 5,
+          "generated_tokens": 469
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:26:32.546975Z  INFO teleocr: model loaded in 0.5s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":5359.469042,\"extract_ms\":7875.672584,\"blocks\":5,\"generated_tokens\":469}\n1 page(s) in 13.24s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/teleocr-teleocr-515a88fd5f878258/inputs/page-0025.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 13.891554333269596,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

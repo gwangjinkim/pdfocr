@@ -1,0 +1,74 @@
+{
+  "page": 14,
+  "status": "ok",
+  "markdown": "keit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-dete, Helfer angestellt werden, die dann wegen der zu grofsen Menge der Leidenden, auch bei dem besten Willen, dem Einzel-nen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzuziehen, so lange es irgend thunlich ist.—Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entstehet Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, den Menschen als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in grofsen Hospitälern heirschend, und die Wurzel alles Verderbens für solche Anstalten ist. Ich berufe mich auf das Beispiel grofser Hospitäler, selbst der besten, denn es ist kein Vorwurf, den ich der Verwaltung mache, das Übel liegt in ihrer Natur.—Ferner, je mehr die Menschen in Masse zusammendrängt werden, desto mehr erzeugt sich auch Böses unter",
+  "raw": {
+    "pages": [
+      {
+        "width": 2368,
+        "height": 4096,
+        "blocks": [
+          {
+            "type": "header",
+            "bbox": [
+              0.436,
+              0.055,
+              0.643,
+              0.071
+            ],
+            "angle": 0,
+            "content": "10"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.163,
+              0.087,
+              0.915,
+              0.288
+            ],
+            "angle": 0,
+            "content": "keit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-dete, Helfer angestellt werden, die dann wegen der zu grofsen Menge der Leidenden, auch bei dem besten Willen, dem Einzel-nen nicht mit gehöriger Sorgfalt beistehen können."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.162,
+              0.322,
+              0.915,
+              0.875
+            ],
+            "angle": 0,
+            "content": "4. Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzuziehen, so lange es irgend thunlich ist.—Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entstehet Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, den Menschen als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in grofsen Hospitälern heirschend, und die Wurzel alles Verderbens für solche Anstalten ist. Ich berufe mich auf das Beispiel grofser Hospitäler, selbst der besten, denn es ist kein Vorwurf, den ich der Verwaltung mache, das Übel liegt in ihrer Natur.—Ferner, je mehr die Menschen in Masse zusammendrängt werden, desto mehr erzeugt sich auch Böses unter"
+          }
+        ],
+        "markdown": "keit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-dete, Helfer angestellt werden, die dann wegen der zu grofsen Menge der Leidenden, auch bei dem besten Willen, dem Einzel-nen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzuziehen, so lange es irgend thunlich ist.—Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entstehet Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, den Menschen als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in grofsen Hospitälern heirschend, und die Wurzel alles Verderbens für solche Anstalten ist. Ich berufe mich auf das Beispiel grofser Hospitäler, selbst der besten, denn es ist kein Vorwurf, den ich der Verwaltung mache, das Übel liegt in ihrer Natur.—Ferner, je mehr die Menschen in Masse zusammendrängt werden, desto mehr erzeugt sich auch Böses unter",
+        "stats": {
+          "layout_ms": 4184.135792,
+          "extract_ms": 12938.544917,
+          "blocks": 3,
+          "generated_tokens": 377
+        }
+      }
+    ],
+    "stderr": "2026-10-23T12:26:50.642405Z  INFO teleocr: model loaded in 0.6s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4184.135792,\"extract_ms\":12938.544917,\"blocks\":3,\"generated_tokens\":377}\n1 page(s) in 17.12s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded/10289757bsb/runs/teleocr-teleocr-3742abe73b31a148/inputs/page-0014.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 17.91519179288298,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

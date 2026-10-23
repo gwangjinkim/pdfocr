@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "config": {
+    "model_name": "glm-ocr",
+    "model": {
+      "repo": "mlx-community/GLM-OCR-bf16",
+      "upstream": "zai-org/GLM-OCR",
+      "parameters_b": 0.9,
+      "license": "MIT (weights); Apache-2.0 (layout)",
+      "backend": "mlx",
+      "mode": "model-only-full-page",
+      "prompt": "Text Recognition:",
+      "max_tokens": 8192,
+      "temperature": 0.0,
+      "longest_edge": 2048,
+      "notes": "Official benchmark pipeline adds PP-DocLayoutV3 and region recognition. This adapter does not reproduce it."
+    },
+    "backend": "mlx",
+    "model_pin": {
+      "repo": "mlx-community/GLM-OCR-bf16",
+      "revision": "24f15402e83baa0a80eeeaecf5480e172abc6f2e",
+      "path": "model-cache/models--mlx-community--GLM-OCR-bf16/snapshots/24f15402e83baa0a80eeeaecf5480e172abc6f2e"
+    },
+    "endpoint": null,
+    "endpoint_model": "mlx-community/GLM-OCR-bf16",
+    "prompt": "Text Recognition:",
+    "command": null,
+    "timeout": 1200,
+    "python": "runners/mlx/.venv/bin/python",
+    "harness_version": "0.1.0",
+    "teleocr_binary_sha256": null,
+    "layout_pin": null,
+    "implementation_sha256": "a2e5301b8141fec649cd2b115ef4a35c235d20bc1d26bcafca7d3962b9cd1ded"
+  },
+  "source_sha256": "927ab0916d8452bdb2c11045031bf01ca52df5871a1f7612137ef226b46b5293",
+  "document": "workspace/expanded400/makrobiotikoderd00hufeuoft",
+  "pages": [
+    {
+      "page": 25,
+      "result": "page-0025.json",
+      "status": "ok",
+      "seconds": 4.403752165846527,
+      "possibly_truncated": false
+    },
+    {
+      "page": 26,
+      "result": "page-0026.json",
+      "status": "ok",
+      "seconds": 5.193540000356734,
+      "possibly_truncated": false
+    },
+    {
+      "page": 27,
+      "result": "page-0027.json",
+      "status": "ok",
+      "seconds": 5.044908832758665,
+      "possibly_truncated": false
+    },
+    {
+      "page": 28,
+      "result": "page-0028.json",
+      "status": "ok",
+      "seconds": 5.082339959219098,
+      "possibly_truncated": false
+    },
+    {
+      "page": 29,
+      "result": "page-0029.json",
+      "status": "ok",
+      "seconds": 51.2085091676563,
+      "possibly_truncated": true
+    },
+    {
+      "page": 30,
+      "result": "page-0030.json",
+      "status": "ok",
+      "seconds": 4.827761041000485,
+      "possibly_truncated": false
+    },
+    {
+      "page": 200,
+      "result": "page-0200.json",
+      "status": "ok",
+      "seconds": 4.68632141686976,
+      "possibly_truncated": false
+    },
+    {
+      "page": 201,
+      "result": "page-0201.json",
+      "status": "ok",
+      "seconds": 5.056565375067294,
+      "possibly_truncated": false
+    }
+  ],
+  "inputs": [
+    {
+      "page": 25,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/inputs/page-0025.png",
+      "input_size": [
+        1136,
+        2048
+      ],
+      "image_sha256": "6294ff2b99b8b0ae56f39f3b2f268c76c9cb71d4e5ed77a653003fba8491b07c",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/page-0025.json"
+    },
+    {
+      "page": 26,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/inputs/page-0026.png",
+      "input_size": [
+        1136,
+        2048
+      ],
+      "image_sha256": "51dcdc3a8c21885e801bd45200839cbdeb3ad5e8f0d6b61f1effa91a8a5bbfad",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/page-0026.json"
+    },
+    {
+      "page": 27,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/inputs/page-0027.png",
+      "input_size": [
+        1136,
+        2048
+      ],
+      "image_sha256": "acfb2f230891207ff3a1ed8d9c414ed07a1e3b2fa28c21c1c2c0a3bf38b2e6d4",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/page-0027.json"
+    },
+    {
+      "page": 28,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/inputs/page-0028.png",
+      "input_size": [
+        1136,
+        2048
+      ],
+      "image_sha256": "15dec127d78d47174ec3d84ff82e2cd65802c848f0a046ca657ed2e4b7be5f4d",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/page-0028.json"
+    },
+    {
+      "page": 29,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/inputs/page-0029.png",
+      "input_size": [
+        1136,
+        2048
+      ],
+      "image_sha256": "7c8b3ab3ca2f51cff067f41fc6b98ecd839b5ce8870f088ed4a48a266e97abab",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/page-0029.json"
+    },
+    {
+      "page": 30,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/inputs/page-0030.png",
+      "input_size": [
+        1136,
+        2048
+      ],
+      "image_sha256": "79aad575305afe6586942ad64690d2d0faac5c65ede853630697375204a9b948",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/page-0030.json"
+    },
+    {
+      "page": 200,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/inputs/page-0200.png",
+      "input_size": [
+        1136,
+        2048
+      ],
+      "image_sha256": "22421923ec3b35d04f97a8cbf2455a6b189a882a11f2791c8f85f785bc9c2915",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/page-0200.json"
+    },
+    {
+      "page": 201,
+      "image_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/inputs/page-0201.png",
+      "input_size": [
+        1132,
+        2048
+      ],
+      "image_sha256": "b6e94f26e04ed20ac96f15c569a46c22862483fa3df6113e63481e562d153fdb",
+      "result_path": "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/page-0201.json"
+    }
+  ],
+  "status": "complete",
+  "process": {
+    "pid": 54725,
+    "started_at_unix": 1792765430.333545,
+    "argv": [
+      "runners/mlx/.venv/bin/python",
+      "-m",
+      "pdfocr.worker",
+      "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/glm-ocr-mlx-6bacf12df8978e7a/request.json"
+    ],
+    "returncode": 0,
+    "exited": true,
+    "seconds": 90.05947295855731
+  }
+}

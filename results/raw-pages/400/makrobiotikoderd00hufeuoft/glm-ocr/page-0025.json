@@ -1,0 +1,22 @@
+{
+  "page": 25,
+  "status": "ok",
+  "markdown": "Erfte Vorlesung.\nSchiefale dieser Wissenschaft.\n\nBei den Egyptien und Griechen — Gerocomic — Gymnastik — Hermippus — Justand derfelben im Mittelalter — Theophraustus Paracelfus — Astrologische Methode — Talismans — Thurneifen — Cornaro und seine frenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Tagliostro — Graham.\n\nDurch die ganze Natur weht und wirfet jene unbegreifliche Kraft, jener unmittelbare Ausfluß der Gottheit, den wir Leben nennen. Ueberall stöhen wir auf Erscheinungen und Wirfungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverfennbar bezeugen, und Leben ist der Zuruf der ganzen uns umgebenden Natur. Leben ist’s, wodurch der Stein sich ballt und crystallisiert, die Pflanze vegetirt, das Thier fühlt und wirfet; — aber im höchsten Glanz von Bollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der schätbaren Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommenene Verbindung aller lebendigen Kräfte der",
+  "raw": {
+    "text": "Erfte Vorlesung.\nSchiefale dieser Wissenschaft.\n\nBei den Egyptien und Griechen — Gerocomic — Gymnastik — Hermippus — Justand derfelben im Mittelalter — Theophraustus Paracelfus — Astrologische Methode — Talismans — Thurneifen — Cornaro und seine frenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Tagliostro — Graham.\n\nDurch die ganze Natur weht und wirfet jene unbegreifliche Kraft, jener unmittelbare Ausfluß der Gottheit, den wir Leben nennen. Ueberall stöhen wir auf Erscheinungen und Wirfungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverfennbar bezeugen, und Leben ist der Zuruf der ganzen uns umgebenden Natur. Leben ist’s, wodurch der Stein sich ballt und crystallisiert, die Pflanze vegetirt, das Thier fühlt und wirfet; — aber im höchsten Glanz von Bollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der schätbaren Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommenene Verbindung aller lebendigen Kräfte der",
+    "generation_tokens": 322,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3405424911
+  },
+  "seconds": 4.403752165846527,
+  "load_seconds": 0.7446945421397686,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 322,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3405424911
+}

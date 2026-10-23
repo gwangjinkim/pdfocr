@@ -1,0 +1,4 @@
+# Preserve upstream snapshot and unified-patch whitespace verbatim.
+vendor-pdfrune/** -whitespace
+vendor-teleocr/** -whitespace
+*.patch -whitespace

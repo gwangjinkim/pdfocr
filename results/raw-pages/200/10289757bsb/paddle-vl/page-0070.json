@@ -1,0 +1,330 @@
+{
+  "page": 70,
+  "status": "ok",
+  "markdown": "Spirit. Frument. Tdvj.\n\ndestillando eliciantur ἡ ν vὰ in quibus solve Camphorae ἦ ὡβ\n\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstofs bedarf. Selbst in den Wassersuchten leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Efslöffel mit Wasser verdünnt, viermal täglich, auch öfter.\n\nTinctura Aconiti.\n\nR. Herb. Aconit. siccat. minutim concis. Zij Diger. cum Spirit. Vin. rectificat. It j in cucurbita clausa per triduum. Exprime et filtra.\n\nPari modo parantur:\n\nTintura Digitalis.\n\n— Calami.\n\n— Galbani.\n\n— Hellebori.\n\n— Hyoscyami.\n\n— Nicotianae.\n\n— Stramonii.\n\n— Valerianae\n\n— Toxicodendri.",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          1197,
+          253,
+          1322,
+          348
+        ],
+        "label": "number",
+        "score": 0.3345504105091095,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-000-number.png",
+        "order": 16,
+        "text": "66",
+        "seconds": 0.14359612483531237,
+        "tokens": 3,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          1003,
+          247,
+          1517,
+          349
+        ],
+        "label": "header",
+        "score": 0.3357880711555481,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-001-header.png",
+        "order": 21,
+        "text": "-66-",
+        "seconds": 0.12963529210537672,
+        "tokens": 5,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          606,
+          396,
+          1473,
+          511
+        ],
+        "label": "text",
+        "score": 0.6713463068008423,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-002-text.png",
+        "order": 53,
+        "text": "Spirit. Frument. Tdvj.",
+        "seconds": 0.1497126668691635,
+        "tokens": 11,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          366,
+          510,
+          2127,
+          744
+        ],
+        "label": "text",
+        "score": 0.33405405282974243,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-003-text.png",
+        "order": 87,
+        "text": "destillando eliciantur ἡ ν vὰ in quibus solve Camphorae ἦ ὡβ",
+        "seconds": 0.41011133324354887,
+        "tokens": 34,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          617,
+          761,
+          877,
+          863
+        ],
+        "label": "text",
+        "score": 0.7230086326599121,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-005-text.png",
+        "order": 112,
+        "text": "Serva.",
+        "seconds": 0.11954391654580832,
+        "tokens": 4,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          489,
+          927,
+          2132,
+          1582
+        ],
+        "label": "text",
+        "score": 0.9432942271232605,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-006-text.png",
+        "order": 119,
+        "text": "Nicht nur äußerlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstofs bedarf. Selbst in den Wassersuchten leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Efslöffel mit Wasser verdünnt, viermal täglich, auch öfter.",
+        "seconds": 1.2340284995734692,
+        "tokens": 102,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          879,
+          1695,
+          1610,
+          1794
+        ],
+        "label": "paragraph_title",
+        "score": 0.8323174715042114,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-007-paragraph_title.png",
+        "order": 131,
+        "text": "Tinctura Aconiti.",
+        "seconds": 0.1417104173451662,
+        "tokens": 8,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          356,
+          1840,
+          2134,
+          2310
+        ],
+        "label": "text",
+        "score": 0.9346086382865906,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-008-text.png",
+        "order": 148,
+        "text": "R. Herb. Aconit. siccat. minutim concis. Zij Diger. cum Spirit. Vin. rectificat. It j in cucurbita clausa per triduum. Exprime et filtra.",
+        "seconds": 0.9380008336156607,
+        "tokens": 53,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          345,
+          2389,
+          1176,
+          2499
+        ],
+        "label": "text",
+        "score": 0.7575328350067139,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-009-text.png",
+        "order": 153,
+        "text": "Pari modo parantur:",
+        "seconds": 0.14408391620963812,
+        "tokens": 8,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          531,
+          2538,
+          1241,
+          2651
+        ],
+        "label": "text",
+        "score": 0.7990730404853821,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-010-text.png",
+        "order": 163,
+        "text": "Tintura Digitalis.",
+        "seconds": 0.13020883314311504,
+        "tokens": 7,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          603,
+          2665,
+          1190,
+          2764
+        ],
+        "label": "text",
+        "score": 0.7618139386177063,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-011-text.png",
+        "order": 167,
+        "text": "— Calami.",
+        "seconds": 0.12172345817089081,
+        "tokens": 5,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          598,
+          2780,
+          1223,
+          2883
+        ],
+        "label": "text",
+        "score": 0.7566289901733398,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-012-text.png",
+        "order": 170,
+        "text": "— Galbani.",
+        "seconds": 0.12266358267515898,
+        "tokens": 6,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          603,
+          2898,
+          1269,
+          3003
+        ],
+        "label": "text",
+        "score": 0.7880391478538513,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-013-text.png",
+        "order": 182,
+        "text": "— Hellebori.",
+        "seconds": 0.12874633353203535,
+        "tokens": 7,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          603,
+          3019,
+          1328,
+          3127
+        ],
+        "label": "text",
+        "score": 0.7942560315132141,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-014-text.png",
+        "order": 203,
+        "text": "— Hyoscyami.",
+        "seconds": 0.12860516738146544,
+        "tokens": 7,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          602,
+          3137,
+          1349,
+          3248
+        ],
+        "label": "text",
+        "score": 0.7795839905738831,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-015-text.png",
+        "order": 210,
+        "text": "— Nicotianae.",
+        "seconds": 0.13038570899516344,
+        "tokens": 7,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          602,
+          3261,
+          1300,
+          3363
+        ],
+        "label": "text",
+        "score": 0.7638105154037476,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-016-text.png",
+        "order": 222,
+        "text": "— Stramonii.",
+        "seconds": 0.12643245793879032,
+        "tokens": 6,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          598,
+          3382,
+          1357,
+          3486
+        ],
+        "label": "text",
+        "score": 0.7664774060249329,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-017-text.png",
+        "order": 244,
+        "text": "— Valerianae",
+        "seconds": 0.13217516709119081,
+        "tokens": 6,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          595,
+          3492,
+          1432,
+          3602
+        ],
+        "label": "text",
+        "score": 0.7477470636367798,
+        "crop": "workspace/expanded/10289757bsb/runs/paddle-vl-mlx-c2047c7834e90685/page-0070/block-018-text.png",
+        "order": 264,
+        "text": "— Toxicodendri.",
+        "seconds": 0.13684120774269104,
+        "tokens": 7,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.7659788345918059,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 5.536346958018839,
+  "load_seconds": 1.3346281237900257,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2792592604,
+  "layout_seconds": 0.7659788345918059
+}

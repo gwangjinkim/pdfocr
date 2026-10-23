@@ -1,0 +1,22 @@
+{
+  "page": 30,
+  "status": "ok",
+  "markdown": "und versichert, der Alte habe dadurch fichtbar an Munt-\nterfeit und Kräften zugenommen. Und gewiß, wenn\nman bedenft, was der Lebensdunst frisch aufgeschnit-\ntener Thiere auf gelähmte Glieder, was das Ausle-\ngen lebendiger Thiere auf schmerzhafte Uebel vermag,\nso scheint diese Methode nicht verwerflich zu fevn.\n\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Nömern und Griechen\nauf das Unwehen eines reinen gefunden Uthems\nfekte. Es gehört hierher eine alte Infschrift, die man\nim vorigen Jahrhundert zu Nom fand, und so lautet:\n\nAesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Aesculap und der Gesundheit\ngeweiht\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Athem junger Mädchen u. f w.\n\nDiese Infschrift mag nun acht seyn oder nicht;\ngenug sie veranlaßte noch zu Anfang des 18ten Jahr-\nhunderts eine Schrift, worin ein Doctor Co haufen\nsehr gelehrt beweiset, dieser Hermippus fen ein\nWaifenhaus: Vorsteher oder Mädchenschulmeister zu",
+  "raw": {
+    "text": "und versichert, der Alte habe dadurch fichtbar an Munt-\nterfeit und Kräften zugenommen. Und gewiß, wenn\nman bedenft, was der Lebensdunst frisch aufgeschnit-\ntener Thiere auf gelähmte Glieder, was das Ausle-\ngen lebendiger Thiere auf schmerzhafte Uebel vermag,\nso scheint diese Methode nicht verwerflich zu fevn.\n\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Nömern und Griechen\nauf das Unwehen eines reinen gefunden Uthems\nfekte. Es gehört hierher eine alte Infschrift, die man\nim vorigen Jahrhundert zu Nom fand, und so lautet:\n\nAesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Aesculap und der Gesundheit\ngeweiht\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Athem junger Mädchen u. f w.\n\nDiese Infschrift mag nun acht seyn oder nicht;\ngenug sie veranlaßte noch zu Anfang des 18ten Jahr-\nhunderts eine Schrift, worin ein Doctor Co haufen\nsehr gelehrt beweiset, dieser Hermippus fen ein\nWaifenhaus: Vorsteher oder Mädchenschulmeister zu",
+    "generation_tokens": 390,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 3405556618
+  },
+  "seconds": 4.827761041000485,
+  "load_seconds": 0.7446945421397686,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 390,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3405556618
+}

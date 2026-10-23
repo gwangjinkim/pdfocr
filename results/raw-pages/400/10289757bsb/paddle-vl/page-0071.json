@@ -1,0 +1,160 @@
+{
+  "page": 71,
+  "status": "ok",
+  "markdown": "—67—\n\n—67—\n\n\\(^{*}\\) Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum.)\n\nSulphuris stibiat. aurantiac solve digerend. in s. q. Liquor. Kali caustic. admisce\nSapon. medicat. ʒiij Spirit. Vin. rectificatiss. Aq. destillat. ʌəʒvj Digerantur.\n\nEin höchst wirksames Mittel bei hartnäckigen Rheumatismen, Flechten, und andern Hautkrankheiten zu 20 bis 50 Tropfen täglich einigemal.\n\n\\(^{*}\\) Tinectura aromatica Ph. P.\n\nRad. Calam Angelic. Zingiber. Helen. Hb. Menth. pip. Sem. Anis. ἄα ᾴ ἡ Caryophyllor. Cinamom. ἄα ᾴβ Piper. nigr. Ἐ\n\nC. c. digere cum\nSpirit. Vin. rectificat. fitij\nfiltr. add.\nOl. Anis. 3iji",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          909,
+          269,
+          1415,
+          384
+        ],
+        "label": "paragraph_title",
+        "score": 0.4098431169986725,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0071/block-000-paragraph_title.png",
+        "order": 5,
+        "text": "—67—",
+        "seconds": 0.1451743757352233,
+        "tokens": 5,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          909,
+          269,
+          1415,
+          384
+        ],
+        "label": "text",
+        "score": 0.3158995509147644,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0071/block-001-text.png",
+        "order": 5,
+        "text": "—67—",
+        "seconds": 0.12265137489885092,
+        "tokens": 5,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          468,
+          423,
+          1802,
+          656
+        ],
+        "label": "text",
+        "score": 0.8433294892311096,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0071/block-002-text.png",
+        "order": 25,
+        "text": "\\(^{*}\\) Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum.)",
+        "seconds": 0.3087922502309084,
+        "tokens": 25,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          519,
+          670,
+          1608,
+          1614
+        ],
+        "label": "text",
+        "score": 0.7605580687522888,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0071/block-003-text.png",
+        "order": 96,
+        "text": "Sulphuris stibiat. aurantiac solve digerend. in s. q. Liquor. Kali caustic. admisce\nSapon. medicat. ʒiij Spirit. Vin. rectificatiss. Aq. destillat. ʌəʒvj Digerantur.",
+        "seconds": 1.1532136667519808,
+        "tokens": 75,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          390,
+          1624,
+          2045,
+          1913
+        ],
+        "label": "text",
+        "score": 0.6065313220024109,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0071/block-004-text.png",
+        "order": 138,
+        "text": "Ein höchst wirksames Mittel bei hartnäckigen Rheumatismen, Flechten, und andern Hautkrankheiten zu 20 bis 50 Tropfen täglich einigemal.",
+        "seconds": 0.5130132921040058,
+        "tokens": 48,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          504,
+          1961,
+          1771,
+          2072
+        ],
+        "label": "paragraph_title",
+        "score": 0.5869802236557007,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0071/block-005-paragraph_title.png",
+        "order": 139,
+        "text": "\\(^{*}\\) Tinectura aromatica Ph. P.",
+        "seconds": 0.16407679114490747,
+        "tokens": 14,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          380,
+          2098,
+          1281,
+          3175
+        ],
+        "label": "text",
+        "score": 0.7632161378860474,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0071/block-006-text.png",
+        "order": 164,
+        "text": "Rad. Calam Angelic. Zingiber. Helen. Hb. Menth. pip. Sem. Anis. ἄα ᾴ ἡ Caryophyllor. Cinamom. ἄα ᾴβ Piper. nigr. Ἐ",
+        "seconds": 1.064347124658525,
+        "tokens": 67,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          343,
+          3177,
+          1510,
+          3651
+        ],
+        "label": "text",
+        "score": 0.6875326633453369,
+        "crop": "workspace/expanded400/10289757bsb/runs/paddle-vl-mlx-08f85b0bfd860f4f/page-0071/block-007-text.png",
+        "order": 241,
+        "text": "C. c. digere cum\nSpirit. Vin. rectificat. fitij\nfiltr. add.\nOl. Anis. 3iji",
+        "seconds": 0.5688604582101107,
+        "tokens": 35,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.7549368748441339,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 5.025643999688327,
+  "load_seconds": 1.6896864166483283,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 3030637516,
+  "layout_seconds": 0.7549368748441339
+}

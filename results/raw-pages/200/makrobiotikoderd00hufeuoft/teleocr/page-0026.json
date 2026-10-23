@@ -1,0 +1,63 @@
+{
+  "page": 26,
+  "status": "ok",
+  "markdown": "Natur, nirgends fo viel Energie des Lebens, mit felder Dauer vereinigt, als hier. Contin Bünber alfo, daß der vollformenfte Beiber diebs Gutes auch einen fo hohen Werth darauf fegt, und daß fehen der blope Gebanfe von Leben und Sevn fo hohen Neig für uns hat. Jeder Røper wird uns um fo interrefanter, je mehr wir ihm eine Art von Leben und Lebensgeführig utrauen fönnen. Nichts vermag fo fehr auf und su wirfen, folbe Aufoperungen zu veranlaffen, und die außerontlifften Entwicklung und Anfrerengungen unfer verborgenften Kräfte hervorgubringen, als der Trieb es gu erhalten und in dem feitiften Angenblid es gu retten. Selbüt ohne Sennig und Freuben des Lebens, felßt für den, der an unbeitbaren Schmergen leider, über im bunneln Røfer auf immer keine Greitheit beweint, behält der Gebanfe so fevn und gu leben noch Neig, und es gehört felechterbinge eine nur bei Menften möglitche Berrüttung der feinften EmpfindungBiorganne, eine gänstliche Berbunfelung und Löbtung des innern Sinns basn, um daß feben gleichgültig ober gar verhåft zu machen. — So weie und innig wurdeGiebe des Gebenig, biefer eines benfenben Wefens fo würbige Trieb, biefer Grundpfeiler fowohl der eingelnen als der öffentlichen Glücfeligfeit, mit unfemer Eriften verwebt! — Sohr natürlich war es bacher, daß der Gebanfe in dem Menften aufteigen mupte: Sollte es nicht möglich fevn, unter Dafenzu verlängern, und bem nur gar gu flüchtigen Sennig diebs Guts mehr Ausbehnung zu geben?",
+  "raw": {
+    "pages": [
+      {
+        "width": 642,
+        "height": 1157,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.438,
+              0.068,
+              0.63,
+              0.09
+            ],
+            "angle": 0,
+            "content": "-4-"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.122,
+              0.102,
+              0.986,
+              0.894
+            ],
+            "angle": 0,
+            "content": "Natur, nirgends fo viel Energie des Lebens, mit felder Dauer vereinigt, als hier. Contin Bünber alfo, daß der vollformenfte Beiber diebs Gutes auch einen fo hohen Werth darauf fegt, und daß fehen der blope Gebanfe von Leben und Sevn fo hohen Neig für uns hat. Jeder Røper wird uns um fo interrefanter, je mehr wir ihm eine Art von Leben und Lebensgeführig utrauen fönnen. Nichts vermag fo fehr auf und su wirfen, folbe Aufoperungen zu veranlaffen, und die außerontlifften Entwicklung und Anfrerengungen unfer verborgenften Kräfte hervorgubringen, als der Trieb es gu erhalten und in dem feitiften Angenblid es gu retten. Selbüt ohne Sennig und Freuben des Lebens, felßt für den, der an unbeitbaren Schmergen leider, über im bunneln Røfer auf immer keine Greitheit beweint, behält der Gebanfe so fevn und gu leben noch Neig, und es gehört felechterbinge eine nur bei Menften möglitche Berrüttung der feinften EmpfindungBiorganne, eine gänstliche Berbunfelung und Löbtung des innern Sinns basn, um daß feben gleichgültig ober gar verhåft zu machen. — So weie und innig wurdeGiebe des Gebenig, biefer eines benfenben Wefens fo würbige Trieb, biefer Grundpfeiler fowohl der eingelnen als der öffentlichen Glücfeligfeit, mit unfemer Eriften verwebt! — Sohr natürlich war es bacher, daß der Gebanfe in dem Menften aufteigen mupte: Sollte es nicht möglich fevn, unter Dafenzu verlängern, und bem nur gar gu flüchtigen Sennig diebs Guts mehr Ausbehnung zu geben?"
+          }
+        ],
+        "markdown": "Natur, nirgends fo viel Energie des Lebens, mit felder Dauer vereinigt, als hier. Contin Bünber alfo, daß der vollformenfte Beiber diebs Gutes auch einen fo hohen Werth darauf fegt, und daß fehen der blope Gebanfe von Leben und Sevn fo hohen Neig für uns hat. Jeder Røper wird uns um fo interrefanter, je mehr wir ihm eine Art von Leben und Lebensgeführig utrauen fönnen. Nichts vermag fo fehr auf und su wirfen, folbe Aufoperungen zu veranlaffen, und die außerontlifften Entwicklung und Anfrerengungen unfer verborgenften Kräfte hervorgubringen, als der Trieb es gu erhalten und in dem feitiften Angenblid es gu retten. Selbüt ohne Sennig und Freuben des Lebens, felßt für den, der an unbeitbaren Schmergen leider, über im bunneln Røfer auf immer keine Greitheit beweint, behält der Gebanfe so fevn und gu leben noch Neig, und es gehört felechterbinge eine nur bei Menften möglitche Berrüttung der feinften EmpfindungBiorganne, eine gänstliche Berbunfelung und Löbtung des innern Sinns basn, um daß feben gleichgültig ober gar verhåft zu machen. — So weie und innig wurdeGiebe des Gebenig, biefer eines benfenben Wefens fo würbige Trieb, biefer Grundpfeiler fowohl der eingelnen als der öffentlichen Glücfeligfeit, mit unfemer Eriften verwebt! — Sohr natürlich war es bacher, daß der Gebanfe in dem Menften aufteigen mupte: Sollte es nicht möglich fevn, unter Dafenzu verlängern, und bem nur gar gu flüchtigen Sennig diebs Guts mehr Ausbehnung zu geben?",
+        "stats": {
+          "layout_ms": 4560.74425,
+          "extract_ms": 4854.960041,
+          "blocks": 2,
+          "generated_tokens": 517
+        }
+      }
+    ],
+    "stderr": "2026-10-23T12:28:59.783835Z  INFO teleocr: model loaded in 0.5s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4560.74425,\"extract_ms\":4854.960041,\"blocks\":2,\"generated_tokens\":517}\n1 page(s) in 9.42s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded/makrobiotikoderd00hufeuoft-pdfium/runs/teleocr-teleocr-e4b2c9b7ff0e86bd/inputs/page-0026.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 10.035778583027422,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

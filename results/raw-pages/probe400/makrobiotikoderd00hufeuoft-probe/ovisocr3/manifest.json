@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "config": {
+    "model_name": "ovisocr3",
+    "model": {
+      "repo": "ATH-MaaS/OvisOCR3",
+      "parameters_b": 0.8,
+      "license": "Apache-2.0",
+      "backend": "mlx",
+      "mode": "page-markdown",
+      "prompt_file": "prompts/document_markdown.txt",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "longest_edge": 2880,
+      "notes": "Locally executed on M3 Max with MLX 0.7.10 and original BF16 weights, official document-Markdown prompt, Archive.org PDF 9-10. Drops the page-final hyphen in this sample. Other tasks untested."
+    },
+    "backend": "mlx",
+    "model_pin": {
+      "repo": "ATH-MaaS/OvisOCR3",
+      "revision": "5f6ce6932efee9ec10c30746db55bd780214b7fd",
+      "path": "model-cache/models--ATH-MaaS--OvisOCR3/snapshots/5f6ce6932efee9ec10c30746db55bd780214b7fd"
+    },
+    "endpoint": null,
+    "endpoint_model": "ATH-MaaS/OvisOCR3",
+    "prompt": "Extract all readable content from the image in natural human reading order and output the result as a single Markdown document. For charts or images, represent them using an HTML image tag: <img src=\"images/bbox_{left}_{top}_{right}_{bottom}.jpg\" />, where left, top, right, bottom are bounding box coordinates scaled to [0, 1000). Format formulas as LaTeX. Format tables as HTML: <table>...</table>. Transcribe all other text as standard Markdown. Preserve the original text without translation or paraphrasing.",
+    "command": null,
+    "timeout": 1200,
+    "python": "runners/mlx/.venv/bin/python",
+    "harness_version": "0.1.0",
+    "teleocr_binary_sha256": null,
+    "layout_pin": null,
+    "implementation_sha256": "a2e5301b8141fec649cd2b115ef4a35c235d20bc1d26bcafca7d3962b9cd1ded"
+  },
+  "source_sha256": "927ab0916d8452bdb2c11045031bf01ca52df5871a1f7612137ef226b46b5293",
+  "document": "workspace/expanded400-probe-400/document",
+  "pages": [
+    {
+      "page": 34,
+      "result": "page-0034.json",
+      "status": "ok",
+      "seconds": 3.9041658341884613,
+      "possibly_truncated": false
+    },
+    {
+      "page": 35,
+      "result": "page-0035.json",
+      "status": "ok",
+      "seconds": 3.7555238753557205,
+      "possibly_truncated": false
+    }
+  ],
+  "inputs": [
+    {
+      "page": 34,
+      "image_path": "workspace/expanded400-probe-400/document/runs/ovisocr3-mlx-e0d959552dcbd3b1/inputs/page-0034.png",
+      "input_size": [
+        1283,
+        2313
+      ],
+      "image_sha256": "03a49d1268efe28098bf73632f967ed74f353a147220001f4b6146cbe7538f5d",
+      "result_path": "workspace/expanded400-probe-400/document/runs/ovisocr3-mlx-e0d959552dcbd3b1/page-0034.json"
+    },
+    {
+      "page": 35,
+      "image_path": "workspace/expanded400-probe-400/document/runs/ovisocr3-mlx-e0d959552dcbd3b1/inputs/page-0035.png",
+      "input_size": [
+        1283,
+        2313
+      ],
+      "image_sha256": "5ce81047ea242d06f844f987ae98df2469343ee5a034f15902b60a2d9a635e51",
+      "result_path": "workspace/expanded400-probe-400/document/runs/ovisocr3-mlx-e0d959552dcbd3b1/page-0035.json"
+    }
+  ],
+  "status": "complete",
+  "process": {
+    "pid": 61188,
+    "started_at_unix": 1792766172.855396,
+    "argv": [
+      "runners/mlx/.venv/bin/python",
+      "-m",
+      "pdfocr.worker",
+      "workspace/expanded400-probe-400/document/runs/ovisocr3-mlx-e0d959552dcbd3b1/request.json"
+    ],
+    "returncode": 0,
+    "exited": true,
+    "seconds": 11.295666290447116
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "page": 35,
+  "status": "ok",
+  "markdown": "— 15 —\n\nion. Seine Reputation in der Ärologie war so groß, daß fast in keinem angefehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht fogleich einen Boten mit der Bestimmung der Geburtsfunde an ihn absendete. Es kamen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zulegt so überhäuft, daß er sich Gehülfen zu diesem Geschäft halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Seichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte bewegen ließ, dieselbe im voraus mitzutheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reißenden Abgang, und verschaffte, nebst andern Charlatanerien, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Gränzen setzte, Mittel zur Verlängerung desselben finden! Dies geschah auf folgende sinnreiche Art:\n\n*",
+  "raw": {
+    "text": "— 15 —\n\nion. Seine Reputation in der Ärologie war so groß, daß fast in keinem angefehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht fogleich einen Boten mit der Bestimmung der Geburtsfunde an ihn absendete. Es kamen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zulegt so überhäuft, daß er sich Gehülfen zu diesem Geschäft halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Seichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte bewegen ließ, dieselbe im voraus mitzutheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reißenden Abgang, und verschaffte, nebst andern Charlatanerien, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Gränzen setzte, Mittel zur Verlängerung desselben finden! Dies geschah auf folgende sinnreiche Art:\n\n*",
+    "generation_tokens": 355,
+    "possibly_truncated": false,
+    "mlx_peak_memory_bytes": 2804516186
+  },
+  "seconds": 2.6084735840559006,
+  "load_seconds": 0.7989865001291037,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2"
+  },
+  "generation_tokens": 355,
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2804516186
+}

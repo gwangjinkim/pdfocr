@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "config": {
+    "model_name": "glm-ocr",
+    "model": {
+      "repo": "mlx-community/GLM-OCR-bf16",
+      "upstream": "zai-org/GLM-OCR",
+      "parameters_b": 0.9,
+      "license": "MIT (weights); Apache-2.0 (layout)",
+      "backend": "mlx",
+      "mode": "model-only-full-page",
+      "prompt": "Text Recognition:",
+      "max_tokens": 8192,
+      "temperature": 0.0,
+      "longest_edge": 2048,
+      "notes": "Official benchmark pipeline adds PP-DocLayoutV3 and region recognition. This adapter does not reproduce it."
+    },
+    "backend": "mlx",
+    "model_pin": {
+      "repo": "mlx-community/GLM-OCR-bf16",
+      "revision": "24f15402e83baa0a80eeeaecf5480e172abc6f2e",
+      "path": "model-cache/models--mlx-community--GLM-OCR-bf16/snapshots/24f15402e83baa0a80eeeaecf5480e172abc6f2e"
+    },
+    "endpoint": null,
+    "endpoint_model": "mlx-community/GLM-OCR-bf16",
+    "prompt": "Text Recognition:",
+    "command": null,
+    "timeout": 1200,
+    "python": "runners/mlx/.venv/bin/python",
+    "harness_version": "0.1.0",
+    "teleocr_binary_sha256": null,
+    "layout_pin": null,
+    "implementation_sha256": "a2e5301b8141fec649cd2b115ef4a35c235d20bc1d26bcafca7d3962b9cd1ded"
+  },
+  "source_sha256": "9a79e4af196f5d980552f8e5aa345bcff494fe603323105824fdfa4548a56cc1",
+  "document": "workspace/expanded400/10289757bsb",
+  "pages": [
+    {
+      "page": 9,
+      "result": "page-0009.json",
+      "status": "ok",
+      "seconds": 4.39653483312577,
+      "possibly_truncated": false
+    },
+    {
+      "page": 10,
+      "result": "page-0010.json",
+      "status": "ok",
+      "seconds": 4.352142999880016,
+      "possibly_truncated": false
+    },
+    {
+      "page": 11,
+      "result": "page-0011.json",
+      "status": "ok",
+      "seconds": 4.349844958633184,
+      "possibly_truncated": false
+    },
+    {
+      "page": 12,
+      "result": "page-0012.json",
+      "status": "ok",
+      "seconds": 4.813618833199143,
+      "possibly_truncated": false
+    },
+    {
+      "page": 13,
+      "result": "page-0013.json",
+      "status": "ok",
+      "seconds": 4.500914916396141,
+      "possibly_truncated": false
+    },
+    {
+      "page": 14,
+      "result": "page-0014.json",
+      "status": "ok",
+      "seconds": 4.518032374791801,
+      "possibly_truncated": false
+    },
+    {
+      "page": 70,
+      "result": "page-0070.json",
+      "status": "ok",
+      "seconds": 4.402351249940693,
+      "possibly_truncated": false
+    },
+    {
+      "page": 71,
+      "result": "page-0071.json",
+      "status": "ok",
+      "seconds": 4.48648245818913,
+      "possibly_truncated": false
+    }
+  ],
+  "inputs": [
+    {
+      "page": 9,
+      "image_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/inputs/page-0009.png",
+      "input_size": [
+        1176,
+        2048
+      ],
+      "image_sha256": "32879107e13e86dba6031c1e7ebb55759dda373a5e6b9fb1b1e7d336fa6f1d07",
+      "result_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/page-0009.json"
+    },
+    {
+      "page": 10,
+      "image_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/inputs/page-0010.png",
+      "input_size": [
+        1183,
+        2048
+      ],
+      "image_sha256": "4807b49169c94f3138241d186fe9d61932f6abe1a40064127f442e0ed5565c9c",
+      "result_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/page-0010.json"
+    },
+    {
+      "page": 11,
+      "image_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/inputs/page-0011.png",
+      "input_size": [
+        1192,
+        2048
+      ],
+      "image_sha256": "6df7cbf6fa0c9ef503b2aa8fcb1eb504c981c1b5c993aec09405bc7254b439c0",
+      "result_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/page-0011.json"
+    },
+    {
+      "page": 12,
+      "image_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/inputs/page-0012.png",
+      "input_size": [
+        1241,
+        2048
+      ],
+      "image_sha256": "d968468894be053b873ef91254018e17fbe350be5c848a9f0177f7e7c5770e2e",
+      "result_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/page-0012.json"
+    },
+    {
+      "page": 13,
+      "image_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/inputs/page-0013.png",
+      "input_size": [
+        1187,
+        2048
+      ],
+      "image_sha256": "efafab59a9de380a4a01819a701bd2eb12ba4b2d8488112ff9945a64c301a8e8",
+      "result_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/page-0013.json"
+    },
+    {
+      "page": 14,
+      "image_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/inputs/page-0014.png",
+      "input_size": [
+        1184,
+        2048
+      ],
+      "image_sha256": "c76d8588e79555e3a303c59576892b997519d8ad684941678c84698edeee5d4d",
+      "result_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/page-0014.json"
+    },
+    {
+      "page": 70,
+      "image_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/inputs/page-0070.png",
+      "input_size": [
+        1170,
+        2048
+      ],
+      "image_sha256": "10fb3800f51aab1c3f9ac28a8ede20566002a1105258c336a3d0fc213f5f8708",
+      "result_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/page-0070.json"
+    },
+    {
+      "page": 71,
+      "image_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/inputs/page-0071.png",
+      "input_size": [
+        1168,
+        2048
+      ],
+      "image_sha256": "5d963ea58108e6df60c73d8ca08c0816cf1abe2c98dbaf5036b0190385ebbf08",
+      "result_path": "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/page-0071.json"
+    }
+  ],
+  "status": "complete",
+  "process": {
+    "pid": 52945,
+    "started_at_unix": 1792765130.303496,
+    "argv": [
+      "runners/mlx/.venv/bin/python",
+      "-m",
+      "pdfocr.worker",
+      "workspace/expanded400/10289757bsb/runs/glm-ocr-mlx-09c3aa8802b89f05/request.json"
+    ],
+    "returncode": 0,
+    "exited": true,
+    "seconds": 40.663460332900286
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "page": 10,
+  "status": "ok",
+  "markdown": "den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dals gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammenentreffen die allerverderblichsten Seuchen und Ansteckungsgifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewifs ein grofser und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Einritte in das Armendirectorium vor 10 Jahren diesen Theil der Armenverpflegung, der sich mit der Vorsorge für die armen Kranken sowohl in den Hospitälern, als in der Stadt, beschäftigte. Aber nur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme",
+  "raw": {
+    "pages": [
+      {
+        "width": 2365,
+        "height": 4096,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.427,
+              0.05,
+              0.636,
+              0.073
+            ],
+            "angle": 0,
+            "content": "-6-"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.158,
+              0.088,
+              0.919,
+              0.558
+            ],
+            "angle": 0,
+            "content": "den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dals gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammenentreffen die allerverderblichsten Seuchen und Ansteckungsgifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewifs ein grofser und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.165,
+              0.587,
+              0.923,
+              0.878
+            ],
+            "angle": 0,
+            "content": "Durchdrungen von diesen Ideen übernahm ich bei meinem Einritte in das Armendirectorium vor 10 Jahren diesen Theil der Armenverpflegung, der sich mit der Vorsorge für die armen Kranken sowohl in den Hospitälern, als in der Stadt, beschäftigte. Aber nur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme"
+          }
+        ],
+        "markdown": "den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dals gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammenentreffen die allerverderblichsten Seuchen und Ansteckungsgifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewifs ein grofser und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Einritte in das Armendirectorium vor 10 Jahren diesen Theil der Armenverpflegung, der sich mit der Vorsorge für die armen Kranken sowohl in den Hospitälern, als in der Stadt, beschäftigte. Aber nur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme",
+        "stats": {
+          "layout_ms": 4087.4482089999997,
+          "extract_ms": 12196.306459000001,
+          "blocks": 3,
+          "generated_tokens": 391
+        }
+      }
+    ],
+    "stderr": "2026-10-23T12:25:41.485446Z  INFO teleocr: model loaded in 0.7s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4087.4482089999997,\"extract_ms\":12196.306459000001,\"blocks\":3,\"generated_tokens\":391}\n1 page(s) in 16.28s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded/10289757bsb/runs/teleocr-teleocr-3742abe73b31a148/inputs/page-0010.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 17.13044154178351,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

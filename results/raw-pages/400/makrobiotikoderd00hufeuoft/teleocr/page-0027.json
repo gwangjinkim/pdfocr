@@ -1,0 +1,74 @@
+{
+  "page": 27,
+  "status": "ok",
+  "markdown": "wirflich bechäftigte dies problem von jeber die Bienfachheit auf verfichebene 2Selle. Es war ein Sieblunggegenftand der febarffinnigten Röpfe, ein Zummelplab der Schwärmer, und eine Hauptlodfeiße der Charlatans und Betriger, bei benen man von jeher finden wirb, daß es entweder Umgang mit Seifern, oder Goldmacherfunft oder Verlängerung des Lebens war, moburd fe das größere Publifum angelten. Es if intereffant und ein Beitrag sur Gefichte becomes menfblichen Verfandes, zu feben, auf wie mannigfeltigen, fich oft gang entgeengsfesten Zegen man bies Gut zu erlangen hoffte, und ba felbft in den neweften Seiten die Saglioftros und Deemers wichtige Beiträge bis geliefert haben, fe glaube id Verziehung zu erbalten, wenn id eine furze Heberficht ber nach und nach vorgeformmenen Sebensoverlängerungsmethoden voranfschie, ehe id zu metnem Hauptgegenflande übergeche.\n\nSchon in den früheften Seiten, unter Egyptern,\nGrieden und Römern war biefe Sbee rege, und\nPythonbigals verfiel man in Egypten, der Mutter fo\nmaner abentheuerlichen been, auf fünfliche und\nunnaturliche Mittel au biefem Swed,我们就 freilich\nbas durch Sie und Leberfwemmungen ungefunde\nClima Veranlaffung geben mochte. Man glaubte die\nErhaltung des Lebens in Breben und Schwißen\ngufunden zu haben; es wurde allgemeine Sitte, alle\nMonae wenigens zwei Bredmittel zu nehmen,\nund flatt zu fagen, wie befindelt zu dif, fragte\nman einander: Wie fwhieft bu? —",
+  "raw": {
+    "pages": [
+      {
+        "width": 1283,
+        "height": 2313,
+        "blocks": [
+          {
+            "type": "page_number",
+            "bbox": [
+              0.347,
+              0.052,
+              0.538,
+              0.073
+            ],
+            "angle": 0,
+            "content": "- 5 -"
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.02,
+              0.086,
+              0.861,
+              0.554
+            ],
+            "angle": 0,
+            "content": "wirflich bechäftigte dies problem von jeber die Bienfachheit auf verfichebene 2Selle. Es war ein Sieblunggegenftand der febarffinnigten Röpfe, ein Zummelplab der Schwärmer, und eine Hauptlodfeiße der Charlatans und Betriger, bei benen man von jeher finden wirb, daß es entweder Umgang mit Seifern, oder Goldmacherfunft oder Verlängerung des Lebens war, moburd fe das größere Publifum angelten. Es if intereffant und ein Beitrag sur Gefichte becomes menfblichen Verfandes, zu feben, auf wie mannigfeltigen, fich oft gang entgeengsfesten Zegen man bies Gut zu erlangen hoffte, und ba felbft in den neweften Seiten die Saglioftros und Deemers wichtige Beiträge bis geliefert haben, fe glaube id Verziehung zu erbalten, wenn id eine furze Heberficht ber nach und nach vorgeformmenen Sebensoverlängerungsmethoden voranfschie, ehe id zu metnem Hauptgegenflande übergeche."
+          },
+          {
+            "type": "text",
+            "bbox": [
+              0.019,
+              0.556,
+              0.855,
+              0.866
+            ],
+            "angle": 0,
+            "content": "Schon in den früheften Seiten, unter Egyptern,\nGrieden und Römern war biefe Sbee rege, und\nPythonbigals verfiel man in Egypten, der Mutter fo\nmaner abentheuerlichen been, auf fünfliche und\nunnaturliche Mittel au biefem Swed,我们就 freilich\nbas durch Sie und Leberfwemmungen ungefunde\nClima Veranlaffung geben mochte. Man glaubte die\nErhaltung des Lebens in Breben und Schwißen\ngufunden zu haben; es wurde allgemeine Sitte, alle\nMonae wenigens zwei Bredmittel zu nehmen,\nund flatt zu fagen, wie befindelt zu dif, fragte\nman einander: Wie fwhieft bu? —"
+          }
+        ],
+        "markdown": "wirflich bechäftigte dies problem von jeber die Bienfachheit auf verfichebene 2Selle. Es war ein Sieblunggegenftand der febarffinnigten Röpfe, ein Zummelplab der Schwärmer, und eine Hauptlodfeiße der Charlatans und Betriger, bei benen man von jeher finden wirb, daß es entweder Umgang mit Seifern, oder Goldmacherfunft oder Verlängerung des Lebens war, moburd fe das größere Publifum angelten. Es if intereffant und ein Beitrag sur Gefichte becomes menfblichen Verfandes, zu feben, auf wie mannigfeltigen, fich oft gang entgeengsfesten Zegen man bies Gut zu erlangen hoffte, und ba felbft in den neweften Seiten die Saglioftros und Deemers wichtige Beiträge bis geliefert haben, fe glaube id Verziehung zu erbalten, wenn id eine furze Heberficht ber nach und nach vorgeformmenen Sebensoverlängerungsmethoden voranfschie, ehe id zu metnem Hauptgegenflande übergeche.\n\nSchon in den früheften Seiten, unter Egyptern,\nGrieden und Römern war biefe Sbee rege, und\nPythonbigals verfiel man in Egypten, der Mutter fo\nmaner abentheuerlichen been, auf fünfliche und\nunnaturliche Mittel au biefem Swed,我们就 freilich\nbas durch Sie und Leberfwemmungen ungefunde\nClima Veranlaffung geben mochte. Man glaubte die\nErhaltung des Lebens in Breben und Schwißen\ngufunden zu haben; es wurde allgemeine Sitte, alle\nMonae wenigens zwei Bredmittel zu nehmen,\nund flatt zu fagen, wie befindelt zu dif, fragte\nman einander: Wie fwhieft bu? —",
+        "stats": {
+          "layout_ms": 4975.416208000001,
+          "extract_ms": 12060.201417,
+          "blocks": 3,
+          "generated_tokens": 542
+        }
+      }
+    ],
+    "stderr": "2026-10-23T14:27:08.520347Z  INFO teleocr: model loaded in 0.5s on Metal(MetalDevice(DeviceId(1)))\npage 1: {\"layout_ms\":4975.416208000001,\"extract_ms\":12060.201417,\"blocks\":3,\"generated_tokens\":542}\n1 page(s) in 17.04s\n",
+    "argv": [
+      "runners/teleocr-bin/teleocr",
+      "parse",
+      "-m",
+      "model-cache/models--rleo--TeleOCR-GGUF/snapshots/12abf24f6015602bc8ea521f08bde8a92329ab96/teleocr-q8v.gguf",
+      "workspace/expanded400/makrobiotikoderd00hufeuoft/runs/teleocr-teleocr-515a88fd5f878258/inputs/page-0027.png",
+      "--json",
+      "--batch",
+      "1"
+    ]
+  },
+  "seconds": 17.683099166490138,
+  "load_seconds": 0.0,
+  "backend": "teleocr",
+  "runtime_versions": {},
+  "pipeline": "teleocr-rs-0.2.0-q8v",
+  "device": "Metal",
+  "possibly_truncated": false,
+  "timing_note": "Includes CLI model load, layout, crops and recognition"
+}

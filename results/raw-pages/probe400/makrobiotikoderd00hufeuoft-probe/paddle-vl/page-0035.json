@@ -1,0 +1,75 @@
+{
+  "page": 35,
+  "status": "ok",
+  "markdown": "son. Scène Reputation in der Aürologie war so groß, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Boten mit der Bestimmung der Se- burts-tunde an ihn absendete. Es kamen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zulegt so überhäuft, daß er sich Gehülsen zu diesem Geschaft halten muste. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der König in Elisabeth erscheinen. Ausserdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte bewegen ließ, dieselbe im voraus mitzutheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gesälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reiffenden Abgang, und verschaffte, nebst andern Charlatanerien, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unverneidliche Gränzen sehte, Mittel zur Verlängerung dessen finden! Dies geschah auf folgende sinnreiße Art:",
+  "raw": {
+    "blocks": [
+      {
+        "bbox": [
+          552,
+          144,
+          615,
+          196
+        ],
+        "label": "number",
+        "score": 0.47796300053596497,
+        "crop": "workspace/expanded400-probe-400/document/runs/paddle-vl-mlx-b931661018c2683b/page-0035/block-000-number.png",
+        "order": 12,
+        "text": "15",
+        "seconds": 0.13815487455576658,
+        "tokens": 3,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          41,
+          225,
+          1125,
+          1803
+        ],
+        "label": "text",
+        "score": 0.9640687704086304,
+        "crop": "workspace/expanded400-probe-400/document/runs/paddle-vl-mlx-b931661018c2683b/page-0035/block-001-text.png",
+        "order": 112,
+        "text": "son. Scène Reputation in der Aürologie war so groß, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Boten mit der Bestimmung der Se- burts-tunde an ihn absendete. Es kamen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zulegt so überhäuft, daß er sich Gehülsen zu diesem Geschaft halten muste. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der König in Elisabeth erscheinen. Ausserdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte bewegen ließ, dieselbe im voraus mitzutheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gesälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reiffenden Abgang, und verschaffte, nebst andern Charlatanerien, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.",
+        "seconds": 2.198439124971628,
+        "tokens": 385,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      },
+      {
+        "bbox": [
+          50,
+          1797,
+          1122,
+          2044
+        ],
+        "label": "text",
+        "score": 0.9344507455825806,
+        "crop": "workspace/expanded400-probe-400/document/runs/paddle-vl-mlx-b931661018c2683b/page-0035/block-002-text.png",
+        "order": 252,
+        "text": "Aber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unverneidliche Gränzen sehte, Mittel zur Verlängerung dessen finden! Dies geschah auf folgende sinnreiße Art:",
+        "seconds": 0.39671024959534407,
+        "tokens": 51,
+        "possibly_truncated": false,
+        "prompt": "OCR:"
+      }
+    ],
+    "layout_seconds": 0.6244701249524951,
+    "assembly": "reading order; upstream default furniture exclusions; rectangle crops"
+  },
+  "seconds": 3.474227041937411,
+  "load_seconds": 1.2094519156962633,
+  "backend": "mlx",
+  "runtime_versions": {
+    "mlx": "0.32.4",
+    "mlx-vlm": "0.7.10",
+    "transformers": "5.20.2",
+    "torch": "2.14.1"
+  },
+  "pipeline": "PP-DocLayoutV3+PaddleOCR-VL-1.6-MLX",
+  "possibly_truncated": false,
+  "mlx_peak_memory_bytes": 2790912376,
+  "layout_seconds": 0.6244701249524951
+}
