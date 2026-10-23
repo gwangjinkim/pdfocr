@@ -27,4 +27,4 @@ Local OCR additions (2026-10-23):
 
 The repair was developed against d710b96350a454b94005fcffbc5ccdd9291d55ba with patch SHA-256 b1f482cb2ff34c108118549fe23e16dcc09c63d1cefbe5c1f94d10e6e71ff13a. The published source snapshot is upstream commit e174cbc6f80c1707ba048e46b9810cc85a8995d9, which includes that repair. New codec notices are in vendor-pdfrune/THIRD_PARTY_NOTICES.md.
 
-Publication includes source snapshots and text-based experiment evidence. Book scans and model weights are not bundled. Their rights and licenses are independent of the harness license. Absolute workstation paths in archived metadata were replaced with portable labels.
+Publication includes source snapshots and text-based experiment evidence. Complete book PDFs and model weights are not bundled. Two attributed boundary crops are included as experiment evidence in results/figures/. Their rights and licenses are independent of the harness license. Absolute workstation paths in archived metadata were replaced with portable labels.
