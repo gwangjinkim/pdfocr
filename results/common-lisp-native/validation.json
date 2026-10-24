@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-24",
+  "runtime": "SBCL",
+  "runtime_version": "2.6.9",
+  "inference": "Common Lisp graph and generation; MLX Metal kernels",
+  "model": {
+    "family": "gemma4",
+    "architecture": "Gemma4ForConditionalGeneration",
+    "checkpoint": "google/gemma-4-E2B-it",
+    "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7"
+  },
+  "max_image_tokens": 70,
+  "pages": [
+    34,
+    35
+  ],
+  "generated_tokens_per_page": 128,
+  "run_status": "needs-review",
+  "page_status": "partial",
+  "body_and_reading_spans": "exact",
+  "external_inference_runtime": "none",
+  "native_handle_balance": "integration assertion passed",
+  "package_revisions": {
+    "cl-docling": "19bd4c353637e6cd10842ef00577dd0057e06161",
+    "cl-vlm": "b85c2613f644a7a373861cc9019478786cb5fccc",
+    "cl-transformer-blocks": "1818ef7717cfb9d139352ed5e609567925a81175"
+  },
+  "pdfrune_source_commit": "e174cbc6f80c1707ba048e46b9810cc85a8995d9",
+  "pdfrune_ffi_binary_sha256": "c545a3b18f18128624d4fdb4cd733a895b5e77d5c14d58416b17129066106631",
+  "render_pixel_checks": [
+    {
+      "dpi": 200,
+      "page": 34,
+      "size": [
+        641,
+        1156
+      ],
+      "all_rgba_pixels_equal": true
+    },
+    {
+      "dpi": 200,
+      "page": 35,
+      "size": [
+        641,
+        1156
+      ],
+      "all_rgba_pixels_equal": true
+    },
+    {
+      "dpi": 400,
+      "page": 34,
+      "size": [
+        1283,
+        2313
+      ],
+      "all_rgba_pixels_equal": true
+    },
+    {
+      "dpi": 400,
+      "page": 35,
+      "size": [
+        1283,
+        2313
+      ],
+      "all_rgba_pixels_equal": true
+    }
+  ],
+  "offline_tests": "passed: Unicode/edit distance, exact body spans, reviewed joins, FPU mode restoration, relative atomic writes, success/failure release, partial output, resume identity, response and pixel tamper rejection",
+  "original_cl_checkouts": "unchanged"
+}

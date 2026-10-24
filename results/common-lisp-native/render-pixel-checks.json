@@ -1,0 +1,38 @@
+[
+  {
+    "dpi": 200,
+    "page": 34,
+    "size": [
+      641,
+      1156
+    ],
+    "all_rgba_pixels_equal": true
+  },
+  {
+    "dpi": 200,
+    "page": 35,
+    "size": [
+      641,
+      1156
+    ],
+    "all_rgba_pixels_equal": true
+  },
+  {
+    "dpi": 400,
+    "page": 34,
+    "size": [
+      1283,
+      2313
+    ],
+    "all_rgba_pixels_equal": true
+  },
+  {
+    "dpi": 400,
+    "page": 35,
+    "size": [
+      1283,
+      2313
+    ],
+    "all_rgba_pixels_equal": true
+  }
+]

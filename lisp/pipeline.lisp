@@ -1,0 +1,224 @@
+(in-package #:cl-pdfocr)
+
+(defparameter *ocr-prompt*
+  "Extract all readable text as Markdown. Preserve spelling, footnotes and printed hyphens. Do not complete words cut off at a page edge.")
+
+(defmacro with-rasterizer-float-environment (&body body)
+  "C/Rust image codecs expect masked IEEE exceptions. Restore Lisp's caller modes."
+  #+sbcl `(sb-int:with-float-traps-masked (:invalid :divide-by-zero :overflow) ,@body)
+  #-sbcl `(progn ,@body))
+
+(defun object (&rest pairs)
+  (let ((table (make-hash-table :test 'equal)))
+    (loop for (key value) on pairs by #'cddr do (setf (gethash key table) value))
+    table))
+
+(defun read-json (path)
+  (let ((yason:*parse-json-arrays-as-vectors* t)
+        (yason:*parse-json-booleans-as-symbols* t))
+    (with-open-file (in path :external-format :utf-8) (yason:parse in))))
+
+(defun write-text (path text)
+  (setf path (merge-pathnames path (uiop:getcwd)))
+  (ensure-directories-exist path)
+  (let ((temp (pathname (concatenate 'string (namestring path) ".tmp"))))
+    (with-open-file (out temp :direction :output :if-exists :supersede
+                             :external-format :utf-8)
+      (write-string text out))
+    (uiop:rename-file-overwriting-target temp path))
+  path)
+
+(defun write-json (path value)
+  (write-text path (with-output-to-string (out) (yason:encode value out))))
+
+(defun sha256 (path)
+  (ironclad:byte-array-to-hex-string (ironclad:digest-file :sha256 path)))
+
+(defun validate-pages (pages count)
+  (unless (and (listp pages) pages (<= (length pages) 64)
+               (every (lambda (n) (typep n `(integer 1 ,count))) pages)
+               (loop for (a b) on pages while b always (< a b)))
+    (error "Supply 1–64 strictly increasing, 1-based page numbers within this PDF.")))
+
+(defun prepare-pdf (source out &key pages (dpi 200) (max-pixels 40000000) resume)
+  "Render explicitly selected pages, preserving native text and source hashes."
+  (unless (and (typep dpi '(integer 36 600)) (typep max-pixels '(integer 1 160000000)))
+    (error "DPI/pixel bounds exceeded."))
+  (let* ((source (truename source)) (out (uiop:ensure-directory-pathname out))
+         (manifest-path (merge-pathnames "document.json" out))
+         (identity (object "source_sha256" (sha256 source) "pages" (coerce pages 'vector)
+                           "dpi" dpi "max_pixels" max-pixels)))
+    (pdfrune:with-open-pdf (doc source)
+      (validate-pages pages (pdfrune:page-count doc))
+      (when (probe-file manifest-path)
+        (unless (and resume (equalp identity (gethash "identity" (read-json manifest-path))))
+          (error "Existing preparation differs or resume was not explicit: ~A" out))
+        (let ((old (read-json manifest-path)))
+          (loop for page across (gethash "pages" old)
+                for image = (merge-pathnames (gethash "image" page) out)
+                unless (equal (sha256 image) (gethash "image_sha256" page))
+                  do (error "Prepared image changed: ~A" image))
+          (return-from prepare-pdf out)))
+      (let ((records nil))
+        (dolist (number pages)
+          (let* ((index (1- number)) (info (pdfrune:page-info doc index))
+                 (pixels (* (getf info :width) (getf info :height) (expt (/ dpi 72) 2)))
+                 (name (format nil "pages/page-~4,'0D.png" number))
+                 (path (merge-pathnames name out)))
+            (when (> pixels max-pixels) (error "Page ~D exceeds the raster pixel limit." number))
+            (ensure-directories-exist path)
+            (let ((pix (with-rasterizer-float-environment
+                         (pdfrune:render-page doc index :dpi dpi))))
+              (pdfrune:save-pixmap pix path)
+              (write-text (merge-pathnames (format nil "native/page-~4,'0D.txt" number) out)
+                          (pdfrune:extract-text doc index))
+              (push (object "page" number "image" name "image_sha256" (sha256 path)
+                            "width" (pdfrune:pixmap-width pix) "height" (pdfrune:pixmap-height pix))
+                    records))))
+        (write-json manifest-path
+                    (object "schema_version" 1 "identity" identity
+                            "renderer" "pdfrune CFFI" "renderer_version" (pdfrune:version)
+                            "pages" (coerce (nreverse records) 'vector)))))
+    out))
+
+(defun clean-markdown (raw)
+  "Remove only one surrounding Markdown fence. Return body and exact source interval."
+  (let* ((white '(#\Space #\Tab #\Return #\Newline))
+         (start (or (position-if-not (lambda (c) (member c white)) raw) (length raw)))
+         (end (if (= start (length raw)) start
+                  (1+ (position-if-not (lambda (c) (member c white)) raw :from-end t)))))
+    (when (and (<= (+ start 3) end) (string= "```" raw :start2 start :end2 (+ start 3)))
+      (let ((line (position #\Newline raw :start start :end end)))
+        (when (and line (member (subseq raw start line) '("```" "```md" "```markdown") :test #'equal)
+                   (>= (- end line) 4) (string= "```" raw :start2 (- end 3) :end2 end)
+                   (not (search "```" raw :start2 (1+ line) :end2 (- end 3))))
+          (setf start (1+ line) end (- end 3)))))
+    (loop while (and (< start end) (member (char raw start) white)) do (incf start))
+    (loop while (and (< start end) (member (char raw (1- end)) white)) do (decf end))
+    (values (subseq raw start end) start end)))
+
+(defun adapter-identity (adapter)
+  (let ((manifest (vlm:adapter-manifest adapter)))
+    (object "family" (string-downcase (symbol-name (vlm:model-manifest-family manifest)))
+            "architecture" (vlm:model-manifest-architecture manifest)
+            "checkpoint" (vlm:model-manifest-checkpoint manifest)
+            "revision" (vlm:model-manifest-revision manifest))))
+
+(defun recognize-prepared (prepared out adapter &key (max-new-tokens 2048)
+                                                  (prompt *ocr-prompt*) resume)
+  "Run one image per request; keep raw/clean text, IDs, stops and character provenance."
+  (check-type max-new-tokens (integer 1 16384))
+  (let* ((prepared (uiop:ensure-directory-pathname prepared))
+         (out (uiop:ensure-directory-pathname out))
+         (document-path (merge-pathnames "document.json" prepared))
+         (document (read-json document-path))
+         (config (object "prepared_manifest_sha256" (sha256 document-path)
+                         "model" (adapter-identity adapter) "prompt" prompt
+                         "max_new_tokens" max-new-tokens))
+         (manifest-path (merge-pathnames "run.json" out))
+         (old-run (and (probe-file manifest-path) (read-json manifest-path)))
+         (lock (merge-pathnames ".running" out)) (records nil))
+    (ensure-directories-exist lock)
+    (when old-run
+      (unless (and resume (equalp config (gethash "config" old-run)))
+        (error "Existing run differs or resume was not explicit: ~A" out)))
+    (with-open-file (stream lock :direction :output :if-exists :error)
+      (format stream "Started ~D~%" (get-universal-time)))
+    (unwind-protect
+         (progn
+           (unless old-run (write-json manifest-path (object "config" config "status" "running")))
+           (loop for page across (gethash "pages" document)
+                 for number = (gethash "page" page)
+                 for image = (merge-pathnames (gethash "image" page) prepared)
+                 for record-path = (merge-pathnames (format nil "page-~4,'0D.json" number) out)
+                 do (unless (equal (sha256 image) (gethash "image_sha256" page))
+                      (error "Refusing changed image: ~A" image))
+                    (let ((record
+                            (if (and resume (probe-file record-path))
+                                (let ((cached (read-json record-path)))
+                                  (let ((expected (and old-run
+                                                       (find number (gethash "pages" old-run)
+                                                             :key (lambda (r) (gethash "page" r))))))
+                                    (when (and expected (not (equalp expected cached)))
+                                      (error "Cached response changed since its committed manifest.")))
+                                  (unless (and (= number (gethash "page" cached))
+                                               (equal (gethash "image_sha256" page)
+                                                      (gethash "image_sha256" cached)))
+                                    (error "Cached page identity changed."))
+                                  cached)
+                                (handler-case
+                                    (let* ((result (vlm:generate adapter
+                                                     (list (vlm:make-message :user
+                                                            (list (vlm:make-image-part image :media-type "image/png")
+                                                                  (vlm:make-text-part prompt))))
+                                                     :max-new-tokens max-new-tokens))
+                                           (raw (vlm:generation-result-text result))
+                                           (reason (vlm:generation-result-stop-reason result)))
+                                      (multiple-value-bind (clean start end) (clean-markdown raw)
+                                        (object "page" number "image_sha256" (sha256 image)
+                                                "status" (if (eq reason :length) "partial" "ok")
+                                                "stop_reason" (string-downcase (symbol-name reason))
+                                                "raw" raw "markdown" clean
+                                                "source_start" start "source_end" end
+                                                "token_ids" (vlm:generation-result-token-ids result))))
+                                  (error (e) (object "page" number "image_sha256" (sha256 image)
+                                                     "status" "error" "error" (princ-to-string e)))))))
+                      (write-json record-path record)
+                      (push record records)))
+           (setf records (nreverse records))
+           (let ((spans nil) (cursor 0)
+                 (reading (make-string-output-stream)))
+             (dolist (record records)
+               (let ((heading (format nil "~%~%## PDF page ~D~%~%" (gethash "page" record))))
+                 (write-string heading reading) (incf cursor (length heading)))
+               (let* ((start cursor) (body (gethash "markdown" record "[OCR failed; see page JSON]")))
+                 (write-string body reading)
+                 (incf cursor (length body))
+                 (push (object "page" (gethash "page" record) "output_start" start
+                               "output_end" cursor
+                               "raw_start" (gethash "source_start" record)
+                               "raw_end" (gethash "source_end" record)) spans)))
+             (write-text (merge-pathnames "reading.md" out) (get-output-stream-string reading))
+             (write-json (merge-pathnames "reading-spans.json" out) (coerce (nreverse spans) 'vector)))
+           (write-json manifest-path
+                       (object "config" config "status"
+                               (if (every (lambda (r) (equal "ok" (gethash "status" r))) records)
+                                   "complete" "needs-review")
+                               "pages" (coerce records 'vector)))
+           out)
+      (delete-file lock))))
+
+(defun convert-pdf (source out adapter &key pages (dpi 200) (max-new-tokens 2048) resume)
+  (let* ((out (uiop:ensure-directory-pathname out))
+         (prepared (prepare-pdf source (merge-pathnames "prepared/" out)
+                                :pages pages :dpi dpi :resume resume)))
+    (recognize-prepared prepared (merge-pathnames "ocr/" out) adapter
+                        :max-new-tokens max-new-tokens :resume resume)))
+
+(defun checked-boundary-join (left right left-page right-page expected-left expected-right)
+  "Apply an explicitly reviewed split-word join only to adjacent pages and exact stems.
+Returns the joined text plus the exact deletion position. Makes no lexical inference."
+  (unless (and (= right-page (1+ left-page)) (plusp (length expected-left))
+               (plusp (length expected-right))
+               (>= (length left) (length expected-left))
+               (<= (length expected-right) (length right))
+               (char= #\- (char expected-left (1- (length expected-left))))
+               (string= expected-left left :start2 (- (length left) (length expected-left)))
+               (string= expected-right right :end2 (length expected-right)))
+    (error "Boundary is nonadjacent or literal reviewed fragments no longer match."))
+  (values (concatenate 'string (subseq left 0 (1- (length left))) right)
+          (1- (length left))))
+
+(defun levenshtein-distance (a b)
+  "Exact character or token sequence distance using two rows of storage."
+  (when (< (length a) (length b)) (rotatef a b))
+  (let* ((n (length b)) (prior (make-array (1+ n))) (row (make-array (1+ n))))
+    (dotimes (j (1+ n)) (setf (aref prior j) j))
+    (dotimes (i (length a))
+      (setf (aref row 0) (1+ i))
+      (dotimes (j n)
+        (setf (aref row (1+ j))
+              (min (1+ (aref prior (1+ j))) (1+ (aref row j))
+                   (+ (aref prior j) (if (equal (elt a i) (elt b j)) 0 1)))))
+      (rotatef prior row))
+    (aref prior n)))

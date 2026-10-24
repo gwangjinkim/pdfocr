@@ -57,6 +57,17 @@ GLM failed. No false joins were added on 24 control decisions, representing
 six physical boundaries repeated across resolutions and target OCR sources.
 That small sample does not establish a production false-join rate.
 
+## Native Common Lisp version
+
+The separate [Common Lisp application](lisp/README.md) uses `cl-pdfrune`,
+`cl-vlm`, `cl-docling` and native MLX kernels. No Python/Ollama runtime performs
+inference. It preserves raw output, token IDs, stop reasons, exact body spans and
+explicit resume identities. Two Fraktur pages produced 128 native tokens each
+on Metal and correctly remained partial; four CFFI renders at 200/400 DPI
+matched the frozen reference pixels. This uses the existing **Gemma 4 E2B/70-token**
+adapter, not the article's 12B winner. The guide lists the native extensions
+needed for the exact Gemma 3, Gemma 4 12B, Ovis, Paddle and GLM models.
+
 ## Setup
 
 Install Python 3.12, uv and Rust. The tested toolchain was Rust 1.99.0;
