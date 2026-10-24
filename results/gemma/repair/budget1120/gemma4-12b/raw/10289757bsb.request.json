@@ -1,0 +1,15 @@
+{
+  "task": "repair",
+  "backend": "mlx",
+  "model_name": "boundary-small",
+  "model_path": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+  "pin": {
+    "repo": "mlx-community/Qwen3-1.7B-4bit",
+    "revision": "3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+    "path": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e"
+  },
+  "output": "workspace/gemma/repair/budget1120/gemma4-12b/raw/10289757bsb.md",
+  "raw": "workspace/gemma/repair/budget1120/gemma4-12b/raw/10289757bsb.raw.md",
+  "report": "workspace/gemma/repair/budget1120/gemma4-12b/raw/10289757bsb.boundaries.jsonl",
+  "running_headers": []
+}

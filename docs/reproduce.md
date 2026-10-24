@@ -80,3 +80,11 @@ All CER/WER reference transcriptions are provisional AI-assisted visual reviews,
 not independently adjudicated human gold. Historical spelling, case and punctuation count. Long s, page furniture, markup
 and internal line-wrap hyphens are normalized as documented in the scoring code. Frozen labels must stay outside training data if used as a
 test set for future fine-tuning.
+
+## Gemma follow-up (October 24, 2026)
+
+The [Gemma comparison](gemma-comparison.md) adds the original 2025 script's
+multi-image 72-DPI workflow, matched 400-DPI Gemma 3/Gemma 4 runs, a confirmed
+1120-image-token control, and both raw and presentation-cleaned boundary
+repair. These are new measurements; none replace the frozen October 23
+answers above. The historical PyMuPDF dependency stays in its own environment.

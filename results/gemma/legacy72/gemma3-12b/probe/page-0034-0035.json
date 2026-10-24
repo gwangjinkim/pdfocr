@@ -1,0 +1,48 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    34,
+    35
+  ],
+  "arm": "legacy72",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "2ea9db7cd667043eeb159d3261a8da4eb5f818560e8ac2f18f4f8096262e6d87"
+          },
+          {
+            "sha256": "55ff3a201bcb36e6925bdec8daaebc487d6dd77a602240571d789db0306badbe"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:26:05.629705Z",
+    "message": {
+      "role": "assistant",
+      "content": "Okay, here's the extracted text from the images, formatted into a structured Markdown representation.  Please note that due to the quality of the image (lighting/resolution) and the nature of old-style typography, there might be some errors in character recognition, especially with less common letters or punctuation marks.\n\n```markdown\n## Extracted Text from Images - Page 12 & 15\n\n### Page 12:\n---\n- 12 -\n\nGeheimnißige des Geisterreichs aufset, um unsere Tage zu verlängern, selbst die Gesirne mussten dazu herangehen. Es wurde damals allgemeiner Glaube, daß der Einfluß der Gestirne (die man sich nicht ganz wüßtig denken konnte) Leben und Schicksale der Menschen regiere; daß jeder Planet und jede Consellation derselben der ganzen christlichen Welt darin erzeugten Wesens eine gewisse Richtung zum Himmeln oder Guten geben könne, und dahingeh ein Astrolog nur die Stunde und Minute der Geburt zu wissen brauche, um das Temperament, die Lieblingsfähigkeit, die Schicksale, die Krankheiten, die Art des Todes und auch den Tag derselben bestimmen zu können. – Dies war der Glaube nicht bloß des großen Hauses, sondern der größten, verständigen und einflußvollsten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie seit man daran hing, unachechtig es nicht an Weisheiten fehlen konnte, so die Prophezeiung befiletung. Bischöfe, hohe Geistliche, berühmte Philosophen und Ärzte gaben sich mit dem Narrativistellen ab, man las sogar auf universitaren Collegia darüber, so gut wie über die Punctfust und Cabala. Zum Beweise erlahne man mir ein paar Worte von dem berühmten Tschudsen, den glänzendsten phänomen dieser Art, und einem wirklich angezeichneten Müßigen zu sagen. Es lichte im ersten Jahrhundert an dem kurfürstlichen Hof zu Berlin, und war Recivart, Chemist, Narrativisteller, Calendermacher, Buchdrucker und Buchhändler, alles in einer Per-\n### Page 15:\n\n---\n- 15 -\n\nten. Seine Reputation in der Astrologie war so groß, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht folglich einen Noten mit der Bestimmung der Gestunde an ihm abzusendete. Es kamen oft acht, zehn bis zweif gleiche Geburtstunden auf einmal bei ihm an, und er wurde zuecher zu überhäuft, daß er sich Gehüllen zu diesem Gesichte halten mußte. Noch befinden sich viele Rande solcher Anfragen aus der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen.  Außerdem schickt er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überdart, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen oder Zeichen angezeigt waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sie durch Bild und gute Worte beweisen lieg, dieselbe im voraus mitszustellen. Und bekommen muß man, was die Kunst der unbestimmten prophetischen Diction und die Gehaltigkeit des Zufalls thun können; der Calender erblicket sich über 30 Jahre, hatte reißenden Abgang, und verhaftete, neben andern Charlatanerien, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unverkennliche Anzeigen lehte, Mittel zur Verlängerung derselben finden! Dies geisah auf folgende sinnreiche Art:\n```\n\n**Notes:**\n\n*   I've done my best to accurately represent the text based on the images provided. Some words are still difficult to interpret with certainty and may have slight errors.\n*   The formatting attempts to mimic the layout and line breaks as much as possible, using Markdown headings for page numbers and paragraph separation.\n*  Some abbreviations or unfamiliar terms might be present due to the historical context. I haven't attempted to \"correct\" these unless they clearly hinder readability."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 60570091750,
+    "load_duration": 5040692750,
+    "prompt_eval_count": 564,
+    "prompt_eval_duration": 5101718000,
+    "eval_count": 926,
+    "eval_duration": 50408775000
+  },
+  "markdown": "Okay, here's the extracted text from the images, formatted into a structured Markdown representation.  Please note that due to the quality of the image (lighting/resolution) and the nature of old-style typography, there might be some errors in character recognition, especially with less common letters or punctuation marks.\n\n```markdown\n## Extracted Text from Images - Page 12 & 15\n\n### Page 12:\n---\n- 12 -\n\nGeheimnißige des Geisterreichs aufset, um unsere Tage zu verlängern, selbst die Gesirne mussten dazu herangehen. Es wurde damals allgemeiner Glaube, daß der Einfluß der Gestirne (die man sich nicht ganz wüßtig denken konnte) Leben und Schicksale der Menschen regiere; daß jeder Planet und jede Consellation derselben der ganzen christlichen Welt darin erzeugten Wesens eine gewisse Richtung zum Himmeln oder Guten geben könne, und dahingeh ein Astrolog nur die Stunde und Minute der Geburt zu wissen brauche, um das Temperament, die Lieblingsfähigkeit, die Schicksale, die Krankheiten, die Art des Todes und auch den Tag derselben bestimmen zu können. – Dies war der Glaube nicht bloß des großen Hauses, sondern der größten, verständigen und einflußvollsten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie seit man daran hing, unachechtig es nicht an Weisheiten fehlen konnte, so die Prophezeiung befiletung. Bischöfe, hohe Geistliche, berühmte Philosophen und Ärzte gaben sich mit dem Narrativistellen ab, man las sogar auf universitaren Collegia darüber, so gut wie über die Punctfust und Cabala. Zum Beweise erlahne man mir ein paar Worte von dem berühmten Tschudsen, den glänzendsten phänomen dieser Art, und einem wirklich angezeichneten Müßigen zu sagen. Es lichte im ersten Jahrhundert an dem kurfürstlichen Hof zu Berlin, und war Recivart, Chemist, Narrativisteller, Calendermacher, Buchdrucker und Buchhändler, alles in einer Per-\n### Page 15:\n\n---\n- 15 -\n\nten. Seine Reputation in der Astrologie war so groß, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht folglich einen Noten mit der Bestimmung der Gestunde an ihm abzusendete. Es kamen oft acht, zehn bis zweif gleiche Geburtstunden auf einmal bei ihm an, und er wurde zuecher zu überhäuft, daß er sich Gehüllen zu diesem Gesichte halten mußte. Noch befinden sich viele Rande solcher Anfragen aus der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen.  Außerdem schickt er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überdart, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen oder Zeichen angezeigt waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sie durch Bild und gute Worte beweisen lieg, dieselbe im voraus mitszustellen. Und bekommen muß man, was die Kunst der unbestimmten prophetischen Diction und die Gehaltigkeit des Zufalls thun können; der Calender erblicket sich über 30 Jahre, hatte reißenden Abgang, und verhaftete, neben andern Charlatanerien, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unverkennliche Anzeigen lehte, Mittel zur Verlängerung derselben finden! Dies geisah auf folgende sinnreiche Art:\n```\n\n**Notes:**\n\n*   I've done my best to accurately represent the text based on the images provided. Some words are still difficult to interpret with certainty and may have slight errors.\n*   The formatting attempts to mimic the layout and line breaks as much as possible, using Markdown headings for page numbers and paragraph separation.\n*  Some abbreviations or unfamiliar terms might be present due to the historical context. I haven't attempted to \"correct\" these unless they clearly hinder readability.",
+  "possibly_truncated": false,
+  "seconds": 60.57577967643738
+}

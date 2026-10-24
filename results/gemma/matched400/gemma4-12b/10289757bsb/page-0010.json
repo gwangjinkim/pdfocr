@@ -1,0 +1,34 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    10
+  ],
+  "arm": "matched400",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "a5927b57b192034d56607c6bfa3f9fa33dceb39b2c0528006135dfb2d595cc72"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "error",
+  "error": "Client error '413 Request Entity Too Large' for url 'http://127.0.0.1:11434/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/413",
+  "seconds": 3.362316131591797
+}

@@ -1,0 +1,58 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    26
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "3dbc1e0948653e8554b03adbc0a9da1b485b56c6cb08c1a06df65a5c21858042"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:28:53.855053Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\n**Page 4:**\n\nnatur, nirgends so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein Wunder also, daß der vollkommenste Besitzer dieses Gutes auch einen so hohen Werth darauf setzt, und daß schon der bloße Gedanke von Leben und Seyn so hoch den Neig für uns hat. Jeder Körper wird und um so interessanter, je mehr wir ihm eine Art von Leben und Lebensgefühl zutrauen können. Nichts vermag so sehr ans zu wirken, solche Aussprosserungen zu veranlassen, und die außerordentlichsten Entwicklungen und Anstrengungen unser verborgensten Kräfte hervorzubringen, als der Trieb es zu erhalten und in dem kritischen Augenblick es zu retten. Selbst ohne Gewinn und Freuden des Lebens, selbst für den, der unbeschreibaren Schmerzen leidet, oder ihm dunkeln Kerker auf immer seine Freiheit beweist, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorgane, eine einzige Verdunkelung und Todtung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. – So weise und innig würde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen als der öffentlichen Glückseligkeit, mit unsterblicheer Erigkeit verwert! — Sehr natürlich war es daher, daß der Gedanke in dem Menschen aufsteigen musste: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu künftigen Genusses Gutes mehr Ausdehnung zu geben? Und\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 19129201041,
+    "load_duration": 2460071666,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1902516000,
+    "eval_count": 379,
+    "eval_duration": 14706774000
+  },
+  "markdown": "## Extracted Text:\n\n**Page 4:**\n\nnatur, nirgends so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein Wunder also, daß der vollkommenste Besitzer dieses Gutes auch einen so hohen Werth darauf setzt, und daß schon der bloße Gedanke von Leben und Seyn so hoch den Neig für uns hat. Jeder Körper wird und um so interessanter, je mehr wir ihm eine Art von Leben und Lebensgefühl zutrauen können. Nichts vermag so sehr ans zu wirken, solche Aussprosserungen zu veranlassen, und die außerordentlichsten Entwicklungen und Anstrengungen unser verborgensten Kräfte hervorzubringen, als der Trieb es zu erhalten und in dem kritischen Augenblick es zu retten. Selbst ohne Gewinn und Freuden des Lebens, selbst für den, der unbeschreibaren Schmerzen leidet, oder ihm dunkeln Kerker auf immer seine Freiheit beweist, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorgane, eine einzige Verdunkelung und Todtung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. – So weise und innig würde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen als der öffentlichen Glückseligkeit, mit unsterblicheer Erigkeit verwert! — Sehr natürlich war es daher, daß der Gedanke in dem Menschen aufsteigen musste: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu künftigen Genusses Gutes mehr Ausdehnung zu geben? Und",
+  "possibly_truncated": false,
+  "seconds": 19.136083841323853,
+  "format_cleanup": {
+    "source_start": 12,
+    "source_end": 1526,
+    "operations": [
+      "single_outer_markdown_fence"
+    ]
+  },
+  "original_page_result": "workspace/gemma/matched400cap2880/gemma3-12b/makrobiotikoderd00hufeuoft/page-0026.json"
+}

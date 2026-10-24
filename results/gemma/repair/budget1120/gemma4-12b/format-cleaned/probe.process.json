@@ -1,0 +1,13 @@
+{
+  "pid": 64005,
+  "started_at_unix": 1792833937.4108531,
+  "argv": [
+    "runners/mlx/.venv/bin/python",
+    "-m",
+    "pdfocr.decision_worker",
+    "workspace/gemma/repair/budget1120/gemma4-12b/format-cleaned/probe.request.json"
+  ],
+  "returncode": 0,
+  "exited": true,
+  "seconds": 5.030974833294749
+}

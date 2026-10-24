@@ -1,0 +1,19 @@
+## Page 34
+
+```markdown
+## Extracted Text:
+
+- 12 -
+
+Geheimnisse des Geisterreichs aufsucht, um unsere Tage zu verlängern, selbst die Gesirne mussten dazu herbeigerufen werden. Es wurde damals allgemeiner Glaube, dass der Einfluss der Gestirne (die man sich doch nicht ganz müssig denken konnte) Leben und Schicksale der Menschen regiere, dass jeder Planet und jede Conjunction derselben den ganzen Einfluss des darin erzeugten Menschen eine gewisse Richtung zum Bösen oder Guten geben könne, und daß solches ein Astrolog nur die Stunde und Minute der Geburt zu wissen brauche, um das Temperament, die Geistesfähigkeiten, die Schicksale, die Krankheiten, die Art des Todes und auch den Tag derselben bestimmen zu können. – Dies war der Glaube nicht bloß des großen Hausens, sondern der größten, verständigsten und einflußvollsten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie fest man daran hing, unerachtet es nicht an Weisheiten fehlen konnte, wo die Prophezeiung fehlschlug. Bischöfe, hohe Geistliche, berühmte Philosophen und Ärzte gaben sich mit dem Nativitātstellen ab, man las sogar auf universitāren Collegia darüber, so gut wie über die Punctirkunst und Cabala. Zum Beweise erlaube man mir ein paar Worte von dem berühmten Thurneisen, dem glänzendsten Physiker men dieser Art, und einem wirklich ausgezeichneten Menschen, zu sagen. Er lebte im 17ten Jahrhundert an dem kursächsischen Hofe zu Berlin, und war Leibarzt, Chemist, Nativitātsteller, Calendermacher, Druckbucher und Buchhändler, alles in einer Per-
+```
+
+## Page 35
+
+```markdown
+15 —
+
+seine Reputation in der Astrologie war so gross, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Notar mit der Bestimmung der Geburtstunde an ihn abendete. Es kamen oft acht, zehn bis zwölf solche Geburtstunden auf einmal bei ihm an, und er wurde zuletzt so überhaupt, daß er sich Gebühren zu diesem Reichhalt halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angezeigt waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte bewogen zu ließ, dieselbe im voraus mitzutheilen. Und bewendern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reissenden Abgang, und verschaffte, nebst andern Charakaterien, dem Verfasser ein Vermögen von einigen hundertausend Gulden.
+
+Aber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Grenzen setzte, Mittel zur Verlängerung desselben finden! Dies geschah auf folgende sinnreiche Art:
+```

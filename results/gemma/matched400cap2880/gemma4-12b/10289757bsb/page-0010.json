@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    10
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "a93dbfbf71935e12b24e8afa9d12ada7651213e7b065fdd1226ecb6acfbd072f"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:09:10.109544Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 6\n\nden aufpührt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnis; denn es ist entschieden, daß gerade die Hütten der Armuth soi sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die aller-verderblichsten Seuchen und Ansteckungs-gifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewiß ein großer und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem ebenig wichtigsten Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritte in das Armendirectorium vor 10 Jahren diesen Theil der Armenpflege, der sich um die Vorsorge für die armen Kranken sowohl in den Hospitälern, als in der Stadt, beschäftigte. Aber nur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 29478129084,
+    "load_duration": 3024068084,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 1772750000,
+    "eval_count": 280,
+    "eval_duration": 24506995000
+  },
+  "markdown": "```markdown\n# Page 6\n\nden aufpührt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnis; denn es ist entschieden, daß gerade die Hütten der Armuth soi sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die aller-verderblichsten Seuchen und Ansteckungs-gifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewiß ein großer und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem ebenig wichtigsten Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritte in das Armendirectorium vor 10 Jahren diesen Theil der Armenpflege, der sich um die Vorsorge für die armen Kranken sowohl in den Hospitälern, als in der Stadt, beschäftigte. Aber nur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme\n```",
+  "possibly_truncated": false,
+  "seconds": 29.494877815246582
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    71
+  ],
+  "arm": "matched400budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "e6bf584911abf617c7be2d204e81a487347a34f313de1d270f2f143b0f81872e"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:13:04.857323Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 67\n\n* *Tinctura Antimonii acris.*\n(Sulphur Antimonii liquidum.)\n\n℞. Sulphuris stibiat, aurantiac. $\\bar{z}$j\nsolve digerend. in s. q.\nLiquor. Kali caustic.\nadmisce\nSapon. medicat, $\\bar{z}$iij\nSpirit. Vin. rectificatiss.\nAq. destillat, aa $\\bar{z}$vj\nDigerantur.\n\nEin höchst wirksames Mittel bei hartmäckigen Rheu-\nmatismen, Flechten, und andern Hautkrankheiten\nzu 20 bis 50 Tropfen täglicheinigemal.\n\n* *Tinctura aromatica Ph. P.*\n\n℞. Rad. Calam\nAngelic.\nZingiber.\nHelen.\nHb. Menth. pip.\nSem. Anis. aa $\\bar{z}$j\nCaryophyllor.\nCinamom. aa $\\bar{z}$$\\text{\\small\\bf\\char`\\163}$\nPiper. nigr. $\\text{iiiij}$\nC. c. digere cum\nSpirit. Vin. rectificat. $\\text{ffij}$\nfiltr. add.\nOl. Anis. $\\text{iiiij}$\n\nE 2\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 57558587625,
+    "load_duration": 2460992334,
+    "prompt_eval_count": 1129,
+    "prompt_eval_duration": 8021566000,
+    "eval_count": 302,
+    "eval_duration": 46900939000
+  },
+  "markdown": "* *Tinctura Antimonii acris.*\n(Sulphur Antimonii liquidum.)\n\n℞. Sulphuris stibiat, aurantiac. $\\bar{z}$j\nsolve digerend. in s. q.\nLiquor. Kali caustic.\nadmisce\nSapon. medicat, $\\bar{z}$iij\nSpirit. Vin. rectificatiss.\nAq. destillat, aa $\\bar{z}$vj\nDigerantur.\n\nEin höchst wirksames Mittel bei hartmäckigen Rheu-\nmatismen, Flechten, und andern Hautkrankheiten\nzu 20 bis 50 Tropfen täglicheinigemal.\n\n* *Tinctura aromatica Ph. P.*\n\n℞. Rad. Calam\nAngelic.\nZingiber.\nHelen.\nHb. Menth. pip.\nSem. Anis. aa $\\bar{z}$j\nCaryophyllor.\nCinamom. aa $\\bar{z}$$\\text{\\small\\bf\\char`\\163}$\nPiper. nigr. $\\text{iiiij}$\nC. c. digere cum\nSpirit. Vin. rectificat. $\\text{ffij}$\nfiltr. add.\nOl. Anis. $\\text{iiiij}$\n\nE 2",
+  "possibly_truncated": false,
+  "seconds": 57.57296085357666,
+  "format_cleanup": {
+    "source_start": 23,
+    "source_end": 722,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma/budget1120/gemma4-12b/10289757bsb/page-0071.json"
+}

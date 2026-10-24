@@ -1,7 +1,7 @@
 # PDF OCR lab
 
 Local PDF to Markdown experiments with **pdfrune**, OvisOCR3, GLM-OCR,
-PaddleOCR-VL-1.6 and TeleOCR. The tested inference machine was an Apple M3 Max
+PaddleOCR-VL-1.6, TeleOCR, Gemma 3:12b and Gemma 4:12b. The tested inference machine was an Apple M3 Max
 with 128 GiB unified memory. The MLX recipe below targets Apple Silicon.
 
 [Results](results/) ·
@@ -9,11 +9,22 @@ with 128 GiB unified memory. The MLX recipe below targets Apple Silicon.
 
 ## What the experiments found
 
-On 16 pages from two historical German books, Ovis had the lowest combined
-character error rate. GLM was slightly better on the Antiqua subset, while
-Ovis was substantially better on Fraktur. These are historical Antiqua pages,
+In the initial four specialized OCR stacks, Ovis had the lowest combined
+character error rate on 16 pages from two historical German books. GLM was
+slightly better on Antiqua, while Ovis was substantially better on Fraktur.
+The subsequent Gemma comparison changed the recommendation: **Gemma 4 12B
+with a confirmed 1120-image-token budget and presentation-only cleanup scored
+1.14% combined CER (0.42% Antiqua, 1.57% Fraktur)**. The installed runtime's
+default image budget scored 14.85% after the same cleanup. Both raw and cleaned
+metrics remain available; no OCR letters were corrected. These are historical Antiqua pages,
 not a benchmark of clean contemporary documents. Fourteen provisional visual
 transcriptions were scored; two prescription pages were reviewed qualitatively.
+
+The original Gemma 3 multi-image/PyMuPDF workflow is retested separately from
+matched per-page OCR. See [Gemma methods and commands](docs/gemma-comparison.md)
+and [Gemma measurements](results/pdfocr-gemma-comparison.md). Better CER did
+not guarantee correct word joins: the higher-budget Gemma 4 still produced
+`Perion` on the Fraktur `Per-`/`son.` probe with text-only repair.
 
 400-DPI rendering did not generally improve OCR. GLM repeated a paragraph at
 400 DPI with both pdfrune and PDFium; a separately recorded lower-input-cap
@@ -44,7 +55,10 @@ uv run pytest -q
 
 No model weights, Python environments, compiled binaries or book PDFs are
 included. Models download only when explicitly requested. Every inference
-worker is bounded and foreground; no inference server or watcher is started.
+worker is bounded and foreground. No persistent service or watcher is started.
+The Gemma baseline connects to an existing local Ollama. Its optional image-budget
+control explicitly starts a finite supervised child on another loopback port,
+then unloads, terminates and waits for it; the existing service stays unchanged.
 
 ## Try your own PDF
 
@@ -77,12 +91,15 @@ mapped separator. It does not silently replace misrecognized letters.
 - `datasets/`: page selections, frozen provisional references and boundary labels.
 - `results/`: measured summaries, original page responses and manifests. Archived
   metadata uses portable path labels; it is not a pre-populated live workspace.
-- `tests/`: 28 harness tests. The vendored pdfrune core has 14 Rust tests.
+- `runners/legacy/`: isolated optional PyMuPDF/Ollama historical runner. PyMuPDF
+  is AGPL/commercial and is not a dependency of the permissive pdfrune path.
+- `tests/`: 33 harness tests. The vendored pdfrune core has 14 Rust tests.
 
 Prompts, model revisions, BF16 versus Q8 precision, resize caps and limitations
 are recorded. These adapters do not claim parity with official benchmark
 pipelines. Legacy experimental profiles are clearly identified in the model
-registry; only the four named OCR models were compared here.
+registry; the four specialized OCR models and two named Gemma models were
+actually executed. Gemma comparisons use Q4_K_M conversions, not BF16.
 
 The harness and author-contributed stitching code are MIT licensed. Bundled
 third-party components retain their licenses. pdfrune is MIT OR Apache-2.0.

@@ -1,0 +1,60 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    30
+  ],
+  "arm": "matched400budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "b93ac23d7d1c30d20b4ea5a0d33187b5ff7e66a3c931406f696ae84333291eec"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:18:59.79747Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 8\n\nund versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebensduft frisch aufgeschnit-\nzener Thiere auf gelähmte Glieder, was das Ausle-\ngen lebendiger Thiere auf schmerzhafte Ueben vermag,\nso scheint diese Methode nicht verwerflich zu sein.\n\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwehen eines reinen gesunden Athems\nsetzte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\n---\n\nDem Aeskulap und der Gesundheit\ngeweiht\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Athem junger Mädchen u. s. w.\n\n---\n\nDiese Inschrift mag nun acht sein oder nicht;\ngenug sie veranlaßte noch zu Anfang des 18ten Jahr-\nhunderts eine Schrift, worin ein Doctor Eobausen\nsehr gelehrt beweist, dieser Hermippus sei ein\nWaisenhaus-Vorsteher oder Mädchenschulmeister zu\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 59713414625,
+    "load_duration": 2938972916,
+    "prompt_eval_count": 1085,
+    "prompt_eval_duration": 6920854000,
+    "eval_count": 354,
+    "eval_duration": 49784491000
+  },
+  "markdown": "und versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebensduft frisch aufgeschnit-\nzener Thiere auf gelähmte Glieder, was das Ausle-\ngen lebendiger Thiere auf schmerzhafte Ueben vermag,\nso scheint diese Methode nicht verwerflich zu sein.\n\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwehen eines reinen gesunden Athems\nsetzte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAesculapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\n---\n\nDem Aeskulap und der Gesundheit\ngeweiht\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Athem junger Mädchen u. s. w.\n\n---\n\nDiese Inschrift mag nun acht sein oder nicht;\ngenug sie veranlaßte noch zu Anfang des 18ten Jahr-\nhunderts eine Schrift, worin ein Doctor Eobausen\nsehr gelehrt beweist, dieser Hermippus sei ein\nWaisenhaus-Vorsteher oder Mädchenschulmeister zu",
+  "possibly_truncated": false,
+  "seconds": 59.75184988975525,
+  "format_cleanup": {
+    "source_start": 22,
+    "source_end": 1149,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma/budget1120/gemma4-12b/makrobiotikoderd00hufeuoft/page-0030.json"
+}

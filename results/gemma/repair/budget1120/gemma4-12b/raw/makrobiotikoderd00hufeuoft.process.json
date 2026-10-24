@@ -1,0 +1,13 @@
+{
+  "pid": 63017,
+  "started_at_unix": 1792833842.798184,
+  "argv": [
+    "runners/mlx/.venv/bin/python",
+    "-m",
+    "pdfocr.decision_worker",
+    "workspace/gemma/repair/budget1120/gemma4-12b/raw/makrobiotikoderd00hufeuoft.request.json"
+  ],
+  "returncode": 0,
+  "exited": true,
+  "seconds": 3.7588372910395265
+}

@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    201
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "78a92b991f459578e3959ce9ef194e03758d554ed17f5a9d63c0bffbbcb3668c"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:21:01.042443Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# 179\n\nGroßmächtige aller Herrscher im animalischen Reiche\nin dieser Hinsicht ist, und man kann mit voller\nRechtsche behaupten, ohne einen guten Magen ist es\nunmöglich, zu haben, etwas anderes zu erlangen.\n\nIn zweiterer Hinsicht ist der Magen der Grund-\nstein des langen Lebens: Einsel, indem es erste\nund wichtigste Restaurationsorgan unser Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingenommen muß, vor dem schlechtem Zustand nicht nur die Quantität,\nsondern auch die Qualität unseres Körpers abhängt. —\nWeiterens, auch durch die Beschaffenheit des Ma-\ngens selbst die Einführung der Leidenschaften, der\nerfreulichen und anderer erfreuender Einflüße,\nauf unsern Körper mobilisiert wird. — „Er hat einen\nguten Magen,“ sagt ein Sprichwort, wenn\nman Jemand charakterisieren will, auf den weder Ver-\nder, noch Kummer, noch Enttäuschung möglich wir-\nken, und gewiss, es liegt viel Wahres darin. —\nAlle diese Identifikationen müssen unverzüglich vom Ma-\ngenn afficieren, von ihm gleichsam empfunden und\nangenommen werden, wenn sie in unser Physisches\nEingreifen und fließen. Ein guter robuster\nMagen nimmt gar keine Notiz davon. Hingegen ein\nschwacher oder Magen, der also die öffentliche\ndurch so etwas in seiner Berührung gestört, und\nfolglich das so wichtige Restaurationsgeschäft unauf-\nhörlich und verändernd schlecht vorbetreht. — Eben\nso ist es mit den meisten physischen Krankheitside-\neen; die meisten haben ihren ersten Eindruck auf\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 72446685375,
+    "load_duration": 8942771333,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 3212250000,
+    "eval_count": 397,
+    "eval_duration": 60227666000
+  },
+  "markdown": "```markdown\n# 179\n\nGroßmächtige aller Herrscher im animalischen Reiche\nin dieser Hinsicht ist, und man kann mit voller\nRechtsche behaupten, ohne einen guten Magen ist es\nunmöglich, zu haben, etwas anderes zu erlangen.\n\nIn zweiterer Hinsicht ist der Magen der Grund-\nstein des langen Lebens: Einsel, indem es erste\nund wichtigste Restaurationsorgan unser Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingenommen muß, vor dem schlechtem Zustand nicht nur die Quantität,\nsondern auch die Qualität unseres Körpers abhängt. —\nWeiterens, auch durch die Beschaffenheit des Ma-\ngens selbst die Einführung der Leidenschaften, der\nerfreulichen und anderer erfreuender Einflüße,\nauf unsern Körper mobilisiert wird. — „Er hat einen\nguten Magen,“ sagt ein Sprichwort, wenn\nman Jemand charakterisieren will, auf den weder Ver-\nder, noch Kummer, noch Enttäuschung möglich wir-\nken, und gewiss, es liegt viel Wahres darin. —\nAlle diese Identifikationen müssen unverzüglich vom Ma-\ngenn afficieren, von ihm gleichsam empfunden und\nangenommen werden, wenn sie in unser Physisches\nEingreifen und fließen. Ein guter robuster\nMagen nimmt gar keine Notiz davon. Hingegen ein\nschwacher oder Magen, der also die öffentliche\ndurch so etwas in seiner Berührung gestört, und\nfolglich das so wichtige Restaurationsgeschäft unauf-\nhörlich und verändernd schlecht vorbetreht. — Eben\nso ist es mit den meisten physischen Krankheitside-\neen; die meisten haben ihren ersten Eindruck auf\n```",
+  "possibly_truncated": false,
+  "seconds": 72.45402598381042
+}

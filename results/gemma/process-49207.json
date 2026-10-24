@@ -1,0 +1,16 @@
+{
+  "pid": 49207,
+  "started_at_unix": 1792832089.094164,
+  "argv": [
+    "scripts/gemma_benchmark.py",
+    "run",
+    "--models",
+    "gemma4:12b",
+    "--arms",
+    "matched400",
+    "legacy72"
+  ],
+  "exited": true,
+  "returncode": 1,
+  "seconds": 802.2367761135101
+}

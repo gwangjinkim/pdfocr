@@ -1,0 +1,50 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    10
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "a93dbfbf71935e12b24e8afa9d12ada7651213e7b065fdd1226ecb6acfbd072f"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:26:40.188862Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\n- 6 -\n\nden aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und versteift eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dass gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die allerverderblichsten Seuchen und Ansteckungs- gifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. - Gewifs ein großer und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemei- nen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritt in das Amen di- rectorium vor 10 Jahren diesen Theil der Armenverpflegung, der sich mit der Vorsorge für die armen Kranken sowohl in den Hos pitälern, als in der Stadt, beschäftigte. Aber nur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Arnenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 17218074208,
+    "load_duration": 2796112375,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1951736000,
+    "eval_count": 289,
+    "eval_duration": 12296875000
+  },
+  "markdown": "```markdown\n## Extracted Text:\n\n- 6 -\n\nden aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und versteift eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dass gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die allerverderblichsten Seuchen und Ansteckungs- gifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. - Gewifs ein großer und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemei- nen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritt in das Amen di- rectorium vor 10 Jahren diesen Theil der Armenverpflegung, der sich mit der Vorsorge für die armen Kranken sowohl in den Hos pitälern, als in der Stadt, beschäftigte. Aber nur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Arnenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme\n```",
+  "possibly_truncated": false,
+  "seconds": 17.23697304725647
+}

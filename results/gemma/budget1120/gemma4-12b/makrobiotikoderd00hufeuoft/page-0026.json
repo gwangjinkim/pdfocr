@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    26
+  ],
+  "arm": "matched400budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "3dbc1e0948653e8554b03adbc0a9da1b485b56c6cb08c1a06df65a5c21858042"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:08:22.825745Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n— 4 —\n\nNatur, nirgends so viel Energie des Lebens, mit\nsolcher Dauer vereinigt, als hier. Kein Wunder\nalso, daß der vollkommenste Besitzer dieses Gutes\nauch einen so hohen Werth darauf setzt, und daß\nschon der bloße Gedanke von Leben und Sein so ho-\nhen Reiz für uns hat. Jeder Körper wird uns um\nso interessanter, je mehr wir ihm eine Art von Leben\nund Lebensgefühl zutrauen können. Nichts vermag\nso sehr auf uns zu wirken, solche Aufopferungen zu\nveranlassen, und die außerordentlichsten Entwicklun-\ngen und Anstrengungen unserer verborgensten Kräfte\nhervorzubringen, als der Trieb es zu erhalten und\nin dem kritischen Augenblick es zu retten. Selbst\nohne Genuß und Freuden des Lebens, selbst für den,\nder an unheilbaren Schmerzen leidet, oder im dun-\nkeln Kerker auf immer seine Freiheit beweint, be-\nhält der Gedanke zu sein und zu leben noch Reiz,\nund es gehört schlechterdings eine nur bei Menschen\nmögliche Zerrüttung der feinsten Empfindungsorga-\nne, eine gänzliche Verdunkelung und Tötung des\ninnern Sinns dazu, um das Leben gleichgültig oder\ngar verhaßt zu machen. — So weise und innig wurde\nLiebe des Lebens, dieser eines denkenden Wesens so\nwürdige Trieb, dieser Grundpfeiler sowohl der ein-\nzelnen als der öffentlichen Glückseligkeit, mit unser-\ner Christenz verwebt! — Sehr natürlich war es da-\nher, daß der Gedanke in dem Menschen aufsteigen\nmußte: Sollte es nicht möglich sein, unser Dasein\nzu verlängern, und dem nur gar zu flüchtigen Ge-\nnuß dieses Guts mehr Ausdehnung zu geben? Und\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 47435815541,
+    "load_duration": 2674612416,
+    "prompt_eval_count": 1085,
+    "prompt_eval_duration": 5090323000,
+    "eval_count": 428,
+    "eval_duration": 39590390000
+  },
+  "markdown": "```markdown\n— 4 —\n\nNatur, nirgends so viel Energie des Lebens, mit\nsolcher Dauer vereinigt, als hier. Kein Wunder\nalso, daß der vollkommenste Besitzer dieses Gutes\nauch einen so hohen Werth darauf setzt, und daß\nschon der bloße Gedanke von Leben und Sein so ho-\nhen Reiz für uns hat. Jeder Körper wird uns um\nso interessanter, je mehr wir ihm eine Art von Leben\nund Lebensgefühl zutrauen können. Nichts vermag\nso sehr auf uns zu wirken, solche Aufopferungen zu\nveranlassen, und die außerordentlichsten Entwicklun-\ngen und Anstrengungen unserer verborgensten Kräfte\nhervorzubringen, als der Trieb es zu erhalten und\nin dem kritischen Augenblick es zu retten. Selbst\nohne Genuß und Freuden des Lebens, selbst für den,\nder an unheilbaren Schmerzen leidet, oder im dun-\nkeln Kerker auf immer seine Freiheit beweint, be-\nhält der Gedanke zu sein und zu leben noch Reiz,\nund es gehört schlechterdings eine nur bei Menschen\nmögliche Zerrüttung der feinsten Empfindungsorga-\nne, eine gänzliche Verdunkelung und Tötung des\ninnern Sinns dazu, um das Leben gleichgültig oder\ngar verhaßt zu machen. — So weise und innig wurde\nLiebe des Lebens, dieser eines denkenden Wesens so\nwürdige Trieb, dieser Grundpfeiler sowohl der ein-\nzelnen als der öffentlichen Glückseligkeit, mit unser-\ner Christenz verwebt! — Sehr natürlich war es da-\nher, daß der Gedanke in dem Menschen aufsteigen\nmußte: Sollte es nicht möglich sein, unser Dasein\nzu verlängern, und dem nur gar zu flüchtigen Ge-\nnuß dieses Guts mehr Ausdehnung zu geben? Und\n```",
+  "possibly_truncated": false,
+  "seconds": 47.44328284263611
+}

@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    35
+  ],
+  "arm": "matched400",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "7614b6d7e209ad8aa6f20985117151f8820b2cf731ca80d16155df1b5b76d539"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T08:57:43.601019Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 15\n\nson. Seine Reputation in der Astrologie war so groß, daß fast in jedem angegebenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren, wo man nicht gescheut einen Boten mit der Bestimmung der Geburtsstunde an ihn absendte. Es kamen oft acht, zehn bis zwölf solcher Nachrichtssendungen auf einen Tag an, und er wurde zuletzt so überhäuft, daß er sich Gehilfen zu diesem Geschäft halten mußte. Noch befinden sich viele andere solcher Anfragen auch auf der Bibliothek zu Berlin, in denen sogar Briefe von dem Königin [sic] erschienen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptgebeheiten und die Tage derselben mit kurzen Oberten vor Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung des daß Jahr danach; doch findet man auch Beispiele, die für sich oder gute Arbeit besser voran, dieselbe im voraus miturtheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls schon können, der Calender erhielt sich [sic] für 100 Jahre, hatte reißenden Absatz, und verschaffte, nebst anderen Scharlatanerien, dem Verfasser ein Vermögen von mehreren Tausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Grenzen setzte, Mittel zur Verlängerung desselben finden? Dies geschah auf folgende unterschiede Art:\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 13015085708,
+    "load_duration": 2248777041,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 1037084000,
+    "eval_count": 354,
+    "eval_duration": 9616959000
+  },
+  "markdown": "```markdown\n# Page 15\n\nson. Seine Reputation in der Astrologie war so groß, daß fast in jedem angegebenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren, wo man nicht gescheut einen Boten mit der Bestimmung der Geburtsstunde an ihn absendte. Es kamen oft acht, zehn bis zwölf solcher Nachrichtssendungen auf einen Tag an, und er wurde zuletzt so überhäuft, daß er sich Gehilfen zu diesem Geschäft halten mußte. Noch befinden sich viele andere solcher Anfragen auch auf der Bibliothek zu Berlin, in denen sogar Briefe von dem Königin [sic] erschienen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptgebeheiten und die Tage derselben mit kurzen Oberten vor Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung des daß Jahr danach; doch findet man auch Beispiele, die für sich oder gute Arbeit besser voran, dieselbe im voraus miturtheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls schon können, der Calender erhielt sich [sic] für 100 Jahre, hatte reißenden Absatz, und verschaffte, nebst anderen Scharlatanerien, dem Verfasser ein Vermögen von mehreren Tausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Grenzen setzte, Mittel zur Verlängerung desselben finden? Dies geschah auf folgende unterschiede Art:\n```",
+  "possibly_truncated": false,
+  "seconds": 13.026813268661499
+}

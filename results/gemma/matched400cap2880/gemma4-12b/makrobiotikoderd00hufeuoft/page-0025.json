@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    25
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "4e575ee3352999f9d808f71e3609c31123e2315e6b8bdbbc9bb0384e03d9c9b3"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:13:59.080234Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Erster Vorlesung.\n\n## Schicksale dieser Wissenschaft.\n\nBei den Coppern und Griechen — *Geromonic* — *Gymnottic* — *Germinus* — Russland derselben im Mittelalter, *Theophrastus* — *Paracelsus* — *Astrologische Methode* — *Antinoos* — *Thurnirsen* — *Coronus* und seine strenge Diät — *Transfigurationsmethode* — *Baco* — *St. Germain* — *Mercur* — *Cagliostro* — *Graubum*.\n\nDurch die ganze, mehr und wirkeri und unbegreifliche Kraft, jener unmittelbare Ausfluß der Gottheit, den wir leben nennen. Überall finden wir Erscheinungen und Verrichtungen, die diese Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, sondern ist der Ausdruck der ganzen uns umgebenden Natur. Leben ist, so, der Stein sich bald bildet und kristallisiert, die Pflanze vegetiert, das Thier fühlt und wirkt; — aber im höchsten Glanz von Vollkommenheit, Würde und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der schöpferischen Schöpfung. Wir mögen die ganze Reihe der Weisen durchgehen, nirgends finden wir eine vollkommene Verbindung aller lebendigen Kräfte der\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 55450024125,
+    "load_duration": 2487167959,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 3662509000,
+    "eval_count": 307,
+    "eval_duration": 49246960000
+  },
+  "markdown": "```markdown\n# Erster Vorlesung.\n\n## Schicksale dieser Wissenschaft.\n\nBei den Coppern und Griechen — *Geromonic* — *Gymnottic* — *Germinus* — Russland derselben im Mittelalter, *Theophrastus* — *Paracelsus* — *Astrologische Methode* — *Antinoos* — *Thurnirsen* — *Coronus* und seine strenge Diät — *Transfigurationsmethode* — *Baco* — *St. Germain* — *Mercur* — *Cagliostro* — *Graubum*.\n\nDurch die ganze, mehr und wirkeri und unbegreifliche Kraft, jener unmittelbare Ausfluß der Gottheit, den wir leben nennen. Überall finden wir Erscheinungen und Verrichtungen, die diese Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, sondern ist der Ausdruck der ganzen uns umgebenden Natur. Leben ist, so, der Stein sich bald bildet und kristallisiert, die Pflanze vegetiert, das Thier fühlt und wirkt; — aber im höchsten Glanz von Vollkommenheit, Würde und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der schöpferischen Schöpfung. Wir mögen die ganze Reihe der Weisen durchgehen, nirgends finden wir eine vollkommene Verbindung aller lebendigen Kräfte der\n```",
+  "possibly_truncated": false,
+  "seconds": 55.45907211303711
+}

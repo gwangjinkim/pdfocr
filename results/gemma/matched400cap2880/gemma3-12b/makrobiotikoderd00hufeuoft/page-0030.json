@@ -1,0 +1,50 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    30
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "b93ac23d7d1c30d20b4ea5a0d33187b5ff7e66a3c931406f696ae84333291eec"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:30:09.047277Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\n**Page 8 (Partial)**\n\nund versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebensgeist freich aufgeschnürt-\ntener Thiere auf gelähmte Glieder, was das Rufsle-\ngen lebendiger Thiere auf schmerzhafte Theile vermag,\nso scheint diese Methode nicht verwerflich zu seyn.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwesen eines reinen gesunden Atems setzte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\n**Inscription:**\n\n```\nAescvlapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CCXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici,\nIam posteri, sic vitam ducite.\n```\n\n**Translation:**\n\nTo Aesculapius and Health\nL. Clodius Hermippus\nWho lived 225 years, 5 days.\nBecause of the breathing of girls\nWhich even after his death\nPhysicians are astonished at;\nMay posterity thus live life.\n\nDem Aescvlap und der Gesundheit\ngeweiht\nvon L. Clodius Hermippus\nder 115 Jahre 5 Tage lebte\ndurch den Atem junger Mädchen u. s. w.\n\nDiese Inschrift mag nun acht seyn oder nicht;\ngenug sie veranlasste noch zu Anfang des edten Jahr-\nhunderts eine Schrift, worin ein Doctor Cobauwen\nsehr gelehrt beweist, dieser Hermippus sey ein\nWaisenhaus-Forscher oder Mädchenschulmeister zu\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 20284176417,
+    "load_duration": 2441859667,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1879581000,
+    "eval_count": 422,
+    "eval_duration": 15909706000
+  },
+  "markdown": "```markdown\n## Extracted Text:\n\n**Page 8 (Partial)**\n\nund versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebensgeist freich aufgeschnürt-\ntener Thiere auf gelähmte Glieder, was das Rufsle-\ngen lebendiger Thiere auf schmerzhafte Theile vermag,\nso scheint diese Methode nicht verwerflich zu seyn.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwesen eines reinen gesunden Atems setzte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\n**Inscription:**\n\n```\nAescvlapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CCXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici,\nIam posteri, sic vitam ducite.\n```\n\n**Translation:**\n\nTo Aesculapius and Health\nL. Clodius Hermippus\nWho lived 225 years, 5 days.\nBecause of the breathing of girls\nWhich even after his death\nPhysicians are astonished at;\nMay posterity thus live life.\n\nDem Aescvlap und der Gesundheit\ngeweiht\nvon L. Clodius Hermippus\nder 115 Jahre 5 Tage lebte\ndurch den Atem junger Mädchen u. s. w.\n\nDiese Inschrift mag nun acht seyn oder nicht;\ngenug sie veranlasste noch zu Anfang des edten Jahr-\nhunderts eine Schrift, worin ein Doctor Cobauwen\nsehr gelehrt beweist, dieser Hermippus sey ein\nWaisenhaus-Forscher oder Mädchenschulmeister zu\n```",
+  "possibly_truncated": false,
+  "seconds": 20.29346203804016
+}

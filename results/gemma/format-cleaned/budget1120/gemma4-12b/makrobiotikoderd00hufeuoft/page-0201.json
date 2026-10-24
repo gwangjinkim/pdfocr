@@ -1,0 +1,60 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    201
+  ],
+  "arm": "matched400budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "78a92b991f459578e3959ce9ef194e03758d554ed17f5a9d63c0bffbbcb3668c"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:20:35.151012Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n--- 179 ---\n\nGroßmächtigste aller Herrscher im animalischen Reiche in dieser Hinsicht ist, und man kann mit vollem Rechte behaupten, ohne einen guten Magen ist es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grundstein des langen Lebens: Einmal, indem er das erste und wichtigste Restaurationsorgan unser Natur ist, die Pforte, wodurch alles, was unser werden soll, eingehen muß, die erste Instanz, von deren gutem oder schlechtem Zustand nicht nur die Quantität, sondern auch die Qualität unseres Ernährungs abhängt. — Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenschaften, der Krankheitsursachen und anderer zerstörender Einflüsse auf unsern Körper modifiziert wird. — „Er hat einen guten Magen,“ sagt man im Sprichwort, wenn man Jemand charakterisiren will, auf den weder Neid, noch Kummer, noch Kränkungen schädlich wirken, und gewiß, es liegt viel Wahres darin. — Alle diese Leidenschaften müssen vorzüglich den Magen afficiren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Physisches übergehen und schaden sollen. Ein guter robuster Magen nimmt gar keine Notiz davon. Hingegen ein schwacher empfindsamer Magen wird alle Augenblicke durch so etwas in seiner Verrichtung gestört, und folglich das so wichtige Restaurationsgeschäft unaufhörlich unterbrechen und schlecht betrieben. — Eben so ist es mit den meisten physischen Krankheitseinflüssen; die meisten machen ihren ersten Eindruck auf\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 55535908791,
+    "load_duration": 2662785750,
+    "prompt_eval_count": 1109,
+    "prompt_eval_duration": 5055332000,
+    "eval_count": 370,
+    "eval_duration": 47747768000
+  },
+  "markdown": "Großmächtigste aller Herrscher im animalischen Reiche in dieser Hinsicht ist, und man kann mit vollem Rechte behaupten, ohne einen guten Magen ist es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grundstein des langen Lebens: Einmal, indem er das erste und wichtigste Restaurationsorgan unser Natur ist, die Pforte, wodurch alles, was unser werden soll, eingehen muß, die erste Instanz, von deren gutem oder schlechtem Zustand nicht nur die Quantität, sondern auch die Qualität unseres Ernährungs abhängt. — Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenschaften, der Krankheitsursachen und anderer zerstörender Einflüsse auf unsern Körper modifiziert wird. — „Er hat einen guten Magen,“ sagt man im Sprichwort, wenn man Jemand charakterisiren will, auf den weder Neid, noch Kummer, noch Kränkungen schädlich wirken, und gewiß, es liegt viel Wahres darin. — Alle diese Leidenschaften müssen vorzüglich den Magen afficiren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Physisches übergehen und schaden sollen. Ein guter robuster Magen nimmt gar keine Notiz davon. Hingegen ein schwacher empfindsamer Magen wird alle Augenblicke durch so etwas in seiner Verrichtung gestört, und folglich das so wichtige Restaurationsgeschäft unaufhörlich unterbrechen und schlecht betrieben. — Eben so ist es mit den meisten physischen Krankheitseinflüssen; die meisten machen ihren ersten Eindruck auf",
+  "possibly_truncated": false,
+  "seconds": 55.5423378944397,
+  "format_cleanup": {
+    "source_start": 25,
+    "source_end": 1506,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma/budget1120/gemma4-12b/makrobiotikoderd00hufeuoft/page-0201.json"
+}

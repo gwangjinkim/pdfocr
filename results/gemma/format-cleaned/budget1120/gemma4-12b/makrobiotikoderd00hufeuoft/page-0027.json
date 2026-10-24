@@ -1,0 +1,60 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    27
+  ],
+  "arm": "matched400budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "4e84aa8f5d18813239565da9c04169847e7547b46b84c0b0753a23cb1bf460bf"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:15:40.904786Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n— 5 —\n\nwirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war ein Lieblingsgegenstand der scharfsinnigsten Köpfe, ein Tummelplatz der Schwärmer, und eine Hauptlockspeise der Charlatans und Betrüger, bei denen man von jeher finden wird, daß es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum angelten. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie mannigfaltigen, sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verzeihung zu erhalten, wenn ich eine kurze Übersicht der nach und nach vorgekommenen Lebensverlängerungsmethoden voranschicke, ehe ich zu meinem Hauptgegenstand übergehe.\n\nSchon in den frühesten Zeiten, unter Ägyptern, Griechen und Römern war diese Idee rege, und schon damals verfiel man in Ägypten, der Mutter so mancher abenteuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hitze und Überschwemmungen ungesunde Clima Veranlassung geben mochte. Man glaubte die Erhaltung des Lebens in Brechen und Schweißen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schweißt du? —\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 100609937875,
+    "load_duration": 4666607292,
+    "prompt_eval_count": 1085,
+    "prompt_eval_duration": 12891367000,
+    "eval_count": 368,
+    "eval_duration": 82954702000
+  },
+  "markdown": "wirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war ein Lieblingsgegenstand der scharfsinnigsten Köpfe, ein Tummelplatz der Schwärmer, und eine Hauptlockspeise der Charlatans und Betrüger, bei denen man von jeher finden wird, daß es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum angelten. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie mannigfaltigen, sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verzeihung zu erhalten, wenn ich eine kurze Übersicht der nach und nach vorgekommenen Lebensverlängerungsmethoden voranschicke, ehe ich zu meinem Hauptgegenstand übergehe.\n\nSchon in den frühesten Zeiten, unter Ägyptern, Griechen und Römern war diese Idee rege, und schon damals verfiel man in Ägypten, der Mutter so mancher abenteuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hitze und Überschwemmungen ungesunde Clima Veranlassung geben mochte. Man glaubte die Erhaltung des Lebens in Brechen und Schweißen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schweißt du? —",
+  "possibly_truncated": false,
+  "seconds": 100.61612296104431,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1460,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma/budget1120/gemma4-12b/makrobiotikoderd00hufeuoft/page-0027.json"
+}

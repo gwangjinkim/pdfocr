@@ -1,0 +1,58 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    201
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "78a92b991f459578e3959ce9ef194e03758d554ed17f5a9d63c0bffbbcb3668c"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:30:52.952114Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\n**Page 179**\n\nGroßmächtige aller Herrscher in animalischen Reiche in dieser Hinsicht ist, und man kann mit vollen Rechte behaupten, ohne einen guten Magen ist es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grundstein des langen Lebens: Zumal, indem er das erste und wichtigste Nahrungsorgans unserer Natur ist, die Pforte, wodurch alles, was unser werden soll, eingehen muss, die erste Instanz, von deren gutem oder schlechten Zustand nicht nur die Quantität, sondern auch die Qualität unsres Erhagens abhängt. - Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenschaften, der Krankheitsursachen und anderer zerstörender Einflüsse auf unsern Körper modifiziert wird. — “Er hat einen guten Magen,” sagt man im Sprichwort, wenn man jemand charakterisiren will, aus den weder Ärger, noch Kummer, noch Kränkungen schädlich wirken, und gewiß, es liegt viel Wahres darin. - Alle diese Leidenschaften müssen vorzüglich den Magen affizieren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Physisches übergehen und Schaden sollen. Ein guter robuster Magen nimmt gar keine Notiz davon. Hingegen ein schwacher empfindlicher Magen wird alle Augenblicke durch so etwas in seiner Verrichtung gestört, und folglich das so wichtige Nahrungsunsgescheidt unaufhörlich unterdrücken und schlecht betrieben. - Eben so ist es mit den meisten physischen Krankheitsursachen; die meisten machen ihren ersten Eindruck auf\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 18521655291,
+    "load_duration": 2479731458,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1918482000,
+    "eval_count": 373,
+    "eval_duration": 14068813000
+  },
+  "markdown": "## Extracted Text:\n\n**Page 179**\n\nGroßmächtige aller Herrscher in animalischen Reiche in dieser Hinsicht ist, und man kann mit vollen Rechte behaupten, ohne einen guten Magen ist es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grundstein des langen Lebens: Zumal, indem er das erste und wichtigste Nahrungsorgans unserer Natur ist, die Pforte, wodurch alles, was unser werden soll, eingehen muss, die erste Instanz, von deren gutem oder schlechten Zustand nicht nur die Quantität, sondern auch die Qualität unsres Erhagens abhängt. - Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenschaften, der Krankheitsursachen und anderer zerstörender Einflüsse auf unsern Körper modifiziert wird. — “Er hat einen guten Magen,” sagt man im Sprichwort, wenn man jemand charakterisiren will, aus den weder Ärger, noch Kummer, noch Kränkungen schädlich wirken, und gewiß, es liegt viel Wahres darin. - Alle diese Leidenschaften müssen vorzüglich den Magen affizieren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Physisches übergehen und Schaden sollen. Ein guter robuster Magen nimmt gar keine Notiz davon. Hingegen ein schwacher empfindlicher Magen wird alle Augenblicke durch so etwas in seiner Verrichtung gestört, und folglich das so wichtige Nahrungsunsgescheidt unaufhörlich unterdrücken und schlecht betrieben. - Eben so ist es mit den meisten physischen Krankheitsursachen; die meisten machen ihren ersten Eindruck auf",
+  "possibly_truncated": false,
+  "seconds": 18.531455039978027,
+  "format_cleanup": {
+    "source_start": 12,
+    "source_end": 1520,
+    "operations": [
+      "single_outer_markdown_fence"
+    ]
+  },
+  "original_page_result": "workspace/gemma/matched400cap2880/gemma3-12b/makrobiotikoderd00hufeuoft/page-0201.json"
+}

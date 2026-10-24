@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    28
+  ],
+  "arm": "matched400budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "34a10c1e80a3fec94cdbbd0b8b8084a263f9d98f38d75e66750ecd6de1e4fa66"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:16:53.826867Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 6\n\nGanz anders bildete sich dieser Trieb bei den Griechen, unter dem Einfluß einer reinen und schönen Natur, aus. Man überzeugte sich sehr bald, daß gerade ein vernünftiger Genuß der Natur und die beständige Übung unserer Kräfte das sicherste Mittel sey, die Lebenskraft zu stärken, und unser Leben zu verlängern. Hippocrates und alle damaligen Philosophen und Ärzte kennenen keine andern Mittel, als Mäßigkeit, Genuß der freien und reinen Luft, Bäder, und vorzüglich das tägliche Reiben des Körpers und Leibesübung. Auf letztere setzten sie ihr größtes Vertrauen. Es wurden eigene Methoden und Regeln bestimmt, dem Körper mannigfalte, starke und schwache Bewegung zu geben; es entstand eine eigne Kunst der Leibesübung, die Gymnastic, daraus, und der größte Philosoph und Gelehrte vergaß nie, daß Übung des Leibes und Übung der Seele immer in gleichem Verhältniß bleiben müßten. Man brachte es wirklich zu einer außerordentlichen Vollkommenheit, diese für uns fast verschwundene Kunst den verschiedenen Naturen, Situationen und Bedürfnissen der Menschen anzupassen, und sie besonders zu dem Mittel zu gebrauchen, die innere Natur des Menschen immer in einer gehörigen Thätigkeit zu erhalten, und dadurch nicht nur Krankheitsursachen unwirksam zu machen, sondern auch selbst schon ausgebrochene Krankheiten zu heilen. Ein gewisser Herodicus ging so weit, daß er sogar seine Patienten nöthigte, spazieren zu gehen, sich reiben zu lassen, und je mehr die Krankheit abmattere, desto mehr\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 72715708209,
+    "load_duration": 2934149334,
+    "prompt_eval_count": 1085,
+    "prompt_eval_duration": 8372045000,
+    "eval_count": 363,
+    "eval_duration": 61327010000
+  },
+  "markdown": "```markdown\n# Page 6\n\nGanz anders bildete sich dieser Trieb bei den Griechen, unter dem Einfluß einer reinen und schönen Natur, aus. Man überzeugte sich sehr bald, daß gerade ein vernünftiger Genuß der Natur und die beständige Übung unserer Kräfte das sicherste Mittel sey, die Lebenskraft zu stärken, und unser Leben zu verlängern. Hippocrates und alle damaligen Philosophen und Ärzte kennenen keine andern Mittel, als Mäßigkeit, Genuß der freien und reinen Luft, Bäder, und vorzüglich das tägliche Reiben des Körpers und Leibesübung. Auf letztere setzten sie ihr größtes Vertrauen. Es wurden eigene Methoden und Regeln bestimmt, dem Körper mannigfalte, starke und schwache Bewegung zu geben; es entstand eine eigne Kunst der Leibesübung, die Gymnastic, daraus, und der größte Philosoph und Gelehrte vergaß nie, daß Übung des Leibes und Übung der Seele immer in gleichem Verhältniß bleiben müßten. Man brachte es wirklich zu einer außerordentlichen Vollkommenheit, diese für uns fast verschwundene Kunst den verschiedenen Naturen, Situationen und Bedürfnissen der Menschen anzupassen, und sie besonders zu dem Mittel zu gebrauchen, die innere Natur des Menschen immer in einer gehörigen Thätigkeit zu erhalten, und dadurch nicht nur Krankheitsursachen unwirksam zu machen, sondern auch selbst schon ausgebrochene Krankheiten zu heilen. Ein gewisser Herodicus ging so weit, daß er sogar seine Patienten nöthigte, spazieren zu gehen, sich reiben zu lassen, und je mehr die Krankheit abmattere, desto mehr\n```",
+  "possibly_truncated": false,
+  "seconds": 72.72262692451477
+}

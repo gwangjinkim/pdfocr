@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    71
+  ],
+  "arm": "matched400",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "14ce4402aa4ddc5bbefa35fa5c4736f736b5a98c4aee401b858087431705d7ab"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T08:55:44.081132Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 67\n\n* *Tinctura Antimonii acri.*\n*(Sulphur Antimonii liquidum.)*\n\n$\\mathbb{R}$. Sulphuris stibiat. aurantiae. $\\bar{\\text{ss}}$j\nsolve volgend. in s. q.\nLiquor. Kali caustic.\nadmisce\nSapon. medicat, $\\bar{\\text{ss}}$ij\nSpirit. Vin. rectificatis.\nAq. destillat., aa $\\bar{\\text{ss}}$vj\nDigerantur.\n\nEin höchst wirksames Mittel bei hartnäckigem Rheumatismus, Flehen, und andern Hautkrankheiten zu 20 bis 30 Tropfen täglicheinmal.\n\n* *Tinctura aromatica Ph. P.*\n\n$\\mathbb{R}$. Rad. Calam\nAngelic.\nZingiber.\nHelen.\nHb. Menth. pip.\nSem. Anis. aa $\\bar{\\text{ss}}$j\nCaryophyllor.\nCinamon, aa $\\bar{\\text{ss}}$6\nPiper. nigr. $\\bar{\\text{ss}}$ij\nC. c. digere cum\nSpirit. Vin. rectificat. $\\overline{\\text{ss}}$ij\nfiltr. add.\nOl. Anis. $\\bar{\\text{ss}}$ij\n\nE 2\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 14236745459,
+    "load_duration": 2881738834,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 953262000,
+    "eval_count": 302,
+    "eval_duration": 7873991000
+  },
+  "markdown": "```markdown\n# Page 67\n\n* *Tinctura Antimonii acri.*\n*(Sulphur Antimonii liquidum.)*\n\n$\\mathbb{R}$. Sulphuris stibiat. aurantiae. $\\bar{\\text{ss}}$j\nsolve volgend. in s. q.\nLiquor. Kali caustic.\nadmisce\nSapon. medicat, $\\bar{\\text{ss}}$ij\nSpirit. Vin. rectificatis.\nAq. destillat., aa $\\bar{\\text{ss}}$vj\nDigerantur.\n\nEin höchst wirksames Mittel bei hartnäckigem Rheumatismus, Flehen, und andern Hautkrankheiten zu 20 bis 30 Tropfen täglicheinmal.\n\n* *Tinctura aromatica Ph. P.*\n\n$\\mathbb{R}$. Rad. Calam\nAngelic.\nZingiber.\nHelen.\nHb. Menth. pip.\nSem. Anis. aa $\\bar{\\text{ss}}$j\nCaryophyllor.\nCinamon, aa $\\bar{\\text{ss}}$6\nPiper. nigr. $\\bar{\\text{ss}}$ij\nC. c. digere cum\nSpirit. Vin. rectificat. $\\overline{\\text{ss}}$ij\nfiltr. add.\nOl. Anis. $\\bar{\\text{ss}}$ij\n\nE 2\n```",
+  "possibly_truncated": false,
+  "seconds": 14.44925594329834
+}

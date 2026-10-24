@@ -1,0 +1,69 @@
+{
+  "schema_version": 2,
+  "offset_unit": "unicode_codepoint",
+  "interval_convention": "[start,end)",
+  "raw_file": "workspace/gemma/repair/budget1120/gemma4-12b/raw/probe.raw.md",
+  "raw_sha256": "9026af4f35cb28fafd644243dff3784b25fa03e035ae48892dda463f81c724a0",
+  "output_file": "workspace/gemma/repair/budget1120/gemma4-12b/raw/probe.md",
+  "spans": [
+    {
+      "output_start": 0,
+      "output_end": 1526,
+      "kind": "source",
+      "page": 34,
+      "raw_start": 12,
+      "raw_end": 1538
+    },
+    {
+      "output_start": 1526,
+      "output_end": 1528,
+      "kind": "separator"
+    },
+    {
+      "output_start": 1528,
+      "output_end": 3029,
+      "kind": "source",
+      "page": 35,
+      "raw_start": 1552,
+      "raw_end": 3053
+    },
+    {
+      "output_start": 3029,
+      "output_end": 3030,
+      "kind": "separator"
+    }
+  ],
+  "omissions": [],
+  "relocations": [],
+  "boundaries": [
+    {
+      "left_page": 34,
+      "right_page": 35,
+      "before_left": " Art\ndes Todes und auch den Tag desselben bestimmen zu\nkönnen. — Dies war der Glaube nicht bloß des\ngroßen Haufens, ſondern der größten, verſtändig-\nsten und einſichtsvollſten Personen der damaligen\nZeit, und es iſt zum Erstaunen, wie lange und wie\nfest man daran hing, unerachtet es nicht an Bei-\nſpielen fehlen konnte, wo die Prophezeiung fehlschlug.\nBiſchöfe, hohe Geiſtliche, berühmte Philosophen und\nÄrzte gaben ſich mit dem Nativitätſtellen ab, man\nlas sogar auf Univerſitäten Collegia darüber, ſo gut\nwie über die Punctirkunst und Cabala. Zum Be-\nweiſe erlaube man mir ein Paar Worte von dem\nberühmten Thurneisen, dem glänzendſten Phäno-\nmenen diſer Art, und einem wirklich ausgezeichneten\nMenschen, zu ſagen. Er lebte im 17ten Jahrhun-\ndert an dem kurfürſtlichen Hofe zu Berlin, und war\nLeibarzt, Chemiſt, Nativitätſteller, Kalendermacher,\nBuchdrucker und Buchhändler, alles in einer Per-\n```",
+      "before_right": "```markdown\n--- 15 ---\n\nion. Seine Reputation in der Astrologie war so groß, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Boten mit der Bestimmung der Geburtsstunde an ihn absendete. Es kamen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zuletzt so überhäuft, daß er sich Gehülfen zu diesem Geschäft halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet",
+      "action": "uncertain",
+      "reason": "Boundary intersects a heading, table, footnote or other structure; review scan.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": false,
+      "output_offset": 1528,
+      "right_raw_start": 1552,
+      "after_boundary": " Art\ndes Todes und auch den Tag desselben bestimmen zu\nkönnen. — Dies war der Glaube nicht bloß des\ngroßen Haufens, ſondern der größten, verſtändig-\nsten und einſichtsvollſten Personen der damaligen\nZeit, und es iſt zum Erstaunen, wie lange und wie\nfest man daran hing, unerachtet es nicht an Bei-\nſpielen fehlen konnte, wo die Prophezeiung fehlschlug.\nBiſchöfe, hohe Geiſtliche, berühmte Philosophen und\nÄrzte gaben ſich mit dem Nativitätſtellen ab, man\nlas sogar auf Univerſitäten Collegia darüber, ſo gut\nwie über die Punctirkunst und Cabala. Zum Be-\nweiſe erlaube man mir ein Paar Worte von dem\nberühmten Thurneisen, dem glänzendſten Phäno-\nmenen diſer Art, und einem wirklich ausgezeichneten\nMenschen, zu ſagen. Er lebte im 17ten Jahrhun-\ndert an dem kurfürſtlichen Hofe zu Berlin, und war\nLeibarzt, Chemiſt, Nativitätſteller, Kalendermacher,\nBuchdrucker und Buchhändler, alles in einer Per-\n```\n\n```markdown\n--- 15 ---\n\nion. Seine Reputation in der Astrologie war so groß, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Boten mit der Bestimmung der Geburtsstunde an ihn absendete. Es kamen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zuletzt so überhäuft, daß er sich Gehülfen zu diesem Geschäft halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet"
+    }
+  ],
+  "pages": [
+    {
+      "page": 34,
+      "raw_start": 12,
+      "raw_end": 1538,
+      "ocr_error": false
+    },
+    {
+      "page": 35,
+      "raw_start": 1552,
+      "raw_end": 3053,
+      "ocr_error": false
+    }
+  ],
+  "output_sha256": "67356b143d99833f72d2d0cb50d83b5f4254df3949d966895a5afd9ec228c68b"
+}

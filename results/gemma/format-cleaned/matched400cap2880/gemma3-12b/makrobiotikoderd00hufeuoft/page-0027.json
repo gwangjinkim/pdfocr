@@ -1,0 +1,58 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    27
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "4e84aa8f5d18813239565da9c04169847e7547b46b84c0b0753a23cb1bf460bf"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:29:12.48016Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\n**Page 5**\n\nwird beschäftigt dies problem von seber die Menschheit auf verschiedene Weise. Es war ein Liebesgegensand der scharfsinnigsten Köpfe, ein Tummelplatz der Schwärmer, und eine Hauptlockstoffe der Charlatans und Betrüger, bei denen man von jeher finden wird, dass es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum anziehen. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie wahnhaftem sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verzeihung zu erhalten, wenn ich eine kurze Ueber längerungsmethoden voransichke, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Zeiten, unter Egyptiern, Griechen und Römern war diese Idee rege, und schon damals versüht man in Ägypten, die Mutter so mancher abenteuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wohl freilich das durch Hülfe und Ueberswemmungen ungefaulte Klima Veranlassung geben möchte. Man glaubte die Erhaltung des Lebens in Brechen und Schwiken gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwinkst du?\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 18607739833,
+    "load_duration": 2458698708,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1920637000,
+    "eval_count": 360,
+    "eval_duration": 14175153000
+  },
+  "markdown": "## Extracted Text:\n\n**Page 5**\n\nwird beschäftigt dies problem von seber die Menschheit auf verschiedene Weise. Es war ein Liebesgegensand der scharfsinnigsten Köpfe, ein Tummelplatz der Schwärmer, und eine Hauptlockstoffe der Charlatans und Betrüger, bei denen man von jeher finden wird, dass es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum anziehen. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie wahnhaftem sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verzeihung zu erhalten, wenn ich eine kurze Ueber längerungsmethoden voransichke, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Zeiten, unter Egyptiern, Griechen und Römern war diese Idee rege, und schon damals versüht man in Ägypten, die Mutter so mancher abenteuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wohl freilich das durch Hülfe und Ueberswemmungen ungefaulte Klima Veranlassung geben möchte. Man glaubte die Erhaltung des Lebens in Brechen und Schwiken gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwinkst du?",
+  "possibly_truncated": false,
+  "seconds": 18.614644050598145,
+  "format_cleanup": {
+    "source_start": 12,
+    "source_end": 1426,
+    "operations": [
+      "single_outer_markdown_fence"
+    ]
+  },
+  "original_page_result": "workspace/gemma/matched400cap2880/gemma3-12b/makrobiotikoderd00hufeuoft/page-0027.json"
+}

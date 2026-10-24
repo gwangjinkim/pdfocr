@@ -1,0 +1,50 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    29
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "20eb12457b2269c33f8fcf5b7a63ab30a879bb1fa896b80ea3ae3a2549649b3a"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:29:48.742956Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\n- 7 -\n\ndurch Anstrengung der Muskelkräfte diese Mattig-keit zu überwältigen; und er hatte das Glück, durch seine Methode so vielen schwächlichen Menschen das Leben viele Jahre zu verlängern, daß ihm sogar Plato den Vorwurf machte, er habe sehr ungerecht gegen diese armen Leute gehandelt, durch seine Kunst ihr immer sterbendes Leben bis ins Alter zu verlän-gern. Die hellsten und naturgemäßesten Ideen über die Erhaltung und Verlängerung des Lebens finden wir beim Plutarch, der durch das glückliche Alter die Wahrheit seiner Vorschriften bestätigte. Schon er schließt seinen Unterricht mit folgenden auch für unsere Zeiten gültigen Regeln: den Kopf kalt und die Hülse warm zu halten; anstatt bei jeder Anfaß-lichkeit gleich Arzneien zu brauchen, lieber erst einen Tag zu fasten, und über dem Geist nie den Leib zu vergessen.\n\nEine sonderbare Methode, das Leben im Alter zu verlängern, die sich ebenfalls aus den frühesten Zeiten herrscheit, war die Gerocomie, die Ge-wohnheit, einen alten abgelebten Körper durch die nahe Atmosphäre frischer aufhlupender Jugend zu verjüngen und zu erhalten. Das bekannteste Bei-spiel davon enthält die Geschichte des Königs Da-vid; aber man findet in den Schriften der Ärzte mehrere Spuren, daß es damals eine sehr gewöhnliche und beliebte Hülse des Alters war. Selbst in neueren Zeiten ist dieser Rath mit Ruhmen befolgt worden; der große Boerhave ließ einen alten Amsterdamer Bürgermeister zwischen zwei jungen Leuten schlafen,\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 17906137542,
+    "load_duration": 2751720250,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1900723000,
+    "eval_count": 352,
+    "eval_duration": 13190822000
+  },
+  "markdown": "```markdown\n## Extracted Text:\n\n- 7 -\n\ndurch Anstrengung der Muskelkräfte diese Mattig-keit zu überwältigen; und er hatte das Glück, durch seine Methode so vielen schwächlichen Menschen das Leben viele Jahre zu verlängern, daß ihm sogar Plato den Vorwurf machte, er habe sehr ungerecht gegen diese armen Leute gehandelt, durch seine Kunst ihr immer sterbendes Leben bis ins Alter zu verlän-gern. Die hellsten und naturgemäßesten Ideen über die Erhaltung und Verlängerung des Lebens finden wir beim Plutarch, der durch das glückliche Alter die Wahrheit seiner Vorschriften bestätigte. Schon er schließt seinen Unterricht mit folgenden auch für unsere Zeiten gültigen Regeln: den Kopf kalt und die Hülse warm zu halten; anstatt bei jeder Anfaß-lichkeit gleich Arzneien zu brauchen, lieber erst einen Tag zu fasten, und über dem Geist nie den Leib zu vergessen.\n\nEine sonderbare Methode, das Leben im Alter zu verlängern, die sich ebenfalls aus den frühesten Zeiten herrscheit, war die Gerocomie, die Ge-wohnheit, einen alten abgelebten Körper durch die nahe Atmosphäre frischer aufhlupender Jugend zu verjüngen und zu erhalten. Das bekannteste Bei-spiel davon enthält die Geschichte des Königs Da-vid; aber man findet in den Schriften der Ärzte mehrere Spuren, daß es damals eine sehr gewöhnliche und beliebte Hülse des Alters war. Selbst in neueren Zeiten ist dieser Rath mit Ruhmen befolgt worden; der große Boerhave ließ einen alten Amsterdamer Bürgermeister zwischen zwei jungen Leuten schlafen,\n```",
+  "possibly_truncated": false,
+  "seconds": 17.913525104522705
+}

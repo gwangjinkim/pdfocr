@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    30
+  ],
+  "arm": "matched400",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "666fd77ca08c5dadf4fd632c226935b401eb12f1433df7770e0fc8a2f65e17e3"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T08:56:56.497552Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 8\n\nund versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der lebendigen frisch aufgeschrieb-\nnen Thiere eine gelähmte Lieder, und das Anle-\ngen lebendiger Thiere auf schmerzhafte Lebel vermag,\nso scheint diese Methode nicht verwehrlich zu sein.\n\nHöhch"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 6036231666,
+    "load_duration": 2277011083,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 997960000,
+    "eval_count": 100,
+    "eval_duration": 2656714000
+  },
+  "markdown": "```markdown\n# Page 8\n\nund versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der lebendigen frisch aufgeschrieb-\nnen Thiere eine gelähmte Lieder, und das Anle-\ngen lebendiger Thiere auf schmerzhafte Lebel vermag,\nso scheint diese Methode nicht verwehrlich zu sein.\n\nHöhch",
+  "possibly_truncated": false,
+  "seconds": 6.046619176864624
+}

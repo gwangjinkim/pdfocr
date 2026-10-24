@@ -1,0 +1,60 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    35
+  ],
+  "arm": "matched400budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "5ce81047ea242d06f844f987ae98df2469343ee5a034f15902b60a2d9a635e51"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:22:37.729863Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n--- 15 ---\n\nion. Seine Reputation in der Astrologie war so groß, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Boten mit der Bestimmung der Geburtsstunde an ihn absendete. Es kamen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zuletzt so überhäuft, daß er sich Gehülfen zu diesem Geschäft halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte bewegen ließ, dieselbe im voraus mitzutheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reißenden Abgang, und verschaffte, nebst andern Scharlatanerien, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Grenzen setzte, Mittel zur Verlängerung desselben finden! Dies geschah auf folgende sinnreiche Art:\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 44734963083,
+    "load_duration": 3029297792,
+    "prompt_eval_count": 1085,
+    "prompt_eval_duration": 5028013000,
+    "eval_count": 353,
+    "eval_duration": 36603209000
+  },
+  "markdown": "ion. Seine Reputation in der Astrologie war so groß, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Boten mit der Bestimmung der Geburtsstunde an ihn absendete. Es kamen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zuletzt so überhäuft, daß er sich Gehülfen zu diesem Geschäft halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte bewegen ließ, dieselbe im voraus mitzutheilen. Und bewundern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reißenden Abgang, und verschaffte, nebst andern Scharlatanerien, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Grenzen setzte, Mittel zur Verlängerung desselben finden! Dies geschah auf folgende sinnreiche Art:",
+  "possibly_truncated": false,
+  "seconds": 44.74111008644104,
+  "format_cleanup": {
+    "source_start": 24,
+    "source_end": 1497,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma/budget1120/gemma4-12b/probe/page-0035.json"
+}

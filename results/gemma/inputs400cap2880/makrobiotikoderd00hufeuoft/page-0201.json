@@ -1,0 +1,12 @@
+{
+  "book": "makrobiotikoderd00hufeuoft",
+  "page": 201,
+  "source_sha256": "463b58c82f45fa513b0540cc90e9af99079aa94aeaf1370ab1e8f63f3bf76499",
+  "input_sha256": "78a92b991f459578e3959ce9ef194e03758d554ed17f5a9d63c0bffbbcb3668c",
+  "input_size": [
+    1278,
+    2313
+  ],
+  "longest_edge": 2880,
+  "method": "Pillow RGB; thumbnail LANCZOS, no upscaling; PNG"
+}

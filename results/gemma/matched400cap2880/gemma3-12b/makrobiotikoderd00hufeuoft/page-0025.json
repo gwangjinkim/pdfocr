@@ -1,0 +1,50 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    25
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "4e575ee3352999f9d808f71e3609c31123e2315e6b8bdbbc9bb0384e03d9c9b3"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:28:34.703976Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Erste Vorlesung.\n\n### Schicksale dieser Wissenschaft.\n\n**Bei den Egyptiern und Griechen:** Gerocomic — Gymnasic — Hermippus — Zustand derselben im Mittelalter — Theophratus — Paracelsus — Astrologische Methode — Taismans — Thurnæisen — Cornaro und seine strenge Diät — Transfusionenmethode — Baco St. Germain — Mesmer — Cagliostro — Graham.\n\nDurch die ganze Natur weht und wirkt jene unbegreifliche Kraft, jener unmittelbare Ausfluf der Gottheit, den wir Leben nennen. Ueberall stoßen wir auf Erscheinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuwurf der ganzen uns umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und crystallisirt, die Pflanze vegetirt, das Thier fühlt und wirket; — aber im höchsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der sichtbar-gen Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 15547868000,
+    "load_duration": 2743372292,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1917474000,
+    "eval_count": 283,
+    "eval_duration": 10834357000
+  },
+  "markdown": "```markdown\n## Erste Vorlesung.\n\n### Schicksale dieser Wissenschaft.\n\n**Bei den Egyptiern und Griechen:** Gerocomic — Gymnasic — Hermippus — Zustand derselben im Mittelalter — Theophratus — Paracelsus — Astrologische Methode — Taismans — Thurnæisen — Cornaro und seine strenge Diät — Transfusionenmethode — Baco St. Germain — Mesmer — Cagliostro — Graham.\n\nDurch die ganze Natur weht und wirkt jene unbegreifliche Kraft, jener unmittelbare Ausfluf der Gottheit, den wir Leben nennen. Ueberall stoßen wir auf Erscheinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuwurf der ganzen uns umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und crystallisirt, die Pflanze vegetirt, das Thier fühlt und wirket; — aber im höchsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der sichtbar-gen Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n```",
+  "possibly_truncated": false,
+  "seconds": 15.553830862045288
+}

@@ -1,0 +1,7 @@
+[project]
+name = "pdfocr-legacy-gemma-runner"
+version = "0.1.0"
+requires-python = ">=3.11,<3.14"
+dependencies = ["pymupdf==1.26.7", "pillow>=11", "ollama==0.6.3", "httpx==0.28.1"]
+
+# PyMuPDF is intentionally isolated: AGPL/commercial, not the harness MIT license.

@@ -1,0 +1,50 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    70
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "dbbee6725992c39db5bb6fd24ff5a8a2bfd01c665af98c274fa528552037b18e"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:28:02.271996Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\n**Page 66**\n\nSpirit. Frument. *fb v.*\ndestillando eliciantur *fb v* in quibus solve\nCamphorae *fjβ*\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein\ntreffliches Mittel in allen Fällen, akuten und chron-\nnischen, wo die Thätigkeit der Organe eines kräf-\ntigen Anstoßes bedarf. Selbst in den Wasserrauch-\nten leistet es oft sehr viel. Die Dosis ist zu einem\nTheelöffel bis zu einem Esslöffel mit Wasser ver-\ndünnt, viermal täglich, auch öfter.\n\nTinctura Aconiti.\n\nß. Herb. Aconit. siccat, minuitim concis. *fj*\nDiger. cum Spirit. Vin. rectificat. *fb j*\nin cucurbita clausa per triduum. Exprime\net filtra.\n\nPari modo parantur:\n\nTinctura Digitalis.\n- Calami.\n- Galbani.\n- Hellebori.\n- Hyoscyami.\n- Nicotianae.\n- Stramonii.\n- Valerianae.\n- Toxicodendri.\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 16175431709,
+    "load_duration": 2756227500,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1919892000,
+    "eval_count": 285,
+    "eval_duration": 11342209000
+  },
+  "markdown": "```markdown\n## Extracted Text:\n\n**Page 66**\n\nSpirit. Frument. *fb v.*\ndestillando eliciantur *fb v* in quibus solve\nCamphorae *fjβ*\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein\ntreffliches Mittel in allen Fällen, akuten und chron-\nnischen, wo die Thätigkeit der Organe eines kräf-\ntigen Anstoßes bedarf. Selbst in den Wasserrauch-\nten leistet es oft sehr viel. Die Dosis ist zu einem\nTheelöffel bis zu einem Esslöffel mit Wasser ver-\ndünnt, viermal täglich, auch öfter.\n\nTinctura Aconiti.\n\nß. Herb. Aconit. siccat, minuitim concis. *fj*\nDiger. cum Spirit. Vin. rectificat. *fb j*\nin cucurbita clausa per triduum. Exprime\net filtra.\n\nPari modo parantur:\n\nTinctura Digitalis.\n- Calami.\n- Galbani.\n- Hellebori.\n- Hyoscyami.\n- Nicotianae.\n- Stramonii.\n- Valerianae.\n- Toxicodendri.\n```",
+  "possibly_truncated": false,
+  "seconds": 16.192279815673828
+}

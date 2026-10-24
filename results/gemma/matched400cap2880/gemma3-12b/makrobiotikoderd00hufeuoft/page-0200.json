@@ -1,0 +1,50 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    200
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "65de1f964975acc1659d76b3da2f2a5f8323329c78ce4a6d0ef05928347e4e95"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:30:34.407451Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Text Extracted from Image\n\nHere's the extracted text, formatted as Markdown:\n\n**Page 478**\n\n**Achte Vorlesung.** (Eighth Lecture)\n\n**Specielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.** (Special Foundations and Characteristics of the Lifespan of Individual People.)\n\n**Hauptpunkte der Anlage zum langen Leben:**\n*   Gute Anlage und Verfassungssystem, gesunde Zähne – gut erzeugte kräftige Brust – starke Herz – gute die das rations und Kraftkraft der Natur – gehoeriger Grad und Vertheilung der Lebenskraft, gute Temperamente – harmonisches und substanzreiches Körperbau – mässige Beschaffenheit der Triebe des Körpers – kein verzüglich schwacher Theil – vollkommene Organisation der Zwangskraft – das Bild eines zum langen Leben bestimmten Menschen. (Main points of the predisposition to a long life: Good constitution and system, healthy teeth - well-produced strong chest - strong heart - good that rations and strength of nature - appropriate degree and distribution of vital force, good temperaments - harmonious and substantial physique - moderate quality of the drives of the body - no hasty weak part - perfect organization of the compulsion force - the image of a person destined for a long life.)\n\n**Nach diesen allgemeinen Begriffen kann ich nun zu der Festimmung der speciellen und individualen Grundlage des langen Lebens übergehen, die in dem Menschen selbst liegen muss.** (After these general concepts, I can now proceed to determine the special and individual foundations of longevity that must lie within the person themselves.) **Ich will die Haupt-Eigenschaften und Anlagen anzeigen, die nach obigen Grundlagen und der Ersalgung ein Mensch durchaus haben muss, der auf ein langes Leben Beschwung machen will.** (I want to show the main characteristics and predispositions that a person absolutely must have according to the above foundations and the creation if they want to invoke a long life.) **Diese Schilderung kann zugleich als eine kurze Physiognomie des langen Lebens dienen.** (This description can also serve as a brief physiognomy of longevity.)\n\n**Die Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind folgende:** (The characteristics that one can call the foundations of longevity in humans are as follows:)\n\n1.  **Vor allen Dingen muss der Magen und das ganze Verfassungssystem gut bestehen sein.** (Above all things, the stomach and the entire system must be well.) Es ist unglaublich, von welcher Wichtigkeit dieser... <end_of_text>\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 25339178375,
+    "load_duration": 2459360625,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1890624000,
+    "eval_count": 535,
+    "eval_duration": 20937336000
+  },
+  "markdown": "```markdown\n## Text Extracted from Image\n\nHere's the extracted text, formatted as Markdown:\n\n**Page 478**\n\n**Achte Vorlesung.** (Eighth Lecture)\n\n**Specielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.** (Special Foundations and Characteristics of the Lifespan of Individual People.)\n\n**Hauptpunkte der Anlage zum langen Leben:**\n*   Gute Anlage und Verfassungssystem, gesunde Zähne – gut erzeugte kräftige Brust – starke Herz – gute die das rations und Kraftkraft der Natur – gehoeriger Grad und Vertheilung der Lebenskraft, gute Temperamente – harmonisches und substanzreiches Körperbau – mässige Beschaffenheit der Triebe des Körpers – kein verzüglich schwacher Theil – vollkommene Organisation der Zwangskraft – das Bild eines zum langen Leben bestimmten Menschen. (Main points of the predisposition to a long life: Good constitution and system, healthy teeth - well-produced strong chest - strong heart - good that rations and strength of nature - appropriate degree and distribution of vital force, good temperaments - harmonious and substantial physique - moderate quality of the drives of the body - no hasty weak part - perfect organization of the compulsion force - the image of a person destined for a long life.)\n\n**Nach diesen allgemeinen Begriffen kann ich nun zu der Festimmung der speciellen und individualen Grundlage des langen Lebens übergehen, die in dem Menschen selbst liegen muss.** (After these general concepts, I can now proceed to determine the special and individual foundations of longevity that must lie within the person themselves.) **Ich will die Haupt-Eigenschaften und Anlagen anzeigen, die nach obigen Grundlagen und der Ersalgung ein Mensch durchaus haben muss, der auf ein langes Leben Beschwung machen will.** (I want to show the main characteristics and predispositions that a person absolutely must have according to the above foundations and the creation if they want to invoke a long life.) **Diese Schilderung kann zugleich als eine kurze Physiognomie des langen Lebens dienen.** (This description can also serve as a brief physiognomy of longevity.)\n\n**Die Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind folgende:** (The characteristics that one can call the foundations of longevity in humans are as follows:)\n\n1.  **Vor allen Dingen muss der Magen und das ganze Verfassungssystem gut bestehen sein.** (Above all things, the stomach and the entire system must be well.) Es ist unglaublich, von welcher Wichtigkeit dieser... <end_of_text>\n```",
+  "possibly_truncated": false,
+  "seconds": 25.345206022262573
+}

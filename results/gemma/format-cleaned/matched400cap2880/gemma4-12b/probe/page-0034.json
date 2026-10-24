@@ -1,0 +1,57 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    34
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "03a49d1268efe28098bf73632f967ed74f353a147220001f4b6146cbe7538f5d"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:21:35.778227Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 12\n\nGeheimnisse des Geisterreichs aufbot, um unsere Tage zu verlängern, selbst die Geister mußten dazu be-\nnutzt werden. Es wurde damals allgemeiner Glaube,\ndas der Einfluss der Geister (die man sich doch nicht\nganz müßig denken konnte) leben und Schicksale der\nMenschen regiere, daß jeder Planet und jede Constel-\nlation persönlich des ganzen Lebens des darin ex-\nizierten Wesens eine gewisse Richtung zum Bösen\noder Guten geben könne, und folglich im Astro-\nlogie nur die Stunde und Minute der Geburt zu\nwissen brauche, um das Temperament, die Geister-\nfähigkeiten, die Schicksale, die Krankheiten, die Art\ndes Todes und auch den Tag derselben festimmen zu\nkönnen. Dieer waren nicht bloß des\ngroßen Hauses, sondern der größten, verständig-\nsten und"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 34707393042,
+    "load_duration": 3282236042,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 2265712000,
+    "eval_count": 209,
+    "eval_duration": 29076617000
+  },
+  "markdown": "```markdown\n# Page 12\n\nGeheimnisse des Geisterreichs aufbot, um unsere Tage zu verlängern, selbst die Geister mußten dazu be-\nnutzt werden. Es wurde damals allgemeiner Glaube,\ndas der Einfluss der Geister (die man sich doch nicht\nganz müßig denken konnte) leben und Schicksale der\nMenschen regiere, daß jeder Planet und jede Constel-\nlation persönlich des ganzen Lebens des darin ex-\nizierten Wesens eine gewisse Richtung zum Bösen\noder Guten geben könne, und folglich im Astro-\nlogie nur die Stunde und Minute der Geburt zu\nwissen brauche, um das Temperament, die Geister-\nfähigkeiten, die Schicksale, die Krankheiten, die Art\ndes Todes und auch den Tag derselben festimmen zu\nkönnen. Dieer waren nicht bloß des\ngroßen Hauses, sondern der größten, verständig-\nsten und",
+  "possibly_truncated": false,
+  "seconds": 34.71751880645752,
+  "format_cleanup": {
+    "source_start": 0,
+    "source_end": 769,
+    "operations": []
+  },
+  "original_page_result": "workspace/gemma/matched400cap2880/gemma4-12b/probe/page-0034.json"
+}

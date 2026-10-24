@@ -1,0 +1,333 @@
+{
+  "pymupdf": "1.26.7",
+  "pages": [
+    {
+      "book": "10289757bsb",
+      "page": 9,
+      "width": 1206,
+      "height": 2100,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/10289757bsb/page-0009.png",
+      "sha256": "d0f809ff125fc025dd89f6c165bca9f44daed51bae61a320aa0e1711ad2a2bf8"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 10,
+      "width": 1209,
+      "height": 2094,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/10289757bsb/page-0010.png",
+      "sha256": "a00e30e0d44a6e8f373264c4bb7aa6aa1998f41712d37c11a6010ff5ec8873b4"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 11,
+      "width": 1225,
+      "height": 2104,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/10289757bsb/page-0011.png",
+      "sha256": "c728f4342982611f50818d173656d720a1eac573447e183ddd2480993892613d"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 12,
+      "width": 1268,
+      "height": 2093,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/10289757bsb/page-0012.png",
+      "sha256": "8ae3fcd84af37ab51ed2aac3a275d4d7de3687a1549665df2b859471278b6982"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 13,
+      "width": 1214,
+      "height": 2094,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/10289757bsb/page-0013.png",
+      "sha256": "4003480d3cfc3b5441aa3c00f144f73d5d1d5a0b8cad48dc8fba9e1f12acb8be"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 14,
+      "width": 1213,
+      "height": 2098,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/10289757bsb/page-0014.png",
+      "sha256": "4cc110bd7bca9fcca7571a791a9215eb4d8fd4aa1c5742211ba8b548ef5ffec1"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 70,
+      "width": 1201,
+      "height": 2103,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/10289757bsb/page-0070.png",
+      "sha256": "3291e6bf2f1b1f4819954acf58efce6984dfb0501e1f6ee130cd5a94b2a827cb"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 71,
+      "width": 1193,
+      "height": 2091,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/10289757bsb/page-0071.png",
+      "sha256": "74eae68cf5dad7cd85fd21047391900ee7075296911dfaaf0b866baf3e841236"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 9,
+      "width": 6700,
+      "height": 11667,
+      "dpi": 400,
+      "image": "workspace/expanded400/10289757bsb/pages/page-0009.png",
+      "sha256": "c9a62ba0608981cc68b9d3f8d265c6cf63b8cf18b035cacfd5a9fcad410bd8cb"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 10,
+      "width": 6717,
+      "height": 11633,
+      "dpi": 400,
+      "image": "workspace/expanded400/10289757bsb/pages/page-0010.png",
+      "sha256": "a5927b57b192034d56607c6bfa3f9fa33dceb39b2c0528006135dfb2d595cc72"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 11,
+      "width": 6806,
+      "height": 11689,
+      "dpi": 400,
+      "image": "workspace/expanded400/10289757bsb/pages/page-0011.png",
+      "sha256": "a0d0c36879bb477a49ecf1131554da9f0ecba5d42378a84a432dbcb1ed2b6954"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 12,
+      "width": 7044,
+      "height": 11628,
+      "dpi": 400,
+      "image": "workspace/expanded400/10289757bsb/pages/page-0012.png",
+      "sha256": "28ee0f9392e6ade20089c9a31272a2de35348ed89a8d541a81673bba2ef923cc"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 13,
+      "width": 6744,
+      "height": 11633,
+      "dpi": 400,
+      "image": "workspace/expanded400/10289757bsb/pages/page-0013.png",
+      "sha256": "dd2827180af66064268211e9bed8345143cdc5abcea15af0a4db8a222a751a63"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 14,
+      "width": 6739,
+      "height": 11656,
+      "dpi": 400,
+      "image": "workspace/expanded400/10289757bsb/pages/page-0014.png",
+      "sha256": "194196df2f893eacef245798415ff77917b9a1c90805cf03a3bac4c15a59892f"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 70,
+      "width": 6672,
+      "height": 11683,
+      "dpi": 400,
+      "image": "workspace/expanded400/10289757bsb/pages/page-0070.png",
+      "sha256": "a174a5a2b0668609723ae4707210d497336b208ca38475d37dc81d54729fc1e8"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 71,
+      "width": 6628,
+      "height": 11617,
+      "dpi": 400,
+      "image": "workspace/expanded400/10289757bsb/pages/page-0071.png",
+      "sha256": "14ce4402aa4ddc5bbefa35fa5c4736f736b5a98c4aee401b858087431705d7ab"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 25,
+      "width": 231,
+      "height": 417,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/makrobiotikoderd00hufeuoft/page-0025.png",
+      "sha256": "b29e172535ea142e915c0d00af02c8f2156433c2ad36d7f2f5b8ba048332b1d5"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 26,
+      "width": 231,
+      "height": 417,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/makrobiotikoderd00hufeuoft/page-0026.png",
+      "sha256": "df52477c2df2e8235cc2ea972b6452d5b0bc9754b6889bca89209c07e01f03f2"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 27,
+      "width": 231,
+      "height": 417,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/makrobiotikoderd00hufeuoft/page-0027.png",
+      "sha256": "49162d4b3e79dfce9adea471a352553ddc7f58592e8fdc206f922cf242a9acef"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 28,
+      "width": 231,
+      "height": 417,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/makrobiotikoderd00hufeuoft/page-0028.png",
+      "sha256": "0e47f062c6df092db616e6db087b313ccacf494fe5ac66f6b22dda9a94b9274c"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 29,
+      "width": 231,
+      "height": 417,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/makrobiotikoderd00hufeuoft/page-0029.png",
+      "sha256": "19cd09fb514c6f7db6ea2f93919782ded8685b0663c6d149e431ce58dea407da"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 30,
+      "width": 231,
+      "height": 417,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/makrobiotikoderd00hufeuoft/page-0030.png",
+      "sha256": "b9470853037054a1c3a49734a32d646a89bbebcfdbba4dd3d246138ad93e8c53"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 34,
+      "width": 231,
+      "height": 417,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/makrobiotikoderd00hufeuoft/page-0034.png",
+      "sha256": "2ea9db7cd667043eeb159d3261a8da4eb5f818560e8ac2f18f4f8096262e6d87"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 35,
+      "width": 231,
+      "height": 417,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/makrobiotikoderd00hufeuoft/page-0035.png",
+      "sha256": "55ff3a201bcb36e6925bdec8daaebc487d6dd77a602240571d789db0306badbe"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 200,
+      "width": 231,
+      "height": 417,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/makrobiotikoderd00hufeuoft/page-0200.png",
+      "sha256": "c63855eddfffb0ee4067a0ee131c135b718138ec3a95ac23ac71dc3b47688085"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 201,
+      "width": 230,
+      "height": 417,
+      "dpi": 72,
+      "image": "workspace/gemma/inputs72/makrobiotikoderd00hufeuoft/page-0201.png",
+      "sha256": "a6174a41fa0cd56eff145aff50bcb55177441a67a2ac98210d1e9d9238718413"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 25,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0025.png",
+      "sha256": "2078fa1d0e968a5d884187bbd1880716ff55eeb84be28d5f24b97b4fb876d700"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 26,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0026.png",
+      "sha256": "80684ea168feeafde5265c39683482cebe9d59032feca694b4bb2b824dd0738c"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 27,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0027.png",
+      "sha256": "0c11d3f4dee89feecbd85068875d29d6bc5456df5126f6a5ed01229df1581577"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 28,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0028.png",
+      "sha256": "53de22cc6b092b8bf6e80e9f6bf1825cdc7ac01da396669efb980fa0a7bc25cd"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 29,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0029.png",
+      "sha256": "5398a72c70248400502f7b14425caf57463b859a0e80f76c5a576f00c33776ee"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 30,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0030.png",
+      "sha256": "666fd77ca08c5dadf4fd632c226935b401eb12f1433df7770e0fc8a2f65e17e3"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 200,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0200.png",
+      "sha256": "388dc9df3c63937a549e58e34212a3caa9bc7da1b4ec8af580e52784bb5729ca"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 201,
+      "width": 1278,
+      "height": 2313,
+      "dpi": 400,
+      "image": "workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0201.png",
+      "sha256": "463b58c82f45fa513b0540cc90e9af99079aa94aeaf1370ab1e8f63f3bf76499"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 34,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "workspace/expanded400-probe-400/document/pages/page-0034.png",
+      "sha256": "17526855b9b933d2be7871b31050de4d521a9770220fc7602688b34c304e45d0"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 35,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "workspace/expanded400-probe-400/document/pages/page-0035.png",
+      "sha256": "7614b6d7e209ad8aa6f20985117151f8820b2cf731ca80d16155df1b5b76d539"
+    }
+  ],
+  "source_documents": {
+    "10289757bsb": "9a79e4af196f5d980552f8e5aa345bcff494fe603323105824fdfa4548a56cc1",
+    "makrobiotikoderd00hufeuoft": "927ab0916d8452bdb2c11045031bf01ca52df5871a1f7612137ef226b46b5293"
+  }
+}

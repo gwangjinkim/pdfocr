@@ -1,0 +1,60 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    12
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "981545b2e4301d50aa6711cd70711e15cea1905e144d21a4ddb71b2d0c3d8019"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:10:08.396439Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 8 -\n\nlosen mit dem wohlhabenden Theil des Pu-\nblicums vermehrt werden, wodurch theils den\nUnglücklichen ein neuer Zugang zu dem\nVornehmen und Reichen, theils diesem, was\noft noch schwerer ist, ein neuer Weg eröff-\nnet wird, und eine sichere und würdige Art\nseine Wohlthaten den Armen zufließen zu\nlassen; denn wer kennt wohl die Lage und\ndie Bedürfnisse der Armen besser, als der\nArzt? Und wer kann ihm die Hilfe wohlthä-\ntiger und zweckmäßiger reichen?\n\n3. Je mehr die Menschen in Masse be-\nhandelt werden, desto mehr verliert sich der\nSinn für das Individuum, der doch allein\njene Wärme des Gefühls und jene Herzens-\ntheilnahme erzeugt, durch welche solche An-\nstalten gedeihen*). Ist man gewohnt, Men-\nschen zu Hunderten und Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort-\nder Göttlichen, anwenden, „Wer den Menschen\nnicht liebt, den er sieht, wie kann er die Mensch-\nheit lieben, er nicht sieht?“ Die gewöhnliche\nMenschenliebe verdirrt häufig sehr häufig die Men-\nschenchenliebe, und es würde manchem, der nichts als\nBeglückwünschungen für die Menschheit spricht\nim Munde führt, oft nacher ankommen, die ge-\nringste persönliche Aufopferung für den Einzelnen\nzu machen.\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 32537509375,
+    "load_duration": 2765491750,
+    "prompt_eval_count": 302,
+    "prompt_eval_duration": 1689714000,
+    "eval_count": 348,
+    "eval_duration": 27906672000
+  },
+  "markdown": "losen mit dem wohlhabenden Theil des Pu-\nblicums vermehrt werden, wodurch theils den\nUnglücklichen ein neuer Zugang zu dem\nVornehmen und Reichen, theils diesem, was\noft noch schwerer ist, ein neuer Weg eröff-\nnet wird, und eine sichere und würdige Art\nseine Wohlthaten den Armen zufließen zu\nlassen; denn wer kennt wohl die Lage und\ndie Bedürfnisse der Armen besser, als der\nArzt? Und wer kann ihm die Hilfe wohlthä-\ntiger und zweckmäßiger reichen?\n\n3. Je mehr die Menschen in Masse be-\nhandelt werden, desto mehr verliert sich der\nSinn für das Individuum, der doch allein\njene Wärme des Gefühls und jene Herzens-\ntheilnahme erzeugt, durch welche solche An-\nstalten gedeihen*). Ist man gewohnt, Men-\nschen zu Hunderten und Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort-\nder Göttlichen, anwenden, „Wer den Menschen\nnicht liebt, den er sieht, wie kann er die Mensch-\nheit lieben, er nicht sieht?“ Die gewöhnliche\nMenschenliebe verdirrt häufig sehr häufig die Men-\nschenchenliebe, und es würde manchem, der nichts als\nBeglückwünschungen für die Menschheit spricht\nim Munde führt, oft nacher ankommen, die ge-\nringste persönliche Aufopferung für den Einzelnen\nzu machen.",
+  "possibly_truncated": false,
+  "seconds": 32.554789781570435,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1207,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma/matched400cap2880/gemma4-12b/10289757bsb/page-0012.json"
+}

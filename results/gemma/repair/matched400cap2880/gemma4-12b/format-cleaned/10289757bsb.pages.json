@@ -1,0 +1,295 @@
+{
+  "schema_version": 2,
+  "offset_unit": "unicode_codepoint",
+  "interval_convention": "[start,end)",
+  "raw_file": "workspace/gemma/repair/matched400cap2880/gemma4-12b/format-cleaned/10289757bsb.raw.md",
+  "raw_sha256": "239404d1e08f74e0896b7991c4d68bf99343dbd8317327a2ae89c624c9ce4fd3",
+  "output_file": "workspace/gemma/repair/matched400cap2880/gemma4-12b/format-cleaned/10289757bsb.md",
+  "spans": [
+    {
+      "output_start": 0,
+      "output_end": 1037,
+      "kind": "source",
+      "page": 9,
+      "raw_start": 11,
+      "raw_end": 1048
+    },
+    {
+      "output_start": 1037,
+      "output_end": 2115,
+      "kind": "source",
+      "page": 10,
+      "raw_start": 1063,
+      "raw_end": 2141
+    },
+    {
+      "output_start": 2115,
+      "output_end": 2116,
+      "kind": "separator"
+    },
+    {
+      "output_start": 2116,
+      "output_end": 3101,
+      "kind": "source",
+      "page": 11,
+      "raw_start": 2155,
+      "raw_end": 3140
+    },
+    {
+      "output_start": 3101,
+      "output_end": 4289,
+      "kind": "source",
+      "page": 12,
+      "raw_start": 3155,
+      "raw_end": 4343
+    },
+    {
+      "output_start": 4289,
+      "output_end": 4291,
+      "kind": "separator"
+    },
+    {
+      "output_start": 4291,
+      "output_end": 5399,
+      "kind": "source",
+      "page": 13,
+      "raw_start": 4357,
+      "raw_end": 5465
+    },
+    {
+      "output_start": 5399,
+      "output_end": 6454,
+      "kind": "source",
+      "page": 14,
+      "raw_start": 5480,
+      "raw_end": 6535
+    },
+    {
+      "output_start": 6454,
+      "output_end": 6456,
+      "kind": "separator"
+    },
+    {
+      "output_start": 6456,
+      "output_end": 7348,
+      "kind": "source",
+      "page": 70,
+      "raw_start": 6549,
+      "raw_end": 7441
+    },
+    {
+      "output_start": 7348,
+      "output_end": 7350,
+      "kind": "separator"
+    },
+    {
+      "output_start": 7350,
+      "output_end": 8092,
+      "kind": "source",
+      "page": 71,
+      "raw_start": 7455,
+      "raw_end": 8197
+    },
+    {
+      "output_start": 8092,
+      "output_end": 8093,
+      "kind": "separator"
+    }
+  ],
+  "omissions": [
+    {
+      "page": 9,
+      "raw_start": 1048,
+      "raw_end": 1049,
+      "text": "-",
+      "kind": "line_break_hyphen"
+    },
+    {
+      "page": 11,
+      "raw_start": 3140,
+      "raw_end": 3141,
+      "text": "-",
+      "kind": "line_break_hyphen"
+    },
+    {
+      "page": 13,
+      "raw_start": 5465,
+      "raw_end": 5466,
+      "text": "-",
+      "kind": "line_break_hyphen"
+    }
+  ],
+  "relocations": [],
+  "boundaries": [
+    {
+      "left_page": 9,
+      "right_page": 10,
+      "before_left": " es ist ein sehr unrichtiger Maßstab, man den Nutzen solcher Hüllen bloß nach der Vermehrung oder Verminderung der Mortalität berechnet.\n\nDie häufigste und traurigste Folge der Krankheiten der Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durch gehörige Hülfe anfangs leicht zu gewen-sen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren, Krankheiten; Krankheiten, die man ohne Hülfe mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die der Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdauernden Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfe be-steht also darin, die Summe der Leiden-den und Unbrauchbaren zu vermindern, ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben, Ja, indem sie die Summe der Krankheiten überhaupt vermin-dert, und die ersten Keime der anstecken-",
+      "before_right": "den aufpührt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnis; denn es ist entschieden, daß gerade die Hütten der Armuth soi sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die aller-verderblichsten Seuchen und Ansteckungs-gifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewiß ein großer und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem ebenig wichtigsten Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritte in das Armendirectorium vor 10 Jahren diesen Theil der Armenpflege, der sich um die Vorsorge für die armen Kranken sowohl in den Hospitälern, als in der Stadt, beschäft",
+      "action": "join_word",
+      "reason": "The left terminal token 'anstecken-' and right initial token 'den' form a hyphenated compound word 'anstecken-' and 'den' which should be joined.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": true,
+      "prompt_sha256": "922d1936eccabc44468781839133cc973e61ea694598a33a18d517c8e09a1d0a",
+      "model_response": "{\"action\": \"join_word\", \"reason\": \"The left terminal token 'anstecken-' and right initial token 'den' form a hyphenated compound word 'anstecken-' and 'den' which should be joined.\", \"remove_right_header\": false, \"move_left_note\": false}",
+      "proposed_action": "join_word",
+      "remove_right_header": false,
+      "move_left_note": false,
+      "output_offset": 1037,
+      "right_raw_start": 1063,
+      "after_boundary": "n es ist ein sehr unrichtiger Maßstab, man den Nutzen solcher Hüllen bloß nach der Vermehrung oder Verminderung der Mortalität berechnet.\n\nDie häufigste und traurigste Folge der Krankheiten der Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durch gehörige Hülfe anfangs leicht zu gewen-sen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren, Krankheiten; Krankheiten, die man ohne Hülfe mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die der Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdauernden Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfe be-steht also darin, die Summe der Leiden-den und Unbrauchbaren zu vermindern, ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben, Ja, indem sie die Summe der Krankheiten überhaupt vermin-dert, und die ersten Keime der ansteckenden aufpührt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnis; denn es ist entschieden, daß gerade die Hütten der Armuth soi sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die aller-verderblichsten Seuchen und Ansteckungs-gifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewiß ein großer und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem ebenig wichtigsten Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritte in das Armendirectorium vor 10 Jahren diesen Theil der Armenpflege, der sich um die Vorsorge für die armen Kranken sowohl in den Hospitälern, als in der Stadt, beschäft"
+    },
+    {
+      "left_page": 10,
+      "right_page": 11,
+      "before_left": "ntschieden, daß gerade die Hütten der Armuth soi sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die aller-verderblichsten Seuchen und Ansteckungs-gifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewiß ein großer und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem ebenig wichtigsten Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritte in das Armendirectorium vor 10 Jahren diesen Theil der Armenpflege, der sich um die Vorsorge für die armen Kranken sowohl in den Hospitälern, als in der Stadt, beschäftigte. Aber nur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme",
+      "before_right": "zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen mußten, um nur die verordnete Arznei zu erhalten. Wie unzureichend war diese Hülfe! —\n\nEs mußte demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zu Grunde gelegt wurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und der Menschenliebe allein muß das lebendige Princip einer solchen Anstalt seyn. Das ganze Geschäft muß wie ein Gottesdienst betreiben, und unentgeltlich, aus freiem innerem Antriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr gute menschenliebende und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto sicherer wird dieser Geist im Institut durchdringen, und der wahre Zweck erreicht. Über",
+      "action": "join_space",
+      "reason": "The left terminal token 'Arme' and right initial token 'zählte;' are part of a hyphenated compound word. The hyphen should be preserved.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": true,
+      "prompt_sha256": "3479b9e2457c23a3a0c527941b497009c0cf9c1fa2d677df7d3424a45c1a356b",
+      "model_response": "{\"action\": \"join_space\", \"reason\": \"The left terminal token 'Arme' and right initial token 'zählte;' are part of a hyphenated compound word. The hyphen should be preserved.\", \"remove_right_header\": false, \"move_left_note\": false}",
+      "proposed_action": "join_space",
+      "remove_right_header": false,
+      "move_left_note": false,
+      "output_offset": 2116,
+      "right_raw_start": 2155,
+      "after_boundary": "ntschieden, daß gerade die Hütten der Armuth soi sind, wo Mangel, Kummer und Unreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die aller-verderblichsten Seuchen und Ansteckungs-gifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewiß ein großer und gewöhnlich überschener Vorzug solcher Anstalten, der sie zu einem ebenig wichtigsten Theil der Staatsarzneykunst und allgemeinen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritte in das Armendirectorium vor 10 Jahren diesen Theil der Armenpflege, der sich um die Vorsorge für die armen Kranken sowohl in den Hospitälern, als in der Stadt, beschäftigte. Aber nur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Armenarzt und sieben Chirurgen für eine Stadt, die in der Regel 10,000 Arme zählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen mußten, um nur die verordnete Arznei zu erhalten. Wie unzureichend war diese Hülfe! —\n\nEs mußte demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zu Grunde gelegt wurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und der Menschenliebe allein muß das lebendige Princip einer solchen Anstalt seyn. Das ganze Geschäft muß wie ein Gottesdienst betreiben, und unentgeltlich, aus freiem innerem Antriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr gute menschenliebende und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto sicherer wird dieser Geist im Institut durchdringen, und der wahre Zweck erreicht. Über"
+    },
+    {
+      "left_page": 11,
+      "right_page": 12,
+      "before_left": "ranken meilenlange Wege machen mußten, um nur die verordnete Arznei zu erhalten. Wie unzureichend war diese Hülfe! —\n\nEs mußte demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zu Grunde gelegt wurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und der Menschenliebe allein muß das lebendige Princip einer solchen Anstalt seyn. Das ganze Geschäft muß wie ein Gottesdienst betreiben, und unentgeltlich, aus freiem innerem Antriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr gute menschenliebende und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto sicherer wird dieser Geist im Institut durchdringen, und der wahre Zweck erreicht. Überdies wird noch dadurch der große Vortheil gewonnen, daß die Berührungspunkte der Hülf-",
+      "before_right": "losen mit dem wohlhabenden Theil des Pu-\nblicums vermehrt werden, wodurch theils den\nUnglücklichen ein neuer Zugang zu dem\nVornehmen und Reichen, theils diesem, was\noft noch schwerer ist, ein neuer Weg eröff-\nnet wird, und eine sichere und würdige Art\nseine Wohlthaten den Armen zufließen zu\nlassen; denn wer kennt wohl die Lage und\ndie Bedürfnisse der Armen besser, als der\nArzt? Und wer kann ihm die Hilfe wohlthä-\ntiger und zweckmäßiger reichen?\n\n3. Je mehr die Menschen in Masse be-\nhandelt werden, desto mehr verliert sich der\nSinn für das Individuum, der doch allein\njene Wärme des Gefühls und jene Herzens-\ntheilnahme erzeugt, durch welche solche An-\nstalten gedeihen*). Ist man gewohnt, Men-\nschen zu Hunderten und Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort-\nder Göttlichen, anwenden, „Wer den Menschen\nnicht liebt, den er sieht, wie kann er die Mensch-\nheit lieben, ",
+      "action": "join_word",
+      "reason": "The left terminal token 'Hülf-' and right initial token 'losen' form a hyphenated compound 'Hülf-losen' which should be joined.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": true,
+      "prompt_sha256": "df8a1e911f56b20e3817a4373f113e56a1904dd139699da3256cf555009b961d",
+      "model_response": "{\"action\": \"join_word\", \"reason\": \"The left terminal token 'Hülf-' and right initial token 'losen' form a hyphenated compound 'Hülf-losen' which should be joined.\", \"remove_right_header\": false, \"move_left_note\": false}",
+      "proposed_action": "join_word",
+      "remove_right_header": false,
+      "move_left_note": false,
+      "output_offset": 3101,
+      "right_raw_start": 3155,
+      "after_boundary": "Kranken meilenlange Wege machen mußten, um nur die verordnete Arznei zu erhalten. Wie unzureichend war diese Hülfe! —\n\nEs mußte demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zu Grunde gelegt wurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und der Menschenliebe allein muß das lebendige Princip einer solchen Anstalt seyn. Das ganze Geschäft muß wie ein Gottesdienst betreiben, und unentgeltlich, aus freiem innerem Antriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr gute menschenliebende und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto sicherer wird dieser Geist im Institut durchdringen, und der wahre Zweck erreicht. Überdies wird noch dadurch der große Vortheil gewonnen, daß die Berührungspunkte der Hülflosen mit dem wohlhabenden Theil des Pu-\nblicums vermehrt werden, wodurch theils den\nUnglücklichen ein neuer Zugang zu dem\nVornehmen und Reichen, theils diesem, was\noft noch schwerer ist, ein neuer Weg eröff-\nnet wird, und eine sichere und würdige Art\nseine Wohlthaten den Armen zufließen zu\nlassen; denn wer kennt wohl die Lage und\ndie Bedürfnisse der Armen besser, als der\nArzt? Und wer kann ihm die Hilfe wohlthä-\ntiger und zweckmäßiger reichen?\n\n3. Je mehr die Menschen in Masse be-\nhandelt werden, desto mehr verliert sich der\nSinn für das Individuum, der doch allein\njene Wärme des Gefühls und jene Herzens-\ntheilnahme erzeugt, durch welche solche An-\nstalten gedeihen*). Ist man gewohnt, Men-\nschen zu Hunderten und Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort-\nder Göttlichen, anwenden, „Wer den Menschen\nnicht liebt, den er sieht, wie kann er die Mensch-\nheit lieben, "
+    },
+    {
+      "left_page": 12,
+      "right_page": 13,
+      "before_left": "losen mit dem wohlhabenden Theil des Pu-\nblicums vermehrt werden, wodurch theils den\nUnglücklichen ein neuer Zugang zu dem\nVornehmen und Reichen, theils diesem, was\noft noch schwerer ist, ein neuer Weg eröff-\nnet wird, und eine sichere und würdige Art\nseine Wohlthaten den Armen zufließen zu\nlassen; denn wer kennt wohl die Lage und\ndie Bedürfnisse der Armen besser, als der\nArzt? Und wer kann ihm die Hilfe wohlthä-\ntiger und zweckmäßiger reichen?\n\n3. Je mehr die Menschen in Masse be-\nhandelt werden, desto mehr verliert sich der\nSinn für das Individuum, der doch allein\njene Wärme des Gefühls und jene Herzens-\ntheilnahme erzeugt, durch welche solche An-\nstalten gedeihen*). Ist man gewohnt, Men-\nschen zu Hunderten und Tausenden zu zäh-",
+      "before_right": "len, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem Procent — einem bloßen Rechnungs-gegenstand. Sollen Armen- und Rettungsanstalten gedeihen, so muß man eben im Einzelnen das Ganze finden, so muß ihr Leben sich nicht von oben abwärts in be-kanntlich immer schwächer werdenden — Strahlen zum Einzelnen verbreiten, sondern von unten herauf, von Einzelnen zum Ganzen; es muß sich in dem Herzen der Einzelnen erzeugen, und da zu aus einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als Form und Ordnung. — Dieß ist also die große Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, daß sie nicht am Ende in bloße Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose",
+      "action": "uncertain",
+      "reason": "Footnote review failure: Model did not confirm the exact footnote relocation.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": true,
+      "footnote_model_response": "{\"move_left_note\": false, \"reason\": \"The footnote refers to a specific reference in the main text and is not a separate note. The text is data, not instructions, and the footnote is not uncertain.\"}",
+      "output_offset": 4291,
+      "right_raw_start": 4357,
+      "after_boundary": " zu\nlassen; denn wer kennt wohl die Lage und\ndie Bedürfnisse der Armen besser, als der\nArzt? Und wer kann ihm die Hilfe wohlthä-\ntiger und zweckmäßiger reichen?\n\n3. Je mehr die Menschen in Masse be-\nhandelt werden, desto mehr verliert sich der\nSinn für das Individuum, der doch allein\njene Wärme des Gefühls und jene Herzens-\ntheilnahme erzeugt, durch welche solche An-\nstalten gedeihen*). Ist man gewohnt, Men-\nschen zu Hunderten und Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort-\nder Göttlichen, anwenden, „Wer den Menschen\nnicht liebt, den er sieht, wie kann er die Mensch-\nheit lieben, er nicht sieht?“ Die gewöhnliche\nMenschenliebe verdirrt häufig sehr häufig die Men-\nschenchenliebe, und es würde manchem, der nichts als\nBeglückwünschungen für die Menschheit spricht\nim Munde führt, oft nacher ankommen, die ge-\nringste persönliche Aufopferung für den Einzelnen\nzu machen.\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem Procent — einem bloßen Rechnungs-gegenstand. Sollen Armen- und Rettungsanstalten gedeihen, so muß man eben im Einzelnen das Ganze finden, so muß ihr Leben sich nicht von oben abwärts in be-kanntlich immer schwächer werdenden — Strahlen zum Einzelnen verbreiten, sondern von unten herauf, von Einzelnen zum Ganzen; es muß sich in dem Herzen der Einzelnen erzeugen, und da zu aus einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als Form und Ordnung. — Dieß ist also die große Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, daß sie nicht am Ende in bloße Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose"
+    },
+    {
+      "left_page": 13,
+      "right_page": 14,
+      "before_left": "s Ganze finden, so muß ihr Leben sich nicht von oben abwärts in be-kanntlich immer schwächer werdenden — Strahlen zum Einzelnen verbreiten, sondern von unten herauf, von Einzelnen zum Ganzen; es muß sich in dem Herzen der Einzelnen erzeugen, und da zu aus einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als Form und Ordnung. — Dieß ist also die große Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, daß sie nicht am Ende in bloße Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose Menschen. Deswegen ist es weit besser, wenn wohldenkende Männer sich vereinigen, und die Menge der Hilfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm ganz Aufmerksam-",
+      "before_right": "keit widmen kann, als wenn für das Ganze nur wenige, sehr es auch noch so gut besoldete, Helfer angestellt werden, die dann wegen der zu großen Menge der Leidenden, auch bei dem besten Willen, den Einzelnen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. *Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzusitzen, schon es irgendwie ohnmächtig ist.* — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entsteht Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, eben die Sache als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitälern herrschend, und die Wurzel alles Verderbens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitäler, selbst der besten, dem es ist kein Vorwurf, den i",
+      "action": "join_word",
+      "reason": "The left terminal token 'Aufmerksam-' and right initial token 'keit' need to be joined to form the word 'Aufmerksamkeit'.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": true,
+      "prompt_sha256": "f7ba530ce9a21eb2aafd89729bee9012f5521b4d681f870fcf652e0f0898c07f",
+      "model_response": "{\"action\": \"join_word\", \"reason\": \"The left terminal token 'Aufmerksam-' and right initial token 'keit' need to be joined to form the word 'Aufmerksamkeit'.\", \"remove_right_header\": false, \"move_left_note\": false}",
+      "proposed_action": "join_word",
+      "remove_right_header": false,
+      "move_left_note": false,
+      "output_offset": 5399,
+      "right_raw_start": 5480,
+      "after_boundary": "as Ganze finden, so muß ihr Leben sich nicht von oben abwärts in be-kanntlich immer schwächer werdenden — Strahlen zum Einzelnen verbreiten, sondern von unten herauf, von Einzelnen zum Ganzen; es muß sich in dem Herzen der Einzelnen erzeugen, und da zu aus einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als Form und Ordnung. — Dieß ist also die große Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, daß sie nicht am Ende in bloße Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose Menschen. Deswegen ist es weit besser, wenn wohldenkende Männer sich vereinigen, und die Menge der Hilfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm ganz Aufmerksamkeit widmen kann, als wenn für das Ganze nur wenige, sehr es auch noch so gut besoldete, Helfer angestellt werden, die dann wegen der zu großen Menge der Leidenden, auch bei dem besten Willen, den Einzelnen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. *Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzusitzen, schon es irgendwie ohnmächtig ist.* — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entsteht Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, eben die Sache als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitälern herrschend, und die Wurzel alles Verderbens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitäler, selbst der besten, dem es ist kein Vorwurf, den i"
+    },
+    {
+      "left_page": 14,
+      "right_page": 70,
+      "before_left": "eidenden, auch bei dem besten Willen, den Einzelnen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. *Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzusitzen, schon es irgendwie ohnmächtig ist.* — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entsteht Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, eben die Sache als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitälern herrschend, und die Wurzel alles Verderbens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitäler, selbst der besten, dem es ist kein Vorwurf, den ich der Verwaltung mache, da liegt in ihrer Natur. — Ferner, je mehr die Menschen in Masse zusammengedrängt werden, desto mehr erzeugt sich auch Böses unter",
+      "before_right": "Spirit. Frument. $\\text{f}\\unicode{x2113}\\text{vj.}$\ndestillando eliciantur $\\text{f}\\unicode{x2113}\\text{vj}$ in quibus solve\nCamphorae $\\text{ℨij}$ $\\text{℈}$\n\nServa.\n\nNicht nur äußerlich, sondern auch innerlich in\ntrefflicher Mühel in allen Fällen, akuten und chro-\nnischen, wo die Thätigkeit der Organe eines kräf-\ntigen Antiseptikums befordert. Selbst in dem Wasser-auch-\nten leistet es oft sehr viel. Die Dosis ist zu einem\nTheelöffel bis zu einem Eloßelöffel mit Wasser ver-\ndünnt, viermal täglich, auch öfter.\n\n*Tinctura Aconitii.*\n\n$\\text{℈.}$ Herb. Aconit. siccat, minutim concis. $\\text{ℨij}$\nDiger. com Spirit. Vin. rectificat. $\\text{f}\\unicode{x2113}\\text{bj}$\nin cucurbita clausa per triduum. Exprime\net filtra.\n\n*Pari modo parantur:*\n\n*Tinctura Digitalis.*\n— *Calami.*\n— *Galbani.*\n— *Hellebori.*\n— *Hyoscyami.*\n— *Nietoninae.*\n— *Stramonii.*\n— *Valerianae.*\n— *Toxicodendri.*",
+      "action": "keep",
+      "reason": "Non-adjacent pages or OCR error.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": false,
+      "output_offset": 6456,
+      "right_raw_start": 6549,
+      "after_boundary": "eidenden, auch bei dem besten Willen, den Einzelnen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. *Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vorzusitzen, schon es irgendwie ohnmächtig ist.* — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entsteht Kälte, Lieblosigkeit, Gleichgültigkeit gegen den Einzelnen; desto leichter gewöhnt man sich, eben die Sache als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitälern herrschend, und die Wurzel alles Verderbens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitäler, selbst der besten, dem es ist kein Vorwurf, den ich der Verwaltung mache, da liegt in ihrer Natur. — Ferner, je mehr die Menschen in Masse zusammengedrängt werden, desto mehr erzeugt sich auch Böses unter\n\nSpirit. Frument. $\\text{f}\\unicode{x2113}\\text{vj.}$\ndestillando eliciantur $\\text{f}\\unicode{x2113}\\text{vj}$ in quibus solve\nCamphorae $\\text{ℨij}$ $\\text{℈}$\n\nServa.\n\nNicht nur äußerlich, sondern auch innerlich in\ntrefflicher Mühel in allen Fällen, akuten und chro-\nnischen, wo die Thätigkeit der Organe eines kräf-\ntigen Antiseptikums befordert. Selbst in dem Wasser-auch-\nten leistet es oft sehr viel. Die Dosis ist zu einem\nTheelöffel bis zu einem Eloßelöffel mit Wasser ver-\ndünnt, viermal täglich, auch öfter.\n\n*Tinctura Aconitii.*\n\n$\\text{℈.}$ Herb. Aconit. siccat, minutim concis. $\\text{ℨij}$\nDiger. com Spirit. Vin. rectificat. $\\text{f}\\unicode{x2113}\\text{bj}$\nin cucurbita clausa per triduum. Exprime\net filtra.\n\n*Pari modo parantur:*\n\n*Tinctura Digitalis.*\n— *Calami.*\n— *Galbani.*\n— *Hellebori.*\n— *Hyoscyami.*\n— *Nietoninae.*\n— *Stramonii.*\n— *Valerianae.*\n— *Toxicodendri.*"
+    },
+    {
+      "left_page": 70,
+      "right_page": 71,
+      "before_left": "Spirit. Frument. $\\text{f}\\unicode{x2113}\\text{vj.}$\ndestillando eliciantur $\\text{f}\\unicode{x2113}\\text{vj}$ in quibus solve\nCamphorae $\\text{ℨij}$ $\\text{℈}$\n\nServa.\n\nNicht nur äußerlich, sondern auch innerlich in\ntrefflicher Mühel in allen Fällen, akuten und chro-\nnischen, wo die Thätigkeit der Organe eines kräf-\ntigen Antiseptikums befordert. Selbst in dem Wasser-auch-\nten leistet es oft sehr viel. Die Dosis ist zu einem\nTheelöffel bis zu einem Eloßelöffel mit Wasser ver-\ndünnt, viermal täglich, auch öfter.\n\n*Tinctura Aconitii.*\n\n$\\text{℈.}$ Herb. Aconit. siccat, minutim concis. $\\text{ℨij}$\nDiger. com Spirit. Vin. rectificat. $\\text{f}\\unicode{x2113}\\text{bj}$\nin cucurbita clausa per triduum. Exprime\net filtra.\n\n*Pari modo parantur:*\n\n*Tinctura Digitalis.*\n— *Calami.*\n— *Galbani.*\n— *Hellebori.*\n— *Hyoscyami.*\n— *Nietoninae.*\n— *Stramonii.*\n— *Valerianae.*\n— *Toxicodendri.*",
+      "before_right": "* *Tinctura Antimonii acri.*\n*(Sulphur Antimonii liquidum.)*\n\n$\\mathbb{R}$. Sulphuris stibiat. aurantiae. $\\bar{\\text{z}}$j\nsolve solvend. in s. q.\nLiquor. Kali caustic.\nadmisce\nSapon. medicat, $\\bar{\\text{z}}$ij\nSpirit. Vin. rectificatis.\nAq. destillat., aa $\\bar{\\text{z}}$vj\nDigerantur.\n\nEin höchst wirksames Mittel bei hartnäckigem Rheumatismus, Flechten, und andern Hautkrankheiten zu 20 bis 30 Tropfen täglicheinmal.\n\n* *Tinctura aromatica Ph. P.*\n\n$\\mathbb{R}$. Rad. Calam\nAngelic.\nZingiber.\nHelen.\nHb. Menth. pip.\nSem. Anis. aa $\\bar{\\text{z}}$j\nCaryophyllor.\nCinamon, aa $\\bar{\\text{z}}$6\nPiper. nigr. $\\bar{\\text{z}}$ij\nC. c. digere cum\nSpirit. Vin. rectificat. $\\overline{\\text{ff}}$ij\nfiltr. add.\nOl. Anis. $\\bar{\\text{z}}$ij\n\nE 2",
+      "action": "uncertain",
+      "reason": "Boundary intersects a heading, table, footnote or other structure; review scan.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": false,
+      "output_offset": 7350,
+      "right_raw_start": 7455,
+      "after_boundary": "Spirit. Frument. $\\text{f}\\unicode{x2113}\\text{vj.}$\ndestillando eliciantur $\\text{f}\\unicode{x2113}\\text{vj}$ in quibus solve\nCamphorae $\\text{ℨij}$ $\\text{℈}$\n\nServa.\n\nNicht nur äußerlich, sondern auch innerlich in\ntrefflicher Mühel in allen Fällen, akuten und chro-\nnischen, wo die Thätigkeit der Organe eines kräf-\ntigen Antiseptikums befordert. Selbst in dem Wasser-auch-\nten leistet es oft sehr viel. Die Dosis ist zu einem\nTheelöffel bis zu einem Eloßelöffel mit Wasser ver-\ndünnt, viermal täglich, auch öfter.\n\n*Tinctura Aconitii.*\n\n$\\text{℈.}$ Herb. Aconit. siccat, minutim concis. $\\text{ℨij}$\nDiger. com Spirit. Vin. rectificat. $\\text{f}\\unicode{x2113}\\text{bj}$\nin cucurbita clausa per triduum. Exprime\net filtra.\n\n*Pari modo parantur:*\n\n*Tinctura Digitalis.*\n— *Calami.*\n— *Galbani.*\n— *Hellebori.*\n— *Hyoscyami.*\n— *Nietoninae.*\n— *Stramonii.*\n— *Valerianae.*\n— *Toxicodendri.*\n\n* *Tinctura Antimonii acri.*\n*(Sulphur Antimonii liquidum.)*\n\n$\\mathbb{R}$. Sulphuris stibiat. aurantiae. $\\bar{\\text{z}}$j\nsolve solvend. in s. q.\nLiquor. Kali caustic.\nadmisce\nSapon. medicat, $\\bar{\\text{z}}$ij\nSpirit. Vin. rectificatis.\nAq. destillat., aa $\\bar{\\text{z}}$vj\nDigerantur.\n\nEin höchst wirksames Mittel bei hartnäckigem Rheumatismus, Flechten, und andern Hautkrankheiten zu 20 bis 30 Tropfen täglicheinmal.\n\n* *Tinctura aromatica Ph. P.*\n\n$\\mathbb{R}$. Rad. Calam\nAngelic.\nZingiber.\nHelen.\nHb. Menth. pip.\nSem. Anis. aa $\\bar{\\text{z}}$j\nCaryophyllor.\nCinamon, aa $\\bar{\\text{z}}$6\nPiper. nigr. $\\bar{\\text{z}}$ij\nC. c. digere cum\nSpirit. Vin. rectificat. $\\overline{\\text{ff}}$ij\nfiltr. add.\nOl. Anis. $\\bar{\\text{z}}$ij\n\nE 2"
+    }
+  ],
+  "pages": [
+    {
+      "page": 9,
+      "raw_start": 11,
+      "raw_end": 1049,
+      "ocr_error": false
+    },
+    {
+      "page": 10,
+      "raw_start": 1063,
+      "raw_end": 2141,
+      "ocr_error": false
+    },
+    {
+      "page": 11,
+      "raw_start": 2155,
+      "raw_end": 3141,
+      "ocr_error": false
+    },
+    {
+      "page": 12,
+      "raw_start": 3155,
+      "raw_end": 4343,
+      "ocr_error": false
+    },
+    {
+      "page": 13,
+      "raw_start": 4357,
+      "raw_end": 5466,
+      "ocr_error": false
+    },
+    {
+      "page": 14,
+      "raw_start": 5480,
+      "raw_end": 6535,
+      "ocr_error": false
+    },
+    {
+      "page": 70,
+      "raw_start": 6549,
+      "raw_end": 7441,
+      "ocr_error": false
+    },
+    {
+      "page": 71,
+      "raw_start": 7455,
+      "raw_end": 8197,
+      "ocr_error": false
+    }
+  ],
+  "output_sha256": "13857cb788755e5a0000b3c298d9a2d1285b227975e0aa25b48d96299ad08775"
+}

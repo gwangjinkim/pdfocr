@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    28
+  ],
+  "arm": "matched400",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "53de22cc6b092b8bf6e80e9f6bf1825cdc7ac01da396669efb980fa0a7bc25cd"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T08:56:37.466023Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 6\n\nGanz anders bildete sich dieser Trick bei den Griechen, unter dem Einfluß einer reinen und schönen Natur, aus. Man überzeugt sich sehr bald, daß gerade der unvermittelte Genuß der Natur die beständige Übung unserer Kräfte zu fördere Mittel sein, die Lebenskraft zu stärken, und unser Leben zu verlängern. Sophokrates und andere damaligen Philosophen und Ärzte kennenen feine anbern Mittel, als Mäßigkeit, das Trinken der freien und reinen Luft. Außerdem, und vorzüglich das tägliche Üben der Körpers und Leibesübung. Auf letztere setzten sie ihr größtes Vertrauen. Es wurden damit Methoden und Regeln bestimmt, dem Körper mannigfalte, starke und schwache Bewegungen zu geben; daraus wurde eine eigene Kunst der Leibübung, die Gymnastik, daraus, und der größte Philosoph und Gelehrte wußte, daß Übung des Leibes und Übung der Seele immer in gleichem Verhältniß bleiben müßten. Man brachte sie vielfach mit einer sehr kunstvollen Kenntniß, diese für uns fast verschwundene Kunst den verschiedenen Naturen, Situationen und Bedürfnissen der Menschen anzuwassen, und sie besonders auf dem Mittel zu gebrauchen, die inneren Menschen immer in einer gehörigen Tätigkeit zu erhalten, und dadurch nicht nur die Krankheitsursachen zu verhindern, sondern auch völlig ausgebrochene Krankheiten zu heilen. Ein gewisser Herodicus ging so weit, daß er sogar Patienten nöthigte, spazieren zu gehen, zu reiben zu lassen, und je mehr die Krankheit abmätterte, desto mehr\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 13459478916,
+    "load_duration": 2289159000,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 1028135000,
+    "eval_count": 357,
+    "eval_duration": 10019949000
+  },
+  "markdown": "```markdown\n# Page 6\n\nGanz anders bildete sich dieser Trick bei den Griechen, unter dem Einfluß einer reinen und schönen Natur, aus. Man überzeugt sich sehr bald, daß gerade der unvermittelte Genuß der Natur die beständige Übung unserer Kräfte zu fördere Mittel sein, die Lebenskraft zu stärken, und unser Leben zu verlängern. Sophokrates und andere damaligen Philosophen und Ärzte kennenen feine anbern Mittel, als Mäßigkeit, das Trinken der freien und reinen Luft. Außerdem, und vorzüglich das tägliche Üben der Körpers und Leibesübung. Auf letztere setzten sie ihr größtes Vertrauen. Es wurden damit Methoden und Regeln bestimmt, dem Körper mannigfalte, starke und schwache Bewegungen zu geben; daraus wurde eine eigene Kunst der Leibübung, die Gymnastik, daraus, und der größte Philosoph und Gelehrte wußte, daß Übung des Leibes und Übung der Seele immer in gleichem Verhältniß bleiben müßten. Man brachte sie vielfach mit einer sehr kunstvollen Kenntniß, diese für uns fast verschwundene Kunst den verschiedenen Naturen, Situationen und Bedürfnissen der Menschen anzuwassen, und sie besonders auf dem Mittel zu gebrauchen, die inneren Menschen immer in einer gehörigen Tätigkeit zu erhalten, und dadurch nicht nur die Krankheitsursachen zu verhindern, sondern auch völlig ausgebrochene Krankheiten zu heilen. Ein gewisser Herodicus ging so weit, daß er sogar Patienten nöthigte, spazieren zu gehen, zu reiben zu lassen, und je mehr die Krankheit abmätterte, desto mehr\n```",
+  "possibly_truncated": false,
+  "seconds": 13.472217082977295
+}

@@ -1,0 +1,48 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    70,
+    71
+  ],
+  "arm": "legacy72",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "3291e6bf2f1b1f4819954acf58efce6984dfb0501e1f6ee130cd5a94b2a827cb"
+          },
+          {
+            "sha256": "74eae68cf5dad7cd85fd21047391900ee7075296911dfaaf0b866baf3e841236"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:21:51.868462Z",
+    "message": {
+      "role": "assistant",
+      "content": "Okay, here's the extracted text from the provided images, formatted as structured Markdown.  I've done my best to interpret the language (likely a mix of German and Latin with abbreviations common in historical pharmaceutical texts).  Please note that some words are uncertain due to image quality or unusual abbreviations.\n\n---\n\n## Image 1\n\n```markdown\n### Page 66\n\n**Spirit. Frument.**  *fb vj*\n\ndestillando eliciantur *fb vj* in quibus solve Camphorae *§j§*\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstoßes bedarf. Selbst in den Wasserausschen leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Esslöffel mit Wasser verdünnt, viermal täglich, auch öfter.\n\n**Tinctura Aconiti.**\n\n§. Herb. Aconit. siccat, minūtim concis. *§j*\nDiger. cum Spirit. Vin. rectificat. *fb j*\nin cucurbita clausa per triduum. Exprime et filtra.\n\nPari modo parantur:\n\n- Tinctura Digitalis.\n- Calami.\n- Galbani.\n- Hellebori.\n- Hyoscyami.\n- Nicotianae.\n- Stramonii.\n- Valerianae.\n- Toxicodendri.\n```\n\n## Image 2\n\n```markdown\n### Page 67\n\n**Tinctura Antimonii acri.**\n\n(Sulphur Antimonii liquidum.)\n\n§. Sulphuris stibiat, aurantiac. *§j*\nsolve digerend in s. q.\nLiquor. Kali caustic.\nadmisce\n\nSapon. medica., *§ij*\nSpirit. Vin. rectificatiſs.\nAq. destillat. *aa fb vj*\nDigerantur.\n\nEin höchst wirksames Mittel bei hartnäckigen Rheu matismen, Flechten, und andern Hautkrankheiten zu 20 bis 50 Tropfen täglich einmal.\n\n**Tinctura aromatica Ph. P.**\n\n§. Rad. Calam\n\n- Angelic.\n- Zingiber.\n- Helen.\n- Hb. Menth. pip.\n- Sem. Anis. *aa §j*\n- Caryophyllor.\n- Cinnamon. *aa §b*\n- Piper. nigr. *§ij*\nC. c. digere cum Spirit. Vin. rectificat. *fb ij*\nfiltr. add.\nOl. Anis. *§iji*\n\nE 2\n```\n\n---\n\n**Notes on Interpretation & Abbreviations:**\n\n*   **`§j`, `fb vj`, `aa fb vj`, `§ij`, `§iji`**:  These are almost certainly abbreviations, possibly for standard pharmaceutical measurements or processes. I have not been able to definitively identify them without more context.\n*   **\"Digerantur\":** Latin for \"Digest,\" meaning in the context of these recipes, likely 'to macerate'.\n*   **\"Rectificatiſs\":**  An intensified form of “rectified,” referring to purified alcohol (Spirit. Vin.).\n*   The text appears mostly German with mixed phrases and botanical names in Latin.\n\n\n\nIf you can provide more information about the source material, I might be able to interpret some of these abbreviations and words more accurately!"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 149192449000,
+    "load_duration": 31979466125,
+    "prompt_eval_count": 564,
+    "prompt_eval_duration": 7137800000,
+    "eval_count": 778,
+    "eval_duration": 109860589000
+  },
+  "markdown": "Okay, here's the extracted text from the provided images, formatted as structured Markdown.  I've done my best to interpret the language (likely a mix of German and Latin with abbreviations common in historical pharmaceutical texts).  Please note that some words are uncertain due to image quality or unusual abbreviations.\n\n---\n\n## Image 1\n\n```markdown\n### Page 66\n\n**Spirit. Frument.**  *fb vj*\n\ndestillando eliciantur *fb vj* in quibus solve Camphorae *§j§*\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstoßes bedarf. Selbst in den Wasserausschen leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Esslöffel mit Wasser verdünnt, viermal täglich, auch öfter.\n\n**Tinctura Aconiti.**\n\n§. Herb. Aconit. siccat, minūtim concis. *§j*\nDiger. cum Spirit. Vin. rectificat. *fb j*\nin cucurbita clausa per triduum. Exprime et filtra.\n\nPari modo parantur:\n\n- Tinctura Digitalis.\n- Calami.\n- Galbani.\n- Hellebori.\n- Hyoscyami.\n- Nicotianae.\n- Stramonii.\n- Valerianae.\n- Toxicodendri.\n```\n\n## Image 2\n\n```markdown\n### Page 67\n\n**Tinctura Antimonii acri.**\n\n(Sulphur Antimonii liquidum.)\n\n§. Sulphuris stibiat, aurantiac. *§j*\nsolve digerend in s. q.\nLiquor. Kali caustic.\nadmisce\n\nSapon. medica., *§ij*\nSpirit. Vin. rectificatiſs.\nAq. destillat. *aa fb vj*\nDigerantur.\n\nEin höchst wirksames Mittel bei hartnäckigen Rheu matismen, Flechten, und andern Hautkrankheiten zu 20 bis 50 Tropfen täglich einmal.\n\n**Tinctura aromatica Ph. P.**\n\n§. Rad. Calam\n\n- Angelic.\n- Zingiber.\n- Helen.\n- Hb. Menth. pip.\n- Sem. Anis. *aa §j*\n- Caryophyllor.\n- Cinnamon. *aa §b*\n- Piper. nigr. *§ij*\nC. c. digere cum Spirit. Vin. rectificat. *fb ij*\nfiltr. add.\nOl. Anis. *§iji*\n\nE 2\n```\n\n---\n\n**Notes on Interpretation & Abbreviations:**\n\n*   **`§j`, `fb vj`, `aa fb vj`, `§ij`, `§iji`**:  These are almost certainly abbreviations, possibly for standard pharmaceutical measurements or processes. I have not been able to definitively identify them without more context.\n*   **\"Digerantur\":** Latin for \"Digest,\" meaning in the context of these recipes, likely 'to macerate'.\n*   **\"Rectificatiſs\":**  An intensified form of “rectified,” referring to purified alcohol (Spirit. Vin.).\n*   The text appears mostly German with mixed phrases and botanical names in Latin.\n\n\n\nIf you can provide more information about the source material, I might be able to interpret some of these abbreviations and words more accurately!",
+  "possibly_truncated": false,
+  "seconds": 149.21286010742188
+}

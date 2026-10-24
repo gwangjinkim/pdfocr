@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    26
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "3dbc1e0948653e8554b03adbc0a9da1b485b56c6cb08c1a06df65a5c21858042"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:15:55.501226Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 4\n\nNatur, wiegends in einer Energie des Lebens, mit\nsolcher Dauer vereinigt, als hier. Kein Wunder\nalso, daß der vollkommene Besitzer dieses Gutes\nauch einen so hohen Werth darauf legt, und daß\nschon der bloße Gedanke an das Leben und die zu-\nhöhein Reiz für uns hat. Jeder Körper wird uns im\nso interessanter, da mehr nur ihm eine Art von Leben\ntrauen können. Nichts vermag\nso sehr auf uns zu wirken, solche Ausforderungen zu\nveranlassen, als die außerordentlichi Entwicklung\nan und Anstrengungen unserer verborgenen Kräfte\nhervorzubringen, als der Krieg zuerhärten und\nim dem kritischen Augenblick zu retten. Selbst\nohne Genuß an Freuden des Lebens, selbst für den,\nder an unermäßlichen Schmerzen leidet, weil im dun-\nkeln Kerker als immer große Freiheit beweist, in\nhalt der Gedanke an Leben und zu Reiz,\nund es gehört schlechterdings eine nur bei Menschen\nmögliche Verzerrung der feinsten Sinne dazu, um das Leben gleichgültig und\neine ganzliche Verblindung und Tötung des\ninnern Sinns dazu, um das Leben gleichgültig und\ngar verblößt zu machen. — So weise und innig wurde\nLiebe des Lebens, dieser denkenden Werth so\nwürdige auch, dieser Grundpfeiler sowohl für ein-\nzelnen als der öffentlichen Glückseligkeit, mit unse-\nrer Eriesen vermehrt — Sehr wichtig auch, daß\nder Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Dasein\nzu verlängern, und dem nur gar zu schlichten Ge-\nnuß dieses Guts mehr Ausdehnung zu geben? Und\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 116400263208,
+    "load_duration": 13426127875,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 5923542000,
+    "eval_count": 413,
+    "eval_duration": 96984060000
+  },
+  "markdown": "```markdown\n# Page 4\n\nNatur, wiegends in einer Energie des Lebens, mit\nsolcher Dauer vereinigt, als hier. Kein Wunder\nalso, daß der vollkommene Besitzer dieses Gutes\nauch einen so hohen Werth darauf legt, und daß\nschon der bloße Gedanke an das Leben und die zu-\nhöhein Reiz für uns hat. Jeder Körper wird uns im\nso interessanter, da mehr nur ihm eine Art von Leben\ntrauen können. Nichts vermag\nso sehr auf uns zu wirken, solche Ausforderungen zu\nveranlassen, als die außerordentlichi Entwicklung\nan und Anstrengungen unserer verborgenen Kräfte\nhervorzubringen, als der Krieg zuerhärten und\nim dem kritischen Augenblick zu retten. Selbst\nohne Genuß an Freuden des Lebens, selbst für den,\nder an unermäßlichen Schmerzen leidet, weil im dun-\nkeln Kerker als immer große Freiheit beweist, in\nhalt der Gedanke an Leben und zu Reiz,\nund es gehört schlechterdings eine nur bei Menschen\nmögliche Verzerrung der feinsten Sinne dazu, um das Leben gleichgültig und\neine ganzliche Verblindung und Tötung des\ninnern Sinns dazu, um das Leben gleichgültig und\ngar verblößt zu machen. — So weise und innig wurde\nLiebe des Lebens, dieser denkenden Werth so\nwürdige auch, dieser Grundpfeiler sowohl für ein-\nzelnen als der öffentlichen Glückseligkeit, mit unse-\nrer Eriesen vermehrt — Sehr wichtig auch, daß\nder Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Dasein\nzu verlängern, und dem nur gar zu schlichten Ge-\nnuß dieses Guts mehr Ausdehnung zu geben? Und\n```",
+  "possibly_truncated": false,
+  "seconds": 116.40811681747437
+}

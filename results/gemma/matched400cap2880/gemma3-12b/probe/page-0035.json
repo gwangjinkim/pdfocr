@@ -1,0 +1,50 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    35
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "5ce81047ea242d06f844f987ae98df2469343ee5a034f15902b60a2d9a635e51"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:31:30.190001Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n15 —\n\nseine Reputation in der Astrologie war so gross, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Notar mit der Bestimmung der Geburtstunde an ihn abendete. Es kamen oft acht, zehn bis zwölf solche Geburtstunden auf einmal bei ihm an, und er wurde zuletzt so überhaupt, daß er sich Gebühren zu diesem Reichhalt halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angezeigt waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte bewogen zu ließ, dieselbe im voraus mitzutheilen. Und bewendern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reissenden Abgang, und verschaffte, nebst andern Charakaterien, dem Verfasser ein Vermögen von einigen hundertausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Grenzen setzte, Mittel zur Verlängerung desselben finden! Dies geschah auf folgende sinnreiche Art:\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 17839089416,
+    "load_duration": 2453676708,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1927566000,
+    "eval_count": 346,
+    "eval_duration": 13400529000
+  },
+  "markdown": "```markdown\n15 —\n\nseine Reputation in der Astrologie war so gross, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Notar mit der Bestimmung der Geburtstunde an ihn abendete. Es kamen oft acht, zehn bis zwölf solche Geburtstunden auf einmal bei ihm an, und er wurde zuletzt so überhaupt, daß er sich Gebühren zu diesem Reichhalt halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angezeigt waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte bewogen zu ließ, dieselbe im voraus mitzutheilen. Und bewendern muß man, was die Kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reissenden Abgang, und verschaffte, nebst andern Charakaterien, dem Verfasser ein Vermögen von einigen hundertausend Gulden.\n\nAber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Grenzen setzte, Mittel zur Verlängerung desselben finden! Dies geschah auf folgende sinnreiche Art:\n```",
+  "possibly_truncated": false,
+  "seconds": 17.846016883850098
+}

@@ -1,0 +1,13 @@
+{
+  "pid": 48305,
+  "started_at_unix": 1792832037.9717288,
+  "argv": [
+    "scripts/gemma_benchmark.py",
+    "pull",
+    "--models",
+    "gemma3:12b"
+  ],
+  "exited": true,
+  "returncode": 0,
+  "seconds": 1141.795377254486
+}

@@ -1,0 +1,13 @@
+{
+  "pid": 48581,
+  "started_at_unix": 1792832053.922221,
+  "argv": [
+    "scripts/gemma_benchmark.py",
+    "prepare",
+    "--source-root",
+    "user-home/projects/python/pdfocr"
+  ],
+  "exited": true,
+  "returncode": 0,
+  "seconds": 6.087777137756348
+}

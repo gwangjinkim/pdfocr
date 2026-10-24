@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    14
+  ],
+  "arm": "matched400budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "8b79fed5a222a7b0668966e1d1e374f2e6632f3a135a64509d240d0fe46f446f"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T09:11:18.327067Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n--- 10 ---\n\nkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-dete, Helfer angestellt werden, die dann we-gen der zu großen Menge der Leidenden, auch bei dem besten Willen, dem Einzel-nen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vor-zuziehen, so lange es irgend thunlich ist. — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entstehet Kälte, Lieblosigkeit, Gleich-gültigkeit gegen den Einzelnen; desto leich-ter gewöhnt man sich, den Menschen als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitälern herrschend, und die Wurzel alles Verder-bens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitäler, selbst der besten, denn es ist kein Vorwurf, den ich der Verwaltung mache, das Übel liegt in ihrer Natur. — Ferner, je mehr die Men-schen in Masse zusammengedrängt werden, desto mehr erzeugt sich auch Böses unter\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 36355778667,
+    "load_duration": 2925992500,
+    "prompt_eval_count": 1129,
+    "prompt_eval_duration": 5519360000,
+    "eval_count": 278,
+    "eval_duration": 27712913000
+  },
+  "markdown": "```markdown\n--- 10 ---\n\nkeit widmen kann, als wenn für das Ganze nur wenige, sey es auch noch so gut besol-dete, Helfer angestellt werden, die dann we-gen der zu großen Menge der Leidenden, auch bei dem besten Willen, dem Einzel-nen nicht mit gehöriger Sorgfalt beistehen können.\n\n4. Die Behandlung der Kranken in ihren Wohnungen ist immer der im Hospital vor-zuziehen, so lange es irgend thunlich ist. — Der Grund davon ist der vorige. Je mehr die Menschen in Masse behandelt werden, desto leichter entstehet Kälte, Lieblosigkeit, Gleich-gültigkeit gegen den Einzelnen; desto leich-ter gewöhnt man sich, den Menschen als Sache, nicht als Hauptzweck für sich selbst, zu betrachten; und so bildet sich jener Sinn und jener Ton, der in großen Hospitälern herrschend, und die Wurzel alles Verder-bens für solche Anstalten ist. Ich berufe mich auf das Beispiel großer Hospitäler, selbst der besten, denn es ist kein Vorwurf, den ich der Verwaltung mache, das Übel liegt in ihrer Natur. — Ferner, je mehr die Men-schen in Masse zusammengedrängt werden, desto mehr erzeugt sich auch Böses unter\n```",
+  "possibly_truncated": false,
+  "seconds": 36.37335705757141
+}

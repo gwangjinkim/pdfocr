@@ -1,0 +1,48 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    200,
+    201
+  ],
+  "arm": "legacy72",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "c63855eddfffb0ee4067a0ee131c135b718138ec3a95ac23ac71dc3b47688085"
+          },
+          {
+            "sha256": "a6174a41fa0cd56eff145aff50bcb55177441a67a2ac98210d1e9d9238718413"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:25:05.049558Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Image 1\n\n- 178 -\n\n**Achte Vorlesung.**\n\nSpezielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.\n\n*Konsequenzen der Anlage zum langen Leben:* Gute Verfassung und Veranlagungen, gerade Zeugung — gute angeborene Kraft — nicht zu reizbarer Herz — gute Reiselungsart und Heilkraft des Körpers — geheiligtes Geschlecht und Gesebelung der Gehirnraft, gut Temperament — Harmonieischer und kräftiges Körperbau — gewisse Fähigkeiten der Tartur das äbergant — kein vernunftfähiger Elan — unstellbare Organisation der Flugskraft — das Wild wird kurz zum langen Leben beginnen Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun in der Bestimmung der speciellen und individualischen Grundlage des langen Lebens übergehen, die in den Menschen selbst liegen muss. Ich will die Haupt-Eigenschaften und Anlagen anzeigen, die nach eigenen Gründen und der Erfahrung ein Wunsch durchaus haben muß, der auf ein langes Leben Bedurung machen will. Diese Zeilordnung kann zugleich statt einer harzen Philosophie des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind folgende:\n\n1.  Vor allen Dingen muß der Mag und das ganze Veranlagungsgeschehen gut behaftet sein, so ist ungenüglich, wen weiter Wichtigkeit litten...\n\n## Image 2\n\n- 179 -\n\nGroßmächtige aller Herrscheuer im animalischen Mäche in dieser Hinsicht ist es, und man kann mit wessen Rechte behaupten, ohne einen guten Wagen ist es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Mässiger ist der Wagen der Gründe sein des langen Lebens: Einmal, indem er das erste wichtige Regenerationsorgan unser Natur ist, die Tiere, wodurch alles, was unser werden soll, eingehen muß. Die erste Anfanig, von dem ersten oder schlechten Zustand nicht nur die Quantität, sondern auch die Qualität unseres Cranies abhängt.\n\nZweitere, indem durch die Reichsamkeit des Wage selbst die Einwirkung der Reiselungschaften, der Krankheitsdurfächen und andrer zerschrendender Zustände auf unseren Körper modifiziert wird. — \"Er hat einen guten Wagen,” sagt man im Sprichwort, wenn man Jemand charakterisiren will, den weder Alter, noch Kammer, nach Kränzungen schädlich wirken, wird gewiß, es liegt viel Wahrheit darin...\n\nAlle diese Reiselungschaften müssen vorzüglich den Wage eifächeuern, von ihm gleichsam empfangen und angenommen werden, wenn je in unser Pferdliches übergehe und Schaden stellen. Ein guter rebulster Wage nimmt gar keine Notiz davon. Hingegen ein schwacher empfindlicher Wagen wird alle Augenblicke durch so cruus in seiner Verrichtung gehört, und folglich das so wichtige Regenerationsgeschicht unaufhörlich unterbrechen und schadet betrieben… —  Eben so ist es mit den meisten chronischen Krankheitsstelt Schlässen; die meisthen machen ihren ersten Eindruck auf...\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 40298221208,
+    "load_duration": 5290911583,
+    "prompt_eval_count": 564,
+    "prompt_eval_duration": 4116140999,
+    "eval_count": 667,
+    "eval_duration": 30872974000
+  },
+  "markdown": "```markdown\n## Image 1\n\n- 178 -\n\n**Achte Vorlesung.**\n\nSpezielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.\n\n*Konsequenzen der Anlage zum langen Leben:* Gute Verfassung und Veranlagungen, gerade Zeugung — gute angeborene Kraft — nicht zu reizbarer Herz — gute Reiselungsart und Heilkraft des Körpers — geheiligtes Geschlecht und Gesebelung der Gehirnraft, gut Temperament — Harmonieischer und kräftiges Körperbau — gewisse Fähigkeiten der Tartur das äbergant — kein vernunftfähiger Elan — unstellbare Organisation der Flugskraft — das Wild wird kurz zum langen Leben beginnen Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun in der Bestimmung der speciellen und individualischen Grundlage des langen Lebens übergehen, die in den Menschen selbst liegen muss. Ich will die Haupt-Eigenschaften und Anlagen anzeigen, die nach eigenen Gründen und der Erfahrung ein Wunsch durchaus haben muß, der auf ein langes Leben Bedurung machen will. Diese Zeilordnung kann zugleich statt einer harzen Philosophie des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind folgende:\n\n1.  Vor allen Dingen muß der Mag und das ganze Veranlagungsgeschehen gut behaftet sein, so ist ungenüglich, wen weiter Wichtigkeit litten...\n\n## Image 2\n\n- 179 -\n\nGroßmächtige aller Herrscheuer im animalischen Mäche in dieser Hinsicht ist es, und man kann mit wessen Rechte behaupten, ohne einen guten Wagen ist es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Mässiger ist der Wagen der Gründe sein des langen Lebens: Einmal, indem er das erste wichtige Regenerationsorgan unser Natur ist, die Tiere, wodurch alles, was unser werden soll, eingehen muß. Die erste Anfanig, von dem ersten oder schlechten Zustand nicht nur die Quantität, sondern auch die Qualität unseres Cranies abhängt.\n\nZweitere, indem durch die Reichsamkeit des Wage selbst die Einwirkung der Reiselungschaften, der Krankheitsdurfächen und andrer zerschrendender Zustände auf unseren Körper modifiziert wird. — \"Er hat einen guten Wagen,” sagt man im Sprichwort, wenn man Jemand charakterisiren will, den weder Alter, noch Kammer, nach Kränzungen schädlich wirken, wird gewiß, es liegt viel Wahrheit darin...\n\nAlle diese Reiselungschaften müssen vorzüglich den Wage eifächeuern, von ihm gleichsam empfangen und angenommen werden, wenn je in unser Pferdliches übergehe und Schaden stellen. Ein guter rebulster Wage nimmt gar keine Notiz davon. Hingegen ein schwacher empfindlicher Wagen wird alle Augenblicke durch so cruus in seiner Verrichtung gehört, und folglich das so wichtige Regenerationsgeschicht unaufhörlich unterbrechen und schadet betrieben… —  Eben so ist es mit den meisten chronischen Krankheitsstelt Schlässen; die meisthen machen ihren ersten Eindruck auf...\n```",
+  "possibly_truncated": false,
+  "seconds": 40.301982164382935
+}

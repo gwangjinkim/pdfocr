@@ -1,0 +1,50 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    71
+  ],
+  "arm": "matched400cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "e6bf584911abf617c7be2d204e81a487347a34f313de1d270f2f143b0f81872e"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T09:28:19.137178Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\nHere's the extracted text from the image, formatted in Markdown:\n\n**Page 67**\n\n*   Tinctura Antimonii acri.\n\n    (Sulphur Antimonii liquidum,)\n    fx. Sulphuris stibiat, aurantiac. ži\n    solve digerend. in s. q.\n    Liquor. Kali caustic.\n    admisce\n    Sapon. medicat. žiij\n    Spirit. Vin. rectificatis.\n    Aq. destillat. aa žiј\n    Digerantur.\n\nEin höchst wirksames Mittel bei hartnäckigen Rheu-\nmatismen, Flechten, und andern Hautkrankheiten\nzu 20 bis 50 Tropfen täglich einigemal.\n\n*   Tinctura aromatica Ph. P.\n\n    fx. Rad. Calam\n\n    Angelic.\n    Zingiber.\n    Helen.\n    Hb. Menth. pip.\n    Sem. Anis. aa žiј\n    Caryophyllor.\n    Cinnamom. aa ʒb\n    Piper. nigr. žiij\n    C. c. digere cum\n    Spirit. Vin. rectificat. ʒbij\n    filtr. add.\n    Ol. Anis. ʒiji\n\nE 2\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 16792931875,
+    "load_duration": 2755101750,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1925931000,
+    "eval_count": 302,
+    "eval_duration": 11950347000
+  },
+  "markdown": "```markdown\n## Extracted Text:\n\nHere's the extracted text from the image, formatted in Markdown:\n\n**Page 67**\n\n*   Tinctura Antimonii acri.\n\n    (Sulphur Antimonii liquidum,)\n    fx. Sulphuris stibiat, aurantiac. ži\n    solve digerend. in s. q.\n    Liquor. Kali caustic.\n    admisce\n    Sapon. medicat. žiij\n    Spirit. Vin. rectificatis.\n    Aq. destillat. aa žiј\n    Digerantur.\n\nEin höchst wirksames Mittel bei hartnäckigen Rheu-\nmatismen, Flechten, und andern Hautkrankheiten\nzu 20 bis 50 Tropfen täglich einigemal.\n\n*   Tinctura aromatica Ph. P.\n\n    fx. Rad. Calam\n\n    Angelic.\n    Zingiber.\n    Helen.\n    Hb. Menth. pip.\n    Sem. Anis. aa žiј\n    Caryophyllor.\n    Cinnamom. aa ʒb\n    Piper. nigr. žiij\n    C. c. digere cum\n    Spirit. Vin. rectificat. ʒbij\n    filtr. add.\n    Ol. Anis. ʒiji\n\nE 2\n```",
+  "possibly_truncated": false,
+  "seconds": 16.812981843948364
+}

@@ -1,0 +1,9 @@
+{
+  "status": "partial_diagnostic_only",
+  "completed_scored_excerpt": "10289757bsb PDF9–14",
+  "interrupted_request": "10289757bsb PDF70–71, unscored symbols",
+  "reason": "Optional Gemma4 default-thinking batch branch interrupted to prioritize the original Gemma3 workflow and matched OCR controls. The interrupted request has no completed answer and is not assigned an error rate. Remaining Gemma4 batch excerpts were not run.",
+  "owned_process": 49207,
+  "exit_code": 130,
+  "excluded_from_full_sample_rankings": true
+}
