@@ -14,6 +14,49 @@ not create a GPU backend.
 | Native | `cl-pdfocr/native` | Lisp model graph/generation, native MLX kernels |
 | Ollama | `cl-pdfocr/ollama` | Existing loopback Ollama service; Lisp HTTP client |
 
+## First conversion on a Mac
+
+Start here if you have no Lisp environment. Install [Homebrew](https://brew.sh/)
+if needed, then:
+
+```sh
+brew install git sbcl ocicl rust
+```
+
+Install and open the [Ollama macOS app](https://ollama.com/download/mac), then:
+
+```sh
+ollama pull gemma4:12b
+git clone https://github.com/gwangjinkim/pdfocr.git
+cd pdfocr
+sh lisp/install-dependencies.sh
+```
+
+Place a PDF with at least two pages at `book.pdf`, then:
+
+```sh
+sbcl --noinform --no-sysinit --no-userinit \
+  --script lisp/ocr.lisp book.pdf workspace/first-book/
+```
+
+Read `workspace/first-book/ocr/reading.md`. Defaults are Gemma 4 12B, PDF pages
+1–2, 200 DPI and 2048 output tokens per page. Flags: `--pages 34,35`,
+`--model gemma3:12b`, `--dpi 400`, `--tokens 4096`, and explicit `--resume`.
+Use a new output directory when changing settings. Exit codes are 0 for a complete
+run, 2 for partial/error page records needing review, and 1 for a command/setup
+failure. See each page JSON for its stop reason or error.
+
+`install-dependencies.sh` fetches the exact project-local Lisp dependencies in
+`ocicl.csv`, builds the renderer with `Cargo.lock`, and runs the offline tests.
+The required MIT `cl-vlm` protocol source is included in `vendor-cl-vlm/`;
+`cl-docling`, the MLX engine and a preexisting `~/projects/cl/` are unnecessary
+for the Ollama route. No global ASDF/Quicklisp configuration is installed.
+Setup is online on the first run; runtime performs no automatic weight downloads.
+The [installation check record](../results/common-lisp-setup/validation.json)
+documents the project-local dependency test and a bounded CLI conversion with
+the existing Lisp project collection deliberately unavailable. It reused this
+host's installed system tools and an already installed Ollama model.
+
 ## Reused packages and limits
 
 | Package | Reused surface | Important boundary |
@@ -47,13 +90,20 @@ test is not covered by E2B's four-image limit. A model name is not an adapter.
 The native packages also do not claim the benchmark's Q4_K_M/GGUF execution;
 switching to BF16 is a new configuration and requires new measurements.
 
-## Setup
+## Native development setup
 
-The loader expects the existing local packages under `~/projects/cl/`. Set
+The exact native revisions recorded in `results/common-lisp-native/validation.json`
+were not retrievable from the public cl-docling/engine repositories when the
+beginner guide was checked. The native integration remains available for callers
+with those compatible development checkouts; this section is not a complete
+public fresh-install recipe. Use the self-contained Ollama route above first.
+
+For native execution, the loader expects the existing local packages under `~/projects/cl/`. Set
 `PDFOCR_CL_PROJECTS` to another parent directory when needed. It uses the engine's
-local dependency tree plus the local OCICL packages, and compiles FASLs inside
+local dependency tree plus OCICL packages, and compiles FASLs inside
 this repository's ignored `workspace/`. It ignores user initialization and
-inherited ASDF registries. Dependencies must already be installed.
+inherited ASDF registries. Project-local `ocicl/` dependencies take precedence
+over the legacy package collection. Native dependencies must already be built.
 
 Build pdfrune's C ABI explicitly, using the existing cached Rust dependencies:
 

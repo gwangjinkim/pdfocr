@@ -73,6 +73,15 @@ Gemma 3 12B and Gemma 4 12B were exercised on the same two prepared Fraktur page
 Its service responses retain counts and raw metadata, explicitly mark token IDs
 unavailable, and do not claim verified tiling or image budgets.
 
+New to Lisp? The [first-conversion instructions](lisp/README.md#first-conversion-on-a-mac)
+install project-local dependencies and use the bundled protocol source; no existing
+Lisp project directories are needed. After setup, one command converts two pages:
+
+```sh
+sbcl --noinform --no-sysinit --no-userinit \
+  --script lisp/ocr.lisp book.pdf workspace/first-book/
+```
+
 ## Setup
 
 Install Python 3.12, uv and Rust. The tested toolchain was Rust 1.99.0;

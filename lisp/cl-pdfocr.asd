@@ -1,6 +1,6 @@
 (asdf:defsystem "cl-pdfocr"
   :description "Explicit local PDF OCR in Common Lisp using pdfrune and cl-vlm"
-  :version "0.2.0" :license "MIT" :serial t
+  :version "0.3.0" :license "MIT" :serial t
   :depends-on ("cl-pdfrune" "cl-vlm" "yason" "ironclad")
   :components ((:file "package") (:file "pipeline"))
   :in-order-to ((asdf:test-op (asdf:test-op "cl-pdfocr/tests"))))

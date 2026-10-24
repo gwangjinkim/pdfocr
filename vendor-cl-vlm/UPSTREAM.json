@@ -1,0 +1,19 @@
+{
+  "source": "Author-provided cl-vlm source snapshot",
+  "revision": "b85c2613f644a7a373861cc9019478786cb5fccc",
+  "license": "MIT",
+  "changes": "None; selected source, tests and license files only.",
+  "sha256": {
+    "LICENSE": "58c1cc7c53d52d603a1388bb54b3404aacb2861eea8b579bdd8a63fc9226d20c",
+    "cl-vlm.asd": "4318c514f97b3bbea88de917a78c81b6126310ffe0a850bb7f0cb934c1d49e7b",
+    "src/adapter-operations.lisp": "cf2c0d13323f86daaed213167caa20466e7871acf33e67bd35d016ba716eaace",
+    "src/conditions.lisp": "dc1d4f8623717fd16470e75ea6e290dc8441f99af06db341c21f4d74454240ee",
+    "src/conformance-package.lisp": "c2beef0eb480ea4b5afd943fe074417e3d4881f2eb0fd845f94dc18c96be66df",
+    "src/conformance.lisp": "d04194ed9bff33bef4cd4e594a31acc80c1610dcc97e599422e46144a07e8691",
+    "src/content.lisp": "00f07a4ca9c063a23f103dd2440b878d9a9d65d9e7f0f8355449ca765ce72fb2",
+    "src/manifest.lisp": "8f7699d660b9e3b7cb842286e289f6d86bdfc2a30f1b000d0101fe0c1df4b148",
+    "src/package.lisp": "47e3cc3a80e6dfaf13c07b1e8170fb2f7e618466b79ceecb919c7b9ec38c95b6",
+    "src/protocol.lisp": "48fb08c2ea97906fe7c8c413a25378e507f7acbba230f4f77535deb875e49240",
+    "tests/suite.lisp": "39eca5575285a1a580e25ee7f53bb1aee75e26e717011433740aa79cdd43b574"
+  }
+}

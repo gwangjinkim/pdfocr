@@ -47,10 +47,13 @@ Native Common Lisp application (2026-10-24):
 
 - `lisp/` is contributed under this repository's MIT license. It uses the
   vendored pdfrune C ABI and wrapper under pdfrune's MIT OR Apache-2.0 terms.
-- The separately installed `cl-vlm`, `cl-docling` and `cl-transformer-blocks`
-  packages declare MIT in their ASDF systems. Their tested source revisions
-  are recorded in `results/common-lisp-native/validation.json`; these packages
-  and their native dependency binaries are not bundled by this addition.
+- `vendor-cl-vlm/` contains unchanged protocol source and tests from revision
+  `b85c2613f644a7a373861cc9019478786cb5fccc`, with its MIT license retained and
+  per-file hashes in `UPSTREAM.json`. It is included for a self-contained setup.
+  The separately installed `cl-docling` and `cl-transformer-blocks` packages
+  also declare MIT; their tested source revisions are recorded in
+  `results/common-lisp-native/validation.json`. Their source and native dependency
+  binaries are not bundled by this addition.
 - MLX, the tokenizer, image libraries and the checkpoint retain their own
   upstream terms. The locked Gemma 4 E2B checkpoint is not redistributed.
 - The two retained partial OCR responses are experiment evidence from the

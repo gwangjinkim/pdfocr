@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "scope": "Beginner Ollama setup and command-line entry point",
+  "host": "Apple Silicon macOS; existing system tools and Rust crate caches",
+  "sbcl": "2.6.9",
+  "ocicl": "2.20.0",
+  "rust": "1.92.0",
+  "dependency_acquisition": "Project-local registry downloads pinned in ocicl.csv; cl-vlm source bundled unchanged",
+  "existing_cl_projects": "Explicitly redirected to an empty directory for setup and first conversion",
+  "offline_contract_tests": "passed",
+  "cli_help": "passed",
+  "cli_integration": {
+    "model": "gemma4:12b",
+    "pages": [
+      34
+    ],
+    "dpi": 200,
+    "token_limit": 32,
+    "status": "partial",
+    "expected_exit_code": 2,
+    "reference_image_hash_matches": true,
+    "token_ids_available": false
+  },
+  "new_model_download_tested": false,
+  "service": "Existing local Ollama; no service started by setup or CLI",
+  "not_a_clean_operating_system_install": true
+}
