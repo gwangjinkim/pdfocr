@@ -138,7 +138,7 @@ def infer(client, model, images, path, arm, pages, bid):
         "stream": False,
         "keep_alive": 0,
     }
-    if arm.startswith("matched400"):
+    if arm.startswith(("matched200", "matched400")):
         payload["options"] = {"temperature": 0, "seed": 0, "num_ctx": 16384, "num_predict": 8192}
         if model.startswith("gemma4"):
             payload["think"] = False
@@ -249,10 +249,10 @@ def run(client, models, arms):
                 )
 
 
-def capped_image(source, bid, number):
+def capped_image(source, bid, number, *, base=None, cache_name="inputs400cap2880"):
     from PIL import Image
 
-    target = BASE / "inputs400cap2880" / bid / source.name
+    target = (base or BASE) / cache_name / bid / source.name
     if not target.exists():
         target.parent.mkdir(parents=True, exist_ok=True)
         with Image.open(source) as image:

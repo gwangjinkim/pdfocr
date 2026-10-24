@@ -1,0 +1,41 @@
+{
+  "verified_at_utc": "2026-10-24T10:25:34.290996+00:00",
+  "owned_pids": [
+    75880,
+    76545,
+    76791,
+    76818,
+    81413,
+    81420,
+    81442,
+    81450,
+    81485,
+    81538,
+    81791,
+    81794,
+    81815,
+    81821,
+    81847,
+    81850,
+    83470,
+    83477,
+    83482,
+    83510,
+    83527,
+    83556
+  ],
+  "all_owned_processes_absent": true,
+  "temporary_port_closed": true,
+  "existing_service_modified": false,
+  "existing_loaded_models": {
+    "models": []
+  },
+  "tests_passed": 34,
+  "new_matched_page_responses": 54,
+  "new_source_maps_verified": 18,
+  "new_exact_body_slices_verified": 54,
+  "new_boundary_decisions_verified": 78,
+  "renderer400_controls_matching_frozen_pixels": 18,
+  "reference_pages": 14,
+  "reference_status": "Frozen provisional AI-assisted visual references, no independent human gold."
+}

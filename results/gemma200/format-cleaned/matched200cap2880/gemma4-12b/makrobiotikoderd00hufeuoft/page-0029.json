@@ -1,0 +1,60 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    29
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "37f7b120323b7c7dbf9020668331532f60e1b2071aff1fab409205e753b3a5f7"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:18:45.700823Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 7 -\n\ndurch Anstrengung der Muskelkräfte diese Mattig-\nkeit zu überwinden; und er hatte das Glück, durch\nseine Methode bei vielen schwächlichen Menschen das\nLeben viele Jahre zu verlängern, daß ihm sogar\nPlato ein Vorwurf machte, er habe sehr ungerecht\ngegen diese armen Leute gehandelt, durch seine Kunst\nihr immer verderbendes Leben im Alter zu verläng-\nern. Die hellsten und naturgemäßenen Ideen über\ndie Erhaltung und Verlängerung des Lebens finden\nwir beim Lucratus, der durch das glückliche Alter\ndie Wahrheit seiner Vorschrift bestätigte. Schon\nin der frühesten Unterricht mit folgenden auch für\nunsere Zeiten gültigen Regeln: den Kopf kalt und\ndie Füße warm zu halten; anstatt bei jeder Unbeh-\nlichkeit gleich Arzneien zu brauchen, lieber erst\neinen Tag zu fasten, und über den Geist nie den Leib\nzu vergessen.\n\nEine anderebare Methode, das Leben im Alter\nzu verlängern, die sich ebenfalls aus den frühesten\nZeiten verbreitet, war die Gerocomic, die Ge-\nwohntheit, einen alten abgelegten Körper durch die\nnahe Atmosphäre frischer aufblühender Jugend zu\nverjüngung, erhalten. Das bekannte Beispiel\ndavon enthält die Geschichte des Königs Da-\nvid; aber auch findet in den Schriften des Jer-\nmehre Cicero, wie da damals eine sehr gewöhnliche\nund beliebte Hilfe des Alters war. Selbst in neuern\nZeiten im Garten Math mit Musen beforgt worden;\nder großen Vorhage ließ ein alter Amsterdamer\nBürgermeister zwischen zwei jungen Leuten schlafen,\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 20588799292,
+    "load_duration": 2203434917,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 1512865000,
+    "eval_count": 376,
+    "eval_duration": 16844241000
+  },
+  "markdown": "durch Anstrengung der Muskelkräfte diese Mattig-\nkeit zu überwinden; und er hatte das Glück, durch\nseine Methode bei vielen schwächlichen Menschen das\nLeben viele Jahre zu verlängern, daß ihm sogar\nPlato ein Vorwurf machte, er habe sehr ungerecht\ngegen diese armen Leute gehandelt, durch seine Kunst\nihr immer verderbendes Leben im Alter zu verläng-\nern. Die hellsten und naturgemäßenen Ideen über\ndie Erhaltung und Verlängerung des Lebens finden\nwir beim Lucratus, der durch das glückliche Alter\ndie Wahrheit seiner Vorschrift bestätigte. Schon\nin der frühesten Unterricht mit folgenden auch für\nunsere Zeiten gültigen Regeln: den Kopf kalt und\ndie Füße warm zu halten; anstatt bei jeder Unbeh-\nlichkeit gleich Arzneien zu brauchen, lieber erst\neinen Tag zu fasten, und über den Geist nie den Leib\nzu vergessen.\n\nEine anderebare Methode, das Leben im Alter\nzu verlängern, die sich ebenfalls aus den frühesten\nZeiten verbreitet, war die Gerocomic, die Ge-\nwohntheit, einen alten abgelegten Körper durch die\nnahe Atmosphäre frischer aufblühender Jugend zu\nverjüngung, erhalten. Das bekannte Beispiel\ndavon enthält die Geschichte des Königs Da-\nvid; aber auch findet in den Schriften des Jer-\nmehre Cicero, wie da damals eine sehr gewöhnliche\nund beliebte Hilfe des Alters war. Selbst in neuern\nZeiten im Garten Math mit Musen beforgt worden;\nder großen Vorhage ließ ein alter Amsterdamer\nBürgermeister zwischen zwei jungen Leuten schlafen,",
+  "possibly_truncated": false,
+  "seconds": 20.59276819229126,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1457,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/matched200cap2880/gemma4-12b/makrobiotikoderd00hufeuoft/page-0029.json"
+}

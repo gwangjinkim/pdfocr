@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    30
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "6b5188b6b5dc0d7bfe670057980ccf7c1a6264294e7918ce7728f663086db009"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:18:53.815375Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 8\n\nund versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der lebendendurch frisch aufgeschnit-\ntene Thiere oder gelähmte Glieder, das Aufregen\nlebendiger Thiere auf schmerzhafte Muskeln verlang,\nso scheint diese Methode nicht verwertig zu sein.\n\nHöchst"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 8100005916,
+    "load_duration": 2216071375,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 1353020000,
+    "eval_count": 99,
+    "eval_duration": 4504764000
+  },
+  "markdown": "```markdown\n# Page 8\n\nund versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der lebendendurch frisch aufgeschnit-\ntene Thiere oder gelähmte Glieder, das Aufregen\nlebendiger Thiere auf schmerzhafte Muskeln verlang,\nso scheint diese Methode nicht verwertig zu sein.\n\nHöchst",
+  "possibly_truncated": false,
+  "seconds": 8.103777170181274
+}

@@ -1,0 +1,60 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    70
+  ],
+  "arm": "matched200budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "2842af8f4438d0e73205645b710878183bca84ca3497eb42114a1e9bd050e605"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:07:53.747668Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 66\n\nSpirit. Frument. $\\text{℔vj.}$\ndestillando eliciantur $\\text{℔ vj}$ in quibus solve\nCamphorae $\\text{ℨj}\\text{ℨ}$\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstoßes bedarf. Selbst in den Wassersuchten leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Esslöffel mit Wasser verdünnt, viermal täglich, auch öfter.\n\n*Tinctura Aconiti.*\n\n$\\text{℞.}$ Herb. Aconit. siccat, minutim concis. $\\text{ℨij}$\nDiger. cum Spirit. Vin. rectificat. $\\text{℔j}$\nin cucurbita clausa per triduum. Exprime et filtra.\n\nPari modo parantur:\n\n*Tinctura Digitalis.*\n--- Calami.\n--- Galbani.\n--- Hellebori.\n--- Hyoscyami.\n--- Nicotianae.\n--- Stramonii.\n--- Valerianae.\n--- Toxicodendri.\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 30401877209,
+    "load_duration": 2782845000,
+    "prompt_eval_count": 1129,
+    "prompt_eval_duration": 4579023000,
+    "eval_count": 295,
+    "eval_duration": 22855843000
+  },
+  "markdown": "Spirit. Frument. $\\text{℔vj.}$\ndestillando eliciantur $\\text{℔ vj}$ in quibus solve\nCamphorae $\\text{ℨj}\\text{ℨ}$\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein treffliches Mittel in allen Fällen, akuten und chronischen, wo die Thätigkeit der Organe eines kräftigen Anstoßes bedarf. Selbst in den Wassersuchten leistet es oft sehr viel. Die Dosis ist zu einem Theelöffel bis zu einem Esslöffel mit Wasser verdünnt, viermal täglich, auch öfter.\n\n*Tinctura Aconiti.*\n\n$\\text{℞.}$ Herb. Aconit. siccat, minutim concis. $\\text{ℨij}$\nDiger. cum Spirit. Vin. rectificat. $\\text{℔j}$\nin cucurbita clausa per triduum. Exprime et filtra.\n\nPari modo parantur:\n\n*Tinctura Digitalis.*\n--- Calami.\n--- Galbani.\n--- Hellebori.\n--- Hyoscyami.\n--- Nicotianae.\n--- Stramonii.\n--- Valerianae.\n--- Toxicodendri.",
+  "possibly_truncated": false,
+  "seconds": 30.421037912368774,
+  "format_cleanup": {
+    "source_start": 23,
+    "source_end": 824,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/budget1120/gemma4-12b/10289757bsb/page-0070.json"
+}

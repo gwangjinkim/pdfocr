@@ -13,7 +13,7 @@ In the initial four specialized OCR stacks, Ovis had the lowest combined
 character error rate on 16 pages from two historical German books. GLM was
 slightly better on Antiqua, while Ovis was substantially better on Fraktur.
 The subsequent Gemma comparison changed the recommendation: **Gemma 4 12B
-with a confirmed 1120-image-token budget and presentation-only cleanup scored
+with a confirmed 1120-image-token budget and presentation-only cleanup at 400 DPI scored
 1.14% combined CER (0.42% Antiqua, 1.57% Fraktur)**. The installed runtime's
 default image budget scored 14.85% after the same cleanup. Both raw and cleaned
 metrics remain available; no OCR letters were corrected. These are historical Antiqua pages,
@@ -25,6 +25,14 @@ matched per-page OCR. See [Gemma methods and commands](docs/gemma-comparison.md)
 and [Gemma measurements](results/pdfocr-gemma-comparison.md). Better CER did
 not guarantee correct word joins: the higher-budget Gemma 4 still produced
 `Perion` on the Fraktur `Per-`/`son.` probe with text-only repair.
+
+A subsequent [native 200→400-DPI comparison](docs/gemma-200dpi.md) found that
+higher-budget Gemma 4 was essentially unchanged on Antiqua (0.40%→0.42% CER),
+but improved substantially on Fraktur at 400 DPI (10.22%→1.57%). Combined CER
+was 6.54% at 200 DPI versus 1.14% at 400 DPI. Gemma 3 went the other direction:
+7.09% combined CER at 200 DPI versus 13.62% at 400 DPI. These are the same
+native-renderer inputs and frozen references, with presentation-only cleanup;
+the image budget is a ceiling and smaller images can use fewer tokens.
 
 400-DPI rendering did not generally improve OCR. GLM repeated a paragraph at
 400 DPI with both pdfrune and PDFium; a separately recorded lower-input-cap
@@ -93,7 +101,7 @@ mapped separator. It does not silently replace misrecognized letters.
   metadata uses portable path labels; it is not a pre-populated live workspace.
 - `runners/legacy/`: isolated optional PyMuPDF/Ollama historical runner. PyMuPDF
   is AGPL/commercial and is not a dependency of the permissive pdfrune path.
-- `tests/`: 33 harness tests. The vendored pdfrune core has 14 Rust tests.
+- `tests/`: 34 harness tests. The vendored pdfrune core has 14 Rust tests.
 
 Prompts, model revisions, BF16 versus Q8 precision, resize caps and limitations
 are recorded. These adapters do not claim parity with official benchmark

@@ -17,23 +17,27 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source-root", type=Path, default=ROOT)
     parser.add_argument("--models", nargs="+", default=["gemma3-12b", "gemma4-12b"])
+    parser.add_argument("--base", type=Path, default=BASE)
     parser.add_argument(
-        "--arm", choices=["matched400cap2880", "budget1120"], default="matched400cap2880"
+        "--arm",
+        choices=["matched200cap2880", "matched400cap2880", "budget1120"],
+        default="matched400cap2880",
     )
     parser.add_argument("--normalize-format", action="store_true")
     args = parser.parse_args()
     source = args.source_root
+    base = args.base.resolve()
     pin = read_json(source / "models/boundary-small.json")
     for model in args.models:
         for bid in ["10289757bsb", "makrobiotikoderd00hufeuoft", "probe"]:
-            run = BASE / args.arm / model / bid
+            run = base / args.arm / model / bid
             pages = sorted(run.glob("page-*.json"))
             expected = 2 if bid == "probe" else 8
             if len(pages) != expected or any(read_json(p)["status"] != "ok" for p in pages):
                 raise ValueError(f"Incomplete Gemma inference: {run}")
             if args.normalize_format:
                 original_run = run
-                run = BASE / "format-cleaned" / args.arm / model / bid
+                run = base / "format-cleaned" / args.arm / model / bid
                 run.mkdir(parents=True, exist_ok=True)
                 for page in pages:
                     value = read_json(page)
@@ -69,7 +73,7 @@ def main():
                 },
             )
             variant = "format-cleaned" if args.normalize_format else "raw"
-            output = BASE / "repair" / args.arm / model / variant / (bid + ".md")
+            output = base / "repair" / args.arm / model / variant / (bid + ".md")
             if output.exists():
                 print("Cached repair", model, bid, flush=True)
                 continue

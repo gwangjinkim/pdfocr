@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    26
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "824938e255eb2dda224d881005fe7c9e6410e4f1e0096d443e3d3db2bb57ef39"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:17:41.515035Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 4\n\nNatur, nirgends in einer Energie des Lebens, mit\nsolcher Dauer vereinigt, als hier. Kein Wunder\nalso, daß der vollkommene Wesenß dieses Gutes\nauch einen so hohen Werth darauf legt, und daß\nschon der bloße Gedanke an das Leben und die zu\nhohe Reiz für uns hat. Jeder Körper wird uns um\nso interessanter, je mehr wir ihm eine Art von Leben\ntrauen können. Nichts vermag\nso sehr auf uns zu wirken, solche Ausporgerungen zu\nveranlassen, als die außerordentlichsten Einswieler\nund auch Anstrengungen unserer verborgenen Kräfte\nherbeizubringen, als der Krieg zu zuerhalten und\nin dem kritischen Augenblick zu retten. Selbst\nohne Genuß an Freuden des Lebens, selbst für den,\nder an unerträgbaren Schmerzen leidet, weil der um-\nkehrn Kerker auf immer große Freiheit hinweist, ist\nder bloße Gedanke an Leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen\nmögliche Zerrüttung der feinsten Gefühle, eine ganzliche Verhundelung und Tötung des\ninnern Sinns dazu, um das Leben gleichzeitig zu\ngar verhöhnlich zu machen. — So weise und innig wurde\nLiebe des Lebens, dieser denkenden Wesens so\nwürdige Grundfehler, dieser Grundfehler sowohl für ein-\nzelnen als der öffentlichen Glückseligkeit, mit unse-\nrer Errisung vermetzt — Sehr wahr, daß der Gedanke in dem Menschen aufsteigen\nmuß: Sollte es nicht möglich sein, unser Dasein\nzu verlängern, und dem nur gar zu stützigen Ge-\nnuß dieses Guts mehr Ausdehnung zu geben? Und\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 22809886750,
+    "load_duration": 2487233334,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 1351054000,
+    "eval_count": 407,
+    "eval_duration": 18942379000
+  },
+  "markdown": "```markdown\n# Page 4\n\nNatur, nirgends in einer Energie des Lebens, mit\nsolcher Dauer vereinigt, als hier. Kein Wunder\nalso, daß der vollkommene Wesenß dieses Gutes\nauch einen so hohen Werth darauf legt, und daß\nschon der bloße Gedanke an das Leben und die zu\nhohe Reiz für uns hat. Jeder Körper wird uns um\nso interessanter, je mehr wir ihm eine Art von Leben\ntrauen können. Nichts vermag\nso sehr auf uns zu wirken, solche Ausporgerungen zu\nveranlassen, als die außerordentlichsten Einswieler\nund auch Anstrengungen unserer verborgenen Kräfte\nherbeizubringen, als der Krieg zu zuerhalten und\nin dem kritischen Augenblick zu retten. Selbst\nohne Genuß an Freuden des Lebens, selbst für den,\nder an unerträgbaren Schmerzen leidet, weil der um-\nkehrn Kerker auf immer große Freiheit hinweist, ist\nder bloße Gedanke an Leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen\nmögliche Zerrüttung der feinsten Gefühle, eine ganzliche Verhundelung und Tötung des\ninnern Sinns dazu, um das Leben gleichzeitig zu\ngar verhöhnlich zu machen. — So weise und innig wurde\nLiebe des Lebens, dieser denkenden Wesens so\nwürdige Grundfehler, dieser Grundfehler sowohl für ein-\nzelnen als der öffentlichen Glückseligkeit, mit unse-\nrer Errisung vermetzt — Sehr wahr, daß der Gedanke in dem Menschen aufsteigen\nmuß: Sollte es nicht möglich sein, unser Dasein\nzu verlängern, und dem nur gar zu stützigen Ge-\nnuß dieses Guts mehr Ausdehnung zu geben? Und\n```",
+  "possibly_truncated": false,
+  "seconds": 22.817545890808105
+}

@@ -1,0 +1,13 @@
+{
+  "pid": 75880,
+  "started_at_unix": 1792836199.606944,
+  "argv": [
+    "scripts/run_gemma_200.py",
+    "prepare",
+    "--source-root",
+    "user-home/projects/python/pdfocr"
+  ],
+  "exited": true,
+  "returncode": 0,
+  "seconds": 24.072149991989136
+}

@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    30
+  ],
+  "arm": "matched200budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "6b5188b6b5dc0d7bfe670057980ccf7c1a6264294e7918ce7728f663086db009"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:12:07.329222Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Transcription of Page 8\n\n---\n\n— 8 —\n\nund versichert, der Alte habe dadurch sichtbar an Munter-\nkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebendunst frisch aufgeschnit-\ntener Thiere auf gelähmte Glieder, was das Auf-\nregen lebendiger Haut auf schmerzhafte lebern verlangt,\nso scheint diese Methode nicht verwehrlich zu sein.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Wert, den man bei Römern und Griechen\nauf das Anwesen eines reinen gefunden Athems\nsetzte. Es gehört hierher eine Inschrift, die man\nim vorigen Jahrhundert zu Rom gefunden, und so lautet:\n\n*Aesculapio et Sanitati*\n*L. Clodius Hermippus*\n*Qui vixit Annos CXV. Dies V.*\n*Puellarum Anhelitu*\n*Quod etiam post mortem ejus*\n*Non parum mirantur Physici.*\n*Iam posteri, etiam zu vitam ducite.*\n\n---\n\nDem Aeskulaus und der Gesundheit\ngeweiht\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Athem junger Mädchen u. s. w.\n\n---\n\nDiese Inschrift mag echt sein oder nicht;\ngenug sie veranlaßte noch zu Anfang des oben Jahre-\nhunderts eine Schrift, worin ein Doctor Cobausen\nsehr gelehrt beweist, dieser Hermippus sei ein\nWaisenhaus-Vorseher oder Mädchenschulleiter zu\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 40179015917,
+    "load_duration": 3051162042,
+    "prompt_eval_count": 341,
+    "prompt_eval_duration": 2203046000,
+    "eval_count": 366,
+    "eval_duration": 34897029000
+  },
+  "markdown": "```markdown\n# Transcription of Page 8\n\n---\n\n— 8 —\n\nund versichert, der Alte habe dadurch sichtbar an Munter-\nkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebendunst frisch aufgeschnit-\ntener Thiere auf gelähmte Glieder, was das Auf-\nregen lebendiger Haut auf schmerzhafte lebern verlangt,\nso scheint diese Methode nicht verwehrlich zu sein.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Wert, den man bei Römern und Griechen\nauf das Anwesen eines reinen gefunden Athems\nsetzte. Es gehört hierher eine Inschrift, die man\nim vorigen Jahrhundert zu Rom gefunden, und so lautet:\n\n*Aesculapio et Sanitati*\n*L. Clodius Hermippus*\n*Qui vixit Annos CXV. Dies V.*\n*Puellarum Anhelitu*\n*Quod etiam post mortem ejus*\n*Non parum mirantur Physici.*\n*Iam posteri, etiam zu vitam ducite.*\n\n---\n\nDem Aeskulaus und der Gesundheit\ngeweiht\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Athem junger Mädchen u. s. w.\n\n---\n\nDiese Inschrift mag echt sein oder nicht;\ngenug sie veranlaßte noch zu Anfang des oben Jahre-\nhunderts eine Schrift, worin ein Doctor Cobausen\nsehr gelehrt beweist, dieser Hermippus sei ein\nWaisenhaus-Vorseher oder Mädchenschulleiter zu\n```",
+  "possibly_truncated": false,
+  "seconds": 40.185062885284424
+}

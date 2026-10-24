@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "config": {
+    "model_name": "gemma4-12b",
+    "backend": "local-ollama",
+    "arm": "budget1120"
+  },
+  "pages": [
+    {
+      "page": 34,
+      "result": "page-0034.json",
+      "status": "ok"
+    },
+    {
+      "page": 35,
+      "result": "page-0035.json",
+      "status": "ok"
+    }
+  ]
+}

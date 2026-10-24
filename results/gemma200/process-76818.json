@@ -1,0 +1,11 @@
+{
+  "pid": 76818,
+  "started_at_unix": 1792836264.2159412,
+  "argv": [
+    "scripts/run_gemma_200.py",
+    "run"
+  ],
+  "exited": true,
+  "returncode": 0,
+  "seconds": 938.2638058662415
+}

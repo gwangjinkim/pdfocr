@@ -1,0 +1,267 @@
+{
+  "schema_version": 2,
+  "offset_unit": "unicode_codepoint",
+  "interval_convention": "[start,end)",
+  "raw_file": "workspace/gemma200/repair/matched200cap2880/gemma3-12b/raw/makrobiotikoderd00hufeuoft.raw.md",
+  "raw_sha256": "0a52ed3f062eab745a2f72e304712374e55f88a11de7bf91f0da13149f4d2536",
+  "output_file": "workspace/gemma200/repair/matched200cap2880/gemma3-12b/raw/makrobiotikoderd00hufeuoft.md",
+  "spans": [
+    {
+      "output_start": 0,
+      "output_end": 1081,
+      "kind": "source",
+      "page": 25,
+      "raw_start": 12,
+      "raw_end": 1093
+    },
+    {
+      "output_start": 1081,
+      "output_end": 1083,
+      "kind": "separator"
+    },
+    {
+      "output_start": 1083,
+      "output_end": 2570,
+      "kind": "source",
+      "page": 26,
+      "raw_start": 1107,
+      "raw_end": 2594
+    },
+    {
+      "output_start": 2570,
+      "output_end": 2572,
+      "kind": "separator"
+    },
+    {
+      "output_start": 2572,
+      "output_end": 4004,
+      "kind": "source",
+      "page": 27,
+      "raw_start": 2608,
+      "raw_end": 4040
+    },
+    {
+      "output_start": 4004,
+      "output_end": 4006,
+      "kind": "separator"
+    },
+    {
+      "output_start": 4006,
+      "output_end": 5546,
+      "kind": "source",
+      "page": 28,
+      "raw_start": 4054,
+      "raw_end": 5594
+    },
+    {
+      "output_start": 5546,
+      "output_end": 5548,
+      "kind": "separator"
+    },
+    {
+      "output_start": 5548,
+      "output_end": 7056,
+      "kind": "source",
+      "page": 29,
+      "raw_start": 5608,
+      "raw_end": 7116
+    },
+    {
+      "output_start": 7056,
+      "output_end": 7058,
+      "kind": "separator"
+    },
+    {
+      "output_start": 7058,
+      "output_end": 8303,
+      "kind": "source",
+      "page": 30,
+      "raw_start": 7130,
+      "raw_end": 8375
+    },
+    {
+      "output_start": 8303,
+      "output_end": 8305,
+      "kind": "separator"
+    },
+    {
+      "output_start": 8305,
+      "output_end": 9650,
+      "kind": "source",
+      "page": 200,
+      "raw_start": 8390,
+      "raw_end": 9735
+    },
+    {
+      "output_start": 9650,
+      "output_end": 9652,
+      "kind": "separator"
+    },
+    {
+      "output_start": 9652,
+      "output_end": 11170,
+      "kind": "source",
+      "page": 201,
+      "raw_start": 9750,
+      "raw_end": 11268
+    },
+    {
+      "output_start": 11170,
+      "output_end": 11171,
+      "kind": "separator"
+    }
+  ],
+  "omissions": [],
+  "relocations": [],
+  "boundaries": [
+    {
+      "left_page": 25,
+      "right_page": 26,
+      "before_left": "stus — Paracelsus — Aræologiæ Methodo — Talisman — Thurneisen — Cornaro und seine strenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Cagliostro — Graham.\n\nDurch die ganze Natur weht und wirkt jene unbegreifliche Kraft, jener unmittelbare Ausfluf der Gottheit, den wir Leben nennen. Ueberall stoßen wir auf Erscheinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuwurf der ganzen uns umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und crystallisirt, die Pflanze vegetirt, das Thier fühlt und wirkt; — aber im höchsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der sichtbaren Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n```",
+      "before_right": "```markdown\n## Extracted Text:\n\n**Page 4:**\n\nNature, nowhere so much energy of life, with such power unites, as here. A wonder is that the imperfect possessors of this good also have a high value thereof see, and that even the bare thought of life and soul to our own being for us has. Every body is stirred and interested, if only we in him one art von Leben und Lebensgefühl vertrauen können. Nothing can work so strongly upon us, such Aufopferungen zu veranlassen, and die außerordentlichen Entdeckungsgen und Anstrengungen unser verborgenen Kräfte hervorzubringen, as the drive to preserve and in dem kritischen Augenblick es zu retten. Selbst ohne Genuss und Freuden des Lebens, selbst für den, der unheilbaren Schmerzen leidet, oder im dunkeln Kerker auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen möglic",
+      "action": "uncertain",
+      "reason": "Boundary intersects a heading, table, footnote or other structure; review scan.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": false,
+      "output_offset": 1083,
+      "right_raw_start": 1107,
+      "after_boundary": "stus — Paracelsus — Aræologiæ Methodo — Talisman — Thurneisen — Cornaro und seine strenge Diät — Transfusionsmethode — Baco — St. Germain — Mesmer — Cagliostro — Graham.\n\nDurch die ganze Natur weht und wirkt jene unbegreifliche Kraft, jener unmittelbare Ausfluf der Gottheit, den wir Leben nennen. Ueberall stoßen wir auf Erscheinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuwurf der ganzen uns umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und crystallisirt, die Pflanze vegetirt, das Thier fühlt und wirkt; — aber im höchsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der sichtbaren Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n```\n\n```markdown\n## Extracted Text:\n\n**Page 4:**\n\nNature, nowhere so much energy of life, with such power unites, as here. A wonder is that the imperfect possessors of this good also have a high value thereof see, and that even the bare thought of life and soul to our own being for us has. Every body is stirred and interested, if only we in him one art von Leben und Lebensgefühl vertrauen können. Nothing can work so strongly upon us, such Aufopferungen zu veranlassen, and die außerordentlichen Entdeckungsgen und Anstrengungen unser verborgenen Kräfte hervorzubringen, as the drive to preserve and in dem kritischen Augenblick es zu retten. Selbst ohne Genuss und Freuden des Lebens, selbst für den, der unheilbaren Schmerzen leidet, oder im dunkeln Kerker auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen möglic"
+    },
+    {
+      "left_page": 26,
+      "right_page": 27,
+      "before_left": "eserve and in dem kritischen Augenblick es zu retten. Selbst ohne Genuss und Freuden des Lebens, selbst für den, der unheilbaren Schmerzen leidet, oder im dunkeln Kerker auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorge-ne, eine gänzliche Verdunkelung und Tödung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. - So weise und innig wurde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen as der öffentlichen Blickseligkeit, mit unsterbliche Erifenz verwet! – Sehr natürlich war es da-her, daß der Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu stückigen Genuss dieses Guts mehr Ausdehnung zu geben? Und\n```",
+      "before_right": "```markdown\n## Extracted Text:\n\n**Page 5**\n\nwird beschäftigt dies problem von jeher die Menschheit auf verschiedene Weise. Es war ein Liebesklingengefühl der scharfsinnigsten Köpfe, ein Tummelplatz der Schwärmer, und eine Hauptleckspeise der Charlatans und Betrüger, bei denen man von jeher finden wird, dass es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum angetan. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, wie unwillig sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verjehung zu erhalten, wenn ich eine kurze Ueber- längerungsmethoden voransichthe, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Zeiten, unter Ägy",
+      "action": "uncertain",
+      "reason": "Boundary intersects a heading, table, footnote or other structure; review scan.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": false,
+      "output_offset": 2572,
+      "right_raw_start": 2608,
+      "after_boundary": "eserve and in dem kritischen Augenblick es zu retten. Selbst ohne Genuss und Freuden des Lebens, selbst für den, der unheilbaren Schmerzen leidet, oder im dunkeln Kerker auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorge-ne, eine gänzliche Verdunkelung und Tödung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. - So weise und innig wurde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen as der öffentlichen Blickseligkeit, mit unsterbliche Erifenz verwet! – Sehr natürlich war es da-her, daß der Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu stückigen Genuss dieses Guts mehr Ausdehnung zu geben? Und\n```\n\n```markdown\n## Extracted Text:\n\n**Page 5**\n\nwird beschäftigt dies problem von jeher die Menschheit auf verschiedene Weise. Es war ein Liebesklingengefühl der scharfsinnigsten Köpfe, ein Tummelplatz der Schwärmer, und eine Hauptleckspeise der Charlatans und Betrüger, bei denen man von jeher finden wird, dass es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum angetan. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, wie unwillig sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verjehung zu erhalten, wenn ich eine kurze Ueber- längerungsmethoden voransichthe, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Zeiten, unter Ägy"
+    },
+    {
+      "left_page": 27,
+      "right_page": 28,
+      "before_left": "unwillig sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verjehung zu erhalten, wenn ich eine kurze Ueber- längerungsmethoden voransichthe, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Zeiten, unter Ägyptiern, Griechen und Römern war diese Idee rege, und schon damals versiel man in Ägypten, der Mutter so mancher abenteuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hiebe und Ueberschwemmungen ungekundete Klima Veranlassung geben möchte. Man glaubte die Erhaltung des Lebens in Brechen und Schwichen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwickst du?\n```",
+      "before_right": "```markdown\n## Extracted Text:\n\n**Page 6:**\n\n\"Ganz anders bildete sich dieser Trieb bei den Griechen, unter dem Einfluss einer reinen und schönen Natur aus. Man überzeugte sich sehr bald, daß gerade ein vernünftiger Genuss der Natur und die beständige Übung unsrer Kräfte das sicherste Mittel sey, die Lebenskraft zu stärken, und unser Leben zu verlängern. Hippocrates und alle damaligen Philosophen und Aerzte kennen keine andern Mittel, als Mäßigkeit, Genuss der freien und reinen Luft, Bä-der, und vorzüglich das tägliche Reiben des Körpers und Leibesübungen. Auf letztere legten sie ihr größtes Vertrauen. Es wurden eigene Methoden und Me-geln bestimmt, dem Körper männhaftige, starke und schwache Bewegung zu geben; es entstand eine eigne Kunst der Leibesübungen, die Gymnastik, daraus, und der größte Philosoph und Gelehrte vergaß nie, daß Übung des Leibes und Übung der Seele immer in gleichem",
+      "action": "uncertain",
+      "reason": "Boundary intersects a heading, table, footnote or other structure; review scan.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": false,
+      "output_offset": 4006,
+      "right_raw_start": 4054,
+      "after_boundary": "unwillig sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verjehung zu erhalten, wenn ich eine kurze Ueber- längerungsmethoden voransichthe, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Zeiten, unter Ägyptiern, Griechen und Römern war diese Idee rege, und schon damals versiel man in Ägypten, der Mutter so mancher abenteuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hiebe und Ueberschwemmungen ungekundete Klima Veranlassung geben möchte. Man glaubte die Erhaltung des Lebens in Brechen und Schwichen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindest du dich, fragte man einander: Wie schwickst du?\n```\n\n```markdown\n## Extracted Text:\n\n**Page 6:**\n\n\"Ganz anders bildete sich dieser Trieb bei den Griechen, unter dem Einfluss einer reinen und schönen Natur aus. Man überzeugte sich sehr bald, daß gerade ein vernünftiger Genuss der Natur und die beständige Übung unsrer Kräfte das sicherste Mittel sey, die Lebenskraft zu stärken, und unser Leben zu verlängern. Hippocrates und alle damaligen Philosophen und Aerzte kennen keine andern Mittel, als Mäßigkeit, Genuss der freien und reinen Luft, Bä-der, und vorzüglich das tägliche Reiben des Körpers und Leibesübungen. Auf letztere legten sie ihr größtes Vertrauen. Es wurden eigene Methoden und Me-geln bestimmt, dem Körper männhaftige, starke und schwache Bewegung zu geben; es entstand eine eigne Kunst der Leibesübungen, die Gymnastik, daraus, und der größte Philosoph und Gelehrte vergaß nie, daß Übung des Leibes und Übung der Seele immer in gleichem"
+    },
+    {
+      "left_page": 28,
+      "right_page": 29,
+      "before_left": "Me-geln bestimmt, dem Körper männhaftige, starke und schwache Bewegung zu geben; es entstand eine eigne Kunst der Leibesübungen, die Gymnastik, daraus, und der größte Philosoph und Gelehrte vergaß nie, daß Übung des Leibes und Übung der Seele immer in gleichem Verhältnis bleiben müßten. Man brachte es wirklich zu einer auserordentlichen Vollkommen-heit; diese für uns fast verschwundene Kunst den verschieden Naturen, Situationen und Bedürfnisse der Menschen anzupassen, und sie besonders zu dem Mittel zu gebrauchen, die innere Natur des Men-schen immer in einer gehörigen Thatigkeit zu erhal-ten, und dadurch nicht nur Krankheitssürfen un-wirksam zu machen, sondern auch selbst schon aussge-brochene Krankheiten zu heilen. Ein gewisser Hero-dius ging so weit, daß er sogar seine Patienten nöthigte, spazieren zu gehen, sich reiben zu lassen und je mehr die Krankheit abmattete, desto mehr...\"\n```",
+      "before_right": "```markdown\n## Extracted Text:\n\n- 7 -\n\ndurch Anstrengung der Muskelkräfte diese Mätig-\nkeit zu überwältigen; und er hatte das Glück, durch\nseine Methode so vielen schwächlichen Menschen das\nLeben viele Jahre zu verlängern, daß ihm sogar\nPlato den Vorwurf machte, er habe sehr ungegehrt\ngegen diese armen Leute gehandelt, durch seine Kunst\nihr immer sterbendes Leben bis ins Alter zu verlän-\ngern. Die hellsten und naturgemäßesten Ideen über\ndie Erhaltung und Verlängerung des Lebens finden\nwir beim Plutarch, der durch das glückliche Alter\ndie Wahrheit seiner Vorschriften bestätigte. Schon\ner schließt seinen Unterricht mit folgenden auch für\nunsere Zeiten gültigen Regeln: den Kopf kalt und\ndie Füße warm zu halten; anstatt bei jeder Unpäß-\nlichkeit gleich Arzneien zu brauchen, lieber erst einen\nTag zu fasten, und über dem Geist nie den Leib zu\nvergessen. . .\n\nEine sonderbare Methode, das Leben ",
+      "action": "uncertain",
+      "reason": "Boundary intersects a heading, table, footnote or other structure; review scan.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": false,
+      "output_offset": 5548,
+      "right_raw_start": 5608,
+      "after_boundary": "Me-geln bestimmt, dem Körper männhaftige, starke und schwache Bewegung zu geben; es entstand eine eigne Kunst der Leibesübungen, die Gymnastik, daraus, und der größte Philosoph und Gelehrte vergaß nie, daß Übung des Leibes und Übung der Seele immer in gleichem Verhältnis bleiben müßten. Man brachte es wirklich zu einer auserordentlichen Vollkommen-heit; diese für uns fast verschwundene Kunst den verschieden Naturen, Situationen und Bedürfnisse der Menschen anzupassen, und sie besonders zu dem Mittel zu gebrauchen, die innere Natur des Men-schen immer in einer gehörigen Thatigkeit zu erhal-ten, und dadurch nicht nur Krankheitssürfen un-wirksam zu machen, sondern auch selbst schon aussge-brochene Krankheiten zu heilen. Ein gewisser Hero-dius ging so weit, daß er sogar seine Patienten nöthigte, spazieren zu gehen, sich reiben zu lassen und je mehr die Krankheit abmattete, desto mehr...\"\n```\n\n```markdown\n## Extracted Text:\n\n- 7 -\n\ndurch Anstrengung der Muskelkräfte diese Mätig-\nkeit zu überwältigen; und er hatte das Glück, durch\nseine Methode so vielen schwächlichen Menschen das\nLeben viele Jahre zu verlängern, daß ihm sogar\nPlato den Vorwurf machte, er habe sehr ungegehrt\ngegen diese armen Leute gehandelt, durch seine Kunst\nihr immer sterbendes Leben bis ins Alter zu verlän-\ngern. Die hellsten und naturgemäßesten Ideen über\ndie Erhaltung und Verlängerung des Lebens finden\nwir beim Plutarch, der durch das glückliche Alter\ndie Wahrheit seiner Vorschriften bestätigte. Schon\ner schließt seinen Unterricht mit folgenden auch für\nunsere Zeiten gültigen Regeln: den Kopf kalt und\ndie Füße warm zu halten; anstatt bei jeder Unpäß-\nlichkeit gleich Arzneien zu brauchen, lieber erst einen\nTag zu fasten, und über dem Geist nie den Leib zu\nvergessen. . .\n\nEine sonderbare Methode, das Leben "
+    },
+    {
+      "left_page": 29,
+      "right_page": 30,
+      "before_left": "n Unterricht mit folgenden auch für\nunsere Zeiten gültigen Regeln: den Kopf kalt und\ndie Füße warm zu halten; anstatt bei jeder Unpäß-\nlichkeit gleich Arzneien zu brauchen, lieber erst einen\nTag zu fasten, und über dem Geist nie den Leib zu\nvergessen. . .\n\nEine sonderbare Methode, das Leben im Alter\nzu verlängern, die sich ebenfalls aus den frühesten\nZeiten herrscheit, war die Gerocomic, die Ge-\nwohnheit, einen alten abgelebten Körper durch die\nnahe Atmosphäre frischer aufblühender Jugend zu\nverjüngen und zu erhalten. Das bekannteste Bei-\nspiel davon enthält die Geschichte des Königs Da-\nvid; aber man findet in den Schriften der Ärzte\nmehrere Spuren, daß es damals eine sehr gewöhnliche\nund beliebte Hülfe des Alters war. Selbst in neueren\nZeiten ist dieser Rath mit Mühcn befolgt worden;\nder große Boerhave ließ einen alten Amsterdamer\nBürgermeister zwischen zwei jungen Leuten schlafen,\n```",
+      "before_right": "```markdown\n## Image Text Extraction\n\nHere's the extracted text from the image, formatted in Markdown:\n\n**Page -8-**\n\nund versichert, der Alte habe dadurch sichtbar an Man-\nnterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebenskunst freich aufgeschnitt-\ntener Thiere auf gelähmte Glieder, was das Aufle-\nben lebendiger Thiere auf schmerzhafte Lieder vermag,\nso scheint diese Methode nicht verwirklich zu sein.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwesen eines reinen gefunden Arthems setzte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAsclepiο et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CCXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Asklepiο und der Gesundheit\ngewe",
+      "action": "uncertain",
+      "reason": "Boundary intersects a heading, table, footnote or other structure; review scan.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": false,
+      "output_offset": 7058,
+      "right_raw_start": 7130,
+      "after_boundary": "n Unterricht mit folgenden auch für\nunsere Zeiten gültigen Regeln: den Kopf kalt und\ndie Füße warm zu halten; anstatt bei jeder Unpäß-\nlichkeit gleich Arzneien zu brauchen, lieber erst einen\nTag zu fasten, und über dem Geist nie den Leib zu\nvergessen. . .\n\nEine sonderbare Methode, das Leben im Alter\nzu verlängern, die sich ebenfalls aus den frühesten\nZeiten herrscheit, war die Gerocomic, die Ge-\nwohnheit, einen alten abgelebten Körper durch die\nnahe Atmosphäre frischer aufblühender Jugend zu\nverjüngen und zu erhalten. Das bekannteste Bei-\nspiel davon enthält die Geschichte des Königs Da-\nvid; aber man findet in den Schriften der Ärzte\nmehrere Spuren, daß es damals eine sehr gewöhnliche\nund beliebte Hülfe des Alters war. Selbst in neueren\nZeiten ist dieser Rath mit Mühcn befolgt worden;\nder große Boerhave ließ einen alten Amsterdamer\nBürgermeister zwischen zwei jungen Leuten schlafen,\n```\n\n```markdown\n## Image Text Extraction\n\nHere's the extracted text from the image, formatted in Markdown:\n\n**Page -8-**\n\nund versichert, der Alte habe dadurch sichtbar an Man-\nnterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebenskunst freich aufgeschnitt-\ntener Thiere auf gelähmte Glieder, was das Aufle-\nben lebendiger Thiere auf schmerzhafte Lieder vermag,\nso scheint diese Methode nicht verwirklich zu sein.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwesen eines reinen gefunden Arthems setzte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAsclepiο et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CCXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Asklepiο und der Gesundheit\ngewe"
+    },
+    {
+      "left_page": 30,
+      "right_page": 200,
+      "before_left": "re auf schmerzhafte Lieder vermag,\nso scheint diese Methode nicht verwirklich zu sein.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwesen eines reinen gefunden Arthems setzte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAsclepiο et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CCXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Asklepiο und der Gesundheit\ngeweihrt\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Atheum junger Mädchen u. f. w.\n\nDiese Inschrift mag nun acht sein oder nicht;\ngenug sie veranlasste noch zu Anfang des edten Jahre-\nhunderts eine Schrift, worin ein Doctor Cobanten\nsehr gelehrt beweist, dieser Hermippus sey ein\nWaisenhauß Forscher oder Mädchenschulmeister zu\n```",
+      "before_right": "```markdown\n## Extracted Text:\n\n**Page 478**\n\n**Achte Vorlesung.**\n\n**Specielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.**\n\n**Hauptpunkte der Anlage zum langen Leben:**\n\n*   Guter Anlagen und Veranlagungsformen, gesunde Zähne - gut erzeugte Körper\n*   Nicht zu reizbares Herz - gute die das rations- und Kraftstoff der Natur\n*   Gehöriger Grad und Vertheilung der Lebenskraft - gut Temperament\n*   Harmonischer und fehlerfreier Körperbau\n*   Wettstreit der Schwächen der Natur des Körpers\n*   Kein verringlich schwacher Theil\n*   Vollkommene Organisation der Lebenskraft - das Bild eines zum langen Leben bestimmten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Bestimmung der speciellen und individuellen Grundlage des langen Lebens übergehen, die in dem Menschen selbst liegen muss. Ich will die Haupt-Eigenschaften und Anlagen angeben, die nach obigen Grun",
+      "action": "keep",
+      "reason": "Non-adjacent pages or OCR error.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": false,
+      "output_offset": 8305,
+      "right_raw_start": 8390,
+      "after_boundary": "re auf schmerzhafte Lieder vermag,\nso scheint diese Methode nicht verwirklich zu sein.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwesen eines reinen gefunden Arthems setzte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAsclepiο et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CCXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Asklepiο und der Gesundheit\ngeweihrt\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Atheum junger Mädchen u. f. w.\n\nDiese Inschrift mag nun acht sein oder nicht;\ngenug sie veranlasste noch zu Anfang des edten Jahre-\nhunderts eine Schrift, worin ein Doctor Cobanten\nsehr gelehrt beweist, dieser Hermippus sey ein\nWaisenhauß Forscher oder Mädchenschulmeister zu\n```\n\n```markdown\n## Extracted Text:\n\n**Page 478**\n\n**Achte Vorlesung.**\n\n**Specielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.**\n\n**Hauptpunkte der Anlage zum langen Leben:**\n\n*   Guter Anlagen und Veranlagungsformen, gesunde Zähne - gut erzeugte Körper\n*   Nicht zu reizbares Herz - gute die das rations- und Kraftstoff der Natur\n*   Gehöriger Grad und Vertheilung der Lebenskraft - gut Temperament\n*   Harmonischer und fehlerfreier Körperbau\n*   Wettstreit der Schwächen der Natur des Körpers\n*   Kein verringlich schwacher Theil\n*   Vollkommene Organisation der Lebenskraft - das Bild eines zum langen Leben bestimmten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Bestimmung der speciellen und individuellen Grundlage des langen Lebens übergehen, die in dem Menschen selbst liegen muss. Ich will die Haupt-Eigenschaften und Anlagen angeben, die nach obigen Grun"
+    },
+    {
+      "left_page": 200,
+      "right_page": 201,
+      "before_left": "eier Körperbau\n*   Wettstreit der Schwächen der Natur des Körpers\n*   Kein verringlich schwacher Theil\n*   Vollkommene Organisation der Lebenskraft - das Bild eines zum langen Leben bestimmten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Bestimmung der speciellen und individuellen Grundlage des langen Lebens übergehen, die in dem Menschen selbst liegen muss. Ich will die Haupt-Eigenschaften und Anlagen angeben, die nach obigen Grundlagen und der Erhaltung ein Mensch durchaus haben muss, der auf ein langes Leben Beschwörung machen will. Diese Schildernung kann zugleich als einer kurzen Philosophie des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind folgende:\n\n1.  Vor allen Dingen muss der Magen und das ganze Veranlagungsformen gut befahren sein...\n    Es ist unglücklich, von welcher Wichtigkeit dieser\n```",
+      "before_right": "```markdown\n## Extracted Text:\n\n**Page 179**\n\nGroßmachtigste aller Herrscher im animalischen Reiche in dieser Hinsicht ist, und man kann mit vollem Recht behaupten, ohne einen guten Magen es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Rücksicht ist der Magen der Grundstein des langen Lebens: Einmal, indem er das erste und wichtigste Nahrationsorgan unserer Natur ist, die Pforte, wodurch alles, was unser werden soll, eingehen muß, die erste Instanz, von deren gutem oder schlechtem Zustand nicht nur die Quantität, sondern auch die Qualität unsres Erstes abhängt. - Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenschaften, der Krankheitsursachen und anderer zerstörender Einflüsse auf unsern Körper modifiziert wird. – “Er hat einen guten Magen,” sagt man im Sprichwort, wenn man jemand charakterisiren will, auf den weder Ärger, noch Kummer, noch Kr",
+      "action": "uncertain",
+      "reason": "Boundary intersects a heading, table, footnote or other structure; review scan.",
+      "model": "model-cache/models--mlx-community--Qwen3-1.7B-4bit/snapshots/3b1b1768f8f8cf8351c712464f906e86c2b8269e",
+      "prompt_version": "boundary-v4",
+      "model_called": false,
+      "output_offset": 9652,
+      "right_raw_start": 9750,
+      "after_boundary": "eier Körperbau\n*   Wettstreit der Schwächen der Natur des Körpers\n*   Kein verringlich schwacher Theil\n*   Vollkommene Organisation der Lebenskraft - das Bild eines zum langen Leben bestimmten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Bestimmung der speciellen und individuellen Grundlage des langen Lebens übergehen, die in dem Menschen selbst liegen muss. Ich will die Haupt-Eigenschaften und Anlagen angeben, die nach obigen Grundlagen und der Erhaltung ein Mensch durchaus haben muss, der auf ein langes Leben Beschwörung machen will. Diese Schildernung kann zugleich als einer kurzen Philosophie des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind folgende:\n\n1.  Vor allen Dingen muss der Magen und das ganze Veranlagungsformen gut befahren sein...\n    Es ist unglücklich, von welcher Wichtigkeit dieser\n```\n\n```markdown\n## Extracted Text:\n\n**Page 179**\n\nGroßmachtigste aller Herrscher im animalischen Reiche in dieser Hinsicht ist, und man kann mit vollem Recht behaupten, ohne einen guten Magen es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Rücksicht ist der Magen der Grundstein des langen Lebens: Einmal, indem er das erste und wichtigste Nahrationsorgan unserer Natur ist, die Pforte, wodurch alles, was unser werden soll, eingehen muß, die erste Instanz, von deren gutem oder schlechtem Zustand nicht nur die Quantität, sondern auch die Qualität unsres Erstes abhängt. - Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenschaften, der Krankheitsursachen und anderer zerstörender Einflüsse auf unsern Körper modifiziert wird. – “Er hat einen guten Magen,” sagt man im Sprichwort, wenn man jemand charakterisiren will, auf den weder Ärger, noch Kummer, noch Kr"
+    }
+  ],
+  "pages": [
+    {
+      "page": 25,
+      "raw_start": 12,
+      "raw_end": 1093,
+      "ocr_error": false
+    },
+    {
+      "page": 26,
+      "raw_start": 1107,
+      "raw_end": 2594,
+      "ocr_error": false
+    },
+    {
+      "page": 27,
+      "raw_start": 2608,
+      "raw_end": 4040,
+      "ocr_error": false
+    },
+    {
+      "page": 28,
+      "raw_start": 4054,
+      "raw_end": 5594,
+      "ocr_error": false
+    },
+    {
+      "page": 29,
+      "raw_start": 5608,
+      "raw_end": 7116,
+      "ocr_error": false
+    },
+    {
+      "page": 30,
+      "raw_start": 7130,
+      "raw_end": 8375,
+      "ocr_error": false
+    },
+    {
+      "page": 200,
+      "raw_start": 8390,
+      "raw_end": 9735,
+      "ocr_error": false
+    },
+    {
+      "page": 201,
+      "raw_start": 9750,
+      "raw_end": 11268,
+      "ocr_error": false
+    }
+  ],
+  "output_sha256": "cc622774daadaf2ee9ea0908de0d330c343e1243fa18946403bc1e2df266fddd"
+}

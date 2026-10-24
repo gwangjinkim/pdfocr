@@ -1,0 +1,12 @@
+{
+  "book": "10289757bsb",
+  "page": 12,
+  "source_sha256": "129651ec1f30423344ea30263129d8828ef14dd10d8a66f47341bd6ec626f3e7",
+  "input_sha256": "353f4a59133b4f3f3c03e426bd78ec3266420101bf683474d57f92edddabca98",
+  "input_size": [
+    1745,
+    2880
+  ],
+  "longest_edge": 2880,
+  "method": "Pillow RGB; thumbnail LANCZOS, no upscaling; PNG"
+}

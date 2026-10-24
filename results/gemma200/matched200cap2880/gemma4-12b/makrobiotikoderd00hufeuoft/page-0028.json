@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    28
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "653071ca7ac31129fbfcac244e34e3954f738f723117dda5ed0d2b7baf8947c9"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:18:25.104463Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 6\n\n— 6 —\n\nGanz anders bildete sich dieser Trick bei den Griechen, unter dem Einfluß einer reinen und schönen Natur, aus. Man überzeugt sich sehr bald, daß gerade ein vermindertes Genuß der Natur die beständige Übung unserer Kräfte für höhere Mittel, die Lebenskraft zu stärken, und unser Leben zu verlängern, und Hippokrates und Galen sowie andere damalige Philosophen und Ärzte kennen feine andere Mittel, als Mäßigkeit, das Aussetzen der freien und reinen Luft, Zeder, und vorzüglich das tägliche Reiben des Körpers und Leibesübung. Auf letztere setzten sie ihr größtes Vertrauen. Es wurden damit Methoden und Regeln bestimmt, dem Körper mannigfaltige, starke und schwache Übungen zu geben; Bewegung wurde eigene Kunst der Leibesübung, die Gymnastik, daraus, und der größte Philosoph und Gelehrte wußte, daß Übung des Leibes und Übung der Seele immer in gleichem Verhältniß bleiben müßten. Man brachte es wirklich zu einer außerordentlich Volkswissenschaft, diese für uns fast verschwundene Kunst den verschiedenen Naturen, Situationen und Bedürfnissen der Menschen anzuwassen, und sie besonders zu dem Mittel zu gebrauchen, die innere Kraft des Menschen immer in einer gehörigen Dähigkeit zu erhalten, und dadurch nicht nur Krankheitsursachen abzuwehren, sondern auch schwere Krankheiten zu heilen. Ein gewisser Herodicusing auch, daß er Patienten nichts geben, spazieren zu gehen, sich reiben zu lassen, und so mehr die Krankheit abmaterte, diese mehr\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 20113606542,
+    "load_duration": 2210002959,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 1359207000,
+    "eval_count": 359,
+    "eval_duration": 16515976999
+  },
+  "markdown": "```markdown\n# Page 6\n\n— 6 —\n\nGanz anders bildete sich dieser Trick bei den Griechen, unter dem Einfluß einer reinen und schönen Natur, aus. Man überzeugt sich sehr bald, daß gerade ein vermindertes Genuß der Natur die beständige Übung unserer Kräfte für höhere Mittel, die Lebenskraft zu stärken, und unser Leben zu verlängern, und Hippokrates und Galen sowie andere damalige Philosophen und Ärzte kennen feine andere Mittel, als Mäßigkeit, das Aussetzen der freien und reinen Luft, Zeder, und vorzüglich das tägliche Reiben des Körpers und Leibesübung. Auf letztere setzten sie ihr größtes Vertrauen. Es wurden damit Methoden und Regeln bestimmt, dem Körper mannigfaltige, starke und schwache Übungen zu geben; Bewegung wurde eigene Kunst der Leibesübung, die Gymnastik, daraus, und der größte Philosoph und Gelehrte wußte, daß Übung des Leibes und Übung der Seele immer in gleichem Verhältniß bleiben müßten. Man brachte es wirklich zu einer außerordentlich Volkswissenschaft, diese für uns fast verschwundene Kunst den verschiedenen Naturen, Situationen und Bedürfnissen der Menschen anzuwassen, und sie besonders zu dem Mittel zu gebrauchen, die innere Kraft des Menschen immer in einer gehörigen Dähigkeit zu erhalten, und dadurch nicht nur Krankheitsursachen abzuwehren, sondern auch schwere Krankheiten zu heilen. Ein gewisser Herodicusing auch, daß er Patienten nichts geben, spazieren zu gehen, sich reiben zu lassen, und so mehr die Krankheit abmaterte, diese mehr\n```",
+  "possibly_truncated": false,
+  "seconds": 20.117043018341064
+}

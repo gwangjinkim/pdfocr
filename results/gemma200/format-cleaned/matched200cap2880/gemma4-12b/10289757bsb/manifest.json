@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "config": {
+    "model_name": "gemma4-12b",
+    "backend": "local-ollama",
+    "arm": "matched200cap2880"
+  },
+  "pages": [
+    {
+      "page": 9,
+      "result": "page-0009.json",
+      "status": "ok"
+    },
+    {
+      "page": 10,
+      "result": "page-0010.json",
+      "status": "ok"
+    },
+    {
+      "page": 11,
+      "result": "page-0011.json",
+      "status": "ok"
+    },
+    {
+      "page": 12,
+      "result": "page-0012.json",
+      "status": "ok"
+    },
+    {
+      "page": 13,
+      "result": "page-0013.json",
+      "status": "ok"
+    },
+    {
+      "page": 14,
+      "result": "page-0014.json",
+      "status": "ok"
+    },
+    {
+      "page": 70,
+      "result": "page-0070.json",
+      "status": "ok"
+    },
+    {
+      "page": 71,
+      "result": "page-0071.json",
+      "status": "ok"
+    }
+  ]
+}

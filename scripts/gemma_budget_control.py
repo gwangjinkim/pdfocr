@@ -6,6 +6,7 @@ weights, uses a private loopback port, and records child ownership/lifetime.
 
 from __future__ import annotations
 
+import argparse
 import os
 import shutil
 import signal
@@ -18,7 +19,11 @@ import httpx
 
 
 def main():
-    base = bench.BASE / "budget1120"
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--dpi", type=int, choices=[200, 400], default=400)
+    args = parser.parse_args()
+    experiment = bench.BASE if args.dpi == 400 else bench.ROOT / "workspace/gemma200"
+    base = experiment / "budget1120"
     base.mkdir(parents=True, exist_ok=True)
     port = 11539
     endpoint = f"http://127.0.0.1:{port}"
@@ -71,8 +76,15 @@ def main():
                         time.sleep(0.1)
                 else:
                     raise RuntimeError("Temporary Ollama startup timed out")
-                bench.save(base / "model-provenance.json", bench.metadata(client, ["gemma4:12b"]))
-                inputs = bench.read(bench.BASE / "inputs.json")["pages"]
+                meta = bench.metadata(client, ["gemma4:12b"])
+                baseline = bench.read(bench.BASE / "model-provenance.json")
+                assert meta["ollama"] == baseline["ollama"], "Runtime changed; use a new comparison"
+                assert (
+                    meta["models"]["gemma4:12b"]["tag"]["digest"]
+                    == baseline["models"]["gemma4:12b"]["tag"]["digest"]
+                ), "Gemma4 weights changed"
+                bench.save(base / "model-provenance.json", meta)
+                inputs = bench.read(experiment / "inputs.json")["pages"]
                 # One Antiqua and one dense Fraktur control first. The following full
                 # sample is conditional on evidence the larger budget actually applied.
                 cases = [("10289757bsb", 9), ("makrobiotikoderd00hufeuoft", 26)]
@@ -87,13 +99,23 @@ def main():
                     p = next(
                         p
                         for p in inputs
-                        if p["book"] == bid and p["page"] == number and p["dpi"] == 400
+                        if p["book"] == bid and p["page"] == number and p["dpi"] == args.dpi
                     )
-                    image = bench.capped_image(Path(p["image"]), bid, number)
+                    source = Path(p["image"])
+                    source = source if source.is_absolute() else bench.ROOT / source
+                    image = bench.capped_image(
+                        source, bid, number, base=experiment, cache_name=f"inputs{args.dpi}cap2880"
+                    )
                     group = "probe" if number in [34, 35] else bid
                     target = base / "gemma4-12b" / group / f"page-{number:04d}.json"
                     bench.infer(
-                        client, "gemma4:12b", [image], target, "matched400budget1120", [number], bid
+                        client,
+                        "gemma4:12b",
+                        [image],
+                        target,
+                        f"matched{args.dpi}budget1120",
+                        [number],
+                        bid,
                     )
                     result = bench.read(target)
                     if result["status"] != "ok":

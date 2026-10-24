@@ -1,0 +1,59 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    200
+  ],
+  "arm": "matched200budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "61a4a7c39407f54e68cd2d5567823f3f3e2a5cd4b7d7f1d2c80bf9f43127ea98"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:12:37.712586Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Transcription of the Image\n\n--- 178 ---\n\n*Achte Vorlesung.*\n\n*Specielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.*\n\nHauptpunkte der Anlage zum langen Leben: Guter Magen und Verdauungssystem, gesunde Lunge — guter Brustkorb — nicht zu rasendes Herz — gute Respiration und Kraft ihrer Organe — gehöriger Grund und Verteilung der Lebenskraft, guter Organismus — harmonischer und kräftigerer Körperbau — mittlere Größe der Schaffung des Körpers — kein verkrümmter schwacher Leib — vollkommene Organisation der Zwangsaueßer — das Bild eines langen Lebens bestimmen Menschen.\n\nNach diesen allgemeinen Begriffen wird nun zu der Bestimmung der speziellen und individuellen Grundlage des langen Lebens, die in dem Menschen selbst liegen muß. Ich will Haupt-Eigenschaften und Anlagen zu geben, die nach obigen Grundlagen und der Erfahrung ein Mensch durchaus haben muß, der auf ein langes Leben Rechnung machen will. Diese Schilderung kann zugleich einer kurzen Physiognomik des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens in Menschen nennen kann, sind folgende:\n\n1. Vor allen Dingen muß der Magen und das ganze Verdauungssystem gut bestattet sein. — Es ist unglaublich, wie wichtiger Bedeutung diese\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 30374759417,
+    "load_duration": 2771763542,
+    "prompt_eval_count": 341,
+    "prompt_eval_duration": 2008369000,
+    "eval_count": 284,
+    "eval_duration": 25567287000
+  },
+  "markdown": "# Transcription of the Image\n\n--- 178 ---\n\n*Achte Vorlesung.*\n\n*Specielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.*\n\nHauptpunkte der Anlage zum langen Leben: Guter Magen und Verdauungssystem, gesunde Lunge — guter Brustkorb — nicht zu rasendes Herz — gute Respiration und Kraft ihrer Organe — gehöriger Grund und Verteilung der Lebenskraft, guter Organismus — harmonischer und kräftigerer Körperbau — mittlere Größe der Schaffung des Körpers — kein verkrümmter schwacher Leib — vollkommene Organisation der Zwangsaueßer — das Bild eines langen Lebens bestimmen Menschen.\n\nNach diesen allgemeinen Begriffen wird nun zu der Bestimmung der speziellen und individuellen Grundlage des langen Lebens, die in dem Menschen selbst liegen muß. Ich will Haupt-Eigenschaften und Anlagen zu geben, die nach obigen Grundlagen und der Erfahrung ein Mensch durchaus haben muß, der auf ein langes Leben Rechnung machen will. Diese Schilderung kann zugleich einer kurzen Physiognomik des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens in Menschen nennen kann, sind folgende:\n\n1. Vor allen Dingen muß der Magen und das ganze Verdauungssystem gut bestattet sein. — Es ist unglaublich, wie wichtiger Bedeutung diese",
+  "possibly_truncated": false,
+  "seconds": 30.37886691093445,
+  "format_cleanup": {
+    "source_start": 12,
+    "source_end": 1264,
+    "operations": [
+      "single_outer_markdown_fence"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/budget1120/gemma4-12b/makrobiotikoderd00hufeuoft/page-0200.json"
+}

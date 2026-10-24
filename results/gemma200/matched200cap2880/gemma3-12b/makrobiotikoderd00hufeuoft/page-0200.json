@@ -1,0 +1,50 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    200
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "61a4a7c39407f54e68cd2d5567823f3f3e2a5cd4b7d7f1d2c80bf9f43127ea98"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T10:12:18.795113Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\n**Page 478**\n\n**Achte Vorlesung.**\n\n**Specielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.**\n\n**Hauptpunkte der Anlage zum langen Leben:**\n\n*   Guter Anlagen und Veranlagungsformen, gesunde Zähne - gut erzeugte Körper\n*   Nicht zu reizbares Herz - gute die das rations- und Kraftstoff der Natur\n*   Gehöriger Grad und Vertheilung der Lebenskraft - gut Temperament\n*   Harmonischer und fehlerfreier Körperbau\n*   Wettstreit der Schwächen der Natur des Körpers\n*   Kein verringlich schwacher Theil\n*   Vollkommene Organisation der Lebenskraft - das Bild eines zum langen Leben bestimmten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Bestimmung der speciellen und individuellen Grundlage des langen Lebens übergehen, die in dem Menschen selbst liegen muss. Ich will die Haupt-Eigenschaften und Anlagen angeben, die nach obigen Grundlagen und der Erhaltung ein Mensch durchaus haben muss, der auf ein langes Leben Beschwörung machen will. Diese Schildernung kann zugleich als einer kurzen Philosophie des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind folgende:\n\n1.  Vor allen Dingen muss der Magen und das ganze Veranlagungsformen gut befahren sein...\n    Es ist unglücklich, von welcher Wichtigkeit dieser\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 33444541709,
+    "load_duration": 2720841667,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 2997750000,
+    "eval_count": 320,
+    "eval_duration": 27703127000
+  },
+  "markdown": "```markdown\n## Extracted Text:\n\n**Page 478**\n\n**Achte Vorlesung.**\n\n**Specielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.**\n\n**Hauptpunkte der Anlage zum langen Leben:**\n\n*   Guter Anlagen und Veranlagungsformen, gesunde Zähne - gut erzeugte Körper\n*   Nicht zu reizbares Herz - gute die das rations- und Kraftstoff der Natur\n*   Gehöriger Grad und Vertheilung der Lebenskraft - gut Temperament\n*   Harmonischer und fehlerfreier Körperbau\n*   Wettstreit der Schwächen der Natur des Körpers\n*   Kein verringlich schwacher Theil\n*   Vollkommene Organisation der Lebenskraft - das Bild eines zum langen Leben bestimmten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Bestimmung der speciellen und individuellen Grundlage des langen Lebens übergehen, die in dem Menschen selbst liegen muss. Ich will die Haupt-Eigenschaften und Anlagen angeben, die nach obigen Grundlagen und der Erhaltung ein Mensch durchaus haben muss, der auf ein langes Leben Beschwörung machen will. Diese Schildernung kann zugleich als einer kurzen Philosophie des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind folgende:\n\n1.  Vor allen Dingen muss der Magen und das ganze Veranlagungsformen gut befahren sein...\n    Es ist unglücklich, von welcher Wichtigkeit dieser\n```",
+  "possibly_truncated": false,
+  "seconds": 33.447669982910156
+}

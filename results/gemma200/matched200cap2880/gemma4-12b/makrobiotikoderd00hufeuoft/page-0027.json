@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    27
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "00d39e7da88b06a49aefc7717f8c19bf43ee9adbfefa97bb2ebe1241f07abbc7"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:18:04.973491Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n— 5 —\n\nwirklich beschäftigte dies Problem von jeder die\nMenschheit auf verschiedene Weise. Es war ein Lich-\ntungsgegenstand der scharfsinnigsten Köpfe, ein Tun-\nneltplatz der Schönschwer, und eine Hauptbeschäfti-\ngung der Charlatans und Betrüger, bei denen man jeder\nfinden darf, daß es entweder Umgang mit Giftern,\noder Goldmacherei oder Verlängerung des Lebens,\nwar, wodurch sie das größere Publikum anlockten. Es\nist in interessanter Weise auch Beitrag zur Geschichte des\nmenschlichen Verstandes, zu lesen, auf wie manni-\nacalischen, sich auf ganz gegenwärtigen Wegen man\ndies Gut zu erlangen hoffte, und da sich in den\nneusten Zeiten die Aegidiforos und Messmers\nwichtige Beiträge auch geliefert haben, wurde glaube ich\nVergeßung zu erhalten, wenn ich eine kurze Ueber-\nschrift der nach und nach nach vergroßerten Lebensver-\nlängerungsmethoden anbrüßte, ehe ich zu mei-\nnem Hauptgegenstand übergehe.\n\nSchon in den frühesten Zeiten, unter Ägyptern,\nGriechen und Römern war diese Idee rege, und\nobhon damals verlor man in Ägypten, der Mutter zu\nmancher abentheurlichen Üben, auf flünschliche und\nunnatürliche Weise, auf diesem Zweck, mehr freilich\ndas durch Hieße und Ueberschwemmungen ungesunde\nElena Veranlaßung zum sterbe. Man glaubte die\nErhaltung des Lebens in Brechen und Schiwen\ngefunden zu haben; es wurde allgemeine Sitte, alle\nMonotonen ungesunden Menschen zu nehmen,\nund statt zu sagen, wie befindest du dich, fragte\nman einander: Wie schwiest du? —\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 23443411375,
+    "load_duration": 2204512583,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 1396876000,
+    "eval_count": 428,
+    "eval_duration": 19814402000
+  },
+  "markdown": "```markdown\n— 5 —\n\nwirklich beschäftigte dies Problem von jeder die\nMenschheit auf verschiedene Weise. Es war ein Lich-\ntungsgegenstand der scharfsinnigsten Köpfe, ein Tun-\nneltplatz der Schönschwer, und eine Hauptbeschäfti-\ngung der Charlatans und Betrüger, bei denen man jeder\nfinden darf, daß es entweder Umgang mit Giftern,\noder Goldmacherei oder Verlängerung des Lebens,\nwar, wodurch sie das größere Publikum anlockten. Es\nist in interessanter Weise auch Beitrag zur Geschichte des\nmenschlichen Verstandes, zu lesen, auf wie manni-\nacalischen, sich auf ganz gegenwärtigen Wegen man\ndies Gut zu erlangen hoffte, und da sich in den\nneusten Zeiten die Aegidiforos und Messmers\nwichtige Beiträge auch geliefert haben, wurde glaube ich\nVergeßung zu erhalten, wenn ich eine kurze Ueber-\nschrift der nach und nach nach vergroßerten Lebensver-\nlängerungsmethoden anbrüßte, ehe ich zu mei-\nnem Hauptgegenstand übergehe.\n\nSchon in den frühesten Zeiten, unter Ägyptern,\nGriechen und Römern war diese Idee rege, und\nobhon damals verlor man in Ägypten, der Mutter zu\nmancher abentheurlichen Üben, auf flünschliche und\nunnatürliche Weise, auf diesem Zweck, mehr freilich\ndas durch Hieße und Ueberschwemmungen ungesunde\nElena Veranlaßung zum sterbe. Man glaubte die\nErhaltung des Lebens in Brechen und Schiwen\ngefunden zu haben; es wurde allgemeine Sitte, alle\nMonotonen ungesunden Menschen zu nehmen,\nund statt zu sagen, wie befindest du dich, fragte\nman einander: Wie schwiest du? —\n```",
+  "possibly_truncated": false,
+  "seconds": 23.45325994491577
+}

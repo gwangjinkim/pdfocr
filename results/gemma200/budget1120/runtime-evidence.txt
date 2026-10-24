@@ -1,0 +1,3 @@
+Finite child; LLAMA_ARG_IMAGE_MAX_TOKENS=1120
+load_hparams: image_min_pixels:   92160
+load_hparams: image_max_pixels:   2580480 (custom value)

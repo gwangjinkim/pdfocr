@@ -4,3 +4,4 @@ vendor-teleocr/** -whitespace
 *.patch -whitespace
 # Preserve measured OCR/source-map evidence, including intentional blank lines.
 results/gemma/** -whitespace
+results/gemma200/** -whitespace

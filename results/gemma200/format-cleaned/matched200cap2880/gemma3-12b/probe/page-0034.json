@@ -1,0 +1,58 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    34
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "53e138834799af74cb65d5206e7c78fcd4101bd0cf8305041938c8deaf1a157c"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T10:13:31.504662Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\n- 12 -\n\nGeheimnisse des Geisterreichs aufsucht, um unsere Tage zu verlängern, selbst die Gesirne mussten dazu benutzt werden. Es wurde damals allgemeiner Glaube, dass der Einfluss der Gesirne (die man sich doch nicht ganz müssig denken konnte) Leben und Schicksale der Menschen regiere, dass jeder Planet und jede Constellation derselben den ganzen Existenz zum Born- oder Guten geben könne, und dahlschlich ein Astrolog nur die Stunde und Minute der Geburt zu wissen brauche, um das Temperament, die Geistesfähigkeiten, die Schicksale, die Krankheiten, die Art des Todes und auch den Tag desselben bestimmen zu können. - Dies war der Glaube nicht bloß des großen Hauses, sondern der größten, verständigsten und einflussvollsten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie fest man daran hing, unacheachtet es nicht an Weisheiten fehlen konnte, wo die Prophezeiung schlüssig. Bischöfe, hohe Geistliche, berühmte Philosophen und Herzoge gaben sich mit dem Nativitātstellen ab, man las sogar auf universitāren Collegia darüber, so gut wie über die Punctirkunst und Cabala. Zum Beweise erlauben mir ein paar Worte von dem berühmten Thurneisen, dem glänzendsten Phänomen dieser Art, und einem wirklich ausgezeichneten Menschen, zu sagen. Er lebte im 17tem Jahrhundert an dem kurfürstlichen Hofe zu Berlin, und war Leibarzt, Chemist, Nativitātsteller, Calendermacher, Druckrechner und Buchhändler, alles in einer Per-\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 36113791250,
+    "load_duration": 3035489250,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 2903556000,
+    "eval_count": 371,
+    "eval_duration": 30147077000
+  },
+  "markdown": "## Extracted Text:\n\n- 12 -\n\nGeheimnisse des Geisterreichs aufsucht, um unsere Tage zu verlängern, selbst die Gesirne mussten dazu benutzt werden. Es wurde damals allgemeiner Glaube, dass der Einfluss der Gesirne (die man sich doch nicht ganz müssig denken konnte) Leben und Schicksale der Menschen regiere, dass jeder Planet und jede Constellation derselben den ganzen Existenz zum Born- oder Guten geben könne, und dahlschlich ein Astrolog nur die Stunde und Minute der Geburt zu wissen brauche, um das Temperament, die Geistesfähigkeiten, die Schicksale, die Krankheiten, die Art des Todes und auch den Tag desselben bestimmen zu können. - Dies war der Glaube nicht bloß des großen Hauses, sondern der größten, verständigsten und einflussvollsten Personen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie fest man daran hing, unacheachtet es nicht an Weisheiten fehlen konnte, wo die Prophezeiung schlüssig. Bischöfe, hohe Geistliche, berühmte Philosophen und Herzoge gaben sich mit dem Nativitātstellen ab, man las sogar auf universitāren Collegia darüber, so gut wie über die Punctirkunst und Cabala. Zum Beweise erlauben mir ein paar Worte von dem berühmten Thurneisen, dem glänzendsten Phänomen dieser Art, und einem wirklich ausgezeichneten Menschen, zu sagen. Er lebte im 17tem Jahrhundert an dem kurfürstlichen Hofe zu Berlin, und war Leibarzt, Chemist, Nativitātsteller, Calendermacher, Druckrechner und Buchhändler, alles in einer Per-",
+  "possibly_truncated": false,
+  "seconds": 36.12042808532715,
+  "format_cleanup": {
+    "source_start": 12,
+    "source_end": 1473,
+    "operations": [
+      "single_outer_markdown_fence"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/matched200cap2880/gemma3-12b/probe/page-0034.json"
+}

@@ -56,3 +56,35 @@ def test_original_batch_preserves_defaults_and_records_transport_failure(tmp_pat
     value = module.read(result)
     assert value["status"] == "error" and "413" in value["error"]
     assert "markdown" not in value  # Never disguise a transport failure as empty OCR.
+
+
+def test_200dpi_arm_keeps_the_400dpi_generation_controls(tmp_path, monkeypatch):
+    module = runner()
+    monkeypatch.setattr(module, "ROOT", tmp_path)
+    image = tmp_path / "page.png"
+    Image.new("RGB", (20, 30), "white").save(image)
+    calls = []
+
+    def respond(request):
+        import json
+
+        calls.append(json.loads(request.content))
+        return httpx.Response(
+            200, json={"message": {"content": "transcribed"}, "done_reason": "stop"}
+        )
+
+    with httpx.Client(
+        base_url="http://127.0.0.1:11434", transport=httpx.MockTransport(respond)
+    ) as client:
+        for arm in ["matched200cap2880", "matched400cap2880"]:
+            module.infer(
+                client, "gemma4:12b", [image], tmp_path / (arm + ".json"), arm, [1], "book"
+            )
+    assert calls[0] == calls[1]
+    assert calls[0]["options"] == {
+        "temperature": 0,
+        "seed": 0,
+        "num_ctx": 16384,
+        "num_predict": 8192,
+    }
+    assert calls[0]["think"] is False

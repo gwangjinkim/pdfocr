@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    25
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "1dc49c93eeeaa651910da9d2322b61106adb562f7ad744bd45da54bf129373bb"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:17:18.691602Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Erster Vorlesung.\n\n## Schicksale dieser Wissenschaft.\n\nBei den Cappern und Wierchen — Geronomic — Gimm-\nnottic — Hermippus — Zuffendorf — Russland derselben im Mittel-\nalter — Theophrastus Daraeusius — Astrologische Me-\nthode — Apollonius — Amunreisen — Cornary und\nseine strenge Diät — Transfusionsmethode — Baco\nSt. Germain — Meckmer — Cagliostro — Graubam.\n\nDurch die ganze Welt, mehr und wirker sind un-\nbegreifliche Kraft, jener unmittelbare Ausfluß der\nGottheit, den wir leben nennen. Überall fließen wir\nErscheinungen und Wirkungen, die diese Gegen-\nwart, obgleich in unendlich verschiedenen Modifikat-\nionen und Gestalten, unverkennbar bezeugen,\nLeben ist der Ausdruck der ganzen uns umgebenden\nNatur. Leben ist, so, der Stein sich bald\nund kristallisiert, die Pflanze vegetiert, das Thier\nfühlt und wirkt; — aber im höchsten Glanz von\nVollkommenheit, Fülle und Ausbildung erscheint es\nin dem Menschen, dem obersten Gliede der schöpfa-\nzen Schöpfung. Wir mögen den ganze Reihe der\nWesen durchgehen, nirgends finden wir eine voll-\nkommene Verbindung aller lebendigen Kräfte der\n\n9 *\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 22036030833,
+    "load_duration": 2735217708,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 1962978000,
+    "eval_count": 321,
+    "eval_duration": 17306706000
+  },
+  "markdown": "```markdown\n# Erster Vorlesung.\n\n## Schicksale dieser Wissenschaft.\n\nBei den Cappern und Wierchen — Geronomic — Gimm-\nnottic — Hermippus — Zuffendorf — Russland derselben im Mittel-\nalter — Theophrastus Daraeusius — Astrologische Me-\nthode — Apollonius — Amunreisen — Cornary und\nseine strenge Diät — Transfusionsmethode — Baco\nSt. Germain — Meckmer — Cagliostro — Graubam.\n\nDurch die ganze Welt, mehr und wirker sind un-\nbegreifliche Kraft, jener unmittelbare Ausfluß der\nGottheit, den wir leben nennen. Überall fließen wir\nErscheinungen und Wirkungen, die diese Gegen-\nwart, obgleich in unendlich verschiedenen Modifikat-\nionen und Gestalten, unverkennbar bezeugen,\nLeben ist der Ausdruck der ganzen uns umgebenden\nNatur. Leben ist, so, der Stein sich bald\nund kristallisiert, die Pflanze vegetiert, das Thier\nfühlt und wirkt; — aber im höchsten Glanz von\nVollkommenheit, Fülle und Ausbildung erscheint es\nin dem Menschen, dem obersten Gliede der schöpfa-\nzen Schöpfung. Wir mögen den ganze Reihe der\nWesen durchgehen, nirgends finden wir eine voll-\nkommene Verbindung aller lebendigen Kräfte der\n\n9 *\n```",
+  "possibly_truncated": false,
+  "seconds": 22.043493032455444
+}

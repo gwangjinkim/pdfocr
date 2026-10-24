@@ -1,0 +1,58 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    26
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "824938e255eb2dda224d881005fe7c9e6410e4f1e0096d443e3d3db2bb57ef39"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T10:08:48.048958Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Extracted Text:\n\n**Page 4:**\n\nNature, nowhere so much energy of life, with such power unites, as here. A wonder is that the imperfect possessors of this good also have a high value thereof see, and that even the bare thought of life and soul to our own being for us has. Every body is stirred and interested, if only we in him one art von Leben und Lebensgefühl vertrauen können. Nothing can work so strongly upon us, such Aufopferungen zu veranlassen, and die außerordentlichen Entdeckungsgen und Anstrengungen unser verborgenen Kräfte hervorzubringen, as the drive to preserve and in dem kritischen Augenblick es zu retten. Selbst ohne Genuss und Freuden des Lebens, selbst für den, der unheilbaren Schmerzen leidet, oder im dunkeln Kerker auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorge-ne, eine gänzliche Verdunkelung und Tödung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. - So weise und innig wurde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen as der öffentlichen Blickseligkeit, mit unsterbliche Erifenz verwet! – Sehr natürlich war es da-her, daß der Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu stückigen Genuss dieses Guts mehr Ausdehnung zu geben? Und\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 45136512584,
+    "load_duration": 3065901292,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 3062711000,
+    "eval_count": 370,
+    "eval_duration": 38979023000
+  },
+  "markdown": "## Extracted Text:\n\n**Page 4:**\n\nNature, nowhere so much energy of life, with such power unites, as here. A wonder is that the imperfect possessors of this good also have a high value thereof see, and that even the bare thought of life and soul to our own being for us has. Every body is stirred and interested, if only we in him one art von Leben und Lebensgefühl vertrauen können. Nothing can work so strongly upon us, such Aufopferungen zu veranlassen, and die außerordentlichen Entdeckungsgen und Anstrengungen unser verborgenen Kräfte hervorzubringen, as the drive to preserve and in dem kritischen Augenblick es zu retten. Selbst ohne Genuss und Freuden des Lebens, selbst für den, der unheilbaren Schmerzen leidet, oder im dunkeln Kerker auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorge-ne, eine gänzliche Verdunkelung und Tödung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. - So weise und innig wurde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen as der öffentlichen Blickseligkeit, mit unsterbliche Erifenz verwet! – Sehr natürlich war es da-her, daß der Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu stückigen Genuss dieses Guts mehr Ausdehnung zu geben? Und",
+  "possibly_truncated": false,
+  "seconds": 45.141088008880615,
+  "format_cleanup": {
+    "source_start": 12,
+    "source_end": 1483,
+    "operations": [
+      "single_outer_markdown_fence"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/matched200cap2880/gemma3-12b/makrobiotikoderd00hufeuoft/page-0026.json"
+}

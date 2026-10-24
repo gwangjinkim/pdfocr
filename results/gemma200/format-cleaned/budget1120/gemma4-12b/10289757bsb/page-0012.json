@@ -1,0 +1,60 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    12
+  ],
+  "arm": "matched200budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "353f4a59133b4f3f3c03e426bd78ec3266420101bf683474d57f92edddabca98"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:06:28.628629Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n--- 8 ---\n\nlosen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Unglücklichen ein neuer Zugang zu dem Vornehmen und Reichen, theils diesem, was oft noch schwerer ist, ein neuer Weg eröffnet wird, auf eine sichere und würdige Art seine Wohlthaten den Armen zufließen zu lassen; denn wer kennt wohl die Lage und die Bedürfnisse der Armen besser, als der Arzt? Und wer kann ihm die Hilfe wohlthätiger und zweckmäßiger reichen?\n\n3. Je mehr die Menschen in Masse behandelt werden, desto mehr verliert sich der Sinn für das Individuum, der doch allein jene Wärme des Gefühls und jene Herzens-theilnahme erzeugt, durch welche solche Anstalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort des Göttlichen anwenden „Wer den Menschen nicht liebt, den er siehet, wie kann er die Menschheit lieben, die er nicht siehet?“ Die gewöhnliche Menschheitsliebe verschlingt sehr häufig die Menschenliebe, und es würde manchem, der nichts als Beglückungsprojekte für die Menschheit im Großen im Munde führt, oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 28358907042,
+    "load_duration": 2780808375,
+    "prompt_eval_count": 1121,
+    "prompt_eval_duration": 4312274000,
+    "eval_count": 302,
+    "eval_duration": 21059680000
+  },
+  "markdown": "losen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Unglücklichen ein neuer Zugang zu dem Vornehmen und Reichen, theils diesem, was oft noch schwerer ist, ein neuer Weg eröffnet wird, auf eine sichere und würdige Art seine Wohlthaten den Armen zufließen zu lassen; denn wer kennt wohl die Lage und die Bedürfnisse der Armen besser, als der Arzt? Und wer kann ihm die Hilfe wohlthätiger und zweckmäßiger reichen?\n\n3. Je mehr die Menschen in Masse behandelt werden, desto mehr verliert sich der Sinn für das Individuum, der doch allein jene Wärme des Gefühls und jene Herzens-theilnahme erzeugt, durch welche solche Anstalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort des Göttlichen anwenden „Wer den Menschen nicht liebt, den er siehet, wie kann er die Menschheit lieben, die er nicht siehet?“ Die gewöhnliche Menschheitsliebe verschlingt sehr häufig die Menschenliebe, und es würde manchem, der nichts als Beglückungsprojekte für die Menschheit im Großen im Munde führt, oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.",
+  "possibly_truncated": false,
+  "seconds": 28.377125024795532,
+  "format_cleanup": {
+    "source_start": 23,
+    "source_end": 1197,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/budget1120/gemma4-12b/10289757bsb/page-0012.json"
+}

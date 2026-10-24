@@ -1,0 +1,61 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    34
+  ],
+  "arm": "matched200budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "53e138834799af74cb65d5206e7c78fcd4101bd0cf8305041938c8deaf1a157c"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:14:02.328648Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 12\n\n--- 12 ---\n\nGeheimnisse des Geisterreichs aufzuf., um unsere Tage zu verlängern, selbst die Gestirne mußten dazu be-\nmutzt werden. Es wurde damals allgemeiner Glaube,\ndaß der Einfluß der Gestirne (die man sich doch nicht\nganz müßig fürchten konnte) das Leben und Schicksale der\nMenschen regiere, daß jeder Planet und jede Confel-\nlation derselben der ganzen Christus des darin er-\ngegangenen Wesens eine gewisse Richtung zum Bösen\noder Guten geben könne, und daß folglich ein Astro-\nlog nur die Stunde und Minute der Geburt zu\nwissen brauche, um das Temperament, die Geistes-\nfähigkeiten, die Schicksale, die Krankheiten, die Art\ndes Todes und auch den Tag desselben bestimmen zu\nkönnen. — Dies war der Glaube nicht bloß des\ngroßen Haufens, sondern der größten, verständig-\nsten und klügsten Köpfen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie\nseit man daran glaubte, überhaupter nicht auch mit\nWeisheiten fehlen konnte, wo die Propheyeung fehlschlug.\nBischöfe, hohe Geistliche, berühmte Philosophen und\nÄrzte gaben sich mit dem Nativitätstellen ab, man\nlas sogar auf Universitäten Collegia darüber, so gut\nwie über die Punktierkunst und Cabala. Zum Be-\nweise erlaube ich man mit ein paar Worte von dem\nberühmten Thurneisen, dem glänzendsten Phäno-\nmen dieser Art, und einem wirklich ausgezeichneten\nMenschen, zu sagen. Er lebte im 17ten Jahrhundert\nan dem kurfürstlichen Hofe zu Berlin, und war\nLeibarzt, Chemist, Nativitätsteller, Kalendermacher,\nBuchdrucker und Buchhändler, alles in einer Ver-\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 43976508417,
+    "load_duration": 2803544792,
+    "prompt_eval_count": 341,
+    "prompt_eval_duration": 2014280000,
+    "eval_count": 441,
+    "eval_duration": 39128072000
+  },
+  "markdown": "Geheimnisse des Geisterreichs aufzuf., um unsere Tage zu verlängern, selbst die Gestirne mußten dazu be-\nmutzt werden. Es wurde damals allgemeiner Glaube,\ndaß der Einfluß der Gestirne (die man sich doch nicht\nganz müßig fürchten konnte) das Leben und Schicksale der\nMenschen regiere, daß jeder Planet und jede Confel-\nlation derselben der ganzen Christus des darin er-\ngegangenen Wesens eine gewisse Richtung zum Bösen\noder Guten geben könne, und daß folglich ein Astro-\nlog nur die Stunde und Minute der Geburt zu\nwissen brauche, um das Temperament, die Geistes-\nfähigkeiten, die Schicksale, die Krankheiten, die Art\ndes Todes und auch den Tag desselben bestimmen zu\nkönnen. — Dies war der Glaube nicht bloß des\ngroßen Haufens, sondern der größten, verständig-\nsten und klügsten Köpfen der damaligen Zeit, und es ist zum Erstaunen, wie lange und wie\nseit man daran glaubte, überhaupter nicht auch mit\nWeisheiten fehlen konnte, wo die Propheyeung fehlschlug.\nBischöfe, hohe Geistliche, berühmte Philosophen und\nÄrzte gaben sich mit dem Nativitätstellen ab, man\nlas sogar auf Universitäten Collegia darüber, so gut\nwie über die Punktierkunst und Cabala. Zum Be-\nweise erlaube ich man mit ein paar Worte von dem\nberühmten Thurneisen, dem glänzendsten Phäno-\nmen dieser Art, und einem wirklich ausgezeichneten\nMenschen, zu sagen. Er lebte im 17ten Jahrhundert\nan dem kurfürstlichen Hofe zu Berlin, und war\nLeibarzt, Chemist, Nativitätsteller, Kalendermacher,\nBuchdrucker und Buchhändler, alles in einer Ver-",
+  "possibly_truncated": false,
+  "seconds": 43.98277711868286,
+  "format_cleanup": {
+    "source_start": 35,
+    "source_end": 1539,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/budget1120/gemma4-12b/probe/page-0034.json"
+}

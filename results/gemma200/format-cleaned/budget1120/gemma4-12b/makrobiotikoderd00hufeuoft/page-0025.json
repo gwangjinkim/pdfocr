@@ -1,0 +1,59 @@
+{
+  "model": "gemma4:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    25
+  ],
+  "arm": "matched200budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "1dc49c93eeeaa651910da9d2322b61106adb562f7ad744bd45da54bf129373bb"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:09:18.279467Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Erste Vorlesung.\n\n## Schicksale dieser Wissenschaft.\n\nBei den Ägyptern und Griechen — Gerocomic — Gnomonisch — Hermippus — Zustand derselben im Mittelalter — Theophrastus Paracelsus — Astrologische Methode — Thurnheim — Cornaro und seine ferne Diät — Trance-Schulmethode — Baco — St. Germain — Mesmer — Cagliostro — Gradum.\n\nDurch die ganze Natur ist wirkend eine unvergessliche Kraft, jener unmittelbare Ausdruck der Gottheit, den wir Leben nennen. Ueberall stoßen wir auf Erscheinungen und Schöpfungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modiifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Juruf der ganzen uns umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und kristallisiert, die Pflanze vegetiert, das Thier fühlt und wirkt; — aber im schönsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der höchstherren Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n\n* 1*\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 43703279042,
+    "load_duration": 2787599375,
+    "prompt_eval_count": 341,
+    "prompt_eval_duration": 2795964000,
+    "eval_count": 282,
+    "eval_duration": 38093765000
+  },
+  "markdown": "# Erste Vorlesung.\n\n## Schicksale dieser Wissenschaft.\n\nBei den Ägyptern und Griechen — Gerocomic — Gnomonisch — Hermippus — Zustand derselben im Mittelalter — Theophrastus Paracelsus — Astrologische Methode — Thurnheim — Cornaro und seine ferne Diät — Trance-Schulmethode — Baco — St. Germain — Mesmer — Cagliostro — Gradum.\n\nDurch die ganze Natur ist wirkend eine unvergessliche Kraft, jener unmittelbare Ausdruck der Gottheit, den wir Leben nennen. Ueberall stoßen wir auf Erscheinungen und Schöpfungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modiifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Juruf der ganzen uns umgebenden Natur. Leben ist's, wodurch der Stein sich ballt und kristallisiert, die Pflanze vegetiert, das Thier fühlt und wirkt; — aber im schönsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der höchstherren Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\n\n* 1*",
+  "possibly_truncated": false,
+  "seconds": 43.70852303504944,
+  "format_cleanup": {
+    "source_start": 12,
+    "source_end": 1075,
+    "operations": [
+      "single_outer_markdown_fence"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/budget1120/gemma4-12b/makrobiotikoderd00hufeuoft/page-0025.json"
+}

@@ -1,0 +1,59 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    9
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "ca33f0a220c31f2235fed2a3263970ee6efcc879a85d05172d1666671dcc657e"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T10:04:41.679445Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 5 -\n\nthat erwiesen, manches Leben gerettet, und, was mehr noch heißt, Kränklichkeit verhütet, und dem Menschen die Brauchbarkeit erhalten. Denn es ist ein sehr unrichtiger Maßstab, wenn man den Nutzen solcher Hülfen bloß nach der Vermehrung oder Ver- minderung der Mortalität berechnet.\n\nDie häufigste und traurigste Folge der Krankheiten bei Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durch gehörige Hilfe anfangs leicht zu heben gewesen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren Krankheiten; Krankheiten, die man zwar ohne Hülfe mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die die Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdau- ernden Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfe besteht also darin, die Summe der Leiden- den und Unbrauchbaren zu vermindern, und ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben. Ja, indem sie die Summe der Krankheiten überhaupt vermin- dert, und die ersten Keime der anstecken-\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 17367424917,
+    "load_duration": 3209744833,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 1956640000,
+    "eval_count": 278,
+    "eval_duration": 12021862000
+  },
+  "markdown": "that erwiesen, manches Leben gerettet, und, was mehr noch heißt, Kränklichkeit verhütet, und dem Menschen die Brauchbarkeit erhalten. Denn es ist ein sehr unrichtiger Maßstab, wenn man den Nutzen solcher Hülfen bloß nach der Vermehrung oder Ver- minderung der Mortalität berechnet.\n\nDie häufigste und traurigste Folge der Krankheiten bei Armen ist nicht der Tod, sondern die Kränklichkeit. Übel, die durch gehörige Hilfe anfangs leicht zu heben gewesen wären, werden durch Vernachlässigung zu schweren, oft unheilbaren Krankheiten; Krankheiten, die man zwar ohne Hülfe mit dem Leben übersteht, gehen in langwierige Kränklichkeiten über, die die Brauchbarkeit nehmen, und den Menschen nun erst zu einem wirklich armen und zu einer fortdau- ernden Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfe besteht also darin, die Summe der Leiden- den und Unbrauchbaren zu vermindern, und ihren Familien, so wie dem Staate, thätige Mitglieder wiederzugeben. Ja, indem sie die Summe der Krankheiten überhaupt vermin- dert, und die ersten Keime der anstecken-",
+  "possibly_truncated": false,
+  "seconds": 17.38601803779602,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1079,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/matched200cap2880/gemma3-12b/10289757bsb/page-0009.json"
+}

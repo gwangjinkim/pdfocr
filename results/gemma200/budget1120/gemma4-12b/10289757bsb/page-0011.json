@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    11
+  ],
+  "arm": "matched200budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "ed793abdfdc55311978f44260f51be4610ba0078bd66f0f8a1381478eb1f2936"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:06:00.212172Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 7\n\nzählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen mußten, um nur die verordnete Arznei zu erhalten. Wie unzureichend war diese Hülfe! —\n\nEs mußte demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zum Grunde gelegt wurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und der Menschenliebe allein muß das belebende Princip einer solchen Anstalt seyn. Das ganze Geschäft muß als Gottesdienst betrieben, und unentgeldlich, aus freiem innerem Antriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr edle menschenliebende und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto gewisser wird dieser Geist das Institut durchdringen, und der wahre Zweck erreicht. Überdies wird noch dadurch der große Vortheil gewonnen, daß die Berührungspunkte der Hülf-\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 24123283709,
+    "load_duration": 2771794459,
+    "prompt_eval_count": 1104,
+    "prompt_eval_duration": 4386404000,
+    "eval_count": 255,
+    "eval_duration": 16735641000
+  },
+  "markdown": "```markdown\n# Page 7\n\nzählte; nur eine Armenapotheke in einer Stadt von 6 Stunden im Umfange, wo die armen Kranken meilenlange Wege machen mußten, um nur die verordnete Arznei zu erhalten. Wie unzureichend war diese Hülfe! —\n\nEs mußte demnach, wenn etwas Gutes bewirkt werden sollte, durchaus eine ganz neue Einrichtung gemacht werden. — Die Ideen, welche dabei zum Grunde gelegt wurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und der Menschenliebe allein muß das belebende Princip einer solchen Anstalt seyn. Das ganze Geschäft muß als Gottesdienst betrieben, und unentgeldlich, aus freiem innerem Antriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das Personale, als auf den Mechanismus der Einrichtung an. Je mehr edle menschenliebende und allgemein geachtete Ärzte sich zu dieser Absicht vereinigen, desto gewisser wird dieser Geist das Institut durchdringen, und der wahre Zweck erreicht. Überdies wird noch dadurch der große Vortheil gewonnen, daß die Berührungspunkte der Hülf-\n```",
+  "possibly_truncated": false,
+  "seconds": 24.144495964050293
+}

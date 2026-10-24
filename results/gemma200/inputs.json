@@ -1,0 +1,303 @@
+{
+  "dpi": 200,
+  "renderer": "pdfrune",
+  "renderer_fix_commit": "e174cbc6f80c1707ba048e46b9810cc85a8995d9",
+  "fallback_allowed": false,
+  "source_documents": {
+    "10289757bsb": "9a79e4af196f5d980552f8e5aa345bcff494fe603323105824fdfa4548a56cc1",
+    "makrobiotikoderd00hufeuoft": "927ab0916d8452bdb2c11045031bf01ca52df5871a1f7612137ef226b46b5293"
+  },
+  "pages": [
+    {
+      "book": "10289757bsb",
+      "page": 9,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/10289757bsb/page-0009.png",
+      "width": 3350,
+      "height": 5833,
+      "sha256": "1e01ec834c82dd3ca221e1b04fce1f3ffb540b97b1c7e9b8d490eee67c0bdc13",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 10,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/10289757bsb/page-0010.png",
+      "width": 3358,
+      "height": 5817,
+      "sha256": "61af489e12a329790c4a02c5047a460e9616394bd595159763d773d376269107",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 11,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/10289757bsb/page-0011.png",
+      "width": 3403,
+      "height": 5844,
+      "sha256": "a9e63a9744e61912ab71a2d486dae648d0949b421f3c721de392d3ba05d60ce7",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 12,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/10289757bsb/page-0012.png",
+      "width": 3522,
+      "height": 5814,
+      "sha256": "129651ec1f30423344ea30263129d8828ef14dd10d8a66f47341bd6ec626f3e7",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 13,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/10289757bsb/page-0013.png",
+      "width": 3372,
+      "height": 5817,
+      "sha256": "00770e2b320ec708321e74e00d993a6843ea113629fc003fe6b575487bc74b80",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 14,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/10289757bsb/page-0014.png",
+      "width": 3369,
+      "height": 5828,
+      "sha256": "884d9c675ea380c2ff19f3e99f664640690789ae61f3123b26cb662a9405ab71",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 70,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/10289757bsb/page-0070.png",
+      "width": 3336,
+      "height": 5842,
+      "sha256": "63c3f0ae2eca3e9ec9401d2d3fe247b01a28d918d00127bbad8d3be62fc0a688",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 71,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/10289757bsb/page-0071.png",
+      "width": 3314,
+      "height": 5808,
+      "sha256": "2084b97dedef2bbf9e6b81971133e2ff23fbcf8c0c2996adb685b03e9fb1c5b6",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 25,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/makrobiotikoderd00hufeuoft/page-0025.png",
+      "width": 641,
+      "height": 1156,
+      "sha256": "f5424220acfbb85ae571c998430083bd4250e11ed195f3e3f2916506c75038a1",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 26,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/makrobiotikoderd00hufeuoft/page-0026.png",
+      "width": 641,
+      "height": 1156,
+      "sha256": "add4e9ceb2238aced1571707f05beaea035edde8ab64accad76d18db8535e823",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 27,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/makrobiotikoderd00hufeuoft/page-0027.png",
+      "width": 641,
+      "height": 1156,
+      "sha256": "6a4eb95c0976c7b207d445560e76fae30d08b4d4dd1005c77bcf5f22b76e6faf",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 28,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/makrobiotikoderd00hufeuoft/page-0028.png",
+      "width": 641,
+      "height": 1156,
+      "sha256": "1cc0020cd042b5374fa42cca271b6c8975fc4d9d2bc4ccb92dd3bd968ad0496c",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 29,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/makrobiotikoderd00hufeuoft/page-0029.png",
+      "width": 641,
+      "height": 1156,
+      "sha256": "63860905ab8337114d8545702c8f9542d257023190fec94458344e3b62dfcff2",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 30,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/makrobiotikoderd00hufeuoft/page-0030.png",
+      "width": 641,
+      "height": 1156,
+      "sha256": "a0c660da5bc4d2aa7cdb6249ddbb7aeaf14b677f86d9d12bd7aed5df6b8d108f",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 200,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/makrobiotikoderd00hufeuoft/page-0200.png",
+      "width": 641,
+      "height": 1156,
+      "sha256": "01de96df230aff6056abd0018d22450df5dba8b6146bda788da7cb75bd5a3112",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 201,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/makrobiotikoderd00hufeuoft/page-0201.png",
+      "width": 639,
+      "height": 1156,
+      "sha256": "7f71434a9b61c639193af3c4e5db0dccf3b6f5b255dc6a943f4ea3f3118b1807",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 34,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/makrobiotikoderd00hufeuoft/page-0034.png",
+      "width": 641,
+      "height": 1156,
+      "sha256": "1a948e2116cc82b0483f4522026401d2f8038e34445efc594dacdcfeaacc6d2f",
+      "renderer": "pdfrune"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 35,
+      "dpi": 200,
+      "image": "workspace/gemma200/inputs200/makrobiotikoderd00hufeuoft/page-0035.png",
+      "width": 641,
+      "height": 1156,
+      "sha256": "ba0d4b1284111d963121d27802b6bb8275230c26f1c475d2319b2d0ce9881fa7",
+      "renderer": "pdfrune"
+    }
+  ],
+  "400dpi_render_controls": [
+    {
+      "book": "10289757bsb",
+      "page": 9,
+      "pixel_identical": true,
+      "frozen_png_sha256": "c9a62ba0608981cc68b9d3f8d265c6cf63b8cf18b035cacfd5a9fcad410bd8cb"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 10,
+      "pixel_identical": true,
+      "frozen_png_sha256": "a5927b57b192034d56607c6bfa3f9fa33dceb39b2c0528006135dfb2d595cc72"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 11,
+      "pixel_identical": true,
+      "frozen_png_sha256": "a0d0c36879bb477a49ecf1131554da9f0ecba5d42378a84a432dbcb1ed2b6954"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 12,
+      "pixel_identical": true,
+      "frozen_png_sha256": "28ee0f9392e6ade20089c9a31272a2de35348ed89a8d541a81673bba2ef923cc"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 13,
+      "pixel_identical": true,
+      "frozen_png_sha256": "dd2827180af66064268211e9bed8345143cdc5abcea15af0a4db8a222a751a63"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 14,
+      "pixel_identical": true,
+      "frozen_png_sha256": "194196df2f893eacef245798415ff77917b9a1c90805cf03a3bac4c15a59892f"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 70,
+      "pixel_identical": true,
+      "frozen_png_sha256": "a174a5a2b0668609723ae4707210d497336b208ca38475d37dc81d54729fc1e8"
+    },
+    {
+      "book": "10289757bsb",
+      "page": 71,
+      "pixel_identical": true,
+      "frozen_png_sha256": "14ce4402aa4ddc5bbefa35fa5c4736f736b5a98c4aee401b858087431705d7ab"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 25,
+      "pixel_identical": true,
+      "frozen_png_sha256": "2078fa1d0e968a5d884187bbd1880716ff55eeb84be28d5f24b97b4fb876d700"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 26,
+      "pixel_identical": true,
+      "frozen_png_sha256": "80684ea168feeafde5265c39683482cebe9d59032feca694b4bb2b824dd0738c"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 27,
+      "pixel_identical": true,
+      "frozen_png_sha256": "0c11d3f4dee89feecbd85068875d29d6bc5456df5126f6a5ed01229df1581577"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 28,
+      "pixel_identical": true,
+      "frozen_png_sha256": "53de22cc6b092b8bf6e80e9f6bf1825cdc7ac01da396669efb980fa0a7bc25cd"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 29,
+      "pixel_identical": true,
+      "frozen_png_sha256": "5398a72c70248400502f7b14425caf57463b859a0e80f76c5a576f00c33776ee"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 30,
+      "pixel_identical": true,
+      "frozen_png_sha256": "666fd77ca08c5dadf4fd632c226935b401eb12f1433df7770e0fc8a2f65e17e3"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 200,
+      "pixel_identical": true,
+      "frozen_png_sha256": "388dc9df3c63937a549e58e34212a3caa9bc7da1b4ec8af580e52784bb5729ca"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 201,
+      "pixel_identical": true,
+      "frozen_png_sha256": "463b58c82f45fa513b0540cc90e9af99079aa94aeaf1370ab1e8f63f3bf76499"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 34,
+      "pixel_identical": true,
+      "frozen_png_sha256": "17526855b9b933d2be7871b31050de4d521a9770220fc7602688b34c304e45d0"
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 35,
+      "pixel_identical": true,
+      "frozen_png_sha256": "7614b6d7e209ad8aa6f20985117151f8820b2cf731ca80d16155df1b5b76d539"
+    }
+  ],
+  "note": "All18 current400-DPI renders must reproduce the frozen400 source pixels before isolating DPI."
+}

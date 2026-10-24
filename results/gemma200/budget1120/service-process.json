@@ -1,0 +1,22 @@
+{
+  "purpose": "Gemma4 OCR image-token-budget control",
+  "owner_pid": 76545,
+  "started_at_unix": 1792836261.4588,
+  "command": [
+    "/usr/local/bin/ollama",
+    "serve"
+  ],
+  "endpoint": "http://127.0.0.1:11539",
+  "image_max_tokens_environment": 1120,
+  "lifetime": "Only this finite benchmark; finally unload, terminate and wait",
+  "log": "workspace/gemma200/budget1120/server.log",
+  "exited": true,
+  "pid": 76791,
+  "loaded_models_after_unload": {
+    "models": []
+  },
+  "returncode": 0,
+  "process_group_gone": true,
+  "server_returncode": 0,
+  "seconds": 615.2172918319702
+}

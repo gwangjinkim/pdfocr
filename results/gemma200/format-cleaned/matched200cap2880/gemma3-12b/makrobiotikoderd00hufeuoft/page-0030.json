@@ -1,0 +1,58 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    30
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "6b5188b6b5dc0d7bfe670057980ccf7c1a6264294e7918ce7728f663086db009"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T10:11:45.34172Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n## Image Text Extraction\n\nHere's the extracted text from the image, formatted in Markdown:\n\n**Page -8-**\n\nund versichert, der Alte habe dadurch sichtbar an Man-\nnterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebenskunst freich aufgeschnitt-\ntener Thiere auf gelähmte Glieder, was das Aufle-\nben lebendiger Thiere auf schmerzhafte Lieder vermag,\nso scheint diese Methode nicht verwirklich zu sein.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwesen eines reinen gefunden Arthems setzte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAsclepiο et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CCXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Asklepiο und der Gesundheit\ngeweihrt\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Atheum junger Mädchen u. f. w.\n\nDiese Inschrift mag nun acht sein oder nicht;\ngenug sie veranlasste noch zu Anfang des edten Jahre-\nhunderts eine Schrift, worin ein Doctor Cobanten\nsehr gelehrt beweist, dieser Hermippus sey ein\nWaisenhauß Forscher oder Mädchenschulmeister zu\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 36748589291,
+    "load_duration": 3001998416,
+    "prompt_eval_count": 294,
+    "prompt_eval_duration": 3061832000,
+    "eval_count": 363,
+    "eval_duration": 30657720000
+  },
+  "markdown": "## Image Text Extraction\n\nHere's the extracted text from the image, formatted in Markdown:\n\n**Page -8-**\n\nund versichert, der Alte habe dadurch sichtbar an Man-\nnterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebenskunst freich aufgeschnitt-\ntener Thiere auf gelähmte Glieder, was das Aufle-\nben lebendiger Thiere auf schmerzhafte Lieder vermag,\nso scheint diese Methode nicht verwirklich zu sein.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwesen eines reinen gefunden Arthems setzte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAsclepiο et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CCXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Asklepiο und der Gesundheit\ngeweihrt\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Atheum junger Mädchen u. f. w.\n\nDiese Inschrift mag nun acht sein oder nicht;\ngenug sie veranlasste noch zu Anfang des edten Jahre-\nhunderts eine Schrift, worin ein Doctor Cobanten\nsehr gelehrt beweist, dieser Hermippus sey ein\nWaisenhauß Forscher oder Mädchenschulmeister zu",
+  "possibly_truncated": false,
+  "seconds": 36.75207996368408,
+  "format_cleanup": {
+    "source_start": 12,
+    "source_end": 1241,
+    "operations": [
+      "single_outer_markdown_fence"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/matched200cap2880/gemma3-12b/makrobiotikoderd00hufeuoft/page-0030.json"
+}

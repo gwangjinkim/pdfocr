@@ -1,0 +1,60 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    13
+  ],
+  "arm": "matched200budget1120",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "fa2cd31f4f73c1da928f57ea0288132e512d23b41564b2cf747cccd58b318e71"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:06:56.086106Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n--- 9 ---\n\nlen, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem Procent — einem bloßen Rechnungsgegenstand. Sollen Armen- und Rettungsanstalten gedeihen, so muß man eben im Einzelnen das Ganze finden, so muß ihr Leben sich nicht von oben abwärts in — bekanntlich immer schwächer werdenden — Strahlen zum Einzelnen verbreiten, sondern von unten herauf, vom Einzelnen zum Ganzen; es muß sich in dem Herzen der Einzelnen erzeugen, und von da aus zu einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als *Form* und *Ordnung*. — Dieß also ist die große Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, daß sie nicht am Ende in bloße Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose Menschen. Deswegen ist es weit besser, wenn wohldenkende Männer sich vereinigen, und die Menge der Hülfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksamkeit-\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 27403033042,
+    "load_duration": 2834781333,
+    "prompt_eval_count": 1104,
+    "prompt_eval_duration": 4689426000,
+    "eval_count": 285,
+    "eval_duration": 19670448000
+  },
+  "markdown": "len, was ist an dem Einzelnen gelegen? Er wird zu einer unbemerkbaren Größe — zu einem Procent — einem bloßen Rechnungsgegenstand. Sollen Armen- und Rettungsanstalten gedeihen, so muß man eben im Einzelnen das Ganze finden, so muß ihr Leben sich nicht von oben abwärts in — bekanntlich immer schwächer werdenden — Strahlen zum Einzelnen verbreiten, sondern von unten herauf, vom Einzelnen zum Ganzen; es muß sich in dem Herzen der Einzelnen erzeugen, und von da aus zu einem allgemeinen Leben vereinigen. Von oben können sie nichts weiter erhalten, als *Form* und *Ordnung*. — Dieß also ist die große Aufgabe solcher Einrichtungen: mit der Anordnung und Aufsicht des Ganzen jenen Sinn und jene Selbstständigkeit des Einzelnen zu verschmelzen, wodurch allein verhütet wird, daß sie nicht am Ende in bloße Maschinen, ohne Geist und Herz ausarten — und herzlose Anstalten haben eben so wenig Werth, als herzlose Menschen. Deswegen ist es weit besser, wenn wohldenkende Männer sich vereinigen, und die Menge der Hülfsbedürftigen in kleinere Portionen theilen, wovon ein jeder sein Theil übersehen und ihm seine ganze Aufmerksamkeit-",
+  "possibly_truncated": false,
+  "seconds": 27.424489974975586,
+  "format_cleanup": {
+    "source_start": 23,
+    "source_end": 1151,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma200/budget1120/gemma4-12b/10289757bsb/page-0013.json"
+}

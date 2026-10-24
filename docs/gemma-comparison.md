@@ -80,6 +80,10 @@ avoid cloud model tags. Root dependencies do not include PyMuPDF.
 
 ## Interpretation
 
+The later [matched 200-DPI follow-up](gemma-200dpi.md) holds the repaired
+renderer fixed at both resolutions. It records all three Gemma configurations,
+both scoring variants, image-token usage and page-break outcomes.
+
 Matched metrics sum edits independently across the same 14 reference pages,
 using the unchanged existing normalization. Batch metrics compare a whole
 contiguous excerpt with concatenated references; they cannot provide an

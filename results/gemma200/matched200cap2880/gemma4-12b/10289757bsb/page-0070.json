@@ -1,0 +1,51 @@
+{
+  "model": "gemma4:12b",
+  "book": "10289757bsb",
+  "pages": [
+    70
+  ],
+  "arm": "matched200cap2880",
+  "request_without_image_bytes": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "think": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract all readable text from these images and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "2842af8f4438d0e73205645b710878183bca84ca3497eb42114a1e9bd050e605"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-10-24T10:16:30.720781Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n# Page 66\n\nSpirit. Frument. $\\text{f}\\unicode{x2113}\\text{vj.}$\ndestillando eliciantur $\\text{f}\\unicode{x2113}\\text{vj}$ in quibus solve\nCamphorae $\\text{ʒij}$ $\\text{℈}$\n\nServa.\n\nNicht nur äußerlich, sondern auch innerlich in\ntrefflicher Mühel in allen Fällen, akuten und chro-\nnischen, wo die Thätigkeit der Organe eines kräf-\ntigen Antiseptikums befordert. Selbst in dem Wasser-auch-\nten leistet es oft sehr viel. Die Dosis ist zu einem\nTheelöffel bis zu einem Eloßelöffel mit Wasser ver-\ndünnt, viermal täglich, auch innerlich.\n\n*Tinctura Aconiti.*\n\n$\\text{℈.}$ Herb. Aconit. siccat, minutim concis. $\\text{ʒij}$\nDiger. cum Spirit. Vin. rectificat. $\\text{f}\\unicode{x2113}\\text{bj}$\nin cucurbita clausa per triduum. Exprime\net filtra.\n\n*Pari modo parantur:*\n\n*Tinctura Digitalis.*\n— *Calami.*\n— *Galbani.*\n— *Hellebori.*\n— *Hyoscyami.*\n— *Nietoninae.*\n— *Stramonii.*\n— *Valerianae.*\n— *Toxicodendri.*\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 30068869667,
+    "load_duration": 2578956834,
+    "prompt_eval_count": 293,
+    "prompt_eval_duration": 1465158000,
+    "eval_count": 351,
+    "eval_duration": 25863141000
+  },
+  "markdown": "```markdown\n# Page 66\n\nSpirit. Frument. $\\text{f}\\unicode{x2113}\\text{vj.}$\ndestillando eliciantur $\\text{f}\\unicode{x2113}\\text{vj}$ in quibus solve\nCamphorae $\\text{ʒij}$ $\\text{℈}$\n\nServa.\n\nNicht nur äußerlich, sondern auch innerlich in\ntrefflicher Mühel in allen Fällen, akuten und chro-\nnischen, wo die Thätigkeit der Organe eines kräf-\ntigen Antiseptikums befordert. Selbst in dem Wasser-auch-\nten leistet es oft sehr viel. Die Dosis ist zu einem\nTheelöffel bis zu einem Eloßelöffel mit Wasser ver-\ndünnt, viermal täglich, auch innerlich.\n\n*Tinctura Aconiti.*\n\n$\\text{℈.}$ Herb. Aconit. siccat, minutim concis. $\\text{ʒij}$\nDiger. cum Spirit. Vin. rectificat. $\\text{f}\\unicode{x2113}\\text{bj}$\nin cucurbita clausa per triduum. Exprime\net filtra.\n\n*Pari modo parantur:*\n\n*Tinctura Digitalis.*\n— *Calami.*\n— *Galbani.*\n— *Hellebori.*\n— *Hyoscyami.*\n— *Nietoninae.*\n— *Stramonii.*\n— *Valerianae.*\n— *Toxicodendri.*\n```",
+  "possibly_truncated": false,
+  "seconds": 30.084020137786865
+}
