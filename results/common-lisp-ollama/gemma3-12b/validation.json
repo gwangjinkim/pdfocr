@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-24",
+  "runtime": "SBCL",
+  "runtime_version": "2.6.9",
+  "inference": "External local Ollama; Common Lisp HTTP and orchestration",
+  "model": {
+    "family": "ollama",
+    "architecture": "external-ollama-service",
+    "checkpoint": "gemma3:12b",
+    "revision": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "execution": {
+      "mode": "lisp-orchestration/ollama-inference",
+      "endpoint": "http://127.0.0.1:11434",
+      "runtime_version": "0.30.10",
+      "timeout_seconds": 180,
+      "model_family": "gemma3",
+      "quantization": "Q4_K_M",
+      "parameter_size": "11.8B",
+      "options": {
+        "num_ctx": 8192,
+        "temperature": 0,
+        "seed": 0
+      },
+      "think": false,
+      "keep_alive": 0,
+      "max_images": 1
+    }
+  },
+  "pages": [
+    34,
+    35
+  ],
+  "dpi": 200,
+  "reported_generated_tokens_per_page": 32,
+  "token_ids_available": false,
+  "page_status": "partial",
+  "run_status": "needs-review",
+  "body_and_reading_spans": "exact",
+  "visual_budget": "service default; not independently verified",
+  "quality_benchmark": false,
+  "offline_tests": "Passed base pipeline and Ollama contract tests: bounded UTF-8/length/chunk HTTP, timeout conversion, local vision/model/runtime pins, request options, absent IDs, stops and resume.",
+  "lisp_dependencies": {
+    "usocket": "0.8.8",
+    "babel": "20250905-4eaf3f2",
+    "cl-base64": "20240503-80496b7"
+  },
+  "ollama_models_unloaded_after_test": true
+}

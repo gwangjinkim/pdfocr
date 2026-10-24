@@ -1,10 +1,18 @@
-# Native Common Lisp PDF OCR
+# Common Lisp PDF OCR: native and Ollama backends
 
-The application, model graph, tokenization calls, generation loop, manifests,
-cleanup and reviewed boundary edits are Common Lisp. Native libraries remain:
+In the native backend, the application, model graph, tokenization calls,
+generation loop, manifests, cleanup and reviewed boundary edits are Common Lisp.
+Native libraries remain:
 pdfrune's Rust C ABI, MLX tensor kernels, the Rust tokenizer and image codecs.
-There is no Python/Ollama inference fallback, automatic model download, service
-startup, or watcher. Loading the base ASDF system does not create a GPU backend.
+The separately loaded Ollama backend keeps orchestration and HTTP in Lisp while
+Ollama performs inference. Neither backend downloads models, starts services or
+watchers, or silently falls back to the other. Loading the base ASDF system does
+not create a GPU backend.
+
+| Backend | Load | Inference execution |
+|---|---|---|
+| Native | `cl-pdfocr/native` | Lisp model graph/generation, native MLX kernels |
+| Ollama | `cl-pdfocr/ollama` | Existing loopback Ollama service; Lisp HTTP client |
 
 ## Reused packages and limits
 
@@ -60,7 +68,7 @@ Build cl-docling's native image library and cl-transformer-blocks' MLX/tokenizer
 libraries using those packages' instructions if they are absent. Supply the
 locally acquired, locked E2B checkpoint; this code does not fetch weights.
 
-## Use the pipeline
+## Use the native pipeline
 
 ```lisp
 (load "lisp/load.lisp")
@@ -84,6 +92,84 @@ The output contains:
 - `ocr/run.json`: model/revision, prompt, budget, prepared manifest identity and
   overall status. A length stop makes the run `needs-review`.
 
+## Use the Ollama pipeline
+
+This path requires SBCL, local `usocket`, `babel` and `cl-base64` dependencies,
+and an already running Ollama service with a vision model installed. The client
+uses Lisp sockets directly: no curl or Python subprocess. It connects only to
+`127.0.0.1` and an explicit port, without proxies or redirects. It rejects remote
+model metadata and cloud tags. It does not start, restart or stop the service.
+
+```lisp
+(load "lisp/load.lisp")
+(asdf:load-system "cl-pdfocr/ollama")
+
+(cl-pdfocr:convert-ollama-pdf
+ #P"book.pdf" #P"workspace/ollama-gemma3/" "gemma3:12b"
+ :pages '(34 35) :dpi 200 :max-new-tokens 2048
+ :context-length 8192 :port 11434 :timeout 180)
+```
+
+Use `"gemma4:12b"` and a fresh directory for Gemma 4. To reuse prepared pages:
+
+```lisp
+(cl-pdfocr:recognize-prepared
+ #P"workspace/my-book/prepared/" #P"workspace/ollama-gemma4/"
+ (cl-pdfocr:make-ollama-adapter "gemma4:12b"
+   :expected-digest "the-exact-digest-from-your-installed-model")
+ :max-new-tokens 2048)
+```
+
+Model names must match `/api/tags` exactly. The adapter records the installed
+digest, runtime version, precision, endpoint, context size and generation options
+in its resume identity. It rechecks the model tag and runtime version before and
+after generation; this detects changes, but cannot make service-side tag updates
+transactional. Do not retag models during a run. A different digest, context size,
+backend or budget requires a separate directory.
+
+Requests are nonstreaming, `temperature=0`, `seed=0`, `think=false`, one image per
+page, and `keep_alive=0`. The latter unloads after each request; it is slower than
+keeping a model resident but leaves no model resident for this application.
+The whole HTTP request has a deadline, response bodies are bounded at 16 MiB,
+and length/chunked/connection-close framing is supported. A connection failure,
+timeout or unknown finish reason is a failure, never an invitation to start a
+service or retry through another backend.
+
+Ollama chat responses do not provide token IDs. These records contain an empty
+`token_ids` array, `backend_response.token_ids_available=false`, the reported token
+count and the full response, including timing and prompt counts. No synthetic IDs
+are invented. An explicit length stop or reported count reaching the budget is
+conservatively marked partial. The image budget and preprocessing are controlled
+by the service: this path does **not** verify pan-and-scan, tiling or 1120 image
+tokens and is not a reproduction of those earlier benchmark configurations.
+
+Run offline contract tests without a service:
+
+```sh
+sbcl --noinform --no-sysinit --no-userinit --script lisp/run-ollama-tests.lisp
+```
+
+Run an explicit two-page, 32-token integration check against an existing service:
+
+```sh
+PDFOCR_TEST_PREPARED=workspace/my-book/prepared/ \
+PDFOCR_TEST_OUT=workspace/ollama-smoke/ \
+PDFOCR_TEST_MODEL=gemma3:12b \
+  sbcl --noinform --no-sysinit --no-userinit --script lisp/ollama-smoke.lisp
+```
+
+Use a fresh output directory for each model. The same two 200-DPI Fraktur pages
+were exercised through the installed Gemma 3 12B and Gemma 4 12B models, each
+bounded at 32 reported tokens per page. These are integration checks, not new
+CER scores or page-break comparisons. Evidence is in
+[`results/common-lisp-ollama/`](../results/common-lisp-ollama/).
+`verify-ollama.lisp OUTPUT-DIRECTORY/` checks these 32-token integration records
+and their exact body maps offline, without contacting the service.
+
+The service contracts follow Ollama's official
+[chat API](https://docs.ollama.com/api/chat) and
+[installed-model listing](https://docs.ollama.com/api/tags).
+
 Resume only explicitly with `:resume t`. The source, page selection, DPI, image
 hashes, prepared manifest, model identity, prompt and generation limit must match.
 Changed cached response records reject against the committed manifest. Existing
@@ -96,7 +182,7 @@ an explicit `:max-pixels` up to 160 million is available on that preparation API
 
 ## Page breaks
 
-This port keeps page boundaries visible. It does not claim a native port of the
+Both backends keep page boundaries visible. This port does not claim a native port of the
 Qwen3-1.7B classifier or Paddle visual repair; those exact adapters are absent.
 After reviewing the scan, apply a checked edit to exact fragments:
 
@@ -150,4 +236,5 @@ sbcl --noinform --no-sysinit --no-userinit --script lisp/verify-native.lisp \
 
 The application code inherits the repository's MIT license. pdfrune remains
 MIT OR Apache-2.0; the Lisp packages, native libraries and model weights retain
-their respective licenses.
+their respective licenses. Ollama is a separately installed runtime; Gemma 3
+weights use Gemma terms and are not relicensed by this application's MIT license.

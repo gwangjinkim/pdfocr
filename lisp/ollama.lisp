@@ -1,0 +1,226 @@
+(in-package #:cl-pdfocr)
+
+;;; Local HTTP only. No curl, Python, model pulling or server process is used.
+(defparameter *ollama-response-limit* (* 16 1024 1024))
+
+(defun read-ollama-image (source)
+  (with-open-file (stream source :element-type '(unsigned-byte 8))
+    (let ((size (file-length stream)))
+      (when (> size (* 64 1024 1024)) (error "Image file too large."))
+      (let ((bytes (make-array size :element-type '(unsigned-byte 8))))
+        (unless (= size (read-sequence bytes stream)) (error "Image changed while reading."))
+        bytes))))
+
+(defun parse-json-text (text)
+  (let ((yason:*parse-json-arrays-as-vectors* t)
+        (yason:*parse-json-booleans-as-symbols* t))
+    (yason:parse text)))
+
+(defun http-line (stream)
+  (let ((bytes (make-array 0 :element-type '(unsigned-byte 8)
+                            :adjustable t :fill-pointer 0)))
+    (loop for byte = (read-byte stream nil nil)
+          do (unless byte (error "Truncated HTTP headers/chunk framing."))
+             (when (= byte 10)
+               (unless (and (plusp (length bytes)) (= 13 (aref bytes (1- (length bytes)))))
+                 (error "Expected HTTP CRLF."))
+               (return (babel:octets-to-string (subseq bytes 0 (1- (length bytes)))
+                                              :encoding :latin-1)))
+             (when (>= (length bytes) 8192) (error "HTTP line too long."))
+             (vector-push-extend byte bytes))))
+
+(defun http-body (stream)
+  "Read bounded HTTP/1.x JSON, including length, chunked and close framing."
+  (let ((status (http-line stream)) (headers (make-hash-table :test 'equal)) (size 0))
+    (unless (and (or (uiop:string-prefix-p "HTTP/1.1 " status)
+                     (uiop:string-prefix-p "HTTP/1.0 " status))
+                 (>= (length status) 12) (string= "200" status :start2 9 :end2 12))
+      (error "Ollama HTTP request failed: ~A" status))
+    (loop for line = (http-line stream) until (zerop (length line))
+          for colon = (position #\: line)
+          do (incf size (length line))
+             (unless (and colon (< size 65536)) (error "Invalid/oversized HTTP headers."))
+             (let ((name (string-downcase (subseq line 0 colon))))
+               (when (gethash name headers) (error "Duplicate HTTP header: ~A" name))
+               (setf (gethash name headers)
+                     (string-trim '(#\Space #\Tab) (subseq line (1+ colon))))))
+    (when (and (gethash "content-encoding" headers)
+               (not (equal "identity" (gethash "content-encoding" headers))))
+      (error "Compressed HTTP responses are unsupported."))
+    (let ((bytes (make-array 0 :element-type '(unsigned-byte 8) :adjustable t :fill-pointer 0))
+          (transfer (gethash "transfer-encoding" headers))
+          (length-header (gethash "content-length" headers)))
+      (labels ((copy-bytes (count)
+                 (unless (and (integerp count) (<= 0 count)
+                              (<= (+ (length bytes) count) *ollama-response-limit*))
+                   (error "HTTP body exceeds the response limit."))
+                 (dotimes (i count)
+                   (declare (ignore i))
+                   (let ((byte (read-byte stream nil nil)))
+                     (unless byte (error "Truncated HTTP body."))
+                     (vector-push-extend byte bytes)))))
+        (cond
+          (transfer
+           (unless (and (equalp transfer "chunked") (null length-header))
+             (error "Unsupported or ambiguous HTTP framing."))
+           (loop for line = (http-line stream)
+                 for count = (parse-integer line :end (position #\; line) :radix 16)
+                 do (when (zerop count)
+                      (loop for trailer = (http-line stream) until (zerop (length trailer))
+                            do (incf size (length trailer))
+                               (when (> size 65536) (error "Oversized HTTP trailers.")))
+                      (return))
+                    (copy-bytes count)
+                    (unless (zerop (length (http-line stream))) (error "Invalid chunk terminator."))))
+          (length-header (copy-bytes (parse-integer length-header)))
+          (t (loop for byte = (read-byte stream nil nil) while byte
+                   do (when (>= (length bytes) *ollama-response-limit*) (error "HTTP body too large."))
+                      (vector-push-extend byte bytes)))))
+      (babel:octets-to-string bytes :encoding :utf-8))))
+
+(defun call-with-ollama-deadline (timeout function)
+  #-sbcl (error "This bounded HTTP transport is qualified on SBCL only.")
+  #+sbcl
+  (handler-case (sb-ext:with-timeout timeout (funcall function))
+    (sb-ext:timeout () (error "Ollama HTTP request exceeded ~D seconds." timeout))))
+
+(defun ollama-http-json (port timeout method path payload)
+  "SBCL has a whole-request deadline, including a stalled response body."
+  (call-with-ollama-deadline timeout (lambda ()
+    (let ((socket nil))
+      (unwind-protect
+           (progn
+             (setf socket (usocket:socket-connect "127.0.0.1" port
+                                                  :element-type '(unsigned-byte 8)
+                                                  :timeout timeout))
+             (let* ((stream (usocket:socket-stream socket))
+                    (body (if payload (babel:string-to-octets
+                                        (with-output-to-string (out) (yason:encode payload out))
+                                        :encoding :utf-8)
+                              (make-array 0 :element-type '(unsigned-byte 8))))
+                    (headers (format nil "~A ~A HTTP/1.1~C~CHost: 127.0.0.1:~D~C~CConnection: close~C~CContent-Type: application/json~C~CContent-Length: ~D~C~C~C~C"
+                                     method path #\Return #\Newline port #\Return #\Newline
+                                     #\Return #\Newline #\Return #\Newline (length body)
+                                     #\Return #\Newline #\Return #\Newline)))
+               (write-sequence (babel:string-to-octets headers :encoding :utf-8) stream)
+               (write-sequence body stream) (finish-output stream)
+               (parse-json-text (http-body stream))))
+        (when socket (usocket:socket-close socket)))))))
+
+(defclass ollama-adapter (vlm:adapter)
+  ((model :initarg :model :reader ollama-model)
+   (digest :initarg :digest :reader ollama-digest)
+   (manifest :initarg :manifest :reader vlm:adapter-manifest)
+   (identity :initarg :identity :reader adapter-execution-identity)
+   (transport :initarg :transport :reader ollama-transport)
+   (context-length :initarg :context-length :reader ollama-context-length)
+   (last-response :initform nil :accessor adapter-response-metadata)))
+
+(defun installed-ollama-model (transport model)
+  (let ((entry (find model (gethash "models" (funcall transport "GET" "/api/tags" nil))
+                     :key (lambda (entry) (gethash "name" entry)) :test #'equal)))
+    (unless (and entry (stringp (gethash "digest" entry))
+                 (plusp (length (gethash "digest" entry))))
+      (error "Model ~A is not installed; this application never pulls weights." model))
+    entry))
+
+(defun make-ollama-adapter (model &key (port 11434) (timeout 180) (context-length 8192)
+                                     expected-digest)
+  "Connect to an existing loopback service. No server startup or model download."
+  (unless (and (stringp model) (plusp (length model))
+               (not (search "cloud" model :test #'char-equal))
+               (not (find #\Null model)) (typep port '(integer 1 65535))
+               (typep timeout '(integer 1 3600)) (typep context-length '(integer 256 131072)))
+    (error "Invalid local Ollama model or request bounds."))
+  (initialize-ollama-adapter model
+    (lambda (method path payload) (ollama-http-json port timeout method path payload))
+    port timeout context-length expected-digest))
+
+(defun initialize-ollama-adapter (model transport port timeout context-length expected-digest)
+  (let* ((entry (installed-ollama-model transport model)) (digest (gethash "digest" entry))
+         (show (funcall transport "POST" "/api/show" (object "model" model)))
+         (version (gethash "version" (funcall transport "GET" "/api/version" nil)))
+         (details (gethash "details" show)))
+    (unless (and (stringp version) (plusp (length version))) (error "Missing Ollama version."))
+    (when (or (gethash "remote_host" show) (gethash "remote_model" show)
+              (gethash "remote_host" entry) (gethash "remote_model" entry))
+      (error "Remote/cloud models are not supported."))
+    (unless (find "vision" (gethash "capabilities" show) :test #'equal)
+      (error "The installed model does not declare vision support."))
+    (when (and expected-digest (not (equal expected-digest digest)))
+      (error "Installed model digest differs from the requested pin."))
+    (make-instance 'ollama-adapter :model model :digest digest :transport transport
+      :context-length context-length
+      :manifest (vlm:make-model-manifest :family :ollama :architecture "external-ollama-service"
+                  :checkpoint model :revision digest
+                  :capabilities (vlm:make-model-capabilities :modalities '(:text :image)
+                                  :operations '(:generate) :dtypes '(:service-managed)
+                                  :context-length context-length :max-images 1))
+      :identity (object "mode" "lisp-orchestration/ollama-inference"
+                        "endpoint" (format nil "http://127.0.0.1:~D" port)
+                        "runtime_version" version "timeout_seconds" timeout
+                        "model_family" (gethash "family" details)
+                        "quantization" (gethash "quantization_level" details)
+                        "parameter_size" (gethash "parameter_size" details)
+                        "options" (object "num_ctx" context-length "temperature" 0 "seed" 0)
+                        "think" yason:false "keep_alive" 0 "max_images" 1))))
+
+(defun check-ollama-pin (adapter)
+  (unless (equal (gethash "runtime_version" (adapter-execution-identity adapter))
+                 (gethash "version" (funcall (ollama-transport adapter) "GET" "/api/version" nil)))
+    (error "Ollama runtime version changed after adapter creation."))
+  (unless (equal (ollama-digest adapter)
+                 (gethash "digest" (installed-ollama-model (ollama-transport adapter)
+                                                          (ollama-model adapter))))
+    (error "Ollama model tag changed after adapter creation.")))
+
+(defmethod vlm:prepare-generation ((adapter ollama-adapter) messages budget)
+  (setf (adapter-response-metadata adapter) nil)
+  (check-ollama-pin adapter)
+  (let ((request-messages nil))
+    (loop for message across messages
+          do (let ((texts nil) (images nil))
+               (loop for part across (vlm:message-parts message)
+                     do (typecase part
+                          (vlm:text-part (push (vlm:text-part-text part) texts))
+                          (vlm:image-part
+                           (let ((source (vlm:image-part-source part)))
+                             (unless (or (pathnamep source) (stringp source))
+                               (error "Ollama image input must be a local file."))
+                             (let ((bytes (read-ollama-image source)))
+                               (push (base64:usb8-array-to-base64-string bytes) images))))))
+               (push (object "role" (string-downcase (symbol-name (vlm:message-role message)))
+                             "content" (format nil "~{~A~^~%~}" (nreverse texts))
+                             "images" (coerce (nreverse images) 'vector)) request-messages)))
+    (object "model" (ollama-model adapter) "messages" (coerce (nreverse request-messages) 'vector)
+            "stream" yason:false "think" yason:false "keep_alive" 0
+            "options" (object "temperature" 0 "seed" 0 "num_ctx" (ollama-context-length adapter)
+                              "num_predict" budget))))
+
+(defmethod vlm:generate-prepared ((adapter ollama-adapter) prepared)
+  (let* ((response (funcall (ollama-transport adapter) "POST" "/api/chat" prepared))
+         (text (gethash "content" (gethash "message" response)))
+         (count (gethash "eval_count" response)) (reason (gethash "done_reason" response))
+         (budget (gethash "num_predict" (gethash "options" prepared))))
+    (check-ollama-pin adapter)
+    (unless (and (eq yason:true (gethash "done" response)) (stringp text)
+                 (equal (ollama-model adapter) (gethash "model" response))
+                 (typep count '(integer 0)) (member reason '("stop" "length") :test #'equal))
+      (error "Incomplete or unsupported Ollama response; inspect the service."))
+    (setf (adapter-response-metadata adapter)
+          (object "token_ids_available" yason:false "reported_generated_tokens" count
+                  "raw_response" response))
+    ;; Counts are evidence; they are not token IDs. Conservatively flag a full budget.
+    (vlm:make-generation-result text #() (if (or (equal reason "length") (>= count budget))
+                                            :length :stop))))
+
+(defmethod vlm:release-prepared ((adapter ollama-adapter) prepared)
+  (declare (ignore adapter))
+  (clrhash prepared))
+
+(defun convert-ollama-pdf (source out model &key pages (dpi 200) (max-new-tokens 2048)
+                                              (port 11434) (timeout 180) (context-length 8192)
+                                              expected-digest resume)
+  (convert-pdf source out (make-ollama-adapter model :port port :timeout timeout
+                            :context-length context-length :expected-digest expected-digest)
+               :pages pages :dpi dpi :max-new-tokens max-new-tokens :resume resume))

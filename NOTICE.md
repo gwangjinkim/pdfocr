@@ -55,3 +55,8 @@ Native Common Lisp application (2026-10-24):
   upstream terms. The locked Gemma 4 E2B checkpoint is not redistributed.
 - The two retained partial OCR responses are experiment evidence from the
   same Archive.org book, not complete transcriptions or a new quality benchmark.
+- `lisp/ollama.lisp` is also MIT application code. It uses separately installed
+  usocket (MIT), Babel (MIT) and cl-base64 (BSD-style) packages. Their source and
+  binaries are not bundled. Ollama and model-weight terms remain separate.
+  Gemma 3 uses Gemma terms; no weights are redistributed. The additional service
+  responses in `results/common-lisp-ollama/` are bounded integration evidence.

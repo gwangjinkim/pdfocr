@@ -97,12 +97,24 @@
     (loop while (and (< start end) (member (char raw (1- end)) white)) do (decf end))
     (values (subseq raw start end) start end)))
 
+(defgeneric adapter-execution-identity (adapter)
+  (:documentation "Optional backend settings included in the resume identity."))
+(defmethod adapter-execution-identity ((adapter vlm:adapter))
+  (declare (ignore adapter)) nil)
+(defgeneric adapter-response-metadata (adapter)
+  (:documentation "Optional backend response evidence; never fabricate token IDs."))
+(defmethod adapter-response-metadata ((adapter vlm:adapter))
+  (declare (ignore adapter)) nil)
+
 (defun adapter-identity (adapter)
   (let ((manifest (vlm:adapter-manifest adapter)))
-    (object "family" (string-downcase (symbol-name (vlm:model-manifest-family manifest)))
+    (let ((identity (object "family" (string-downcase (symbol-name (vlm:model-manifest-family manifest)))
             "architecture" (vlm:model-manifest-architecture manifest)
             "checkpoint" (vlm:model-manifest-checkpoint manifest)
             "revision" (vlm:model-manifest-revision manifest))))
+      (when (adapter-execution-identity adapter)
+        (setf (gethash "execution" identity) (adapter-execution-identity adapter)))
+      identity)))
 
 (defun recognize-prepared (prepared out adapter &key (max-new-tokens 2048)
                                                   (prompt *ocr-prompt*) resume)
@@ -160,7 +172,8 @@
                                                 "stop_reason" (string-downcase (symbol-name reason))
                                                 "raw" raw "markdown" clean
                                                 "source_start" start "source_end" end
-                                                "token_ids" (vlm:generation-result-token-ids result))))
+                                                "token_ids" (vlm:generation-result-token-ids result)
+                                                "backend_response" (adapter-response-metadata adapter))))
                                   (error (e) (object "page" number "image_sha256" (sha256 image)
                                                      "status" "error" "error" (princ-to-string e)))))))
                       (write-json record-path record)
