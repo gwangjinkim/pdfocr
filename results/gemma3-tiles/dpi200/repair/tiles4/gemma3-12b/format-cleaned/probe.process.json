@@ -1,0 +1,13 @@
+{
+  "pid": 36553,
+  "started_at_unix": 1792857149.102686,
+  "argv": [
+    "source-lab/runners/mlx/.venv/bin/python",
+    "-m",
+    "pdfocr.decision_worker",
+    "workspace/gemma3-tiles/dpi200/repair/tiles4/gemma3-12b/format-cleaned/probe.request.json"
+  ],
+  "returncode": 0,
+  "exited": true,
+  "seconds": 2.7296809582039714
+}

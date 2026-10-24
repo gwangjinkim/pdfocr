@@ -1,0 +1,13 @@
+{
+  "pid": 36518,
+  "started_at_unix": 1792857136.134238,
+  "argv": [
+    "source-lab/runners/mlx/.venv/bin/python",
+    "-m",
+    "pdfocr.decision_worker",
+    "workspace/gemma3-tiles/dpi200/repair/tiles4/gemma3-12b/format-cleaned/makrobiotikoderd00hufeuoft.request.json"
+  ],
+  "returncode": 0,
+  "exited": true,
+  "seconds": 12.9654671670869
+}

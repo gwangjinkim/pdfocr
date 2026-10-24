@@ -1,0 +1,71 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    200
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "65de1f964975acc1659d76b3da2f2a5f8323329c78ce4a6d0ef05928347e4e95"
+          },
+          {
+            "sha256": "95596377827ea57ada607666bbe790da34ea025c7298471d92b147c20b06d50d"
+          },
+          {
+            "sha256": "a65e934dc8aa3ce71d14e0354b16e085d6afa302a0466ef22c82393f38919423"
+          },
+          {
+            "sha256": "0cfa835a68a98ea63e62633b8d88d73abce7a71fda63e27ac7f4acd5dfc13b1f"
+          },
+          {
+            "sha256": "1a7433e7a3f6f1c12ab0a11128bbe02178931d2c69314085977d18b69fbb30d2"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:59:00.639673Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 178 -\n\nAchte Vorlesung.\n\nSpecielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.\n\nHauptpunkte der Anlage zum langen Leben — Guter Magen und Verdauungsfystem, gesunde Zähne — gut erzeugte Brust — nicht zu reizbares Herz — gute die ausrations und Heilskraft der Natur — gehöriger Grad und Vertheilung der lebenskraft, gut Temperamente — harmonisches und schlechterfreier Körperbau — mässige Beschaffenheit der Tertur des körpers — kein vorzüglich schwacher Theil — vollkommene Organisation der Zeugungskraft — das Bild eines zum langen Leben bestimmten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Festimmung der speciellen und individuellen Grundlage des langen Lebens übergehen, die in dem Menschen selbst liegen muß. Ich will die Haupt-Eigenschaften und Anlagen anzeigen, die nach obigen Grundlagen und der Erfahrung ein Mensch durchaus haben muss, der auf ein langes Leben Neigung machen will. Diese Schilderung kann zugleich statt einer kurzen Physiognomik des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind selbende:\n\n1. Vor allen Dingen muß der Magen und das ganze Verdauungsfystem gut bestanden fern. — Es ist unglaublich, von welcher Wichtigkeit dieser\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 29780106042,
+    "load_duration": 2440561417,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 11418108000,
+    "eval_count": 293,
+    "eval_duration": 15795404000
+  },
+  "markdown": "Achte Vorlesung.\n\nSpecielle Grundlagen und Kennzeichen der Lebensdauer einzelner Menschen.\n\nHauptpunkte der Anlage zum langen Leben — Guter Magen und Verdauungsfystem, gesunde Zähne — gut erzeugte Brust — nicht zu reizbares Herz — gute die ausrations und Heilskraft der Natur — gehöriger Grad und Vertheilung der lebenskraft, gut Temperamente — harmonisches und schlechterfreier Körperbau — mässige Beschaffenheit der Tertur des körpers — kein vorzüglich schwacher Theil — vollkommene Organisation der Zeugungskraft — das Bild eines zum langen Leben bestimmten Menschen.\n\nNach diesen allgemeinen Begriffen kann ich nun zu der Festimmung der speciellen und individuellen Grundlage des langen Lebens übergehen, die in dem Menschen selbst liegen muß. Ich will die Haupt-Eigenschaften und Anlagen anzeigen, die nach obigen Grundlagen und der Erfahrung ein Mensch durchaus haben muss, der auf ein langes Leben Neigung machen will. Diese Schilderung kann zugleich statt einer kurzen Physiognomik des langen Lebens dienen.\n\nDie Eigenschaften, die man die Grundlagen des langen Lebens im Menschen nennen kann, sind selbende:\n\n1. Vor allen Dingen muß der Magen und das ganze Verdauungsfystem gut bestanden fern. — Es ist unglaublich, von welcher Wichtigkeit dieser",
+  "possibly_truncated": false,
+  "seconds": 29.791064023971558,
+  "format_cleanup": {
+    "source_start": 21,
+    "source_end": 1276,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi400/tiles4/gemma3-12b/makrobiotikoderd00hufeuoft/page-0200.json"
+}

@@ -1,0 +1,62 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    28
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "653071ca7ac31129fbfcac244e34e3954f738f723117dda5ed0d2b7baf8947c9"
+          },
+          {
+            "sha256": "5a63b6e940c3dfaf4d6201890845287a5488352c724bdffdf288ee04c4637d49"
+          },
+          {
+            "sha256": "6ee2a1a445209032b4093d92b3abc66abb02421ebd08c712f72ba9b68bcbb70a"
+          },
+          {
+            "sha256": "ccb9a489d0796a128b5acb2926f989fbf752036ab5bcd8754c1b09e333bc7b86"
+          },
+          {
+            "sha256": "6b7eda62932bb3bab8a4048bf2e6c2c2d890618779670cb44bc8e6b24b212e3b"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:45:47.215761Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 6 -\n\nGanz anders bildete sich dieser Trieb bei den Griechen, unter dem Einfluss einer reinen und schönen Natur, aus. Man überzeugte sich sehr bald, daß gerade ein vernünftiger Genuss der Natur und die beständige Uebung unserer Kräfte das sicherste Mittel sey, die Lebenskraft zu stärken, und unser Leben zu verlängern. Hippocrates und alle damaligen Philosophen und Aerzte kennen keine andern Mittel, als Mäßigkeit, Genug der freien und reinen Luft, Bäder, und vorzüglich das tägliche Reiben des Körpers und Leibesübungen. Auf leztere setzten sie ihr größtes Vertrauen. Es wurden eigene Methoden und Regeln bestimmt, dem Körper mannigfaltige, starke und schwache Bewegung zu geben; es entstand eine eigene Kunst der Leibesübung, die Gymnastik, daraus, und der größte Philosoph und Gelehrte vergaß nie, das Uebung des Leibes und Uebung der Seele immer in gleichem Verhältniss bleiben müßten. Man brachte es wirklich zu einer außerordentlichen Vollkommenheit, diese für uns fast verschwundene Kunst den verschiedenen Naturen, Situationen und Bedürfnissen der Menschen anzupassen, und sie besonders zu dem Mittel zu gebrauchen, die innere Natur des Menschen immer in einer gehörigen Thätigkeit zu erhalten, und dadurch nicht nur Krankheitssurfachen wirksam zu machen, sondern auch selbst schon ausgebrochene Krankheiten zu heilen. Ein gewisser Hero-dicus ging so weit, daß er sogar seine Patienten nöthigte, spazieren zu gehen, sich reiben zu lassen, und je mehr die Krankheit abmattete, desto mehr\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 32713388041,
+    "load_duration": 2485927375,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 10727783000,
+    "eval_count": 365,
+    "eval_duration": 19426052000
+  },
+  "markdown": "```markdown\n- 6 -\n\nGanz anders bildete sich dieser Trieb bei den Griechen, unter dem Einfluss einer reinen und schönen Natur, aus. Man überzeugte sich sehr bald, daß gerade ein vernünftiger Genuss der Natur und die beständige Uebung unserer Kräfte das sicherste Mittel sey, die Lebenskraft zu stärken, und unser Leben zu verlängern. Hippocrates und alle damaligen Philosophen und Aerzte kennen keine andern Mittel, als Mäßigkeit, Genug der freien und reinen Luft, Bäder, und vorzüglich das tägliche Reiben des Körpers und Leibesübungen. Auf leztere setzten sie ihr größtes Vertrauen. Es wurden eigene Methoden und Regeln bestimmt, dem Körper mannigfaltige, starke und schwache Bewegung zu geben; es entstand eine eigene Kunst der Leibesübung, die Gymnastik, daraus, und der größte Philosoph und Gelehrte vergaß nie, das Uebung des Leibes und Uebung der Seele immer in gleichem Verhältniss bleiben müßten. Man brachte es wirklich zu einer außerordentlichen Vollkommenheit, diese für uns fast verschwundene Kunst den verschiedenen Naturen, Situationen und Bedürfnissen der Menschen anzupassen, und sie besonders zu dem Mittel zu gebrauchen, die innere Natur des Menschen immer in einer gehörigen Thätigkeit zu erhalten, und dadurch nicht nur Krankheitssurfachen wirksam zu machen, sondern auch selbst schon ausgebrochene Krankheiten zu heilen. Ein gewisser Hero-dicus ging so weit, daß er sogar seine Patienten nöthigte, spazieren zu gehen, sich reiben zu lassen, und je mehr die Krankheit abmattete, desto mehr\n```",
+  "possibly_truncated": false,
+  "seconds": 32.71871876716614
+}

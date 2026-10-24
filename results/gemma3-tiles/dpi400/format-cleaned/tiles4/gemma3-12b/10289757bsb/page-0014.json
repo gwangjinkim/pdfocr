@@ -1,0 +1,71 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    14
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "8b79fed5a222a7b0668966e1d1e374f2e6632f3a135a64509d240d0fe46f446f"
+          },
+          {
+            "sha256": "ca34da05777e0335ed50abdaa929769e5c7cb45c8b070dd1b59f0dc9cb358a45"
+          },
+          {
+            "sha256": "219890163a656dffea839d871eb02a21fb1427d61749785e6c4a544cab80dff7"
+          },
+          {
+            "sha256": "954941263855ea9b386b0b692deca12dd0c844a922f6abed73ac1c087fb17da4"
+          },
+          {
+            "sha256": "0f05f88161576de8fb5005c8b55d7c4cfc90bc9b8d8f522ed0778f0c3ca32914"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:53:47.804598Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n– 10 –\n\nkeit widmen kann, als wenn für das Ganze\nnur wenige, sey es auch noch so gut besol-\ndete, Helfer angestellt werden, die dann we-\ngen der zu grossen Menge der Leidenden,\nauch bei dem besten Willen, dem Einzel-\nnen nicht mit gehöriger Sorgfalt beistehen\nkönnen.\n\n4. Die Behandlung der Kranken in ihren\nWohnungen ist immer der im Hospital vor-\nzuziehen, so lange es irgend thunlich ist. –\nDer Grund davon ist der vorige. Je mehr\ndie Menschen in Masse behandelt werden, desto\nleichter entsteht Kälte, Lieblosigkeit, Gleich-\ngiltigkeit gegen den Einzelnen; desto leich-\nter gewöhnt man sich, den Menschen als\nSache, nicht als Hauptzweck für sich selbst,\nzu betrachten; und so bildet sich jener Sinn\nund jener Ton, der in grossen Hospitalern\nherrschend, und die Wurzel alles Verder-\nbens für solche Anstalten ist. Ich berufe\nmich auf das Beispiel grosser Hospitäler, selbst\nder besten, denn es ist kein Vorwurf, den\nich der Verwaltung mache, das Übel liegt\nin ihrer Natur. – Ferner, je mehr die Men-\nschen in Masse zusammengedrängt werden,\ndesto mehr erzeugt sich auch Böses unter\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 26267563333,
+    "load_duration": 2526696458,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 9879336000,
+    "eval_count": 309,
+    "eval_duration": 13479027000
+  },
+  "markdown": "keit widmen kann, als wenn für das Ganze\nnur wenige, sey es auch noch so gut besol-\ndete, Helfer angestellt werden, die dann we-\ngen der zu grossen Menge der Leidenden,\nauch bei dem besten Willen, dem Einzel-\nnen nicht mit gehöriger Sorgfalt beistehen\nkönnen.\n\n4. Die Behandlung der Kranken in ihren\nWohnungen ist immer der im Hospital vor-\nzuziehen, so lange es irgend thunlich ist. –\nDer Grund davon ist der vorige. Je mehr\ndie Menschen in Masse behandelt werden, desto\nleichter entsteht Kälte, Lieblosigkeit, Gleich-\ngiltigkeit gegen den Einzelnen; desto leich-\nter gewöhnt man sich, den Menschen als\nSache, nicht als Hauptzweck für sich selbst,\nzu betrachten; und so bildet sich jener Sinn\nund jener Ton, der in grossen Hospitalern\nherrschend, und die Wurzel alles Verder-\nbens für solche Anstalten ist. Ich berufe\nmich auf das Beispiel grosser Hospitäler, selbst\nder besten, denn es ist kein Vorwurf, den\nich der Verwaltung mache, das Übel liegt\nin ihrer Natur. – Ferner, je mehr die Men-\nschen in Masse zusammengedrängt werden,\ndesto mehr erzeugt sich auch Böses unter",
+  "possibly_truncated": false,
+  "seconds": 26.30366611480713,
+  "format_cleanup": {
+    "source_start": 20,
+    "source_end": 1094,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi400/tiles4/gemma3-12b/10289757bsb/page-0014.json"
+}

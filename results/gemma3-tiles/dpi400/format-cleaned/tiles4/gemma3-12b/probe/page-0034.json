@@ -1,0 +1,71 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    34
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "03a49d1268efe28098bf73632f967ed74f353a147220001f4b6146cbe7538f5d"
+          },
+          {
+            "sha256": "f962533ebc5b0335c294c9b758e1b11fa9f1fc314a5692d3826b9edf8b24cbed"
+          },
+          {
+            "sha256": "a30a6350f0a962aede162d94c8d74ff24b5c6bb67db2262e90e6379c0c13ae0f"
+          },
+          {
+            "sha256": "8956b12e44b8e08cb3dc59daa3e470e652bc9ee742fffc4474cac65e390650e6"
+          },
+          {
+            "sha256": "22a86e49da2d0782c400033d85b39f5657fcb12a85dbef9ed379fcd44fe877ae"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:57:56.392833Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 12 -\n\nGeheimnisse des Geisterreichs aufbot, um unsere Tage\nzu verlängern, selbst die Gestirne mussten dazu be-\nnugt werden. Es wurde damals allgemeiner Glaube,\ndaß der Einfluss der Gestirne (die man sich doch nicht\nganz müssig denken konnte) Leben und Schicksale der\nMenschen regiere, daß jeder Planet und jede Constel-\nlation derselben der ganzen Existenz des darin er-\nzeugten Menschen eine gewisse Richtung zum Bösen\noder Guten geben könne, und daß solglic ein Astro-\nlog nur die Stunde und Minute der Geburt zu\nwissen brauche, um das Temperament, die Geistes-\nfähigkeiten, die Schicksale, die Krankheiten, die Art\ndes Todes und auch den Tag derselben bestimmen zu\nkönnen. - Dies war der Glaube nicht bloß des\ngroßen Hauses, sondern der größten, verständig-\nsten und einsichtsvollsten Personen der damaligen\nZeit, und es ist zum Erstaunen, wie lange und wie\nfest man daran hing, unachtet es nicht an Bei-\nspielen fehlen konnte, wo die Prophezeiung fehlschlug.\nBischöfe, hohe Geistliche, berühmte Philosophen und\nAerzte gaben sich mit dem Nativitātstellen ab, man\nlas sogar auf Universitäten Collegia darüber, so gut\nwie über die Punctirkunst und Cabala. Zum Be-\nweise erlaube man mir ein Paar Worte von dem\nberühmten Thurneisen, dem glänzendsten Phäno-\nmen dieser Art, und einem wirklich ausgezeichneten\nMenschen, zu sagen. Er lebte im 17ten Jahrhun-\ndert an dem kurfürstlichen Hofe zu Berlin, und war\nLeibarzt, Chemist, Nativitātsteller, Calendermacher,\nBuchdrucker und Buchhändler, alles in einer Per-\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 38377093625,
+    "load_duration": 2453807417,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 11695767000,
+    "eval_count": 429,
+    "eval_duration": 24086267000
+  },
+  "markdown": "Geheimnisse des Geisterreichs aufbot, um unsere Tage\nzu verlängern, selbst die Gestirne mussten dazu be-\nnugt werden. Es wurde damals allgemeiner Glaube,\ndaß der Einfluss der Gestirne (die man sich doch nicht\nganz müssig denken konnte) Leben und Schicksale der\nMenschen regiere, daß jeder Planet und jede Constel-\nlation derselben der ganzen Existenz des darin er-\nzeugten Menschen eine gewisse Richtung zum Bösen\noder Guten geben könne, und daß solglic ein Astro-\nlog nur die Stunde und Minute der Geburt zu\nwissen brauche, um das Temperament, die Geistes-\nfähigkeiten, die Schicksale, die Krankheiten, die Art\ndes Todes und auch den Tag derselben bestimmen zu\nkönnen. - Dies war der Glaube nicht bloß des\ngroßen Hauses, sondern der größten, verständig-\nsten und einsichtsvollsten Personen der damaligen\nZeit, und es ist zum Erstaunen, wie lange und wie\nfest man daran hing, unachtet es nicht an Bei-\nspielen fehlen konnte, wo die Prophezeiung fehlschlug.\nBischöfe, hohe Geistliche, berühmte Philosophen und\nAerzte gaben sich mit dem Nativitātstellen ab, man\nlas sogar auf Universitäten Collegia darüber, so gut\nwie über die Punctirkunst und Cabala. Zum Be-\nweise erlaube man mir ein Paar Worte von dem\nberühmten Thurneisen, dem glänzendsten Phäno-\nmen dieser Art, und einem wirklich ausgezeichneten\nMenschen, zu sagen. Er lebte im 17ten Jahrhun-\ndert an dem kurfürstlichen Hofe zu Berlin, und war\nLeibarzt, Chemist, Nativitātsteller, Calendermacher,\nBuchdrucker und Buchhändler, alles in einer Per-",
+  "possibly_truncated": false,
+  "seconds": 38.387779712677,
+  "format_cleanup": {
+    "source_start": 20,
+    "source_end": 1520,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi400/tiles4/gemma3-12b/probe/page-0034.json"
+}

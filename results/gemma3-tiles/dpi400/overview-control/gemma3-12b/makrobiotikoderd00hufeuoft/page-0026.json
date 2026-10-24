@@ -1,0 +1,50 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    26
+  ],
+  "arm": "matched400-overview-control",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "3dbc1e0948653e8554b03adbc0a9da1b485b56c6cb08c1a06df65a5c21858042"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:50:56.708253Z",
+    "message": {
+      "role": "assistant",
+      "content": "Okay, here's the transcription of the provided image, formatted as structured Markdown.\n\n```markdown\n# Page Transcription\n\n---\n\n**4**\n\nNatur, nirgends so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein Wunder also, daß der vollkommenste Besitzer dieses Gutes auch einen so hohen Werth darauf setzt, und daß schon der bloße Gedanke von Leben und Seyn so hoch den Neig für uns hat. Jeder Körper wird und um so interessanter, je mehr wir ihm eine Art von Leben und Lebensgefühl zutrauen können. Nichts vermag so sehr ans zu wirken, solche Aussprosserungen zu veranlassen, und die außerordentlichsten Entwicklungen und Anstrengungen unser verborgensten Kräfte hervorzubringen, als der Trieb es zu erhalten und in dem kritischen Augenblick es zu retten. Selbst ohne Gewinn und Freuden des Lebens, selbst für den, der unbeschreibaren Schmerzen leidet, oder ihm dunkeln Kerker auf immer seine Freiheit beweist, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorgane, eine einzige Verdunkelung und Todtung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. – So weise und innig würde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen als der öffentlichen Glückseligkeit, mit unsterblicher Erigens verwert! - Sehr natürlich war es daher, daß der Gedanke in dem Menschen aufsteigen musste: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu künftigen Genusses Gutes mehr Ausdehnung zu geben? Und\n```\n\n---\n**Notes:**\n\n*   I've preserved the original German text and punctuation.\n*   Line breaks are as they appear in the image.\n*   Words cut off at the right edge of the page are not completed.\n* The \"4\" is the page number, located at the top left corner."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 27565226417,
+    "load_duration": 2716906375,
+    "prompt_eval_count": 383,
+    "prompt_eval_duration": 2543344000,
+    "eval_count": 463,
+    "eval_duration": 22243448000
+  },
+  "markdown": "Okay, here's the transcription of the provided image, formatted as structured Markdown.\n\n```markdown\n# Page Transcription\n\n---\n\n**4**\n\nNatur, nirgends so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein Wunder also, daß der vollkommenste Besitzer dieses Gutes auch einen so hohen Werth darauf setzt, und daß schon der bloße Gedanke von Leben und Seyn so hoch den Neig für uns hat. Jeder Körper wird und um so interessanter, je mehr wir ihm eine Art von Leben und Lebensgefühl zutrauen können. Nichts vermag so sehr ans zu wirken, solche Aussprosserungen zu veranlassen, und die außerordentlichsten Entwicklungen und Anstrengungen unser verborgensten Kräfte hervorzubringen, als der Trieb es zu erhalten und in dem kritischen Augenblick es zu retten. Selbst ohne Gewinn und Freuden des Lebens, selbst für den, der unbeschreibaren Schmerzen leidet, oder ihm dunkeln Kerker auf immer seine Freiheit beweist, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorgane, eine einzige Verdunkelung und Todtung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. – So weise und innig würde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen als der öffentlichen Glückseligkeit, mit unsterblicher Erigens verwert! - Sehr natürlich war es daher, daß der Gedanke in dem Menschen aufsteigen musste: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu künftigen Genusses Gutes mehr Ausdehnung zu geben? Und\n```\n\n---\n**Notes:**\n\n*   I've preserved the original German text and punctuation.\n*   Line breaks are as they appear in the image.\n*   Words cut off at the right edge of the page are not completed.\n* The \"4\" is the page number, located at the top left corner.",
+  "possibly_truncated": false,
+  "seconds": 27.571197986602783
+}

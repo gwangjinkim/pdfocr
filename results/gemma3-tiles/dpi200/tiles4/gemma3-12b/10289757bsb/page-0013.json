@@ -1,0 +1,62 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    13
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "fa2cd31f4f73c1da928f57ea0288132e512d23b41564b2cf747cccd58b318e71"
+          },
+          {
+            "sha256": "cfd5c4110e2509ad7da162be1e59a719002af0d554ad1eecb3409aca621ec735"
+          },
+          {
+            "sha256": "15fa3f2645963b5be4f5b5e13329ec9a7e9298cb71905bf0fd8d9bfdcbb7c683"
+          },
+          {
+            "sha256": "ed7dbbad2c083e401bc6691b8ff1d24ac63e3051e9522781cc9d5810ac0ce9bd"
+          },
+          {
+            "sha256": "78bdd6f56bd408515dd36c0d15b92b52c90460e45bfb30ff2f5a0a2944f71772"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:43:16.325186Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 9 -\n\nlen, was ist an dem Einzelnen gelegen? Er\nwird zu einer unbemerbaren Größe — zu\neinem Procent — einem bloßen Rec hnungs-\ngegenstand. Sollen Armen - und Rettungs-\nanstalten gedeihen, so muß man eben im\nEinzelnen das Ganze finden, so muß ihr Le-\nben sich nicht von oben abwärts in — be-\nkanntlich immer schwächer werdenden —\nStralen zum Einzelnen verbreiten, sondern von\nunten herauf, vom Einzelnen zum Ganzen; es\nmuß sich in dem Herzen der Einzelnen erzeu-\ngen, und von da aus zu einem allgemeinen Le-\nben vereinigen. Von oben können sie nichts\nweiter erhalten, als Form und Ordnung. —\nDiefs also ist die große Aufgabe solcher Ein-\nrichtungen: mit der Anordnung und Aufsicht\ndes Ganzen jenen Sinn und jene Selbststän-\ndigkeit des Einzelnen zu verschmelzen, wo-\ndurch allein verhütet wird, daſs sie nicht am\nEnde in bloße Maschinen, ohne Geist und\nHerz ausarten — und herzlose Anstalten ha-\nben eben so wenig Werth, als herzlose Men-\nschen. Deswegen ist es weit besser, wenn\nwohl denkende Männer sich vereinigen, und\ndie Menge der Hülsbedürftigen in kleinere\nPortionen theilen, wovon ein jeder sein Theil\nübersehen und ihm seine ganze Aufmerksam-\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 24002960417,
+    "load_duration": 2902866334,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 9022056000,
+    "eval_count": 335,
+    "eval_duration": 11648828000
+  },
+  "markdown": "```markdown\n- 9 -\n\nlen, was ist an dem Einzelnen gelegen? Er\nwird zu einer unbemerbaren Größe — zu\neinem Procent — einem bloßen Rec hnungs-\ngegenstand. Sollen Armen - und Rettungs-\nanstalten gedeihen, so muß man eben im\nEinzelnen das Ganze finden, so muß ihr Le-\nben sich nicht von oben abwärts in — be-\nkanntlich immer schwächer werdenden —\nStralen zum Einzelnen verbreiten, sondern von\nunten herauf, vom Einzelnen zum Ganzen; es\nmuß sich in dem Herzen der Einzelnen erzeu-\ngen, und von da aus zu einem allgemeinen Le-\nben vereinigen. Von oben können sie nichts\nweiter erhalten, als Form und Ordnung. —\nDiefs also ist die große Aufgabe solcher Ein-\nrichtungen: mit der Anordnung und Aufsicht\ndes Ganzen jenen Sinn und jene Selbststän-\ndigkeit des Einzelnen zu verschmelzen, wo-\ndurch allein verhütet wird, daſs sie nicht am\nEnde in bloße Maschinen, ohne Geist und\nHerz ausarten — und herzlose Anstalten ha-\nben eben so wenig Werth, als herzlose Men-\nschen. Deswegen ist es weit besser, wenn\nwohl denkende Männer sich vereinigen, und\ndie Menge der Hülsbedürftigen in kleinere\nPortionen theilen, wovon ein jeder sein Theil\nübersehen und ihm seine ganze Aufmerksam-\n```",
+  "possibly_truncated": false,
+  "seconds": 24.039061784744263
+}

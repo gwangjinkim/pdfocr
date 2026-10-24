@@ -1,0 +1,24 @@
+{
+  "models": [
+    {
+      "name": "gemma3:12b",
+      "model": "gemma3:12b",
+      "size": 8388293426,
+      "digest": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma3",
+        "families": [
+          "gemma3",
+          "clip"
+        ],
+        "parameter_size": "11.8B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-10-24T18:00:20.755637+02:00",
+      "size_vram": 8388293426,
+      "context_length": 16384
+    }
+  ]
+}

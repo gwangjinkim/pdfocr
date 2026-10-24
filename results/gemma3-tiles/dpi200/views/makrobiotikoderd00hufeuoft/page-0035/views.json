@@ -1,0 +1,89 @@
+{
+  "parent_sha256": "4473091150c8bd1b285cbb08a34fb6ac96a38bbddb74e3bf6d58f9a40e82e87c",
+  "parent_size": [
+    641,
+    1156
+  ],
+  "all_rows_covered": true,
+  "band_count": 4,
+  "overlap_fraction_per_side": 0.02,
+  "views": [
+    {
+      "role": "overview",
+      "path": "workspace/gemma200/inputs200cap2880/makrobiotikoderd00hufeuoft/page-0035.png",
+      "sha256": "4473091150c8bd1b285cbb08a34fb6ac96a38bbddb74e3bf6d58f9a40e82e87c",
+      "size": [
+        641,
+        1156
+      ]
+    },
+    {
+      "role": "band-1",
+      "path": "workspace/gemma3-tiles/dpi200/views/makrobiotikoderd00hufeuoft/page-0035/band-1.png",
+      "box": [
+        0,
+        0,
+        641,
+        312
+      ],
+      "sha256": "e87f4d768d1bdb0589e530b05985a25c76b04c23e7aa388545a5b9ce87470046",
+      "size": [
+        641,
+        312
+      ],
+      "rgb_sha256": "545f8fdb4bbd6fa725cb599bfac870b1b174ee9b17c623bc8e415bb6b26347c3",
+      "exact_source_crop": true
+    },
+    {
+      "role": "band-2",
+      "path": "workspace/gemma3-tiles/dpi200/views/makrobiotikoderd00hufeuoft/page-0035/band-2.png",
+      "box": [
+        0,
+        266,
+        641,
+        601
+      ],
+      "sha256": "0cf6243931a182e47a4fa4cbe824dda6a4aead44c6e04dd911848e9a9c7353da",
+      "size": [
+        641,
+        335
+      ],
+      "rgb_sha256": "7be77218f5c4beec1dbd29a0511bb9851bc33285e69b1067ea4ef62778bfdcee",
+      "exact_source_crop": true
+    },
+    {
+      "role": "band-3",
+      "path": "workspace/gemma3-tiles/dpi200/views/makrobiotikoderd00hufeuoft/page-0035/band-3.png",
+      "box": [
+        0,
+        555,
+        641,
+        890
+      ],
+      "sha256": "9f31f8fe9f403b9535e3aab40b8c7219a32e4437a1774d7af2ccb1d54c5f5ccd",
+      "size": [
+        641,
+        335
+      ],
+      "rgb_sha256": "a6a601f8b1a506f8a9f0701cac0dec407268783cea0f98191535b0b0d2acd83e",
+      "exact_source_crop": true
+    },
+    {
+      "role": "band-4",
+      "path": "workspace/gemma3-tiles/dpi200/views/makrobiotikoderd00hufeuoft/page-0035/band-4.png",
+      "box": [
+        0,
+        844,
+        641,
+        1156
+      ],
+      "sha256": "acaaeee217ee8efbc8ba259d788e50cb120cd29f9b30529a281799c909779fce",
+      "size": [
+        641,
+        312
+      ],
+      "rgb_sha256": "da7f56b2d053eaa99fe41724a77b9cbebd299cabbd02dd2af740170cdb2e3be4",
+      "exact_source_crop": true
+    }
+  ]
+}

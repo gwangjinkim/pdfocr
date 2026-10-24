@@ -1,0 +1,62 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    11
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "ed793abdfdc55311978f44260f51be4610ba0078bd66f0f8a1381478eb1f2936"
+          },
+          {
+            "sha256": "a91030ccd1380241a90849727217c5d0645a5dd076c1e949430fe22d3f541faf"
+          },
+          {
+            "sha256": "f004559b98d25efd05cfcb82c2926c8666c51ab4d0d2055ce5e0a990ee2506d8"
+          },
+          {
+            "sha256": "08782dae1cead84672354504bba478fd6a3f9caa1dd8e8d61b020054c2b4ed35"
+          },
+          {
+            "sha256": "0df447adefeab5420e1c38ac1884f9c2813bc30a09b2161d48b4b17c5e30eb85"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:42:30.463378Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 7 -\n\nzählte; nur eine Armenapotheke in einer\nStadt von 6 Stunden im Umfange, wo die\narmen Kranken meilenlange Wege machen\nmußten, um uur die verordnete Arznei zu\nerhalten. Wie unzureichend war diese Hül-\nfe! —\n\nEs mußte demnach, wenn etwas Gutes\nbewirkt werden sollte, durchaus eine ganz\nneue Einrichtung gemacht werden. — Die\nIdeen, welche dabei zum Grunde gelegt\nwurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und\nder Menschenliebe allein muß das belebende\nPrincip einer solchen Anstalt seyn. Das\nganze Geschäft muß als Gottesdienst betrie-\nben, und unentgeldlich, aus freiem innerem\nAntriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das\nPersonale, als auf den Mechanismus der Ein-\nrichtung an. Je mehr edle menschenlieben-\nde und allgemein geachtete Ärzte sich zu\ndieser Absicht vereinigen, desto gewisser\nwird dieser Geist das Institut durchdringen,\nund der wahre Zweck erreicht. Überdieſs\nwill noch dadurch der große Vorteil ge-\nwonnen, daſs die Berührungspunkte der Hülf-\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 20433356916,
+    "load_duration": 2894233125,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 8608087000,
+    "eval_count": 294,
+    "eval_duration": 8514601000
+  },
+  "markdown": "```markdown\n- 7 -\n\nzählte; nur eine Armenapotheke in einer\nStadt von 6 Stunden im Umfange, wo die\narmen Kranken meilenlange Wege machen\nmußten, um uur die verordnete Arznei zu\nerhalten. Wie unzureichend war diese Hül-\nfe! —\n\nEs mußte demnach, wenn etwas Gutes\nbewirkt werden sollte, durchaus eine ganz\nneue Einrichtung gemacht werden. — Die\nIdeen, welche dabei zum Grunde gelegt\nwurden, waren folgende:\n\n1. Der Geist des reinen Wohlthuns und\nder Menschenliebe allein muß das belebende\nPrincip einer solchen Anstalt seyn. Das\nganze Geschäft muß als Gottesdienst betrie-\nben, und unentgeldlich, aus freiem innerem\nAntriebe, besorgt werden.\n\n2. Es kommt demnach weit mehr auf das\nPersonale, als auf den Mechanismus der Ein-\nrichtung an. Je mehr edle menschenlieben-\nde und allgemein geachtete Ärzte sich zu\ndieser Absicht vereinigen, desto gewisser\nwird dieser Geist das Institut durchdringen,\nund der wahre Zweck erreicht. Überdieſs\nwill noch dadurch der große Vorteil ge-\nwonnen, daſs die Berührungspunkte der Hülf-\n```",
+  "possibly_truncated": false,
+  "seconds": 20.471022129058838
+}

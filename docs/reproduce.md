@@ -88,3 +88,8 @@ multi-image 72-DPI workflow, matched 400-DPI Gemma 3/Gemma 4 runs, a confirmed
 1120-image-token control, and both raw and presentation-cleaned boundary
 repair. These are new measurements; none replace the frozen October 23
 answers above. The historical PyMuPDF dependency stays in its own environment.
+
+The [Gemma 3 explicit-tiling follow-up](gemma3-tiling.md) adds an overview and
+four verified image bands at both DPIs, same-prompt overview controls, and the
+unchanged boundary-repair evaluation. It is a separate configuration with an
+explicit multiple-view instruction, not a native pan-and-scan implementation.

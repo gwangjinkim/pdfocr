@@ -34,6 +34,20 @@ was 6.54% at 200 DPI versus 1.14% at 400 DPI. Gemma 3 went the other direction:
 native-renderer inputs and frozen references, with presentation-only cleanup;
 the image budget is a ceiling and smaller images can use fewer tokens.
 
+The subsequent [verified Gemma 3 tiling test](docs/gemma3-tiling.md) sent an
+overview plus four overlapping bands on all 18 pages at each DPI. The same-prompt
+overview controls used 383 prompt tokens versus 1463 with five views. At 200 DPI,
+cleaned combined CER improved from 7.09% to **3.33%** (1.97% Antiqua, 4.15% Fraktur).
+At 400 DPI it worsened from 13.62% to **21.63%**, including repeated passages on
+page 201 despite a normal stop. After the unchanged cleanup and repair,
+200 DPI recovered 3/4 primary split words with 0/8 false control joins; 400 DPI
+recovered 2/4 with 1/8 false joins. Neither recovered the supplementary Person
+probe. This explicit tiling arm changes the instruction to describe multiple
+views of one page; it is not native pan-and-scan or a full-sample crop-only
+ablation. All [raw and cleaned results](results/pdfocr-gemma3-tiling-comparison.md)
+and failure outputs remain available. Configured Gemma 4 at 400 DPI retains the
+lowest combined CER in this sample.
+
 400-DPI rendering did not generally improve OCR. GLM repeated a paragraph at
 400 DPI with both pdfrune and PDFium; a separately recorded lower-input-cap
 retry resolved that case. Raw failures remain in the primary results.
@@ -101,7 +115,7 @@ mapped separator. It does not silently replace misrecognized letters.
   metadata uses portable path labels; it is not a pre-populated live workspace.
 - `runners/legacy/`: isolated optional PyMuPDF/Ollama historical runner. PyMuPDF
   is AGPL/commercial and is not a dependency of the permissive pdfrune path.
-- `tests/`: 34 harness tests. The vendored pdfrune core has 14 Rust tests.
+- `tests/`: 36 harness tests. The vendored pdfrune core has 14 Rust tests.
 
 Prompts, model revisions, BF16 versus Q8 precision, resize caps and limitations
 are recorded. These adapters do not claim parity with official benchmark

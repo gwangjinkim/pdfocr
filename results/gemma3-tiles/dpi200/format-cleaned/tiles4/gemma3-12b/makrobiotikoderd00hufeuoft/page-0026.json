@@ -1,0 +1,71 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    26
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "824938e255eb2dda224d881005fe7c9e6410e4f1e0096d443e3d3db2bb57ef39"
+          },
+          {
+            "sha256": "7e43d0ddca457cc7fcd6101d49f56b8fc8cba0668117fe9743c9151898e5e41b"
+          },
+          {
+            "sha256": "16d625796e516299e9b6474d2effe5477e389e5e3a060f47aeaad5952375cb9e"
+          },
+          {
+            "sha256": "5ff7b27532ab58f8dcc070924e25d4f56b7ad02aff449c9a9e75880ae91c5bdf"
+          },
+          {
+            "sha256": "7662d8560d2e920762f1986b0b9cd8715f262112b3fffc8867268d6d7a2778eb"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:41:47.456478Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 4 -\n\nNatur, nirgends so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein Wunder also, daß der vollkommenste Besitzer dieses Gutes auch einen so hohen Werth darauf setzt, und daß schon der bloße Gedanke von Leben und Sewn so hohen Reiz für uns hat. Jeder Körper wird uns um so interessanter, je mehr wir ihm eine Art von Leben und Lebensgefühl zutrauen können. Nichts vermag so sehr auf uns zu wirken, solche Aufopferungen zu veranlassen, und die außerordentlichsten Entwicklungsgen und Anstrengungen unserer verborgensten Kräfte hervorzubringen, als der Trieb es zu erhalten und in dem kritischen Augenblick es zu retten. Selbst ohne Genuss und Freuden des Lebens, selbst für den, der an unheilbaren Schmerzen leidet, oder im dunkeln Kerker auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorge-ne, eine gänzliche Verdunkelung und Tödung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. - So weise und innig wurde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen als der öffentlichen Glückseligkeit, mit unse-rer Erstenz verwewbt! - Sehr natürlich war es da-her, daß der Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu flüchtigen Genuss dieses Gutes mehr Ausdruckung zu geben? Und\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 23365914167,
+    "load_duration": 2796063708,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 9019437000,
+    "eval_count": 382,
+    "eval_duration": 11467508000
+  },
+  "markdown": "Natur, nirgends so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein Wunder also, daß der vollkommenste Besitzer dieses Gutes auch einen so hohen Werth darauf setzt, und daß schon der bloße Gedanke von Leben und Sewn so hohen Reiz für uns hat. Jeder Körper wird uns um so interessanter, je mehr wir ihm eine Art von Leben und Lebensgefühl zutrauen können. Nichts vermag so sehr auf uns zu wirken, solche Aufopferungen zu veranlassen, und die außerordentlichsten Entwicklungsgen und Anstrengungen unserer verborgensten Kräfte hervorzubringen, als der Trieb es zu erhalten und in dem kritischen Augenblick es zu retten. Selbst ohne Genuss und Freuden des Lebens, selbst für den, der an unheilbaren Schmerzen leidet, oder im dunkeln Kerker auf immer seine Freiheit beweint, behält der Gedanke zu seyn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorge-ne, eine gänzliche Verdunkelung und Tödung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. - So weise und innig wurde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen als der öffentlichen Glückseligkeit, mit unse-rer Erstenz verwewbt! - Sehr natürlich war es da-her, daß der Gedanke in dem Menschen aufsteigen mußte: Sollte es nicht möglich seyn, unser Daseyn zu verlängern, und dem nur gar zu flüchtigen Genuss dieses Gutes mehr Ausdruckung zu geben? Und",
+  "possibly_truncated": false,
+  "seconds": 23.372181177139282,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1503,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi200/tiles4/gemma3-12b/makrobiotikoderd00hufeuoft/page-0026.json"
+}

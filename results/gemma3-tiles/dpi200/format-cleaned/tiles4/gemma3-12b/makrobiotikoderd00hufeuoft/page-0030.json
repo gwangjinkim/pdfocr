@@ -1,0 +1,71 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    30
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "6b5188b6b5dc0d7bfe670057980ccf7c1a6264294e7918ce7728f663086db009"
+          },
+          {
+            "sha256": "f7621129f472c5bff67ae0adeb3944424267fca7e8b8a9778167949f9436a9d2"
+          },
+          {
+            "sha256": "1d20f27c8a902f9da243ac2cfe454e5522ac9e0e3f6f2d0e005ae0f2ca66aca2"
+          },
+          {
+            "sha256": "b0f9d1e58840b2ce75650ab64dd49f98e830246e4c3c9635b7dbe5fb3d714022"
+          },
+          {
+            "sha256": "de40651f6a10ed7c159a36918c1ec787251ff2360fb8a28b9eed0c065861e5e1"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:47:05.362888Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n– 8 –\n\nund versichert, der Alte habe dadurch sichtbar an Munterkeit und Kräften zugenommen. Und gewiß, wenn man bedenkt, was der Lebensduft frisch aufgeschnittener Thiere auf gelähmte Glieder, was das Ausfliegen lebendiger Thiere auf schmerzhafte Webel vermag, so scheint diese Methode nicht verwerflich zu seyn. Höchst wahrscheinlich gründete sich auf diese Ideen der hohe Werth, den man bei Römern und Griechen auf das Anwesen eines reinen gefundenen Athens setzte. Es gehört hierher eine alte Inschrift, die man im vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAescvlapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Aeskulap und der Gesundheit\ngeweihrt\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Athein junger Mädchen u. f w.\n\nDiese Inschrift mag nun acht seyn oder nicht; genug sie veranlasste noch zu Anfang des 18ten Jahrhunderts eine Schrift, worin ein Doctor Cobaufen sehr gelehrt beweiset, dieser Hermippus sey ein Waisenhauß-Vorsicher oder Mädchenschulmeister zu\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 39675809166,
+    "load_duration": 2478240708,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 13513914000,
+    "eval_count": 329,
+    "eval_duration": 23614094000
+  },
+  "markdown": "und versichert, der Alte habe dadurch sichtbar an Munterkeit und Kräften zugenommen. Und gewiß, wenn man bedenkt, was der Lebensduft frisch aufgeschnittener Thiere auf gelähmte Glieder, was das Ausfliegen lebendiger Thiere auf schmerzhafte Webel vermag, so scheint diese Methode nicht verwerflich zu seyn. Höchst wahrscheinlich gründete sich auf diese Ideen der hohe Werth, den man bei Römern und Griechen auf das Anwesen eines reinen gefundenen Athens setzte. Es gehört hierher eine alte Inschrift, die man im vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAescvlapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Aeskulap und der Gesundheit\ngeweihrt\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Athein junger Mädchen u. f w.\n\nDiese Inschrift mag nun acht seyn oder nicht; genug sie veranlasste noch zu Anfang des 18ten Jahrhunderts eine Schrift, worin ein Doctor Cobaufen sehr gelehrt beweiset, dieser Hermippus sey ein Waisenhauß-Vorsicher oder Mädchenschulmeister zu",
+  "possibly_truncated": false,
+  "seconds": 39.680726766586304,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1134,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi200/tiles4/gemma3-12b/makrobiotikoderd00hufeuoft/page-0030.json"
+}

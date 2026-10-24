@@ -1,0 +1,71 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    26
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "3dbc1e0948653e8554b03adbc0a9da1b485b56c6cb08c1a06df65a5c21858042"
+          },
+          {
+            "sha256": "dd2b367654aa05d6e377adeaa0f065813733335384b360c00eb45f148931df1b"
+          },
+          {
+            "sha256": "e3fb398d9e474b5266e809e4628067b6ea7c6b69b2b09845de1b23ada9bd2a4d"
+          },
+          {
+            "sha256": "44ea9de9bf0a6ba1a9536ed4a976aecf59ad8bf19a1ecf7dfcd3aaa1d09aeda7"
+          },
+          {
+            "sha256": "28919ed4657f72c96fc44e4fcd746c6f9f2eff205b30b820c62c44a8e851ff03"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:51:23.896399Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 4 -\n\nNatur, nirgends so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein Wunder also, daß der vollkommenste Besitzer dieses Gutes auch einen so hohen Werth darauf setzt, und daß schon der bloße Gedanke von Leben und Sewn so hoch den Reiz für uns hat. Jeder Körper wird uns um so interessanter, je mehr wir ihm eine Art von Leben und Lebensgefühl zutrauen können. Nichts vermag so sehr auf uns zu wirken, solche Aufopferungen zu veranlassen, und die außerordentlichsten Entwicklungen und Anstrengungen unsrer verborgensten Kräfte hervorzubringen, als der Trieb es zu erhalten und in dem kritischen Augenblick es zu retten. Selbst ohne Genuss und Freuden des Lebens, selbst für den, der an unheilbaren Schmerzen leidet, oder im dunkeln Kerker auf immer seine Freiheit beweint, behält der Gedanke zu Sewn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorge ne, eine gänzliche Verdunkelung und Tödung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. – So weise und innig wurde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen als der öffentlichen Glückseligkeit, mit unse-\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 27164934292,
+    "load_duration": 2563739792,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 10199452000,
+    "eval_count": 318,
+    "eval_duration": 14261346000
+  },
+  "markdown": "Natur, nirgends so viel Energie des Lebens, mit solcher Dauer vereinigt, als hier. Kein Wunder also, daß der vollkommenste Besitzer dieses Gutes auch einen so hohen Werth darauf setzt, und daß schon der bloße Gedanke von Leben und Sewn so hoch den Reiz für uns hat. Jeder Körper wird uns um so interessanter, je mehr wir ihm eine Art von Leben und Lebensgefühl zutrauen können. Nichts vermag so sehr auf uns zu wirken, solche Aufopferungen zu veranlassen, und die außerordentlichsten Entwicklungen und Anstrengungen unsrer verborgensten Kräfte hervorzubringen, als der Trieb es zu erhalten und in dem kritischen Augenblick es zu retten. Selbst ohne Genuss und Freuden des Lebens, selbst für den, der an unheilbaren Schmerzen leidet, oder im dunkeln Kerker auf immer seine Freiheit beweint, behält der Gedanke zu Sewn und zu leben noch Reiz, und es gehört schlechterdings eine nur bei Menschen mögliche Zerrüttung der feinsten Empfindungsorge ne, eine gänzliche Verdunkelung und Tödung des innern Sinns dazu, um das Leben gleichgültig oder gar verhaßt zu machen. – So weise und innig wurde Liebe des Lebens, dieser eines denkenden Wesens so würdige Trieb, dieser Grundpfeiler sowohl der einzelnen als der öffentlichen Glückseligkeit, mit unse-",
+  "possibly_truncated": false,
+  "seconds": 27.17654299736023,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1261,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi400/tiles4/gemma3-12b/makrobiotikoderd00hufeuoft/page-0026.json"
+}

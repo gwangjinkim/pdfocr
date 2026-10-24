@@ -1,0 +1,71 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    10
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "a93dbfbf71935e12b24e8afa9d12ada7651213e7b065fdd1226ecb6acfbd072f"
+          },
+          {
+            "sha256": "880c3db3269f169e48749ccdb10d5559c74a8e86602196c48fa102d502ec201e"
+          },
+          {
+            "sha256": "fe69062a2fc5e10137b807910d4c529a7574e30e0272823e584b52b1ab12a1bb"
+          },
+          {
+            "sha256": "b2a6a5f73ebb680210afa4fea24a99d8406478c6d6262573df683d1ba7c893b0"
+          },
+          {
+            "sha256": "a29afd1b8732a188ed2e6b7c1adaf8dc7731c7ddf0c726e4a16437c4ee4884be"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:51:50.792027Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 6 -\n\nden aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dals gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Un-\nreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die allerverderblichsten Seuchen und Ansteckungsgifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewifs ein großer und gewöhnlich überschener Vorzug solcher\nAnstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemei-\nnen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritte in das Armendi-\nrectorium vor 10 Jahren diesen Theil der Armenverpflegung, der sich mit der Vorsorge für die armen Kranken sowohl in den Hos-\npitälern, als in der Stadt, beschäftigte. Aber\nnur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Armenarzt und sieben Chirurgen für\neine Stadt, die in der Regel 10,000 Arme\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 26333884750,
+    "load_duration": 2797743500,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 10076708000,
+    "eval_count": 293,
+    "eval_duration": 13085164000
+  },
+  "markdown": "den aufspürt und zerstört, sichert sie die Gesundheit des Publikums und des Staates im Ganzen, und verstopft eine Hauptquelle der allgemeinen Gesundheitsverderbnifs; denn es ist entschieden, dals gerade die Hütten der Armuth es sind, wo Mangel, Kummer und Un-\nreinlichkeit, die furchtbarsten Krankheitserzeuger, durch ihr Zusammentreffen die allerverderblichsten Seuchen und Ansteckungsgifte ausbrüten, welche sich dann von da aus über das Ganze und auch in die höheren Regionen verbreiten. — Gewifs ein großer und gewöhnlich überschener Vorzug solcher\nAnstalten, der sie zu einem höchstwichtigen Theil der Staatsarzneykunst und allgemei-\nnen Sicherungspolizei macht.\n\nDurchdrungen von diesen Ideen übernahm ich bei meinem Eintritte in das Armendi-\nrectorium vor 10 Jahren diesen Theil der Armenverpflegung, der sich mit der Vorsorge für die armen Kranken sowohl in den Hos-\npitälern, als in der Stadt, beschäftigte. Aber\nnur unvollkommen konnte dieser Zweck bei der damaligen Einrichtung erreicht werden. Nur ein Armenarzt und sieben Chirurgen für\neine Stadt, die in der Regel 10,000 Arme",
+  "possibly_truncated": false,
+  "seconds": 26.370009183883667,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1108,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi400/tiles4/gemma3-12b/10289757bsb/page-0010.json"
+}

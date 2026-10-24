@@ -1,0 +1,62 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    34
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "53e138834799af74cb65d5206e7c78fcd4101bd0cf8305041938c8deaf1a157c"
+          },
+          {
+            "sha256": "bd16e4ed96ca3043a7fe4d7a4d880bfa9c72c16b4f00ed3d4ae11d11ea4a6a1c"
+          },
+          {
+            "sha256": "d74546bb239e79f1df458b00def8fe634eb43c90613f6e77db4df68492394839"
+          },
+          {
+            "sha256": "0f4fa3992719b1caae17452df32c71736ea7efac6f0e74050d80f9bf3adf7a14"
+          },
+          {
+            "sha256": "837450bb58ef779092314823a73f722910afafc5a7f9c393416e7a98f61fea87"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:47:49.961221Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n– 12 –\n\nGeheimnisse des Geisterreichs aufbot, um unsere Tage\nzu verlängern, selbst die Gestirne mussten dazu be-\nnuht werden. Es wurde damals allgemeiner Glaube,\ndaß der Einfluß der Gestirne (die man sich doch nicht\nganz müssig denken konnte) Leben und Schicksale der\nMenschen regiere, daß jeder Planet und jede Constel-\nlation derselben der ganzen Existenz des darin er-\nzeugten Menschen eine gewisse Richtung zum Bösen\noder Guten geben könne, und daß folglich ein Astro-\nlog nur die Stunde und Minute der Geburt zu\nwissen brauche, um das Temperament, die Geistes-\nfähigkeiten, die Schicksale, die Krankheiten, die Art\ndes Todes und auch den Tag derselben bestimmen zu\nkönnen. – Dies war der Glaube nicht bloß des\ngroßen Hauses, sondern der größten, verständig-\nsten und einsichtsvollsten Personen der damaligen\nZeit, und es ist zum Erstaunen, wie lange und wie\nfest man daran hing, unachtet es nicht an Bei-\nspielen fehlen konnte, wo die Prophezeiung fehlschlug.\nBischöfe, hohe Geistliche, berühmte Philosophen und\nAerzte gaben sich mit dem Nativitātstellen ab, man\nlas sogar auf Universitäten Collegia darüber, so gut\nwie über die Punctirkunst und Cabala. Zum Be-\nweise erlaube man mir ein Paar Worte von dem\nberühmten Thurneisen, dem glänzendsten Phäno-\nmen dieser Art, und einem wirklich ausgezeichneten\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 44510034625,
+    "load_duration": 2739072625,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 15147630000,
+    "eval_count": 365,
+    "eval_duration": 26548863000
+  },
+  "markdown": "```markdown\n– 12 –\n\nGeheimnisse des Geisterreichs aufbot, um unsere Tage\nzu verlängern, selbst die Gestirne mussten dazu be-\nnuht werden. Es wurde damals allgemeiner Glaube,\ndaß der Einfluß der Gestirne (die man sich doch nicht\nganz müssig denken konnte) Leben und Schicksale der\nMenschen regiere, daß jeder Planet und jede Constel-\nlation derselben der ganzen Existenz des darin er-\nzeugten Menschen eine gewisse Richtung zum Bösen\noder Guten geben könne, und daß folglich ein Astro-\nlog nur die Stunde und Minute der Geburt zu\nwissen brauche, um das Temperament, die Geistes-\nfähigkeiten, die Schicksale, die Krankheiten, die Art\ndes Todes und auch den Tag derselben bestimmen zu\nkönnen. – Dies war der Glaube nicht bloß des\ngroßen Hauses, sondern der größten, verständig-\nsten und einsichtsvollsten Personen der damaligen\nZeit, und es ist zum Erstaunen, wie lange und wie\nfest man daran hing, unachtet es nicht an Bei-\nspielen fehlen konnte, wo die Prophezeiung fehlschlug.\nBischöfe, hohe Geistliche, berühmte Philosophen und\nAerzte gaben sich mit dem Nativitātstellen ab, man\nlas sogar auf Universitäten Collegia darüber, so gut\nwie über die Punctirkunst und Cabala. Zum Be-\nweise erlaube man mir ein Paar Worte von dem\nberühmten Thurneisen, dem glänzendsten Phäno-\nmen dieser Art, und einem wirklich ausgezeichneten\n```",
+  "possibly_truncated": false,
+  "seconds": 44.51684808731079
+}

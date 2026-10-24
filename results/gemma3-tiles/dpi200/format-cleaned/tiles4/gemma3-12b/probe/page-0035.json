@@ -1,0 +1,70 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    35
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "4473091150c8bd1b285cbb08a34fb6ac96a38bbddb74e3bf6d58f9a40e82e87c"
+          },
+          {
+            "sha256": "e87f4d768d1bdb0589e530b05985a25c76b04c23e7aa388545a5b9ce87470046"
+          },
+          {
+            "sha256": "0cf6243931a182e47a4fa4cbe824dda6a4aead44c6e04dd911848e9a9c7353da"
+          },
+          {
+            "sha256": "9f31f8fe9f403b9535e3aab40b8c7219a32e4437a1774d7af2ccb1d54c5f5ccd"
+          },
+          {
+            "sha256": "acaaeee217ee8efbc8ba259d788e50cb120cd29f9b30529a281799c909779fce"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:48:29.233544Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n15\n\nsen. Seine Reputation in der Astrologie war so groß, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Boten mit der Bestimmung der Geburtsstunde an ihn abendete. Es kamen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zuletzt so überhaupt, daß er sich Gehülfen zu diesem Geschäft halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte beweisen ließ, dieselbe im voraus mitzutheilen. Und bezwundern muß man, was die kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reißenden Abgang, und verschaffte, nebst andern Charlatanerieen, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nÜber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Grenzen setzte, Mittel zur Verlängerung desselben finden! Dies geschah auf folgende sinnreiche Art:\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 39185065000,
+    "load_duration": 2768842250,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 13965544000,
+    "eval_count": 348,
+    "eval_duration": 22378453000
+  },
+  "markdown": "15\n\nsen. Seine Reputation in der Astrologie war so groß, daß fast in keinem angesehenen Hause in Deutschland, Polen, Ungarn, Dänemark, ja selbst in England ein Kind geboren wurde, wo man nicht sogleich einen Boten mit der Bestimmung der Geburtsstunde an ihn abendete. Es kamen oft acht, zehn bis zwölf solche Geburtsstunden auf einmal bei ihm an, und er wurde zuletzt so überhaupt, daß er sich Gehülfen zu diesem Geschäft halten mußte. Noch befinden sich viele Bände solcher Anfragen auf der Bibliothek zu Berlin, in denen sogar Briefe von der Königin Elisabeth erscheinen. Außerdem schrieb er noch jährlich einen astrologischen Calender, in welchem nicht nur die Natur des Jahres überhaupt, sondern auch die Hauptbegebenheiten und die Tage derselben mit kurzen Worten oder Zeichen angegeben waren. Freilich lieferte er gewöhnlich die Auslegung erst das Jahr darnach; doch findet man auch Beispiele, daß er sich durch Geld und gute Worte beweisen ließ, dieselbe im voraus mitzutheilen. Und bezwundern muß man, was die kunst der unbestimmten prophetischen Diction und die Gefälligkeit des Zufalls thun können; der Calender erhielt sich über 20 Jahre, hatte reißenden Abgang, und verschaffte, nebst andern Charlatanerieen, dem Verfasser ein Vermögen von einigen hunderttausend Gulden.\n\nÜber wie konnte man in einer Kunst, die dem Leben der Menschen so bestimmte und unvermeidliche Grenzen setzte, Mittel zur Verlängerung desselben finden! Dies geschah auf folgende sinnreiche Art:",
+  "possibly_truncated": false,
+  "seconds": 39.19102478027344,
+  "format_cleanup": {
+    "source_start": 12,
+    "source_end": 1490,
+    "operations": [
+      "single_outer_markdown_fence"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi200/tiles4/gemma3-12b/probe/page-0035.json"
+}

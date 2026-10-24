@@ -1,0 +1,62 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    13
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "6cfbb9dfa72a67d26992a737c07c43444eccdc7e393a03184e97e3f50da96409"
+          },
+          {
+            "sha256": "d866c78218eb8d6102dbbeceefd7fc3e222e7b5a0ad171502ba32db5fc91a22b"
+          },
+          {
+            "sha256": "db03fea8e01a024ab9fc1281015c81430115f609e2a30cd37134084a28c3d1f3"
+          },
+          {
+            "sha256": "0204781300ee9abdac5d013edd512d35e8f0a8d20fa5cc749683126c59b1f8dd"
+          },
+          {
+            "sha256": "a095ecf316b433b65421db7213ef52a4fbdd2f228d37bb4daf689f04abd87351"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:53:20.940215Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 9 -\n\nlen, was ist an dem Einzelnen gelegen? Er\nwird zu einer unbemerbaren Größe — zu\neinem Procent — einem bloßen Recnungs-\ngegenstand. Sollen Armen und Rettungs-\nanstalten gedeihen, so muß man eben im\nEinzelnen das Ganze finden, so muß ihr Le-\nben sich nicht von oben abwärts in — be-\nkanntlich immer schwächer werdenden —\nStralen zum Einzelnen verbreiten, sondern von\nunten herauf, vom Einzelnen zum Ganzen; es\nmuß sich in dem Herzen der Einzelnen erzeu-\ngen, und von da aus zu einem allgemeinen Le-\nben vereinigen. Von oben können sie nichts\nweiter erhalten, als Form und Ordnung. —\nDiefs also ist die große Aufgabe solcher Ein-\nrichtungen: mit der Anordnung und Aufsicht\ndes Ganzen jenen Sinn und jene Selbststän-\ndigkeit des Einzelnen zu verschmelzen, wo-\ndurch allein verhütet wird, daſs sie nicht am\nEnde in bloße Maschinen, ohne Geist und\nHerz ausarten — und herzlose Anstalten ha-\nben eben so wenig Werth, als herzlose Men-\nschen. Deswegen ist es weit besser, wenn\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 25333805041,
+    "load_duration": 2523080625,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 9764980000,
+    "eval_count": 286,
+    "eval_duration": 12649442000
+  },
+  "markdown": "```markdown\n- 9 -\n\nlen, was ist an dem Einzelnen gelegen? Er\nwird zu einer unbemerbaren Größe — zu\neinem Procent — einem bloßen Recnungs-\ngegenstand. Sollen Armen und Rettungs-\nanstalten gedeihen, so muß man eben im\nEinzelnen das Ganze finden, so muß ihr Le-\nben sich nicht von oben abwärts in — be-\nkanntlich immer schwächer werdenden —\nStralen zum Einzelnen verbreiten, sondern von\nunten herauf, vom Einzelnen zum Ganzen; es\nmuß sich in dem Herzen der Einzelnen erzeu-\ngen, und von da aus zu einem allgemeinen Le-\nben vereinigen. Von oben können sie nichts\nweiter erhalten, als Form und Ordnung. —\nDiefs also ist die große Aufgabe solcher Ein-\nrichtungen: mit der Anordnung und Aufsicht\ndes Ganzen jenen Sinn und jene Selbststän-\ndigkeit des Einzelnen zu verschmelzen, wo-\ndurch allein verhütet wird, daſs sie nicht am\nEnde in bloße Maschinen, ohne Geist und\nHerz ausarten — und herzlose Anstalten ha-\nben eben so wenig Werth, als herzlose Men-\nschen. Deswegen ist es weit besser, wenn\n```",
+  "possibly_truncated": false,
+  "seconds": 25.370524168014526
+}

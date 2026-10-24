@@ -1,0 +1,71 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    27
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "00d39e7da88b06a49aefc7717f8c19bf43ee9adbfefa97bb2ebe1241f07abbc7"
+          },
+          {
+            "sha256": "a4471ab7d0263099dbecdfea1106b629f9e9df246de22bf6b8fcda42cd0413db"
+          },
+          {
+            "sha256": "ee21a17990542e6792393fde7a304d0a8858f9494995aafe816512f23970302a"
+          },
+          {
+            "sha256": "6cfd0b26615783cf262cf276b4d7b959443c5b83b2bc2301929462139bb46b5c"
+          },
+          {
+            "sha256": "a91b147181d7c0090167baf7933ef4b18d9f80502865cca2eb2f25795c827ac6"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:45:14.419245Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 5 -\n\nwirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war ein Lieblingsgegenstand der scharfsinnigsten Köpfe, ein Tummelplatz der Schwärmer, und eine Hauptlobspeise der Charlatans und Betrüger, bei denen man von jeher finden wird, daß es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum anstellten. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie mannigfaltigen, sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verzeichung zu erhalten, wenn ich eine kurze Ueber- längerungsmethoden voransichthe, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Zeiten, unter Ägyptern, Griechen und Römern war diese Idee rege, und schon damals verfiel man in Ägypten, der Mutter so mancher abenteuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hiebe und Ueberschwemmungen ungesunde Klima Veranlassung geben möchte. Man glaubte die Erhaltung des Lebens in Brechen und Schwichen \n\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 27585309458,
+    "load_duration": 2817327667,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 9907060000,
+    "eval_count": 317,
+    "eval_duration": 14787303000
+  },
+  "markdown": "wirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war ein Lieblingsgegenstand der scharfsinnigsten Köpfe, ein Tummelplatz der Schwärmer, und eine Hauptlobspeise der Charlatans und Betrüger, bei denen man von jeher finden wird, daß es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum anstellten. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie mannigfaltigen, sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verzeichung zu erhalten, wenn ich eine kurze Ueber- längerungsmethoden voransichthe, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Zeiten, unter Ägyptern, Griechen und Römern war diese Idee rege, und schon damals verfiel man in Ägypten, der Mutter so mancher abenteuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hiebe und Ueberschwemmungen ungesunde Klima Veranlassung geben möchte. Man glaubte die Erhaltung des Lebens in Brechen und Schwichen",
+  "possibly_truncated": false,
+  "seconds": 27.59098505973816,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1240,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi200/tiles4/gemma3-12b/makrobiotikoderd00hufeuoft/page-0027.json"
+}

@@ -1,0 +1,62 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    25
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "4e575ee3352999f9d808f71e3609c31123e2315e6b8bdbbc9bb0384e03d9c9b3"
+          },
+          {
+            "sha256": "ac398925d09f8fb1b7ce0afdafbae3ef4dd81407a49379a065f4d4ca0098baa6"
+          },
+          {
+            "sha256": "7666b2f2b46db8cbc16b21fbbd1b2bf82fec8df75391b6b2a115ba9289c5581e"
+          },
+          {
+            "sha256": "02526c21505984ed42621e0a6a47bf849b0d69e6744ffa51d478527cfed42f13"
+          },
+          {
+            "sha256": "37fa29413a1edfb4eb1d7775a164892e97e3ee0cd92a79c3f61a5badb17861f9"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:55:05.176628Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\nErste Vorlesung.\nSchicksale dieser Wissenschaft.\n\nBei den Egyptiern und Griechen — Gerocomic — Gymnasic — Hermippus — Zustand derselben im Mittelalter — Theophrastus Paracelsus — Astrologische Methode — Talismans — Thurneisen — Cornaro und seine strenge Diät — Transfusionsmethode — Baco St. Germain — Mesmer — Cagliostro — Graham.\n\nDurch die ganze Natur weht und wirkt jene unbegreifliche Kraft, jener unmittelbare Ausfluf der Gottheit, den wir Leben nennen. Ueberall stoßen wir auf Erscheinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuruß der ganzen uns umgebenden Natur. Leben ist’s, wodurch der Stein sich ballt und crystallisirt, die Pflanze vegetirt, das Thier fühlt und wirkt; — aber im höchsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der sichtbar-en Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\nI *\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 26147241667,
+    "load_duration": 2424124042,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 10206803000,
+    "eval_count": 280,
+    "eval_duration": 13397220000
+  },
+  "markdown": "```markdown\nErste Vorlesung.\nSchicksale dieser Wissenschaft.\n\nBei den Egyptiern und Griechen — Gerocomic — Gymnasic — Hermippus — Zustand derselben im Mittelalter — Theophrastus Paracelsus — Astrologische Methode — Talismans — Thurneisen — Cornaro und seine strenge Diät — Transfusionsmethode — Baco St. Germain — Mesmer — Cagliostro — Graham.\n\nDurch die ganze Natur weht und wirkt jene unbegreifliche Kraft, jener unmittelbare Ausfluf der Gottheit, den wir Leben nennen. Ueberall stoßen wir auf Erscheinungen und Wirkungen, die ihre Gegenwart, obgleich in unendlich verschiedenen Modifikationen und Gestalten, unverkennbar bezeugen, und Leben ist der Zuruß der ganzen uns umgebenden Natur. Leben ist’s, wodurch der Stein sich ballt und crystallisirt, die Pflanze vegetirt, das Thier fühlt und wirkt; — aber im höchsten Glanz von Vollkommenheit, Fülle und Ausbildung erscheint es in dem Menschen, dem obersten Gliede der sichtbar-en Schöpfung. Wir mögen die ganze Reihe der Wesen durchgehen, nirgends finden wir eine so vollkommene Verbindung aller lebendigen Kräfte der\nI *\n```",
+  "possibly_truncated": false,
+  "seconds": 26.157809019088745
+}

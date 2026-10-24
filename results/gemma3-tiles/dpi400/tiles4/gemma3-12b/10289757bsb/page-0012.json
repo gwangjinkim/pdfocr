@@ -1,0 +1,62 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    12
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "981545b2e4301d50aa6711cd70711e15cea1905e144d21a4ddb71b2d0c3d8019"
+          },
+          {
+            "sha256": "2162fc9b104e8be25b4431bbcd65d76a471d0dc0fc498a7c4f84aaa8580f8804"
+          },
+          {
+            "sha256": "ee90472c2e4866935507807d39e63fd2fde5cc0d31dff3e7b3c85bc3c55f16d8"
+          },
+          {
+            "sha256": "466ae1a7e885dee6976f122ea10edf8ca87486260568548f6b709ec804af04f3"
+          },
+          {
+            "sha256": "c124ae67552cb5f0105de1662034dfba2acb4691244d35ffede49d08e033fe59"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:52:55.00433Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n– 8 –\n\nlosen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Unglücklichen ein neuer Zugang zu dem Vornehmen und Reichen, theils diesem, was oft noch schwerer ist, ein neuer Weg eröffnet wird, auf eine sichere und würdige Art seine Wohlthaten den Armen zuzufleissen zu lassen; denn wer kennt wohl die Lage und die Bedürfnisse der Armen besser, als der Arzt? Und wer kann ihm die Hilfe wohlthätiger und zweckmässiger reichen?\n\n3. Je mehr die Menschen in Masse behandelt werden, desto mehr verliert sich der Sinn für das Individuum, der doch allein jene Wärme des Gefühls und jene Herzens-\ntheilnahme erzeugt, durch welche solche Anstalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort. des Göttlichen anwenden „Wer den Menschen nicht liebt, den er sieht, wie kann er die Menschheit lieben, die er nicht siehet?” Die gewöhnliche Menschheitsliebe verschlingt sehr häufig die Menschenliebe, und es würde manchem, der nichts als Beglückungsprojekte für die Menschheit im Großen im Munde führt, oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 26450454541,
+    "load_duration": 3135750791,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 9598440000,
+    "eval_count": 304,
+    "eval_duration": 13318055000
+  },
+  "markdown": "```markdown\n– 8 –\n\nlosen mit dem wohlhabenden Theil des Publikums vermehrt werden, wodurch theils den Unglücklichen ein neuer Zugang zu dem Vornehmen und Reichen, theils diesem, was oft noch schwerer ist, ein neuer Weg eröffnet wird, auf eine sichere und würdige Art seine Wohlthaten den Armen zuzufleissen zu lassen; denn wer kennt wohl die Lage und die Bedürfnisse der Armen besser, als der Arzt? Und wer kann ihm die Hilfe wohlthätiger und zweckmässiger reichen?\n\n3. Je mehr die Menschen in Masse behandelt werden, desto mehr verliert sich der Sinn für das Individuum, der doch allein jene Wärme des Gefühls und jene Herzens-\ntheilnahme erzeugt, durch welche solche Anstalten gedeihen*). Ist man gewohnt, die Menschen zu Hunderten und Tausenden zu zäh-\n\n*) Man kann hierauf sehr passend das schöne Wort. des Göttlichen anwenden „Wer den Menschen nicht liebt, den er sieht, wie kann er die Menschheit lieben, die er nicht siehet?” Die gewöhnliche Menschheitsliebe verschlingt sehr häufig die Menschenliebe, und es würde manchem, der nichts als Beglückungsprojekte für die Menschheit im Großen im Munde führt, oft schwer ankommen, die geringste persönliche Aufopferung für den Einzelnen zu machen.\n```",
+  "possibly_truncated": false,
+  "seconds": 26.48559308052063
+}

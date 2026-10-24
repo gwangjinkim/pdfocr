@@ -1,0 +1,71 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    27
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "4e84aa8f5d18813239565da9c04169847e7547b46b84c0b0753a23cb1bf460bf"
+          },
+          {
+            "sha256": "2ab1a373eda939f278b04a0ff1e4fbed74984ed71c032a38356792d48566462b"
+          },
+          {
+            "sha256": "cc36763c8ae29812e00c1848f3ba1b38231472e28a06fdc02a1f63697dfbb294"
+          },
+          {
+            "sha256": "f73aa475c284cc6e62a7fda0029c30c92f1f8e71afbf5be2809744123d9dc61a"
+          },
+          {
+            "sha256": "0653c0d1c2af56215fd7109996ed89e2ff6d88c49007f0501ab58dd6e8ae9956"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:55:36.813948Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n— 5 —\n\nwirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war ein Lieblingsgegenstand der scharfsinnigsten Köpfe, ein Tummelplatz der Schwärmer, und eine Hauptlockspeise der Charlatans und Betrüger, bei denen man von jeher finden wird, daß es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum anziehen. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie männigfaltigen, sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verzeichung zu erhalten, wenn ich eine kurze Uebersicht der nach und nach vorgekommenen Lebensverlängerungsmethoden vorausblicke, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Zeiten, unter Ägyptern, Griechen und Römern war diese Idee rege, und schon damals verfiel man in Ägypten, der Mutter so mancher abenteuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hiebe und Ueberschwemmungen ungesunde Klima Veranlassung geben mochte. Man glaubte die Erhaltung des Lebens in Brechen und Schwizen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindet du dich, fragte man einander: Wie schwinkest du? —\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 31405114916,
+    "load_duration": 2440579041,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 10439133000,
+    "eval_count": 370,
+    "eval_duration": 18394802000
+  },
+  "markdown": "wirklich beschäftigte dies Problem von jeher die Menschheit auf verschiedene Weise. Es war ein Lieblingsgegenstand der scharfsinnigsten Köpfe, ein Tummelplatz der Schwärmer, und eine Hauptlockspeise der Charlatans und Betrüger, bei denen man von jeher finden wird, daß es entweder Umgang mit Geistern, oder Goldmacherkunst oder Verlängerung des Lebens war, wodurch sie das größere Publikum anziehen. Es ist interessant und ein Beitrag zur Geschichte des menschlichen Verstandes, zu sehen, auf wie männigfaltigen, sich oft ganz entgegengesetzten Wegen man dies Gut zu erlangen hoffte, und da selbst in den neuesten Zeiten die Cagliostros und Mesmers wichtige Beiträge dazu geliefert haben, so glaube ich Verzeichung zu erhalten, wenn ich eine kurze Uebersicht der nach und nach vorgekommenen Lebensverlängerungsmethoden vorausblicke, ehe ich zu meinem Hauptgegenstande übergehe.\n\nSchon in den frühesten Zeiten, unter Ägyptern, Griechen und Römern war diese Idee rege, und schon damals verfiel man in Ägypten, der Mutter so mancher abenteuerlichen Ideen, auf künstliche und unnatürliche Mittel zu diesem Zweck, wozu freilich das durch Hiebe und Ueberschwemmungen ungesunde Klima Veranlassung geben mochte. Man glaubte die Erhaltung des Lebens in Brechen und Schwizen gefunden zu haben; es wurde allgemeine Sitte, alle Monate wenigstens zwei Brechmittel zu nehmen, und statt zu sagen, wie befindet du dich, fragte man einander: Wie schwinkest du? —",
+  "possibly_truncated": false,
+  "seconds": 31.415468215942383,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1464,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi400/tiles4/gemma3-12b/makrobiotikoderd00hufeuoft/page-0027.json"
+}

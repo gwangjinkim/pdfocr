@@ -1,0 +1,68 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    201
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "78a92b991f459578e3959ce9ef194e03758d554ed17f5a9d63c0bffbbcb3668c"
+          },
+          {
+            "sha256": "5b487c919c780e5a305fd4375adc97a53def7fcd06f3cd6bfa9ff912548bb73a"
+          },
+          {
+            "sha256": "8ad30370e4bb303e9a0a1fc14d33821a8aaf524047cd6bbe029cde5dd84b3b55"
+          },
+          {
+            "sha256": "6e86d5e84b5ea753d3acdb897f5ad18e0604f2e1dc91dc642f80b8d6738b10ee"
+          },
+          {
+            "sha256": "68d2f19726095a618b9dec3aa8ad1b896c27d03c2699c4e4270f816520dae986"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T16:00:20.747122Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n179\n\nGroßmächtigte aller Herrscher im animalischen Reiche\nin dieser Hinsicht ist, und man kann mit vollen\nRechte behaupten, ohne einen guten Magen ist es\nunmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grund-\nstein des langen Lebens: Einmal, indem er das erste\nund wichtigste Restaurationsorgan unsrer Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingehen muß, die erste Instanz, von deren gutem\noder schlechtem Zustand nicht nur die Quantität, son-\ndern auch die Qualität unsres Ernähres abhängt. —\nZweitens, indem durch die Beschaffenheit des Ma-\ngens selbst die Einwirkung der Leidenschaften, der\nKrankheitsursachen und andrer zerstörender Einflüsse\nauf unsern Körper modifiziert wird. — „Er hat einen\nguten Magen,\" sagt man im Sprichwort, wenn\nman Jemanden charakterisiren will, auf den weder Her-\nzer, noch Kummer, noch Kränkungen schädlich wir-\nken, und gewiß, es liegt viel Wahres darin. —\nAlle diese Leidenschaften müssen vorzüglich den Ma-\ngen afficiren, von ihm gleichsam empfangen und\nangenommen werden, wenn sie in unser Physisches\nübergehen und Schaden sollen. Ein guter robuster\nMagen nimmt gar keine Notiz davon. Hingegen ein\nschwacher empfindlicher Magen wird alle Augenblicke\ndurch so etwas in seiner Verrichtung gestört, und\n\n179\n\nGroßmächtigte aller Herrscher im animalischen Reiche\nin dieser Hinsicht ist, und man kann mit vollen\nRechte behaupten, ohne einen guten Magen ist es\nunmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grund-\nstein des langen Lebens: Einmal, indem er das erste\nund wichtigste Restaurationsorgan unsrer Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingehen muß, die erste Instanz, von deren gutem\noder schlechtem Zustand nicht nur die Quantität, son-\ndern auch die Qualität unsres Ernähres abhängt. —\nZweitens, indem durch die Beschaffenheit des Ma-\ngens selbst die Einwirkung der Leidenschaften, der\nKrankheitsursachen und andrer zerstörender Einflüsse\nauf unsern Körper modifiziert wird. — „Er hat einen\nguten Magen,\" sagt man im Sprichwort, wenn\nman Jemanden charakterisiren will, auf den weder Her-\n\n179\n\nGroßmächtigte aller Herrscher im animalischen Reiche\nin dieser Hinsicht ist, und man kann mit vollen\nRechte behaupten, ohne einen guten Magen ist es\nunmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grund-\nstein des langen Lebens: Einmal, indem er das erste\nund wichtigste Restaurationsorgan unsrer Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingehen muß, die erste Instanz, von deren gutem\noder schlechtem Zustand nicht nur die Quantität, son-\ndern auch die Qualität unsres Ernähres abhängt. —\nZweitens, indem durch die Beschaffenheit des Ma-\ngens selbst die Einwirkung der Leidenschaften, der\nKrankheitsursachen und andrer zerstörender Einflüsse\nauf unsern Körper modifiziert wird. — „Er hat einen\nguten Magen,\" sagt man im Sprichwort, wenn\nman Jemanden charakterisiren will, auf den weder Her-\n\n179\n\nGroßmächtigte aller Herrscher im animalischen Reiche\nin dieser Hinsicht ist, und man kann mit vollen\nRechte behaupten, ohne einen guten Magen ist es\nunmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grund-\nstein des langen Lebens: Einmal, indem er das erste\nund wichtigste Restaurationsorgan unsrer Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingehen muß, die erste Instanz, von deren gutem\noder schlechtem Zustand nicht nur die Quantität, son-\ndern auch die Qualität unsres Ernähres abhängt. —\nZweitens, indem durch die Beschaffenheit des Ma-\ngens selbst die Einwirkung der Leidenschaften, der\nKrankheitsursachen und andrer zerstörender Einflüsse\nauf unsern Körper modifiziert wird. — „Er hat einen\nguten Magen,\" sagt man im Sprichwort, wenn\nman Jemanden charakterisiren will, auf den weder Her-\nzer, noch Kummer, noch Kränkungen schädlich wir-\nken, und gewiß, es liegt viel Wahres darin. —\nAlle diese Leidenschaften müssen vorzüglich den Ma-\ngen afficiren, von ihm gleichsam empfangen und\nangenommen werden, wenn sie in unser Physisches\nübergehen und Schaden sollen. Ein guter robuster\nMagen nimmt gar keine Notiz davon. Hingegen ein\nschwacher empfindlicher Magen wird alle Augenblicke\ndurch so etwas in seiner Verrichtung gestört, und\n\ndurch so etwas in seiner Verrichtung gestört, und\nfolglich das so wichtige Restaurationsgeschäft unauf-\nhörlich unterbrechen und schlecht betrieben. — Eben\nso ist es mit den meisten physischen Krankheitssein-\nsätzen; die meisten machen ihren ersten Eindruck auf"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 79865407625,
+    "load_duration": 2468364084,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 11453869000,
+    "eval_count": 1245,
+    "eval_duration": 65813948999
+  },
+  "markdown": "```markdown\n179\n\nGroßmächtigte aller Herrscher im animalischen Reiche\nin dieser Hinsicht ist, und man kann mit vollen\nRechte behaupten, ohne einen guten Magen ist es\nunmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grund-\nstein des langen Lebens: Einmal, indem er das erste\nund wichtigste Restaurationsorgan unsrer Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingehen muß, die erste Instanz, von deren gutem\noder schlechtem Zustand nicht nur die Quantität, son-\ndern auch die Qualität unsres Ernähres abhängt. —\nZweitens, indem durch die Beschaffenheit des Ma-\ngens selbst die Einwirkung der Leidenschaften, der\nKrankheitsursachen und andrer zerstörender Einflüsse\nauf unsern Körper modifiziert wird. — „Er hat einen\nguten Magen,\" sagt man im Sprichwort, wenn\nman Jemanden charakterisiren will, auf den weder Her-\nzer, noch Kummer, noch Kränkungen schädlich wir-\nken, und gewiß, es liegt viel Wahres darin. —\nAlle diese Leidenschaften müssen vorzüglich den Ma-\ngen afficiren, von ihm gleichsam empfangen und\nangenommen werden, wenn sie in unser Physisches\nübergehen und Schaden sollen. Ein guter robuster\nMagen nimmt gar keine Notiz davon. Hingegen ein\nschwacher empfindlicher Magen wird alle Augenblicke\ndurch so etwas in seiner Verrichtung gestört, und\n\n179\n\nGroßmächtigte aller Herrscher im animalischen Reiche\nin dieser Hinsicht ist, und man kann mit vollen\nRechte behaupten, ohne einen guten Magen ist es\nunmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grund-\nstein des langen Lebens: Einmal, indem er das erste\nund wichtigste Restaurationsorgan unsrer Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingehen muß, die erste Instanz, von deren gutem\noder schlechtem Zustand nicht nur die Quantität, son-\ndern auch die Qualität unsres Ernähres abhängt. —\nZweitens, indem durch die Beschaffenheit des Ma-\ngens selbst die Einwirkung der Leidenschaften, der\nKrankheitsursachen und andrer zerstörender Einflüsse\nauf unsern Körper modifiziert wird. — „Er hat einen\nguten Magen,\" sagt man im Sprichwort, wenn\nman Jemanden charakterisiren will, auf den weder Her-\n\n179\n\nGroßmächtigte aller Herrscher im animalischen Reiche\nin dieser Hinsicht ist, und man kann mit vollen\nRechte behaupten, ohne einen guten Magen ist es\nunmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grund-\nstein des langen Lebens: Einmal, indem er das erste\nund wichtigste Restaurationsorgan unsrer Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingehen muß, die erste Instanz, von deren gutem\noder schlechtem Zustand nicht nur die Quantität, son-\ndern auch die Qualität unsres Ernähres abhängt. —\nZweitens, indem durch die Beschaffenheit des Ma-\ngens selbst die Einwirkung der Leidenschaften, der\nKrankheitsursachen und andrer zerstörender Einflüsse\nauf unsern Körper modifiziert wird. — „Er hat einen\nguten Magen,\" sagt man im Sprichwort, wenn\nman Jemanden charakterisiren will, auf den weder Her-\n\n179\n\nGroßmächtigte aller Herrscher im animalischen Reiche\nin dieser Hinsicht ist, und man kann mit vollen\nRechte behaupten, ohne einen guten Magen ist es\nunmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Hinsicht ist der Magen der Grund-\nstein des langen Lebens: Einmal, indem er das erste\nund wichtigste Restaurationsorgan unsrer Natur ist,\ndie Pforte, wodurch alles, was unser werden soll,\neingehen muß, die erste Instanz, von deren gutem\noder schlechtem Zustand nicht nur die Quantität, son-\ndern auch die Qualität unsres Ernähres abhängt. —\nZweitens, indem durch die Beschaffenheit des Ma-\ngens selbst die Einwirkung der Leidenschaften, der\nKrankheitsursachen und andrer zerstörender Einflüsse\nauf unsern Körper modifiziert wird. — „Er hat einen\nguten Magen,\" sagt man im Sprichwort, wenn\nman Jemanden charakterisiren will, auf den weder Her-\nzer, noch Kummer, noch Kränkungen schädlich wir-\nken, und gewiß, es liegt viel Wahres darin. —\nAlle diese Leidenschaften müssen vorzüglich den Ma-\ngen afficiren, von ihm gleichsam empfangen und\nangenommen werden, wenn sie in unser Physisches\nübergehen und Schaden sollen. Ein guter robuster\nMagen nimmt gar keine Notiz davon. Hingegen ein\nschwacher empfindlicher Magen wird alle Augenblicke\ndurch so etwas in seiner Verrichtung gestört, und\n\ndurch so etwas in seiner Verrichtung gestört, und\nfolglich das so wichtige Restaurationsgeschäft unauf-\nhörlich unterbrechen und schlecht betrieben. — Eben\nso ist es mit den meisten physischen Krankheitssein-\nsätzen; die meisten machen ihren ersten Eindruck auf",
+  "possibly_truncated": false,
+  "seconds": 79.87579488754272,
+  "format_cleanup": {
+    "source_start": 0,
+    "source_end": 4563,
+    "operations": []
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi400/tiles4/gemma3-12b/makrobiotikoderd00hufeuoft/page-0201.json"
+}

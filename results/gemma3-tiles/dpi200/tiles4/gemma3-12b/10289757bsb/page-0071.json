@@ -1,0 +1,62 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    71
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "ebcee2d3f1c59f33e859564e47dd0be9e0bba39bdfefd8997bf90823d064c459"
+          },
+          {
+            "sha256": "90d93fb7475115dff307da70baa621176570c02975df3f7665878bf1966bf209"
+          },
+          {
+            "sha256": "81c46b5547a43a5c7b80b8297687fd60656ea8336303a54b9a37f5d0e010cc40"
+          },
+          {
+            "sha256": "68f47b0750f78269de035f6cbb756574bc33e6073fdfa44d7af32fe6ad3a7cb2"
+          },
+          {
+            "sha256": "621da2a5b473d5fe32fecf74e2b3f6e20e6470dadd59253f2c589f02ff11ee1f"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:44:22.874646Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n67\n\n* Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum,)\n℞. Sulphuris stibiat. aurantiac. ži\nsolve digerend, in s. q.\nLiquor. Kali caustic.\nadmisce\n\nSapon. medicat. žiij\nSpirit. Vin. rectificatis.\nAq. destillat. ää 3vj\nDigerantur.\n\nEin höchst wirksames Mittel bei hartnäckigen Rheu-\nmatismen, Flechten, und andern Hautkrankheiten\nzu 20 bis 50 Tropfen täglich enigemal.\n\n* Tinctura aromatica Ph. P.\n\n℞. Rad. Calam\nAngelic.\nZingiber.\nHelen.\n\nHb. Menth. pip.\nSem. Anis. ää ži\nCaryophyllor.\nCinamom. ää 3ſs\nPiper. nigr. žiij\nC. c. digere cum\nSpirit. Vin. rectificat. țiij\nfiltr. add.\nOl. Anis. žiij\n\nE 2\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 21716108292,
+    "load_duration": 2857749875,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 9050454000,
+    "eval_count": 254,
+    "eval_duration": 9427298000
+  },
+  "markdown": "```markdown\n67\n\n* Tinctura Antimonii acris.\n(Sulphur Antimonii liquidum,)\n℞. Sulphuris stibiat. aurantiac. ži\nsolve digerend, in s. q.\nLiquor. Kali caustic.\nadmisce\n\nSapon. medicat. žiij\nSpirit. Vin. rectificatis.\nAq. destillat. ää 3vj\nDigerantur.\n\nEin höchst wirksames Mittel bei hartnäckigen Rheu-\nmatismen, Flechten, und andern Hautkrankheiten\nzu 20 bis 50 Tropfen täglich enigemal.\n\n* Tinctura aromatica Ph. P.\n\n℞. Rad. Calam\nAngelic.\nZingiber.\nHelen.\n\nHb. Menth. pip.\nSem. Anis. ää ži\nCaryophyllor.\nCinamom. ää 3ſs\nPiper. nigr. žiij\nC. c. digere cum\nSpirit. Vin. rectificat. țiij\nfiltr. add.\nOl. Anis. žiij\n\nE 2\n```",
+  "possibly_truncated": false,
+  "seconds": 21.750841856002808
+}

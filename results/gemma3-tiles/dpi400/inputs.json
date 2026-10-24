@@ -1,0 +1,1820 @@
+{
+  "dpi": 400,
+  "pages": [
+    {
+      "book": "10289757bsb",
+      "page": 9,
+      "width": 6700,
+      "height": 11667,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/10289757bsb/pages/page-0009.png",
+      "sha256": "c9a62ba0608981cc68b9d3f8d265c6cf63b8cf18b035cacfd5a9fcad410bd8cb",
+      "capped_overview_sha256": "cd935312e3dc21f370df621e2a53ecfea3f588aed3f51878914bbefddbaa8f95",
+      "tiling": {
+        "parent_sha256": "cd935312e3dc21f370df621e2a53ecfea3f588aed3f51878914bbefddbaa8f95",
+        "parent_size": [
+          1654,
+          2880
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/10289757bsb/page-0009.png",
+            "sha256": "cd935312e3dc21f370df621e2a53ecfea3f588aed3f51878914bbefddbaa8f95",
+            "size": [
+              1654,
+              2880
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0009/band-1.png",
+            "box": [
+              0,
+              0,
+              1654,
+              778
+            ],
+            "sha256": "dcd68bcf26cd6ceaaf5de0f30575d4d6ca2b579a4e95a75ea199b3246e84e8c0",
+            "size": [
+              1654,
+              778
+            ],
+            "rgb_sha256": "03c5b88f1706e0051a3b157d7bdc0b13002ba68272982c323657de963166d9ea",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0009/band-2.png",
+            "box": [
+              0,
+              662,
+              1654,
+              1498
+            ],
+            "sha256": "267404a29057415066f0970f8c3b2c46c4d714af82c64dbf95de8f42e4e0dd6e",
+            "size": [
+              1654,
+              836
+            ],
+            "rgb_sha256": "7dcf4e61fc1def0a85fb55f8b35ef7ae9a57c0c8ae3ae8d16f124522ab0522a5",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0009/band-3.png",
+            "box": [
+              0,
+              1382,
+              1654,
+              2218
+            ],
+            "sha256": "19ceb9a5723903b6cab4f41339cca0f015cca7cbd9cd66bc81efb67f2dd97eb6",
+            "size": [
+              1654,
+              836
+            ],
+            "rgb_sha256": "cbcb686228f926c984f690525876aed4c1e5391ff8a8d42819fa75f5c03ebef9",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0009/band-4.png",
+            "box": [
+              0,
+              2102,
+              1654,
+              2880
+            ],
+            "sha256": "1d7f4023927e326232901bd04e042c34c42c6fe43d76839dc7e0b233388f7403",
+            "size": [
+              1654,
+              778
+            ],
+            "rgb_sha256": "197349ea9f7892936d60b93fa00f1ffe59cf083d5f897cc20cc60b98faca9a72",
+            "exact_source_crop": true
+          }
+        ],
+        "same_prompt_overview_control": {
+          "path": "workspace/gemma3-tiles/dpi400/overview-control/gemma3-12b/10289757bsb/page-0009.json",
+          "prompt_tokens": 383,
+          "tiled_prompt_tokens": 1463,
+          "extra_prompt_tokens": 1080
+        }
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 26,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0026.png",
+      "sha256": "80684ea168feeafde5265c39683482cebe9d59032feca694b4bb2b824dd0738c",
+      "capped_overview_sha256": "3dbc1e0948653e8554b03adbc0a9da1b485b56c6cb08c1a06df65a5c21858042",
+      "tiling": {
+        "parent_sha256": "3dbc1e0948653e8554b03adbc0a9da1b485b56c6cb08c1a06df65a5c21858042",
+        "parent_size": [
+          1283,
+          2313
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/makrobiotikoderd00hufeuoft/page-0026.png",
+            "sha256": "3dbc1e0948653e8554b03adbc0a9da1b485b56c6cb08c1a06df65a5c21858042",
+            "size": [
+              1283,
+              2313
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0026/band-1.png",
+            "box": [
+              0,
+              0,
+              1283,
+              624
+            ],
+            "sha256": "dd2b367654aa05d6e377adeaa0f065813733335384b360c00eb45f148931df1b",
+            "size": [
+              1283,
+              624
+            ],
+            "rgb_sha256": "f851bee3cb27e6f4c50b0a2f08100cf5a1cd41b36129b8eaf966ca508dba70f5",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0026/band-2.png",
+            "box": [
+              0,
+              532,
+              1283,
+              1202
+            ],
+            "sha256": "e3fb398d9e474b5266e809e4628067b6ea7c6b69b2b09845de1b23ada9bd2a4d",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "7f7f74e78832af867c73aadbd8b955dce1a9f0e57b3716b4bba5b88d43a2b428",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0026/band-3.png",
+            "box": [
+              0,
+              1110,
+              1283,
+              1780
+            ],
+            "sha256": "44ea9de9bf0a6ba1a9536ed4a976aecf59ad8bf19a1ecf7dfcd3aaa1d09aeda7",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "cd9df5c8b813af02948821388e2c6a4c2706114bc06564aec5bf9618536f4a6b",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0026/band-4.png",
+            "box": [
+              0,
+              1688,
+              1283,
+              2313
+            ],
+            "sha256": "28919ed4657f72c96fc44e4fcd746c6f9f2eff205b30b820c62c44a8e851ff03",
+            "size": [
+              1283,
+              625
+            ],
+            "rgb_sha256": "3499e3f0c1a98fc273abc45e428e44b210d367a5013fa55f72d29ccde88fc3e7",
+            "exact_source_crop": true
+          }
+        ],
+        "same_prompt_overview_control": {
+          "path": "workspace/gemma3-tiles/dpi400/overview-control/gemma3-12b/makrobiotikoderd00hufeuoft/page-0026.json",
+          "prompt_tokens": 383,
+          "tiled_prompt_tokens": 1463,
+          "extra_prompt_tokens": 1080
+        }
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "10289757bsb",
+      "page": 10,
+      "width": 6717,
+      "height": 11633,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/10289757bsb/pages/page-0010.png",
+      "sha256": "a5927b57b192034d56607c6bfa3f9fa33dceb39b2c0528006135dfb2d595cc72",
+      "capped_overview_sha256": "a93dbfbf71935e12b24e8afa9d12ada7651213e7b065fdd1226ecb6acfbd072f",
+      "tiling": {
+        "parent_sha256": "a93dbfbf71935e12b24e8afa9d12ada7651213e7b065fdd1226ecb6acfbd072f",
+        "parent_size": [
+          1663,
+          2880
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/10289757bsb/page-0010.png",
+            "sha256": "a93dbfbf71935e12b24e8afa9d12ada7651213e7b065fdd1226ecb6acfbd072f",
+            "size": [
+              1663,
+              2880
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0010/band-1.png",
+            "box": [
+              0,
+              0,
+              1663,
+              778
+            ],
+            "sha256": "880c3db3269f169e48749ccdb10d5559c74a8e86602196c48fa102d502ec201e",
+            "size": [
+              1663,
+              778
+            ],
+            "rgb_sha256": "753459b0e6ce3bddf0d048b9daa3d611e24e59f9c5be73ed19d5d083c5b671fb",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0010/band-2.png",
+            "box": [
+              0,
+              662,
+              1663,
+              1498
+            ],
+            "sha256": "fe69062a2fc5e10137b807910d4c529a7574e30e0272823e584b52b1ab12a1bb",
+            "size": [
+              1663,
+              836
+            ],
+            "rgb_sha256": "a92c5c4ba53e02823d023a04a76a58790494e9ca4a8029dbb6271426936875cb",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0010/band-3.png",
+            "box": [
+              0,
+              1382,
+              1663,
+              2218
+            ],
+            "sha256": "b2a6a5f73ebb680210afa4fea24a99d8406478c6d6262573df683d1ba7c893b0",
+            "size": [
+              1663,
+              836
+            ],
+            "rgb_sha256": "58d41fef000a303d6ca4bde1a1754a2a9db8d2994e541fc90be92fb206124ef7",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0010/band-4.png",
+            "box": [
+              0,
+              2102,
+              1663,
+              2880
+            ],
+            "sha256": "a29afd1b8732a188ed2e6b7c1adaf8dc7731c7ddf0c726e4a16437c4ee4884be",
+            "size": [
+              1663,
+              778
+            ],
+            "rgb_sha256": "8d7b3da7c67bf0c22fe0cd18ddde0be8aae83a6afd26b632ddfdea67bbdfa031",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "10289757bsb",
+      "page": 11,
+      "width": 6806,
+      "height": 11689,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/10289757bsb/pages/page-0011.png",
+      "sha256": "a0d0c36879bb477a49ecf1131554da9f0ecba5d42378a84a432dbcb1ed2b6954",
+      "capped_overview_sha256": "a54b8154eebdde95e7abcfe03b0dff65816c4d743617151716bd7089a659028b",
+      "tiling": {
+        "parent_sha256": "a54b8154eebdde95e7abcfe03b0dff65816c4d743617151716bd7089a659028b",
+        "parent_size": [
+          1677,
+          2880
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/10289757bsb/page-0011.png",
+            "sha256": "a54b8154eebdde95e7abcfe03b0dff65816c4d743617151716bd7089a659028b",
+            "size": [
+              1677,
+              2880
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0011/band-1.png",
+            "box": [
+              0,
+              0,
+              1677,
+              778
+            ],
+            "sha256": "5d2a9372312d86e6e567795bd22d66034ff015c446395df7373e56de14c6d45a",
+            "size": [
+              1677,
+              778
+            ],
+            "rgb_sha256": "813c71193a8f365053873c89544217a1bb92381495b0f84eba9f7d6eea7159a2",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0011/band-2.png",
+            "box": [
+              0,
+              662,
+              1677,
+              1498
+            ],
+            "sha256": "fa73783f4093a9bd564686ca02b8d800d1efd92f911d289e1fa2936aef5e6f94",
+            "size": [
+              1677,
+              836
+            ],
+            "rgb_sha256": "f9dbf7c1c67e3b4501544ac7e5e44b6bdf1067e1ea262e76b5cac72debe0d897",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0011/band-3.png",
+            "box": [
+              0,
+              1382,
+              1677,
+              2218
+            ],
+            "sha256": "0774039577268b5770321124f07acf1742ede1f0b4a7b01696b9fc6a12b81c3d",
+            "size": [
+              1677,
+              836
+            ],
+            "rgb_sha256": "670185390949f6f714ebf43d4796c04e2e022555cf466d8b1de56ebae229cbf5",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0011/band-4.png",
+            "box": [
+              0,
+              2102,
+              1677,
+              2880
+            ],
+            "sha256": "55b4aa7aaf500231a90c7c66cd6e2b146865955e7d19e6c4040aa0cb9c94e598",
+            "size": [
+              1677,
+              778
+            ],
+            "rgb_sha256": "a99edd586bc7e6e656421e23b3bbbe670b858535e624f05c5b1785d1c83aae5c",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "10289757bsb",
+      "page": 12,
+      "width": 7044,
+      "height": 11628,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/10289757bsb/pages/page-0012.png",
+      "sha256": "28ee0f9392e6ade20089c9a31272a2de35348ed89a8d541a81673bba2ef923cc",
+      "capped_overview_sha256": "981545b2e4301d50aa6711cd70711e15cea1905e144d21a4ddb71b2d0c3d8019",
+      "tiling": {
+        "parent_sha256": "981545b2e4301d50aa6711cd70711e15cea1905e144d21a4ddb71b2d0c3d8019",
+        "parent_size": [
+          1745,
+          2880
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/10289757bsb/page-0012.png",
+            "sha256": "981545b2e4301d50aa6711cd70711e15cea1905e144d21a4ddb71b2d0c3d8019",
+            "size": [
+              1745,
+              2880
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0012/band-1.png",
+            "box": [
+              0,
+              0,
+              1745,
+              778
+            ],
+            "sha256": "2162fc9b104e8be25b4431bbcd65d76a471d0dc0fc498a7c4f84aaa8580f8804",
+            "size": [
+              1745,
+              778
+            ],
+            "rgb_sha256": "3921e3138cce1f38b77499a5e96d4313c4e1ef16852e6fd107df93a4af6a634b",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0012/band-2.png",
+            "box": [
+              0,
+              662,
+              1745,
+              1498
+            ],
+            "sha256": "ee90472c2e4866935507807d39e63fd2fde5cc0d31dff3e7b3c85bc3c55f16d8",
+            "size": [
+              1745,
+              836
+            ],
+            "rgb_sha256": "ae83da4c63f4ac4502f8c5ff3dc362df316fae9ca563996f8443b1439cefdd8e",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0012/band-3.png",
+            "box": [
+              0,
+              1382,
+              1745,
+              2218
+            ],
+            "sha256": "466ae1a7e885dee6976f122ea10edf8ca87486260568548f6b709ec804af04f3",
+            "size": [
+              1745,
+              836
+            ],
+            "rgb_sha256": "f9a05b4d0d4fce0f238cfb7bb2aed39df7be38c5a89e0bd118308fc747ddbfa1",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0012/band-4.png",
+            "box": [
+              0,
+              2102,
+              1745,
+              2880
+            ],
+            "sha256": "c124ae67552cb5f0105de1662034dfba2acb4691244d35ffede49d08e033fe59",
+            "size": [
+              1745,
+              778
+            ],
+            "rgb_sha256": "ae77c3e5fff91bcc2391af25b5389d288eec054fed434cff406f222e8988be28",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "10289757bsb",
+      "page": 13,
+      "width": 6744,
+      "height": 11633,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/10289757bsb/pages/page-0013.png",
+      "sha256": "dd2827180af66064268211e9bed8345143cdc5abcea15af0a4db8a222a751a63",
+      "capped_overview_sha256": "6cfbb9dfa72a67d26992a737c07c43444eccdc7e393a03184e97e3f50da96409",
+      "tiling": {
+        "parent_sha256": "6cfbb9dfa72a67d26992a737c07c43444eccdc7e393a03184e97e3f50da96409",
+        "parent_size": [
+          1670,
+          2880
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/10289757bsb/page-0013.png",
+            "sha256": "6cfbb9dfa72a67d26992a737c07c43444eccdc7e393a03184e97e3f50da96409",
+            "size": [
+              1670,
+              2880
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0013/band-1.png",
+            "box": [
+              0,
+              0,
+              1670,
+              778
+            ],
+            "sha256": "d866c78218eb8d6102dbbeceefd7fc3e222e7b5a0ad171502ba32db5fc91a22b",
+            "size": [
+              1670,
+              778
+            ],
+            "rgb_sha256": "5fa0a005a6f13f997af7bb63185204e605dab9e096be2ebfeb922d5ae6662581",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0013/band-2.png",
+            "box": [
+              0,
+              662,
+              1670,
+              1498
+            ],
+            "sha256": "db03fea8e01a024ab9fc1281015c81430115f609e2a30cd37134084a28c3d1f3",
+            "size": [
+              1670,
+              836
+            ],
+            "rgb_sha256": "ca2430db798b9ee4208c0830f5d43429e30b3e4a00dcbc905705fc33abbf2c35",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0013/band-3.png",
+            "box": [
+              0,
+              1382,
+              1670,
+              2218
+            ],
+            "sha256": "0204781300ee9abdac5d013edd512d35e8f0a8d20fa5cc749683126c59b1f8dd",
+            "size": [
+              1670,
+              836
+            ],
+            "rgb_sha256": "249bbbeb469c31f86dd73da4fd114362111f6bf53e633b1b2b56d56fd21a834c",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0013/band-4.png",
+            "box": [
+              0,
+              2102,
+              1670,
+              2880
+            ],
+            "sha256": "a095ecf316b433b65421db7213ef52a4fbdd2f228d37bb4daf689f04abd87351",
+            "size": [
+              1670,
+              778
+            ],
+            "rgb_sha256": "553f89e2e264f3897fce62c50eae5175bb38da6237b0e1fe6e66e7e3128a41b1",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "10289757bsb",
+      "page": 14,
+      "width": 6739,
+      "height": 11656,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/10289757bsb/pages/page-0014.png",
+      "sha256": "194196df2f893eacef245798415ff77917b9a1c90805cf03a3bac4c15a59892f",
+      "capped_overview_sha256": "8b79fed5a222a7b0668966e1d1e374f2e6632f3a135a64509d240d0fe46f446f",
+      "tiling": {
+        "parent_sha256": "8b79fed5a222a7b0668966e1d1e374f2e6632f3a135a64509d240d0fe46f446f",
+        "parent_size": [
+          1665,
+          2880
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/10289757bsb/page-0014.png",
+            "sha256": "8b79fed5a222a7b0668966e1d1e374f2e6632f3a135a64509d240d0fe46f446f",
+            "size": [
+              1665,
+              2880
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0014/band-1.png",
+            "box": [
+              0,
+              0,
+              1665,
+              778
+            ],
+            "sha256": "ca34da05777e0335ed50abdaa929769e5c7cb45c8b070dd1b59f0dc9cb358a45",
+            "size": [
+              1665,
+              778
+            ],
+            "rgb_sha256": "caa5aad1706c768d717a896e94a9fd3c1712c7258dd298743f0a574cd9b5c46c",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0014/band-2.png",
+            "box": [
+              0,
+              662,
+              1665,
+              1498
+            ],
+            "sha256": "219890163a656dffea839d871eb02a21fb1427d61749785e6c4a544cab80dff7",
+            "size": [
+              1665,
+              836
+            ],
+            "rgb_sha256": "b66ae76f08a146c20f61b1c9baaf3ea976977d9ca04063e394581aced7fa424f",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0014/band-3.png",
+            "box": [
+              0,
+              1382,
+              1665,
+              2218
+            ],
+            "sha256": "954941263855ea9b386b0b692deca12dd0c844a922f6abed73ac1c087fb17da4",
+            "size": [
+              1665,
+              836
+            ],
+            "rgb_sha256": "6a8843474bf925fb8ad1f9bfe3c76ef73149916330deb923f448835b319ea722",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0014/band-4.png",
+            "box": [
+              0,
+              2102,
+              1665,
+              2880
+            ],
+            "sha256": "0f05f88161576de8fb5005c8b55d7c4cfc90bc9b8d8f522ed0778f0c3ca32914",
+            "size": [
+              1665,
+              778
+            ],
+            "rgb_sha256": "f21b012ed6ad619fc9fa18384817a582d0f7f5acefc8a949b47b840df3bb4e16",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "10289757bsb",
+      "page": 70,
+      "width": 6672,
+      "height": 11683,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/10289757bsb/pages/page-0070.png",
+      "sha256": "a174a5a2b0668609723ae4707210d497336b208ca38475d37dc81d54729fc1e8",
+      "capped_overview_sha256": "dbbee6725992c39db5bb6fd24ff5a8a2bfd01c665af98c274fa528552037b18e",
+      "tiling": {
+        "parent_sha256": "dbbee6725992c39db5bb6fd24ff5a8a2bfd01c665af98c274fa528552037b18e",
+        "parent_size": [
+          1645,
+          2880
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/10289757bsb/page-0070.png",
+            "sha256": "dbbee6725992c39db5bb6fd24ff5a8a2bfd01c665af98c274fa528552037b18e",
+            "size": [
+              1645,
+              2880
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0070/band-1.png",
+            "box": [
+              0,
+              0,
+              1645,
+              778
+            ],
+            "sha256": "77e8d421bcf2419db3de5d945adb82d135fc4eccf83713f42f236a6986539cab",
+            "size": [
+              1645,
+              778
+            ],
+            "rgb_sha256": "80d585aca6630ec0a381ef26ebe9cc09080d311df23cc5890089b7b53c785956",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0070/band-2.png",
+            "box": [
+              0,
+              662,
+              1645,
+              1498
+            ],
+            "sha256": "bcbabc7e28dc53576f3cfa90a8a42cc61b9a3846b0ce38d2943b3f9f0be52162",
+            "size": [
+              1645,
+              836
+            ],
+            "rgb_sha256": "72abf253befd454e66fb34cddfa705ffa3172d2919e5f04be0616ccdd22030e3",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0070/band-3.png",
+            "box": [
+              0,
+              1382,
+              1645,
+              2218
+            ],
+            "sha256": "5171349a31c6a4c6c4054e52fe9f0afc1450cb2a3e33559a36deb010f0e1873c",
+            "size": [
+              1645,
+              836
+            ],
+            "rgb_sha256": "e41220c4848f891b29e2be778d2a40d06b7ab82f21e78bc660942199f101e180",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0070/band-4.png",
+            "box": [
+              0,
+              2102,
+              1645,
+              2880
+            ],
+            "sha256": "db87592d88b45765b0ed2aa6f3ed6ced875e40ee7e54e18be87c40ba058f97df",
+            "size": [
+              1645,
+              778
+            ],
+            "rgb_sha256": "137bcead609bbcccf8508ab52cd4ab2d8a81b29aa242e7445f3e59aae3fe5583",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "10289757bsb",
+      "page": 71,
+      "width": 6628,
+      "height": 11617,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/10289757bsb/pages/page-0071.png",
+      "sha256": "14ce4402aa4ddc5bbefa35fa5c4736f736b5a98c4aee401b858087431705d7ab",
+      "capped_overview_sha256": "e6bf584911abf617c7be2d204e81a487347a34f313de1d270f2f143b0f81872e",
+      "tiling": {
+        "parent_sha256": "e6bf584911abf617c7be2d204e81a487347a34f313de1d270f2f143b0f81872e",
+        "parent_size": [
+          1643,
+          2880
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/10289757bsb/page-0071.png",
+            "sha256": "e6bf584911abf617c7be2d204e81a487347a34f313de1d270f2f143b0f81872e",
+            "size": [
+              1643,
+              2880
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0071/band-1.png",
+            "box": [
+              0,
+              0,
+              1643,
+              778
+            ],
+            "sha256": "ed6a2790629b598b65548447508ceed7b21b33b1076d0104e24115f082657d16",
+            "size": [
+              1643,
+              778
+            ],
+            "rgb_sha256": "86814c36bd421ecc5922b72c36711ea15f2fb94122ae10defd0ccaa5df209040",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0071/band-2.png",
+            "box": [
+              0,
+              662,
+              1643,
+              1498
+            ],
+            "sha256": "6c43429ac16065bdd1970d85d99eb977c896cc75707fec7936f197188bdad379",
+            "size": [
+              1643,
+              836
+            ],
+            "rgb_sha256": "07b49ced74cc8cca913ab7fb3f7f49299dbb4b9ad8ea95cb6fde2bc741e74127",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0071/band-3.png",
+            "box": [
+              0,
+              1382,
+              1643,
+              2218
+            ],
+            "sha256": "4e111bac62033305e9ab2a994cdee7cc6c8cbcbd49f34f560c13431c80c37a9b",
+            "size": [
+              1643,
+              836
+            ],
+            "rgb_sha256": "c0de05c07893c1f180c22a83437ef515faeb1c76fdb0c47cabd279cb57652eea",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/10289757bsb/page-0071/band-4.png",
+            "box": [
+              0,
+              2102,
+              1643,
+              2880
+            ],
+            "sha256": "ff872a1c4feac33dacd59cc223b08b6cbc530d9f9a94c653f7dba249080ed1f3",
+            "size": [
+              1643,
+              778
+            ],
+            "rgb_sha256": "aa3d89ba4f454987ebda27f8f441eaca7f58689b8ab46df6ee377ebc4ce128f2",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 25,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0025.png",
+      "sha256": "2078fa1d0e968a5d884187bbd1880716ff55eeb84be28d5f24b97b4fb876d700",
+      "capped_overview_sha256": "4e575ee3352999f9d808f71e3609c31123e2315e6b8bdbbc9bb0384e03d9c9b3",
+      "tiling": {
+        "parent_sha256": "4e575ee3352999f9d808f71e3609c31123e2315e6b8bdbbc9bb0384e03d9c9b3",
+        "parent_size": [
+          1283,
+          2313
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/makrobiotikoderd00hufeuoft/page-0025.png",
+            "sha256": "4e575ee3352999f9d808f71e3609c31123e2315e6b8bdbbc9bb0384e03d9c9b3",
+            "size": [
+              1283,
+              2313
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0025/band-1.png",
+            "box": [
+              0,
+              0,
+              1283,
+              624
+            ],
+            "sha256": "ac398925d09f8fb1b7ce0afdafbae3ef4dd81407a49379a065f4d4ca0098baa6",
+            "size": [
+              1283,
+              624
+            ],
+            "rgb_sha256": "952fcb54519acd466a73a1ac32950117438bd4fc5ec552f07720125937f1e95f",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0025/band-2.png",
+            "box": [
+              0,
+              532,
+              1283,
+              1202
+            ],
+            "sha256": "7666b2f2b46db8cbc16b21fbbd1b2bf82fec8df75391b6b2a115ba9289c5581e",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "ab8dd2ceb63cf54f821f73373924da1eb76f1795692513250e08dd7f2cb2e5da",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0025/band-3.png",
+            "box": [
+              0,
+              1110,
+              1283,
+              1780
+            ],
+            "sha256": "02526c21505984ed42621e0a6a47bf849b0d69e6744ffa51d478527cfed42f13",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "30fc681a50dfecd0a7eae38fa1a5603874dbba7b475d5d61aef29077f8719329",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0025/band-4.png",
+            "box": [
+              0,
+              1688,
+              1283,
+              2313
+            ],
+            "sha256": "37fa29413a1edfb4eb1d7775a164892e97e3ee0cd92a79c3f61a5badb17861f9",
+            "size": [
+              1283,
+              625
+            ],
+            "rgb_sha256": "9f79eeed41b7d0f5951066e4c3e8de55b05892c66c6042d935722479b7fe3192",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 27,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0027.png",
+      "sha256": "0c11d3f4dee89feecbd85068875d29d6bc5456df5126f6a5ed01229df1581577",
+      "capped_overview_sha256": "4e84aa8f5d18813239565da9c04169847e7547b46b84c0b0753a23cb1bf460bf",
+      "tiling": {
+        "parent_sha256": "4e84aa8f5d18813239565da9c04169847e7547b46b84c0b0753a23cb1bf460bf",
+        "parent_size": [
+          1283,
+          2313
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/makrobiotikoderd00hufeuoft/page-0027.png",
+            "sha256": "4e84aa8f5d18813239565da9c04169847e7547b46b84c0b0753a23cb1bf460bf",
+            "size": [
+              1283,
+              2313
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0027/band-1.png",
+            "box": [
+              0,
+              0,
+              1283,
+              624
+            ],
+            "sha256": "2ab1a373eda939f278b04a0ff1e4fbed74984ed71c032a38356792d48566462b",
+            "size": [
+              1283,
+              624
+            ],
+            "rgb_sha256": "61589bf43de64ae887467f47c95a7c4e99b80d510f1eb600f6bcaad09b389170",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0027/band-2.png",
+            "box": [
+              0,
+              532,
+              1283,
+              1202
+            ],
+            "sha256": "cc36763c8ae29812e00c1848f3ba1b38231472e28a06fdc02a1f63697dfbb294",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "1c1294d3a1b6ca24f51104d64fc36f6fbf1be8614afde915328f5183cf646670",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0027/band-3.png",
+            "box": [
+              0,
+              1110,
+              1283,
+              1780
+            ],
+            "sha256": "f73aa475c284cc6e62a7fda0029c30c92f1f8e71afbf5be2809744123d9dc61a",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "71db4b9b68d5bea77fb510a8391f212978905b6692c9182d54f7d075fbd37d7b",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0027/band-4.png",
+            "box": [
+              0,
+              1688,
+              1283,
+              2313
+            ],
+            "sha256": "0653c0d1c2af56215fd7109996ed89e2ff6d88c49007f0501ab58dd6e8ae9956",
+            "size": [
+              1283,
+              625
+            ],
+            "rgb_sha256": "2bf83cab20a69a7e34a1c9e54d20f129ca70523ea39303e6099099a0392646b2",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 28,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0028.png",
+      "sha256": "53de22cc6b092b8bf6e80e9f6bf1825cdc7ac01da396669efb980fa0a7bc25cd",
+      "capped_overview_sha256": "34a10c1e80a3fec94cdbbd0b8b8084a263f9d98f38d75e66750ecd6de1e4fa66",
+      "tiling": {
+        "parent_sha256": "34a10c1e80a3fec94cdbbd0b8b8084a263f9d98f38d75e66750ecd6de1e4fa66",
+        "parent_size": [
+          1283,
+          2313
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/makrobiotikoderd00hufeuoft/page-0028.png",
+            "sha256": "34a10c1e80a3fec94cdbbd0b8b8084a263f9d98f38d75e66750ecd6de1e4fa66",
+            "size": [
+              1283,
+              2313
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0028/band-1.png",
+            "box": [
+              0,
+              0,
+              1283,
+              624
+            ],
+            "sha256": "d567ee61fd248afa624de5554a0e9cc38a11fdc3a9499bfb8786860090c1a80e",
+            "size": [
+              1283,
+              624
+            ],
+            "rgb_sha256": "8f901b1dc8456430dadd568b342429fad1f23498e364a3f61de01787a1d29a7e",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0028/band-2.png",
+            "box": [
+              0,
+              532,
+              1283,
+              1202
+            ],
+            "sha256": "a69d0f92a8b45f10199ad779bf1352d8f18aa86aebc6d11a44bd3e99044b6d14",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "0369b76217b7c56fe0d977fb13f1645fa9ba489677cdc7b8953970ab7f8fc5d4",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0028/band-3.png",
+            "box": [
+              0,
+              1110,
+              1283,
+              1780
+            ],
+            "sha256": "e5e709c751cf56440feded92400dae67ff7c036342d9eef41b67b19bc6c9bd82",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "b99e78498a6ef87ec1126b54e73be5c052adbde4a6df1220715731a35a577a2b",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0028/band-4.png",
+            "box": [
+              0,
+              1688,
+              1283,
+              2313
+            ],
+            "sha256": "495822799b2ab163d9dfb5acabd00d7c3a3498f0b6f6827b3d2335dcec54fa42",
+            "size": [
+              1283,
+              625
+            ],
+            "rgb_sha256": "7fe60a30dcaa7da2f405c348a69e9a71c628522dbd7b67862564061230e69f54",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 29,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0029.png",
+      "sha256": "5398a72c70248400502f7b14425caf57463b859a0e80f76c5a576f00c33776ee",
+      "capped_overview_sha256": "20eb12457b2269c33f8fcf5b7a63ab30a879bb1fa896b80ea3ae3a2549649b3a",
+      "tiling": {
+        "parent_sha256": "20eb12457b2269c33f8fcf5b7a63ab30a879bb1fa896b80ea3ae3a2549649b3a",
+        "parent_size": [
+          1283,
+          2313
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/makrobiotikoderd00hufeuoft/page-0029.png",
+            "sha256": "20eb12457b2269c33f8fcf5b7a63ab30a879bb1fa896b80ea3ae3a2549649b3a",
+            "size": [
+              1283,
+              2313
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0029/band-1.png",
+            "box": [
+              0,
+              0,
+              1283,
+              624
+            ],
+            "sha256": "3752abb905a21b98ddbb41ac21f514df0a99fc4eeb79b69f7f0914b8b6de59a8",
+            "size": [
+              1283,
+              624
+            ],
+            "rgb_sha256": "323f810cca95b03daffaf6302bbf5afa54f8d1a49d1a2d2d0c23c98a4b7d030e",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0029/band-2.png",
+            "box": [
+              0,
+              532,
+              1283,
+              1202
+            ],
+            "sha256": "0ff71fd48b43fed8e484966cc25b47bfc08cbac2e20318229c997a7f25d9b22e",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "9874fa7de22740704be9748769cef7e204baea524e1d0a2a849124b57a6dfce6",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0029/band-3.png",
+            "box": [
+              0,
+              1110,
+              1283,
+              1780
+            ],
+            "sha256": "e41e5c9fee787e9a7610006b55273fe9b05767de727fa196a6d5b965606d727f",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "746a3dc588c1d3b5c05e31996d82d02bc43e37c4b6cc8648aec2f96f09bae870",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0029/band-4.png",
+            "box": [
+              0,
+              1688,
+              1283,
+              2313
+            ],
+            "sha256": "357447b07ef68cd06cdbd8295a39e863013d8eb754275f1cbf3cc3142a3283e8",
+            "size": [
+              1283,
+              625
+            ],
+            "rgb_sha256": "537815b3f5bfaaef19db3e18a6615a273aad5a3a6bf879eb3c1e830d61001dac",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 30,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0030.png",
+      "sha256": "666fd77ca08c5dadf4fd632c226935b401eb12f1433df7770e0fc8a2f65e17e3",
+      "capped_overview_sha256": "b93ac23d7d1c30d20b4ea5a0d33187b5ff7e66a3c931406f696ae84333291eec",
+      "tiling": {
+        "parent_sha256": "b93ac23d7d1c30d20b4ea5a0d33187b5ff7e66a3c931406f696ae84333291eec",
+        "parent_size": [
+          1283,
+          2313
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/makrobiotikoderd00hufeuoft/page-0030.png",
+            "sha256": "b93ac23d7d1c30d20b4ea5a0d33187b5ff7e66a3c931406f696ae84333291eec",
+            "size": [
+              1283,
+              2313
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0030/band-1.png",
+            "box": [
+              0,
+              0,
+              1283,
+              624
+            ],
+            "sha256": "2acfd764a57bb0afd4bb0c6fac990fb6a85e8a04deb8bc13fb64ae59a6533040",
+            "size": [
+              1283,
+              624
+            ],
+            "rgb_sha256": "5826d50c45ec9eb27569efbff26639eb7f2890aacf4505025b7f3751ff59bc45",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0030/band-2.png",
+            "box": [
+              0,
+              532,
+              1283,
+              1202
+            ],
+            "sha256": "e78c9074c7d4e91f408252e5e27ef5ecd1b464ea052cc768418744e338742a24",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "0c899c0fe2c7473de3b97cc602417ec978c294c40bb09cf2cbf96b1999859f10",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0030/band-3.png",
+            "box": [
+              0,
+              1110,
+              1283,
+              1780
+            ],
+            "sha256": "85069efe26c9527827ad00744ceab0d0a92c9385ee1d82f57b91f328c2eee89c",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "25282eb6cd584ec486e2b68523f54dd2945a9fcae73c94b2b62c9c848dc3e74d",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0030/band-4.png",
+            "box": [
+              0,
+              1688,
+              1283,
+              2313
+            ],
+            "sha256": "1223215d0a739487527a8f480944fbc06a1a2a7c745a9d65aa7bc9b8cbc2d837",
+            "size": [
+              1283,
+              625
+            ],
+            "rgb_sha256": "794099196cd612b95f44db8eff740c192dc560a98cf1fb892ff2bb0e1c23f0d8",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 34,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400-probe-400/document/pages/page-0034.png",
+      "sha256": "17526855b9b933d2be7871b31050de4d521a9770220fc7602688b34c304e45d0",
+      "capped_overview_sha256": "03a49d1268efe28098bf73632f967ed74f353a147220001f4b6146cbe7538f5d",
+      "tiling": {
+        "parent_sha256": "03a49d1268efe28098bf73632f967ed74f353a147220001f4b6146cbe7538f5d",
+        "parent_size": [
+          1283,
+          2313
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/makrobiotikoderd00hufeuoft/page-0034.png",
+            "sha256": "03a49d1268efe28098bf73632f967ed74f353a147220001f4b6146cbe7538f5d",
+            "size": [
+              1283,
+              2313
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0034/band-1.png",
+            "box": [
+              0,
+              0,
+              1283,
+              624
+            ],
+            "sha256": "f962533ebc5b0335c294c9b758e1b11fa9f1fc314a5692d3826b9edf8b24cbed",
+            "size": [
+              1283,
+              624
+            ],
+            "rgb_sha256": "149fe6108509cd7b0168e6c49f0ecd364504c636b9466f4728721e8ed97036ca",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0034/band-2.png",
+            "box": [
+              0,
+              532,
+              1283,
+              1202
+            ],
+            "sha256": "a30a6350f0a962aede162d94c8d74ff24b5c6bb67db2262e90e6379c0c13ae0f",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "a01d42946825a4ef19655ae055c79abe7f8c6c1790056536e92b4410f32bf4d7",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0034/band-3.png",
+            "box": [
+              0,
+              1110,
+              1283,
+              1780
+            ],
+            "sha256": "8956b12e44b8e08cb3dc59daa3e470e652bc9ee742fffc4474cac65e390650e6",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "7eb115985c54f447e55afe7c82de23c3da7d24002a9f24f10b821827e766ae32",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0034/band-4.png",
+            "box": [
+              0,
+              1688,
+              1283,
+              2313
+            ],
+            "sha256": "22a86e49da2d0782c400033d85b39f5657fcb12a85dbef9ed379fcd44fe877ae",
+            "size": [
+              1283,
+              625
+            ],
+            "rgb_sha256": "0af0d8bdd8ad99fc54a1f135c156f20a4bcd7a613d75b80dba3cc1cd15ab7c8b",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 35,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400-probe-400/document/pages/page-0035.png",
+      "sha256": "7614b6d7e209ad8aa6f20985117151f8820b2cf731ca80d16155df1b5b76d539",
+      "capped_overview_sha256": "5ce81047ea242d06f844f987ae98df2469343ee5a034f15902b60a2d9a635e51",
+      "tiling": {
+        "parent_sha256": "5ce81047ea242d06f844f987ae98df2469343ee5a034f15902b60a2d9a635e51",
+        "parent_size": [
+          1283,
+          2313
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/makrobiotikoderd00hufeuoft/page-0035.png",
+            "sha256": "5ce81047ea242d06f844f987ae98df2469343ee5a034f15902b60a2d9a635e51",
+            "size": [
+              1283,
+              2313
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0035/band-1.png",
+            "box": [
+              0,
+              0,
+              1283,
+              624
+            ],
+            "sha256": "fb67fdf57ecf679aec53bba059ba0bb9ddb06d3f2fc8a4d0b85f33b2ea61063a",
+            "size": [
+              1283,
+              624
+            ],
+            "rgb_sha256": "399d033b505ae90e7479e5fde518d73a3d0c06e0c9276828c6c415931e5dd38c",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0035/band-2.png",
+            "box": [
+              0,
+              532,
+              1283,
+              1202
+            ],
+            "sha256": "3956b01fce62e9561358fe256165b61c6cca7455897200cb835630a3329428c3",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "3a190e6de8d20dc5eb40f110e473c0632e4eb7298e3022d395e04a4f784c69ab",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0035/band-3.png",
+            "box": [
+              0,
+              1110,
+              1283,
+              1780
+            ],
+            "sha256": "3f7312d9793a2060a67d6545b604d69963d2a91447fd4431fbaf225d4b1ce013",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "cdb833c8ec6ea9466be706bf2ed2ad7a25ac413979ddd2e0b70c7eca150d4c3a",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0035/band-4.png",
+            "box": [
+              0,
+              1688,
+              1283,
+              2313
+            ],
+            "sha256": "f7a241728eeebf062fa69705ebb6bb8f25726d4d586cf16e9c81b2351520f1bd",
+            "size": [
+              1283,
+              625
+            ],
+            "rgb_sha256": "f0df027ded888b15044b10bffba5638461001938669a7fafb60aaa132437f296",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 200,
+      "width": 1283,
+      "height": 2313,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0200.png",
+      "sha256": "388dc9df3c63937a549e58e34212a3caa9bc7da1b4ec8af580e52784bb5729ca",
+      "capped_overview_sha256": "65de1f964975acc1659d76b3da2f2a5f8323329c78ce4a6d0ef05928347e4e95",
+      "tiling": {
+        "parent_sha256": "65de1f964975acc1659d76b3da2f2a5f8323329c78ce4a6d0ef05928347e4e95",
+        "parent_size": [
+          1283,
+          2313
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/makrobiotikoderd00hufeuoft/page-0200.png",
+            "sha256": "65de1f964975acc1659d76b3da2f2a5f8323329c78ce4a6d0ef05928347e4e95",
+            "size": [
+              1283,
+              2313
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0200/band-1.png",
+            "box": [
+              0,
+              0,
+              1283,
+              624
+            ],
+            "sha256": "95596377827ea57ada607666bbe790da34ea025c7298471d92b147c20b06d50d",
+            "size": [
+              1283,
+              624
+            ],
+            "rgb_sha256": "dad4b4f3600a2d127361dd13f4d8d45b7305f3905a582c588623ef6e64239920",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0200/band-2.png",
+            "box": [
+              0,
+              532,
+              1283,
+              1202
+            ],
+            "sha256": "a65e934dc8aa3ce71d14e0354b16e085d6afa302a0466ef22c82393f38919423",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "836a21bc7c017260b10ca06942973c9fa670d8d820c5a9a7b0b7a11915207278",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0200/band-3.png",
+            "box": [
+              0,
+              1110,
+              1283,
+              1780
+            ],
+            "sha256": "0cfa835a68a98ea63e62633b8d88d73abce7a71fda63e27ac7f4acd5dfc13b1f",
+            "size": [
+              1283,
+              670
+            ],
+            "rgb_sha256": "67a4c57f36f4fbd87ad230776d6d1f9081280cac9aeff7d1e0abd26178dc5187",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0200/band-4.png",
+            "box": [
+              0,
+              1688,
+              1283,
+              2313
+            ],
+            "sha256": "1a7433e7a3f6f1c12ab0a11128bbe02178931d2c69314085977d18b69fbb30d2",
+            "size": [
+              1283,
+              625
+            ],
+            "rgb_sha256": "08f6dea4bd1d5cd57e541f56595c397aee123c435760023973909297699f6b51",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    },
+    {
+      "book": "makrobiotikoderd00hufeuoft",
+      "page": 201,
+      "width": 1278,
+      "height": 2313,
+      "dpi": 400,
+      "image": "user-home/projects/python/pdfocr/workspace/expanded400/makrobiotikoderd00hufeuoft/pages/page-0201.png",
+      "sha256": "463b58c82f45fa513b0540cc90e9af99079aa94aeaf1370ab1e8f63f3bf76499",
+      "capped_overview_sha256": "78a92b991f459578e3959ce9ef194e03758d554ed17f5a9d63c0bffbbcb3668c",
+      "tiling": {
+        "parent_sha256": "78a92b991f459578e3959ce9ef194e03758d554ed17f5a9d63c0bffbbcb3668c",
+        "parent_size": [
+          1278,
+          2313
+        ],
+        "all_rows_covered": true,
+        "band_count": 4,
+        "overlap_fraction_per_side": 0.02,
+        "views": [
+          {
+            "role": "overview",
+            "path": "workspace/gemma/inputs400cap2880/makrobiotikoderd00hufeuoft/page-0201.png",
+            "sha256": "78a92b991f459578e3959ce9ef194e03758d554ed17f5a9d63c0bffbbcb3668c",
+            "size": [
+              1278,
+              2313
+            ]
+          },
+          {
+            "role": "band-1",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0201/band-1.png",
+            "box": [
+              0,
+              0,
+              1278,
+              624
+            ],
+            "sha256": "5b487c919c780e5a305fd4375adc97a53def7fcd06f3cd6bfa9ff912548bb73a",
+            "size": [
+              1278,
+              624
+            ],
+            "rgb_sha256": "a7b92a731c1fd4d4cc813d5c3158d67e38f27e43e4d59de9b97ffab47d3f207c",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-2",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0201/band-2.png",
+            "box": [
+              0,
+              532,
+              1278,
+              1202
+            ],
+            "sha256": "8ad30370e4bb303e9a0a1fc14d33821a8aaf524047cd6bbe029cde5dd84b3b55",
+            "size": [
+              1278,
+              670
+            ],
+            "rgb_sha256": "d7e55c1d67ff89f49eec8c923ed9ce9e9f39d2a483d5518fdea4d23ac0ffcf2f",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-3",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0201/band-3.png",
+            "box": [
+              0,
+              1110,
+              1278,
+              1780
+            ],
+            "sha256": "6e86d5e84b5ea753d3acdb897f5ad18e0604f2e1dc91dc642f80b8d6738b10ee",
+            "size": [
+              1278,
+              670
+            ],
+            "rgb_sha256": "7119bcf01699f03295e389361cadbd4d1e211423eeb1af97f1d64155c15f6e93",
+            "exact_source_crop": true
+          },
+          {
+            "role": "band-4",
+            "path": "workspace/gemma3-tiles/dpi400/views/makrobiotikoderd00hufeuoft/page-0201/band-4.png",
+            "box": [
+              0,
+              1688,
+              1278,
+              2313
+            ],
+            "sha256": "68d2f19726095a618b9dec3aa8ad1b896c27d03c2699c4e4270f816520dae986",
+            "size": [
+              1278,
+              625
+            ],
+            "rgb_sha256": "3354af84e2eea55081325619e9320dfd345a16aaa885777781e60b60bfab61cd",
+            "exact_source_crop": true
+          }
+        ]
+      },
+      "prompt_eval_count": 1463
+    }
+  ],
+  "method": "Same frozen capped pixels; overview plus four overlapping horizontal bands. Explicit tiling, not native pan-and-scan. Tile-specific instruction differs from historical prompt; two same-prompt overview controls per DPI.",
+  "prompt": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+  "complete": true
+}

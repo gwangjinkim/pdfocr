@@ -1,0 +1,71 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    30
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "b93ac23d7d1c30d20b4ea5a0d33187b5ff7e66a3c931406f696ae84333291eec"
+          },
+          {
+            "sha256": "2acfd764a57bb0afd4bb0c6fac990fb6a85e8a04deb8bc13fb64ae59a6533040"
+          },
+          {
+            "sha256": "e78c9074c7d4e91f408252e5e27ef5ecd1b464ea052cc768418744e338742a24"
+          },
+          {
+            "sha256": "85069efe26c9527827ad00744ceab0d0a92c9385ee1d82f57b91f328c2eee89c"
+          },
+          {
+            "sha256": "1223215d0a739487527a8f480944fbc06a1a2a7c745a9d65aa7bc9b8cbc2d837"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:57:17.772215Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n– 8 –\n\nund versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebensduft frisch aufgeschnitt-\ntener Thiere auf gelähmte Glieder, was das Ausflie-\ngen lebendiger Thiere auf schmerzhafte Uebel vermag,\nso scheint diese Methode nicht verwerflich zu seyn.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwesen eines reinen gefundenen Athens\nsezte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAescvlapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Aeskulap und der Gesundheit\ngeweiht\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Atem junger Mädchen u. f. w.\n\nDiese Inschrift mag nun acht seyn oder nicht;\ngenug sie veranlaßte noch zu Anfang des 18ten Jahr-\nhunderts eine Schrift, worin ein Doctor Cobhausen\nsehr gelehrt beweist, dieser Hermippus sey ein\nWaisenhaus-Vorsicher oder Mädchenschulmeister zu\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 34194320500,
+    "load_duration": 2709943125,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 11581098000,
+    "eval_count": 350,
+    "eval_duration": 19768339000
+  },
+  "markdown": "und versichert, der Alte habe dadurch sichtbar an Mun-\nterkeit und Kräften zugenommen. Und gewiß, wenn\nman bedenkt, was der Lebensduft frisch aufgeschnitt-\ntener Thiere auf gelähmte Glieder, was das Ausflie-\ngen lebendiger Thiere auf schmerzhafte Uebel vermag,\nso scheint diese Methode nicht verwerflich zu seyn.\nHöchst wahrscheinlich gründete sich auf diese Ideen\nder hohe Werth, den man bei Römern und Griechen\nauf das Anwesen eines reinen gefundenen Athens\nsezte. Es gehört hierher eine alte Inschrift, die man\nim vorigen Jahrhundert zu Rom fand, und so lautet:\n\nAescvlapio et Sanitati\nL. Clodius Hermippus\nQui vixit Annos CXV. Dies V.\nPuellarum Anhelitu\nQuod etiam post mortem ejus\nNon parum mirantur Physici.\nIam posteri, sic vitam ducite.\n\nDem Aeskulap und der Gesundheit\ngeweiht\nvon L. Clodius Hermippus\nder 115 Jahr 5 Tage lebte\ndurch den Atem junger Mädchen u. f. w.\n\nDiese Inschrift mag nun acht seyn oder nicht;\ngenug sie veranlaßte noch zu Anfang des 18ten Jahr-\nhunderts eine Schrift, worin ein Doctor Cobhausen\nsehr gelehrt beweist, dieser Hermippus sey ein\nWaisenhaus-Vorsicher oder Mädchenschulmeister zu",
+  "possibly_truncated": false,
+  "seconds": 34.20460629463196,
+  "format_cleanup": {
+    "source_start": 19,
+    "source_end": 1139,
+    "operations": [
+      "single_outer_markdown_fence",
+      "leading_page_metadata"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi400/tiles4/gemma3-12b/makrobiotikoderd00hufeuoft/page-0030.json"
+}

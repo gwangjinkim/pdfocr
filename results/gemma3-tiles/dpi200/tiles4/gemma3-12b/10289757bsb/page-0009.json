@@ -1,0 +1,62 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    9
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "ca33f0a220c31f2235fed2a3263970ee6efcc879a85d05172d1666671dcc657e"
+          },
+          {
+            "sha256": "4ffdfaca2cb506d807ec2b769f7210754d8c8c3c5c3fee02734d30b5afe4e177"
+          },
+          {
+            "sha256": "e7f414e053a3c5a1b4ab92ee50ec066129b56ccb6f02441f4c053af782a9e7d2"
+          },
+          {
+            "sha256": "67e7b462e74fabfa94c77373934a2f8423fcc7cd93a51004155b582c2bddb9f0"
+          },
+          {
+            "sha256": "ccd34878dc57243b9fafb2dcd2156b340d539e8ec711dcc75eec64a3fcc553e2"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:41:06.30389Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n- 5 -\n\nthat erwiesen, manches Leben gerettet, und,\nwas mehr noch heißt, Kränklichkeit verhüt-\ntet, und dem Menschen die Brauchbarkeit\nerhalten. Denn es ist ein sehr unrichtiger\nMaasstab, wenn man den Nutzen solcher\nHülfen blos nach der Vermehrung oder Ver-\n\nDie häufigste und traurigste Folge der\nKrankheiten bei Armen ist nicht der Tod,\nsondern die Kränklichkeit. Übel, die durch\ngehörige Hülfe anfangs leicht zu heben gewe-\nsen wären, werden durch Vernachlässigung\nzu schweren, oft unheilbaren, Krankheiten;\nKrankheiten, die man zwar ohne Hülfe mit\ndem Leben übersteht, gehen in langwierige\nKränklichkeiten über, die die Brauchbarkeit\nnehmen, und den Menschen nun erst zu ei-\nnem wirklich armen und zu einer fortdau-\nernden Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfe be-\nstehet also darin, die Summe der Leiden-\nden und Unbrauchbaren zu vermindern, und\nihren Familien, so wie dem Staate, thätige\nMitglieder wiederzugeben. Ja, indem sie die\nSumme der Krankheiten überhaupt vermin-\ndert, und die ersten Keime der anstecken-\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 18476595166,
+    "load_duration": 2490790833,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 7125858000,
+    "eval_count": 310,
+    "eval_duration": 8479266000
+  },
+  "markdown": "```markdown\n- 5 -\n\nthat erwiesen, manches Leben gerettet, und,\nwas mehr noch heißt, Kränklichkeit verhüt-\ntet, und dem Menschen die Brauchbarkeit\nerhalten. Denn es ist ein sehr unrichtiger\nMaasstab, wenn man den Nutzen solcher\nHülfen blos nach der Vermehrung oder Ver-\n\nDie häufigste und traurigste Folge der\nKrankheiten bei Armen ist nicht der Tod,\nsondern die Kränklichkeit. Übel, die durch\ngehörige Hülfe anfangs leicht zu heben gewe-\nsen wären, werden durch Vernachlässigung\nzu schweren, oft unheilbaren, Krankheiten;\nKrankheiten, die man zwar ohne Hülfe mit\ndem Leben übersteht, gehen in langwierige\nKränklichkeiten über, die die Brauchbarkeit\nnehmen, und den Menschen nun erst zu ei-\nnem wirklich armen und zu einer fortdau-\nernden Last des Staates machen.\n\nDer vorzüglichste Werth dieser Hülfe be-\nstehet also darin, die Summe der Leiden-\nden und Unbrauchbaren zu vermindern, und\nihren Familien, so wie dem Staate, thätige\nMitglieder wiederzugeben. Ja, indem sie die\nSumme der Krankheiten überhaupt vermin-\ndert, und die ersten Keime der anstecken-\n```",
+  "possibly_truncated": false,
+  "seconds": 18.512078046798706
+}

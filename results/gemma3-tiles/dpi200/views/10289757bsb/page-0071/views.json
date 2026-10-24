@@ -1,0 +1,89 @@
+{
+  "parent_sha256": "ebcee2d3f1c59f33e859564e47dd0be9e0bba39bdfefd8997bf90823d064c459",
+  "parent_size": [
+    1643,
+    2880
+  ],
+  "all_rows_covered": true,
+  "band_count": 4,
+  "overlap_fraction_per_side": 0.02,
+  "views": [
+    {
+      "role": "overview",
+      "path": "workspace/gemma200/inputs200cap2880/10289757bsb/page-0071.png",
+      "sha256": "ebcee2d3f1c59f33e859564e47dd0be9e0bba39bdfefd8997bf90823d064c459",
+      "size": [
+        1643,
+        2880
+      ]
+    },
+    {
+      "role": "band-1",
+      "path": "workspace/gemma3-tiles/dpi200/views/10289757bsb/page-0071/band-1.png",
+      "box": [
+        0,
+        0,
+        1643,
+        778
+      ],
+      "sha256": "90d93fb7475115dff307da70baa621176570c02975df3f7665878bf1966bf209",
+      "size": [
+        1643,
+        778
+      ],
+      "rgb_sha256": "d2f12772305d76bfef1e8b0f911ae3084129800ab1b0a83a8929e4004e9577ba",
+      "exact_source_crop": true
+    },
+    {
+      "role": "band-2",
+      "path": "workspace/gemma3-tiles/dpi200/views/10289757bsb/page-0071/band-2.png",
+      "box": [
+        0,
+        662,
+        1643,
+        1498
+      ],
+      "sha256": "81c46b5547a43a5c7b80b8297687fd60656ea8336303a54b9a37f5d0e010cc40",
+      "size": [
+        1643,
+        836
+      ],
+      "rgb_sha256": "7209613614862d9f03a33b59ac9b907dc220ab3fcf1c68d78a386a44535125fe",
+      "exact_source_crop": true
+    },
+    {
+      "role": "band-3",
+      "path": "workspace/gemma3-tiles/dpi200/views/10289757bsb/page-0071/band-3.png",
+      "box": [
+        0,
+        1382,
+        1643,
+        2218
+      ],
+      "sha256": "68f47b0750f78269de035f6cbb756574bc33e6073fdfa44d7af32fe6ad3a7cb2",
+      "size": [
+        1643,
+        836
+      ],
+      "rgb_sha256": "7ac4c75514a642dcb25091e9a94d78e1c3ad5c6a86a23422bcbcafaba0e7f7b7",
+      "exact_source_crop": true
+    },
+    {
+      "role": "band-4",
+      "path": "workspace/gemma3-tiles/dpi200/views/10289757bsb/page-0071/band-4.png",
+      "box": [
+        0,
+        2102,
+        1643,
+        2880
+      ],
+      "sha256": "621da2a5b473d5fe32fecf74e2b3f6e20e6470dadd59253f2c589f02ff11ee1f",
+      "size": [
+        1643,
+        778
+      ],
+      "rgb_sha256": "57f8b2b42f1cf5d7b3041a009eeed4f90479f22fa8a4900eb53c561b8b564aed",
+      "exact_source_crop": true
+    }
+  ]
+}

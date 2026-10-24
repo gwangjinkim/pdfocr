@@ -1,0 +1,70 @@
+{
+  "model": "gemma3:12b",
+  "book": "makrobiotikoderd00hufeuoft",
+  "pages": [
+    201
+  ],
+  "arm": "matched200-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "e0e9bdf3def50f6dcacf50c6296d1116969af5dff510773fe5f2e94ccafa2add"
+          },
+          {
+            "sha256": "7a05c1f89c25636febee6e0ae7d43b000354aa733aee8fc8f8d8c449c6889a2b"
+          },
+          {
+            "sha256": "b56df345daf9ec25181d945af9bc74b9bd24cdca7373bbf3bfe08fcc2eb9f1be"
+          },
+          {
+            "sha256": "feb04be1999a4bba2a59f2257e7b516d40dfdb1ab2aff1e3588a4e9d60302997"
+          },
+          {
+            "sha256": "04318f08b40ea36d2336826c303ee11205231e666d5500a59eaaa678e77b0bd0"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:49:36.284863Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n179\n\nGroßmachtigste aller Herrscher im animalischen Reiche in dieser Hinsicht ist, und man kann mit vollen Rechte behaupten, ohne einen guten Magen es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Rücksicht ist der Magen der Grundstein des langen Lebens: Zumal, indem er das erste und wichtigste Restaurationsorgan unsrer Natur ist, die Pforte, wodurch alles, was unser werden soll, eingehen muß, die erste Instanz, von deren gutem oder schlechtem Zustand nicht nur die Quantität, sondern auch die Qualität unsres Erlages abhängt. – Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenchaften, der Krankheitsursachen und andrer zerstörender Einflüsse auf unsern Körper modificirt wird. – „Er hat einen guten Magen,“ sagt man im Sprichwort, wenn man Jemand charakterisiren will, auf den weder Herzer, noch Summer, noch Kränkungen schädlich wirken, und gewiß, es liegt viel Wahres darin. — Alle diese Leidenchaften müssen vorzüglich den Magen afficiren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Physisches übergehen und Schaden sollen. Ein guter robuster Magen nimmt gar keine Notiz davon. Hingegen ein schwacher empfindlicher Magen wird alle Augenblicke durch so etwas in seiner Verrichtung gestört, und folglich das so wichtige Restaurationsgeschäft unaufhörlich unterbrechen und schlecht betrieben. — Eben so ist es mit den meisten physischen Krankheitsseinäßen; die meisten machen ihren ersten Eindruck auf\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 35029557750,
+    "load_duration": 2768782959,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 11811839000,
+    "eval_count": 362,
+    "eval_duration": 20378855000
+  },
+  "markdown": "179\n\nGroßmachtigste aller Herrscher im animalischen Reiche in dieser Hinsicht ist, und man kann mit vollen Rechte behaupten, ohne einen guten Magen es unmöglich, ein hohes Alter zu erlangen.\n\nIn zweierlei Rücksicht ist der Magen der Grundstein des langen Lebens: Zumal, indem er das erste und wichtigste Restaurationsorgan unsrer Natur ist, die Pforte, wodurch alles, was unser werden soll, eingehen muß, die erste Instanz, von deren gutem oder schlechtem Zustand nicht nur die Quantität, sondern auch die Qualität unsres Erlages abhängt. – Zweitens, indem durch die Beschaffenheit des Magens selbst die Einwirkung der Leidenchaften, der Krankheitsursachen und andrer zerstörender Einflüsse auf unsern Körper modificirt wird. – „Er hat einen guten Magen,“ sagt man im Sprichwort, wenn man Jemand charakterisiren will, auf den weder Herzer, noch Summer, noch Kränkungen schädlich wirken, und gewiß, es liegt viel Wahres darin. — Alle diese Leidenchaften müssen vorzüglich den Magen afficiren, von ihm gleichsam empfunden und angenommen werden, wenn sie in unser Physisches übergehen und Schaden sollen. Ein guter robuster Magen nimmt gar keine Notiz davon. Hingegen ein schwacher empfindlicher Magen wird alle Augenblicke durch so etwas in seiner Verrichtung gestört, und folglich das so wichtige Restaurationsgeschäft unaufhörlich unterbrechen und schlecht betrieben. — Eben so ist es mit den meisten physischen Krankheitsseinäßen; die meisten machen ihren ersten Eindruck auf",
+  "possibly_truncated": false,
+  "seconds": 35.03431415557861,
+  "format_cleanup": {
+    "source_start": 12,
+    "source_end": 1488,
+    "operations": [
+      "single_outer_markdown_fence"
+    ]
+  },
+  "original_page_result": "workspace/gemma3-tiles/dpi200/tiles4/gemma3-12b/makrobiotikoderd00hufeuoft/page-0201.json"
+}

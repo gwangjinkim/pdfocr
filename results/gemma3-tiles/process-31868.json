@@ -1,0 +1,10 @@
+{
+  "pid": 31868,
+  "started_at_unix": 1792856432.507189,
+  "argv": [
+    "scripts/run_gemma3_tiles.py"
+  ],
+  "exited": true,
+  "returncode": 0,
+  "seconds": 1188.249675989151
+}

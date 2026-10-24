@@ -1,0 +1,62 @@
+{
+  "model": "gemma3:12b",
+  "book": "10289757bsb",
+  "pages": [
+    70
+  ],
+  "arm": "matched400-tiles4",
+  "request_without_image_bytes": {
+    "model": "gemma3:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "options": {
+      "temperature": 0,
+      "seed": 0,
+      "num_ctx": 16384,
+      "num_predict": 8192
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "All supplied images depict the SAME single book page. The first is the full-page overview. Any following images are magnified horizontal bands in top-to-bottom order, with small overlaps. Use the overview for layout and the bands for detail. Transcribe the page ONCE in normal reading order; do not repeat overlapping text. Preserve printed spelling, punctuation, footnotes and visible line-final hyphens. Do not complete words cut off at the page edge. Extract all readable text and format it as structured Markdown.",
+        "images": [
+          {
+            "sha256": "dbbee6725992c39db5bb6fd24ff5a8a2bfd01c665af98c274fa528552037b18e"
+          },
+          {
+            "sha256": "77e8d421bcf2419db3de5d945adb82d135fc4eccf83713f42f236a6986539cab"
+          },
+          {
+            "sha256": "bcbabc7e28dc53576f3cfa90a8a42cc61b9a3846b0ce38d2943b3f9f0be52162"
+          },
+          {
+            "sha256": "5171349a31c6a4c6c4054e52fe9f0afc1450cb2a3e33559a36deb010f0e1873c"
+          },
+          {
+            "sha256": "db87592d88b45765b0ed2aa6f3ed6ced875e40ee7e54e18be87c40ba058f97df"
+          }
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "response": {
+    "model": "gemma3:12b",
+    "created_at": "2026-10-24T15:54:13.535869Z",
+    "message": {
+      "role": "assistant",
+      "content": "```markdown\n66\n\nSpirit. Frument. *fb v*.\ndestillando eliciantur *fb v* in quibus solve\nCamphorae *ʒjβ*\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein\ntreffliches Mittel in allen Fällen, akuten und chron-\nnischen, wo die Thätigkeit der Organe eines kräf-\ntigen Anstoßes bedarf. Selbst in den Wassersauch-\nten leistet es oft sehr viel. Die Dosis ist zu einem\nTheellöffel bis zu einem Eßlöffel mit Wasser ver-\ndünnt, viermal täglich, auch öfter.\n\nTinctura Aconiti.\n\n℞. Herb. Aconit. siccat, minūtim concis. *ʒij*\nDiger. cum Spirit. Vin. rectificat. *fb j*\nin cucurbita clausa per triduum. Exprime\net filtra.\n\nPari modo parantur:\n\nTinctura Digitalis.\n— Calami.\n— Galbani.\n— Hellebori.\n— Hyoscyami.\n— Nicotianae.\n— Stramonii.\n— Valerianae.\n— Toxicodendri.\n```"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 25184328708,
+    "load_duration": 2507388750,
+    "prompt_eval_count": 1463,
+    "prompt_eval_duration": 9894296000,
+    "eval_count": 279,
+    "eval_duration": 12436960000
+  },
+  "markdown": "```markdown\n66\n\nSpirit. Frument. *fb v*.\ndestillando eliciantur *fb v* in quibus solve\nCamphorae *ʒjβ*\nServa.\n\nNicht nur äußerlich, sondern auch innerlich ein\ntreffliches Mittel in allen Fällen, akuten und chron-\nnischen, wo die Thätigkeit der Organe eines kräf-\ntigen Anstoßes bedarf. Selbst in den Wassersauch-\nten leistet es oft sehr viel. Die Dosis ist zu einem\nTheellöffel bis zu einem Eßlöffel mit Wasser ver-\ndünnt, viermal täglich, auch öfter.\n\nTinctura Aconiti.\n\n℞. Herb. Aconit. siccat, minūtim concis. *ʒij*\nDiger. cum Spirit. Vin. rectificat. *fb j*\nin cucurbita clausa per triduum. Exprime\net filtra.\n\nPari modo parantur:\n\nTinctura Digitalis.\n— Calami.\n— Galbani.\n— Hellebori.\n— Hyoscyami.\n— Nicotianae.\n— Stramonii.\n— Valerianae.\n— Toxicodendri.\n```",
+  "possibly_truncated": false,
+  "seconds": 25.21511220932007
+}

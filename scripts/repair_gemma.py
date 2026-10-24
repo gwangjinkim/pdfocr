@@ -20,7 +20,7 @@ def main():
     parser.add_argument("--base", type=Path, default=BASE)
     parser.add_argument(
         "--arm",
-        choices=["matched200cap2880", "matched400cap2880", "budget1120"],
+        choices=["matched200cap2880", "matched400cap2880", "budget1120", "tiles4"],
         default="matched400cap2880",
     )
     parser.add_argument("--normalize-format", action="store_true")
